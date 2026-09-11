@@ -1,0 +1,9 @@
+{
+  "name": "MSA Arabic",
+  "short_name": "MSA Arabic",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7fafb",
+  "theme_color": "#167f8f",
+  "description": "A personal Modern Standard Arabic vocabulary and sentence learning app."
+}
