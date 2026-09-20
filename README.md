@@ -1,6 +1,6 @@
 # MoSA
 
-MoSA is an installable iPhone web app for studying Modern Standard Arabic. It includes complete Chapters 1–4 vocabulary and sentences, automatic Arabic text-to-speech, swipeable study cards, lesson position sliders, replay and skip controls, global saved study-display options (including Hide Harakat), persistent vocabulary position and selectable 1–5 difficulty ratings, chronological study, and difficulty-weighted shuffle. Swipe right for the next card or left for the previous card.
+MoSA is an installable iPhone web app for studying Modern Standard Arabic. It includes complete Chapters 1–4 vocabulary and sentences, native recorded audio where available with automatic Arabic text-to-speech fallback, swipeable study cards, lesson position sliders, replay and skip controls, global saved study-display options (including Hide Harakat), persistent vocabulary position and selectable 1–5 difficulty ratings, chronological study, and difficulty-weighted shuffle. Swipe right for the next card or left for the previous card.
 
 Lesson sentence cards highlight an Arabic word in red when it does not appear in the saved Alif Baa vocabulary reference or in the vocabulary from the selected chapter and earlier chapters. The comparison ignores harakat and recognizes common attached prefixes, suffixes, and lesson verb conjugations.
 
@@ -45,5 +45,6 @@ Then open `http://localhost:8080`.
 - `index.html` — complete app interface, data, and behavior
 - `manifest.webmanifest` — installable-app metadata
 - `sw.js` — offline cache
+- `audio/vocab/` — native vocabulary recordings (with text-to-speech fallback)
 - `icons/` — home-screen icons
 - `.nojekyll` — tells GitHub Pages to serve the files directly
