@@ -38,9 +38,9 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=32"></script>
-<script src="./dli-basic-data.js?v=32"></script>
-<script src="./alkitaab-chapters-5-13.js?v=32"></script>
+<script src="./alif-baa-vocab.js?v=33"></script>
+<script src="./dli-basic-data.js?v=33"></script>
+<script src="./alkitaab-chapters-5-13.js?v=33"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -149,10 +149,10 @@ const S2=[
 ['I am a translator and a specialist in the Arabic language.','أَنَا مُتَرْجِمٌ وَمُتَخَصِّصٌ فِي اللُّغَةِ العَرَبِيَّةِ.','anā mutarjimun wa-mutakhaṣṣiṣun fī al-lughati al-ʿarabiyyati.'],
 ['I am busy and work in the admissions office.','أَنَا مَشْغُولٌ وَأَعْمَلُ فِي مَكْتَبِ القُبُولِ.','anā mashghūlun wa-aʿmalu fī maktabi al-qubūli.'],
 ['I speak with students today.','أَتَكَلَّمُ مَعَ الطُّلَّابِ اليَوْمَ.','atakallamu maʿa al-ṭullābi al-yawma.'],
-['The Middle East Center always opens.','يَفْتَحُ مَرْكَزُ الشَّرْقِ الأَوْسَطِ دَائِمًا.','yaftaḥu markazu al-sharqi al-awsaṭi dāʾiman.'],
-['It opens in the daytime, the evening, and at night.','يَفْتَحُ فِي النَّهَارِ وَالمَسَاءِ وَاللَّيْلِ.','yaftaḥu fī al-nahāri wa-l-masāʾi wa-l-layli.'],
+['The Middle East Center always opens.','يَفْتَحُ مَرْكَزُ الشَّرْقِ الأَوْسَطِ دَائِمًا.','yaftaḥu markazu al-sharqi al-awsaṭi dāʾiman.',`<p>Note here that “the Middle East” [الشَّرْق الأَوْسَط] is a noun–adjective phrase, so both words take the definite article.</p><p>When it is combined with “center” to form “the Middle East Center” [مَرْكَزُ الشَّرْقِ الأَوْسَطِ], “the Middle East” becomes the second part of an iḍāfa. Therefore, both [الشَّرْقِ] and its adjective [الأَوْسَطِ] are genitive and take kasra. [مَرْكَزُ], the first term of the iḍāfa, takes the case required by the sentence. Here, it is the subject, so it is nominative and takes ḍamma.</p>`],
+['It opens in the daytime, the evening, and at night.','يَفْتَحُ فِي النَّهَارِ وَالمَسَاءِ وَاللَّيْلِ.','yaftaḥu fī al-nahāri wa-l-masāʾi wa-l-layli.',`<p>Here, “daytime” [النَّهَارِ], “evening” [المَسَاءِ], and “night” [اللَّيْلِ] are used as nouns. Although they indicate times of day, they are not functioning as adverbs because we have chosen to introduce them with the preposition [فِي]. Therefore, they are in the genitive case and take kasra.</p><p>Because the three nouns are joined together by [وَ], [فِي] does not need to be repeated before each one.</p>`],
 ['I am truly lonely!','أَنَا وَحِيدٌ فِعْلًا!','anā waḥīdun fiʿlan!']
-].map((x,i)=>({id:`c2-s${i+1}`,chapter:2,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2]}));
+].map((x,i)=>({id:`c2-s${i+1}`,chapter:2,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],grammarNote:x[3]||''}));
 const V3=[
 ['history','التَّارِيخ','al-tārīkh','Noun','—','تَوَارِيخ','—'],
 ['law, as a field of study','الحُقُوق','al-ḥuqūq','Noun','—','—','—'],
@@ -187,8 +187,8 @@ const V3=[
 ['how many?','كَمْ؟','kam?','Interrogative','—','—','—']
 ].map((x,i)=>({id:`c3-${i+1}`,chapter:3,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
 const S3=[
-['Now I study history and law at the college.','الآنَ أَدْرُسُ التَّارِيخَ وَالحُقُوقَ فِي الكُلِّيَّةِ.','al-āna adrusu al-tārīkha wa-l-ḥuqūqa fī al-kulliyyati.'],
-['I also study political science, anthropology, and psychology.','أَدْرُسُ أَيْضًا العُلُومَ السِّيَاسِيَّةَ وَعِلْمَ الإِنْسَانِ وَعِلْمَ النَّفْسِ.','adrusu ayḍan al-ʿulūma al-siyāsiyyata wa-ʿilma al-insāni wa-ʿilma al-nafsi.'],
+['Now I study history and law at the college.','الآنَ أَدْرُسُ التَّارِيخَ وَالحُقُوقَ فِي الكُلِّيَّةِ.','al-āna adrusu al-tārīkha wa-l-ḥuqūqa fī al-kulliyyati.',`<p>The word [الآنَ] (“now”) always has a fixed fatḥa at the end, regardless of where it appears in the sentence. Grammatically, it functions as an adverb of time.</p>`],
+['I also study political science, anthropology, and psychology.','أَدْرُسُ أَيْضًا العُلُومَ السِّيَاسِيَّةَ وَعِلْمَ الإِنْسَانِ وَعِلْمَ النَّفْسِ.','adrusu ayḍan al-ʿulūma al-siyāsiyyata wa-ʿilma al-insāni wa-ʿilma al-nafsi.',`<p>“Political science” [العُلُوم السِّيَاسِيَّة] is a noun–adjective phrase, while “anthropology” [عِلْم الإِنْسَان] and “psychology” [عِلْم النَّفْس] are iḍāfa constructions. You can recognize the difference from the placement of the definite articles.</p><p>Both the noun and adjective in “political science” take the case required by their role in the sentence. Here, [العُلُومَ السِّيَاسِيَّةَ] is a direct object, so both words are accusative. In each iḍāfa, the first term takes the case required by the sentence, while the second term is genitive. Therefore, we have [عِلْمَ الإِنْسَانِ] and [عِلْمَ النَّفْسِ].</p>`],
 ['I teach religion and science at the college.','أُدَرِّسُ الدِّينَ وَالعِلْمَ فِي الكُلِّيَّةِ.','udarrisu al-dīna wa-l-ʿilma fī al-kulliyyati.'],
 ['My son studies medicine and engineering.','اِبْنِي يَدْرُسُ الطِّبَّ وَالهَنْدَسَةَ.','ibnī yadrusu al-ṭibba wa-l-handasata.'],
 ['My grandfather was an officer in the army.','كَانَ جَدِّي ضَابِطًا فِي الجَيْشِ.','kāna jaddī ḍābiṭan fī al-jayshi.'],
@@ -199,7 +199,7 @@ const S3=[
 ['Actually, I know this relative.','فِي الحَقِيقَةِ، أَعْرِفُ هَذَا القَرِيبَ.','fī al-ḥaqīqati, aʿrifu hādhā al-qarība.'],
 ['Congratulations!','مَبْرُوك!','mabrūk!'],
 ['May God bless you.','بَارَكَ اللهُ فِيكَ.','bāraka Allāhu fīka.']
-].map((x,i)=>({id:`c3-s${i+1}`,chapter:3,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2]}));
+].map((x,i)=>({id:`c3-s${i+1}`,chapter:3,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],grammarNote:x[3]||''}));
 const V=[
 ['vegetables','خُضار','khuḍār','Noun','—','خُضار','خُضار'],['fruits','فَواكِه','fawākih','Noun','—','—','—'],['sweets','حَلَوِيّات','ḥalawiyyāt','Noun','—','—','—'],['fish','سَمَك','samak','Noun','—','—','—'],['meat','لَحْم','laḥm','Noun','—','لُحوم','—'],['salad','سَلَطة','salaṭa','Noun','—','—','سَلَطات'],['soup','شورْبة','shūrba','Noun','—','—','شورْبات'],['restaurant','مَطْعَم','maṭʿam','Noun','—','مَطاعِم','—'],
 ['school','مَدْرَسة','madrasa','Noun','—','—','مَدارِس'],['elementary','اِبْتِدائِيّ','ibtidāʾī','Adjective','اِبْتِدائِيّة','اِبْتِدائِيّون','اِبْتِدائِيّات'],['classmate','زَميل','zamīl','Noun','زَميلة','زُمَلاء','زَميلات'],['friend','صَديق','ṣadīq','Noun','صَديقة','أَصْدِقاء','صَديقات'],['childhood','طُفولة','ṭufūla','Noun','—','—','—'],['first','أَوَّل','awwal','Adjective','أُولى','أَوَّلون','أُولَيات'],['I memorize','أَحْفَظُ','aḥfaẓu','Verb','—','—','—'],['I remember','أَتَذَكَّر','atadhakkar','Verb','—','—','—'],
