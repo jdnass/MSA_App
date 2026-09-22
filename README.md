@@ -28,6 +28,8 @@ Vocabulary can be filtered with multi-select controls for collection, chapter, a
 
 Hidden English, Arabic, and transliteration fields reveal only on the specific lesson card tapped; the global hide preference remains enabled for every other card.
 
+Sentence cards can include an optional grammar note. Cards with a note show a red exclamation-mark button beside the speaker; tapping it opens the note in a dialog without changing the learner's position.
+
 Lesson sentence highlighting recognizes covered feminine and plural forms, including forms with attached possessive endings, as already-known vocabulary.
 
 ## Run locally
