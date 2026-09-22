@@ -37,9 +37,9 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=30"></script>
-<script src="./dli-basic-data.js?v=30"></script>
-<script src="./alkitaab-chapters-5-13.js?v=30"></script>
+<script src="./alif-baa-vocab.js?v=31"></script>
+<script src="./dli-basic-data.js?v=31"></script>
+<script src="./alkitaab-chapters-5-13.js?v=31"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -428,10 +428,24 @@ const NATIVE_AUDIO_BY_KEY={
   [vocabularyKey({ar:'رَحِمَها الله'})]:'./audio/vocab/may-god-have-mercy-on-her.m4a',
   [vocabularyKey({ar:'مُسْتَشْفى'})]:'./audio/vocab/hospital.m4a',
 };
+const NATIVE_AUDIO_BY_ID={
+  'conversation-learning-1':'./audio/conversations/what-are-you-studying.m4a',
+  'conversation-learning-2':'./audio/conversations/i-am-studying-formal-arabic.m4a',
+  'conversation-learning-3':'./audio/conversations/with-whom-are-you-studying.m4a',
+  'conversation-learning-4':'./audio/conversations/i-am-studying-arabic-with-a-teacher.m4a',
+  'conversation-learning-5':'./audio/conversations/where-is-your-teacher-from.m4a',
+  'conversation-learning-6':'./audio/conversations/my-teacher-alaa-is-from-lebanon.m4a',
+  'conversation-learning-7':'./audio/conversations/what-does-your-teacher-do-for-work.m4a',
+  'conversation-learning-8':'./audio/conversations/he-is-a-translator-who-works-with-the-united-nations.m4a',
+  'conversation-learning-9':'./audio/conversations/really.m4a',
+  'conversation-learning-10':'./audio/conversations/yes-he-is-a-specialist-in-arabic.m4a',
+  'conversation-learning-11':'./audio/conversations/he-also-speaks-french-and-english.m4a',
+  'conversation-learning-12':'./audio/conversations/we-speak-about-grammar-literature-and-culture.m4a'
+};
 let activeNativeAudio=null;
 function stopAudio(){if(activeNativeAudio){activeNativeAudio.pause();activeNativeAudio.currentTime=0;activeNativeAudio=null}speechSynthesis.cancel()}
 function speakWithTTS(ar){let u=new SpeechSynthesisUtterance(ar);u.lang='ar-SA';u.rate=.78;speechSynthesis.speak(u)}
-function playArabic(d){stopAudio();let src=NATIVE_AUDIO_BY_KEY[vocabularyKey(d)];if(!src){speakWithTTS(d.ar);return}let audio=new Audio(src),failed=false;activeNativeAudio=audio;let fallback=()=>{if(failed)return;failed=true;if(activeNativeAudio===audio)activeNativeAudio=null;speakWithTTS(d.ar)};audio.onended=()=>{if(activeNativeAudio===audio)activeNativeAudio=null};audio.onerror=fallback;let attempt=audio.play();if(attempt&&attempt.catch)attempt.catch(fallback)}
+function playArabic(d){stopAudio();let src=NATIVE_AUDIO_BY_ID[d.id]||NATIVE_AUDIO_BY_KEY[vocabularyKey(d)];if(!src){speakWithTTS(d.ar);return}let audio=new Audio(src),failed=false;activeNativeAudio=audio;let fallback=()=>{if(failed)return;failed=true;if(activeNativeAudio===audio)activeNativeAudio=null;speakWithTTS(d.ar)};audio.onended=()=>{if(activeNativeAudio===audio)activeNativeAudio=null};audio.onerror=fallback;let attempt=audio.play();if(attempt&&attempt.catch)attempt.catch(fallback)}
 
 const uniqueVocabulary=words=>{let seen=new Set();return words.filter(word=>{let key=vocabularyKey(word);if(!key||seen.has(key))return false;seen.add(key);return true})};
 const LEGACY_ALL_V4=uniqueVocabulary([...V1,...V2,...V3,...V,...MANGO_V1,...DLI_ALL_V]);
@@ -455,8 +469,8 @@ const CONVERSATION_CHAPTERS=[
     ['He is a translator who works with the United Nations.','هُوَ مُتَرْجِمٌ يَعْمَلُ مَعَ الْأُمَمِ الْمُتَّحِدَةِ.','huwa mutarjimun yaʿmalu maʿa al-umami al-muttaḥidati.'],
     ['Really?','صَحِيح؟','ṣaḥīḥ?'],
     ['Yes. He is a specialist in Arabic.','نَعَمْ. هُوَ مُتَخَصِّصٌ فِي اللُّغَةِ الْعَرَبِيَّةِ.','naʿam. huwa mutakhaṣṣiṣun fī al-lughati al-ʿarabiyyati.'],
-    ['He also speaks French and English.','هُوَ يَتَكَلَّمُ أَيْضًا بِالْفَرَنْسِيَّةِ وَالْإِنْجِلِيزِيَّةِ.','huwa yatakallamu ayḍan bi-l-faransiyyati wa-l-injlīziyyati.'],
-    ['We talk about grammar, literature, and culture.','نَتَكَلَّمُ عَنِ الْقَوَاعِدِ وَالْأَدَبِ وَالثَّقَافَةِ.','natakallamu ʿani al-qawāʿidi wa-l-adabi wa-l-thaqāfati.']
+    ['He also speaks French and English.','هُوَ يَتَكَلَّمُ أَيْضًا بِالْفَرَنْسِيَّةِ وَالْإِنْجِلِيزِيَّةِ.','huwa yatakallamu ayḍan bi-l-faransiyyati wa-l-injlīziyyati.',`<p>In formal Arabic, when we say that someone speaks a language, we generally say “speaks in” that language, using the preposition [بِـ]. When multiple languages are joined by [وَ], the same [بِـ] applies to all of them and does not need to be repeated.</p>`],
+    ['We speak about grammar, literature, and culture.','نَتَكَلَّمُ عَنِ الْقَوَاعِدِ وَالْأَدَبِ وَالثَّقَافَةِ.','natakallamu ʿani al-qawāʿidi wa-l-adabi wa-l-thaqāfati.',`<p>Normally, [عَنْ] (“about”) ends with a sukūn. When followed by [الـ], a temporary kasra is added—as in [عَنِ الْقَوَاعِدِ]—to avoid pronouncing two sukūns together. This kasra is a pronunciation aid, not a case ending. The noun after [عَنْ] is genitive, which explains the final kasra in [الْقَوَاعِدِ].</p>`]
   ].map((card,i)=>({id:`conversation-learning-${i+1}`,en:card[0],ar:card[1],tr:card[2],grammarNote:card[3]||''}))},
   {id:'about-me',title:'About Me',cards:[
     ['In which area do you live?','فِي أَيِّ مِنْطَقَةٍ تَسْكُنُ؟','fī ayyi minṭaqatin taskunu?'],
