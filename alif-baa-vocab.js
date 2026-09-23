@@ -12,3 +12,23 @@ const ALIF_BAA_VOCAB=[
 ['sandwich','سندويتش'],['mineral water','مياه معدنية'],['chocolate','شوكولاتة'],['fried potatoes','بطاطة مقلية'],['baklava','بقلاوة'],['dates','تمر'],['carrot juice','عصير جزر'],['lieutenant','ملازم'],['first lieutenant','ملازم أول'],['captain','نقيب'],
 ['major','رائد'],['lieutenant colonel','مقدّم'],['colonel','عقيد'],['capital','عاصمة'],['I want','أريد'],['you (m) want; you (f) want','تُريد - تُريدين'],['how much','كم'],['on','على'],['to; into','إلى'],['girl (girls)','بنت - بنات']
 ];
+
+// Card readings follow the source list in order. Keep the reference spellings above
+// intact because sentence highlighting also uses them as the learner's baseline.
+const ALIF_BAA_READINGS=[
+'qahwa','qahwa ʿarabiyya — turkiyya','shāy','ḥalīb — laban','māʾ','sukkar','khubz','khubz ʿarabī','qalam','imtiḥān',
+'maktab — makātib','maktaba — maktabāt','bināya','ghurfa — ghuraf','kuwayyis — kuwayyisa, al-ḥamdu lillāh','ḥarrān — ḥarrāna','bardān — bardāna','ghaḍbān — ghaḍbāna','ʿindī ṣudāʿ','zaʿlān — zaʿlāna',
+'ʿindī bard','marīḍ — marīḍa','jawʿān — jawʿāna','taʿbān — taʿbāna','ʿaṭshān — ʿaṭshāna','huwa — hiya','anta — anti','anā','naʿam','lā',
+'ṣifr','wāḥid','ithnayn','thalātha','arbaʿa','khamsa','sitta','sabʿa','thamāniya','tisʿa','ʿashara',
+'hādhā','hādhihi','maʿa','fī','warāʾ','amām','sahl — sahla','jayyid — jayyida','ṭayyib — ṭayyiba','maʿlish',
+'sayyāra — sayyārāt','shāriʿ — shawāriʿ','bayt — buyūt','sāʿa — sāʿāt','ustādh — asātidha','ustādha — ustādhāt','wāsiʿ — wāsiʿa','ṣaghīr — ṣaghīra','ṣaʿb — ṣaʿba','ʿarabiyya — ʿarabiyyāt',
+'ʿarabī — ʿarab','jadīd — jadīda','ṭālib — ṭullāb','ṭāliba — ṭālibāt','kursī','ṭāwila — ṭāwilāt','kitāb — kutub','baʿīd — baʿīda','daftar','waraqa',
+'ṣaff','shubbāk','fulūs','ṭāʾira — ṭāʾirāt','qaṣīr — qaṣīra','ṭawīl — ṭawīla','dars','kabīr — kabīra','qarīb — qarība','rajul — rijāl',
+'imraʾa — nisāʾ','walad — awlād','madīna — mudun','wilāya — wilāyāt','wa','li','bi','fa','jāmiʿa — jāmiʿāt','laymūnāda',
+'sandwītsh','miyāh maʿdaniyya','shūkūlāta','baṭāṭa maqliyya','baqlāwa','tamr','ʿaṣīr jazar','mulāzim','mulāzim awwal','naqīb',
+'rāʾid','muqaddam','ʿaqīd','ʿāṣima','urīdu','turīdu — turīdīna','kam','ʿalā','ilā','bint — banāt'
+];
+const ALIF_BAA_CARDS=ALIF_BAA_VOCAB.map(([en,ar],i)=>({
+  id:`alif-baa-${i+1}`,collectionId:'alif-baa',collection:'Alif Baa',
+  en,ar,tr:ALIF_BAA_READINGS[i],pos:'Alif Baa',f:'—',mp:'—',fp:'—'
+}));
