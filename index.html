@@ -38,9 +38,9 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=39"></script>
-<script src="./dli-basic-data.js?v=39"></script>
-<script src="./alkitaab-chapters-5-13.js?v=39"></script>
+<script src="./alif-baa-vocab.js?v=40"></script>
+<script src="./dli-basic-data.js?v=40"></script>
+<script src="./alkitaab-chapters-5-13.js?v=40"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -288,7 +288,520 @@ const MANGO_V1=[
 ['ma’am','سَيِّدَتي','sayyidatī','Title','—','—','سَيِّدات'],
 ['miss','آنِسَة','ānisa','Title','—','—','آنِسات']
 ].map((x,i)=>({id:`mango-c1-${i+1}`,collectionId:'mango-msa',collection:'Mango Languages (MSA)',chapter:1,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
-const MANGO_CHAPTERS={1:{subtitle:'Greetings, Introductions and Everyday Expressions',vocab:MANGO_V1,sentences:[],learn:['Greetings and introductions','Asking how someone is','Feelings and responses','Farewells and polite expressions','Personal pronouns and titles']}};
+const MANGO_V2=[
+  [
+    "this",
+    "هٰذَا",
+    "hādhā",
+    "Demonstrative",
+    "هٰذِهِ"
+  ],
+  [
+    "sister",
+    "أُخْت",
+    "ukht",
+    "Noun",
+    null,
+    null,
+    "أَخَوَات"
+  ],
+  [
+    "at / have",
+    "عِنْدَ",
+    "ʿinda",
+    "Expression"
+  ],
+  [
+    "brother",
+    "أَخ",
+    "akh",
+    "Noun",
+    null,
+    "إِخْوَة"
+  ],
+  [
+    "also",
+    "أَيْضًا",
+    "ayḍan",
+    "Adverb"
+  ],
+  [
+    "yes",
+    "نَعَمْ",
+    "naʿam",
+    "Response"
+  ],
+  [
+    "he / he is (emphatic)",
+    "إِنَّهُ",
+    "innahu",
+    "Expression"
+  ],
+  [
+    "she / she is (emphatic)",
+    "إِنَّهَا",
+    "innahā",
+    "Expression"
+  ],
+  [
+    "there",
+    "هُنَاكَ",
+    "hunāka",
+    "Adverb"
+  ],
+  [
+    "mom",
+    "أُمّ",
+    "umm",
+    "Noun",
+    null,
+    null,
+    "أُمَّهَات"
+  ],
+  [
+    "dad",
+    "أَب",
+    "ab",
+    "Noun",
+    null,
+    "آبَاء"
+  ],
+  [
+    "I live / reside",
+    "أَسْكُنُ",
+    "askunu",
+    "Verb"
+  ],
+  [
+    "I live",
+    "أَعِيشُ",
+    "aʿīshu",
+    "Verb"
+  ],
+  [
+    "here",
+    "هُنَا",
+    "hunā",
+    "Adverb"
+  ],
+  [
+    "family",
+    "عَائِلَة",
+    "ʿāʾila",
+    "Noun",
+    null,
+    null,
+    "عَائِلَات"
+  ],
+  [
+    "family / household",
+    "أُسْرَة",
+    "usra",
+    "Noun",
+    null,
+    null,
+    "أُسَر"
+  ],
+  [
+    "all of it / the whole of it (feminine)",
+    "كُلُّهَا",
+    "kulluhā",
+    "Expression"
+  ],
+  [
+    "aunt (maternal)",
+    "خَالَة",
+    "khāla",
+    "Noun",
+    null,
+    null,
+    "خَالَات"
+  ],
+  [
+    "aunt (paternal)",
+    "عَمَّة",
+    "ʿamma",
+    "Noun",
+    null,
+    null,
+    "عَمَّات"
+  ],
+  [
+    "uncle (maternal)",
+    "خَال",
+    "khāl",
+    "Noun",
+    null,
+    "أَخْوَال"
+  ],
+  [
+    "uncle (paternal)",
+    "عَمّ",
+    "ʿamm",
+    "Noun",
+    null,
+    "أَعْمَام"
+  ],
+  [
+    "son",
+    "اِبْن",
+    "ibn",
+    "Noun",
+    null,
+    "أَبْنَاء"
+  ],
+  [
+    "daughter",
+    "اِبْنَة",
+    "ibna",
+    "Noun",
+    null,
+    null,
+    "بَنَات"
+  ],
+  [
+    "engagement",
+    "خِطْبَة",
+    "khiṭba",
+    "Noun"
+  ],
+  [
+    "married",
+    "مُتَزَوِّج",
+    "mutazawwij",
+    "Adjective",
+    "مُتَزَوِّجَة",
+    "مُتَزَوِّجُون",
+    "مُتَزَوِّجَات"
+  ],
+  [
+    "marriage",
+    "زَوَاج",
+    "zawāj",
+    "Noun"
+  ],
+  [
+    "husband",
+    "زَوْج",
+    "zawj",
+    "Noun",
+    null,
+    "أَزْوَاج"
+  ],
+  [
+    "wife",
+    "زَوْجَة",
+    "zawja",
+    "Noun",
+    null,
+    null,
+    "زَوْجَات"
+  ],
+  [
+    "fiancé",
+    "خَطِيب",
+    "khaṭīb",
+    "Noun",
+    "خَطِيبَة",
+    "خُطَّاب",
+    "خَطِيبَات"
+  ],
+  [
+    "parents",
+    "وَالِدَان",
+    "wālidān",
+    "Noun (dual)"
+  ],
+  [
+    "children",
+    "أَطْفَال",
+    "aṭfāl",
+    "Noun (plural)"
+  ],
+  [
+    "grandparents",
+    "أَجْدَاد",
+    "ajdād",
+    "Noun (plural)"
+  ],
+  [
+    "grandmother",
+    "جَدَّة",
+    "jadda",
+    "Noun",
+    null,
+    null,
+    "جَدَّات"
+  ],
+  [
+    "grandfather",
+    "جَدّ",
+    "jadd",
+    "Noun",
+    null,
+    "أَجْدَاد"
+  ],
+  [
+    "grandson",
+    "حَفِيد",
+    "ḥafīd",
+    "Noun",
+    null,
+    "أَحْفَاد"
+  ],
+  [
+    "granddaughter",
+    "حَفِيدَة",
+    "ḥafīda",
+    "Noun",
+    null,
+    null,
+    "حَفِيدَات"
+  ]
+].map((x,i)=>({id:`mango-c2-${i+1}`,collectionId:'mango-msa',collection:'Mango Languages (MSA)',chapter:2,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4]||'—',mp:x[5]||'—',fp:x[6]||'—'}));
+const MANGO_V3=[
+  [
+    "Wow!",
+    "وَاو!",
+    "wāw!",
+    "Expression"
+  ],
+  [
+    "great / excellent",
+    "رَائِع",
+    "rāʾiʿ",
+    "Adjective",
+    "رَائِعَة",
+    "رَائِعُون",
+    "رَائِعَات"
+  ],
+  [
+    "I think",
+    "أَظُنُّ",
+    "aẓunnu",
+    "Verb"
+  ],
+  [
+    "that (after I think)",
+    "أَنَّ",
+    "anna",
+    "Conjunction"
+  ],
+  [
+    "to",
+    "إِلَى",
+    "ilā",
+    "Preposition"
+  ],
+  [
+    "I meet",
+    "أُقَابِلُ",
+    "uqābilu",
+    "Verb"
+  ],
+  [
+    "friend",
+    "صَدِيق",
+    "ṣadīq",
+    "Noun",
+    "صَدِيقَة",
+    "أَصْدِقَاء",
+    "صَدِيقَات"
+  ],
+  [
+    "let’s (to a woman)",
+    "دَعِينَا",
+    "daʿīnā",
+    "Expression"
+  ],
+  [
+    "we meet",
+    "نَلْتَقِي",
+    "naltaqī",
+    "Verb"
+  ],
+  [
+    "I have coffee / I drink coffee",
+    "أَشْرَبُ القَهْوَةَ",
+    "ashrabu al-qahwa",
+    "Verb phrase"
+  ],
+  [
+    "I will introduce you to her (to a man)",
+    "سَأُعَرِّفُكَ بِهَا",
+    "saʾuʿarrifuka bihā",
+    "Expression",
+    "سَأُعَرِّفُكِ بِهَا"
+  ],
+  [
+    "pretty",
+    "جَمِيلَة",
+    "jamīla",
+    "Adjective"
+  ],
+  [
+    "handsome",
+    "وَسِيم",
+    "wasīm",
+    "Adjective",
+    "وَسِيمَة",
+    "وَسِيمُون",
+    "وَسِيمَات"
+  ],
+  [
+    "young",
+    "شَابّ",
+    "shābb",
+    "Adjective",
+    "شَابَّة",
+    "شُبَّان",
+    "شَابَّات"
+  ],
+  [
+    "old / elderly",
+    "عَجُوز",
+    "ʿajūz",
+    "Adjective",
+    "عَجُوز",
+    "عَجَائِز",
+    "عَجَائِز"
+  ],
+  [
+    "tall",
+    "طَوِيل",
+    "ṭawīl",
+    "Adjective",
+    "طَوِيلَة",
+    "طِوَال",
+    "طَوِيلَات"
+  ],
+  [
+    "short (height)",
+    "قَصِير",
+    "qaṣīr",
+    "Adjective",
+    "قَصِيرَة",
+    "قِصَار",
+    "قَصِيرَات"
+  ],
+  [
+    "small",
+    "صَغِير",
+    "ṣaghīr",
+    "Adjective",
+    "صَغِيرَة",
+    "صِغَار",
+    "صَغِيرَات"
+  ],
+  [
+    "skinny / thin",
+    "نَحِيف",
+    "naḥīf",
+    "Adjective",
+    "نَحِيفَة",
+    "نِحَاف",
+    "نَحِيفَات"
+  ],
+  [
+    "fat",
+    "سَمِين",
+    "samīn",
+    "Adjective",
+    "سَمِينَة",
+    "سِمَان",
+    "سَمِينَات"
+  ],
+  [
+    "big",
+    "كَبِير",
+    "kabīr",
+    "Adjective",
+    "كَبِيرَة",
+    "كِبَار",
+    "كَبِيرَات"
+  ],
+  [
+    "smart",
+    "ذَكِيّ",
+    "dhakiyy",
+    "Adjective",
+    "ذَكِيَّة",
+    "أَذْكِيَاء",
+    "ذَكِيَّات"
+  ],
+  [
+    "stupid",
+    "غَبِيّ",
+    "ghabiyy",
+    "Adjective",
+    "غَبِيَّة",
+    "أَغْبِيَاء",
+    "غَبِيَّات"
+  ],
+  [
+    "funny / amusing",
+    "طَرِيف",
+    "ṭarīf",
+    "Adjective",
+    "طَرِيفَة",
+    "طُرَفَاء",
+    "طَرِيفَات"
+  ],
+  [
+    "personality",
+    "شَخْصِيَّة",
+    "shakhṣiyya",
+    "Noun",
+    null,
+    null,
+    "شَخْصِيَّات"
+  ],
+  [
+    "I love",
+    "أُحِبُّ",
+    "uḥibbu",
+    "Verb"
+  ],
+  [
+    "acquaintance / someone I know",
+    "أَحَد مَعَارِفِي",
+    "aḥad maʿārifī",
+    "Expression"
+  ],
+  [
+    "stranger",
+    "غَرِيب",
+    "gharīb",
+    "Noun",
+    "غَرِيبَة",
+    "غُرَبَاء",
+    "غَرِيبَات"
+  ],
+  [
+    "roommate",
+    "زَمِيل السَّكَن",
+    "zamīl as-sakan",
+    "Noun",
+    "زَمِيلَة السَّكَن",
+    "زُمَلَاء السَّكَن",
+    "زَمِيلَات السَّكَن"
+  ],
+  [
+    "tea",
+    "شَاي",
+    "shāy",
+    "Noun"
+  ],
+  [
+    "café",
+    "مَقْهَى",
+    "maqhā",
+    "Noun",
+    null,
+    "مَقَاهٍ"
+  ]
+].map((x,i)=>({id:`mango-c3-${i+1}`,collectionId:'mango-msa',collection:'Mango Languages (MSA)',chapter:3,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4]||'—',mp:x[5]||'—',fp:x[6]||'—'}));
+const MANGO_CHAPTERS={1:{subtitle:'Greetings, Introductions and Everyday Expressions',vocab:MANGO_V1,sentences:[],learn:['Greetings and introductions','Asking how someone is','Feelings and responses','Farewells and polite expressions','Personal pronouns and titles']},2:{subtitle:'Family and Relationships',vocab:MANGO_V2,sentences:[],learn:['Family members and relatives','Living and expressing possession','Engagement and marriage']},3:{subtitle:'Meeting People and Describing Them',vocab:MANGO_V3,sentences:[],learn:['Meeting friends and making introductions','Describing appearance and personality','Meeting for coffee or tea']}};
 const COLLECTIONS=[
 {id:'alkitaab1',name:'Al-Kitaab (Part 1)',totalChapters:13,chapters:CHAPTERS},
 {id:'alif-baa',name:'Alif Baa',totalChapters:0,chapters:{},vocab:ALIF_BAA_CARDS,vocabOnly:true},
@@ -508,7 +1021,7 @@ function playArabic(d){stopAudio();let src=NATIVE_AUDIO_BY_ID[d.id]||NATIVE_AUDI
 const uniqueVocabulary=words=>{let seen=new Set();return words.filter(word=>{let key=vocabularyKey(word);if(!key||seen.has(key))return false;seen.add(key);return true})};
 const LEGACY_ALL_V4=uniqueVocabulary([...V1,...V2,...V3,...V,...MANGO_V1,...DLI_ALL_V]);
 // Retain every Alif Baa card in its own filter, including words also taught elsewhere.
-const ALL_V=[...uniqueVocabulary([...V1,...V2,...V3,...V,...AK_VOCAB_5_13,...MANGO_V1,...DLI_ALL_V]),...ALIF_BAA_CARDS];
+const ALL_V=[...uniqueVocabulary([...V1,...V2,...V3,...V,...AK_VOCAB_5_13,...MANGO_V1,...DLI_ALL_V]),...MANGO_V2,...MANGO_V3,...ALIF_BAA_CARDS];
 let storedVocabIndex=localStorage.getItem('msa-vocab-index');let migratedVocabIndex=storedVocabIndex===null?0:Number(storedVocabIndex)||0;let vocabSchema=localStorage.getItem('msa-vocab-schema');let savedVocabId=localStorage.getItem('msa-vocab-id');if(storedVocabIndex!==null&&vocabSchema==='4'&&!savedVocabId){let legacyWord=LEGACY_ALL_V4[migratedVocabIndex],newIndex=legacyWord?ALL_V.findIndex(word=>word.id===legacyWord.id):-1;if(newIndex>=0)migratedVocabIndex=newIndex}if(storedVocabIndex!==null&&vocabSchema!=='4'&&vocabSchema!=='5'){if(vocabSchema==='3'){if(migratedVocabIndex>=V1.length+V2.length)migratedVocabIndex+=V3.length}else if(vocabSchema==='2'){if(migratedVocabIndex>=V1.length)migratedVocabIndex+=V2.length+V3.length}else{migratedVocabIndex+=V1.length+V2.length+V3.length}}localStorage.setItem('msa-vocab-schema','5');localStorage.setItem('msa-vocab-index',String(migratedVocabIndex));if(savedVocabId){let savedIdIndex=ALL_V.findIndex(v=>v.id===savedVocabId);if(savedIdIndex>=0)migratedVocabIndex=savedIdIndex}
 let savedVocabIndex=Math.max(0,Math.min(ALL_V.length-1,migratedVocabIndex));
 let savedHide={};try{savedHide=JSON.parse(localStorage.getItem('msa-study-options')||'{}')||{}}catch(e){}
