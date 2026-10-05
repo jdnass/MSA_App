@@ -38,9 +38,9 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=41"></script>
-<script src="./dli-basic-data.js?v=41"></script>
-<script src="./alkitaab-chapters-5-13.js?v=41"></script>
+<script src="./alif-baa-vocab.js?v=42"></script>
+<script src="./dli-basic-data.js?v=42"></script>
+<script src="./alkitaab-chapters-5-13.js?v=42"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -278,6 +278,37 @@ const G4=[
 {id:'c4-g8',type:'note',title:'Form V: The Reflexive Form',body:`<p>We are skipping Form IV for now because we have not yet covered a verb in that form.</p><p>Form V has the present-tense pattern [يَتَفَعَّلُ]. It is closely related to Form II but adds [ت] before the root. Form V often carries a reflexive or middle meaning—an action that turns back toward, affects, or develops within the subject.</p><div class='grammar-example'><strong>he remembers</strong><br>[يَتَذَكَّرُ]</div><p>Here, the remembering happens within the subject: he brings something back to his own mind.</p>`}
 ];
 const CHAPTERS={1:{subtitle:'Language, Identity, Family and Work',vocab:V1,grammar:G1,sentences:S1,learn:['Language and study vocabulary','Gender and noun–adjective agreement','Definiteness and the Arabic definite article','Nisba adjectives','Question words and prepositional phrases']},2:{subtitle:'Family, Language, Work and Time',vocab:V2,grammar:G2,sentences:S2,learn:['Family, language and professional roles','Present-tense pronouns and verb conjugations','Masculine, feminine and broken plurals','Human and nonhuman plural agreement','Time and everyday expressions']},3:{subtitle:'Study, Family, Careers and Expressions',vocab:V3,grammar:G3,sentences:S3,learn:['Academic fields and college','Iḍāfa and compound constructions','Personal pronouns and possessive suffixes','Noun–adjective agreement','Family, careers and everyday expressions']},4:{subtitle:'Food, School, Travel and More',vocab:V,grammar:G4,sentences:S,learn:['Food and dining vocabulary','Present-tense negation and object pronouns','Roots and word patterns','Verb Forms I, II, III, and V','School, travel, and everyday expressions']},...AK_CHAPTERS_5_13};
+// Group each verb's present, past, and verbal noun at its original chapter position.
+// Stable card IDs retain saved progress and custom recording associations.
+const ALKITAAB_VERB_GROUPS={
+  1:[{"anchor":"c1-7","ids":["c1-7","c1-32","c1-33"]},{"anchor":"c1-10","ids":["c1-10","c1-34","c1-35"]},{"anchor":"c1-17","ids":["c1-17","c1-36","c1-37"]}],
+  2:[{"anchor":"c2-9","ids":["c2-9","c2-26","c2-27"]}],
+  3:[{"anchor":"c3-21","ids":["c3-21","c3-32","c3-33"]},{"anchor":"c3-30","ids":["c3-30","c3-34","c3-35"]}],
+  4:[{"anchor":"c4-15","ids":["c4-15","c4-32","c4-33"]},{"anchor":"c4-16","ids":["c4-16","c4-34","c4-35"]},{"anchor":"c4-18","ids":["c4-18","c4-36","c4-17"]},{"anchor":"c4-19","ids":["c4-19","c4-37","c4-38"]},{"anchor":"c4-20","ids":["c4-20","c4-39","c4-40"]},{"anchor":"c4-21","ids":["c4-21","c4-41","c4-42"]},{"anchor":"c4-22","ids":["c4-22","c4-43","c4-44"]},{"anchor":"c4-27","ids":["c4-27","c4-45","c4-46"]},{"anchor":"c4-28","ids":["c4-47","c4-28","c4-48"]}],
+  5:[{"anchor":"ak-c5-25","ids":["ak-c5-25","ak-c5-31","ak-c5-32"]}],
+  6:[{"anchor":"ak-c6-4","ids":["ak-c6-4","ak-c6-30","ak-c6-31"]},{"anchor":"ak-c6-5","ids":["ak-c6-5","ak-c6-32","ak-c6-33"]},{"anchor":"ak-c6-11","ids":["ak-c6-11","ak-c6-34","ak-c6-35"]},{"anchor":"ak-c6-22","ids":["ak-c6-22","ak-c6-36","ak-c6-37"]}],
+  7:[{"anchor":"ak-c7-12","ids":["ak-c7-12","ak-c7-19","ak-c7-20"]},{"anchor":"ak-c7-15","ids":["ak-c7-15","ak-c7-21","ak-c7-22"]}],
+  8:[{"anchor":"ak-c8-3","ids":["ak-c8-23","ak-c8-3","ak-c8-24"]},{"anchor":"ak-c8-5","ids":["ak-c8-5","ak-c8-25","ak-c8-26"]},{"anchor":"ak-c8-8","ids":["ak-c8-8","ak-c8-27","ak-c8-28"]},{"anchor":"ak-c8-12","ids":["ak-c8-12","ak-c8-29","ak-c8-30"]},{"anchor":"ak-c8-13","ids":["ak-c8-13","ak-c8-31","ak-c8-32"]},{"anchor":"ak-c8-14","ids":["ak-c8-14","ak-c8-33","ak-c8-34"]},{"anchor":"ak-c8-19","ids":["ak-c8-19","ak-c8-35","ak-c8-36"]},{"anchor":"ak-c8-22","ids":["ak-c8-22","ak-c8-37","ak-c8-38"]}],
+  9:[{"anchor":"ak-c9-11","ids":["ak-c9-11","ak-c9-30","ak-c9-31"]},{"anchor":"ak-c9-12","ids":["ak-c9-12","ak-c9-32","ak-c9-33"]},{"anchor":"ak-c9-13","ids":["ak-c9-13","ak-c9-34","ak-c9-35"]},{"anchor":"ak-c9-14","ids":["ak-c9-14","ak-c9-36","ak-c9-37"]},{"anchor":"ak-c9-15","ids":["ak-c9-15","ak-c9-38","ak-c9-39"]},{"anchor":"ak-c9-16","ids":["ak-c9-16","ak-c9-40","ak-c9-41"]},{"anchor":"ak-c9-17","ids":["ak-c9-17","ak-c9-42","ak-c9-43"]},{"anchor":"ak-c9-18","ids":["ak-c9-18","ak-c9-44","ak-c9-45"]},{"anchor":"ak-c9-19","ids":["ak-c9-19","ak-c9-46","ak-c9-47"]}],
+  10:[{"anchor":"ak-c10-5","ids":["ak-c10-5","ak-c10-31","ak-c10-32"]},{"anchor":"ak-c10-9","ids":["ak-c10-9","ak-c10-33","ak-c10-34"]},{"anchor":"ak-c10-10","ids":["ak-c10-10","ak-c10-35","ak-c10-36"]},{"anchor":"ak-c10-11","ids":["ak-c10-11","ak-c10-37","ak-c10-38"]},{"anchor":"ak-c10-14","ids":["ak-c10-14","ak-c10-39","ak-c10-13"]},{"anchor":"ak-c10-16","ids":["ak-c10-16","ak-c10-40","ak-c10-41"]},{"anchor":"ak-c10-17","ids":["ak-c10-17","ak-c10-42","ak-c10-18"]},{"anchor":"ak-c10-20","ids":["ak-c10-20","ak-c10-43","ak-c10-44"]},{"anchor":"ak-c10-23","ids":["ak-c10-23","ak-c10-45","ak-c10-46"]},{"anchor":"ak-c10-24","ids":["ak-c10-24","ak-c10-47","ak-c10-48"]},{"anchor":"ak-c10-27","ids":["ak-c10-27","ak-c10-49","ak-c10-50"]}],
+  11:[{"anchor":"ak-c11-5","ids":["ak-c11-5","ak-c11-28","ak-c11-29"]},{"anchor":"ak-c11-8","ids":["ak-c11-8","ak-c11-30","ak-c11-31"]},{"anchor":"ak-c11-11","ids":["ak-c11-11","ak-c11-32","ak-c11-33"]},{"anchor":"ak-c11-16","ids":["ak-c11-16","ak-c11-34","ak-c11-35"]},{"anchor":"ak-c11-23","ids":["ak-c11-23","ak-c11-36","ak-c11-37"]}],
+  12:[{"anchor":"ak-c12-1","ids":["ak-c12-1","ak-c12-23","ak-c12-24"]},{"anchor":"ak-c12-6","ids":["ak-c12-6","ak-c12-25","ak-c12-26"]},{"anchor":"ak-c12-7","ids":["ak-c12-27","ak-c12-28","ak-c12-29"]},{"anchor":"ak-c12-11","ids":["ak-c12-11","ak-c12-30","ak-c12-31"]},{"anchor":"ak-c12-12","ids":["ak-c12-32","ak-c12-12","ak-c12-33"]},{"anchor":"ak-c12-13","ids":["ak-c12-13","ak-c12-34","ak-c12-35"]},{"anchor":"ak-c12-15","ids":["ak-c12-15","ak-c12-36","ak-c12-37"]},{"anchor":"ak-c12-18","ids":["ak-c12-18","ak-c12-38","ak-c12-39"]}],
+  13:[{"anchor":"ak-c13-6","ids":["ak-c13-6","ak-c13-26","ak-c13-27"]},{"anchor":"ak-c13-7","ids":["ak-c13-7","ak-c13-28","ak-c13-29"]},{"anchor":"ak-c13-8","ids":["ak-c13-30","ak-c13-8","ak-c13-31"]},{"anchor":"ak-c13-10","ids":["ak-c13-10","ak-c13-32","ak-c13-33"]},{"anchor":"ak-c13-11","ids":["ak-c13-11","ak-c13-34","ak-c13-35"]},{"anchor":"ak-c13-12","ids":["ak-c13-36","ak-c13-37","ak-c13-38"]},{"anchor":"ak-c13-16","ids":["ak-c13-16","ak-c13-39","ak-c13-40"]},{"anchor":"ak-c13-17","ids":["ak-c13-17","ak-c13-41","ak-c13-42"]},{"anchor":"ak-c13-18","ids":["ak-c13-18","ak-c13-43","ak-c13-44"]},{"anchor":"ak-c13-19","ids":["ak-c13-19","ak-c13-45","ak-c13-46"]},{"anchor":"ak-c13-23","ids":["ak-c13-23","ak-c13-47","ak-c13-48"]},{"anchor":"ak-c13-24","ids":["ak-c13-24","ak-c13-49","ak-c13-50"]}]
+};
+Object.entries(ALKITAAB_VERB_GROUPS).forEach(([number,groups])=>{
+  const vocab=CHAPTERS[number].vocab,byId=new Map(vocab.map(word=>[word.id,word]));
+  const anchors=new Map(groups.map(group=>[group.anchor,group]));
+  const members=new Set(groups.flatMap(group=>group.ids)),ordered=[];
+  vocab.forEach(word=>{
+    const group=anchors.get(word.id);
+    if(group){
+      if(!members.has(word.id))ordered.push(word);
+      group.ids.forEach(id=>ordered.push(byId.get(id)));
+    }else if(!members.has(word.id))ordered.push(word);
+  });
+  ordered.forEach((word,index)=>{word.idInChapter=index+1});
+  vocab.splice(0,vocab.length,...ordered);
+});
 Object.values(CHAPTERS).forEach(chapter=>{chapter.grammar=chapter.grammar||[];chapter.vocab.forEach(word=>{word.collectionId='alkitaab1';word.collection='Al-Kitaab (Part 1)'})});
 const MANGO_V1=[
 ['hello','مَرْحَبًا','marḥaban','Greeting','—','—','—'],
@@ -1052,7 +1083,7 @@ function playArabic(d){stopAudio();let src=NATIVE_AUDIO_BY_ID[d.id]||NATIVE_AUDI
 const uniqueVocabulary=(words,keepAlkitaabChapters=false)=>{let seen=new Set();return words.filter(word=>{let key=vocabularyKey(word);if(!key)return false;let chapterKey=keepAlkitaabChapters&&word.collectionId==='alkitaab1'?`alkitaab1:${word.chapter}:${nativeAudioKey(word)}`:key;if(seen.has(chapterKey))return false;seen.add(chapterKey);seen.add(key);return true})};
 const LEGACY_ALL_V4=uniqueVocabulary([...V1,...V2,...V3,...V,...MANGO_V1,...DLI_ALL_V]);
 // Retain every Alif Baa card in its own filter, including words also taught elsewhere.
-const ALL_V=[...uniqueVocabulary([...V1,...V2,...V3,...V,...AK_VOCAB_5_13,...MANGO_V1,...DLI_ALL_V],true),...MANGO_V2,...MANGO_V3,...ALIF_BAA_CARDS];
+const ALL_V=[...uniqueVocabulary([...Object.values(CHAPTERS).flatMap(chapter=>chapter.vocab),...MANGO_V1,...DLI_ALL_V],true),...MANGO_V2,...MANGO_V3,...ALIF_BAA_CARDS];
 let storedVocabIndex=localStorage.getItem('msa-vocab-index');let migratedVocabIndex=storedVocabIndex===null?0:Number(storedVocabIndex)||0;let vocabSchema=localStorage.getItem('msa-vocab-schema');let savedVocabId=localStorage.getItem('msa-vocab-id');if(storedVocabIndex!==null&&vocabSchema==='4'&&!savedVocabId){let legacyWord=LEGACY_ALL_V4[migratedVocabIndex],newIndex=legacyWord?ALL_V.findIndex(word=>word.id===legacyWord.id):-1;if(newIndex>=0)migratedVocabIndex=newIndex}if(storedVocabIndex!==null&&vocabSchema!=='4'&&vocabSchema!=='5'){if(vocabSchema==='3'){if(migratedVocabIndex>=V1.length+V2.length)migratedVocabIndex+=V3.length}else if(vocabSchema==='2'){if(migratedVocabIndex>=V1.length)migratedVocabIndex+=V2.length+V3.length}else{migratedVocabIndex+=V1.length+V2.length+V3.length}}localStorage.setItem('msa-vocab-schema','5');localStorage.setItem('msa-vocab-index',String(migratedVocabIndex));if(savedVocabId){let savedIdIndex=ALL_V.findIndex(v=>v.id===savedVocabId);if(savedIdIndex>=0)migratedVocabIndex=savedIdIndex}
 let savedVocabIndex=Math.max(0,Math.min(ALL_V.length-1,migratedVocabIndex));
 let savedHide={};try{savedHide=JSON.parse(localStorage.getItem('msa-study-options')||'{}')||{}}catch(e){}
