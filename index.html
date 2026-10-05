@@ -38,9 +38,9 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=42"></script>
-<script src="./dli-basic-data.js?v=42"></script>
-<script src="./alkitaab-chapters-5-13.js?v=42"></script>
+<script src="./alif-baa-vocab.js?v=43"></script>
+<script src="./dli-basic-data.js?v=43"></script>
+<script src="./alkitaab-chapters-5-13.js?v=43"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -308,6 +308,637 @@ Object.entries(ALKITAAB_VERB_GROUPS).forEach(([number,groups])=>{
   });
   ordered.forEach((word,index)=>{word.idInChapter=index+1});
   vocab.splice(0,vocab.length,...ordered);
+});
+// Broken-plural study cards follow their singular entries in both lesson and vocabulary order.
+// Explicit IDs keep all existing card IDs and recording/progress associations stable.
+const ALKITAAB_BROKEN_PLURALS=[
+  {
+    "chapter": 1,
+    "anchor": "c1-4",
+    "id": "c1-4-bp",
+    "en": "sentences",
+    "ar": "جُمَل",
+    "tr": "jumal"
+  },
+  {
+    "chapter": 1,
+    "anchor": "c1-6",
+    "id": "c1-6-bp",
+    "en": "literatures; arts",
+    "ar": "آدَاب",
+    "tr": "ādāb"
+  },
+  {
+    "chapter": 1,
+    "anchor": "c1-11",
+    "id": "c1-11-bp",
+    "en": "areas; regions",
+    "ar": "مَنَاطِق",
+    "tr": "manāṭiq"
+  },
+  {
+    "chapter": 1,
+    "anchor": "c1-12",
+    "id": "c1-12-bp",
+    "en": "addresses",
+    "ar": "عَنَاوِين",
+    "tr": "ʿanāwīn"
+  },
+  {
+    "chapter": 1,
+    "anchor": "c1-16",
+    "id": "c1-16-bp",
+    "en": "ages",
+    "ar": "أَعْمَار",
+    "tr": "aʿmār"
+  },
+  {
+    "chapter": 1,
+    "anchor": "c1-37",
+    "id": "c1-37-bp",
+    "en": "works; jobs",
+    "ar": "أَعْمَال",
+    "tr": "aʿmāl"
+  },
+  {
+    "chapter": 2,
+    "anchor": "c2-1",
+    "id": "c2-1-bp",
+    "en": "families",
+    "ar": "أُسَر",
+    "tr": "usar"
+  },
+  {
+    "chapter": 2,
+    "anchor": "c2-10",
+    "id": "c2-10-bp",
+    "en": "works; jobs",
+    "ar": "أَعْمَال / أَشْغَال",
+    "tr": "aʿmāl / ashghāl"
+  },
+  {
+    "chapter": 2,
+    "anchor": "c2-13",
+    "id": "c2-13-bp",
+    "en": "countries",
+    "ar": "بِلَاد / بُلْدَان",
+    "tr": "bilād / buldān"
+  },
+  {
+    "chapter": 2,
+    "anchor": "c2-14",
+    "id": "c2-14-bp",
+    "en": "centers",
+    "ar": "مَرَاكِز",
+    "tr": "marākiz"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-1",
+    "id": "c3-1-bp",
+    "en": "histories; dates",
+    "ar": "تَوَارِيخ",
+    "tr": "tawārīkh"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-3",
+    "id": "c3-3-bp",
+    "en": "religions",
+    "ar": "أَدْيَان",
+    "tr": "adyān"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-5",
+    "id": "c3-5-bp",
+    "en": "sciences",
+    "ar": "عُلُوم",
+    "tr": "ʿulūm"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-11",
+    "id": "c3-11-bp",
+    "en": "sons",
+    "ar": "أَبْنَاء",
+    "tr": "abnāʾ"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-12",
+    "id": "c3-12-bp",
+    "en": "male paternal cousins",
+    "ar": "أَبْنَاء عَمّ",
+    "tr": "abnāʾ ʿamm"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-13",
+    "id": "c3-13-bp",
+    "en": "grandfathers",
+    "ar": "أَجْدَاد",
+    "tr": "ajdād"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-15",
+    "id": "c3-15-bp",
+    "en": "husbands",
+    "ar": "أَزْوَاج",
+    "tr": "azwāj"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-18",
+    "id": "c3-18-bp",
+    "en": "paternal uncles",
+    "ar": "أَعْمَام",
+    "tr": "aʿmām"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-19",
+    "id": "c3-19-bp",
+    "en": "extended families",
+    "ar": "عَوَائِل",
+    "tr": "ʿawāʾil"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-20",
+    "id": "c3-20-bp",
+    "en": "relatives",
+    "ar": "أَقَارِب",
+    "tr": "aqārib"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-22",
+    "id": "c3-22-bp",
+    "en": "armies",
+    "ar": "جُيُوش",
+    "tr": "juyūsh"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-23",
+    "id": "c3-23-bp",
+    "en": "officers",
+    "ar": "ضُبَّاط",
+    "tr": "ḍubbāṭ"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-24",
+    "id": "c3-24-bp",
+    "en": "letters",
+    "ar": "رَسَائِل",
+    "tr": "rasāʾil"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-25",
+    "id": "c3-25-bp",
+    "en": "pictures",
+    "ar": "صُوَر",
+    "tr": "ṣuwar"
+  },
+  {
+    "chapter": 3,
+    "anchor": "c3-35",
+    "id": "c3-35-bp",
+    "en": "knowledge; areas of knowledge",
+    "ar": "مَعَارِف",
+    "tr": "maʿārif"
+  },
+  {
+    "chapter": 4,
+    "anchor": "c4-4",
+    "id": "c4-4-bp",
+    "en": "fish (plural)",
+    "ar": "أَسْمَاك",
+    "tr": "asmāk"
+  },
+  {
+    "chapter": 4,
+    "anchor": "c4-5",
+    "id": "c4-5-bp",
+    "en": "meats",
+    "ar": "لُحُوم",
+    "tr": "luḥūm"
+  },
+  {
+    "chapter": 4,
+    "anchor": "c4-8",
+    "id": "c4-8-bp",
+    "en": "restaurants",
+    "ar": "مَطَاعِم",
+    "tr": "maṭāʿim"
+  },
+  {
+    "chapter": 4,
+    "anchor": "c4-9",
+    "id": "c4-9-bp",
+    "en": "schools",
+    "ar": "مَدَارِس",
+    "tr": "madāris"
+  },
+  {
+    "chapter": 4,
+    "anchor": "c4-11",
+    "id": "c4-11-bp",
+    "en": "classmates; colleagues",
+    "ar": "زُمَلَاء",
+    "tr": "zumalāʾ"
+  },
+  {
+    "chapter": 4,
+    "anchor": "c4-12",
+    "id": "c4-12-bp",
+    "en": "friends",
+    "ar": "أَصْدِقَاء",
+    "tr": "aṣdiqāʾ"
+  },
+  {
+    "chapter": 4,
+    "anchor": "c4-17",
+    "id": "c4-17-bp",
+    "en": "journeys; travels",
+    "ar": "أَسْفَار",
+    "tr": "asfār"
+  },
+  {
+    "chapter": 4,
+    "anchor": "c4-42",
+    "id": "c4-42-bp",
+    "en": "sayings; statements",
+    "ar": "أَقْوَال",
+    "tr": "aqwāl"
+  },
+  {
+    "chapter": 4,
+    "anchor": "c4-26",
+    "id": "c4-26-bp",
+    "en": "individuals",
+    "ar": "أَفْرَاد",
+    "tr": "afrād"
+  },
+  {
+    "chapter": 5,
+    "anchor": "ak-c5-1",
+    "id": "ak-c5-1-bp",
+    "en": "atmospheres; conditions",
+    "ar": "أَجْوَاء",
+    "tr": "ajwāʾ"
+  },
+  {
+    "chapter": 5,
+    "anchor": "ak-c5-6",
+    "id": "ak-c5-6-bp",
+    "en": "snows; snowfall",
+    "ar": "ثُلُوج",
+    "tr": "thulūj"
+  },
+  {
+    "chapter": 5,
+    "anchor": "ak-c5-7",
+    "id": "ak-c5-7-bp",
+    "en": "rains",
+    "ar": "أَمْطَار",
+    "tr": "amṭār"
+  },
+  {
+    "chapter": 5,
+    "anchor": "ak-c5-12",
+    "id": "ak-c5-12-bp",
+    "en": "seasons",
+    "ar": "فُصُول",
+    "tr": "fuṣūl"
+  },
+  {
+    "chapter": 5,
+    "anchor": "ak-c5-13",
+    "id": "ak-c5-13-bp",
+    "en": "springs (seasons; uncommon plural)",
+    "ar": "أَرْبِعَة / أَرْبِعَاء",
+    "tr": "arbiʿa / arbiʿāʾ"
+  },
+  {
+    "chapter": 5,
+    "anchor": "ak-c5-14",
+    "id": "ak-c5-14-bp",
+    "en": "summers",
+    "ar": "أَصْيَاف / صُيُوف",
+    "tr": "aṣyāf / ṣuyūf"
+  },
+  {
+    "chapter": 5,
+    "anchor": "ak-c5-16",
+    "id": "ak-c5-16-bp",
+    "en": "winters",
+    "ar": "أَشْتِيَة",
+    "tr": "ashtiya"
+  },
+  {
+    "chapter": 5,
+    "anchor": "ak-c5-17",
+    "id": "ak-c5-17-bp",
+    "en": "semesters",
+    "ar": "فُصُول دِرَاسِيَّة",
+    "tr": "fuṣūl dirāsiyya"
+  },
+  {
+    "chapter": 5,
+    "anchor": "ak-c5-28",
+    "id": "ak-c5-28-bp",
+    "en": "reasons; causes",
+    "ar": "أَسْبَاب",
+    "tr": "asbāb"
+  },
+  {
+    "chapter": 6,
+    "anchor": "ak-c6-12",
+    "id": "ak-c6-12-bp",
+    "en": "weeks",
+    "ar": "أَسَابِيع",
+    "tr": "asābīʿ"
+  },
+  {
+    "chapter": 6,
+    "anchor": "ak-c6-14",
+    "id": "ak-c6-14-bp",
+    "en": "days",
+    "ar": "أَيَّام",
+    "tr": "ayyām"
+  },
+  {
+    "chapter": 7,
+    "anchor": "ak-c7-5",
+    "id": "ak-c7-5-bp",
+    "en": "accidents",
+    "ar": "حَوَادِث",
+    "tr": "ḥawādith"
+  },
+  {
+    "chapter": 7,
+    "anchor": "ak-c7-16",
+    "id": "ak-c7-16-bp",
+    "en": "money; funds",
+    "ar": "أَمْوَال",
+    "tr": "amwāl"
+  },
+  {
+    "chapter": 8,
+    "anchor": "ak-c8-6",
+    "id": "ak-c8-6-bp",
+    "en": "states; nation-states",
+    "ar": "دُوَل",
+    "tr": "duwal"
+  },
+  {
+    "chapter": 8,
+    "anchor": "ak-c8-9",
+    "id": "ak-c8-9-bp",
+    "en": "presidents; heads",
+    "ar": "رُؤَسَاء",
+    "tr": "ruʾasāʾ"
+  },
+  {
+    "chapter": 8,
+    "anchor": "ak-c8-10",
+    "id": "ak-c8-10-bp",
+    "en": "prime ministers",
+    "ar": "رُؤَسَاء الوُزَرَاء",
+    "tr": "ruʾasāʾ al-wuzarāʾ"
+  },
+  {
+    "chapter": 8,
+    "anchor": "ak-c8-11",
+    "id": "ak-c8-11-bp",
+    "en": "opinions",
+    "ar": "آرَاء",
+    "tr": "ārāʾ"
+  },
+  {
+    "chapter": 9,
+    "anchor": "ak-c9-9",
+    "id": "ak-c9-9-bp",
+    "en": "programs",
+    "ar": "بَرَامِج",
+    "tr": "barāmij"
+  },
+  {
+    "chapter": 9,
+    "anchor": "ak-c9-10",
+    "id": "ak-c9-10-bp",
+    "en": "newspapers",
+    "ar": "جَرَائِد",
+    "tr": "jarāʾid"
+  },
+  {
+    "chapter": 9,
+    "anchor": "ak-c9-21",
+    "id": "ak-c9-21-bp",
+    "en": "clubs; associations",
+    "ar": "نَوَادٍ",
+    "tr": "nawādin"
+  },
+  {
+    "chapter": 9,
+    "anchor": "ak-c9-26",
+    "id": "ak-c9-26-bp",
+    "en": "worlds",
+    "ar": "عَوَالِم",
+    "tr": "ʿawālim"
+  },
+  {
+    "chapter": 9,
+    "anchor": "ak-c9-27",
+    "id": "ak-c9-27-bp",
+    "en": "eyes",
+    "ar": "عُيُون / أَعْيُن",
+    "tr": "ʿuyūn / aʿyun"
+  },
+  {
+    "chapter": 9,
+    "anchor": "ak-c9-28",
+    "id": "ak-c9-28-bp",
+    "en": "halves",
+    "ar": "أَنْصَاف",
+    "tr": "anṣāf"
+  },
+  {
+    "chapter": 9,
+    "anchor": "ak-c9-29",
+    "id": "ak-c9-29-bp",
+    "en": "subjects; topics",
+    "ar": "مَوَاضِيع",
+    "tr": "mawāḍīʿ"
+  },
+  {
+    "chapter": 10,
+    "anchor": "ak-c10-4",
+    "id": "ak-c10-4-bp",
+    "en": "mosques",
+    "ar": "جَوَامِع",
+    "tr": "jawāmiʿ"
+  },
+  {
+    "chapter": 10,
+    "anchor": "ak-c10-21",
+    "id": "ak-c10-21-bp",
+    "en": "nights",
+    "ar": "لَيَالٍ",
+    "tr": "layālin"
+  },
+  {
+    "chapter": 10,
+    "anchor": "ak-c10-26",
+    "id": "ak-c10-26-bp",
+    "en": "kings",
+    "ar": "مُلُوك",
+    "tr": "mulūk"
+  },
+  {
+    "chapter": 10,
+    "anchor": "ak-c10-28",
+    "id": "ak-c10-28-bp",
+    "en": "appointments",
+    "ar": "مَوَاعِيد",
+    "tr": "mawāʿīd"
+  },
+  {
+    "chapter": 10,
+    "anchor": "ak-c10-29",
+    "id": "ak-c10-29-bp",
+    "en": "times",
+    "ar": "أَوْقَات",
+    "tr": "awqāt"
+  },
+  {
+    "chapter": 11,
+    "anchor": "ak-c11-3",
+    "id": "ak-c11-3-bp",
+    "en": "seas",
+    "ar": "بِحَار / بُحُور",
+    "tr": "biḥār / buḥūr"
+  },
+  {
+    "chapter": 11,
+    "anchor": "ak-c11-4",
+    "id": "ak-c11-4-bp",
+    "en": "mountains",
+    "ar": "جِبَال",
+    "tr": "jibāl"
+  },
+  {
+    "chapter": 11,
+    "anchor": "ak-c11-7",
+    "id": "ak-c11-7-bp",
+    "en": "experiences",
+    "ar": "تَجَارِب",
+    "tr": "tajārib"
+  },
+  {
+    "chapter": 11,
+    "anchor": "ak-c11-13",
+    "id": "ak-c11-13-bp",
+    "en": "markets",
+    "ar": "أَسْوَاق",
+    "tr": "aswāq"
+  },
+  {
+    "chapter": 11,
+    "anchor": "ak-c11-22",
+    "id": "ak-c11-22-bp",
+    "en": "hotels",
+    "ar": "فَنَادِق",
+    "tr": "fanādiq"
+  },
+  {
+    "chapter": 12,
+    "anchor": "ak-c12-29",
+    "id": "ak-c12-29-bp",
+    "en": "journeys; travels",
+    "ar": "أَسْفَار",
+    "tr": "asfār"
+  },
+  {
+    "chapter": 12,
+    "anchor": "ak-c12-10",
+    "id": "ak-c12-10-bp",
+    "en": "holidays",
+    "ar": "عُطَل",
+    "tr": "ʿuṭal"
+  },
+  {
+    "chapter": 12,
+    "anchor": "ak-c12-31",
+    "id": "ak-c12-31-bp",
+    "en": "sciences; fields of knowledge",
+    "ar": "عُلُوم",
+    "tr": "ʿulūm"
+  },
+  {
+    "chapter": 12,
+    "anchor": "ak-c12-19",
+    "id": "ak-c12-19-bp",
+    "en": "scholarships; grants",
+    "ar": "مِنَح",
+    "tr": "minaḥ"
+  },
+  {
+    "chapter": 13,
+    "anchor": "ak-c13-5",
+    "id": "ak-c13-5-bp",
+    "en": "dreams",
+    "ar": "أَحْلَام",
+    "tr": "aḥlām"
+  },
+  {
+    "chapter": 13,
+    "anchor": "ak-c13-9",
+    "id": "ak-c13-9-bp",
+    "en": "theaters",
+    "ar": "مَسَارِح",
+    "tr": "masāriḥ"
+  },
+  {
+    "chapter": 13,
+    "anchor": "ak-c13-35",
+    "id": "ak-c13-35-bp",
+    "en": "beliefs; suppositions",
+    "ar": "ظُنُون",
+    "tr": "ẓunūn"
+  },
+  {
+    "chapter": 13,
+    "anchor": "ak-c13-14",
+    "id": "ak-c13-14-bp",
+    "en": "opportunities; chances",
+    "ar": "فُرَص",
+    "tr": "furaṣ"
+  },
+  {
+    "chapter": 13,
+    "anchor": "ak-c13-25",
+    "id": "ak-c13-25-bp",
+    "en": "positions; jobs",
+    "ar": "وَظَائِف",
+    "tr": "waẓāʾif"
+  }
+];
+Object.entries(CHAPTERS).forEach(([number,chapter])=>{
+  const additions=new Map(ALKITAAB_BROKEN_PLURALS.filter(word=>word.chapter===Number(number)).map(word=>[word.anchor,word]));
+  const ordered=[];
+  chapter.vocab.forEach(word=>{
+    ordered.push(word);
+    const plural=additions.get(word.id);
+    if(plural)ordered.push({id:plural.id,chapter:Number(number),en:plural.en,ar:plural.ar,tr:plural.tr,pos:'Noun (broken plural)',f:'—',mp:'—',fp:'—',singularId:word.id});
+  });
+  ordered.forEach((word,index)=>{word.idInChapter=index+1});
+  chapter.vocab.splice(0,chapter.vocab.length,...ordered);
 });
 Object.values(CHAPTERS).forEach(chapter=>{chapter.grammar=chapter.grammar||[];chapter.vocab.forEach(word=>{word.collectionId='alkitaab1';word.collection='Al-Kitaab (Part 1)'})});
 const MANGO_V1=[
