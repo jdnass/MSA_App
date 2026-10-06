@@ -21,3 +21,10 @@ Corrections include البحر (Mediterranean), غسل (wash), نَجْم (star)
 Chapter 7 remains incomplete: IMG_5549 was not supplied. Partially visible اجتماعي and مجتمع and the hidden Arabic entry glossed “(a) truth” are excluded pending that image. No grammar or sentence content was supplied in these batches.
 
 New cards use the app's existing audio lookup and Arabic speech fallback; no new recordings were supplied.
+
+
+## Chapter 9 — Media, Politics, and Society
+
+Added from IMG_5556–IMG_5571 on October 6, 2026: 71 normalized entries expanded to 156 cards. Screenshot overlaps removed, including the repeated final section in IMG_5570 and IMG_5571. Chapter 8 remains unavailable pending source vocabulary.
+
+Personal verbs use first-person singular, present → past → verbal noun. Source service, industry/manufacturing, opposition, resistance, and communication entries are reused as verbal-noun cards. Impersonal يصدر remains “it is issued / comes out”; passive feminine أُنشئت remains feminine passive. Added required بِـ with اتصل, standardized its hamzat al-wasl, and corrected مُنَظَّمة / قَضِيَّة spelling and vowels. نادرة remains feminine with masculine equivalent in details. Broken plurals immediately follow singulars; sound plurals remain in details. No recorded audio, grammar, or sentences were supplied.
