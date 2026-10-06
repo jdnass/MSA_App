@@ -150,7 +150,7 @@ const DLI_S7=dliSentences(7,[
 ]);
 
 const DLI_V8=dliWords(8,[
-['now','الآن','al-ān','Adverb'],['house','بَيْت','bayt','Noun','—','بُيُوت'],['your house','بَيْتُكَ','baytuka','Possessive noun','بَيْتُكِ','بُيُوتُكُمْ','بُيُوتُكُنَّ'],['her house','بَيْتُهَا','baytuhā','Possessive noun'],
+['now','الآنَ','al-āna','Adverb'],['house','بَيْت','bayt','Noun','—','بُيُوت'],['your house','بَيْتُكَ','baytuka','Possessive noun','بَيْتُكِ','بُيُوتُكُمْ','بُيُوتُكُنَّ'],['her house','بَيْتُهَا','baytuhā','Possessive noun'],
 ['beautiful','جَمِيل','jamīl','Adjective','جَمِيلَة','جَمِيلُون','جَمِيلَات'],['pocket','جَيْب','jayb','Noun','—','جُيُوب'],
 ['How are you?','كَيْفَ حَالُكَ؟','kayfa ḥāluka?','Expression','كَيْفَ حَالُكِ؟'],['Fine, praise be to God','بِخَيْر، الحَمْدُ لِلَّه','bikhayr, al-ḥamdu lillāh','Expression'],
 ['short','قَصِير','qaṣīr','Adjective','قَصِيرَة','قِصَار','قَصِيرَات'],['good morning','صَبَاح الخَيْر','ṣabāḥ al-khayr','Greeting'],['good morning (response)','صَبَاح النُّور','ṣabāḥ al-nūr','Greeting response'],
@@ -460,7 +460,7 @@ const DLI_V21=dliWords(21,[
 ['result','نَتِيجَة','natīja','Noun','—','نَتَائِج','—'],
 ['duty assignment','وَاجِب','wājib','Noun','—','وَاجِبَات','—'],
 ['I have a duty','عَلَيَّ وَاجِب','ʿalayya wājib','Expression','—','—','—'],
-['yesterday','أَمْس','ams','Adverb','—','—','—'],
+['yesterday','أَمْسِ','amsi','Adverb','—','—','—'],
 ['about concerning','عَنْ','ʿan','Preposition','—','—','—'],
 ['in with by','بِـ','bi-','Preposition and prefix','—','—','—'],
 ['each every all','كُلّ','kull','Quantifier','—','—','—'],
@@ -906,7 +906,7 @@ const DLI_V37=dliWords(37,[
 ['especially in particular','خَاصَّةً','khāṣṣatan','Adverb','—','—','—'],
 ['desire for','رَغْبَة فِي','raghba fī','Noun phrase','—','—','—'],
 ['noon','ظُهْر','ẓuhr','Noun','—','—','—'],
-['only','فَقَط','faqaṭ','Adverb','—','—','—'],
+['only','فَقَطْ','faqaṭ','Adverb','—','—','—'],
 ['alone by myself','وَحْدِي','waḥdī','Expression','—','—','—'],
 ['California','كَالِيفُورْنِيَا','kālīfūrniyā','Place name','—','—','—'],
 ]);

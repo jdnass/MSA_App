@@ -203,7 +203,7 @@ const AK_V5=alkitaabWords(5,[
   },
   {
     "en": "only",
-    "ar": "فَقَط",
+    "ar": "فَقَطْ",
     "tr": "faqaṭ",
     "pos": "Adverb",
     "f": "—",
@@ -283,7 +283,7 @@ const AK_V5=alkitaabWords(5,[
   },
   {
     "en": "of ___ descent",
-    "ar": "مِن أَصْلٍ + النِّسْبة",
+    "ar": "مِنْ أَصْلٍ + النِّسْبة",
     "tr": "min aṣlin + al-nisba",
     "pos": "Expression",
     "f": "—",
@@ -421,7 +421,7 @@ const AK_V6=alkitaabWords(6,[
   },
   {
     "en": "I graduate",
-    "ar": "أَتَخَرَّجُ مِن",
+    "ar": "أَتَخَرَّجُ مِنْ",
     "tr": "atakharragu min",
     "pos": "Verb",
     "f": "—",
@@ -1674,7 +1674,7 @@ const AK_V9=alkitaabWords(9,[
   },
   {
     "en": "I leave",
-    "ar": "أَخْرُجُ مِن",
+    "ar": "أَخْرُجُ مِنْ",
     "tr": "akhruju min",
     "pos": "Verb",
     "f": "—",
@@ -2953,7 +2953,7 @@ const AK_V11=alkitaabWords(11,[
   },
   {
     "en": "of; among",
-    "ar": "مِن",
+    "ar": "مِنْ",
     "tr": "min",
     "pos": "Preposition",
     "f": "—",
@@ -3775,7 +3775,7 @@ const AK_V13=alkitaabWords(13,[
   },
   {
     "en": "I dismiss; fire",
-    "ar": "أَفْصِلُ مِن",
+    "ar": "أَفْصِلُ مِنْ",
     "tr": "afṣilu min",
     "pos": "Verb",
     "f": "—",
@@ -3835,7 +3835,7 @@ const AK_V13=alkitaabWords(13,[
   },
   {
     "en": "I finish",
-    "ar": "أَنْتَهي مِن",
+    "ar": "أَنْتَهي مِنْ",
     "tr": "antahī min",
     "pos": "Verb",
     "f": "—",
