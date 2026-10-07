@@ -62,9 +62,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "hadaftu"
     },
     "noun": {
-      "ar": "الهَدْف",
-      "tr": "al-hadf"
-    },
+      "ar": "هَدْف",
+      "tr": "hadf"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c10-36",
@@ -92,9 +92,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "kuntu"
     },
     "noun": {
-      "ar": "الكَوْن",
-      "tr": "al-kawn"
-    },
+      "ar": "كَوْن",
+      "tr": "kawn"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c4-47",
@@ -132,9 +132,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṭalabtu"
     },
     "noun": {
-      "ar": "الطَّلَب",
-      "tr": "aṭ-ṭalab"
-    },
+      "ar": "طَلَب",
+      "tr": "ṭalab"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c6-43",
@@ -162,9 +162,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ḥaḍartu"
     },
     "noun": {
-      "ar": "الْحُضُور",
-      "tr": "al-ḥuḍūr"
-    },
+      "ar": "حُضُور",
+      "tr": "ḥuḍūr"
+},
     "form": "I",
     "passive": false,
     "id": "practice-dli-c20-3",
@@ -197,9 +197,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṣadartu"
     },
     "noun": {
-      "ar": "الصُّدُور",
-      "tr": "aṣ-ṣudūr"
-    },
+      "ar": "صُدُور",
+      "tr": "ṣudūr"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-47",
@@ -227,9 +227,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṭabakhtu"
     },
     "noun": {
-      "ar": "الطَّبْخ",
-      "tr": "aṭ-ṭabkh"
-    },
+      "ar": "طَبْخ",
+      "tr": "ṭabkh"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c1-19",
@@ -257,9 +257,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "naqaltu"
     },
     "noun": {
-      "ar": "النَّقْل",
-      "tr": "an-naql"
-    },
+      "ar": "نَقْل",
+      "tr": "naql"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c10-79",
@@ -292,9 +292,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "khalaqtu"
     },
     "noun": {
-      "ar": "الخَلْق",
-      "tr": "al-khalq"
-    },
+      "ar": "خَلْق",
+      "tr": "khalq"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-10",
@@ -322,9 +322,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "muttu"
     },
     "noun": {
-      "ar": "الْمَوْت",
-      "tr": "al-mawt"
-    },
+      "ar": "مَوْت",
+      "tr": "mawt"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c7-15",
@@ -352,9 +352,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "rasamtu"
     },
     "noun": {
-      "ar": "الرَّسْم",
-      "tr": "ar-rasm"
-    },
+      "ar": "رَسْم",
+      "tr": "rasm"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c3-12",
@@ -382,9 +382,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "akaltu"
     },
     "noun": {
-      "ar": "الأَكْل",
-      "tr": "al-akl"
-    },
+      "ar": "أَكْل",
+      "tr": "akl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c4-27",
@@ -412,9 +412,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "dakhaltu"
     },
     "noun": {
-      "ar": "الدُّخُول",
-      "tr": "ad-dukhūl"
-    },
+      "ar": "دُخُول",
+      "tr": "dukhūl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c8-5",
@@ -457,9 +457,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "saqaṭtu"
     },
     "noun": {
-      "ar": "السُّقُوط",
-      "tr": "as-suqūṭ"
-    },
+      "ar": "سُقُوط",
+      "tr": "suqūṭ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-17",
@@ -487,9 +487,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṣumtu"
     },
     "noun": {
-      "ar": "الصِّيَام",
-      "tr": "aṣ-ṣiyām"
-    },
+      "ar": "صِيَام",
+      "tr": "ṣiyām"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c4-12",
@@ -517,9 +517,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "shaʿartu"
     },
     "noun": {
-      "ar": "الشُّعُور",
-      "tr": "ash-shuʿūr"
-    },
+      "ar": "شُعُور",
+      "tr": "shuʿūr"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c5-25",
@@ -547,9 +547,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "khaṭabtu"
     },
     "noun": {
-      "ar": "الخِطْبَة",
-      "tr": "al-khiṭba"
-    },
+      "ar": "خِطْبَة",
+      "tr": "khiṭba"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c11-11",
@@ -577,9 +577,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qumtu"
     },
     "noun": {
-      "ar": "القِيَام",
-      "tr": "al-qiyām"
-    },
+      "ar": "قِيَام",
+      "tr": "qiyām"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c4-21",
@@ -612,9 +612,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "daʿawtu"
     },
     "noun": {
-      "ar": "الدَّعْوَة",
-      "tr": "ad-daʿwa"
-    },
+      "ar": "دَعْوَة",
+      "tr": "daʿwa"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c4-6",
@@ -642,9 +642,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qataltu"
     },
     "noun": {
-      "ar": "القَتْل",
-      "tr": "al-qatl"
-    },
+      "ar": "قَتْل",
+      "tr": "qatl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-34",
@@ -677,9 +677,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qudtu"
     },
     "noun": {
-      "ar": "القِيَادَة",
-      "tr": "al-qiyāda"
-    },
+      "ar": "قِيَادَة",
+      "tr": "qiyāda"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c10-25",
@@ -707,9 +707,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "kharajtu"
     },
     "noun": {
-      "ar": "الخُرُوج",
-      "tr": "al-khurūj"
-    },
+      "ar": "خُرُوج",
+      "tr": "khurūj"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c9-13",
@@ -742,9 +742,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taraktu"
     },
     "noun": {
-      "ar": "التَّرْك",
-      "tr": "at-tark"
-    },
+      "ar": "تَرْك",
+      "tr": "tark"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c1-7",
@@ -782,9 +782,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "sakantu"
     },
     "noun": {
-      "ar": "السَّكَن",
-      "tr": "as-sakan"
-    },
+      "ar": "سَكَن",
+      "tr": "sakan"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c1-10",
@@ -822,9 +822,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "naẓartu"
     },
     "noun": {
-      "ar": "النَّظَر",
-      "tr": "an-naẓar"
-    },
+      "ar": "نَظَر",
+      "tr": "naẓar"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c7-33",
@@ -852,9 +852,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ḥaṣaltu"
     },
     "noun": {
-      "ar": "الحُصُول",
-      "tr": "al-ḥuṣūl"
-    },
+      "ar": "حُصُول",
+      "tr": "ḥuṣūl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c6-4",
@@ -887,9 +887,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "marartu"
     },
     "noun": {
-      "ar": "المُرُور",
-      "tr": "al-murūr"
-    },
+      "ar": "مُرُور",
+      "tr": "murūr"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c6-49",
@@ -917,9 +917,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "nashartu"
     },
     "noun": {
-      "ar": "النَّشْر",
-      "tr": "an-nashr"
-    },
+      "ar": "نَشْر",
+      "tr": "nashr"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c7-64",
@@ -957,9 +957,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "balaghtu"
     },
     "noun": {
-      "ar": "البُلُوغ",
-      "tr": "al-bulūgh"
-    },
+      "ar": "بُلُوغ",
+      "tr": "bulūgh"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c7-2",
@@ -987,9 +987,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "rafaḍtu"
     },
     "noun": {
-      "ar": "الرَّفْض",
-      "tr": "ar-rafḍ"
-    },
+      "ar": "رَفْض",
+      "tr": "rafḍ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c8-12",
@@ -1017,9 +1017,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿudtu"
     },
     "noun": {
-      "ar": "العَوْدَة",
-      "tr": "al-ʿawda"
-    },
+      "ar": "عَوْدَة",
+      "tr": "ʿawda"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c9-16",
@@ -1047,9 +1047,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qultu"
     },
     "noun": {
-      "ar": "القَوْل",
-      "tr": "al-qawl"
-    },
+      "ar": "قَوْل",
+      "tr": "qawl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c4-21",
@@ -1082,9 +1082,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "khadamtu"
     },
     "noun": {
-      "ar": "الخِدْمَة",
-      "tr": "al-khidma"
-    },
+      "ar": "خِدْمَة",
+      "tr": "khidma"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-8",
@@ -1112,9 +1112,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "darastu"
     },
     "noun": {
-      "ar": "الدِّرَاسَة",
-      "tr": "ad-dirāsa"
-    },
+      "ar": "دِرَاسَة",
+      "tr": "dirāsa"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c1-7",
@@ -1157,9 +1157,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "akhadhtu"
     },
     "noun": {
-      "ar": "الأَخْذ",
-      "tr": "al-akhdh"
-    },
+      "ar": "أَخْذ",
+      "tr": "akhdh"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c12-1",
@@ -1187,9 +1187,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ẓanantu"
     },
     "noun": {
-      "ar": "الظَّنّ",
-      "tr": "aẓ-ẓann"
-    },
+      "ar": "ظَنّ",
+      "tr": "ẓann"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c13-11",
@@ -1222,9 +1222,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "zurtu"
     },
     "noun": {
-      "ar": "الزِّيَارَة",
-      "tr": "az-ziyāra"
-    },
+      "ar": "زِيَارَة",
+      "tr": "ziyāra"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c12-6",
@@ -1252,9 +1252,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṣaḥawtu"
     },
     "noun": {
-      "ar": "الصَّحْو",
-      "tr": "aṣ-ṣaḥw"
-    },
+      "ar": "صَحْو",
+      "tr": "ṣaḥw"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c10-11",
@@ -1282,9 +1282,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "katabtu"
     },
     "noun": {
-      "ar": "الكِتَابَة",
-      "tr": "al-kitāba"
-    },
+      "ar": "كِتَابَة",
+      "tr": "kitāba"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c4-22",
@@ -1327,9 +1327,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "badā lī"
     },
     "noun": {
-      "ar": "البُدُوّ",
-      "tr": "al-buduww"
-    },
+      "ar": "بُدُوّ",
+      "tr": "buduww"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c4-3",
@@ -1357,9 +1357,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qaṣadtu"
     },
     "noun": {
-      "ar": "القَصْد",
-      "tr": "al-qaṣd"
-    },
+      "ar": "قَصْد",
+      "tr": "qaṣd"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c6-21",
@@ -1387,9 +1387,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "waṣaltu"
     },
     "noun": {
-      "ar": "الوُصُول",
-      "tr": "al-wuṣūl"
-    },
+      "ar": "وُصُول",
+      "tr": "wuṣūl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c3-30",
@@ -1417,9 +1417,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ḍarabtu"
     },
     "noun": {
-      "ar": "الضَّرْب",
-      "tr": "aḍ-ḍarb"
-    },
+      "ar": "ضَرْب",
+      "tr": "ḍarb"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-22",
@@ -1447,9 +1447,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "kasartu"
     },
     "noun": {
-      "ar": "الكَسْر",
-      "tr": "al-kasr"
-    },
+      "ar": "كَسْر",
+      "tr": "kasr"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-61",
@@ -1482,9 +1482,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "banaytu"
     },
     "noun": {
-      "ar": "البِنَاء",
-      "tr": "al-bināʾ"
-    },
+      "ar": "بِنَاء",
+      "tr": "bināʾ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c10-41",
@@ -1512,9 +1512,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "jiʾtu"
     },
     "noun": {
-      "ar": "المَجِيء",
-      "tr": "al-majīʾ"
-    },
+      "ar": "مَجِيء",
+      "tr": "majīʾ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c10-5",
@@ -1542,9 +1542,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿaqadtu"
     },
     "noun": {
-      "ar": "الْعَقْد",
-      "tr": "al-ʿaqd"
-    },
+      "ar": "عَقْد",
+      "tr": "ʿaqd"
+},
     "form": "I",
     "passive": false,
     "id": "practice-dli-c32-18",
@@ -1572,9 +1572,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "waṣaftu"
     },
     "noun": {
-      "ar": "الوَصْف",
-      "tr": "al-waṣf"
-    },
+      "ar": "وَصْف",
+      "tr": "waṣf"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c7-68",
@@ -1602,9 +1602,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "faṣaltu"
     },
     "noun": {
-      "ar": "الفَصْل",
-      "tr": "al-faṣl"
-    },
+      "ar": "فَصْل",
+      "tr": "faṣl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c13-17",
@@ -1632,9 +1632,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "wajadtu"
     },
     "noun": {
-      "ar": "الوِجْدَان",
-      "tr": "al-wijdān"
-    },
+      "ar": "وِجْدَان",
+      "tr": "wijdān"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c13-24",
@@ -1662,9 +1662,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "nazaltu"
     },
     "noun": {
-      "ar": "النُّزُول",
-      "tr": "an-nuzūl"
-    },
+      "ar": "نُزُول",
+      "tr": "nuzūl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c9-18",
@@ -1692,9 +1692,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "nawaytu"
     },
     "noun": {
-      "ar": "النِّيَّة",
-      "tr": "an-niyya"
-    },
+      "ar": "نِيَّة",
+      "tr": "niyya"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c2-27",
@@ -1722,9 +1722,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿaraftu"
     },
     "noun": {
-      "ar": "المَعْرِفَة",
-      "tr": "al-maʿrifa"
-    },
+      "ar": "مَعْرِفَة",
+      "tr": "maʿrifa"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c3-30",
@@ -1767,9 +1767,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿishtu"
     },
     "noun": {
-      "ar": "العَيْش",
-      "tr": "al-ʿaysh"
-    },
+      "ar": "عَيْش",
+      "tr": "ʿaysh"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c7-12",
@@ -1807,9 +1807,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "faqadtu"
     },
     "noun": {
-      "ar": "الْفَقْد",
-      "tr": "al-faqd"
-    },
+      "ar": "فَقْد",
+      "tr": "faqd"
+},
     "form": "I",
     "passive": false,
     "id": "practice-mango-c9-12",
@@ -1837,9 +1837,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿanaytu"
     },
     "noun": {
-      "ar": "الْعَنْي",
-      "tr": "al-ʿany"
-    },
+      "ar": "عَنْي",
+      "tr": "ʿany"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c13-12",
@@ -1873,9 +1873,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "kāna yajibu ʿalayya"
     },
     "noun": {
-      "ar": "الوُجُوب",
-      "tr": "al-wujūb"
-    },
+      "ar": "وُجُوب",
+      "tr": "wujūb"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c3-40",
@@ -1903,9 +1903,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "nafaytu"
     },
     "noun": {
-      "ar": "النَّفْي",
-      "tr": "an-nafy"
-    },
+      "ar": "نَفْي",
+      "tr": "nafy"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c10-30",
@@ -1933,9 +1933,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "malaktu"
     },
     "noun": {
-      "ar": "المِلْك",
-      "tr": "al-milk"
-    },
+      "ar": "مِلْك",
+      "tr": "milk"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c2-42",
@@ -1963,9 +1963,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṣaraftu"
     },
     "noun": {
-      "ar": "الصَّرْف",
-      "tr": "aṣ-ṣarf"
-    },
+      "ar": "صَرْف",
+      "tr": "ṣarf"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c10-29",
@@ -1998,9 +1998,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "naṭaqtu"
     },
     "noun": {
-      "ar": "النُّطْق",
-      "tr": "an-nuṭq"
-    },
+      "ar": "نُطْق",
+      "tr": "nuṭq"
+},
     "form": "I",
     "passive": false,
     "id": "practice-mango-c6-22",
@@ -2028,9 +2028,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "rajaʿtu"
     },
     "noun": {
-      "ar": "الرُّجُوع",
-      "tr": "ar-rujūʿ"
-    },
+      "ar": "رُجُوع",
+      "tr": "rujūʿ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c13-6",
@@ -2068,9 +2068,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "jaraytu"
     },
     "noun": {
-      "ar": "الجَرْي",
-      "tr": "al-jary"
-    },
+      "ar": "جَرْي",
+      "tr": "jary"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c6-34",
@@ -2103,9 +2103,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "biʿtu"
     },
     "noun": {
-      "ar": "البَيْع",
-      "tr": "al-bayʿ"
-    },
+      "ar": "بَيْع",
+      "tr": "bayʿ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c3-2",
@@ -2133,9 +2133,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "jalastu"
     },
     "noun": {
-      "ar": "الجُلُوس",
-      "tr": "al-julūs"
-    },
+      "ar": "جُلُوس",
+      "tr": "julūs"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c9-12",
@@ -2173,9 +2173,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qaḍaytu"
     },
     "noun": {
-      "ar": "القَضَاء",
-      "tr": "al-qaḍāʾ"
-    },
+      "ar": "قَضَاء",
+      "tr": "qaḍāʾ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c12-18",
@@ -2203,9 +2203,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "mashaytu"
     },
     "noun": {
-      "ar": "الْمَشْي",
-      "tr": "al-mashy"
-    },
+      "ar": "مَشْي",
+      "tr": "mashy"
+},
     "form": "I",
     "passive": false,
     "id": "practice-mango-c10-13",
@@ -2233,9 +2233,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ghasaltu"
     },
     "noun": {
-      "ar": "الْغَسْل",
-      "tr": "al-ghasl"
-    },
+      "ar": "غَسْل",
+      "tr": "ghasl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-mango-c8-29",
@@ -2268,9 +2268,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "mazaḥtu"
     },
     "noun": {
-      "ar": "الْمَزْح",
-      "tr": "al-mazḥ"
-    },
+      "ar": "مَزْح",
+      "tr": "mazḥ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-mango-c10-4",
@@ -2298,9 +2298,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ẓahartu"
     },
     "noun": {
-      "ar": "الظُّهُور",
-      "tr": "aẓ-ẓuhūr"
-    },
+      "ar": "ظُهُور",
+      "tr": "ẓuhūr"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-26",
@@ -2328,9 +2328,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "badaʾtu"
     },
     "noun": {
-      "ar": "البَدْء",
-      "tr": "al-badʾ"
-    },
+      "ar": "بَدْء",
+      "tr": "badʾ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c9-11",
@@ -2363,9 +2363,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qaṭaʿtu"
     },
     "noun": {
-      "ar": "القَطْع",
-      "tr": "al-qaṭʿ"
-    },
+      "ar": "قَطْع",
+      "tr": "qaṭʿ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c7-60",
@@ -2393,9 +2393,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "faʿaltu"
     },
     "noun": {
-      "ar": "الفِعْل",
-      "tr": "al-fiʿl"
-    },
+      "ar": "فِعْل",
+      "tr": "fiʿl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c4-18",
@@ -2423,9 +2423,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "dhahabtu"
     },
     "noun": {
-      "ar": "الذَّهَاب",
-      "tr": "adh-dhahāb"
-    },
+      "ar": "ذَهَاب",
+      "tr": "dhahāb"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c6-11",
@@ -2468,9 +2468,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "nashaʾtu"
     },
     "noun": {
-      "ar": "النُّشُوء",
-      "tr": "an-nushūʾ"
-    },
+      "ar": "نُشُوء",
+      "tr": "nushūʾ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c6-23",
@@ -2498,9 +2498,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "baḥathtu"
     },
     "noun": {
-      "ar": "البَحْث",
-      "tr": "al-baḥth"
-    },
+      "ar": "بَحْث",
+      "tr": "baḥth"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c2-1",
@@ -2533,9 +2533,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "jaʿaltu"
     },
     "noun": {
-      "ar": "الجَعْل",
-      "tr": "al-jaʿl"
-    },
+      "ar": "جَعْل",
+      "tr": "jaʿl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c10-8",
@@ -2563,9 +2563,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṣanaʿtu"
     },
     "noun": {
-      "ar": "الصِّنَاعَة",
-      "tr": "aṣ-ṣināʿa"
-    },
+      "ar": "صِنَاعَة",
+      "tr": "ṣināʿa"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-21",
@@ -2593,9 +2593,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "fataḥtu"
     },
     "noun": {
-      "ar": "الْفَتْح",
-      "tr": "al-fatḥ"
-    },
+      "ar": "فَتْح",
+      "tr": "fatḥ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-dli-c32-19",
@@ -2623,9 +2623,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "dafaʿtu"
     },
     "noun": {
-      "ar": "الدَّفْع",
-      "tr": "ad-dafʿ"
-    },
+      "ar": "دَفْع",
+      "tr": "dafʿ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c6-8",
@@ -2653,9 +2653,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "samaḥtu"
     },
     "noun": {
-      "ar": "السَّمَاح",
-      "tr": "as-samāḥ"
-    },
+      "ar": "سَمَاح",
+      "tr": "samāḥ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c2-12",
@@ -2683,9 +2683,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṭabaʿtu"
     },
     "noun": {
-      "ar": "الطَّبْع",
-      "tr": "aṭ-ṭabʿ"
-    },
+      "ar": "طَبْع",
+      "tr": "ṭabʿ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c7-49",
@@ -2713,9 +2713,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "waḍaʿtu"
     },
     "noun": {
-      "ar": "الوَضْع",
-      "tr": "al-waḍʿ"
-    },
+      "ar": "وَضْع",
+      "tr": "waḍʿ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c4-23",
@@ -2743,9 +2743,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qaraʾtu"
     },
     "noun": {
-      "ar": "القِرَاءَة",
-      "tr": "al-qirāʾa"
-    },
+      "ar": "قِرَاءَة",
+      "tr": "qirāʾa"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c4-20",
@@ -2788,9 +2788,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "raʾaytu"
     },
     "noun": {
-      "ar": "الرُّؤْيَة",
-      "tr": "ar-ruʾya"
-    },
+      "ar": "رُؤْيَة",
+      "tr": "ruʾya"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c10-53",
@@ -2819,9 +2819,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "najaḥtu"
     },
     "noun": {
-      "ar": "النَّجَاح",
-      "tr": "an-najāḥ"
-    },
+      "ar": "نَجَاح",
+      "tr": "najāḥ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c8-22",
@@ -2849,9 +2849,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "raḥaltu"
     },
     "noun": {
-      "ar": "الرَّحِيل",
-      "tr": "ar-raḥīl"
-    },
+      "ar": "رَحِيل",
+      "tr": "raḥīl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c7-44",
@@ -2879,9 +2879,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "saḥabtu"
     },
     "noun": {
-      "ar": "السَّحْب",
-      "tr": "as-saḥb"
-    },
+      "ar": "سَحْب",
+      "tr": "saḥb"
+},
     "form": "I",
     "passive": false,
     "id": "practice-dli-c32-13",
@@ -2909,9 +2909,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qabiltu"
     },
     "noun": {
-      "ar": "القَبُول",
-      "tr": "al-qabūl"
-    },
+      "ar": "قَبُول",
+      "tr": "qabūl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c3-39",
@@ -2939,9 +2939,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "khiftu"
     },
     "noun": {
-      "ar": "الخَوْف عَلَى",
-      "tr": "al-khawf ʿalā"
-    },
+      "ar": "خَوْف عَلَى",
+      "tr": "khawf ʿalā"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c5-13",
@@ -2970,9 +2970,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "mā ziltu"
     },
     "noun": {
-      "ar": "الزَّوال",
-      "tr": "az-zawāl"
-    },
+      "ar": "زَوال",
+      "tr": "zawāl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c13-30",
@@ -3000,9 +3000,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "fashiltu"
     },
     "noun": {
-      "ar": "الفَشَل",
-      "tr": "al-fashal"
-    },
+      "ar": "فَشَل",
+      "tr": "fashal"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c13-16",
@@ -3030,9 +3030,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tabiʿtu"
     },
     "noun": {
-      "ar": "التَّبَع",
-      "tr": "at-tabaʿ"
-    },
+      "ar": "تَبَع",
+      "tr": "tabaʿ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-mango-c10-24-form-1",
@@ -3060,9 +3060,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "nasītu"
     },
     "noun": {
-      "ar": "النِّسْيان",
-      "tr": "an-nisyān"
-    },
+      "ar": "نِسْيان",
+      "tr": "nisyān"
+},
     "form": "I",
     "passive": false,
     "id": "practice-mango-c9-13",
@@ -3090,9 +3090,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ghaḍibtu"
     },
     "noun": {
-      "ar": "الغَضَب",
-      "tr": "al-ghaḍab"
-    },
+      "ar": "غَضَب",
+      "tr": "ghaḍab"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c2-17",
@@ -3120,9 +3120,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "samiʿtu"
     },
     "noun": {
-      "ar": "السَّماع",
-      "tr": "as-samāʿ"
-    },
+      "ar": "سَماع",
+      "tr": "samāʿ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-mango-c5-8",
@@ -3155,9 +3155,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "shamiltu"
     },
     "noun": {
-      "ar": "الشُّمُول",
-      "tr": "ash-shumūl"
-    },
+      "ar": "شُمُول",
+      "tr": "shumūl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c7-13",
@@ -3185,9 +3185,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿalimtu"
     },
     "noun": {
-      "ar": "العِلْم",
-      "tr": "al-ʿilm"
-    },
+      "ar": "عِلْم",
+      "tr": "ʿilm"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c12-11",
@@ -3220,9 +3220,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ḥafiẓtu"
     },
     "noun": {
-      "ar": "الحِفْظ",
-      "tr": "al-ḥifẓ"
-    },
+      "ar": "حِفْظ",
+      "tr": "ḥifẓ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c4-15",
@@ -3250,9 +3250,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "laʿibtu"
     },
     "noun": {
-      "ar": "اللَّعِب",
-      "tr": "al-laʿib"
-    },
+      "ar": "لَعِب",
+      "tr": "laʿib"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c6-22",
@@ -3280,9 +3280,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "baqītu"
     },
     "noun": {
-      "ar": "البَقَاء",
-      "tr": "al-baqāʾ"
-    },
+      "ar": "بَقَاء",
+      "tr": "baqāʾ"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c2-2",
@@ -3310,9 +3310,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ẓaliltu"
     },
     "noun": {
-      "ar": "الظُّلُول",
-      "tr": "aẓ-ẓulūl"
-    },
+      "ar": "ظُلُول",
+      "tr": "ẓulūl"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-25",
@@ -3340,9 +3340,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "nimtu"
     },
     "noun": {
-      "ar": "النَّوْم",
-      "tr": "an-nawm"
-    },
+      "ar": "نَوْم",
+      "tr": "nawm"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c10-27",
@@ -3370,9 +3370,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "sahirtu"
     },
     "noun": {
-      "ar": "السَّهَر",
-      "tr": "as-sahar"
-    },
+      "ar": "سَهَر",
+      "tr": "sahar"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c10-9",
@@ -3400,9 +3400,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "fahimtu"
     },
     "noun": {
-      "ar": "الفَهْم",
-      "tr": "al-fahm"
-    },
+      "ar": "فَهْم",
+      "tr": "fahm"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c10-16",
@@ -3450,9 +3450,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "labistu"
     },
     "noun": {
-      "ar": "اللُّبْس",
-      "tr": "al-lubs"
-    },
+      "ar": "لُبْس",
+      "tr": "lubs"
+},
     "form": "I",
     "passive": false,
     "id": "practice-mango-c8-1",
@@ -3485,9 +3485,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "raghibtu"
     },
     "noun": {
-      "ar": "الرَّغْبَة",
-      "tr": "ar-raghba"
-    },
+      "ar": "رَغْبَة",
+      "tr": "raghba"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak-c13-7",
@@ -3515,9 +3515,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "shahidtu"
     },
     "noun": {
-      "ar": "الشُّهُود",
-      "tr": "ash-shuhūd"
-    },
+      "ar": "شُهُود",
+      "tr": "shuhūd"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c9-44",
@@ -3545,9 +3545,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿamiltu"
     },
     "noun": {
-      "ar": "العَمَل",
-      "tr": "al-ʿamal"
-    },
+      "ar": "عَمَل",
+      "tr": "ʿamal"
+},
     "form": "I",
     "passive": false,
     "id": "practice-c1-17",
@@ -3580,9 +3580,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿaẓumtu"
     },
     "noun": {
-      "ar": "الْعَظَمَة",
-      "tr": "al-ʿaẓama"
-    },
+      "ar": "عَظَمَة",
+      "tr": "ʿaẓama"
+},
     "form": "I",
     "passive": false,
     "id": "practice-dli-c36-3",
@@ -3610,9 +3610,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "kaburtu"
     },
     "noun": {
-      "ar": "الْكِبَر",
-      "tr": "al-kibar"
-    },
+      "ar": "كِبَر",
+      "tr": "kibar"
+},
     "form": "I",
     "passive": false,
     "id": "practice-dli-c36-6",
@@ -3640,9 +3640,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "wathiqtu"
     },
     "noun": {
-      "ar": "الثِّقَة",
-      "tr": "ath-thiqa"
-    },
+      "ar": "ثِقَة",
+      "tr": "thiqa"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c5-31",
@@ -3670,9 +3670,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qubiltu"
     },
     "noun": {
-      "ar": "القَبُول",
-      "tr": "al-qabūl"
-    },
+      "ar": "قَبُول",
+      "tr": "qabūl"
+},
     "form": "I",
     "passive": true,
     "id": "practice-ak2-c6-44",
@@ -3700,9 +3700,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "wulidtu"
     },
     "noun": {
-      "ar": "الْوِلادَة",
-      "tr": "al-wilāda"
-    },
+      "ar": "وِلادَة",
+      "tr": "wilāda"
+},
     "form": "I",
     "passive": true,
     "id": "practice-mango-c4-40-form-1",
@@ -3735,9 +3735,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ukhidhtu"
     },
     "noun": {
-      "ar": "الأَخْذ",
-      "tr": "al-akhdh"
-    },
+      "ar": "أَخْذ",
+      "tr": "akhdh"
+},
     "form": "I",
     "passive": true,
     "id": "practice-ak2-c6-29",
@@ -3765,9 +3765,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tamamtu"
     },
     "noun": {
-      "ar": "التَّمام",
-      "tr": "at-tamām"
-    },
+      "ar": "تَمام",
+      "tr": "tamām"
+},
     "form": "I",
     "passive": false,
     "id": "practice-ak2-c6-33",
@@ -3795,9 +3795,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿuyyintu"
     },
     "noun": {
-      "ar": "التَّعْيِين",
-      "tr": "at-taʿyīn"
-    },
+      "ar": "تَعْيِين",
+      "tr": "taʿyīn"
+},
     "form": "II",
     "passive": true,
     "id": "practice-ak-c12-32",
@@ -3825,9 +3825,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "summītu"
     },
     "noun": {
-      "ar": "التَّسْمِيَة",
-      "tr": "at-tasmiya"
-    },
+      "ar": "تَسْمِيَة",
+      "tr": "tasmiya"
+},
     "form": "II",
     "passive": true,
     "id": "practice-mango-c4-17",
@@ -3855,9 +3855,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "rattabtu"
     },
     "noun": {
-      "ar": "التَّرْتِيب",
-      "tr": "at-tartīb"
-    },
+      "ar": "تَرْتِيب",
+      "tr": "tartīb"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c3-9",
@@ -3885,9 +3885,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "baddaltu"
     },
     "noun": {
-      "ar": "التَّبْدِيل",
-      "tr": "at-tabdīl"
-    },
+      "ar": "تَبْدِيل",
+      "tr": "tabdīl"
+},
     "form": "II",
     "passive": false,
     "id": "practice-mango-c8-6",
@@ -3915,9 +3915,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ghayyartu"
     },
     "noun": {
-      "ar": "التَّغْيِير",
-      "tr": "at-taghyīr"
-    },
+      "ar": "تَغْيِير",
+      "tr": "taghyīr"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c3-38",
@@ -3945,9 +3945,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "kammaltu"
     },
     "noun": {
-      "ar": "التَّكْمِيل",
-      "tr": "at-takmīl"
-    },
+      "ar": "تَكْمِيل",
+      "tr": "takmīl"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c2-21",
@@ -3975,9 +3975,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ghaṭṭaytu"
     },
     "noun": {
-      "ar": "التَّغْطِيَة",
-      "tr": "at-taghṭiya"
-    },
+      "ar": "تَغْطِيَة",
+      "tr": "taghṭiya"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c9-32",
@@ -4005,9 +4005,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qarrartu"
     },
     "noun": {
-      "ar": "التَّقْرِير",
-      "tr": "at-taqrīr"
-    },
+      "ar": "تَقْرِير",
+      "tr": "taqrīr"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak-c12-15",
@@ -4040,9 +4040,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "bayyantu"
     },
     "noun": {
-      "ar": "التَّبْيِين",
-      "tr": "at-tabyīn"
-    },
+      "ar": "تَبْيِين",
+      "tr": "tabyīn"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c10-43",
@@ -4070,9 +4070,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "khaṣṣaṣtu"
     },
     "noun": {
-      "ar": "التَّخْصِيص",
-      "tr": "at-takhṣīṣ"
-    },
+      "ar": "تَخْصِيص",
+      "tr": "takhṣīṣ"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c10-50",
@@ -4100,9 +4100,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ḥaddadtu"
     },
     "noun": {
-      "ar": "التَّحْدِيد",
-      "tr": "at-taḥdīd"
-    },
+      "ar": "تَحْدِيد",
+      "tr": "taḥdīd"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c2-6",
@@ -4135,9 +4135,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṭawwartu"
     },
     "noun": {
-      "ar": "التَّطْوِير",
-      "tr": "at-taṭwīr"
-    },
+      "ar": "تَطْوِير",
+      "tr": "taṭwīr"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c9-23",
@@ -4165,9 +4165,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "wazzaʿtu"
     },
     "noun": {
-      "ar": "التَّوْزِيع",
-      "tr": "at-tawzīʿ"
-    },
+      "ar": "تَوْزِيع",
+      "tr": "tawzīʿ"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c10-37",
@@ -4195,9 +4195,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "shajjaʿtu"
     },
     "noun": {
-      "ar": "التَّشْجِيع",
-      "tr": "at-tashjīʿ"
-    },
+      "ar": "تَشْجِيع",
+      "tr": "tashjīʿ"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak-c13-10",
@@ -4225,9 +4225,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qayyamtu"
     },
     "noun": {
-      "ar": "التَّقْيِيم",
-      "tr": "at-taqyīm"
-    },
+      "ar": "تَقْيِيم",
+      "tr": "taqyīm"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c10-73",
@@ -4255,9 +4255,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "fassartu"
     },
     "noun": {
-      "ar": "التَّفْسِير",
-      "tr": "at-tafsīr"
-    },
+      "ar": "تَفْسِير",
+      "tr": "tafsīr"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c10-23",
@@ -4285,9 +4285,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿabbartu"
     },
     "noun": {
-      "ar": "التَّعْبِير",
-      "tr": "at-taʿbīr"
-    },
+      "ar": "تَعْبِير",
+      "tr": "taʿbīr"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c9-53",
@@ -4315,9 +4315,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "mawwaltu"
     },
     "noun": {
-      "ar": "التَّمْوِيل",
-      "tr": "at-tamwīl"
-    },
+      "ar": "تَمْوِيل",
+      "tr": "tamwīl"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c10-76",
@@ -4345,9 +4345,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "lammaḥtu"
     },
     "noun": {
-      "ar": "التَّلْمِيح",
-      "tr": "at-talmīḥ"
-    },
+      "ar": "تَلْمِيح",
+      "tr": "talmīḥ"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c5-26",
@@ -4375,9 +4375,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "kallaftu"
     },
     "noun": {
-      "ar": "التَّكْلِيف",
-      "tr": "at-taklīf"
-    },
+      "ar": "تَكْلِيف",
+      "tr": "taklīf"
+},
     "form": "II",
     "passive": false,
     "id": "practice-mango-c7-4",
@@ -4405,9 +4405,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aththartu"
     },
     "noun": {
-      "ar": "التَّأْثِير",
-      "tr": "at-taʾthīr"
-    },
+      "ar": "تَأْثِير",
+      "tr": "taʾthīr"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c9-1",
@@ -4435,9 +4435,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "addaytu"
     },
     "noun": {
-      "ar": "التَّأْدِيَة",
-      "tr": "at-taʾdiya"
-    },
+      "ar": "تَأْدِيَة",
+      "tr": "taʾdiya"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c10-1",
@@ -4465,9 +4465,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "naẓẓamtu"
     },
     "noun": {
-      "ar": "التَّنْظِيم",
-      "tr": "at-tanẓīm"
-    },
+      "ar": "تَنْظِيم",
+      "tr": "tanẓīm"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c9-37",
@@ -4495,9 +4495,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "khaṭṭaṭtu"
     },
     "noun": {
-      "ar": "التَّخْطِيط",
-      "tr": "at-takhṭīṭ"
-    },
+      "ar": "تَخْطِيط",
+      "tr": "takhṭīṭ"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c10-12",
@@ -4525,9 +4525,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṣallaytu"
     },
     "noun": {
-      "ar": "الصَّلاة",
-      "tr": "aṣ-ṣalāh"
-    },
+      "ar": "صَلاة",
+      "tr": "ṣalāh"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak-c10-14",
@@ -4555,9 +4555,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qaddamtu"
     },
     "noun": {
-      "ar": "التَّقْدِيم",
-      "tr": "at-taqdīm"
-    },
+      "ar": "تَقْدِيم",
+      "tr": "taqdīm"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c6-46",
@@ -4590,9 +4590,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "sajjaltu"
     },
     "noun": {
-      "ar": "التَّسْجِيل",
-      "tr": "at-tasjīl"
-    },
+      "ar": "تَسْجِيل",
+      "tr": "tasjīl"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c7-11",
@@ -4620,9 +4620,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ṣallaḥtu"
     },
     "noun": {
-      "ar": "التَّصْلِيح",
-      "tr": "at-taṣlīḥ"
-    },
+      "ar": "تَصْلِيح",
+      "tr": "taṣlīḥ"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c3-20",
@@ -4650,9 +4650,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "karrartu"
     },
     "noun": {
-      "ar": "التَّكْرار",
-      "tr": "at-takrār"
-    },
+      "ar": "تَكْرار",
+      "tr": "takrār"
+},
     "form": "II",
     "passive": false,
     "id": "practice-mango-c6-14",
@@ -4680,9 +4680,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "dakhkhantu"
     },
     "noun": {
-      "ar": "التَّدْخِين",
-      "tr": "at-tadkhīn"
-    },
+      "ar": "تَدْخِين",
+      "tr": "tadkhīn"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak-c9-14",
@@ -4710,9 +4710,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "darrastu"
     },
     "noun": {
-      "ar": "التَّدْرِيس",
-      "tr": "at-tadrīs"
-    },
+      "ar": "تَدْرِيس",
+      "tr": "tadrīs"
+},
     "form": "II",
     "passive": false,
     "id": "practice-c3-21",
@@ -4745,9 +4745,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿallamtu"
     },
     "noun": {
-      "ar": "التَّعْلِيم",
-      "tr": "at-taʿlīm"
-    },
+      "ar": "تَعْلِيم",
+      "tr": "taʿlīm"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c2-38",
@@ -4780,9 +4780,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "fakkartu"
     },
     "noun": {
-      "ar": "التَّفْكِير",
-      "tr": "at-tafkīr"
-    },
+      "ar": "تَفْكِير",
+      "tr": "tafkīr"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak-c13-18",
@@ -4810,9 +4810,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "dawwantu"
     },
     "noun": {
-      "ar": "التَّدْوِين",
-      "tr": "at-tadwīn"
-    },
+      "ar": "تَدْوِين",
+      "tr": "tadwīn"
+},
     "form": "II",
     "passive": false,
     "id": "practice-ak2-c9-13",
@@ -4840,9 +4840,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "wāfaqtu"
     },
     "noun": {
-      "ar": "المُوَافَقَة",
-      "tr": "al-muwāfaqa"
-    },
+      "ar": "مُوَافَقَة",
+      "tr": "muwāfaqa"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c10-38",
@@ -4870,9 +4870,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ḥāwaltu"
     },
     "noun": {
-      "ar": "المُحَاوَلَة",
-      "tr": "al-muḥāwala"
-    },
+      "ar": "مُحَاوَلَة",
+      "tr": "muḥāwala"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c5-9",
@@ -4900,9 +4900,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "sāhamtu"
     },
     "noun": {
-      "ar": "المُسَاهَمَة",
-      "tr": "al-musāhama"
-    },
+      "ar": "مُسَاهَمَة",
+      "tr": "musāhama"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c9-19",
@@ -4930,9 +4930,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ḥādathtu"
     },
     "noun": {
-      "ar": "الْمُحادَثَة",
-      "tr": "al-muḥādatha"
-    },
+      "ar": "مُحادَثَة",
+      "tr": "muḥādatha"
+},
     "form": "III",
     "passive": false,
     "id": "practice-dli-c27-10",
@@ -4960,9 +4960,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "kātabtu"
     },
     "noun": {
-      "ar": "الْمُكاتَبَة",
-      "tr": "al-mukātaba"
-    },
+      "ar": "مُكاتَبَة",
+      "tr": "mukātaba"
+},
     "form": "III",
     "passive": false,
     "id": "practice-dli-c27-11",
@@ -4990,9 +4990,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "nāqashtu"
     },
     "noun": {
-      "ar": "المُنَاقَشَة",
-      "tr": "al-munāqasha"
-    },
+      "ar": "مُنَاقَشَة",
+      "tr": "munāqasha"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c5-27",
@@ -5020,9 +5020,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "hājartu"
     },
     "noun": {
-      "ar": "الهِجْرَة",
-      "tr": "al-hijra"
-    },
+      "ar": "هِجْرَة",
+      "tr": "hijra"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c2-28",
@@ -5050,9 +5050,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "sāʿadtu"
     },
     "noun": {
-      "ar": "المُسَاعَدَة",
-      "tr": "al-musāʿada"
-    },
+      "ar": "مُسَاعَدَة",
+      "tr": "musāʿada"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak-c8-14",
@@ -5080,9 +5080,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ghādartu"
     },
     "noun": {
-      "ar": "المُغَادَرَة",
-      "tr": "al-mughādara"
-    },
+      "ar": "مُغَادَرَة",
+      "tr": "mughādara"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c5-24",
@@ -5110,9 +5110,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qābaltu"
     },
     "noun": {
-      "ar": "الْمُقابَلَة",
-      "tr": "al-muqābala"
-    },
+      "ar": "مُقابَلَة",
+      "tr": "muqābala"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak-c10-17",
@@ -5150,9 +5150,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "lāḥaẓtu"
     },
     "noun": {
-      "ar": "المُلَاحَظَة",
-      "tr": "al-mulāḥaẓa"
-    },
+      "ar": "مُلَاحَظَة",
+      "tr": "mulāḥaẓa"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c7-29",
@@ -5180,9 +5180,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿāraḍtu"
     },
     "noun": {
-      "ar": "المُعَارَضَة",
-      "tr": "al-muʿāraḍa"
-    },
+      "ar": "مُعَارَضَة",
+      "tr": "muʿāraḍa"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c9-28",
@@ -5210,9 +5210,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "qāwamtu"
     },
     "noun": {
-      "ar": "المُقَاوَمَة",
-      "tr": "al-muqāwama"
-    },
+      "ar": "مُقَاوَمَة",
+      "tr": "muqāwama"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c9-60",
@@ -5240,9 +5240,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "dhākartu"
     },
     "noun": {
-      "ar": "المُذَاكَرَة",
-      "tr": "al-mudhākara"
-    },
+      "ar": "مُذَاكَرَة",
+      "tr": "mudhākara"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak-c8-8",
@@ -5270,9 +5270,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "shāhadtu"
     },
     "noun": {
-      "ar": "الْمُشاهَدَة",
-      "tr": "al-mushāhada"
-    },
+      "ar": "مُشاهَدَة",
+      "tr": "mushāhada"
+},
     "form": "III",
     "passive": false,
     "id": "practice-dli-c27-6",
@@ -5300,9 +5300,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ʿānaytu"
     },
     "noun": {
-      "ar": "المُعَانَاة",
-      "tr": "al-muʿānāh"
-    },
+      "ar": "مُعَانَاة",
+      "tr": "muʿānāh"
+},
     "form": "III",
     "passive": false,
     "id": "practice-ak2-c10-21",
@@ -5330,9 +5330,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "sāfartu"
     },
     "noun": {
-      "ar": "السَّفَر",
-      "tr": "as-safar"
-    },
+      "ar": "سَفَر",
+      "tr": "safar"
+},
     "form": "III",
     "passive": false,
     "id": "practice-c4-18",
@@ -5370,9 +5370,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aḍaftu"
     },
     "noun": {
-      "ar": "الإِضَافَة",
-      "tr": "al-iḍāfa"
-    },
+      "ar": "إِضَافَة",
+      "tr": "iḍāfa"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c10-60",
@@ -5400,9 +5400,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "unshiʾtu"
     },
     "noun": {
-      "ar": "الْإِنْشاء",
-      "tr": "al-inshāʾ"
-    },
+      "ar": "إِنْشاء",
+      "tr": "inshāʾ"
+},
     "form": "IV",
     "passive": true,
     "id": "practice-ak2-c9-65",
@@ -5430,9 +5430,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aṣbaḥtu"
     },
     "noun": {
-      "ar": "الإِصْبَاح",
-      "tr": "al-iṣbāḥ"
-    },
+      "ar": "إِصْبَاح",
+      "tr": "iṣbāḥ"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak-c10-10",
@@ -5460,9 +5460,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "āmantu"
     },
     "noun": {
-      "ar": "الإِيمَان",
-      "tr": "al-īmān"
-    },
+      "ar": "إِيمَان",
+      "tr": "īmān"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c4-2",
@@ -5490,9 +5490,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "awṣaltu"
     },
     "noun": {
-      "ar": "الإِيصَال",
-      "tr": "al-īṣāl"
-    },
+      "ar": "إِيصَال",
+      "tr": "īṣāl"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c9-67",
@@ -5520,9 +5520,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "amkananī"
     },
     "noun": {
-      "ar": "الإِمْكَان",
-      "tr": "al-imkān"
-    },
+      "ar": "إِمْكَان",
+      "tr": "imkān"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak-c10-24",
@@ -5555,9 +5555,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "akmaltu"
     },
     "noun": {
-      "ar": "الْإِكْمال",
-      "tr": "al-ikmāl"
-    },
+      "ar": "إِكْمال",
+      "tr": "ikmāl"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-dli-c29-15",
@@ -5585,9 +5585,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "afṭartu"
     },
     "noun": {
-      "ar": "الإِفْطَار",
-      "tr": "al-ifṭār"
-    },
+      "ar": "إِفْطَار",
+      "tr": "ifṭār"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak-c9-17",
@@ -5615,9 +5615,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "anshaʾtu"
     },
     "noun": {
-      "ar": "الإِنْشَاء",
-      "tr": "al-inshāʾ"
-    },
+      "ar": "إِنْشَاء",
+      "tr": "inshāʾ"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c9-64",
@@ -5645,9 +5645,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aḥsastu"
     },
     "noun": {
-      "ar": "الإِحْسَاس",
-      "tr": "al-iḥsās"
-    },
+      "ar": "إِحْسَاس",
+      "tr": "iḥsās"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c6-36",
@@ -5675,9 +5675,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aʿṭaytu"
     },
     "noun": {
-      "ar": "الْإِعْطاء",
-      "tr": "al-iʿṭāʾ"
-    },
+      "ar": "إِعْطاء",
+      "tr": "iʿṭāʾ"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-mango-c7-10",
@@ -5710,9 +5710,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aḥbabtu"
     },
     "noun": {
-      "ar": "الْحُبّ",
-      "tr": "al-ḥubb"
-    },
+      "ar": "حُبّ",
+      "tr": "ḥubb"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-mango-c3-26",
@@ -5745,9 +5745,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "asqaṭtu"
     },
     "noun": {
-      "ar": "الإِسْقَاط",
-      "tr": "al-isqāṭ"
-    },
+      "ar": "إِسْقَاط",
+      "tr": "isqāṭ"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c9-18",
@@ -5775,9 +5775,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ashartu"
     },
     "noun": {
-      "ar": "الإِشَارَة",
-      "tr": "al-ishāra"
-    },
+      "ar": "إِشَارَة",
+      "tr": "ishāra"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c10-19",
@@ -5805,9 +5805,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aʿdadtu"
     },
     "noun": {
-      "ar": "الإِعْدَاد",
-      "tr": "al-iʿdād"
-    },
+      "ar": "إِعْدَاد",
+      "tr": "iʿdād"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c1-23",
@@ -5835,9 +5835,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aṣdartu"
     },
     "noun": {
-      "ar": "الإِصْدَار",
-      "tr": "al-iṣdār"
-    },
+      "ar": "إِصْدَار",
+      "tr": "iṣdār"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c9-48",
@@ -5865,9 +5865,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aʿadtu"
     },
     "noun": {
-      "ar": "الإِعَادَة",
-      "tr": "al-iʿāda"
-    },
+      "ar": "إِعَادَة",
+      "tr": "iʿāda"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c7-57",
@@ -5895,9 +5895,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "arsaltu"
     },
     "noun": {
-      "ar": "الإِرْسَال",
-      "tr": "al-irsāl"
-    },
+      "ar": "إِرْسَال",
+      "tr": "irsāl"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c3-34",
@@ -5925,9 +5925,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "athartu"
     },
     "noun": {
-      "ar": "الإِثَارَة",
-      "tr": "al-ithāra"
-    },
+      "ar": "إِثَارَة",
+      "tr": "ithāra"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c9-4",
@@ -5955,9 +5955,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "awqaftu"
     },
     "noun": {
-      "ar": "الإِيقَاف",
-      "tr": "al-īqāf"
-    },
+      "ar": "إِيقَاف",
+      "tr": "īqāf"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c6-28",
@@ -5985,9 +5985,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ashraftu"
     },
     "noun": {
-      "ar": "الإِشْرَاف",
-      "tr": "al-ishrāf"
-    },
+      "ar": "إِشْرَاف",
+      "tr": "ishrāf"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak2-c4-11",
@@ -6015,9 +6015,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ayqaẓtu"
     },
     "noun": {
-      "ar": "الإِيقَاظ",
-      "tr": "al-īqāẓ"
-    },
+      "ar": "إِيقَاظ",
+      "tr": "īqāẓ"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak-c9-19",
@@ -6050,9 +6050,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "aradtu"
     },
     "noun": {
-      "ar": "الإِرَادَة",
-      "tr": "al-irāda"
-    },
+      "ar": "إِرَادَة",
+      "tr": "irāda"
+},
     "form": "IV",
     "passive": false,
     "id": "practice-ak-c8-13",
@@ -6085,9 +6085,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taṣarraftu"
     },
     "noun": {
-      "ar": "التَّصَرُّف",
-      "tr": "at-taṣarruf"
-    },
+      "ar": "تَصَرُّف",
+      "tr": "taṣarruf"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak2-c6-12",
@@ -6115,9 +6115,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taqaddamtu"
     },
     "noun": {
-      "ar": "التَّقَدُّم",
-      "tr": "at-taqaddum"
-    },
+      "ar": "تَقَدُّم",
+      "tr": "taqaddum"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak2-c9-57",
@@ -6145,9 +6145,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taghayyabtu"
     },
     "noun": {
-      "ar": "التَّغَيُّب",
-      "tr": "at-taghayyub"
-    },
+      "ar": "تَغَيُّب",
+      "tr": "taghayyub"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak-c12-13",
@@ -6175,9 +6175,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taʾaththartu"
     },
     "noun": {
-      "ar": "التَّأَثُّر",
-      "tr": "at-taʾaththur"
-    },
+      "ar": "تَأَثُّر",
+      "tr": "taʾaththur"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak2-c9-2",
@@ -6205,9 +6205,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taḥammaltu"
     },
     "noun": {
-      "ar": "التَّحَمُّل",
-      "tr": "at-taḥammul"
-    },
+      "ar": "تَحَمُّل",
+      "tr": "taḥammul"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak2-c10-46",
@@ -6235,9 +6235,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taṭawwartu"
     },
     "noun": {
-      "ar": "التَّطَوُّر",
-      "tr": "at-taṭawwur"
-    },
+      "ar": "تَطَوُّر",
+      "tr": "taṭawwur"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak2-c9-24",
@@ -6265,9 +6265,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tamattaʿtu"
     },
     "noun": {
-      "ar": "التَّمَتُّع",
-      "tr": "at-tamattuʿ"
-    },
+      "ar": "تَمَتُّع",
+      "tr": "tamattuʿ"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak2-c9-62",
@@ -6295,9 +6295,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tajammaʿtu"
     },
     "noun": {
-      "ar": "التَّجَمُّع",
-      "tr": "at-tajammuʿ"
-    },
+      "ar": "تَجَمُّع",
+      "tr": "tajammuʿ"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak-c11-8",
@@ -6325,9 +6325,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taʿarraftu"
     },
     "noun": {
-      "ar": "التَّعَرُّف",
-      "tr": "at-taʿarruf"
-    },
+      "ar": "تَعَرُّف",
+      "tr": "taʿarruf"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak-c11-16",
@@ -6355,9 +6355,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "takharrajtu"
     },
     "noun": {
-      "ar": "التَّخَرُّج",
-      "tr": "at-takharruj"
-    },
+      "ar": "تَخَرُّج",
+      "tr": "takharruj"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak-c6-5",
@@ -6385,9 +6385,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tamannaytu"
     },
     "noun": {
-      "ar": "التَّمَنِّي",
-      "tr": "at-tamannī"
-    },
+      "ar": "تَمَنِّي",
+      "tr": "tamannī"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak2-c1-28",
@@ -6415,9 +6415,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taʿallamtu"
     },
     "noun": {
-      "ar": "التَّعَلُّم",
-      "tr": "at-taʿallum"
-    },
+      "ar": "تَعَلُّم",
+      "tr": "taʿallum"
+},
     "form": "V",
     "passive": false,
     "id": "practice-mango-c6-1",
@@ -6450,9 +6450,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tanaqqaltu"
     },
     "noun": {
-      "ar": "التَّنَقُّل",
-      "tr": "at-tanaqqul"
-    },
+      "ar": "تَنَقُّل",
+      "tr": "tanaqqul"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak2-c7-65",
@@ -6480,9 +6480,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tadhakkartu"
     },
     "noun": {
-      "ar": "التَّذَكُّر",
-      "tr": "at-tadhakkur"
-    },
+      "ar": "تَذَكُّر",
+      "tr": "tadhakkur"
+},
     "form": "V",
     "passive": false,
     "id": "practice-c4-16",
@@ -6515,9 +6515,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taḥaddathtu"
     },
     "noun": {
-      "ar": "التَّحَدُّث",
-      "tr": "at-taḥadduth"
-    },
+      "ar": "تَحَدُّث",
+      "tr": "taḥadduth"
+},
     "form": "V",
     "passive": false,
     "id": "practice-mango-c4-10",
@@ -6555,9 +6555,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tahajjaytu"
     },
     "noun": {
-      "ar": "التَّهَجِّي",
-      "tr": "at-tahajjī"
-    },
+      "ar": "تَهَجِّي",
+      "tr": "tahajjī"
+},
     "form": "V",
     "passive": false,
     "id": "practice-mango-c6-31",
@@ -6585,9 +6585,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "takallamtu"
     },
     "noun": {
-      "ar": "التَّكَلُّم",
-      "tr": "at-takallum"
-    },
+      "ar": "تَكَلُّم",
+      "tr": "takallum"
+},
     "form": "V",
     "passive": false,
     "id": "practice-c2-9",
@@ -6615,9 +6615,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tawallaytu"
     },
     "noun": {
-      "ar": "التَّوَلِّي",
-      "tr": "at-tawallī"
-    },
+      "ar": "تَوَلِّي",
+      "tr": "tawallī"
+},
     "form": "V",
     "passive": false,
     "id": "practice-ak2-c4-37",
@@ -6645,9 +6645,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tawāṣaltu"
     },
     "noun": {
-      "ar": "التَّوَاصُل",
-      "tr": "at-tawāṣul"
-    },
+      "ar": "تَوَاصُل",
+      "tr": "tawāṣul"
+},
     "form": "VI",
     "passive": false,
     "id": "practice-ak2-c9-69",
@@ -6675,9 +6675,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taʿāmaltu"
     },
     "noun": {
-      "ar": "التَّعَامُل",
-      "tr": "at-taʿāmul"
-    },
+      "ar": "تَعَامُل",
+      "tr": "taʿāmul"
+},
     "form": "VI",
     "passive": false,
     "id": "practice-ak2-c10-62",
@@ -6705,9 +6705,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "taẓāhartu"
     },
     "noun": {
-      "ar": "التَّظَاهُر",
-      "tr": "at-taẓāhur"
-    },
+      "ar": "تَظَاهُر",
+      "tr": "taẓāhur"
+},
     "form": "VI",
     "passive": false,
     "id": "practice-ak2-c9-27",
@@ -6735,9 +6735,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tanāqashtu"
     },
     "noun": {
-      "ar": "التَّنَاقُش",
-      "tr": "at-tanāqush"
-    },
+      "ar": "تَنَاقُش",
+      "tr": "tanāqush"
+},
     "form": "VI",
     "passive": false,
     "id": "practice-ak2-c5-28",
@@ -6765,9 +6765,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tabādaltu"
     },
     "noun": {
-      "ar": "التَّبَادُل",
-      "tr": "at-tabādul"
-    },
+      "ar": "تَبَادُل",
+      "tr": "tabādul"
+},
     "form": "VI",
     "passive": false,
     "id": "practice-ak-c11-5",
@@ -6795,9 +6795,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tafāʿaltu"
     },
     "noun": {
-      "ar": "التَّفَاعُل",
-      "tr": "at-tafāʿul"
-    },
+      "ar": "تَفَاعُل",
+      "tr": "tafāʿul"
+},
     "form": "VI",
     "passive": false,
     "id": "practice-ak2-c10-66",
@@ -6825,9 +6825,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "inqaṭaʿtu"
     },
     "noun": {
-      "ar": "الانْقِطَاع",
-      "tr": "al-inqiṭāʿ"
-    },
+      "ar": "اِنْقِطَاع",
+      "tr": "inqiṭāʿ"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-ak-c11-23",
@@ -6855,9 +6855,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "inkhafaḍtu"
     },
     "noun": {
-      "ar": "الانْخِفَاض",
-      "tr": "al-inkhifāḍ"
-    },
+      "ar": "اِنْخِفَاض",
+      "tr": "inkhifāḍ"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-ak2-c10-14",
@@ -6885,9 +6885,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "inshaghaltu"
     },
     "noun": {
-      "ar": "الانْشِغَال",
-      "tr": "al-inshighāl"
-    },
+      "ar": "اِنْشِغَال",
+      "tr": "inshighāl"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-ak2-c4-30",
@@ -6915,9 +6915,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "inkasartu"
     },
     "noun": {
-      "ar": "الاِنْكِسار",
-      "tr": "al-inkisār"
-    },
+      "ar": "اِنْكِسار",
+      "tr": "inkisār"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-dli-c32-16",
@@ -6945,9 +6945,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "inʿaqadtu"
     },
     "noun": {
-      "ar": "الاِنْعِقاد",
-      "tr": "al-inʿiqād"
-    },
+      "ar": "اِنْعِقاد",
+      "tr": "inʿiqād"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-dli-c32-6",
@@ -6975,9 +6975,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "inṣaraftu"
     },
     "noun": {
-      "ar": "الاِنْصِراف",
-      "tr": "al-inṣirāf"
-    },
+      "ar": "اِنْصِراف",
+      "tr": "inṣirāf"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-dli-c32-4",
@@ -7005,9 +7005,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "inkatabtu"
     },
     "noun": {
-      "ar": "الاِنْكِتاب",
-      "tr": "al-inkitāb"
-    },
+      "ar": "اِنْكِتاب",
+      "tr": "inkitāb"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-dli-c32-15",
@@ -7035,9 +7035,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "infataḥtu"
     },
     "noun": {
-      "ar": "الاِنْفِتاح",
-      "tr": "al-infitāḥ"
-    },
+      "ar": "اِنْفِتاح",
+      "tr": "infitāḥ"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-dli-c32-14",
@@ -7065,9 +7065,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "inʿaṭaftu"
     },
     "noun": {
-      "ar": "الاِنْعِطاف",
-      "tr": "al-inʿiṭāf"
-    },
+      "ar": "اِنْعِطاف",
+      "tr": "inʿiṭāf"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-mango-c10-10",
@@ -7095,9 +7095,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "insaḥabtu"
     },
     "noun": {
-      "ar": "الاِنْسِحاب",
-      "tr": "al-insiḥāb"
-    },
+      "ar": "اِنْسِحاب",
+      "tr": "insiḥāb"
+},
     "form": "VII",
     "passive": false,
     "id": "practice-dli-c32-2",
@@ -7125,9 +7125,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "uʿtubirtu"
     },
     "noun": {
-      "ar": "الاعْتِبَار",
-      "tr": "al-iʿtibār"
-    },
+      "ar": "اِعْتِبَار",
+      "tr": "iʿtibār"
+},
     "form": "VIII",
     "passive": true,
     "id": "practice-ak2-c7-52",
@@ -7155,9 +7155,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ihtamamtu"
     },
     "noun": {
-      "ar": "الاهْتِمَام",
-      "tr": "al-ihtimām"
-    },
+      "ar": "اِهْتِمَام",
+      "tr": "ihtimām"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c7-66",
@@ -7185,9 +7185,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "iʿtaqadtu"
     },
     "noun": {
-      "ar": "الاِعْتِقاد",
-      "tr": "al-iʿtiqād"
-    },
+      "ar": "اِعْتِقاد",
+      "tr": "iʿtiqād"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-mango-c9-8",
@@ -7220,9 +7220,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ishtaraytu"
     },
     "noun": {
-      "ar": "الشِّراء",
-      "tr": "ash-shirāʾ"
-    },
+      "ar": "شِراء",
+      "tr": "shirāʾ"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-mango-c9-2",
@@ -7255,9 +7255,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ikhtartu"
     },
     "noun": {
-      "ar": "الاخْتِيَار",
-      "tr": "al-ikhtiyār"
-    },
+      "ar": "اِخْتِيَار",
+      "tr": "ikhtiyār"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c6-39",
@@ -7285,9 +7285,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "iʿtabartu"
     },
     "noun": {
-      "ar": "الاعْتِبَار",
-      "tr": "al-iʿtibār"
-    },
+      "ar": "اِعْتِبَار",
+      "tr": "iʿtibār"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c5-23",
@@ -7315,9 +7315,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ittaṣaltu"
     },
     "noun": {
-      "ar": "الاتِّصَال",
-      "tr": "al-ittiṣāl"
-    },
+      "ar": "اِتِّصَال",
+      "tr": "ittiṣāl"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c9-68",
@@ -7345,9 +7345,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "intaqadtu"
     },
     "noun": {
-      "ar": "الاِنْتِقاد",
-      "tr": "al-intiqād"
-    },
+      "ar": "اِنْتِقاد",
+      "tr": "intiqād"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-dli-c33-8",
@@ -7375,9 +7375,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ikhtalaftu"
     },
     "noun": {
-      "ar": "الاخْتِلَاف",
-      "tr": "al-ikhtilāf"
-    },
+      "ar": "اِخْتِلَاف",
+      "tr": "ikhtilāf"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c4-28",
@@ -7405,9 +7405,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "imtadadtu"
     },
     "noun": {
-      "ar": "الامْتِدَاد",
-      "tr": "al-imtidād"
-    },
+      "ar": "اِمْتِدَاد",
+      "tr": "imtidād"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c7-30",
@@ -7435,9 +7435,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "intahaytu"
     },
     "noun": {
-      "ar": "الانْتِهَاء",
-      "tr": "al-intihāʾ"
-    },
+      "ar": "اِنْتِهَاء",
+      "tr": "intihāʾ"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak-c13-23",
@@ -7465,9 +7465,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ittabaʿtu"
     },
     "noun": {
-      "ar": "الاتِّبَاع",
-      "tr": "al-ittibāʿ"
-    },
+      "ar": "اِتِّبَاع",
+      "tr": "ittibāʿ"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c10-7",
@@ -7495,9 +7495,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "irtadaytu"
     },
     "noun": {
-      "ar": "الاِرْتِداء",
-      "tr": "al-irtidāʾ"
-    },
+      "ar": "اِرْتِداء",
+      "tr": "irtidāʾ"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-mango-c8-28",
@@ -7525,9 +7525,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "iʿtadtu"
     },
     "noun": {
-      "ar": "الاعْتِيَاد",
-      "tr": "al-iʿtiyād"
-    },
+      "ar": "اِعْتِيَاد",
+      "tr": "iʿtiyād"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c4-33",
@@ -7555,9 +7555,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "izdadtu"
     },
     "noun": {
-      "ar": "الازْدِيَاد",
-      "tr": "al-izdiyād"
-    },
+      "ar": "اِزْدِيَاد",
+      "tr": "izdiyād"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c2-11",
@@ -7585,9 +7585,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "iltaḥaqtu"
     },
     "noun": {
-      "ar": "الالْتِحَاق",
-      "tr": "al-iltiḥāq"
-    },
+      "ar": "اِلْتِحَاق",
+      "tr": "iltiḥāq"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak-c8-19",
@@ -7615,9 +7615,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "iftaqartu"
     },
     "noun": {
-      "ar": "الافْتِقَار",
-      "tr": "al-iftiqār"
-    },
+      "ar": "اِفْتِقَار",
+      "tr": "iftiqār"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c10-69",
@@ -7645,9 +7645,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istamaʿtu"
     },
     "noun": {
-      "ar": "الاسْتِمَاع",
-      "tr": "al-istimāʿ"
-    },
+      "ar": "اِسْتِمَاع",
+      "tr": "istimāʿ"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-c4-19",
@@ -7675,9 +7675,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "iltaqaytu"
     },
     "noun": {
-      "ar": "الاِلْتِقاء",
-      "tr": "al-iltiqāʾ"
-    },
+      "ar": "اِلْتِقاء",
+      "tr": "iltiqāʾ"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-mango-c3-9",
@@ -7705,9 +7705,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ijtamaʿtu"
     },
     "noun": {
-      "ar": "الاجْتِمَاع",
-      "tr": "al-ijtimāʿ"
-    },
+      "ar": "اِجْتِمَاع",
+      "tr": "ijtimāʿ"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c4-25",
@@ -7735,9 +7735,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "intaqaltu"
     },
     "noun": {
-      "ar": "الانْتِقَال",
-      "tr": "al-intiqāl"
-    },
+      "ar": "اِنْتِقَال",
+      "tr": "intiqāl"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c1-29",
@@ -7770,9 +7770,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "iḥtajtu"
     },
     "noun": {
-      "ar": "الاحْتِيَاج",
-      "tr": "al-iḥtiyāj"
-    },
+      "ar": "اِحْتِيَاج",
+      "tr": "iḥtiyāj"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c6-5",
@@ -7800,9 +7800,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ishtaraktu"
     },
     "noun": {
-      "ar": "الاشْتِرَاك",
-      "tr": "al-ishtirāk"
-    },
+      "ar": "اِشْتِرَاك",
+      "tr": "ishtirāk"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c2-35",
@@ -7830,9 +7830,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istalamtu"
     },
     "noun": {
-      "ar": "الاِسْتِلام",
-      "tr": "al-istilām"
-    },
+      "ar": "اِسْتِلام",
+      "tr": "istilām"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-dli-c33-3",
@@ -7860,9 +7860,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "iʿtamadtu"
     },
     "noun": {
-      "ar": "الاعْتِمَاد",
-      "tr": "al-iʿtimād"
-    },
+      "ar": "اِعْتِمَاد",
+      "tr": "iʿtimād"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c10-20",
@@ -7890,9 +7890,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "iḥtaramtu"
     },
     "noun": {
-      "ar": "الاحْتِرَام",
-      "tr": "al-iḥtirām"
-    },
+      "ar": "اِحْتِرَام",
+      "tr": "iḥtirām"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c6-4",
@@ -7920,9 +7920,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "intashartu"
     },
     "noun": {
-      "ar": "الانْتِشَار",
-      "tr": "al-intishār"
-    },
+      "ar": "اِنْتِشَار",
+      "tr": "intishār"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c2-25",
@@ -7950,9 +7950,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ikhtabartu"
     },
     "noun": {
-      "ar": "الاخْتِبَار",
-      "tr": "al-ikhtibār"
-    },
+      "ar": "اِخْتِبَار",
+      "tr": "ikhtibār"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-ak2-c10-48",
@@ -7980,9 +7980,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "ishtaghaltu"
     },
     "noun": {
-      "ar": "الاِشْتِغال",
-      "tr": "al-ishtighāl"
-    },
+      "ar": "اِشْتِغال",
+      "tr": "ishtighāl"
+},
     "form": "VIII",
     "passive": false,
     "id": "practice-dli-c33-7",
@@ -8010,9 +8010,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istaṭaʿtu"
     },
     "noun": {
-      "ar": "الاسْتِطَاعَة",
-      "tr": "al-istiṭāʿa"
-    },
+      "ar": "اِسْتِطَاعَة",
+      "tr": "istiṭāʿa"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak-c9-15",
@@ -8045,9 +8045,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istaqlaltu"
     },
     "noun": {
-      "ar": "الاِسْتِقْلال",
-      "tr": "al-istiqlāl"
-    },
+      "ar": "اِسْتِقْلال",
+      "tr": "istiqlāl"
+},
     "form": "X",
     "passive": false,
     "id": "practice-mango-c7-1",
@@ -8075,9 +8075,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istankartu"
     },
     "noun": {
-      "ar": "الاِسْتِنْكار",
-      "tr": "al-istinkār"
-    },
+      "ar": "اِسْتِنْكار",
+      "tr": "istinkār"
+},
     "form": "X",
     "passive": false,
     "id": "practice-dli-c34-9",
@@ -8105,9 +8105,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istamrartu"
     },
     "noun": {
-      "ar": "الاسْتِمْرَار",
-      "tr": "al-istimrār"
-    },
+      "ar": "اِسْتِمْرَار",
+      "tr": "istimrār"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak2-c9-63",
@@ -8135,9 +8135,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istamtaʿtu"
     },
     "noun": {
-      "ar": "الاسْتِمْتَاع",
-      "tr": "al-istimtāʿ"
-    },
+      "ar": "اِسْتِمْتَاع",
+      "tr": "istimtāʿ"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak-c10-23",
@@ -8165,9 +8165,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istakshaftu"
     },
     "noun": {
-      "ar": "الاسْتِكْشَاف",
-      "tr": "al-istikshāf"
-    },
+      "ar": "اِسْتِكْشَاف",
+      "tr": "istikshāf"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak2-c7-28",
@@ -8195,9 +8195,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istaʿdadtu"
     },
     "noun": {
-      "ar": "الاسْتِعْدَاد",
-      "tr": "al-istiʿdād"
-    },
+      "ar": "اِسْتِعْدَاد",
+      "tr": "istiʿdād"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak2-c3-35",
@@ -8225,9 +8225,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istaḍaftu"
     },
     "noun": {
-      "ar": "الاسْتِضَافَة",
-      "tr": "al-istiḍāfa"
-    },
+      "ar": "اِسْتِضَافَة",
+      "tr": "istiḍāfa"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak2-c9-49",
@@ -8255,9 +8255,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istaqbaltu"
     },
     "noun": {
-      "ar": "الاِسْتِقْبال",
-      "tr": "al-istiqbāl"
-    },
+      "ar": "اِسْتِقْبال",
+      "tr": "istiqbāl"
+},
     "form": "X",
     "passive": false,
     "id": "practice-dli-c34-5",
@@ -8285,9 +8285,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istaʾjartu"
     },
     "noun": {
-      "ar": "الاسْتِئْجَار",
-      "tr": "al-istiʾjār"
-    },
+      "ar": "اِسْتِئْجَار",
+      "tr": "istiʾjār"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak2-c1-1",
@@ -8315,9 +8315,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istaqrartu"
     },
     "noun": {
-      "ar": "الاسْتِقْرَار",
-      "tr": "al-istiqrār"
-    },
+      "ar": "اِسْتِقْرَار",
+      "tr": "istiqrār"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak-c13-19",
@@ -8345,9 +8345,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istaʿmaltu"
     },
     "noun": {
-      "ar": "الاسْتِعْمَال",
-      "tr": "al-istiʿmāl"
-    },
+      "ar": "اِسْتِعْمَال",
+      "tr": "istiʿmāl"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak2-c3-37",
@@ -8375,9 +8375,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istakhdamtu"
     },
     "noun": {
-      "ar": "الاسْتِخْدَام",
-      "tr": "al-istikhdām"
-    },
+      "ar": "اِسْتِخْدَام",
+      "tr": "istikhdām"
+},
     "form": "X",
     "passive": false,
     "id": "practice-ak2-c9-9",
@@ -8405,9 +8405,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "istayqaẓtu"
     },
     "noun": {
-      "ar": "الاِسْتِيقاظ",
-      "tr": "al-istīqāẓ"
-    },
+      "ar": "اِسْتِيقاظ",
+      "tr": "istīqāẓ"
+},
     "form": "X",
     "passive": false,
     "id": "practice-dli-c34-10",
@@ -8435,9 +8435,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "turjimtu"
     },
     "noun": {
-      "ar": "التَّرْجَمَة",
-      "tr": "at-tarjama"
-    },
+      "ar": "تَرْجَمَة",
+      "tr": "tarjama"
+},
     "form": "Quadriliteral I",
     "passive": true,
     "id": "practice-ak2-c7-40",
@@ -8465,9 +8465,9 @@ window.MOSA_VERB_PRACTICE = [
       "tr": "tarjamtu"
     },
     "noun": {
-      "ar": "التَّرْجَمَة",
-      "tr": "at-tarjama"
-    },
+      "ar": "تَرْجَمَة",
+      "tr": "tarjama"
+},
     "form": "Quadriliteral I",
     "passive": false,
     "id": "practice-ak2-c7-39",

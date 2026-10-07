@@ -42,13 +42,13 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=52"></script>
-<script src="./dli-basic-data.js?v=52"></script>
-<script src="./alkitaab-chapters-5-13.js?v=52"></script>
-<script src="./alkitaab-part2-chapters-1-7.js?v=52"></script>
-<script src="./mango-chapters-4-7.js?v=52"></script>
-<script src="./mango-chapters-8-10.js?v=52"></script>
-<script src="./verb-practice-data.js?v=52"></script>
+<script src="./alif-baa-vocab.js?v=53"></script>
+<script src="./dli-basic-data.js?v=53"></script>
+<script src="./alkitaab-chapters-5-13.js?v=53"></script>
+<script src="./alkitaab-part2-chapters-1-7.js?v=53"></script>
+<script src="./mango-chapters-4-7.js?v=53"></script>
+<script src="./mango-chapters-8-10.js?v=53"></script>
+<script src="./verb-practice-data.js?v=53"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -83,11 +83,11 @@ const V1=[
 ['really?','واللهِ؟','wallāhi?','Expression','—','—','—'],
 ['really? For real?','صَحِيح؟!','ṣaḥīḥ?!','Expression','—','—','—'],
 ["I studied", "دَرَسْتُ", "darastu", "Verb", "—", "—", "—"],
-["studying", "الدِّرَاسَة", "ad-dirāsa", "Verbal noun (maṣdar)", "—", "—", "—"],
+["studying", "دِرَاسَة", "dirāsa", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I lived; resided", "سَكَنْتُ", "sakantu", "Verb", "—", "—", "—"],
-["living; residing", "السَّكَن", "as-sakan", "Verbal noun (maṣdar)", "—", "—", "—"],
+["living; residing", "سَكَن", "sakan", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I worked", "عَمِلْتُ", "ʿamiltu", "Verb", "—", "—", "—"],
-["working; work", "العَمَل", "al-ʿamal", "Verbal noun (maṣdar)", "—", "—", "—"]
+["working; work", "عَمَل", "ʿamal", "Verbal noun (maṣdar)", "—", "—", "—"]
 ].map((x,i)=>({id:`c1-${i+1}`,chapter:1,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
 const S1=[
 ['What do you study at the university?','ماذا تَدْرُسُ في الجَامِعَةِ؟','mādhā tadrusu fī al-jāmiʿati?'],
@@ -155,7 +155,7 @@ const V2=[
 ['also','أَيْضًا','ayḍan','Adverb','—','—','—'],
 ['really!; truly','فِعْلًا','fiʿlan','Adverb','—','—','—'],
 ["I talked / spoke about", "تَكَلَّمْتُ عَنْ", "takallamtu ʿan", "Verb", "—", "—", "—"],
-["talking; speaking", "التَّكَلُّم", "at-takallum", "Verbal noun (maṣdar)", "—", "—", "—"]
+["talking; speaking", "تَكَلُّم", "takallum", "Verbal noun (maṣdar)", "—", "—", "—"]
 ].map((x,i)=>({id:`c2-${i+1}`,chapter:2,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
 const S2=[
 ['How many people are in your family?','كَمْ مِنْ أُنَاسٍ فِي أُسْرَتِكَ؟','kam min unāsin fī usratika?'],
@@ -216,9 +216,9 @@ const V3=[
 ["I know","أَعْرِفُ","aʿrifu",'Verb','—','—','—'],
 ['how many?','كَمْ؟','kam?','Interrogative','—','—','—'],
 ["I taught", "دَرَّسْتُ", "darrastu", "Verb", "—", "—", "—"],
-["teaching", "التَّدْرِيس", "at-tadrīs", "Verbal noun (maṣdar)", "—", "—", "—"],
+["teaching", "تَدْرِيس", "tadrīs", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I knew", "عَرَفْتُ", "ʿaraftu", "Verb", "—", "—", "—"],
-["knowing; knowledge", "المَعْرِفَة", "al-maʿrifa", "Verbal noun (maṣdar)", "—", "—", "—"]
+["knowing; knowledge", "مَعْرِفَة", "maʿrifa", "Verbal noun (maṣdar)", "—", "—", "—"]
 ].map((x,i)=>({id:`c3-${i+1}`,chapter:3,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
 const S3=[
 ['Now I study history and law at the college.','الآنَ أَدْرُسُ التَّارِيخَ وَالحُقُوقَ فِي الكُلِّيَّةِ.','al-āna adrusu al-tārīkha wa-l-ḥuqūqa fī al-kulliyyati.',`<p>The word [الآنَ] (“now”) always has a fixed fatḥa at the end, regardless of where it appears in the sentence. Grammatically, it functions as an adverb of time.</p>`],
@@ -239,22 +239,22 @@ const V=[
 ['school','مَدْرَسة','madrasa','Noun','—','—','مَدارِس'],['elementary','اِبْتِدائِيّ','ibtidāʾī','Adjective','اِبْتِدائِيّة','اِبْتِدائِيّون','اِبْتِدائِيّات'],['classmate','زَميل','zamīl','Noun','زَميلة','زُمَلاء','زَميلات'],['friend','صَديق','ṣadīq','Noun','صَديقة','أَصْدِقاء','صَديقات'],['childhood','طُفولة','ṭufūla','Noun','—','—','—'],['first','أَوَّل','awwal','Adjective','أُولى','أَوَّلون','أُولَيات'],['I memorize','أَحْفَظُ','aḥfaẓu','Verb','—','—','—'],["I remember","أَتَذَكَّرُ","atadhakkaru",'Verb','—','—','—'],
 ['travel / traveling','السَّفَر','al-safar','Noun','—','—','—'],['I travel','أُسافِرُ','usāfiru','Verb','—','—','—'],['I listen to','أَسْتَمِعُ إِلى','astamiʿu ilā','Verb','—','—','—'],['I read','أَقْرَأُ','aqraʾu','Verb','—','—','—'],['I say','أَقولُ','aqūlu','Verb','—','—','—'],['I write','أَكْتُبُ','aktubu','Verb','—','—','—'],['yesterday','أَمْسِ','amsi','Adverb','—','—','—'],['before','قَبْل','qabl','Adverb','—','—','—'],['every / all','كُلّ','kull','Determiner','—','—','—'],['individual','فَرْد','fard','Noun','فَرْدة','أَفْراد','فَرْدات'],['I eat','آكُلُ','ākulu','Verb','—','—','—'],['I was','كُنْتُ','kuntu','Verb','—','—','—'],['he was','كانَ','kāna','Verb','—','—','—'],['she was','كانَتْ','kānat','Verb','—','—','—'],['they were / you all were','كانوا / كُنْتُمْ','kānū / kuntum','Verb','—','—','—'],
 ["I memorized", "حَفِظْتُ", "ḥafiẓtu", "Verb", "—", "—", "—"],
-["memorizing; memorization", "الحِفْظ", "al-ḥifẓ", "Verbal noun (maṣdar)", "—", "—", "—"],
+["memorizing; memorization", "حِفْظ", "ḥifẓ", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I remembered", "تَذَكَّرْتُ", "tadhakkartu", "Verb", "—", "—", "—"],
-["remembering", "التَّذَكُّر", "at-tadhakkur", "Verbal noun (maṣdar)", "—", "—", "—"],
+["remembering", "تَذَكُّر", "tadhakkur", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I traveled", "سَافَرْتُ", "sāfartu", "Verb", "—", "—", "—"],
 ["I listened to", "اِسْتَمَعْتُ إِلَى", "istamaʿtu ilā", "Verb", "—", "—", "—"],
-["listening", "الاسْتِمَاع", "al-istimāʿ", "Verbal noun (maṣdar)", "—", "—", "—"],
+["listening", "اِسْتِمَاع", "istimāʿ", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I read (past)", "قَرَأْتُ", "qaraʾtu", "Verb", "—", "—", "—"],
-["reading", "القِرَاءَة", "al-qirāʾa", "Verbal noun (maṣdar)", "—", "—", "—"],
+["reading", "قِرَاءَة", "qirāʾa", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I said", "قُلْتُ", "qultu", "Verb", "—", "—", "—"],
-["saying", "القَوْل", "al-qawl", "Verbal noun (maṣdar)", "—", "—", "—"],
+["saying", "قَوْل", "qawl", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I wrote", "كَتَبْتُ", "katabtu", "Verb", "—", "—", "—"],
-["writing", "الكِتَابَة", "al-kitāba", "Verbal noun (maṣdar)", "—", "—", "—"],
+["writing", "كِتَابَة", "kitāba", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I ate", "أَكَلْتُ", "akaltu", "Verb", "—", "—", "—"],
-["eating", "الأَكْل", "al-akl", "Verbal noun (maṣdar)", "—", "—", "—"],
+["eating", "أَكْل", "akl", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I am; I become", "أَكُونُ", "akūnu", "Verb", "—", "—", "—"],
-["being", "الكَوْن", "al-kawn", "Verbal noun (maṣdar)", "—", "—", "—"]
+["being", "كَوْن", "kawn", "Verbal noun (maṣdar)", "—", "—", "—"]
 ].map((x,i)=>({id:`c4-${i+1}`,chapter:4,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
 const S=[
 ['I eat fruits and vegetables every day.','آكُلُ الفَواكِهَ وَالخُضارَ كُلَّ يَوْمٍ.','ākulu al-fawākiha wa-l-khuḍāra kulla yawmin.',`<p>“Every day” is an iḍāfa phrase:</p><div class='grammar-note-ar' dir='rtl' lang='ar'>كُلَّ يَوْمٍ</div><p>The first word, “every,” takes a fatḥa because the phrase tells us when the action happens. The second word, “day,” is indefinite and the second part of the iḍāfa, so it takes a double kasra.</p>`],
@@ -1861,7 +1861,7 @@ function empty(){app.innerHTML=header(state.tab[0].toUpperCase()+state.tab.slice
 render();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
   </script>
-<script src="./verb-practice.js?v=52"></script>
+<script src="./verb-practice.js?v=53"></script>
 </body>
 </html>
 
