@@ -40,10 +40,10 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=48"></script>
-<script src="./dli-basic-data.js?v=48"></script>
-<script src="./alkitaab-chapters-5-13.js?v=48"></script>
-<script src="./alkitaab-part2-chapters-1-7.js?v=48"></script>
+<script src="./alif-baa-vocab.js?v=49"></script>
+<script src="./dli-basic-data.js?v=49"></script>
+<script src="./alkitaab-chapters-5-13.js?v=49"></script>
+<script src="./alkitaab-part2-chapters-1-7.js?v=49"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -52,17 +52,17 @@ const V1=[
 ['sentence','جُمْلَة','jumla','Noun','—','—','جُمَل'],
 ['culture','الثَّقَافَة','al-thaqāfa','Noun','—','—','ثَقَافَات'],
 ['literature','الأَدَب','al-adab','Noun','—','آدَاب','—'],
-['I study','أَدْرُس','adrus','Verb','—','—','—'],
+["I study","أَدْرُسُ","adrusu",'Verb','—','—','—'],
 ['the same','نَفْس الــــ','nafs al-…','Expression','—','—','—'],
 ['the same university','نَفْس الجَامِعَة','nafs al-jāmiʿa','Expression','—','—','—'],
-['I live, reside','أَسْكُن','askun','Verb','—','—','—'],
+["I live, reside","أَسْكُنُ","askunu",'Verb','—','—','—'],
 ['area, region','مِنْطَقَة','minṭaqa','Noun','—','—','مَنَاطِق'],
 ['address','عُنْوَان','ʿunwān','Noun','—','عَنَاوِين','—'],
 ['nationality','جِنْسِيَّة','jinsiyya','Noun','—','—','جِنْسِيَّات'],
 ['Egyptian','مِصْرِيّ','miṣrī','Adjective','مِصْرِيَّة','مِصْرِيُّون','مِصْرِيَّات'],
 ['year','سَنَة','sana','Noun','—','—','سَنَوَات'],
 ['age','عُمْر','ʿumr','Noun','—','أَعْمَار','—'],
-['I work','أَعْمَل','aʿmal','Verb','—','—','—'],
+["I work","أَعْمَلُ","aʿmalu",'Verb','—','—','—'],
 ['United Nations','الأُمَم المُتَّحِدَة','al-umam al-muttaḥida','Proper noun','—','—','—'],
 ['father','وَالِد','wālid','Noun','وَالِدَة','وَالِدُون','وَالِدَات'],
 ['my father','وَالِدِي','wālidī','Noun','—','—','—'],
@@ -78,11 +78,11 @@ const V1=[
 ['really?','واللهِ؟','wallāhi?','Expression','—','—','—'],
 ['really? For real?','صَحِيح؟!','ṣaḥīḥ?!','Expression','—','—','—'],
 ["I studied", "دَرَسْتُ", "darastu", "Verb", "—", "—", "—"],
-["studying", "دِرَاسَة", "dirāsa", "Verbal noun (maṣdar)", "—", "—", "—"],
+["studying", "الدِّرَاسَة", "ad-dirāsa", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I lived; resided", "سَكَنْتُ", "sakantu", "Verb", "—", "—", "—"],
-["living; residing", "سَكَن", "sakan", "Verbal noun (maṣdar)", "—", "—", "—"],
+["living; residing", "السَّكَن", "as-sakan", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I worked", "عَمِلْتُ", "ʿamiltu", "Verb", "—", "—", "—"],
-["working; work", "عَمَل", "ʿamal", "Verbal noun (maṣdar)", "—", "—", "—"]
+["working; work", "العَمَل", "al-ʿamal", "Verbal noun (maṣdar)", "—", "—", "—"]
 ].map((x,i)=>({id:`c1-${i+1}`,chapter:1,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
 const S1=[
 ['What do you study at the university?','ماذا تَدْرُسُ في الجَامِعَةِ؟','mādhā tadrusu fī al-jāmiʿati?'],
@@ -150,7 +150,7 @@ const V2=[
 ['also','أَيْضًا','ayḍan','Adverb','—','—','—'],
 ['really!; truly','فِعْلًا','fiʿlan','Adverb','—','—','—'],
 ["I talked / spoke about", "تَكَلَّمْتُ عَنْ", "takallamtu ʿan", "Verb", "—", "—", "—"],
-["talking; speaking", "تَكَلُّم", "takallum", "Verbal noun (maṣdar)", "—", "—", "—"]
+["talking; speaking", "التَّكَلُّم", "at-takallum", "Verbal noun (maṣdar)", "—", "—", "—"]
 ].map((x,i)=>({id:`c2-${i+1}`,chapter:2,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
 const S2=[
 ['How many people are in your family?','كَمْ مِنْ أُنَاسٍ فِي أُسْرَتِكَ؟','kam min unāsin fī usratika?'],
@@ -199,7 +199,7 @@ const V3=[
 ['paternal uncle','عَمّ','ʿamm','Noun','عَمَّة','أَعْمَام','عَمَّات'],
 ['extended family','عَائِلَة','ʿāʾila','Noun','—','—','عَائِلَات'],
 ['relative','قَرِيب','qarīb','Noun','قَرِيبَة','أَقَارِب','قَرِيبَات'],
-['I teach','أُدَرِّس','udarris','Verb','—','—','—'],
+["I teach","أُدَرِّسُ","udarrisu",'Verb','—','—','—'],
 ['army','جَيْش','jaysh','Noun','—','جُيُوش','—'],
 ['officer','ضَابِط','ḍābiṭ','Noun','ضَابِطَة','ضُبَّاط','ضَابِطَات'],
 ['letter','رِسَالَة','risāla','Noun','—','—','رَسَائِل'],
@@ -208,12 +208,12 @@ const V3=[
 ['congratulations!','مَبْرُوك!','mabrūk!','Expression','—','—','—'],
 ['May God bless you.','بَارَكَ اللهُ فِيكَ.','bāraka Allāhu fīka.','Expression','—','—','—'],
 ['actually; in reality','فِي الحَقِيقَة','fī al-ḥaqīqa','Expression','—','—','—'],
-['I know','أَعْرِف','aʿrif','Verb','—','—','—'],
+["I know","أَعْرِفُ","aʿrifu",'Verb','—','—','—'],
 ['how many?','كَمْ؟','kam?','Interrogative','—','—','—'],
 ["I taught", "دَرَّسْتُ", "darrastu", "Verb", "—", "—", "—"],
-["teaching", "تَدْرِيس", "tadrīs", "Verbal noun (maṣdar)", "—", "—", "—"],
+["teaching", "التَّدْرِيس", "at-tadrīs", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I knew", "عَرَفْتُ", "ʿaraftu", "Verb", "—", "—", "—"],
-["knowing; knowledge", "مَعْرِفَة", "maʿrifa", "Verbal noun (maṣdar)", "—", "—", "—"]
+["knowing; knowledge", "المَعْرِفَة", "al-maʿrifa", "Verbal noun (maṣdar)", "—", "—", "—"]
 ].map((x,i)=>({id:`c3-${i+1}`,chapter:3,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
 const S3=[
 ['Now I study history and law at the college.','الآنَ أَدْرُسُ التَّارِيخَ وَالحُقُوقَ فِي الكُلِّيَّةِ.','al-āna adrusu al-tārīkha wa-l-ḥuqūqa fī al-kulliyyati.',`<p>The word [الآنَ] (“now”) always has a fixed fatḥa at the end, regardless of where it appears in the sentence. Grammatically, it functions as an adverb of time.</p>`],
@@ -231,25 +231,25 @@ const S3=[
 ].map((x,i)=>({id:`c3-s${i+1}`,chapter:3,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],grammarNote:x[3]||''}));
 const V=[
 ['vegetables','خُضار','khuḍār','Noun','—','خُضار','خُضار'],['fruits','فَواكِه','fawākih','Noun','—','—','—'],['sweets','حَلَوِيّات','ḥalawiyyāt','Noun','—','—','—'],['fish','سَمَك','samak','Noun','—','—','—'],['meat','لَحْم','laḥm','Noun','—','لُحوم','—'],['salad','سَلَطة','salaṭa','Noun','—','—','سَلَطات'],['soup','شورْبة','shūrba','Noun','—','—','شورْبات'],['restaurant','مَطْعَم','maṭʿam','Noun','—','مَطاعِم','—'],
-['school','مَدْرَسة','madrasa','Noun','—','—','مَدارِس'],['elementary','اِبْتِدائِيّ','ibtidāʾī','Adjective','اِبْتِدائِيّة','اِبْتِدائِيّون','اِبْتِدائِيّات'],['classmate','زَميل','zamīl','Noun','زَميلة','زُمَلاء','زَميلات'],['friend','صَديق','ṣadīq','Noun','صَديقة','أَصْدِقاء','صَديقات'],['childhood','طُفولة','ṭufūla','Noun','—','—','—'],['first','أَوَّل','awwal','Adjective','أُولى','أَوَّلون','أُولَيات'],['I memorize','أَحْفَظُ','aḥfaẓu','Verb','—','—','—'],['I remember','أَتَذَكَّر','atadhakkar','Verb','—','—','—'],
+['school','مَدْرَسة','madrasa','Noun','—','—','مَدارِس'],['elementary','اِبْتِدائِيّ','ibtidāʾī','Adjective','اِبْتِدائِيّة','اِبْتِدائِيّون','اِبْتِدائِيّات'],['classmate','زَميل','zamīl','Noun','زَميلة','زُمَلاء','زَميلات'],['friend','صَديق','ṣadīq','Noun','صَديقة','أَصْدِقاء','صَديقات'],['childhood','طُفولة','ṭufūla','Noun','—','—','—'],['first','أَوَّل','awwal','Adjective','أُولى','أَوَّلون','أُولَيات'],['I memorize','أَحْفَظُ','aḥfaẓu','Verb','—','—','—'],["I remember","أَتَذَكَّرُ","atadhakkaru",'Verb','—','—','—'],
 ['travel / traveling','السَّفَر','al-safar','Noun','—','—','—'],['I travel','أُسافِرُ','usāfiru','Verb','—','—','—'],['I listen to','أَسْتَمِعُ إِلى','astamiʿu ilā','Verb','—','—','—'],['I read','أَقْرَأُ','aqraʾu','Verb','—','—','—'],['I say','أَقولُ','aqūlu','Verb','—','—','—'],['I write','أَكْتُبُ','aktubu','Verb','—','—','—'],['yesterday','أَمْسِ','amsi','Adverb','—','—','—'],['before','قَبْل','qabl','Adverb','—','—','—'],['every / all','كُلّ','kull','Determiner','—','—','—'],['individual','فَرْد','fard','Noun','فَرْدة','أَفْراد','فَرْدات'],['I eat','آكُلُ','ākulu','Verb','—','—','—'],['I was','كُنْتُ','kuntu','Verb','—','—','—'],['he was','كانَ','kāna','Verb','—','—','—'],['she was','كانَتْ','kānat','Verb','—','—','—'],['they were / you all were','كانوا / كُنْتُمْ','kānū / kuntum','Verb','—','—','—'],
 ["I memorized", "حَفِظْتُ", "ḥafiẓtu", "Verb", "—", "—", "—"],
-["memorizing; memorization", "حِفْظ", "ḥifẓ", "Verbal noun (maṣdar)", "—", "—", "—"],
+["memorizing; memorization", "الحِفْظ", "al-ḥifẓ", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I remembered", "تَذَكَّرْتُ", "tadhakkartu", "Verb", "—", "—", "—"],
-["remembering", "تَذَكُّر", "tadhakkur", "Verbal noun (maṣdar)", "—", "—", "—"],
+["remembering", "التَّذَكُّر", "at-tadhakkur", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I traveled", "سَافَرْتُ", "sāfartu", "Verb", "—", "—", "—"],
 ["I listened to", "اِسْتَمَعْتُ إِلَى", "istamaʿtu ilā", "Verb", "—", "—", "—"],
-["listening", "اِسْتِمَاع", "istimāʿ", "Verbal noun (maṣdar)", "—", "—", "—"],
+["listening", "الاسْتِمَاع", "al-istimāʿ", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I read (past)", "قَرَأْتُ", "qaraʾtu", "Verb", "—", "—", "—"],
-["reading", "قِرَاءَة", "qirāʾa", "Verbal noun (maṣdar)", "—", "—", "—"],
+["reading", "القِرَاءَة", "al-qirāʾa", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I said", "قُلْتُ", "qultu", "Verb", "—", "—", "—"],
-["saying", "قَوْل", "qawl", "Verbal noun (maṣdar)", "—", "—", "—"],
+["saying", "القَوْل", "al-qawl", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I wrote", "كَتَبْتُ", "katabtu", "Verb", "—", "—", "—"],
-["writing", "كِتَابَة", "kitāba", "Verbal noun (maṣdar)", "—", "—", "—"],
+["writing", "الكِتَابَة", "al-kitāba", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I ate", "أَكَلْتُ", "akaltu", "Verb", "—", "—", "—"],
-["eating", "أَكْل", "akl", "Verbal noun (maṣdar)", "—", "—", "—"],
+["eating", "الأَكْل", "al-akl", "Verbal noun (maṣdar)", "—", "—", "—"],
 ["I am; I become", "أَكُونُ", "akūnu", "Verb", "—", "—", "—"],
-["being", "كَوْن", "kawn", "Verbal noun (maṣdar)", "—", "—", "—"]
+["being", "الكَوْن", "al-kawn", "Verbal noun (maṣdar)", "—", "—", "—"]
 ].map((x,i)=>({id:`c4-${i+1}`,chapter:4,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4],mp:x[5],fp:x[6]}));
 const S=[
 ['I eat fruits and vegetables every day.','آكُلُ الفَواكِهَ وَالخُضارَ كُلَّ يَوْمٍ.','ākulu al-fawākiha wa-l-khuḍāra kulla yawmin.',`<p>“Every day” is an iḍāfa phrase:</p><div class='grammar-note-ar' dir='rtl' lang='ar'>كُلَّ يَوْمٍ</div><p>The first word, “every,” takes a fatḥa because the phrase tells us when the action happens. The second word, “day,” is indefinite and the second part of the iḍāfa, so it takes a double kasra.</p>`],
@@ -511,7 +511,7 @@ const ALKITAAB_BROKEN_PLURALS=[
     "chapter": 3,
     "anchor": "c3-35",
     "id": "c3-35-bp",
-    "en": "knowledge; areas of knowledge",
+    "en": "acquaintances",
     "ar": "مَعَارِف",
     "tr": "maʿārif"
   },
@@ -1506,7 +1506,9 @@ const COLLECTIONS=[
 {id:'dli-intermediate',name:'DLI MSA Course (Intermediate)',totalChapters:0,chapters:{}},
 {id:'aljazeera',name:'Al-Jazeera Articles',totalChapters:0,chapters:{}}
 ];
-const vocabularyKey=word=>(word.ar||'').replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]/g,'').replace(/ـ/g,'').replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').replace(/[ؤئ]/g,'ء').replace(/[^ء-ي]/g,'');
+// Preserve vocabulary identity and recorded-audio matching after spelling updates.
+const VOCABULARY_BASE_AR={"c1-7":"أَدْرُس","c1-33":"دِرَاسَة","c1-10":"أَسْكُن","c1-35":"سَكَن","c1-17":"أَعْمَل","c1-37":"عَمَل","c2-27":"تَكَلُّم","c3-21":"أُدَرِّس","c3-33":"تَدْرِيس","c3-30":"أَعْرِف","c3-35":"مَعْرِفَة","c4-33":"حِفْظ","c4-16":"أَتَذَكَّر","c4-35":"تَذَكُّر","c4-38":"اِسْتِمَاع","c4-40":"قِرَاءَة","c4-42":"قَوْل","c4-44":"كِتَابَة","c4-46":"أَكْل","c4-48":"كَوْن","ak-c5-32":"شُعُور","ak-c6-31":"حُصُول","ak-c6-33":"تَخَرُّج","ak-c6-35":"ذَهَاب","ak-c6-37":"لَعِب","ak-c7-20":"عَيْش","ak-c7-22":"مَوْت","ak-c8-24":"حُصُول","ak-c8-26":"دُخُول","ak-c8-28":"مُذَاكَرَة","ak-c8-30":"رَفْض","ak-c8-32":"إِرَادَة","ak-c8-34":"مُسَاعَدَة","ak-c8-36":"اِلْتِحَاق","ak-c8-38":"نَجَاح","ak-c9-31":"بَدْء","ak-c9-33":"جُلُوس","ak-c9-35":"خُرُوج","ak-c9-37":"تَدْخِين","ak-c9-39":"اِسْتِطَاعَة","ak-c9-41":"عَوْدَة","ak-c9-43":"إِفْطَار","ak-c9-45":"نُزُول","ak-c9-47":"إِيقَاظ","ak-c10-32":"مَجِيء","ak-c10-34":"سَهَر","ak-c10-36":"إِصْبَاح","ak-c10-38":"صَحْو","ak-c10-41":"فَهْم","ak-c10-44":"كَوْن","ak-c10-46":"اِسْتِمْتَاع","ak-c10-48":"إِمْكَان","ak-c10-50":"نَوْم","ak-c11-29":"تَبَادُل","ak-c11-31":"تَجَمُّع","ak-c11-33":"خِطْبَة","ak-c11-35":"تَعَرُّف","ak-c11-37":"اِنْقِطَاع","ak-c12-24":"أَخْذ","ak-c12-26":"زِيَارَة","ak-c12-29":"سَفَر","ak-c12-31":"عِلْم","ak-c12-33":"تَعْيِين","ak-c12-35":"تَغَيُّب","ak-c12-37":"تَقْرِير","ak-c12-39":"قَضَاء","ak-c13-27":"رُجُوع","ak-c13-29":"رَغْبَة","ak-c13-31":"اِسْتِمْرَار","ak-c13-33":"تَشْجِيع","ak-c13-35":"ظَنّ","ak-c13-38":"عَنْي","ak-c13-40":"فَشَل","ak-c13-42":"فَصْل","ak-c13-44":"تَفْكِير","ak-c13-46":"اِسْتِقْرَار","ak-c13-48":"اِنْتِهَاء","ak-c13-50":"وِجْدَان","ak2-c1-1":"أَسْتَأْجِر","ak2-c1-1-masdar":"اِسْتِئْجَار","ak2-c1-7":"أَتْرُك","ak2-c1-7-masdar":"تَرْك","ak2-c1-19":"أَطْبُخ","ak2-c1-19-masdar":"طَبْخ","ak2-c1-23":"أُعِدّ","ak2-c1-23-masdar":"إِعْدَاد","ak2-c1-28-masdar":"تَمَنِّي","ak2-c1-29":"أَنْتَقِل إِلَى","ak2-c1-29-masdar":"اِنْتِقَال","ak2-c2-1":"أَبْحَث عَنْ","ak2-c2-1-masdar":"بَحْث","ak2-c2-2-masdar":"بَقَاء","ak2-c2-6":"أُحَدِّد","ak2-c2-6-masdar":"تَحْدِيد","ak2-c2-11":"أَزْدَاد","ak2-c2-11-masdar":"اِزْدِيَاد","ak2-c2-12":"أَسْمَح","ak2-c2-12-masdar":"سَمَاح","ak2-c2-17":"أَغْضَب","ak2-c2-17-masdar":"غَضَب","ak2-c2-21":"أُكَمِّل","ak2-c2-21-masdar":"تَكْمِيل","ak2-c2-22":"أَلْبَس","ak2-c2-22-masdar":"لُبْس","ak2-c2-25":"أَنْتَشِر","ak2-c2-25-masdar":"اِنْتِشَار","ak2-c2-27-masdar":"نِيَّة","ak2-c2-28":"أُهَاجِر","ak2-c2-28-masdar":"هِجْرَة","ak2-c2-35":"أَشْتَرِك فِي","ak2-c2-35-masdar":"اِشْتِرَاك","ak2-c2-38":"أُعَلِّم","ak2-c2-38-masdar":"تَعْلِيم","ak2-c2-39":"أَتَعَلَّم","ak2-c2-39-masdar":"تَعَلُّم","ak2-c2-42":"أَمْلِك","ak2-c2-42-masdar":"مِلْك","ak2-c2-46":"أُولَد","ak2-c2-46-masdar":"وِلَادَة","ak2-c3-2":"أَبِيع","ak2-c3-2-masdar":"بَيْع","ak2-c3-9":"أُرَتِّب","ak2-c3-9-masdar":"تَرْتِيب","ak2-c3-12":"أَرْسُم","ak2-c3-12-masdar":"رَسْم","ak2-c3-16-masdar":"شِرَاء","ak2-c3-20":"أُصَلِّح","ak2-c3-20-masdar":"تَصْلِيح","ak2-c3-22":"أَغْسِل","ak2-c3-22-masdar":"غَسْل","ak2-c3-30":"أَصِل إِلَى","ak2-c3-30-masdar":"وُصُول","ak2-c3-34":"أُرْسِل","ak2-c3-34-masdar":"إِرْسَال","ak2-c3-35":"أَسْتَعِدّ","ak2-c3-35-masdar":"اِسْتِعْدَاد","ak2-c3-37":"أَسْتَعْمِل","ak2-c3-37-masdar":"اِسْتِعْمَال","ak2-c3-38":"أُغَيِّر","ak2-c3-38-masdar":"تَغْيِير","ak2-c3-39":"أَقْبَل","ak2-c3-39-masdar":"قَبُول","ak2-c3-40":"يَجِب عَلَيَّ","ak2-c3-40-masdar":"وُجُوب","ak2-c4-2":"أُؤْمِن بِـ","ak2-c4-2-masdar":"إِيمَان","ak2-c4-3-masdar":"بُدُوّ","ak2-c4-6-masdar":"دَعْوَة","ak2-c4-11":"أُشْرِف عَلَى","ak2-c4-11-masdar":"إِشْرَاف","ak2-c4-12":"أَصُوم","ak2-c4-12-masdar":"صِيَام","ak2-c4-15":"أَعْتَقِد أَنَّ","ak2-c4-15-masdar":"اِعْتِقَاد","ak2-c4-18":"أَفْعَل","ak2-c4-18-masdar":"فِعْل","ak2-c4-21":"أَقُوم","ak2-c4-21-masdar":"قِيَام","ak2-c4-23":"أَضَع","ak2-c4-23-masdar":"وَضْع","ak2-c4-25":"أَجْتَمِع","ak2-c4-25-masdar":"اِجْتِمَاع","ak2-c4-28":"أَخْتَلِف مَعَ","ak2-c4-28-masdar":"اِخْتِلَاف","ak2-c4-30":"أَنْشَغِل بِـ","ak2-c4-30-masdar":"اِنْشِغَال","ak2-c4-33":"أَعْتَاد عَلَى","ak2-c4-33-masdar":"اِعْتِيَاد","ak2-c4-37-masdar":"تَوَلِّي","ak2-c5-9":"أُحَاوِل","ak2-c5-9-masdar":"مُحَاوَلَة","ak2-c5-13":"أَخَاف عَلَى","ak2-c5-13-masdar":"خَوْف عَلَى","ak2-c5-14":"أَخَاف مِنْ","ak2-c5-14-masdar":"خَوْف مِنْ","ak2-c5-23":"أَعْتَبِر","ak2-c5-23-masdar":"اِعْتِبَار","ak2-c5-24":"أُغَادِر","ak2-c5-24-masdar":"مُغَادَرَة","ak2-c5-26":"أُلَمِّح إِلَى أَنَّ","ak2-c5-26-masdar":"تَلْمِيح","ak2-c5-27":"أُنَاقِش","ak2-c5-27-masdar":"مُنَاقَشَة","ak2-c5-28":"أَتَنَاقَش مَعَ","ak2-c5-28-masdar":"تَنَاقُش","ak2-c5-31":"أَثِق فِي / بِـ","ak2-c5-31-masdar":"ثِقَة","ak2-c6-4":"أَحْتَرِم","ak2-c6-4-masdar":"اِحْتِرَام","ak2-c6-5":"أَحْتَاج إِلَى","ak2-c6-5-masdar":"اِحْتِيَاج","ak2-c6-8":"أَدْفَع","ak2-c6-8-masdar":"دَفْع","ak2-c6-12":"أَتَصَرَّف","ak2-c6-12-masdar":"تَصَرُّف","ak2-c6-16-masdar":"إِعْطَاء","ak2-c6-21":"أَقْصِد","ak2-c6-21-masdar":"قَصْد","ak2-c6-23":"أَنْشَأ","ak2-c6-23-masdar":"نُشُوء","ak2-c6-28":"أُوقِف","ak2-c6-28-masdar":"إِيقَاف","ak2-c6-29":"أُؤْخَذ","ak2-c6-29-masdar":"أَخْذ","ak2-c6-33":"يَتِمّ + المَصْدَر","ak2-c6-33-masdar":"تَمَام","ak2-c6-34-masdar":"جَرْي","ak2-c6-35":"أَتَحَدَّث عَنْ","ak2-c6-35-masdar":"تَحَدُّث","ak2-c6-36":"أُحِسّ","ak2-c6-36-masdar":"إِحْسَاس","ak2-c6-39":"أَخْتَار","ak2-c6-39-masdar":"اِخْتِيَار","ak2-c6-43":"أَطْلُب مِنْ","ak2-c6-43-masdar":"طَلَب","ak2-c6-44":"أُقْبَل","ak2-c6-44-masdar":"قَبُول","ak2-c6-46":"أُقَدِّم","ak2-c6-46-masdar":"تَقْدِيم","ak2-c6-49":"أَمُرّ","ak2-c6-49-masdar":"مُرُور","ak2-c7-2":"أَبْلُغ","ak2-c7-2-masdar":"بُلُوغ","ak2-c7-11":"أُسَجِّل","ak2-c7-11-masdar":"تَسْجِيل","ak2-c7-13":"أَشْمَل","ak2-c7-13-masdar":"شُمُول","ak2-c7-28":"أَسْتَكْشِف","ak2-c7-28-masdar":"اِسْتِكْشَاف","ak2-c7-29":"أُلَاحِظ","ak2-c7-29-masdar":"مُلَاحَظَة","ak2-c7-30":"أَمْتَدّ","ak2-c7-30-masdar":"اِمْتِدَاد","ak2-c7-33":"أَنْظُر","ak2-c7-33-masdar":"نَظَر","ak2-c7-39":"أُتَرْجِم","ak2-c7-39-masdar":"تَرْجَمَة","ak2-c7-40":"أُتَرْجَم إِلَى","ak2-c7-40-masdar":"تَرْجَمَة","ak2-c7-44":"أَرْحَل","ak2-c7-44-masdar":"رَحِيل","ak2-c7-49":"أَطْبَع","ak2-c7-49-masdar":"طَبْع","ak2-c7-52":"أُعْتَبَر","ak2-c7-52-masdar":"اِعْتِبَار","ak2-c7-57":"أُعِيد","ak2-c7-57-masdar":"إِعَادَة","ak2-c7-60":"أَقْطَع","ak2-c7-60-masdar":"قَطْع","ak2-c7-61":"أَقُوم بِـ","ak2-c7-61-masdar":"قِيَام بِـ","ak2-c7-64":"أَنْشُر","ak2-c7-64-masdar":"نَشْر","ak2-c7-65":"أَتَنَقَّل","ak2-c7-65-masdar":"تَنَقُّل","ak2-c7-66":"أَهْتَمّ بِـ","ak2-c7-66-masdar":"اِهْتِمَام","ak2-c7-68":"أَصِف بِأَنَّ","ak2-c7-68-masdar":"وَصْف","ak2-c9-1-masdar":"تَأْثِير","ak2-c9-2-masdar":"تَأَثُّر","ak2-c9-4-masdar":"إِثَارَة","ak2-c9-8-masdar":"خِدْمَة","ak2-c9-9-masdar":"اِسْتِخْدَام","ak2-c9-10-masdar":"خَلْق","ak2-c9-13-masdar":"تَدْوِين","ak2-c9-17-masdar":"سُقُوط","ak2-c9-18-masdar":"إِسْقَاط","ak2-c9-19-masdar":"مُسَاهَمَة","ak2-c9-21-masdar":"صِنَاعَة","ak2-c9-22-masdar":"ضَرْب","ak2-c9-23-masdar":"تَطْوِير","ak2-c9-24-masdar":"تَطَوُّر","ak2-c9-25-masdar":"ظُلُول","ak2-c9-26-masdar":"ظُهُور","ak2-c9-27-masdar":"تَظَاهُر","ak2-c9-28-masdar":"مُعَارَضَة","ak2-c9-32-masdar":"تَغْطِيَة","ak2-c9-34-masdar":"قَتْل","ak2-c9-37-masdar":"تَنْظِيم","ak2-c9-44-masdar":"شُهُود","ak2-c9-47-masdar":"صُدُور","ak2-c9-48-masdar":"إِصْدَار","ak2-c9-49-masdar":"اِسْتِضَافَة","ak2-c9-53-masdar":"تَعْبِير","ak2-c9-57-masdar":"تَقَدُّم","ak2-c9-60-masdar":"مُقَاوَمَة","ak2-c9-61-masdar":"كَسْر","ak2-c9-62-masdar":"تَمَتُّع","ak2-c9-63-masdar":"اِسْتِمْرَار","ak2-c9-64-masdar":"إِنْشَاء","ak2-c9-65-masdar":"إِنْشَاء","ak2-c9-67-masdar":"إِيصَال","ak2-c9-68-masdar":"اِتِّصَال","ak2-c9-69-masdar":"تَوَاصُل","ak2-c10-1-masdar":"تَأْدِيَة","ak2-c10-7-masdar":"اِتِّبَاع","ak2-c10-8-masdar":"جَعْل","ak2-c10-12-masdar":"تَخْطِيط","ak2-c10-14-masdar":"اِنْخِفَاض","ak2-c10-19-masdar":"إِشَارَة","ak2-c10-20-masdar":"اِعْتِمَاد","ak2-c10-21-masdar":"مُعَانَاة","ak2-c10-23-masdar":"تَفْسِير","ak2-c10-25-masdar":"قِيَادَة","ak2-c10-29-masdar":"صَرْف","ak2-c10-30-masdar":"نَفْي","ak2-c10-36-masdar":"هَدْف","ak2-c10-37-masdar":"تَوْزِيع","ak2-c10-38-masdar":"مُوَافَقَة","ak2-c10-41-masdar":"بِنَاء","ak2-c10-43-masdar":"تَبْيِين","ak2-c10-46-masdar":"تَحَمُّل","ak2-c10-47-masdar":"إِجْرَاء","ak2-c10-48-masdar":"اِخْتِبَار","ak2-c10-50-masdar":"تَخْصِيص","ak2-c10-53-masdar":"رُؤْيَة","ak2-c10-54-masdar":"رَأْي","ak2-c10-60-masdar":"إِضَافَة","ak2-c10-62-masdar":"تَعَامُل","ak2-c10-66-masdar":"تَفَاعُل","ak2-c10-69-masdar":"اِفْتِقَار","ak2-c10-73-masdar":"تَقْيِيم","ak2-c10-76-masdar":"تَمْوِيل","ak2-c10-79-masdar":"نَقْل","dli-c19-10":"أَعْمَلُ / عَمَل","dli-c20-2":"اِنْتِهَاء","dli-c21-8":"حُضُور","dli-c22-2":"دِرَاسَة","dli-c22-12":"رُجُوع","dli-c23-12":"كِتَابَة","dli-c26-5":"تَدْرِيس","dli-c26-7":"تَذْكِير بِـ","dli-c26-9":"تَعْرِيف بِـ","dli-c27-12":"مُجَالَسَة","dli-c27-13":"مُحَادَثَة","dli-c27-14":"مُسَاعَدَة","dli-c27-15":"مُشَاهَدَة","dli-c27-16":"مُقَابَلَة","dli-c28-1":"تَحْرِير","dli-c29-16":"إِحْضَار","dli-c29-17":"إِخْرَاج","dli-c29-18":"إِدْخَال","dli-c29-19":"إِكْمَال","dli-c29-21":"فَهْم","dli-c32-1":"اِنْسِحَاب","dli-c32-3":"اِنْصِرَاف","dli-c32-5":"اِنْعِقَاد","dli-c33-4":"اِسْتِمَاع","dli-c33-9":"اِنْتِقَال","dli-c34-1":"اِسْتِرْجَاع","dli-c34-2":"اِسْتِفْهَام","dli-c34-4":"اِسْتِقْبَال","dli-c34-6":"اِسْتِمْتَاع","dli-c34-8":"اِسْتِنْكَار","dli-c36-1":"إِعْجَاب","dli-c39-3":"تَخَرُّج"};
+const vocabularyKey=word=>(VOCABULARY_BASE_AR[word.id]||word.ar||'').replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]/g,'').replace(/ـ/g,'').replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').replace(/[ؤئ]/g,'ء').replace(/[^ء-ي]/g,'');
 // Preserve hamza and long alif: آكُل (I eat) and أَكْل (eating) need different audio.
 const nativeAudioKey=word=>(word.ar||'').replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]/g,'').replace(/ـ/g,'').replace(/[^ء-ي]/g,'');
 const NATIVE_AUDIO_BY_KEY={
@@ -1712,7 +1714,7 @@ const NATIVE_AUDIO_BY_ID={
 let activeNativeAudio=null;
 function stopAudio(){if(activeNativeAudio){activeNativeAudio.pause();activeNativeAudio.currentTime=0;activeNativeAudio=null}speechSynthesis.cancel()}
 function speakWithTTS(ar){let u=new SpeechSynthesisUtterance(ar);u.lang='ar-SA';u.rate=.78;speechSynthesis.speak(u)}
-function playArabic(d){stopAudio();let src=NATIVE_AUDIO_BY_ID[d.id]||NATIVE_AUDIO_BY_KEY[nativeAudioKey(d)];if(!src){speakWithTTS(d.ar);return}let audio=new Audio(src),failed=false;activeNativeAudio=audio;let fallback=()=>{if(failed)return;failed=true;if(activeNativeAudio===audio)activeNativeAudio=null;speakWithTTS(d.ar)};audio.onended=()=>{if(activeNativeAudio===audio)activeNativeAudio=null};audio.onerror=fallback;let attempt=audio.play();if(attempt&&attempt.catch)attempt.catch(fallback)}
+function playArabic(d){stopAudio();let src=NATIVE_AUDIO_BY_ID[d.id]||NATIVE_AUDIO_BY_KEY[nativeAudioKey(d)]||NATIVE_AUDIO_BY_KEY[nativeAudioKey({ar:VOCABULARY_BASE_AR[d.id]})];if(!src){speakWithTTS(d.ar);return}let audio=new Audio(src),failed=false;activeNativeAudio=audio;let fallback=()=>{if(failed)return;failed=true;if(activeNativeAudio===audio)activeNativeAudio=null;speakWithTTS(d.ar)};audio.onended=()=>{if(activeNativeAudio===audio)activeNativeAudio=null};audio.onerror=fallback;let attempt=audio.play();if(attempt&&attempt.catch)attempt.catch(fallback)}
 
 const uniqueVocabulary=(words,keepAlkitaabChapters=false)=>{let seen=new Set();return words.filter(word=>{let key=vocabularyKey(word);if(!key)return false;let chapterKey=keepAlkitaabChapters&&word.collectionId==='alkitaab1'?`alkitaab1:${word.chapter}:${nativeAudioKey(word)}`:key;if(seen.has(chapterKey))return false;seen.add(chapterKey);seen.add(key);return true})};
 const LEGACY_ALL_V4=uniqueVocabulary([...V1,...V2,...V3,...V,...MANGO_V1,...DLI_ALL_V]);
@@ -1856,5 +1858,6 @@ if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.se
   </script>
 </body>
 </html>
+
 
 
