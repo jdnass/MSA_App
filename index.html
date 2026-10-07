@@ -40,10 +40,11 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=49"></script>
-<script src="./dli-basic-data.js?v=49"></script>
-<script src="./alkitaab-chapters-5-13.js?v=49"></script>
-<script src="./alkitaab-part2-chapters-1-7.js?v=49"></script>
+<script src="./alif-baa-vocab.js?v=50"></script>
+<script src="./dli-basic-data.js?v=50"></script>
+<script src="./alkitaab-chapters-5-13.js?v=50"></script>
+<script src="./alkitaab-part2-chapters-1-7.js?v=50"></script>
+<script src="./mango-chapters-4-7.js?v=50"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -1495,11 +1496,11 @@ const MANGO_V3=[
     "مَقَاهٍ"
   ]
 ].map((x,i)=>({id:`mango-c3-${i+1}`,collectionId:'mango-msa',collection:'Mango Languages (MSA)',chapter:3,idInChapter:i+1,en:x[0],ar:x[1],tr:x[2],pos:x[3],f:x[4]||'—',mp:x[5]||'—',fp:x[6]||'—'}));
-const MANGO_CHAPTERS={1:{subtitle:'Greetings, Introductions and Everyday Expressions',vocab:MANGO_V1,sentences:[],learn:['Greetings and introductions','Asking how someone is','Feelings and responses','Farewells and polite expressions','Personal pronouns and titles']},2:{subtitle:'Family and Relationships',vocab:MANGO_V2,sentences:[],learn:['Family members and relatives','Living and expressing possession','Engagement and marriage']},3:{subtitle:'Meeting People and Describing Them',vocab:MANGO_V3,sentences:[],learn:['Meeting friends and making introductions','Describing appearance and personality','Meeting for coffee or tea']}};
+const MANGO_CHAPTERS={1:{subtitle:'Greetings, Introductions and Everyday Expressions',vocab:MANGO_V1,sentences:[],learn:['Greetings and introductions','Asking how someone is','Feelings and responses','Farewells and polite expressions','Personal pronouns and titles']},2:{subtitle:'Family and Relationships',vocab:MANGO_V2,sentences:[],learn:['Family members and relatives','Living and expressing possession','Engagement and marriage']},3:{subtitle:'Meeting People and Describing Them',vocab:MANGO_V3,sentences:[],learn:['Meeting friends and making introductions','Describing appearance and personality','Meeting for coffee or tea']},...window.MANGO_ADDITIONAL_CHAPTERS};
 const COLLECTIONS=[
 {id:'alkitaab1',name:'Al-Kitaab (Part 1)',totalChapters:13,chapters:CHAPTERS},
 {id:'alif-baa',name:'Alif Baa',totalChapters:0,chapters:{},vocab:ALIF_BAA_CARDS,vocabOnly:true},
-{id:'mango-msa',name:'Mango Languages (MSA)',totalChapters:5,chapters:MANGO_CHAPTERS},
+{id:'mango-msa',name:'Mango Languages (MSA)',totalChapters:7,chapters:MANGO_CHAPTERS},
 {id:'alkitaab2',name:'Al-Kitaab (Part 2)',totalChapters:10,chapters:AK2_CHAPTERS},
 {id:'alkitaab3',name:'Al-Kitaab (Part 3)',totalChapters:0,chapters:{}},
 {id:'dli-basic',name:'DLI MSA Course (Basic)',totalChapters:40,chapters:DLI_CHAPTERS},
@@ -1721,7 +1722,7 @@ const LEGACY_ALL_V4=uniqueVocabulary([...V1,...V2,...V3,...V,...MANGO_V1,...DLI_
 // Retain every Alif Baa card in its own filter, including words also taught elsewhere.
 // Append Part 2 to preserve saved indices and retain its chapter memberships,
 // including vocabulary also taught in another collection.
-const ALL_V=[...uniqueVocabulary([...Object.values(CHAPTERS).flatMap(chapter=>chapter.vocab),...MANGO_V1,...DLI_ALL_V],true),...MANGO_V2,...MANGO_V3,...ALIF_BAA_CARDS,...AK2_ALL_V];
+const ALL_V=[...uniqueVocabulary([...Object.values(CHAPTERS).flatMap(chapter=>chapter.vocab),...MANGO_V1,...DLI_ALL_V],true),...MANGO_V2,...MANGO_V3,...ALIF_BAA_CARDS,...AK2_ALL_V,...Object.values(window.MANGO_ADDITIONAL_CHAPTERS).flatMap(chapter=>chapter.vocab)];
 let storedVocabIndex=localStorage.getItem('msa-vocab-index');let migratedVocabIndex=storedVocabIndex===null?0:Number(storedVocabIndex)||0;let vocabSchema=localStorage.getItem('msa-vocab-schema');let savedVocabId=localStorage.getItem('msa-vocab-id');if(storedVocabIndex!==null&&vocabSchema==='4'&&!savedVocabId){let legacyWord=LEGACY_ALL_V4[migratedVocabIndex],newIndex=legacyWord?ALL_V.findIndex(word=>word.id===legacyWord.id):-1;if(newIndex>=0)migratedVocabIndex=newIndex}if(storedVocabIndex!==null&&vocabSchema!=='4'&&vocabSchema!=='5'){if(vocabSchema==='3'){if(migratedVocabIndex>=V1.length+V2.length)migratedVocabIndex+=V3.length}else if(vocabSchema==='2'){if(migratedVocabIndex>=V1.length)migratedVocabIndex+=V2.length+V3.length}else{migratedVocabIndex+=V1.length+V2.length+V3.length}}localStorage.setItem('msa-vocab-schema','5');localStorage.setItem('msa-vocab-index',String(migratedVocabIndex));if(savedVocabId){let savedIdIndex=ALL_V.findIndex(v=>v.id===savedVocabId);if(savedIdIndex>=0)migratedVocabIndex=savedIdIndex}
 let savedVocabIndex=Math.max(0,Math.min(ALL_V.length-1,migratedVocabIndex));
 let savedHide={};try{savedHide=JSON.parse(localStorage.getItem('msa-study-options')||'{}')||{}}catch(e){}
@@ -1858,6 +1859,7 @@ if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.se
   </script>
 </body>
 </html>
+
 
 
 
