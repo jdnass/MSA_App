@@ -1,4 +1,4 @@
-// Al-Kitaab Part 2: user-supplied Chapters 1–7 and 9, normalized for MoSA.
+// Al-Kitaab Part 2: user-supplied Chapters 1–7, 9, and 10, normalized for MoSA.
 // Chapter 8 awaits source material; Chapter 7 excludes the IMG_5549 gap.
 const AK2_CHAPTERS={
   "1": {
@@ -13238,6 +13238,3027 @@ const AK2_CHAPTERS={
         "en": "realistic",
         "pos": "Adjective",
         "idInChapter": 156
+      }
+    ],
+    "grammar": [],
+    "sentences": [],
+    "learn": [
+      "Vocabulary",
+      "First-person verbs and verbal nouns",
+      "Singulars and broken plurals"
+    ]
+  },
+  "10": {
+    "subtitle": "Development, Work, and Economics",
+    "vocab": [
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          1
+        ],
+        "id": "ak2-c10-1",
+        "ar": "أُؤَدِّي إِلَى",
+        "tr": "uʾaddī ilā",
+        "en": "I lead to; I result in",
+        "pos": "Verb",
+        "idInChapter": 1,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-1"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          1
+        ],
+        "id": "ak2-c10-1-past",
+        "ar": "أَدَّيْتُ إِلَى",
+        "tr": "addaytu ilā",
+        "en": "I led to; I resulted in",
+        "pos": "Verb",
+        "idInChapter": 2,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-1"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          1
+        ],
+        "id": "ak2-c10-1-masdar",
+        "ar": "تَأْدِيَة",
+        "tr": "taʾdiya",
+        "en": "leading to; resulting in",
+        "pos": "Verbal noun",
+        "idInChapter": 3,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-1"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "آمَال",
+        "fp": "—",
+        "sourceOrders": [
+          2
+        ],
+        "id": "ak2-c10-2",
+        "ar": "أَمَل",
+        "tr": "amal",
+        "en": "hope",
+        "pos": "Noun",
+        "idInChapter": 4
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "آمَال",
+        "fp": "—",
+        "sourceOrders": [
+          2
+        ],
+        "id": "ak2-c10-2-bp",
+        "ar": "آمَال",
+        "tr": "ʾāmāl",
+        "en": "hopes",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 5,
+        "singularId": "ak2-c10-2"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "آلَات",
+        "fp": "—",
+        "sourceOrders": [
+          3
+        ],
+        "id": "ak2-c10-3",
+        "ar": "آلَة",
+        "tr": "āla",
+        "en": "machine",
+        "pos": "Noun",
+        "idInChapter": 6
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          4
+        ],
+        "id": "ak2-c10-4",
+        "ar": "الْبَشَر",
+        "tr": "al-bashar",
+        "en": "humankind",
+        "pos": "Noun",
+        "idInChapter": 7
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "بَشَرِيَّة",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          5
+        ],
+        "id": "ak2-c10-5",
+        "ar": "بَشَرِيّ",
+        "tr": "basharī",
+        "en": "human (adjective)",
+        "pos": "Adjective",
+        "idInChapter": 8
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          6
+        ],
+        "id": "ak2-c10-6",
+        "ar": "الْبَطَالَة",
+        "tr": "al-baṭāla",
+        "en": "unemployment",
+        "pos": "Noun",
+        "idInChapter": 9
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          7
+        ],
+        "id": "ak2-c10-7",
+        "ar": "أَتَّبِعُ",
+        "tr": "attabiʿu",
+        "en": "I follow",
+        "pos": "Verb",
+        "idInChapter": 10,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-7"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          7
+        ],
+        "id": "ak2-c10-7-past",
+        "ar": "اِتَّبَعْتُ",
+        "tr": "ittabaʿtu",
+        "en": "I followed",
+        "pos": "Verb",
+        "idInChapter": 11,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-7"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          7
+        ],
+        "id": "ak2-c10-7-masdar",
+        "ar": "اِتِّبَاع",
+        "tr": "ittibāʿ",
+        "en": "following",
+        "pos": "Verbal noun",
+        "idInChapter": 12,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-7"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          8
+        ],
+        "id": "ak2-c10-8",
+        "ar": "أَجْعَلُ",
+        "tr": "ajʿalu",
+        "en": "I make",
+        "pos": "Verb",
+        "idInChapter": 13,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-8"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          8
+        ],
+        "id": "ak2-c10-8-past",
+        "ar": "جَعَلْتُ",
+        "tr": "jaʿaltu",
+        "en": "I made",
+        "pos": "Verb",
+        "idInChapter": 14,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-8"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          8
+        ],
+        "id": "ak2-c10-8-masdar",
+        "ar": "جَعْل",
+        "tr": "jaʿl",
+        "en": "making",
+        "pos": "Verbal noun",
+        "idInChapter": 15,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-8"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "جَمَاهِير",
+        "fp": "—",
+        "sourceOrders": [
+          9
+        ],
+        "id": "ak2-c10-9",
+        "ar": "جُمْهُور",
+        "tr": "jumhūr",
+        "en": "public; audience",
+        "pos": "Noun",
+        "idInChapter": 16
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "جَمَاهِير",
+        "fp": "—",
+        "sourceOrders": [
+          9
+        ],
+        "id": "ak2-c10-9-bp",
+        "ar": "جَمَاهِير",
+        "tr": "jamāhīr",
+        "en": "publics; audiences; masses",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 17,
+        "singularId": "ak2-c10-9"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "تَحَدِّيَات",
+        "fp": "—",
+        "sourceOrders": [
+          10
+        ],
+        "id": "ak2-c10-10",
+        "ar": "تَحَدٍّ",
+        "tr": "taḥaddin",
+        "en": "challenge",
+        "pos": "Noun",
+        "idInChapter": 18
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "إِحْصَاءَات",
+        "fp": "—",
+        "sourceOrders": [
+          11
+        ],
+        "id": "ak2-c10-11",
+        "ar": "إِحْصَاء",
+        "tr": "iḥṣāʾ",
+        "en": "statistic; statistical enumeration",
+        "pos": "Noun",
+        "idInChapter": 19
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          12
+        ],
+        "id": "ak2-c10-12",
+        "ar": "أُخَطِّطُ",
+        "tr": "ukhaṭṭiṭu",
+        "en": "I plan",
+        "pos": "Verb",
+        "idInChapter": 20,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-12"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          12
+        ],
+        "id": "ak2-c10-12-past",
+        "ar": "خَطَّطْتُ",
+        "tr": "khaṭṭaṭtu",
+        "en": "I planned",
+        "pos": "Verb",
+        "idInChapter": 21,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-12"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          12
+        ],
+        "id": "ak2-c10-12-masdar",
+        "ar": "تَخْطِيط",
+        "tr": "takhṭīṭ",
+        "en": "planning",
+        "pos": "Verbal noun",
+        "idInChapter": 22,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-12"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "خُطَط",
+        "fp": "—",
+        "sourceOrders": [
+          13
+        ],
+        "id": "ak2-c10-13",
+        "ar": "خُطَّة",
+        "tr": "khuṭṭa",
+        "en": "plan",
+        "pos": "Noun",
+        "idInChapter": 23
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "خُطَط",
+        "fp": "—",
+        "sourceOrders": [
+          13
+        ],
+        "id": "ak2-c10-13-bp",
+        "ar": "خُطَط",
+        "tr": "khuṭaṭ",
+        "en": "plans",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 24,
+        "singularId": "ak2-c10-13"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          14
+        ],
+        "id": "ak2-c10-14",
+        "ar": "أَنْخَفِضُ",
+        "tr": "ankhafiḍu",
+        "en": "I become lower; I decrease",
+        "pos": "Verb",
+        "idInChapter": 25,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-14"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          14
+        ],
+        "id": "ak2-c10-14-past",
+        "ar": "اِنْخَفَضْتُ",
+        "tr": "inkhafaḍtu",
+        "en": "I became lower; I decreased",
+        "pos": "Verb",
+        "idInChapter": 26,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-14"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          14
+        ],
+        "id": "ak2-c10-14-masdar",
+        "ar": "اِنْخِفَاض",
+        "tr": "inkhifāḍ",
+        "en": "decrease; becoming lower",
+        "pos": "Verbal noun",
+        "idInChapter": 27,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-14"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "أَرْبَاح",
+        "fp": "—",
+        "sourceOrders": [
+          15
+        ],
+        "id": "ak2-c10-15",
+        "ar": "رِبْح",
+        "tr": "ribḥ",
+        "en": "profit",
+        "pos": "Noun",
+        "idInChapter": 28
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "أَرْبَاح",
+        "fp": "—",
+        "sourceOrders": [
+          15
+        ],
+        "id": "ak2-c10-15-bp",
+        "ar": "أَرْبَاح",
+        "tr": "arbāḥ",
+        "en": "profits",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 29,
+        "singularId": "ak2-c10-15"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "رِبْحِيَّة",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          16
+        ],
+        "id": "ak2-c10-16",
+        "ar": "رِبْحِيّ",
+        "tr": "ribḥī",
+        "en": "for profit; profit-making",
+        "pos": "Adjective",
+        "idInChapter": 30
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "أَرْيَاف",
+        "fp": "—",
+        "sourceOrders": [
+          17
+        ],
+        "id": "ak2-c10-17",
+        "ar": "رِيف",
+        "tr": "rīf",
+        "en": "rural area; countryside",
+        "pos": "Noun",
+        "idInChapter": 31
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "أَرْيَاف",
+        "fp": "—",
+        "sourceOrders": [
+          17
+        ],
+        "id": "ak2-c10-17-bp",
+        "ar": "أَرْيَاف",
+        "tr": "aryāf",
+        "en": "rural areas",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 32,
+        "singularId": "ak2-c10-17"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "شُرُوط",
+        "fp": "—",
+        "sourceOrders": [
+          18
+        ],
+        "id": "ak2-c10-18",
+        "ar": "شَرْط",
+        "tr": "sharṭ",
+        "en": "condition",
+        "pos": "Noun",
+        "idInChapter": 33
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "شُرُوط",
+        "fp": "—",
+        "sourceOrders": [
+          18
+        ],
+        "id": "ak2-c10-18-bp",
+        "ar": "شُرُوط",
+        "tr": "shurūṭ",
+        "en": "conditions",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 34,
+        "singularId": "ak2-c10-18"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          19
+        ],
+        "id": "ak2-c10-19",
+        "ar": "أُشِيرُ إِلَى",
+        "tr": "ushīru ilā",
+        "en": "I point to; I indicate",
+        "pos": "Verb",
+        "idInChapter": 35,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-19"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          19
+        ],
+        "id": "ak2-c10-19-past",
+        "ar": "أَشَرْتُ إِلَى",
+        "tr": "ashartu ilā",
+        "en": "I pointed to; I indicated",
+        "pos": "Verb",
+        "idInChapter": 36,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-19"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          19
+        ],
+        "id": "ak2-c10-19-masdar",
+        "ar": "إِشَارَة",
+        "tr": "ishāra",
+        "en": "pointing to; indication",
+        "pos": "Verbal noun",
+        "idInChapter": 37,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-19"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          20
+        ],
+        "id": "ak2-c10-20",
+        "ar": "أَعْتَمِدُ عَلَى",
+        "tr": "aʿtamidu ʿalā",
+        "en": "I rely on; I depend on",
+        "pos": "Verb",
+        "idInChapter": 38,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-20"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          20
+        ],
+        "id": "ak2-c10-20-past",
+        "ar": "اِعْتَمَدْتُ عَلَى",
+        "tr": "iʿtamadtu ʿalā",
+        "en": "I relied on; I depended on",
+        "pos": "Verb",
+        "idInChapter": 39,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-20"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          20
+        ],
+        "id": "ak2-c10-20-masdar",
+        "ar": "اِعْتِمَاد",
+        "tr": "iʿtimād",
+        "en": "reliance; dependence",
+        "pos": "Verbal noun",
+        "idInChapter": 40,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-20"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          21
+        ],
+        "id": "ak2-c10-21",
+        "ar": "أُعَانِي مِنْ",
+        "tr": "uʿānī min",
+        "en": "I suffer from",
+        "pos": "Verb",
+        "idInChapter": 41,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-21"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          21
+        ],
+        "id": "ak2-c10-21-past",
+        "ar": "عَانَيْتُ مِنْ",
+        "tr": "ʿānaytu min",
+        "en": "I suffered from",
+        "pos": "Verb",
+        "idInChapter": 42,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-21"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          21
+        ],
+        "id": "ak2-c10-21-masdar",
+        "ar": "مُعَانَاة",
+        "tr": "muʿānāh",
+        "en": "suffering",
+        "pos": "Verbal noun",
+        "idInChapter": 43,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-21"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "فُرُوع",
+        "fp": "—",
+        "sourceOrders": [
+          22
+        ],
+        "id": "ak2-c10-22",
+        "ar": "فَرْع",
+        "tr": "farʿ",
+        "en": "branch",
+        "pos": "Noun",
+        "idInChapter": 44
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "فُرُوع",
+        "fp": "—",
+        "sourceOrders": [
+          22
+        ],
+        "id": "ak2-c10-22-bp",
+        "ar": "فُرُوع",
+        "tr": "furūʿ",
+        "en": "branches",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 45,
+        "singularId": "ak2-c10-22"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          23
+        ],
+        "id": "ak2-c10-23",
+        "ar": "أُفَسِّرُ",
+        "tr": "ufassiru",
+        "en": "I explain",
+        "pos": "Verb",
+        "idInChapter": 46,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-23"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          23
+        ],
+        "id": "ak2-c10-23-past",
+        "ar": "فَسَّرْتُ",
+        "tr": "fassartu",
+        "en": "I explained",
+        "pos": "Verb",
+        "idInChapter": 47,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-23"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          23
+        ],
+        "id": "ak2-c10-23-masdar",
+        "ar": "تَفْسِير",
+        "tr": "tafsīr",
+        "en": "explanation; explaining",
+        "pos": "Verbal noun",
+        "idInChapter": 48,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-23"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "قَوَانِين",
+        "fp": "—",
+        "sourceOrders": [
+          24
+        ],
+        "id": "ak2-c10-24",
+        "ar": "قَانُون",
+        "tr": "qānūn",
+        "en": "law",
+        "pos": "Noun",
+        "idInChapter": 49
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "قَوَانِين",
+        "fp": "—",
+        "sourceOrders": [
+          24
+        ],
+        "id": "ak2-c10-24-bp",
+        "ar": "قَوَانِين",
+        "tr": "qawānīn",
+        "en": "laws",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 50,
+        "singularId": "ak2-c10-24"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          25
+        ],
+        "id": "ak2-c10-25",
+        "ar": "أَقُودُ",
+        "tr": "aqūdu",
+        "en": "I lead; I drive",
+        "pos": "Verb",
+        "idInChapter": 51,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-25"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          25
+        ],
+        "id": "ak2-c10-25-past",
+        "ar": "قُدْتُ",
+        "tr": "qudtu",
+        "en": "I led; I drove",
+        "pos": "Verb",
+        "idInChapter": 52,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-25"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          25
+        ],
+        "id": "ak2-c10-25-masdar",
+        "ar": "قِيَادَة",
+        "tr": "qiyāda",
+        "en": "leading; driving",
+        "pos": "Verbal noun",
+        "idInChapter": 53,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-25"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "تَكَالِيف",
+        "fp": "—",
+        "sourceOrders": [
+          26
+        ],
+        "id": "ak2-c10-26",
+        "ar": "تَكْلِفَة",
+        "tr": "taklifa",
+        "en": "expense; cost",
+        "pos": "Noun",
+        "idInChapter": 54
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "تَكَالِيف",
+        "fp": "—",
+        "sourceOrders": [
+          26
+        ],
+        "id": "ak2-c10-26-bp",
+        "ar": "تَكَالِيف",
+        "tr": "takālīf",
+        "en": "expenses; costs",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 55,
+        "singularId": "ak2-c10-26"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مِهَن",
+        "fp": "—",
+        "sourceOrders": [
+          27
+        ],
+        "id": "ak2-c10-27",
+        "ar": "مِهْنَة",
+        "tr": "mihna",
+        "en": "profession",
+        "pos": "Noun",
+        "idInChapter": 56
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مِهَن",
+        "fp": "—",
+        "sourceOrders": [
+          27
+        ],
+        "id": "ak2-c10-27-bp",
+        "ar": "مِهَن",
+        "tr": "mihan",
+        "en": "professions",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 57,
+        "singularId": "ak2-c10-27"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "نَتَائِج",
+        "fp": "—",
+        "sourceOrders": [
+          28
+        ],
+        "id": "ak2-c10-28",
+        "ar": "نَتِيجَة",
+        "tr": "natīja",
+        "en": "result",
+        "pos": "Noun",
+        "idInChapter": 58
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "نَتَائِج",
+        "fp": "—",
+        "sourceOrders": [
+          28
+        ],
+        "id": "ak2-c10-28-bp",
+        "ar": "نَتَائِج",
+        "tr": "natāʾij",
+        "en": "results",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 59,
+        "singularId": "ak2-c10-28"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          29
+        ],
+        "id": "ak2-c10-29",
+        "ar": "أَصْرِفُ",
+        "tr": "aṣrifu",
+        "en": "I pay; I spend",
+        "pos": "Verb",
+        "idInChapter": 60,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-29"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          29
+        ],
+        "id": "ak2-c10-29-past",
+        "ar": "صَرَفْتُ",
+        "tr": "ṣaraftu",
+        "en": "I paid; I spent",
+        "pos": "Verb",
+        "idInChapter": 61,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-29"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          29
+        ],
+        "id": "ak2-c10-29-masdar",
+        "ar": "صَرْف",
+        "tr": "ṣarf",
+        "en": "paying; spending",
+        "pos": "Verbal noun",
+        "idInChapter": 62,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-29"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          30
+        ],
+        "id": "ak2-c10-30",
+        "ar": "أَنْفِي",
+        "tr": "anfī",
+        "en": "I negate; I deny the truth of",
+        "pos": "Verb",
+        "idInChapter": 63,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-30"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          30
+        ],
+        "id": "ak2-c10-30-past",
+        "ar": "نَفَيْتُ",
+        "tr": "nafaytu",
+        "en": "I negated; I denied the truth of",
+        "pos": "Verb",
+        "idInChapter": 64,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-30"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          30
+        ],
+        "id": "ak2-c10-30-masdar",
+        "ar": "نَفْي",
+        "tr": "nafy",
+        "en": "negation; denial",
+        "pos": "Verbal noun",
+        "idInChapter": 65,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-30"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "أَنْمَاط",
+        "fp": "—",
+        "sourceOrders": [
+          31
+        ],
+        "id": "ak2-c10-31",
+        "ar": "نَمَط",
+        "tr": "namaṭ",
+        "en": "pattern",
+        "pos": "Noun",
+        "idInChapter": 66
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "أَنْمَاط",
+        "fp": "—",
+        "sourceOrders": [
+          31
+        ],
+        "id": "ak2-c10-31-bp",
+        "ar": "أَنْمَاط",
+        "tr": "anmāṭ",
+        "en": "patterns",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 67,
+        "singularId": "ak2-c10-31"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "صُوَر نَمَطِيَّة",
+        "fp": "—",
+        "sourceOrders": [
+          32
+        ],
+        "id": "ak2-c10-32",
+        "ar": "صُورَة نَمَطِيَّة",
+        "tr": "ṣūra namaṭiyya",
+        "en": "stereotype",
+        "pos": "Noun",
+        "idInChapter": 68
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "صُوَر نَمَطِيَّة",
+        "fp": "—",
+        "sourceOrders": [
+          32
+        ],
+        "id": "ak2-c10-32-bp",
+        "ar": "صُوَر نَمَطِيَّة",
+        "tr": "ṣūar namaṭīya",
+        "en": "stereotypes",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 69,
+        "singularId": "ak2-c10-32"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          33
+        ],
+        "id": "ak2-c10-33",
+        "ar": "التَّنْمِيَة",
+        "tr": "at-tanmiya",
+        "en": "development",
+        "pos": "Noun",
+        "idInChapter": 70
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مَنَاهِج",
+        "fp": "—",
+        "sourceOrders": [
+          34
+        ],
+        "id": "ak2-c10-34",
+        "ar": "مَنْهَج",
+        "tr": "manhaj",
+        "en": "method",
+        "pos": "Noun",
+        "idInChapter": 71
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مَنَاهِج",
+        "fp": "—",
+        "sourceOrders": [
+          34
+        ],
+        "id": "ak2-c10-34-bp",
+        "ar": "مَنَاهِج",
+        "tr": "manāhij",
+        "en": "methods",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 72,
+        "singularId": "ak2-c10-34"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مَنَاهِجُ التَّعْلِيمِ",
+        "fp": "—",
+        "sourceOrders": [
+          35
+        ],
+        "id": "ak2-c10-35",
+        "ar": "مَنْهَجُ التَّعْلِيمِ",
+        "tr": "manhaj at-taʿlīm",
+        "en": "curriculum",
+        "pos": "Noun",
+        "idInChapter": 73
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مَنَاهِجُ التَّعْلِيمِ",
+        "fp": "—",
+        "sourceOrders": [
+          35
+        ],
+        "id": "ak2-c10-35-bp",
+        "ar": "مَنَاهِجُ التَّعْلِيمِ",
+        "tr": "manāhiju ālttaʿlīmi",
+        "en": "curricula",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 74,
+        "singularId": "ak2-c10-35"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          36
+        ],
+        "id": "ak2-c10-36",
+        "ar": "أَهْدُفُ إِلَى",
+        "tr": "ahdufu ilā",
+        "en": "I aim at",
+        "pos": "Verb",
+        "idInChapter": 75,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-36"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          36
+        ],
+        "id": "ak2-c10-36-past",
+        "ar": "هَدَفْتُ إِلَى",
+        "tr": "hadaftu ilā",
+        "en": "I aimed at",
+        "pos": "Verb",
+        "idInChapter": 76,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-36"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          36
+        ],
+        "id": "ak2-c10-36-masdar",
+        "ar": "هَدْف",
+        "tr": "hadf",
+        "en": "aiming at",
+        "pos": "Verbal noun",
+        "idInChapter": 77,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-36"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          37
+        ],
+        "id": "ak2-c10-37",
+        "ar": "أُوَزِّعُ",
+        "tr": "uwazziʿu",
+        "en": "I distribute",
+        "pos": "Verb",
+        "idInChapter": 78,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-37"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          37
+        ],
+        "id": "ak2-c10-37-past",
+        "ar": "وَزَّعْتُ",
+        "tr": "wazzaʿtu",
+        "en": "I distributed",
+        "pos": "Verb",
+        "idInChapter": 79,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-37"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          37
+        ],
+        "id": "ak2-c10-37-masdar",
+        "ar": "تَوْزِيع",
+        "tr": "tawzīʿ",
+        "en": "distribution; distributing",
+        "pos": "Verbal noun",
+        "idInChapter": 80,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-37"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          38
+        ],
+        "id": "ak2-c10-38",
+        "ar": "أُوَافِقُ عَلَى",
+        "tr": "uwāfiqu ʿalā",
+        "en": "I agree to; I approve",
+        "pos": "Verb",
+        "idInChapter": 81,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-38"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          38
+        ],
+        "id": "ak2-c10-38-past",
+        "ar": "وَافَقْتُ عَلَى",
+        "tr": "wāfaqtu ʿalā",
+        "en": "I agreed to; I approved",
+        "pos": "Verb",
+        "idInChapter": 82,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-38"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          38
+        ],
+        "id": "ak2-c10-38-masdar",
+        "ar": "مُوَافَقَة",
+        "tr": "muwāfaqa",
+        "en": "agreement; approval",
+        "pos": "Verbal noun",
+        "idInChapter": 83,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-38"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مُؤَسَّسَات",
+        "fp": "—",
+        "sourceOrders": [
+          39
+        ],
+        "id": "ak2-c10-39",
+        "ar": "مُؤَسَّسَة",
+        "tr": "muʾassasa",
+        "en": "establishment; institution",
+        "pos": "Noun",
+        "idInChapter": 84
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مَبَالِغ",
+        "fp": "—",
+        "sourceOrders": [
+          40
+        ],
+        "id": "ak2-c10-40",
+        "ar": "مَبْلَغ",
+        "tr": "mablagh",
+        "en": "amount",
+        "pos": "Noun",
+        "idInChapter": 85
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مَبَالِغ",
+        "fp": "—",
+        "sourceOrders": [
+          40
+        ],
+        "id": "ak2-c10-40-bp",
+        "ar": "مَبَالِغ",
+        "tr": "mabāligh",
+        "en": "amounts",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 86,
+        "singularId": "ak2-c10-40"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          41
+        ],
+        "id": "ak2-c10-41",
+        "ar": "أَبْنِي",
+        "tr": "abnī",
+        "en": "I build",
+        "pos": "Verb",
+        "idInChapter": 87,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-41"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          41
+        ],
+        "id": "ak2-c10-41-past",
+        "ar": "بَنَيْتُ",
+        "tr": "banaytu",
+        "en": "I built",
+        "pos": "Verb",
+        "idInChapter": 88,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-41"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          41
+        ],
+        "id": "ak2-c10-41-masdar",
+        "ar": "بِنَاء",
+        "tr": "bināʾ",
+        "en": "building; construction",
+        "pos": "Verbal noun",
+        "idInChapter": 89,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-41"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          42
+        ],
+        "id": "ak2-c10-42",
+        "ar": "بُنْيَة تَحْتِيَّة",
+        "tr": "bunya taḥtiyya",
+        "en": "infrastructure",
+        "pos": "Noun",
+        "idInChapter": 90
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          43
+        ],
+        "id": "ak2-c10-43",
+        "ar": "أُبَيِّنُ",
+        "tr": "ubayyinu",
+        "en": "I demonstrate; I make clear",
+        "pos": "Verb",
+        "idInChapter": 91,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-43"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          43
+        ],
+        "id": "ak2-c10-43-past",
+        "ar": "بَيَّنْتُ",
+        "tr": "bayyantu",
+        "en": "I demonstrated; I made clear",
+        "pos": "Verb",
+        "idInChapter": 92,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-43"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          43
+        ],
+        "id": "ak2-c10-43-masdar",
+        "ar": "تَبْيِين",
+        "tr": "tabyīn",
+        "en": "demonstrating; making clear",
+        "pos": "Verbal noun",
+        "idInChapter": 93,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-43"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "أَجْنَاس",
+        "fp": "—",
+        "sourceOrders": [
+          44
+        ],
+        "id": "ak2-c10-44",
+        "ar": "جِنْس",
+        "tr": "jins",
+        "en": "sex; gender",
+        "pos": "Noun",
+        "idInChapter": 94
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "أَجْنَاس",
+        "fp": "—",
+        "sourceOrders": [
+          44
+        ],
+        "id": "ak2-c10-44-bp",
+        "ar": "أَجْنَاس",
+        "tr": "ajnās",
+        "en": "sexes; genders; kinds",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 95,
+        "singularId": "ak2-c10-44"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          45
+        ],
+        "id": "ak2-c10-45",
+        "ar": "حَتَّى",
+        "tr": "ḥattā",
+        "en": "even",
+        "pos": "Particle",
+        "idInChapter": 96
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          46
+        ],
+        "id": "ak2-c10-46",
+        "ar": "أَتَحَمَّلُ",
+        "tr": "ataḥammalu",
+        "en": "I bear a burden or unpleasantness",
+        "pos": "Verb",
+        "idInChapter": 97,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-46"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          46
+        ],
+        "id": "ak2-c10-46-past",
+        "ar": "تَحَمَّلْتُ",
+        "tr": "taḥammaltu",
+        "en": "I bore a burden or unpleasantness",
+        "pos": "Verb",
+        "idInChapter": 98,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-46"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          46
+        ],
+        "id": "ak2-c10-46-masdar",
+        "ar": "تَحَمُّل",
+        "tr": "taḥammul",
+        "en": "bearing; enduring",
+        "pos": "Verbal noun",
+        "idInChapter": 99,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-46"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          47
+        ],
+        "id": "ak2-c10-47",
+        "ar": "أُجْرِي",
+        "tr": "ujrī",
+        "en": "I conduct; I carry out",
+        "pos": "Verb",
+        "idInChapter": 100,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-47"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          47
+        ],
+        "id": "ak2-c10-47-past",
+        "ar": "أَجْرَيْتُ",
+        "tr": "ajraytu",
+        "en": "I conducted; I carried out",
+        "pos": "Verb",
+        "idInChapter": 101,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-47"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          47
+        ],
+        "id": "ak2-c10-47-masdar",
+        "ar": "إِجْرَاء",
+        "tr": "ijrāʾ",
+        "en": "conducting; carrying out",
+        "pos": "Verbal noun",
+        "idInChapter": 102,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-47"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          48
+        ],
+        "id": "ak2-c10-48",
+        "ar": "أَخْتَبِرُ",
+        "tr": "akhtabiru",
+        "en": "I test by experiment or trial",
+        "pos": "Verb",
+        "idInChapter": 103,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-48"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          48
+        ],
+        "id": "ak2-c10-48-past",
+        "ar": "اِخْتَبَرْتُ",
+        "tr": "ikhtabartu",
+        "en": "I tested by experiment or trial",
+        "pos": "Verb",
+        "idInChapter": 104,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-48"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "اِخْتِبَارَات",
+        "fp": "—",
+        "sourceOrders": [
+          48
+        ],
+        "id": "ak2-c10-48-masdar",
+        "ar": "اِخْتِبَار",
+        "tr": "ikhtibār",
+        "en": "test; trial; testing",
+        "pos": "Verbal noun",
+        "idInChapter": 105,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-48"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مُخْتَبَرَات",
+        "fp": "—",
+        "sourceOrders": [
+          49
+        ],
+        "id": "ak2-c10-49",
+        "ar": "مُخْتَبَر",
+        "tr": "mukhtabar",
+        "en": "laboratory",
+        "pos": "Noun",
+        "idInChapter": 106
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          50
+        ],
+        "id": "ak2-c10-50",
+        "ar": "أُخَصِّصُ لِـ",
+        "tr": "ukhaṣṣiṣu li-",
+        "en": "I designate for; I allocate to",
+        "pos": "Verb",
+        "idInChapter": 107,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-50"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          50
+        ],
+        "id": "ak2-c10-50-past",
+        "ar": "خَصَّصْتُ لِـ",
+        "tr": "khaṣṣaṣtu li-",
+        "en": "I designated for; I allocated to",
+        "pos": "Verb",
+        "idInChapter": 108,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-50"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          50
+        ],
+        "id": "ak2-c10-50-masdar",
+        "ar": "تَخْصِيص",
+        "tr": "takhṣīṣ",
+        "en": "designating; allocation",
+        "pos": "Verbal noun",
+        "idInChapter": 109,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-50"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "دُخُول",
+        "fp": "—",
+        "sourceOrders": [
+          51
+        ],
+        "id": "ak2-c10-51",
+        "ar": "دَخْل",
+        "tr": "dakhl",
+        "en": "income",
+        "pos": "Noun",
+        "idInChapter": 110
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "دُخُول",
+        "fp": "—",
+        "sourceOrders": [
+          51
+        ],
+        "id": "ak2-c10-51-bp",
+        "ar": "دُخُول",
+        "tr": "dukhūl",
+        "en": "incomes",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 111,
+        "singularId": "ak2-c10-51"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "رَأْسْمَالِيَّة",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          52
+        ],
+        "id": "ak2-c10-52",
+        "ar": "رَأْسْمَالِيّ",
+        "tr": "raʾsmālī",
+        "en": "capitalist",
+        "pos": "Adjective",
+        "idInChapter": 112
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          53
+        ],
+        "id": "ak2-c10-53",
+        "ar": "أَرَى",
+        "tr": "arā",
+        "en": "I see",
+        "pos": "Verb",
+        "idInChapter": 113,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-53"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          53
+        ],
+        "id": "ak2-c10-53-past",
+        "ar": "رَأَيْتُ",
+        "tr": "raʾaytu",
+        "en": "I saw",
+        "pos": "Verb",
+        "idInChapter": 114,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-53"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          53
+        ],
+        "id": "ak2-c10-53-masdar",
+        "ar": "رُؤْيَة",
+        "tr": "ruʾya",
+        "en": "seeing; vision",
+        "pos": "Verbal noun",
+        "idInChapter": 115,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-53"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          54
+        ],
+        "id": "ak2-c10-54",
+        "ar": "أَرَى أَنَّ",
+        "tr": "arā ʾanna",
+        "en": "I am of the opinion that",
+        "pos": "Verb",
+        "idInChapter": 116,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-54"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          54
+        ],
+        "id": "ak2-c10-54-past",
+        "ar": "رَأَيْتُ أَنَّ",
+        "tr": "raʾaytu ʾanna",
+        "en": "I was of the opinion that",
+        "pos": "Verb",
+        "idInChapter": 117,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-54"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "آرَاء",
+        "fp": "—",
+        "sourceOrders": [
+          54
+        ],
+        "id": "ak2-c10-54-masdar",
+        "ar": "رَأْي",
+        "tr": "raʾy",
+        "en": "opinion; view",
+        "pos": "Verbal noun",
+        "idInChapter": 118,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-54"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "id": "ak2-c10-54-masdar-bp",
+        "ar": "آرَاء",
+        "tr": "ārāʾ",
+        "en": "opinions; views",
+        "pos": "Noun (broken plural)",
+        "singularId": "ak2-c10-54-masdar",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          54
+        ],
+        "idInChapter": 119
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مَرَاحِل",
+        "fp": "—",
+        "sourceOrders": [
+          55
+        ],
+        "id": "ak2-c10-55",
+        "ar": "مَرْحَلَة",
+        "tr": "marḥala",
+        "en": "stage; phase",
+        "pos": "Noun",
+        "idInChapter": 120
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مَرَاحِل",
+        "fp": "—",
+        "sourceOrders": [
+          55
+        ],
+        "id": "ak2-c10-55-bp",
+        "ar": "مَرَاحِل",
+        "tr": "marāḥil",
+        "en": "stages; phases",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 121,
+        "singularId": "ak2-c10-55"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مَسْؤُولِيَّات",
+        "fp": "—",
+        "sourceOrders": [
+          56
+        ],
+        "id": "ak2-c10-56",
+        "ar": "مَسْؤُولِيَّة",
+        "tr": "masʾūliyya",
+        "en": "responsibility",
+        "pos": "Noun",
+        "idInChapter": 122
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مُسْتَوَيَات",
+        "fp": "—",
+        "sourceOrders": [
+          57
+        ],
+        "id": "ak2-c10-57",
+        "ar": "مُسْتَوًى",
+        "tr": "mustawan",
+        "en": "level",
+        "pos": "Noun",
+        "idInChapter": 123
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          58
+        ],
+        "id": "ak2-c10-58",
+        "ar": "شِبْه",
+        "tr": "shibh",
+        "en": "semi-; pseudo-",
+        "pos": "Expression",
+        "idInChapter": 124
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "ضَرَائِب",
+        "fp": "—",
+        "sourceOrders": [
+          59
+        ],
+        "id": "ak2-c10-59",
+        "ar": "ضَرِيبَة",
+        "tr": "ḍarība",
+        "en": "tax",
+        "pos": "Noun",
+        "idInChapter": 125
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "ضَرَائِب",
+        "fp": "—",
+        "sourceOrders": [
+          59
+        ],
+        "id": "ak2-c10-59-bp",
+        "ar": "ضَرَائِب",
+        "tr": "ḍarāʾib",
+        "en": "taxes",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 126,
+        "singularId": "ak2-c10-59"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          60
+        ],
+        "id": "ak2-c10-60",
+        "ar": "أُضِيفُ",
+        "tr": "uḍīfu",
+        "en": "I add",
+        "pos": "Verb",
+        "idInChapter": 127,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-60"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          60
+        ],
+        "id": "ak2-c10-60-past",
+        "ar": "أَضَفْتُ",
+        "tr": "aḍaftu",
+        "en": "I added",
+        "pos": "Verb",
+        "idInChapter": 128,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-60"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          60
+        ],
+        "id": "ak2-c10-60-masdar",
+        "ar": "إِضَافَة",
+        "tr": "iḍāfa",
+        "en": "adding; addition",
+        "pos": "Verbal noun",
+        "idInChapter": 129,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-60"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "عَشْوَائِيَّة",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          61
+        ],
+        "id": "ak2-c10-61",
+        "ar": "عَشْوَائِيّ",
+        "tr": "ʿashwāʾī",
+        "en": "random",
+        "pos": "Adjective",
+        "idInChapter": 130
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          62
+        ],
+        "id": "ak2-c10-62",
+        "ar": "أَتَعَامَلُ مَعَ",
+        "tr": "ataʿāmalu maʿa",
+        "en": "I deal with",
+        "pos": "Verb",
+        "idInChapter": 131,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-62"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          62
+        ],
+        "id": "ak2-c10-62-past",
+        "ar": "تَعَامَلْتُ مَعَ",
+        "tr": "taʿāmaltu maʿa",
+        "en": "I dealt with",
+        "pos": "Verb",
+        "idInChapter": 132,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-62"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          62
+        ],
+        "id": "ak2-c10-62-masdar",
+        "ar": "تَعَامُل",
+        "tr": "taʿāmul",
+        "en": "dealing with",
+        "pos": "Verbal noun",
+        "idInChapter": 133,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-62"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "عَمَلِيَّة",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          63
+        ],
+        "id": "ak2-c10-63",
+        "ar": "عَمَلِيّ",
+        "tr": "ʿamalī",
+        "en": "practical",
+        "pos": "Adjective",
+        "idInChapter": 134
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "عَمَلِيَّات",
+        "fp": "—",
+        "sourceOrders": [
+          64
+        ],
+        "id": "ak2-c10-64",
+        "ar": "عَمَلِيَّة",
+        "tr": "ʿamaliyya",
+        "en": "process; operation",
+        "pos": "Noun",
+        "idInChapter": 135
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "مُعَيَّنَة",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          65
+        ],
+        "id": "ak2-c10-65",
+        "ar": "مُعَيَّن",
+        "tr": "muʿayyan",
+        "en": "certain; specific",
+        "pos": "Adjective",
+        "idInChapter": 136
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          66
+        ],
+        "id": "ak2-c10-66",
+        "ar": "أَتَفَاعَلُ مَعَ",
+        "tr": "atafāʿalu maʿa",
+        "en": "I interact with",
+        "pos": "Verb",
+        "idInChapter": 137,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-66"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          66
+        ],
+        "id": "ak2-c10-66-past",
+        "ar": "تَفَاعَلْتُ مَعَ",
+        "tr": "tafāʿaltu maʿa",
+        "en": "I interacted with",
+        "pos": "Verb",
+        "idInChapter": 138,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-66"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          66
+        ],
+        "id": "ak2-c10-66-masdar",
+        "ar": "تَفَاعُل",
+        "tr": "tafāʿul",
+        "en": "interaction; interacting",
+        "pos": "Verbal noun",
+        "idInChapter": 139,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-66"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "فَعَّالَة",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          67
+        ],
+        "id": "ak2-c10-67",
+        "ar": "فَعَّال",
+        "tr": "faʿʿāl",
+        "en": "effective",
+        "pos": "Adjective",
+        "idInChapter": 140
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          68
+        ],
+        "id": "ak2-c10-68",
+        "ar": "الْفَقْر",
+        "tr": "al-faqr",
+        "en": "poverty",
+        "pos": "Noun",
+        "idInChapter": 141
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          69
+        ],
+        "id": "ak2-c10-69",
+        "ar": "أَفْتَقِرُ إِلَى",
+        "tr": "aftaqiru ilā",
+        "en": "I lack",
+        "pos": "Verb",
+        "idInChapter": 142,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-69"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          69
+        ],
+        "id": "ak2-c10-69-past",
+        "ar": "اِفْتَقَرْتُ إِلَى",
+        "tr": "iftaqartu ilā",
+        "en": "I lacked",
+        "pos": "Verb",
+        "idInChapter": 143,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-69"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          69
+        ],
+        "id": "ak2-c10-69-masdar",
+        "ar": "اِفْتِقَار",
+        "tr": "iftiqār",
+        "en": "lacking; lack",
+        "pos": "Verbal noun",
+        "idInChapter": 144,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-69"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "تَقَارِير",
+        "fp": "—",
+        "sourceOrders": [
+          70
+        ],
+        "id": "ak2-c10-70",
+        "ar": "تَقْرِير",
+        "tr": "taqrīr",
+        "en": "report",
+        "pos": "Noun",
+        "idInChapter": 145
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "تَقَارِير",
+        "fp": "—",
+        "sourceOrders": [
+          70
+        ],
+        "id": "ak2-c10-70-bp",
+        "ar": "تَقَارِير",
+        "tr": "taqārīr",
+        "en": "reports",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 146,
+        "singularId": "ak2-c10-70"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "قِطَاعَات",
+        "fp": "—",
+        "sourceOrders": [
+          71
+        ],
+        "id": "ak2-c10-71",
+        "ar": "قِطَاع",
+        "tr": "qiṭāʿ",
+        "en": "sector",
+        "pos": "Noun",
+        "idInChapter": 147
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "قَوَائِم",
+        "fp": "—",
+        "sourceOrders": [
+          72
+        ],
+        "id": "ak2-c10-72",
+        "ar": "قَائِمَة",
+        "tr": "qāʾima",
+        "en": "list",
+        "pos": "Noun",
+        "idInChapter": 148
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "قَوَائِم",
+        "fp": "—",
+        "sourceOrders": [
+          72
+        ],
+        "id": "ak2-c10-72-bp",
+        "ar": "قَوَائِم",
+        "tr": "qawāʾim",
+        "en": "lists",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 149,
+        "singularId": "ak2-c10-72"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          73
+        ],
+        "id": "ak2-c10-73",
+        "ar": "أُقَيِّمُ",
+        "tr": "uqayyimu",
+        "en": "I evaluate",
+        "pos": "Verb",
+        "idInChapter": 150,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-73"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          73
+        ],
+        "id": "ak2-c10-73-past",
+        "ar": "قَيَّمْتُ",
+        "tr": "qayyamtu",
+        "en": "I evaluated",
+        "pos": "Verb",
+        "idInChapter": 151,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-73"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          73
+        ],
+        "id": "ak2-c10-73-masdar",
+        "ar": "تَقْيِيم",
+        "tr": "taqyīm",
+        "en": "evaluation; evaluating",
+        "pos": "Verbal noun",
+        "idInChapter": 152,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-73"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "كَمِّيَّات",
+        "fp": "—",
+        "sourceOrders": [
+          74
+        ],
+        "id": "ak2-c10-74",
+        "ar": "كَمِّيَّة",
+        "tr": "kammiyya",
+        "en": "quantity",
+        "pos": "Noun",
+        "idInChapter": 153
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "مَدَنِيَّة",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          75
+        ],
+        "id": "ak2-c10-75",
+        "ar": "مَدَنِيّ",
+        "tr": "madanī",
+        "en": "civil",
+        "pos": "Adjective",
+        "idInChapter": 154
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          76
+        ],
+        "id": "ak2-c10-76",
+        "ar": "أُمَوِّلُ",
+        "tr": "umawwilu",
+        "en": "I finance; I fund",
+        "pos": "Verb",
+        "idInChapter": 155,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-76"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          76
+        ],
+        "id": "ak2-c10-76-past",
+        "ar": "مَوَّلْتُ",
+        "tr": "mawwaltu",
+        "en": "I financed; I funded",
+        "pos": "Verb",
+        "idInChapter": 156,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-76"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          76
+        ],
+        "id": "ak2-c10-76-masdar",
+        "ar": "تَمْوِيل",
+        "tr": "tamwīl",
+        "en": "financing; funding",
+        "pos": "Verbal noun",
+        "idInChapter": 157,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-76"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "نِسَب",
+        "fp": "—",
+        "sourceOrders": [
+          77
+        ],
+        "id": "ak2-c10-77",
+        "ar": "نِسْبَة",
+        "tr": "nisba",
+        "en": "percentage",
+        "pos": "Noun",
+        "idInChapter": 158
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "نِسَب",
+        "fp": "—",
+        "sourceOrders": [
+          77
+        ],
+        "id": "ak2-c10-77-bp",
+        "ar": "نِسَب",
+        "tr": "nisab",
+        "en": "percentages",
+        "pos": "Noun (broken plural)",
+        "idInChapter": 159,
+        "singularId": "ak2-c10-77"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "نَظَرِيَّات",
+        "fp": "—",
+        "sourceOrders": [
+          78
+        ],
+        "id": "ak2-c10-78",
+        "ar": "نَظَرِيَّة",
+        "tr": "naẓariyya",
+        "en": "theory",
+        "pos": "Noun",
+        "idInChapter": 160
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          79
+        ],
+        "id": "ak2-c10-79",
+        "ar": "أَنْقُلُ",
+        "tr": "anqulu",
+        "en": "I copy",
+        "pos": "Verb",
+        "idInChapter": 161,
+        "verbForm": "present",
+        "verbGroup": "ak2-c10-79"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          79
+        ],
+        "id": "ak2-c10-79-past",
+        "ar": "نَقَلْتُ",
+        "tr": "naqaltu",
+        "en": "I copied",
+        "pos": "Verb",
+        "idInChapter": 162,
+        "verbForm": "past",
+        "verbGroup": "ak2-c10-79"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "sourceOrders": [
+          79
+        ],
+        "id": "ak2-c10-79-masdar",
+        "ar": "نَقْل",
+        "tr": "naql",
+        "en": "copying",
+        "pos": "Verbal noun",
+        "idInChapter": 163,
+        "verbForm": "masdar",
+        "verbGroup": "ak2-c10-79"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "نَوْعِيَّات",
+        "fp": "—",
+        "sourceOrders": [
+          80
+        ],
+        "id": "ak2-c10-80",
+        "ar": "نَوْعِيَّة",
+        "tr": "nawʿiyya",
+        "en": "quality",
+        "pos": "Noun",
+        "idInChapter": 164
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 10,
+        "f": "—",
+        "mp": "مِيزَانِيَّات",
+        "fp": "—",
+        "sourceOrders": [
+          81
+        ],
+        "id": "ak2-c10-81",
+        "ar": "مِيزَانِيَّة",
+        "tr": "mīzāniyya",
+        "en": "budget",
+        "pos": "Noun",
+        "idInChapter": 165
       }
     ],
     "grammar": [],

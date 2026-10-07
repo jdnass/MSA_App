@@ -28,3 +28,10 @@ New cards use the app's existing audio lookup and Arabic speech fallback; no new
 Added from IMG_5556–IMG_5571 on October 6, 2026: 71 normalized entries expanded to 156 cards. Screenshot overlaps removed, including the repeated final section in IMG_5570 and IMG_5571. Chapter 8 remains unavailable pending source vocabulary.
 
 Personal verbs use first-person singular, present → past → verbal noun. Source service, industry/manufacturing, opposition, resistance, and communication entries are reused as verbal-noun cards. Impersonal يصدر remains “it is issued / comes out”; passive feminine أُنشئت remains feminine passive. Added required بِـ with اتصل, standardized its hamzat al-wasl, and corrected مُنَظَّمة / قَضِيَّة spelling and vowels. نادرة remains feminine with masculine equivalent in details. Broken plurals immediately follow singulars; sound plurals remain in details. No recorded audio, grammar, or sentences were supplied.
+
+
+## Chapter 10 — Development, Work, and Economics
+
+Added from IMG_5572–IMG_5588 on October 6, 2026 (America/New_York): 81 normalized entries expanded to 165 study cards. All 17 screenshots read; screenshot overlap removed. Source خطّط (planned) is reused as the past card beside يخطّط; اختبار is reused as the verbal noun beside اختبر. Source فروُع remains a separate card adjacent to فرع.
+
+Personal verbs appear in first-person singular, present → past → verbal noun. Broken plurals follow singulars; sound plurals and feminine equivalents remain in details. Added the required على after يعتمد, preserved إلى / من / مع / لِ where appropriate, and standardized hamzat al-wasl in اتبع / انخفض / اختبر / افتقر. Source التنمية was corrected from the screenshot’s misspelling. مُؤَسَّسَة is an establishment/institution. وافق على is glossed agree to/approve; نقل retains the source sense copy. رأى and رأى أن remain separate for their distinct senses; رأي / آراء are opinion/views. Chapter 8 remains unavailable; prior cards retain their IDs and contents. No new recordings, grammar, or sentences were supplied.
