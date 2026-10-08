@@ -37,6 +37,7 @@
 .practice-tabs{display:flex;margin:0 0 14px;border-bottom:1px solid var(--line)}.practice-tabs button{border:0;background:none;padding:11px 18px;font:inherit;color:var(--blue);cursor:pointer}.practice-tabs .active{border-bottom:3px solid var(--blue);font-weight:750}.practice-intro,.practice-note,.practice-count{color:var(--muted);font-size:.85rem;line-height:1.5}.practice-search{display:block;font-size:.85rem;font-weight:700}.practice-search input{display:block;width:100%;margin-top:7px;padding:12px;border:1px solid var(--line);border-radius:12px;font:inherit;background:#fff}.practice-group h2{font-size:1.2rem;margin:25px 0 12px;color:var(--blue)}.practice-pattern{padding:12px;background:#e9f3ff;border-radius:12px;font-size:1rem;margin:15px 0 9px}.practice-pattern span,.practice-pattern small{display:block;margin-top:5px;font-size:.85rem;font-weight:400}.practice-pattern small{font-size:1.3rem;text-align:left}.practice-row{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px 10px;margin:9px 0;box-shadow:0 3px 10px rgba(30,62,106,.04)}.practice-row-title{display:flex;align-items:center;gap:8px;justify-content:space-between;padding:0 3px 10px}.practice-tag{font-size:.65rem;color:var(--muted);text-align:right}.practice-columns{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.practice-cell{min-width:0;border-left:1px solid var(--line);padding:0 4px}.practice-cell:first-child{border-left:0}.practice-cell-label{font-size:.65rem;font-weight:750;color:#31517d;display:flex;align-items:center;justify-content:space-between;min-height:30px}.practice-audio{border:0;background:none;color:var(--blue);padding:3px;cursor:pointer}.practice-audio svg{width:16px;height:16px}.practice-field{display:block;width:100%;border:0;background:none;padding:4px 0;font:inherit;color:inherit;text-align:left;cursor:pointer;overflow-wrap:anywhere}.practice-field.list-en{font-weight:750}.practice-field.list-ar{font-family:"Geeza Pro","Noto Naskh Arabic",serif;font-size:1.4rem;text-align:center;direction:rtl;line-height:1.55}.practice-field.list-tr{font-size:.78rem;color:#1754ad;text-align:center;line-height:1.4}.practice-rating{display:flex;gap:8px;align-items:center;justify-content:flex-end;font-size:.72rem;color:var(--muted);margin-top:10px}.practice-rating select{border:1px solid var(--line);border-radius:6px;padding:4px 8px;background:#fff;color:var(--blue)}.practice-field:focus-visible,.practice-audio:focus-visible{outline:2px solid var(--blue);outline-offset:2px}@media(max-width:360px){.practice-row{padding:10px 6px}.practice-cell{padding:0 2px}.practice-field.list-ar{font-size:1.25rem}.practice-cell-label{font-size:.6rem}}
 .practice-guide{background:#eef6ff;border:1px solid #c7def8;border-radius:14px;padding:14px;margin:14px 0 18px}.practice-guide h2{font-size:1rem;color:var(--blue);margin:0 0 8px}.practice-guide h3{font-size:.95rem;margin:12px 0 6px}.practice-guide h4{margin:12px 0 6px}.practice-guide p{font-size:.82rem;line-height:1.5;margin:6px 0;color:#31517d}.practice-guide-entry+.practice-guide-entry{border-top:1px solid #c7def8;margin-top:14px;padding-top:3px}.practice-guide-templates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:10px 0}.practice-guide-templates small{font-size:.65rem;font-weight:700}.practice-guide-templates span{display:block;font-size:1.2rem;line-height:1.6;overflow-wrap:anywhere}.practice-guide-templates .practice-guide-tr,.practice-guide-tr{font-size:.75rem;color:#1754ad;line-height:1.4}.practice-guide-templates div{min-width:0;text-align:center}
 .list-meaning{display:flex;align-items:center;gap:4px}.list-grammar-note{flex-shrink:0;border:0;background:transparent;color:#d32626;font-size:1.4rem;font-weight:900;padding:5px;cursor:pointer}
+.practice-model{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 8px;margin:12px 0 16px}.practice-model h4{margin:0 0 6px;color:var(--blue);font-size:.8rem}.practice-model>.list-en{margin-bottom:8px}.practice-model .practice-columns{margin-top:5px}
 </style>
 </head>
 <body>
@@ -44,13 +45,13 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=56"></script>
-<script src="./dli-basic-data.js?v=56"></script>
-<script src="./alkitaab-chapters-5-13.js?v=56"></script>
-<script src="./alkitaab-part2-chapters-1-7.js?v=56"></script>
-<script src="./mango-chapters-4-7.js?v=56"></script>
-<script src="./mango-chapters-8-10.js?v=56"></script>
-<script src="./verb-practice-data.js?v=56"></script>
+<script src="./alif-baa-vocab.js?v=57"></script>
+<script src="./dli-basic-data.js?v=57"></script>
+<script src="./alkitaab-chapters-5-13.js?v=57"></script>
+<script src="./alkitaab-part2-chapters-1-7.js?v=57"></script>
+<script src="./mango-chapters-4-7.js?v=57"></script>
+<script src="./mango-chapters-8-10.js?v=57"></script>
+<script src="./verb-practice-data.js?v=57"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -1867,7 +1868,7 @@ function empty(){app.innerHTML=header(state.tab[0].toUpperCase()+state.tab.slice
 render();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
   </script>
-<script src="./verb-practice.js?v=56"></script>
+<script src="./verb-practice.js?v=57"></script>
 </body>
 </html>
 
