@@ -27,7 +27,7 @@
     .actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}.actions.grammar-actions{grid-template-columns:1fr}.rating-label{text-align:center;margin:12px 0 8px;color:#31517d}.ratings{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.rating{border:0;border-radius:9px;padding:10px;background:#e6edf6;font-weight:700;cursor:pointer}.rating.selected{color:white;background:linear-gradient(135deg,var(--blue2),var(--blue))}
     .empty{background:white;border-radius:18px;min-height:520px;display:grid;place-content:center;text-align:center;padding:30px}.cone{font-size:4rem}.empty h2{margin:14px 0}.empty p{color:var(--muted);line-height:1.5}
     .bottom{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,460px);height:calc(72px + env(safe-area-inset-bottom));padding:8px 5px env(safe-area-inset-bottom);display:grid;grid-template-columns:repeat(5,1fr);background:rgba(255,255,255,.96);border-top:1px solid var(--line);z-index:10}.tab{border:0;background:none;color:#71839d;font-size:.64rem;cursor:pointer;padding:1px}.tab span{display:block;font-size:1.25rem;margin-bottom:3px}.tab.active{color:var(--blue);font-weight:700}
-    .sheet-backdrop{position:fixed;inset:0;background:rgba(7,20,45,.36);z-index:19;display:none}.sheet-backdrop.open{display:block}.sheet{position:fixed;z-index:20;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,460px);background:white;border-radius:22px 22px 0 0;padding:12px 16px calc(22px + env(safe-area-inset-bottom));display:none;box-shadow:0 -16px 35px rgba(7,20,45,.2)}.sheet.open{display:block}.handle{width:42px;height:5px;background:#c4cfdd;border-radius:9px;margin:0 auto 14px}.option{display:flex;align-items:center;gap:10px;background:#f4f7fb;border-radius:10px;padding:12px;margin:8px 0}.switch{margin-left:auto;width:44px;height:25px;background:#ccd6e3;border:0;border-radius:20px;padding:3px;cursor:pointer}.switch:after{content:"";display:block;width:19px;height:19px;border-radius:50%;background:#fff;transition:.2s}.switch.on{background:var(--blue)}.switch.on:after{transform:translateX(19px)}.order{display:grid;grid-template-columns:1fr 1fr;gap:8px}.order button{border:1px solid transparent;background:#edf2f8;border-radius:10px;padding:11px;cursor:pointer}.order button.active{border-color:var(--blue);color:var(--blue);background:#eef6ff}.hidden-item{filter:blur(9px);cursor:pointer;user-select:none}.hidden-audio{visibility:hidden}
+    .sheet-backdrop{position:fixed;inset:0;background:rgba(7,20,45,.36);z-index:19;display:none}.sheet-backdrop.open{display:block}.sheet{max-height:calc(100vh - env(safe-area-inset-top) - 12px);max-height:calc(100dvh - env(safe-area-inset-top) - 12px);overflow-y:auto;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y;position:fixed;z-index:20;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,460px);background:white;border-radius:22px 22px 0 0;padding:12px 16px calc(22px + env(safe-area-inset-bottom));display:none;box-shadow:0 -16px 35px rgba(7,20,45,.2)}.sheet.open{display:block}.handle{width:42px;height:5px;background:#c4cfdd;border-radius:9px;margin:0 auto 14px}.option{display:flex;align-items:center;gap:10px;background:#f4f7fb;border-radius:10px;padding:12px;margin:8px 0}.switch{margin-left:auto;width:44px;height:25px;background:#ccd6e3;border:0;border-radius:20px;padding:3px;cursor:pointer}.switch:after{content:"";display:block;width:19px;height:19px;border-radius:50%;background:#fff;transition:.2s}.switch.on{background:var(--blue)}.switch.on:after{transform:translateX(19px)}.order{display:grid;grid-template-columns:1fr 1fr;gap:8px}.order button{border:1px solid transparent;background:#edf2f8;border-radius:10px;padding:11px;cursor:pointer}.order button.active{border-color:var(--blue);color:var(--blue);background:#eef6ff}.hidden-item{filter:blur(9px);cursor:pointer;user-select:none}.hidden-audio{visibility:hidden}
     @media(min-width:700px){body{padding:24px}.app{min-height:850px;border-radius:32px;overflow:hidden}.bottom{bottom:24px;border-radius:0 0 32px 32px}}
     .card-audio{position:absolute;left:12px;top:10px;border:0;background:transparent;color:var(--blue);cursor:pointer;z-index:2}.header-gear{margin-left:auto;border:0;background:transparent;color:var(--blue);padding:8px;cursor:pointer}.icon-svg{width:24px;height:24px;display:block;fill:currentColor}.option .icon-svg{width:20px;height:20px;color:#0d3474}
     .grammar-note-button{position:absolute;left:50px;top:8px;width:30px;height:30px;border:0;background:transparent;color:#d32626;font-size:1.65rem;line-height:1;font-weight:900;display:grid;place-items:center;cursor:pointer;z-index:3}.grammar-note-backdrop{position:fixed;inset:0;background:rgba(7,20,45,.48);z-index:29;display:none}.grammar-note-backdrop.open{display:block}.grammar-note-dialog{position:fixed;z-index:30;left:50%;top:50%;transform:translate(-50%,-50%);width:min(calc(100% - 34px),420px);max-height:min(78dvh,650px);overflow-y:auto;background:#fff;border-radius:20px;padding:24px 22px 20px;box-shadow:0 22px 60px rgba(7,20,45,.3);display:none}.grammar-note-dialog.open{display:block}.grammar-note-dialog h2{margin:0 34px 16px 0;font-size:1.45rem}.grammar-note-dialog .grammar-copy{font-size:.98rem;direction:ltr;text-align:left}.grammar-note-ar{direction:rtl;unicode-bidi:isolate;text-align:right;font-family:"Geeza Pro","Noto Naskh Arabic",serif;font-size:1.3rem;color:var(--ink);margin:0 0 14px}.grammar-note-close{position:absolute;right:13px;top:11px;width:34px;height:34px;border:0;border-radius:50%;background:#edf3fa;color:#31517d;font-size:1.35rem;line-height:1;cursor:pointer}.grammar-note-done{width:100%;margin-top:4px}
@@ -42,13 +42,13 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=53"></script>
-<script src="./dli-basic-data.js?v=53"></script>
-<script src="./alkitaab-chapters-5-13.js?v=53"></script>
-<script src="./alkitaab-part2-chapters-1-7.js?v=53"></script>
-<script src="./mango-chapters-4-7.js?v=53"></script>
-<script src="./mango-chapters-8-10.js?v=53"></script>
-<script src="./verb-practice-data.js?v=53"></script>
+<script src="./alif-baa-vocab.js?v=54"></script>
+<script src="./dli-basic-data.js?v=54"></script>
+<script src="./alkitaab-chapters-5-13.js?v=54"></script>
+<script src="./alkitaab-part2-chapters-1-7.js?v=54"></script>
+<script src="./mango-chapters-4-7.js?v=54"></script>
+<script src="./mango-chapters-8-10.js?v=54"></script>
+<script src="./verb-practice-data.js?v=54"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -1861,7 +1861,7 @@ function empty(){app.innerHTML=header(state.tab[0].toUpperCase()+state.tab.slice
 render();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
   </script>
-<script src="./verb-practice.js?v=53"></script>
+<script src="./verb-practice.js?v=54"></script>
 </body>
 </html>
 
