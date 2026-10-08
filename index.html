@@ -45,15 +45,16 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=60"></script>
-<script src="./dli-basic-data.js?v=60"></script>
-<script src="./alkitaab-chapters-5-13.js?v=60"></script>
-<script src="./alkitaab-part2-chapters-1-7.js?v=60"></script>
-<script src="./mango-chapters-4-7.js?v=60"></script>
-<script src="./mango-chapters-8-10.js?v=60"></script>
-<script src="./mango-chapter-11.js?v=60"></script>
-<script src="./mango-chapter-12.js?v=60"></script>
-<script src="./verb-practice-data.js?v=60"></script>
+<script src="./alif-baa-vocab.js?v=61"></script>
+<script src="./dli-basic-data.js?v=61"></script>
+<script src="./alkitaab-chapters-5-13.js?v=61"></script>
+<script src="./alkitaab-part2-chapters-1-7.js?v=61"></script>
+<script src="./mango-chapters-4-7.js?v=61"></script>
+<script src="./mango-chapters-8-10.js?v=61"></script>
+<script src="./mango-chapter-11.js?v=61"></script>
+<script src="./mango-chapter-12.js?v=61"></script>
+<script src="./mango-chapters-13-15.js?v=61"></script>
+<script src="./verb-practice-data.js?v=61"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -1509,7 +1510,7 @@ const MANGO_CHAPTERS={1:{subtitle:'Greetings, Introductions and Everyday Express
 const COLLECTIONS=[
 {id:'alkitaab1',name:'Al-Kitaab (Part 1)',totalChapters:13,chapters:CHAPTERS},
 {id:'alif-baa',name:'Alif Baa',totalChapters:0,chapters:{},vocab:ALIF_BAA_CARDS,vocabOnly:true},
-{id:'mango-msa',name:'Mango Languages (MSA)',totalChapters:12,chapters:MANGO_CHAPTERS},
+{id:'mango-msa',name:'Mango Languages (MSA)',totalChapters:15,chapters:MANGO_CHAPTERS},
 {id:'alkitaab2',name:'Al-Kitaab (Part 2)',totalChapters:10,chapters:AK2_CHAPTERS},
 {id:'alkitaab3',name:'Al-Kitaab (Part 3)',totalChapters:0,chapters:{}},
 {id:'dli-basic',name:'DLI MSA Course (Basic)',totalChapters:40,chapters:DLI_CHAPTERS},
@@ -1877,7 +1878,7 @@ function empty(){app.innerHTML=header(state.tab[0].toUpperCase()+state.tab.slice
 render();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
   </script>
-<script src="./verb-practice.js?v=60"></script>
+<script src="./verb-practice.js?v=61"></script>
 </body>
 </html>
 
