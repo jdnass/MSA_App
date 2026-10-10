@@ -1041,5 +1041,9267 @@ const DLI_CHAPTERS={
 39:{subtitle:'Embassy Work Medicine and Time',vocab:DLI_V39,sentences:DLI_S39,learn:['Embassy work','Medicine and college','Lunch and schedules','Sameness and difference']},
 40:{subtitle:'Companies Petroleum and Future Plans',vocab:DLI_V40,sentences:DLI_S40,learn:['Companies and petroleum','Branches and salaries','Future plans','Everyone and emphatic forms']}
 };
+
+// October 10, 2026 transcript import. Range-labeled sources remain grouped.
+const DLI_TRANSCRIPT_IMPORT = {
+  "41": {
+    "subtitle": "Meals, cafés, and daily routines",
+    "vocab": [
+      [
+        "I eat",
+        "آكُلُ",
+        "ākulu",
+        "Verb"
+      ],
+      [
+        "I drink",
+        "أَشْرَبُ",
+        "ashrabu",
+        "Verb"
+      ],
+      [
+        "I hear about",
+        "أَسْمَعُ بِـ",
+        "asmaʿu bi",
+        "Verb"
+      ],
+      [
+        "I offer; serve",
+        "أُقَدِّمُ",
+        "uqaddimu",
+        "Verb"
+      ],
+      [
+        "food",
+        "طَعَام",
+        "ṭaʿām",
+        "Noun"
+      ],
+      [
+        "usually",
+        "عَادَةً",
+        "ʿādatan",
+        "Adverb"
+      ],
+      [
+        "beside",
+        "بِجَانِبِ",
+        "bi-jānibi",
+        "Preposition"
+      ],
+      [
+        "café",
+        "قَهْوَة",
+        "qahwa",
+        "Noun"
+      ],
+      [
+        "restaurant",
+        "مَطْعَم",
+        "maṭʿam",
+        "Noun",
+        "—",
+        "مَطَاعِم"
+      ],
+      [
+        "plural of restaurant",
+        "مَطَاعِم",
+        "maṭāʿim",
+        "Plural"
+      ],
+      [
+        "excellent",
+        "مُمْتَاز",
+        "mumtāz",
+        "Adjective"
+      ],
+      [
+        "an hour before his return",
+        "قَبْلَ رُجُوعِهِ بِسَاعَةٍ",
+        "qabla rujūʿihi bi-sāʿatin",
+        "Phrase"
+      ],
+      [
+        "an hour after his return",
+        "بَعْدَ رُجُوعِهِ بِسَاعَةٍ",
+        "baʿda rujūʿihi bi-sāʿatin",
+        "Phrase"
+      ]
+    ],
+    "sentences": [
+      [
+        "When do you usually go for lunch?",
+        "مَتَى تَذْهَبُ لِلْغَدَاءِ عَادَةً؟",
+        "matā tadhhabu li-l-ghadāʾi ʿādatan?"
+      ],
+      [
+        "I eat in a restaurant near my office.",
+        "آكُلُ فِي مَطْعَمٍ قَرِيبٍ مِنْ مَكْتَبِي.",
+        "ākulu fī maṭʿamin qarībin min maktabī."
+      ],
+      [
+        "The food there is excellent.",
+        "الطَّعَامُ هُنَاكَ مُمْتَازٌ.",
+        "al-ṭaʿāmu hunāka mumtāzun."
+      ],
+      [
+        "This is the capable professor's book.",
+        "هَذَا كِتَابُ الأُسْتَاذِ الْقَدِيرِ.",
+        "hādhā kitābu al-ustādhi al-qadīri."
+      ]
+    ],
+    "learn": [
+      "Meals",
+      "cafés",
+      "and daily routines"
+    ],
+    "sourceLessonRange": [
+      41,
+      41
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson041-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          41,
+          41
+        ]
+      },
+      {
+        "filename": "lesson041-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          41,
+          41
+        ]
+      }
+    ]
+  },
+  "42": {
+    "subtitle": "Marriage, gifts, and future actions",
+    "vocab": [
+      [
+        "I get married",
+        "أَتَزَوَّجُ",
+        "atazawwaju",
+        "Verb"
+      ],
+      [
+        "going",
+        "الذَّهَاب",
+        "al-dhahāb",
+        "Verbal noun"
+      ],
+      [
+        "young man",
+        "شَابّ",
+        "shābb",
+        "Noun",
+        "—",
+        "شَبَاب"
+      ],
+      [
+        "plural of young man",
+        "شَبَاب",
+        "shabāb",
+        "Plural"
+      ],
+      [
+        "bride",
+        "عَرُوس",
+        "ʿarūs",
+        "Noun"
+      ],
+      [
+        "bridegroom",
+        "عَرِيس",
+        "ʿarīs",
+        "Noun"
+      ],
+      [
+        "wrapper; cover",
+        "غِلَاف",
+        "ghilāf",
+        "Noun"
+      ],
+      [
+        "I wrap",
+        "أُغَلِّفُ",
+        "ughallifu",
+        "Verb"
+      ],
+      [
+        "married",
+        "مُتَزَوِّج",
+        "mutazawwij",
+        "Adjective"
+      ],
+      [
+        "gift",
+        "هَدِيَّة",
+        "hadiyya",
+        "Noun",
+        "—",
+        "هَدَايَا"
+      ],
+      [
+        "plural of gift",
+        "هَدَايَا",
+        "hadāyā",
+        "Plural"
+      ],
+      [
+        "I determine; set",
+        "أُحَدِّدُ",
+        "uḥaddidu",
+        "Verb"
+      ],
+      [
+        "I teach",
+        "أُدَرِّسُ",
+        "udarrisu",
+        "Verb"
+      ],
+      [
+        "I remind",
+        "أُذَكِّرُ",
+        "udhakkiru",
+        "Verb"
+      ],
+      [
+        "I introduce",
+        "أُعَرِّفُ",
+        "uʿarrifu",
+        "Verb"
+      ],
+      [
+        "I inform; teach",
+        "أُعَلِّمُ",
+        "uʿallimu",
+        "Verb"
+      ],
+      [
+        "I speak to",
+        "أُكَلِّمُ",
+        "ukallimu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "I will attend the wedding next Thursday.",
+        "سَأَحْضُرُ حَفْلَ الزَّوَاجِ يَوْمَ الْخَمِيسِ الْقَادِمِ.",
+        "sa-aḥḍuru ḥafla al-zawāji yawma al-khamīsi al-qādimi."
+      ],
+      [
+        "I will give the bridegroom and his bride a small gift.",
+        "سَأُقَدِّمُ إِلَى الْعَرِيسِ وَعَرُوسِهِ هَدِيَّةً صَغِيرَةً.",
+        "sa-uqaddimu ilā al-ʿarīsi wa-ʿarūsihi hadiyyatan ṣaghīratan."
+      ],
+      [
+        "I will wrap it in a beautiful wrapper.",
+        "سَأُغَلِّفُهَا بِغِلَافٍ جَمِيلٍ.",
+        "sa-ughallifuhā bi-ghilāfin jamīlin."
+      ],
+      [
+        "I traveled to Cairo to obtain a doctorate.",
+        "سَافَرْتُ إِلَى الْقَاهِرَةِ لِلْحُصُولِ عَلَى شَهَادَةِ الدُّكْتُورَاهِ.",
+        "sāfartu ilā al-qāhirati li-l-ḥuṣūli ʿalā shahādati al-duktūrāhi."
+      ]
+    ],
+    "learn": [
+      "Marriage",
+      "gifts",
+      "and future actions"
+    ],
+    "sourceLessonRange": [
+      42,
+      42
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson042-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          42,
+          42
+        ]
+      },
+      {
+        "filename": "lesson042-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          42,
+          42
+        ]
+      }
+    ]
+  },
+  "43": {
+    "subtitle": "Official visits and diplomatic relations",
+    "vocab": [
+      [
+        "during",
+        "أَثْنَاءَ",
+        "athnāʾa",
+        "Preposition"
+      ],
+      [
+        "proposal; suggestion",
+        "اِقْتِرَاح",
+        "iqtirāḥ",
+        "Noun"
+      ],
+      [
+        "God willing",
+        "إِنْ شَاءَ اللَّهُ",
+        "in shāʾa Allāhu",
+        "Expression"
+      ],
+      [
+        "improvement",
+        "التَّحْسِين",
+        "al-taḥsīn",
+        "Verbal noun"
+      ],
+      [
+        "Russia",
+        "رُوسِيَا",
+        "rūsiyā",
+        "Place name"
+      ],
+      [
+        "Your Excellency",
+        "سِيَادَتُكَ",
+        "siyādatuka",
+        "Title"
+      ],
+      [
+        "Sinai",
+        "سِينَاء",
+        "sīnāʾ",
+        "Place name"
+      ],
+      [
+        "Moscow",
+        "مُوسْكُو",
+        "mūskū",
+        "Place name"
+      ],
+      [
+        "I oppose",
+        "أُعَارِضُ",
+        "uʿāriḍu",
+        "Verb"
+      ],
+      [
+        "I depart; leave",
+        "أُغَادِرُ",
+        "ughādiru",
+        "Verb"
+      ],
+      [
+        "I interrupt",
+        "أُقَاطِعُ",
+        "uqāṭiʿu",
+        "Verb"
+      ],
+      [
+        "I discuss",
+        "أُنَاقِشُ",
+        "unāqishu",
+        "Verb"
+      ],
+      [
+        "I help",
+        "أُسَاعِدُ",
+        "usāʿidu",
+        "Verb"
+      ],
+      [
+        "I travel",
+        "أُسَافِرُ",
+        "usāfiru",
+        "Verb"
+      ],
+      [
+        "I watch",
+        "أُشَاهِدُ",
+        "ushāhidu",
+        "Verb"
+      ],
+      [
+        "I approve; ratify",
+        "أُصَادِقُ عَلَى",
+        "uṣādiqu ʿalā",
+        "Verb"
+      ],
+      [
+        "I meet",
+        "أُقَابِلُ",
+        "uqābilu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "When will you leave Baghdad for London?",
+        "مَتَى سَتُغَادِرُ بَغْدَادَ إِلَى لَنْدَنَ؟",
+        "matā satughādiru baghdāda ilā landana?"
+      ],
+      [
+        "I will leave Baghdad this afternoon.",
+        "سَأُغَادِرُ بَغْدَادَ بَعْدَ ظُهْرِ الْيَوْمِ.",
+        "sa-ughādiru baghdāda baʿda ẓuhri al-yawmi."
+      ],
+      [
+        "Our ambassador will meet me at London Airport.",
+        "سَيُقَابِلُنِي سَفِيرُنَا فِي مَطَارِ لَنْدَنَ.",
+        "sayuqābilunī safīrunā fī maṭāri landana."
+      ],
+      [
+        "The president will approve the budget.",
+        "سَيُصَادِقُ رَئِيسُ الْجُمْهُورِيَّةِ عَلَى الْمِيزَانِيَّةِ.",
+        "sayuṣādiqu raʾīsu al-jumhūriyyati ʿalā al-mīzāniyyati."
+      ]
+    ],
+    "learn": [
+      "Official visits and diplomatic relations"
+    ],
+    "sourceLessonRange": [
+      43,
+      43
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson043-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          43,
+          43
+        ]
+      },
+      {
+        "filename": "lesson043-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          43,
+          43
+        ]
+      }
+    ]
+  },
+  "44": {
+    "subtitle": "Reporting, opinions, and resignation",
+    "vocab": [
+      [
+        "I inform",
+        "أُخْبِرُ",
+        "ukhbiru",
+        "Verb"
+      ],
+      [
+        "I send",
+        "أُرْسِلُ",
+        "ursilu",
+        "Verb"
+      ],
+      [
+        "reason",
+        "سَبَب",
+        "sabab",
+        "Noun",
+        "—",
+        "أَسْبَاب"
+      ],
+      [
+        "plural of reason",
+        "أَسْبَاب",
+        "asbāb",
+        "Plural"
+      ],
+      [
+        "resignation",
+        "اِسْتِقَالَة",
+        "istiqāla",
+        "Noun"
+      ],
+      [
+        "I show; disclose",
+        "أُظْهِرُ",
+        "uẓhiru",
+        "Verb"
+      ],
+      [
+        "I express",
+        "أُعْرِبُ عَنْ",
+        "uʿribu ʿan",
+        "Verb"
+      ],
+      [
+        "I notify",
+        "أُعْلِمُ بِـ",
+        "uʿlimu bi",
+        "Verb"
+      ],
+      [
+        "I honor",
+        "أُكْرِمُ",
+        "ukrimu",
+        "Verb"
+      ],
+      [
+        "clearly",
+        "بِوُضُوحٍ",
+        "bi-wuḍūḥin",
+        "Adverb"
+      ],
+      [
+        "opinion",
+        "رَأْي",
+        "raʾy",
+        "Noun"
+      ],
+      [
+        "the following day",
+        "الْغَد",
+        "al-ghad",
+        "Noun"
+      ],
+      [
+        "ministry; cabinet",
+        "وِزَارَة",
+        "wizāra",
+        "Noun"
+      ],
+      [
+        "I seat someone",
+        "أُجْلِسُ",
+        "ujlisu",
+        "Verb"
+      ],
+      [
+        "I bring",
+        "أُحْضِرُ",
+        "uḥḍiru",
+        "Verb"
+      ],
+      [
+        "I take out",
+        "أُخْرِجُ",
+        "ukhriju",
+        "Verb"
+      ],
+      [
+        "I put in; admit",
+        "أُدْخِلُ",
+        "udkhilu",
+        "Verb"
+      ],
+      [
+        "I house someone",
+        "أُسْكِنُ",
+        "uskinu",
+        "Verb"
+      ],
+      [
+        "I please; impress",
+        "أُعْجِبُ",
+        "uʿjibu",
+        "Verb"
+      ],
+      [
+        "I explain; make someone understand",
+        "أُفْهِمُ",
+        "ufhimu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Have you finished the article, Kareem?",
+        "هَلْ أَكْمَلْتَ الْمَقَالَ يَا كَرِيمُ؟",
+        "hal akmalta al-maqāla yā karīmu?"
+      ],
+      [
+        "I will finish it tonight and bring it tomorrow morning.",
+        "سَأُكْمِلُهُ اللَّيْلَةَ وَأُحْضِرُهُ صَبَاحَ الْغَدِ.",
+        "sa-ukmiluhu al-laylata wa-uḥḍiruhu ṣabāḥa al-ghadi."
+      ],
+      [
+        "I will express my opinion about that.",
+        "سَأُعْرِبُ عَنْ رَأْيِي فِي ذَلِكَ.",
+        "sa-uʿribu ʿan raʾyī fī dhālika."
+      ],
+      [
+        "I will send it to Al-Ahram newspaper.",
+        "سَأُرْسِلُهُ إِلَى جَرِيدَةِ الأَهْرَامِ.",
+        "sa-ursiluhu ilā jarīdati al-ahrāmi."
+      ]
+    ],
+    "learn": [
+      "Reporting",
+      "opinions",
+      "and resignation"
+    ],
+    "sourceLessonRange": [
+      44,
+      44
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson044-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          44,
+          44
+        ]
+      }
+    ]
+  },
+  "45": {
+    "subtitle": "Ages, salaries, and calendar months",
+    "vocab": [
+      [
+        "October",
+        "أُكْتُوبَر",
+        "uktūbar",
+        "Month"
+      ],
+      [
+        "pound (currency)",
+        "جُنَيْه",
+        "junayh",
+        "Noun"
+      ],
+      [
+        "December",
+        "دِيسَمْبَر",
+        "dīsambar",
+        "Month"
+      ],
+      [
+        "September",
+        "سِبْتَمْبَر",
+        "sibtambar",
+        "Month"
+      ],
+      [
+        "month",
+        "شَهْر",
+        "shahr",
+        "Noun",
+        "—",
+        "أَشْهُر"
+      ],
+      [
+        "plural of month",
+        "أَشْهُر",
+        "ashhur",
+        "Plural"
+      ],
+      [
+        "age",
+        "عُمْر",
+        "ʿumr",
+        "Noun"
+      ],
+      [
+        "November",
+        "نُوفَمْبَر",
+        "nūfambar",
+        "Month"
+      ],
+      [
+        "father",
+        "وَالِد",
+        "wālid",
+        "Noun"
+      ],
+      [
+        "mother",
+        "وَالِدَة",
+        "wālida",
+        "Noun"
+      ]
+    ],
+    "sentences": [
+      [
+        "My friend is thirty-five years old.",
+        "عُمْرُ صَدِيقِي خَمْسَةٌ وَثَلَاثُونَ عَامًا.",
+        "ʿumru ṣadīqī khamsatun wa-thalāthūna ʿāman."
+      ],
+      [
+        "He teaches English in a private school in Cairo.",
+        "يُدَرِّسُ اللُّغَةَ الإِنْجِلِيزِيَّةَ فِي مَدْرَسَةٍ خَاصَّةٍ فِي الْقَاهِرَةِ.",
+        "yudarrisu al-lughata al-injlīziyyata fī madrasatin khāṣṣatin fī al-qāhirati."
+      ],
+      [
+        "His salary is fifty-five pounds a month.",
+        "رَاتِبُهُ خَمْسَةٌ وَخَمْسُونَ جُنَيْهًا فِي الشَّهْرِ.",
+        "rātibuhu khamsatun wa-khamsūna junayhan fī al-shahri."
+      ],
+      [
+        "When did you study the lesson?",
+        "مَتَى دَرَسْتَ الدَّرْسَ؟",
+        "matā darasta al-darsa?"
+      ]
+    ],
+    "learn": [
+      "Ages",
+      "salaries",
+      "and calendar months"
+    ],
+    "sourceLessonRange": [
+      45,
+      45
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson045-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          45,
+          45
+        ]
+      },
+      {
+        "filename": "lesson045side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          45,
+          45
+        ]
+      }
+    ]
+  },
+  "46": {
+    "subtitle": "Medicine, supervision, and dates",
+    "vocab": [
+      [
+        "I supervise",
+        "أُشْرِفُ عَلَى",
+        "ushrifu ʿalā",
+        "Verb"
+      ],
+      [
+        "under his supervision",
+        "تَحْتَ إِشْرَافِهِ",
+        "taḥta ishrāfihi",
+        "Phrase"
+      ],
+      [
+        "influenza",
+        "إِنْفِلُوَنْزَا",
+        "influwanzā",
+        "Noun"
+      ],
+      [
+        "doctor",
+        "دُكْتُور",
+        "duktūr",
+        "Noun"
+      ],
+      [
+        "kindergarten",
+        "رَوْضَةُ الأَطْفَالِ",
+        "rawḍatu al-aṭfāli",
+        "Noun"
+      ],
+      [
+        "cancer",
+        "سَرَطَان",
+        "saraṭān",
+        "Noun"
+      ],
+      [
+        "page",
+        "صَفْحَة",
+        "ṣafḥa",
+        "Noun"
+      ],
+      [
+        "treatment",
+        "عِلَاج",
+        "ʿilāj",
+        "Noun"
+      ],
+      [
+        "word",
+        "كَلِمَة",
+        "kalima",
+        "Noun"
+      ],
+      [
+        "patient; sick person",
+        "مَرِيض",
+        "marīḍ",
+        "Noun",
+        "—",
+        "مَرْضَى"
+      ],
+      [
+        "plural of patient; sick person",
+        "مَرْضَى",
+        "marḍā",
+        "Plural"
+      ],
+      [
+        "sick with",
+        "مَرِيض بِـ",
+        "marīḍ bi",
+        "Adjective"
+      ],
+      [
+        "hospital",
+        "مُسْتَشْفَى",
+        "mustashfā",
+        "Noun"
+      ]
+    ],
+    "sentences": [
+      [
+        "My friend graduated seven years ago.",
+        "تَخَرَّجَ صَدِيقِي مُنْذُ سَبْعِ سَنَوَاتٍ.",
+        "takharraja ṣadīqī mundhu sabʿi sanawātin."
+      ],
+      [
+        "He supervises the treatment of patients with cancer.",
+        "يُشْرِفُ عَلَى عِلَاجِ الْمَرْضَى بِالسَّرَطَانِ.",
+        "yushrifu ʿalā ʿilāji al-marḍā bi-l-saraṭāni."
+      ],
+      [
+        "He will enroll his daughter in kindergarten next year.",
+        "سَيُدْخِلُ ابْنَتَهُ رَوْضَةَ الأَطْفَالِ فِي الْعَامِ الْقَادِمِ.",
+        "sayudkhilu ibnatahu rawḍata al-aṭfāli fī al-ʿāmi al-qādimi."
+      ],
+      [
+        "Did you go to school, Shaker?",
+        "هَلْ ذَهَبْتَ إِلَى الْمَدْرَسَةِ يَا شَاكِرُ؟",
+        "hal dhahabta ilā al-madrasati yā shākiru?"
+      ]
+    ],
+    "learn": [
+      "Medicine",
+      "supervision",
+      "and dates"
+    ],
+    "sourceLessonRange": [
+      46,
+      46
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson046-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          46,
+          46
+        ]
+      },
+      {
+        "filename": "lesson046side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          46,
+          46
+        ]
+      }
+    ]
+  },
+  "47": {
+    "subtitle": "Languages and diplomatic careers",
+    "vocab": [
+      [
+        "sometimes",
+        "أَحْيَانًا",
+        "aḥyānan",
+        "Adverb"
+      ],
+      [
+        "diplomatic corps",
+        "السِّلْكُ الدِّبْلُومَاسِيُّ",
+        "al-silku al-diblūmāsiyyu",
+        "Noun"
+      ],
+      [
+        "I require",
+        "أَتَطَلَّبُ",
+        "ataṭallabu",
+        "Verb"
+      ],
+      [
+        "graduate",
+        "مُتَخَرِّج",
+        "mutakharrij",
+        "Noun"
+      ],
+      [
+        "knowledge",
+        "مَعْرِفَة",
+        "maʿrifa",
+        "Noun"
+      ],
+      [
+        "job; position",
+        "وَظِيفَة",
+        "waẓīfa",
+        "Noun",
+        "—",
+        "وَظَائِف"
+      ],
+      [
+        "plural of job; position",
+        "وَظَائِف",
+        "waẓāʾif",
+        "Plural"
+      ],
+      [
+        "I speak",
+        "أَتَحَدَّثُ",
+        "ataḥaddathu",
+        "Verb"
+      ],
+      [
+        "I become determined",
+        "أَتَحَدَّدُ",
+        "ataḥaddadu",
+        "Verb"
+      ],
+      [
+        "I graduate",
+        "أَتَخَرَّجُ",
+        "atakharraju",
+        "Verb"
+      ],
+      [
+        "I learn",
+        "أَتَعَلَّمُ",
+        "ataʿallamu",
+        "Verb"
+      ],
+      [
+        "I advance",
+        "أَتَقَدَّمُ",
+        "ataqaddamu",
+        "Verb"
+      ],
+      [
+        "I speak; converse",
+        "أَتَكَلَّمُ",
+        "atakallamu",
+        "Verb"
+      ],
+      [
+        "I enjoy",
+        "أَتَمَتَّعُ بِـ",
+        "atamattaʿu bi",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "How many languages do you speak?",
+        "كَمْ لُغَةً تَتَكَلَّمِينَ؟",
+        "kam lughatan tatakallamīna?"
+      ],
+      [
+        "I speak Arabic, English, and French.",
+        "أَتَكَلَّمُ الْعَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ وَالْفَرَنْسِيَّةَ.",
+        "atakallamu al-ʿarabiyyata wa-l-injlīziyyata wa-l-faransiyyata."
+      ],
+      [
+        "Obtaining a diplomatic job requires knowledge of a foreign language.",
+        "يَتَطَلَّبُ الْحُصُولُ عَلَى وَظِيفَةٍ دِبْلُومَاسِيَّةٍ مَعْرِفَةَ لُغَةٍ أَجْنَبِيَّةٍ.",
+        "yataṭallabu al-ḥuṣūlu ʿalā waẓīfatin diblūmāsiyyatin maʿrifata lughatin ajnabiyyatin."
+      ],
+      [
+        "I will return after finishing my studies.",
+        "سَأَرْجِعُ بَعْدَ إِكْمَالِ دِرَاسَتِي.",
+        "sa-arjiʿu baʿda ikmāli dirāsatī."
+      ]
+    ],
+    "learn": [
+      "Languages and diplomatic careers"
+    ],
+    "sourceLessonRange": [
+      47,
+      47
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson047-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          47,
+          47
+        ]
+      },
+      {
+        "filename": "lesson047side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          47,
+          47
+        ]
+      }
+    ]
+  },
+  "48": {
+    "subtitle": "Agreements, positions, and reciprocal verbs",
+    "vocab": [
+      [
+        "agreement",
+        "اِتِّفَاق",
+        "ittifāq",
+        "Noun"
+      ],
+      [
+        "I agree with",
+        "أَتَّفِقُ مَعَ",
+        "attafiqu maʿa",
+        "Verb"
+      ],
+      [
+        "party; gathering",
+        "حَفْلَة",
+        "ḥafla",
+        "Noun"
+      ],
+      [
+        "official; formal",
+        "رَسْمِيّ",
+        "rasmī",
+        "Adjective"
+      ],
+      [
+        "lack; absence",
+        "عَدَم",
+        "ʿadam",
+        "Noun"
+      ],
+      [
+        "throne",
+        "عَرْش",
+        "ʿarsh",
+        "Noun"
+      ],
+      [
+        "I boycott",
+        "أُقَاطِعُ",
+        "uqāṭiʿu",
+        "Verb"
+      ],
+      [
+        "most of",
+        "مُعْظَم",
+        "muʿẓam",
+        "Quantifier"
+      ],
+      [
+        "position; office",
+        "مَنْصِب",
+        "manṣib",
+        "Noun",
+        "—",
+        "مَنَاصِب"
+      ],
+      [
+        "plural of position; office",
+        "مَنَاصِب",
+        "manāṣib",
+        "Plural"
+      ],
+      [
+        "topic; subject",
+        "مَوْضُوع",
+        "mawḍūʿ",
+        "Noun",
+        "—",
+        "مَوَاضِيع"
+      ],
+      [
+        "plural of topic; subject",
+        "مَوَاضِيع",
+        "mawāḍīʿ",
+        "Plural"
+      ],
+      [
+        "I confer",
+        "أَتَبَاحَثُ",
+        "atabāḥathu",
+        "Verb"
+      ],
+      [
+        "I converse mutually",
+        "أَتَحَادَثُ",
+        "ataḥādathu",
+        "Verb"
+      ],
+      [
+        "I quarrel",
+        "أَتَخَاصَمُ",
+        "atakhāṣamu",
+        "Verb"
+      ],
+      [
+        "I reach an understanding",
+        "أَتَفَاهَمُ",
+        "atafāhamu",
+        "Verb"
+      ],
+      [
+        "I meet",
+        "أَتَقَابَلُ",
+        "ataqābalu",
+        "Verb"
+      ],
+      [
+        "I correspond",
+        "أَتَكَاتَبُ",
+        "atakātabu",
+        "Verb"
+      ],
+      [
+        "I relinquish",
+        "أَتَنَازَلُ عَنْ",
+        "atanāzalu ʿan",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Will the prime minister relinquish his position soon?",
+        "هَلْ سَيَتَنَازَلُ رَئِيسُ الْوُزَرَاءِ عَنْ مَنْصِبِهِ قَرِيبًا؟",
+        "hal sayatanāzalu raʾīsu al-wuzarāʾi ʿan manṣibihi qarīban?"
+      ],
+      [
+        "What is the reason for his wish to relinquish his position?",
+        "مَا سَبَبُ رَغْبَتِهِ فِي التَّنَازُلِ عَنْ مَنْصِبِهِ؟",
+        "mā sababu raghbatihi fī al-tanāzuli ʿan manṣibihi?"
+      ],
+      [
+        "His disagreement with the president.",
+        "عَدَمُ اتِّفَاقِهِ مَعَ رَئِيسِ الْجُمْهُورِيَّةِ.",
+        "ʿadamu ittifāqihi maʿa raʾīsi al-jumhūriyyati."
+      ],
+      [
+        "The prime minister met the delegates today.",
+        "اجْتَمَعَ رَئِيسُ الْوُزَرَاءِ بِالْمَنْدُوبِينَ الْيَوْمَ.",
+        "ijtamaʿa raʾīsu al-wuzarāʾi bi-l-mandūbīna al-yawma."
+      ]
+    ],
+    "learn": [
+      "Agreements",
+      "positions",
+      "and reciprocal verbs"
+    ],
+    "sourceLessonRange": [
+      48,
+      48
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson048-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          48,
+          48
+        ]
+      },
+      {
+        "filename": "lesson048side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          48,
+          48
+        ]
+      }
+    ]
+  },
+  "49": {
+    "subtitle": "Committees, legislation, and voting",
+    "vocab": [
+      [
+        "social",
+        "اِجْتِمَاعِيّ",
+        "ijtimāʿī",
+        "Adjective"
+      ],
+      [
+        "economic",
+        "اِقْتِصَادِيّ",
+        "iqtiṣādī",
+        "Adjective"
+      ],
+      [
+        "I separate from",
+        "أَنْفَصِلُ عَنْ",
+        "anfaṣilu ʿan",
+        "Verb"
+      ],
+      [
+        "I become divided into",
+        "أَنْقَسِمُ إِلَى",
+        "anqasimu ilā",
+        "Verb"
+      ],
+      [
+        "voting",
+        "التَّصْوِيت",
+        "al-taṣwīt",
+        "Verbal noun"
+      ],
+      [
+        "revolution",
+        "ثَوْرَة",
+        "thawra",
+        "Noun"
+      ],
+      [
+        "part",
+        "جُزْء",
+        "juzʾ",
+        "Noun",
+        "—",
+        "أَجْزَاء"
+      ],
+      [
+        "plural of part",
+        "أَجْزَاء",
+        "ajzāʾ",
+        "Plural"
+      ],
+      [
+        "I vote on",
+        "أُصَوِّتُ عَلَى",
+        "uṣawwitu ʿalā",
+        "Verb"
+      ],
+      [
+        "law",
+        "قَانُون",
+        "qānūn",
+        "Noun",
+        "—",
+        "قَوَانِين"
+      ],
+      [
+        "plural of law",
+        "قَوَانِين",
+        "qawānīn",
+        "Plural"
+      ],
+      [
+        "committee",
+        "لَجْنَة",
+        "lajna",
+        "Noun",
+        "—",
+        "لِجَان"
+      ],
+      [
+        "plural of committee",
+        "لِجَان",
+        "lijān",
+        "Plural"
+      ],
+      [
+        "Foreign Relations Committee",
+        "لَجْنَةُ الْعَلَاقَاتِ الْخَارِجِيَّةِ",
+        "lajnatu al-ʿalāqāti al-khārijiyyati",
+        "Noun"
+      ],
+      [
+        "project",
+        "مَشْرُوع",
+        "mashrūʿ",
+        "Noun",
+        "—",
+        "مَشَارِيع"
+      ],
+      [
+        "plural of project",
+        "مَشَارِيع",
+        "mashārīʿ",
+        "Plural"
+      ],
+      [
+        "bill; draft law",
+        "مَشْرُوعُ قَانُونٍ",
+        "mashrūʿu qānūnin",
+        "Noun"
+      ],
+      [
+        "place",
+        "مَكَان",
+        "makān",
+        "Noun",
+        "—",
+        "أَمَاكِن"
+      ],
+      [
+        "plural of place",
+        "أَمَاكِن",
+        "amākin",
+        "Plural"
+      ],
+      [
+        "in agreement with",
+        "مُوَافِق عَلَى",
+        "muwāfiq ʿalā",
+        "Adjective"
+      ],
+      [
+        "I move; transfer",
+        "أَنْتَقِلُ",
+        "antaqilu",
+        "Verb"
+      ],
+      [
+        "I withdraw",
+        "أَنْسَحِبُ",
+        "ansaḥibu",
+        "Verb"
+      ],
+      [
+        "I leave; depart",
+        "أَنْصَرِفُ",
+        "anṣarifu",
+        "Verb"
+      ],
+      [
+        "I get broken",
+        "أَنْكَسِرُ",
+        "ankasiru",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "When will the meeting be held?",
+        "مَتَى سَيَنْعَقِدُ الاجْتِمَاعُ؟",
+        "matā sayanʿaqidu al-ijtimāʿu?"
+      ],
+      [
+        "It will be held at five this evening.",
+        "سَيَنْعَقِدُ فِي السَّاعَةِ الْخَامِسَةِ مِنْ مَسَاءِ الْيَوْمِ.",
+        "sayanʿaqidu fī al-sāʿati al-khāmisati min masāʾi al-yawmi."
+      ],
+      [
+        "The members will leave after voting on the bill.",
+        "سَيَنْصَرِفُ الأَعْضَاءُ بَعْدَ التَّصْوِيتِ عَلَى مَشْرُوعِ الْقَانُونِ.",
+        "sayanṣarifu al-aʿḍāʾu baʿda al-taṣwīti ʿalā mashrūʿi al-qānūni."
+      ],
+      [
+        "Did the boys break many cups?",
+        "هَلْ كَسَرَ الأَوْلَادُ فَنَاجِينَ كَثِيرَةً؟",
+        "hal kasara al-awlādu fanājīna kathīratan?"
+      ]
+    ],
+    "learn": [
+      "Committees",
+      "legislation",
+      "and voting"
+    ],
+    "sourceLessonRange": [
+      49,
+      49
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson049-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          49,
+          49
+        ]
+      },
+      {
+        "filename": "lesson049side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          49,
+          49
+        ]
+      }
+    ]
+  },
+  "50": {
+    "subtitle": "Petroleum companies and changing jobs",
+    "vocab": [
+      [
+        "difference",
+        "اِخْتِلَاف",
+        "ikhtilāf",
+        "Noun"
+      ],
+      [
+        "I differ from",
+        "أَخْتَلِفُ عَنْ",
+        "akhtalifu ʿan",
+        "Verb"
+      ],
+      [
+        "month",
+        "شَهْر",
+        "shahr",
+        "Noun",
+        "—",
+        "أَشْهُر"
+      ],
+      [
+        "plural of month",
+        "أَشْهُر",
+        "ashhur",
+        "Plural"
+      ],
+      [
+        "Kuwait",
+        "الْكُوَيْت",
+        "al-kuwayt",
+        "Place name"
+      ],
+      [
+        "rich",
+        "غَنِيّ",
+        "ghanī",
+        "Adjective",
+        "—",
+        "أَغْنِيَاء"
+      ],
+      [
+        "plural of rich",
+        "أَغْنِيَاء",
+        "aghniyāʾ",
+        "Plural"
+      ],
+      [
+        "rich in",
+        "غَنِيّ بِـ",
+        "ghanī bi",
+        "Adjective"
+      ],
+      [
+        "editorial",
+        "مَقَالٌ افْتِتَاحِيٌّ",
+        "maqālun iftitāḥiyyun",
+        "Noun"
+      ],
+      [
+        "petroleum; oil",
+        "نَفْط",
+        "nafṭ",
+        "Noun"
+      ],
+      [
+        "I meet with",
+        "أَجْتَمِعُ بِـ",
+        "ajtamiʿu bi",
+        "Verb"
+      ],
+      [
+        "I receive",
+        "أَسْتَلِمُ",
+        "astalimu",
+        "Verb"
+      ],
+      [
+        "I listen to",
+        "أَسْتَمِعُ إِلَى",
+        "astamiʿu ilā",
+        "Verb"
+      ],
+      [
+        "I participate in",
+        "أَشْتَرِكُ فِي",
+        "ashtariku fī",
+        "Verb"
+      ],
+      [
+        "I work",
+        "أَشْتَغِلُ",
+        "ashtaghilu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Where do you work, Professor Mahmoud?",
+        "أَيْنَ تَشْتَغِلُ يَا أُسْتَاذُ مَحْمُودُ؟",
+        "ayna tashtaghilu yā ustādhu maḥmūdu?"
+      ],
+      [
+        "I work at Aramco.",
+        "أَشْتَغِلُ فِي شَرِكَةِ أَرَامْكُو.",
+        "ashtaghilu fī sharikati arāmkū."
+      ],
+      [
+        "After three months I will move to another company.",
+        "بَعْدَ ثَلَاثَةِ أَشْهُرٍ سَأَنْتَقِلُ إِلَى شَرِكَةٍ أُخْرَى.",
+        "baʿda thalāthati ashhurin sa-antaqilu ilā sharikatin ukhrā."
+      ],
+      [
+        "I will receive the official letter soon, God willing.",
+        "سَأَسْتَلِمُ الرِّسَالَةَ الرَّسْمِيَّةَ قَرِيبًا إِنْ شَاءَ اللَّهُ.",
+        "sa-astalimu al-risālata al-rasmiyyata qarīban in shāʾa Allāhu."
+      ]
+    ],
+    "learn": [
+      "Petroleum companies and changing jobs"
+    ],
+    "sourceLessonRange": [
+      50,
+      50
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson050-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          50,
+          50
+        ]
+      }
+    ]
+  },
+  "51": {
+    "subtitle": "Delegations, expertise, and resources",
+    "vocab": [
+      [
+        "I consider unlikely",
+        "أَسْتَبْعِدُ",
+        "astabʿidu",
+        "Verb"
+      ],
+      [
+        "I use; employ",
+        "أَسْتَخْدِمُ",
+        "astakhdimu",
+        "Verb"
+      ],
+      [
+        "extraction",
+        "الاِسْتِخْرَاج",
+        "al-istikhrāj",
+        "Verbal noun"
+      ],
+      [
+        "I extract",
+        "أَسْتَخْرِجُ",
+        "astakhriju",
+        "Verb"
+      ],
+      [
+        "I use",
+        "أَسْتَعْمِلُ",
+        "astaʿmilu",
+        "Verb"
+      ],
+      [
+        "expert",
+        "خَبِير",
+        "khabīr",
+        "Noun",
+        "—",
+        "خُبَرَاء"
+      ],
+      [
+        "plural of expert",
+        "خُبَرَاء",
+        "khubarāʾ",
+        "Plural"
+      ],
+      [
+        "arrival",
+        "قُدُوم",
+        "qudūm",
+        "Noun"
+      ],
+      [
+        "napalm",
+        "نَابَالْم",
+        "nābālm",
+        "Noun"
+      ],
+      [
+        "transportation",
+        "نَقْل",
+        "naql",
+        "Noun"
+      ],
+      [
+        "national; domestic",
+        "وَطَنِيّ",
+        "waṭanī",
+        "Adjective"
+      ],
+      [
+        "delegation",
+        "وَفْد",
+        "wafd",
+        "Noun",
+        "—",
+        "وُفُود"
+      ],
+      [
+        "plural of delegation",
+        "وُفُود",
+        "wufūd",
+        "Plural"
+      ],
+      [
+        "I retrieve",
+        "أَسْتَرْجِعُ",
+        "astarjiʿu",
+        "Verb"
+      ],
+      [
+        "I inquire about",
+        "أَسْتَفْهِمُ عَنْ",
+        "astafhimu ʿan",
+        "Verb"
+      ],
+      [
+        "I receive; welcome",
+        "أَسْتَقْبِلُ",
+        "astaqbilu",
+        "Verb"
+      ],
+      [
+        "I enjoy",
+        "أَسْتَمْتِعُ",
+        "astamtiʿu",
+        "Verb"
+      ],
+      [
+        "I denounce",
+        "أَسْتَنْكِرُ",
+        "astankiru",
+        "Verb"
+      ],
+      [
+        "I wake up",
+        "أَسْتَيْقِظُ",
+        "astayqiẓu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Who will receive the American delegation?",
+        "مَنْ سَيَسْتَقْبِلُ الْوَفْدَ الأَمْرِيكِيَّ؟",
+        "man sayastaqbilu al-wafda al-amrīkiyya?"
+      ],
+      [
+        "I will go to the minister's office and inquire about the time.",
+        "سَأَذْهَبُ إِلَى مَكْتَبِ الْوَزِيرِ وَأَسْتَفْهِمُ عَنِ الْمَوْعِدِ.",
+        "sa-adhhabu ilā maktabi al-wazīri wa-astafhimu ʿani al-mawʿidi."
+      ],
+      [
+        "Will the delegation meet the president? I consider that unlikely.",
+        "هَلْ سَيُقَابِلُ الْوَفْدُ رَئِيسَ الْجُمْهُورِيَّةِ؟ أَسْتَبْعِدُ ذَلِكَ.",
+        "hal sayuqābilu al-wafdu raʾīsa al-jumhūriyyati? astabʿidu dhālika."
+      ],
+      [
+        "There are sixty-seven female students in the school.",
+        "فِي الْمَدْرَسَةِ سَبْعٌ وَسِتُّونَ طَالِبَةً.",
+        "fī al-madrasati sabʿun wa-sittūna ṭālibatan."
+      ]
+    ],
+    "learn": [
+      "Delegations",
+      "expertise",
+      "and resources"
+    ],
+    "sourceLessonRange": [
+      51,
+      51
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson051-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          51,
+          51
+        ]
+      },
+      {
+        "filename": "lesson051-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          51,
+          51
+        ]
+      }
+    ]
+  },
+  "52": {
+    "subtitle": "Elections and systems of government",
+    "vocab": [
+      [
+        "sister",
+        "أُخْت",
+        "ukht",
+        "Noun",
+        "—",
+        "أَخَوَات"
+      ],
+      [
+        "plural of sister",
+        "أَخَوَات",
+        "akhawāt",
+        "Plural"
+      ],
+      [
+        "I fail",
+        "أُخْفِقُ",
+        "ukhfiqu",
+        "Verb"
+      ],
+      [
+        "last; latest",
+        "أَخِير",
+        "akhīr",
+        "Adjective"
+      ],
+      [
+        "Oxford",
+        "أُكْسْفُورْد",
+        "uksfūrd",
+        "Place name"
+      ],
+      [
+        "the only one",
+        "الْوَحِيد",
+        "al-waḥīd",
+        "Adjective"
+      ],
+      [
+        "examination",
+        "اِمْتِحَان",
+        "imtiḥān",
+        "Noun"
+      ],
+      [
+        "security",
+        "أَمْن",
+        "amn",
+        "Noun"
+      ],
+      [
+        "security office",
+        "مَكْتَبُ الأَمْنِ",
+        "maktabu al-amni",
+        "Noun"
+      ],
+      [
+        "police; security personnel",
+        "رِجَالُ الأَمْنِ",
+        "rijālu al-amni",
+        "Noun"
+      ],
+      [
+        "election",
+        "اِنْتِخَاب",
+        "intikhāb",
+        "Noun"
+      ],
+      [
+        "electoral; elective",
+        "اِنْتِخَابِيّ",
+        "intikhābī",
+        "Adjective"
+      ],
+      [
+        "I elect",
+        "أَنْتَخِبُ",
+        "antakhibu",
+        "Verb"
+      ],
+      [
+        "parliament",
+        "بَرْلَمَان",
+        "barlamān",
+        "Noun"
+      ],
+      [
+        "Great Britain",
+        "بَرِيطَانِيَا الْعُظْمَى",
+        "barīṭāniyā al-ʿuẓmā",
+        "Place name"
+      ],
+      [
+        "British",
+        "بَرِيطَانِيّ",
+        "barīṭānī",
+        "Adjective"
+      ],
+      [
+        "republic",
+        "جُمْهُورِيَّة",
+        "jumhūriyya",
+        "Noun"
+      ],
+      [
+        "rule; government",
+        "حُكْم",
+        "ḥukm",
+        "Noun"
+      ],
+      [
+        "monarchy",
+        "الْحُكْمُ الْمَلَكِيُّ",
+        "al-ḥukmu al-malakiyyu",
+        "Noun"
+      ],
+      [
+        "vote; voice",
+        "صَوْت",
+        "ṣawt",
+        "Noun",
+        "—",
+        "أَصْوَات"
+      ],
+      [
+        "plural of vote; voice",
+        "أَصْوَات",
+        "aṣwāt",
+        "Plural"
+      ],
+      [
+        "opportunity",
+        "فُرْصَة",
+        "furṣa",
+        "Noun"
+      ],
+      [
+        "as soon as possible",
+        "فِي أَقْرَبِ فُرْصَةٍ",
+        "fī aqrabi furṣatin",
+        "Expression"
+      ],
+      [
+        "difference",
+        "فَرْق",
+        "farq",
+        "Noun",
+        "—",
+        "فُرُوق"
+      ],
+      [
+        "plural of difference",
+        "فُرُوق",
+        "furūq",
+        "Plural"
+      ],
+      [
+        "candidate",
+        "مُرَشَّح",
+        "murashshaḥ",
+        "Noun"
+      ],
+      [
+        "kingdom",
+        "مَمْلَكَة",
+        "mamlaka",
+        "Noun",
+        "—",
+        "مَمَالِك"
+      ],
+      [
+        "plural of kingdom",
+        "مَمَالِك",
+        "mamālik",
+        "Plural"
+      ],
+      [
+        "I succeed",
+        "أَنْجَحُ",
+        "anjaḥu",
+        "Verb"
+      ],
+      [
+        "system",
+        "نِظَام",
+        "niẓām",
+        "Noun",
+        "—",
+        "أَنْظِمَة"
+      ],
+      [
+        "plural of system",
+        "أَنْظِمَة",
+        "anẓima",
+        "Plural"
+      ],
+      [
+        "hereditary",
+        "وِرَاثِيّ",
+        "wirāthī",
+        "Adjective"
+      ]
+    ],
+    "sentences": [
+      [
+        "What are the systems of government in the Arab world?",
+        "مَا أَنْظِمَةُ الْحُكْمِ فِي الْعَالَمِ الْعَرَبِيِّ؟",
+        "mā anẓimatu al-ḥukmi fī al-ʿālami al-ʿarabiyyi?"
+      ],
+      [
+        "The monarchy is hereditary and the republic is elective.",
+        "النِّظَامُ الْمَلَكِيُّ وِرَاثِيٌّ وَالنِّظَامُ الْجُمْهُورِيُّ انْتِخَابِيٌّ.",
+        "al-niẓāmu al-malakiyyu wirāthiyyun wa-l-niẓāmu al-jumhūriyyu intikhābiyyun."
+      ],
+      [
+        "Is that the only difference?",
+        "هَلْ هَذَا هُوَ الْفَرْقُ الْوَحِيدُ؟",
+        "hal hādhā huwa al-farqu al-waḥīdu?"
+      ],
+      [
+        "There are seven colleges in our university.",
+        "فِي جَامِعَتِنَا سَبْعُ كُلِّيَّاتٍ.",
+        "fī jāmiʿatinā sabʿu kulliyyātin."
+      ]
+    ],
+    "learn": [
+      "Elections and systems of government"
+    ],
+    "sourceLessonRange": [
+      52,
+      52
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson052-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          52,
+          52
+        ]
+      },
+      {
+        "filename": "lesson052-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          52,
+          52
+        ]
+      }
+    ]
+  },
+  "53": {
+    "subtitle": "Family, weddings, and summer travel",
+    "vocab": [
+      [
+        "paternal cousin (male)",
+        "ابْنُ عَمٍّ",
+        "ibnu ʿammin",
+        "Noun",
+        "—",
+        "أَبْنَاءُ عَمٍّ"
+      ],
+      [
+        "plural of paternal cousin (male)",
+        "أَبْنَاءُ عَمٍّ",
+        "abnāʾu ʿammin",
+        "Plural"
+      ],
+      [
+        "paternal cousin (female)",
+        "ابْنَةُ عَمٍّ",
+        "ibnatu ʿammin",
+        "Noun",
+        "—",
+        "بَنَاتُ عَمٍّ"
+      ],
+      [
+        "plural of paternal cousin (female)",
+        "بَنَاتُ عَمٍّ",
+        "banātu ʿammin",
+        "Plural"
+      ],
+      [
+        "son",
+        "ابْن",
+        "ibn",
+        "Noun",
+        "—",
+        "أَبْنَاء"
+      ],
+      [
+        "plural of son",
+        "أَبْنَاء",
+        "abnāʾ",
+        "Plural"
+      ],
+      [
+        "news item",
+        "خَبَر",
+        "khabar",
+        "Noun",
+        "—",
+        "أَخْبَار"
+      ],
+      [
+        "plural of news item",
+        "أَخْبَار",
+        "akhbār",
+        "Plural"
+      ],
+      [
+        "family",
+        "أُسْرَة",
+        "usra",
+        "Noun",
+        "—",
+        "أُسَر"
+      ],
+      [
+        "plural of family",
+        "أُسَر",
+        "usar",
+        "Plural"
+      ],
+      [
+        "work; occupation",
+        "عَمَل",
+        "ʿamal",
+        "Noun",
+        "—",
+        "أَعْمَال"
+      ],
+      [
+        "plural of work; occupation",
+        "أَعْمَال",
+        "aʿmāl",
+        "Plural"
+      ],
+      [
+        "August",
+        "أَغُسْطُس",
+        "aghusṭus",
+        "Month"
+      ],
+      [
+        "public security",
+        "الأَمْنُ الْعَامُّ",
+        "al-amnu al-ʿāmmu",
+        "Noun"
+      ],
+      [
+        "training",
+        "تَدْرِيب",
+        "tadrīb",
+        "Noun"
+      ],
+      [
+        "Switzerland",
+        "سُوِيسْرَا",
+        "suwisrā",
+        "Place name"
+      ],
+      [
+        "honeymoon",
+        "شَهْرُ الْعَسَلِ",
+        "shahru al-ʿasali",
+        "Noun"
+      ],
+      [
+        "young woman",
+        "فَتَاة",
+        "fatāh",
+        "Noun"
+      ],
+      [
+        "spending (time)",
+        "الْقَضَاء",
+        "al-qaḍāʾ",
+        "Verbal noun"
+      ],
+      [
+        "summer resort",
+        "مَصِيف",
+        "maṣīf",
+        "Noun",
+        "—",
+        "مَصَايِف"
+      ],
+      [
+        "plural of summer resort",
+        "مَصَايِف",
+        "maṣāyif",
+        "Plural"
+      ],
+      [
+        "people",
+        "نَاس",
+        "nās",
+        "Noun"
+      ],
+      [
+        "July",
+        "يُولْيُو",
+        "yūlyū",
+        "Month"
+      ],
+      [
+        "June",
+        "يُونْيُو",
+        "yūnyū",
+        "Month"
+      ]
+    ],
+    "sentences": [
+      [
+        "I have a paternal cousin named Saeed.",
+        "لِي ابْنُ عَمٍّ اسْمُهُ سَعِيدٌ.",
+        "lī ibnu ʿammin ismuhu saʿīdun."
+      ],
+      [
+        "He works for an oil company in Kuwait.",
+        "يَعْمَلُ فِي شَرِكَةِ نَفْطٍ فِي الْكُوَيْتِ.",
+        "yaʿmalu fī sharikati nafṭin fī al-kuwayti."
+      ],
+      [
+        "The bridegroom and his bride went to Switzerland for their honeymoon.",
+        "ذَهَبَ الْعَرِيسُ وَعَرُوسُهُ إِلَى سُوِيسْرَا لِقَضَاءِ شَهْرِ الْعَسَلِ.",
+        "dhahaba al-ʿarīsu wa-ʿarūsuhu ilā suwisrā li-qaḍāʾi shahri al-ʿasali."
+      ],
+      [
+        "I received a long letter from my cousin yesterday.",
+        "اسْتَلَمْتُ مِنِ ابْنِ عَمِّي أَمْسِ رِسَالَةً طَوِيلَةً.",
+        "istalamtu mini ibni ʿammī amsi risālatan ṭawīlatan."
+      ]
+    ],
+    "learn": [
+      "Family",
+      "weddings",
+      "and summer travel"
+    ],
+    "sourceLessonRange": [
+      53,
+      53
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson053-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          53,
+          53
+        ]
+      }
+    ]
+  },
+  "54": {
+    "subtitle": "Broadcasting, cooperation, and education",
+    "vocab": [
+      [
+        "economy; economics",
+        "اِقْتِصَاد",
+        "iqtiṣād",
+        "Noun"
+      ],
+      [
+        "God",
+        "اللَّه",
+        "Allāh",
+        "Noun"
+      ],
+      [
+        "under; below",
+        "تَحْتَ",
+        "taḥta",
+        "Preposition"
+      ],
+      [
+        "I improve",
+        "أَتَحَسَّنُ",
+        "ataḥassanu",
+        "Verb"
+      ],
+      [
+        "I cooperate",
+        "أَتَعَاوَنُ",
+        "ataʿāwanu",
+        "Verb"
+      ],
+      [
+        "cooperation",
+        "التَّعَاوُن",
+        "al-taʿāwun",
+        "Verbal noun"
+      ],
+      [
+        "report",
+        "تَقْرِير",
+        "taqrīr",
+        "Noun",
+        "—",
+        "تَقَارِير"
+      ],
+      [
+        "plural of report",
+        "تَقَارِير",
+        "taqārīr",
+        "Plural"
+      ],
+      [
+        "currently",
+        "حَالِيًّا",
+        "ḥāliyyan",
+        "Adverb"
+      ],
+      [
+        "broadcasting station",
+        "دَارُ الإِذَاعَةِ",
+        "dāru al-idhāʿati",
+        "Noun",
+        "—",
+        "دُورُ الإِذَاعَةِ"
+      ],
+      [
+        "plural of broadcasting station",
+        "دُورُ الإِذَاعَةِ",
+        "dūru al-idhāʿati",
+        "Plural"
+      ],
+      [
+        "gentlemen",
+        "سَادَة",
+        "sāda",
+        "Noun"
+      ],
+      [
+        "ladies",
+        "سَيِّدَات",
+        "sayyidāt",
+        "Noun"
+      ],
+      [
+        "ladies and gentlemen",
+        "سَيِّدَاتِي وَسَادَتِي",
+        "sayyidātī wa-sādatī",
+        "Expression"
+      ],
+      [
+        "police station",
+        "دَارُ الشُّرْطَةِ",
+        "dāru al-shurṭati",
+        "Noun"
+      ],
+      [
+        "number",
+        "عَدَد",
+        "ʿadad",
+        "Noun",
+        "—",
+        "أَعْدَاد"
+      ],
+      [
+        "plural of number",
+        "أَعْدَاد",
+        "aʿdād",
+        "Plural"
+      ],
+      [
+        "above",
+        "فَوْقَ",
+        "fawqa",
+        "Preposition"
+      ],
+      [
+        "I represent",
+        "أُمَثِّلُ",
+        "umaththilu",
+        "Verb"
+      ],
+      [
+        "welcome",
+        "مَرْحَبًا بِكَ",
+        "marḥaban bika",
+        "Expression"
+      ],
+      [
+        "unity",
+        "وَحْدَة",
+        "waḥda",
+        "Noun"
+      ],
+      [
+        "May God grant you success",
+        "وَفَّقَكَ اللَّهُ",
+        "waffaqaka Allāhu",
+        "Expression"
+      ]
+    ],
+    "sentences": [
+      [
+        "Ladies and gentlemen, good morning.",
+        "سَيِّدَاتِي وَسَادَتِي، صَبَاحُ الْخَيْرِ.",
+        "sayyidātī wa-sādatī, ṣabāḥu al-khayri."
+      ],
+      [
+        "When did you leave Baghdad? I left it a week ago.",
+        "مَتَى غَادَرْتُمْ بَغْدَادَ؟ غَادَرْتُهَا مُنْذُ أُسْبُوعٍ.",
+        "matā ghādartum baghdāda? ghādartuhā mundhu usbūʿin."
+      ],
+      [
+        "The conference will discuss educational problems in the Arab countries.",
+        "سَيَبْحَثُ الْمُؤْتَمَرُ مُشْكِلَاتِ التَّعْلِيمِ فِي الدُّوَلِ الْعَرَبِيَّةِ.",
+        "sayabḥathu al-muʾtamaru mushkilāti al-taʿlīmi fī al-duwali al-ʿarabiyyati."
+      ],
+      [
+        "Our number is more than twenty-one teachers.",
+        "عَدَدُنَا أَكْثَرُ مِنْ وَاحِدٍ وَعِشْرِينَ مُعَلِّمًا.",
+        "ʿadadunā aktharu min wāḥidin wa-ʿishrīna muʿalliman."
+      ]
+    ],
+    "learn": [
+      "Broadcasting",
+      "cooperation",
+      "and education"
+    ],
+    "sourceLessonRange": [
+      54,
+      54
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson054-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          54,
+          54
+        ]
+      },
+      {
+        "filename": "lesson054-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          54,
+          54
+        ]
+      }
+    ]
+  },
+  "55": {
+    "subtitle": "The dual and identifying two people",
+    "vocab": [
+      [
+        "these two (masculine nominative)",
+        "هَذَانِ",
+        "hādhāni",
+        "Demonstrative"
+      ],
+      [
+        "these two (feminine nominative)",
+        "هَاتَانِ",
+        "hātāni",
+        "Demonstrative"
+      ],
+      [
+        "these two (masculine oblique)",
+        "هَذَيْنِ",
+        "hādhayni",
+        "Demonstrative"
+      ],
+      [
+        "these two (feminine oblique)",
+        "هَاتَيْنِ",
+        "hātayni",
+        "Demonstrative"
+      ],
+      [
+        "who; which (masculine dual nominative)",
+        "اللَّذَانِ",
+        "alladhāni",
+        "Relative pronoun"
+      ],
+      [
+        "who; which (feminine dual nominative)",
+        "اللَّتَانِ",
+        "allatāni",
+        "Relative pronoun"
+      ],
+      [
+        "who; which (masculine dual oblique)",
+        "اللَّذَيْنِ",
+        "alladhayni",
+        "Relative pronoun"
+      ],
+      [
+        "who; which (feminine dual oblique)",
+        "اللَّتَيْنِ",
+        "allatayni",
+        "Relative pronoun"
+      ],
+      [
+        "two young men",
+        "شَابَّانِ",
+        "shābbāni",
+        "Dual noun"
+      ],
+      [
+        "two young women",
+        "شَابَّتَانِ",
+        "shābbatāni",
+        "Dual noun"
+      ]
+    ],
+    "sentences": [
+      [
+        "Who are these two young men with the professor?",
+        "مَنْ هَذَانِ الشَّابَّانِ اللَّذَانِ مَعَ الأُسْتَاذِ؟",
+        "man hādhāni al-shābbāni alladhāni maʿa al-ustādhi?"
+      ],
+      [
+        "These are the professor's two friends.",
+        "هَذَانِ صَدِيقَا الأُسْتَاذِ.",
+        "hādhāni ṣadīqā al-ustādhi."
+      ],
+      [
+        "These are the professor's two female students.",
+        "هَاتَانِ تِلْمِيذَتَا الأُسْتَاذِ.",
+        "hātāni tilmīdhatā al-ustādhi."
+      ],
+      [
+        "The two pupils who are in my office are from Syria.",
+        "التِّلْمِيذَانِ اللَّذَانِ فِي مَكْتَبِي مِنْ سُورِيَا.",
+        "al-tilmīdhāni alladhāni fī maktabī min sūriyā."
+      ]
+    ],
+    "learn": [
+      "The dual and identifying two people"
+    ],
+    "sourceLessonRange": [
+      55,
+      55
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson055-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          55,
+          55
+        ]
+      },
+      {
+        "filename": "lesson055-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          55,
+          55
+        ]
+      }
+    ]
+  },
+  "56": {
+    "subtitle": "Newsrooms, dual pronouns, and taking",
+    "vocab": [
+      [
+        "I take",
+        "آخُذُ",
+        "ākhudhu",
+        "Verb"
+      ],
+      [
+        "outside",
+        "خَارِجَ",
+        "khārija",
+        "Preposition"
+      ],
+      [
+        "abroad",
+        "فِي الْخَارِجِ",
+        "fī al-khāriji",
+        "Expression"
+      ],
+      [
+        "inside",
+        "دَاخِلَ",
+        "dākhila",
+        "Preposition"
+      ],
+      [
+        "Ministry of the Interior",
+        "وِزَارَةُ الدَّاخِلِيَّةِ",
+        "wizāratu al-dākhiliyyati",
+        "Noun"
+      ],
+      [
+        "line",
+        "سَطْر",
+        "saṭr",
+        "Noun",
+        "—",
+        "سُطُور"
+      ],
+      [
+        "plural of line",
+        "سُطُور",
+        "suṭūr",
+        "Plural"
+      ],
+      [
+        "affair; matter",
+        "شَأْن",
+        "shaʾn",
+        "Noun",
+        "—",
+        "شُؤُون"
+      ],
+      [
+        "plural of affair; matter",
+        "شُؤُون",
+        "shuʾūn",
+        "Plural"
+      ],
+      [
+        "picture",
+        "صُورَة",
+        "ṣūra",
+        "Noun",
+        "—",
+        "صُوَر"
+      ],
+      [
+        "plural of picture",
+        "صُوَر",
+        "ṣuwar",
+        "Plural"
+      ],
+      [
+        "photograph",
+        "صُورَةٌ فُوتُوغْرَافِيَّةٌ",
+        "ṣūratun fūtūghrāfiyyatun",
+        "Noun"
+      ],
+      [
+        "about what?",
+        "عَمَّ",
+        "ʿamma",
+        "Interrogative"
+      ],
+      [
+        "return",
+        "عَوْدَة",
+        "ʿawda",
+        "Noun"
+      ],
+      [
+        "editor",
+        "مُحَرِّر",
+        "muḥarrir",
+        "Noun"
+      ],
+      [
+        "photographer",
+        "مُصَوِّر",
+        "muṣawwir",
+        "Noun"
+      ],
+      [
+        "you two",
+        "أَنْتُمَا",
+        "antumā",
+        "Pronoun"
+      ],
+      [
+        "your (two people)",
+        "ـكُمَا",
+        "kumā",
+        "Possessive suffix"
+      ],
+      [
+        "their (two people)",
+        "ـهُمَا",
+        "humā",
+        "Possessive suffix"
+      ]
+    ],
+    "sentences": [
+      [
+        "Are you two journalists?",
+        "هَلْ أَنْتُمَا صَحْفِيَّانِ؟",
+        "hal antumā ṣaḥfiyyāni?"
+      ],
+      [
+        "We work at the headquarters of Al-Ahram newspaper.",
+        "نَعْمَلُ فِي الْمَقَرِّ الرَّئِيسِيِّ لِجَرِيدَةِ الأَهْرَامِ.",
+        "naʿmalu fī al-maqarri al-raʾīsiyyi li-jarīdati al-ahrāmi."
+      ],
+      [
+        "Their office is beside ours.",
+        "مَكْتَبُهُمَا بِجَانِبِ مَكْتَبِنَا.",
+        "maktabuhumā bi-jānibi maktabinā."
+      ],
+      [
+        "June is the sixth month of the year.",
+        "يُونْيُو سَادِسُ أَشْهُرِ السَّنَةِ.",
+        "yūnyū sādisu ashhuri al-sanati."
+      ]
+    ],
+    "learn": [
+      "Newsrooms",
+      "dual pronouns",
+      "and taking"
+    ],
+    "sourceLessonRange": [
+      56,
+      56
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson056-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          56,
+          56
+        ]
+      },
+      {
+        "filename": "lesson056-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          56,
+          56
+        ]
+      }
+    ]
+  },
+  "57": {
+    "subtitle": "Wedding celebrations and dual verbs",
+    "vocab": [
+      [
+        "newlyweds; bride and groom",
+        "عَرُوسَانِ",
+        "ʿarūsāni",
+        "Dual noun"
+      ],
+      [
+        "dawn",
+        "فَجْر",
+        "fajr",
+        "Noun"
+      ],
+      [
+        "already; indeed",
+        "قَدْ",
+        "qad",
+        "Particle"
+      ],
+      [
+        "major general",
+        "لِوَاء",
+        "liwāʾ",
+        "Noun",
+        "—",
+        "أَلْوِيَة"
+      ],
+      [
+        "plural of major general",
+        "أَلْوِيَة",
+        "alwiya",
+        "Plural"
+      ],
+      [
+        "appointment; time",
+        "مِيعَاد",
+        "mīʿād",
+        "Noun",
+        "—",
+        "مَوَاعِيد"
+      ],
+      [
+        "plural of appointment; time",
+        "مَوَاعِيد",
+        "mawāʿīd",
+        "Plural"
+      ],
+      [
+        "captain (military rank)",
+        "نَقِيب",
+        "naqīb",
+        "Noun",
+        "—",
+        "نُقَبَاء"
+      ],
+      [
+        "plural of captain (military rank)",
+        "نُقَبَاء",
+        "nuqabāʾ",
+        "Plural"
+      ]
+    ],
+    "sentences": [
+      [
+        "Did you two enjoy the party?",
+        "هَلِ اسْتَمْتَعْتُمَا بِالْحَفْلَةِ؟",
+        "hali istamtaʿtumā bi-l-ḥaflati?"
+      ],
+      [
+        "Each of us gave a small gift.",
+        "قَدَّمَ كُلٌّ مِنَّا هَدِيَّةً صَغِيرَةً.",
+        "qaddama kullun minnā hadiyyatan ṣaghīratan."
+      ],
+      [
+        "When did you two return from the party? At dawn.",
+        "مَتَى رَجَعْتُمَا مِنَ الْحَفْلَةِ؟ فِي الْفَجْرِ.",
+        "matā rajaʿtumā mina al-ḥaflati? fī al-fajri."
+      ],
+      [
+        "The company used more than nine cars to transport oil.",
+        "اسْتَعْمَلَتِ الشَّرِكَةُ أَكْثَرَ مِنْ تِسْعِ سَيَّارَاتٍ لِنَقْلِ النَّفْطِ.",
+        "istaʿmalati al-sharikatu akthara min tisʿi sayyārātin li-naqli al-nafṭi."
+      ]
+    ],
+    "learn": [
+      "Wedding celebrations and dual verbs"
+    ],
+    "sourceLessonRange": [
+      57,
+      57
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson057-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          57,
+          57
+        ]
+      },
+      {
+        "filename": "lesson057-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          57,
+          57
+        ]
+      }
+    ]
+  },
+  "58": {
+    "subtitle": "Geography, vacation, and dual possessives",
+    "vocab": [
+      [
+        "vacation; leave",
+        "إِجَازَة",
+        "ijāza",
+        "Noun"
+      ],
+      [
+        "strategic",
+        "اِسْتِرَاتِيجِيّ",
+        "istirātījī",
+        "Adjective"
+      ],
+      [
+        "Iran",
+        "إِيرَان",
+        "īrān",
+        "Place name"
+      ],
+      [
+        "south",
+        "جَنُوب",
+        "janūb",
+        "Noun"
+      ],
+      [
+        "travel; journey",
+        "سَفَر",
+        "safar",
+        "Noun",
+        "—",
+        "أَسْفَار"
+      ],
+      [
+        "plural of travel; journey",
+        "أَسْفَار",
+        "asfār",
+        "Plural"
+      ],
+      [
+        "east",
+        "شَرْق",
+        "sharq",
+        "Noun"
+      ],
+      [
+        "north",
+        "شَمَال",
+        "shamāl",
+        "Noun"
+      ],
+      [
+        "west",
+        "غَرْب",
+        "gharb",
+        "Noun"
+      ],
+      [
+        "duration; period",
+        "مُدَّة",
+        "mudda",
+        "Noun",
+        "—",
+        "مُدَد"
+      ],
+      [
+        "plural of duration; period",
+        "مُدَد",
+        "mudad",
+        "Plural"
+      ],
+      [
+        "location",
+        "مَوْقِع",
+        "mawqiʿ",
+        "Noun",
+        "—",
+        "مَوَاقِع"
+      ],
+      [
+        "plural of location",
+        "مَوَاقِع",
+        "mawāqiʿ",
+        "Plural"
+      ],
+      [
+        "I am located; fall",
+        "أَقَعُ",
+        "aqaʿu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Do you two know Adnan and Kanaan?",
+        "هَلْ تَعْرِفَانِ عَدْنَانَ وَكَنْعَانَ؟",
+        "hal taʿrifāni ʿadnāna wa-kanʿāna?"
+      ],
+      [
+        "They are our two friends.",
+        "هُمَا صَدِيقَانَا.",
+        "humā ṣadīqānā."
+      ],
+      [
+        "They completed their studies a year ago.",
+        "أَكْمَلَا دِرَاسَتَهُمَا مُنْذُ عَامٍ.",
+        "akmalā dirāsatahumā mundhu ʿāmin."
+      ],
+      [
+        "I want to know them.",
+        "أُرِيدُ أَنْ أَعْرِفَهُمَا.",
+        "urīdu an aʿrifahumā."
+      ]
+    ],
+    "learn": [
+      "Geography",
+      "vacation",
+      "and dual possessives"
+    ],
+    "sourceLessonRange": [
+      58,
+      58
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson058-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          58,
+          58
+        ]
+      },
+      {
+        "filename": "lesson058-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          58,
+          58
+        ]
+      }
+    ]
+  },
+  "59": {
+    "subtitle": "Religion, fasting, and holidays",
+    "vocab": [
+      [
+        "Islamic",
+        "إِسْلَامِيّ",
+        "islāmī",
+        "Adjective"
+      ],
+      [
+        "mosque",
+        "جَامِع",
+        "jāmiʿ",
+        "Noun",
+        "—",
+        "جَوَامِع"
+      ],
+      [
+        "plural of mosque",
+        "جَوَامِع",
+        "jawāmiʿ",
+        "Plural"
+      ],
+      [
+        "Al-Azhar Mosque",
+        "الْجَامِعُ الأَزْهَرُ",
+        "al-jāmiʿu al-azharu",
+        "Noun"
+      ],
+      [
+        "Ramadan",
+        "رَمَضَان",
+        "ramaḍān",
+        "Noun"
+      ],
+      [
+        "prayer",
+        "صَلَاة",
+        "ṣalāh",
+        "Noun"
+      ],
+      [
+        "fasting",
+        "الصَّوْم",
+        "al-ṣawm",
+        "Verbal noun"
+      ],
+      [
+        "holiday; festival",
+        "عِيد",
+        "ʿīd",
+        "Noun",
+        "—",
+        "أَعْيَاد"
+      ],
+      [
+        "plural of holiday; festival",
+        "أَعْيَاد",
+        "aʿyād",
+        "Plural"
+      ],
+      [
+        "Eid al-Fitr",
+        "عِيدُ الْفِطْرِ",
+        "ʿīdu al-fiṭri",
+        "Noun"
+      ],
+      [
+        "Christmas",
+        "عِيدُ الْمِيلَادِ",
+        "ʿīdu al-mīlādi",
+        "Noun"
+      ],
+      [
+        "poor",
+        "فَقِير",
+        "faqīr",
+        "Adjective",
+        "—",
+        "فُقَرَاء"
+      ],
+      [
+        "plural of poor",
+        "فُقَرَاء",
+        "fuqarāʾ",
+        "Plural"
+      ],
+      [
+        "saying; statement",
+        "قَوْل",
+        "qawl",
+        "Noun",
+        "—",
+        "أَقْوَال"
+      ],
+      [
+        "plural of saying; statement",
+        "أَقْوَال",
+        "aqwāl",
+        "Plural"
+      ],
+      [
+        "holiday greeting",
+        "كُلُّ عَامٍ وَأَنْتَ بِخَيْرٍ",
+        "kullu ʿāmin wa-anta bi-khayrin",
+        "Expression"
+      ],
+      [
+        "Muslim",
+        "مُسْلِم",
+        "muslim",
+        "Noun"
+      ],
+      [
+        "Mecca",
+        "مَكَّة",
+        "makka",
+        "Place name"
+      ],
+      [
+        "forbidden",
+        "مَمْنُوع",
+        "mamnūʿ",
+        "Adjective"
+      ],
+      [
+        "birth",
+        "مِيلَاد",
+        "mīlād",
+        "Noun"
+      ],
+      [
+        "calendar year (Common Era)",
+        "سَنَةٌ مِيلَادِيَّةٌ",
+        "sanatun mīlādiyyatun",
+        "Noun"
+      ],
+      [
+        "duty",
+        "وَاجِب",
+        "wājib",
+        "Noun",
+        "—",
+        "وَاجِبَات"
+      ],
+      [
+        "plural of duty",
+        "وَاجِبَات",
+        "wājibāt",
+        "Plural"
+      ],
+      [
+        "clear",
+        "وَاضِح",
+        "wāḍiḥ",
+        "Adjective"
+      ],
+      [
+        "I visit",
+        "أَزُورُ",
+        "azūru",
+        "Verb"
+      ],
+      [
+        "I fast",
+        "أَصُومُ",
+        "aṣūmu",
+        "Verb"
+      ],
+      [
+        "I say",
+        "أَقُولُ",
+        "aqūlu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Eid al-Fitr is among the most important Islamic holidays.",
+        "عِيدُ الْفِطْرِ مِنْ أَهَمِّ الأَعْيَادِ الإِسْلَامِيَّةِ.",
+        "ʿīdu al-fiṭri min ahammi al-aʿyādi al-islāmiyyati."
+      ],
+      [
+        "After the holiday prayer, many Muslims visit their relatives.",
+        "بَعْدَ صَلَاةِ الْعِيدِ يَزُورُ كَثِيرٌ مِنَ الْمُسْلِمِينَ أَقْرِبَاءَهُمْ.",
+        "baʿda ṣalāti al-ʿīdi yazūru kathīrun mina al-muslimīna aqribāʾahum."
+      ],
+      [
+        "Eating during the daytime is forbidden while fasting.",
+        "الأَكْلُ فِي النَّهَارِ مَمْنُوعٌ أَثْنَاءَ الصَّوْمِ.",
+        "al-aklu fī al-nahāri mamnūʿun athnāʾa al-ṣawmi."
+      ]
+    ],
+    "learn": [
+      "Religion",
+      "fasting",
+      "and holidays"
+    ],
+    "sourceLessonRange": [
+      59,
+      59
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson059-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          59,
+          59
+        ]
+      },
+      {
+        "filename": "lesson059-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          59,
+          59
+        ]
+      }
+    ]
+  },
+  "60": {
+    "subtitle": "Selling, walking, and school attendance",
+    "vocab": [
+      [
+        "sale; selling",
+        "الْبَيْع",
+        "al-bayʿ",
+        "Verbal noun"
+      ],
+      [
+        "for sale",
+        "لِلْبَيْعِ",
+        "li-l-bayʿi",
+        "Expression"
+      ],
+      [
+        "revolution",
+        "ثَوْرَة",
+        "thawra",
+        "Noun"
+      ],
+      [
+        "mistake",
+        "خَطَأ",
+        "khaṭaʾ",
+        "Noun",
+        "—",
+        "أَخْطَاء"
+      ],
+      [
+        "plural of mistake",
+        "أَخْطَاء",
+        "akhṭāʾ",
+        "Plural"
+      ],
+      [
+        "it is wrong to",
+        "مِنَ الْخَطَإِ أَنْ",
+        "mina al-khaṭaʾi an",
+        "Expression"
+      ],
+      [
+        "walking",
+        "السَّيْر",
+        "al-sayr",
+        "Verbal noun"
+      ],
+      [
+        "I sell",
+        "أَبِيعُ",
+        "abīʿu",
+        "Verb"
+      ],
+      [
+        "I revolt against",
+        "أَثُورُ عَلَى",
+        "athūru ʿalā",
+        "Verb"
+      ],
+      [
+        "I come",
+        "أَجِيءُ",
+        "ajīʾu",
+        "Verb"
+      ],
+      [
+        "I walk",
+        "أَسِيرُ",
+        "asīru",
+        "Verb"
+      ],
+      [
+        "I return",
+        "أَعُودُ",
+        "aʿūdu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "How does Huda go to school?",
+        "كَيْفَ تَذْهَبُ هُدَى إِلَى الْمَدْرَسَةِ؟",
+        "kayfa tadhhabu hudā ilā al-madrasati?"
+      ],
+      [
+        "She usually walks, and her father sometimes takes her in his car.",
+        "تَسِيرُ عَادَةً وَيَأْخُذُهَا وَالِدُهَا بِسَيَّارَتِهِ أَحْيَانًا.",
+        "tasīru ʿādatan wa-yaʾkhudhuhā wāliduhā bi-sayyāratihi aḥyānan."
+      ],
+      [
+        "His car is old, and he will sell it soon.",
+        "سَيَّارَتُهُ قَدِيمَةٌ وَسَيَبِيعُهَا قَرِيبًا.",
+        "sayyāratuhu qadīmatun wa-sayabīʿuhā qarīban."
+      ],
+      [
+        "Her absence from school is very rare.",
+        "غِيَابُهَا عَنِ الْمَدْرَسَةِ قَلِيلٌ جِدًّا.",
+        "ghiyābuhā ʿani al-madrasati qalīlun jiddan."
+      ]
+    ],
+    "learn": [
+      "Selling",
+      "walking",
+      "and school attendance"
+    ],
+    "sourceLessonRange": [
+      60,
+      60
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson060-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          60,
+          60
+        ]
+      }
+    ]
+  },
+  "61": {
+    "subtitle": "Exams, nighttime study, and success",
+    "vocab": [
+      [
+        "I close",
+        "أُغْلِقُ",
+        "ughliqu",
+        "Verb"
+      ],
+      [
+        "at night",
+        "بِاللَّيْلِ",
+        "bi-l-layli",
+        "Expression"
+      ],
+      [
+        "revolutionary; rebel",
+        "ثَائِر",
+        "thāʾir",
+        "Noun",
+        "—",
+        "ثُوَّار"
+      ],
+      [
+        "plural of revolutionary; rebel",
+        "ثُوَّار",
+        "thuwwār",
+        "Plural"
+      ],
+      [
+        "fear",
+        "خَوْف",
+        "khawf",
+        "Noun"
+      ],
+      [
+        "academic; pertaining to study",
+        "دِرَاسِيّ",
+        "dirāsī",
+        "Adjective"
+      ],
+      [
+        "certificate; degree",
+        "شَهَادَة",
+        "shahāda",
+        "Noun"
+      ],
+      [
+        "throughout",
+        "طَوَالَ",
+        "ṭawāla",
+        "Preposition"
+      ],
+      [
+        "night",
+        "لَيْل",
+        "layl",
+        "Noun"
+      ],
+      [
+        "middle",
+        "مُنْتَصَف",
+        "muntaṣaf",
+        "Noun"
+      ],
+      [
+        "midnight",
+        "مُنْتَصَفُ اللَّيْلِ",
+        "muntaṣafu al-layli",
+        "Noun"
+      ],
+      [
+        "success",
+        "نَجَاح",
+        "najāḥ",
+        "Noun"
+      ],
+      [
+        "daytime",
+        "نَهَار",
+        "nahār",
+        "Noun"
+      ],
+      [
+        "end",
+        "نِهَايَة",
+        "nihāya",
+        "Noun"
+      ],
+      [
+        "weekend",
+        "إِجَازَةُ نِهَايَةِ الأُسْبُوعِ",
+        "ijāzatu nihāyati al-usbūʿi",
+        "Noun"
+      ],
+      [
+        "sleep",
+        "النَّوْم",
+        "al-nawm",
+        "Verbal noun"
+      ],
+      [
+        "I fear",
+        "أَخَافُ مِنْ",
+        "akhāfu min",
+        "Verb"
+      ],
+      [
+        "I obtain",
+        "أَنَالُ",
+        "anālu",
+        "Verb"
+      ],
+      [
+        "I sleep",
+        "أَنَامُ",
+        "anāmu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "He studies medicine at Cairo University.",
+        "يَدْرُسُ الطِّبَّ فِي جَامِعَةِ الْقَاهِرَةِ.",
+        "yadrusu al-ṭibba fī jāmiʿati al-qāhirati."
+      ],
+      [
+        "He will obtain his degree at the end of this academic year.",
+        "سَيَنَالُ شَهَادَتَهُ فِي نِهَايَةِ هَذَا الْعَامِ الدِّرَاسِيِّ.",
+        "sayanālu shahādatahu fī nihāyati hādhā al-ʿāmi al-dirāsiyyi."
+      ],
+      [
+        "He usually sleeps after midnight.",
+        "يَنَامُ بَعْدَ مُنْتَصَفِ اللَّيْلِ عَادَةً.",
+        "yanāmu baʿda muntaṣafi al-layli ʿādatan."
+      ]
+    ],
+    "learn": [
+      "Exams",
+      "nighttime study",
+      "and success"
+    ],
+    "sourceLessonRange": [
+      61,
+      61
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson061-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          61,
+          61
+        ]
+      },
+      {
+        "filename": "lesson061-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          61,
+          61
+        ]
+      }
+    ]
+  },
+  "62": {
+    "subtitle": "Relatives, awards, and emphatic dual numbers",
+    "vocab": [
+      [
+        "I excel",
+        "أَتَفَوَّقُ",
+        "atafawwaqu",
+        "Verb"
+      ],
+      [
+        "excellence; distinction",
+        "التَّفَوُّق",
+        "al-tafawwuq",
+        "Verbal noun"
+      ],
+      [
+        "award; prize",
+        "جَائِزَة",
+        "jāʾiza",
+        "Noun",
+        "—",
+        "جَوَائِز"
+      ],
+      [
+        "plural of award; prize",
+        "جَوَائِز",
+        "jawāʾiz",
+        "Plural"
+      ],
+      [
+        "maternal uncle",
+        "خَال",
+        "khāl",
+        "Noun",
+        "—",
+        "أَخْوَال"
+      ],
+      [
+        "plural of maternal uncle",
+        "أَخْوَال",
+        "akhwāl",
+        "Plural"
+      ],
+      [
+        "maternal aunt",
+        "خَالَة",
+        "khāla",
+        "Noun"
+      ],
+      [
+        "paternal uncle",
+        "عَمّ",
+        "ʿamm",
+        "Noun",
+        "—",
+        "أَعْمَام"
+      ],
+      [
+        "plural of paternal uncle",
+        "أَعْمَام",
+        "aʿmām",
+        "Plural"
+      ],
+      [
+        "paternal aunt",
+        "عَمَّة",
+        "ʿamma",
+        "Noun"
+      ],
+      [
+        "two (masculine nominative)",
+        "اثْنَانِ",
+        "ithnāni",
+        "Number"
+      ],
+      [
+        "two (feminine nominative)",
+        "اثْنَتَانِ",
+        "ithnatāni",
+        "Number"
+      ]
+    ],
+    "sentences": [
+      [
+        "There are twenty-two Arab teachers in this school.",
+        "فِي هَذِهِ الْمَدْرَسَةِ اثْنَانِ وَعِشْرُونَ أُسْتَاذًا عَرَبِيًّا.",
+        "fī hādhihi al-madrasati ithnāni wa-ʿishrūna ustādhan ʿarabiyyan."
+      ],
+      [
+        "They are all my friends.",
+        "كُلُّهُمْ أَصْدِقَائِي.",
+        "kulluhum aṣdiqāʾī."
+      ],
+      [
+        "Among them are two Egyptians.",
+        "بَيْنَهُمْ مِصْرِيَّانِ اثْنَانِ.",
+        "baynahum miṣriyyāni ithnāni."
+      ]
+    ],
+    "learn": [
+      "Relatives",
+      "awards",
+      "and emphatic dual numbers"
+    ],
+    "sourceLessonRange": [
+      62,
+      62
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson062-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          62,
+          62
+        ]
+      }
+    ]
+  },
+  "63": {
+    "subtitle": "Good, evil, and causative verbs",
+    "vocab": [
+      [
+        "imam; prayer leader",
+        "إِمَام",
+        "imām",
+        "Noun",
+        "—",
+        "أَئِمَّة"
+      ],
+      [
+        "plural of imam; prayer leader",
+        "أَئِمَّة",
+        "aʾimma",
+        "Plural"
+      ],
+      [
+        "reward for good deeds",
+        "ثَوَاب",
+        "thawāb",
+        "Noun"
+      ],
+      [
+        "I frighten",
+        "أُخَوِّفُ",
+        "ukhawwifu",
+        "Verb"
+      ],
+      [
+        "good; good deed",
+        "خَيْر",
+        "khayr",
+        "Noun",
+        "—",
+        "خَيْرَات"
+      ],
+      [
+        "plural of good; good deed",
+        "خَيْرَات",
+        "khayrāt",
+        "Plural"
+      ],
+      [
+        "I offer a choice between",
+        "أُخَيِّرُ بَيْنَ",
+        "ukhayyiru bayna",
+        "Verb"
+      ],
+      [
+        "I encourage interest in",
+        "أُرَغِّبُ فِي",
+        "uraghghibu fī",
+        "Verb"
+      ],
+      [
+        "I direct; guide",
+        "أُسَيِّرُ",
+        "usayyiru",
+        "Verb"
+      ],
+      [
+        "evil; evil deed",
+        "شَرّ",
+        "sharr",
+        "Noun",
+        "—",
+        "شُرُور"
+      ],
+      [
+        "plural of evil; evil deed",
+        "شُرُور",
+        "shurūr",
+        "Plural"
+      ],
+      [
+        "punishment",
+        "عِقَاب",
+        "ʿiqāb",
+        "Noun"
+      ],
+      [
+        "I impose on",
+        "أَفْرِضُ عَلَى",
+        "afriḍu ʿalā",
+        "Verb"
+      ],
+      [
+        "I make easier for",
+        "أُهَوِّنُ عَلَى",
+        "uhawwinu ʿalā",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "We went to the mosque for prayer last Friday.",
+        "ذَهَبْنَا إِلَى الْجَامِعِ لِلصَّلَاةِ يَوْمَ الْجُمُعَةِ الْمَاضِي.",
+        "dhahabnā ilā al-jāmiʿi li-l-ṣalāti yawma al-jumʿati al-māḍī."
+      ],
+      [
+        "The imam encourages people to do good.",
+        "يُرَغِّبُ الإِمَامُ النَّاسَ فِي عَمَلِ الْخَيْرِ.",
+        "yuraghghibu al-imāmu al-nāsa fī ʿamali al-khayri."
+      ],
+      [
+        "My father encouraged me to study medicine.",
+        "رَغَّبَنِي وَالِدِي فِي دِرَاسَةِ الطِّبِّ.",
+        "raghghabanī wālidī fī dirāsati al-ṭibbi."
+      ]
+    ],
+    "learn": [
+      "Good",
+      "evil",
+      "and causative verbs"
+    ],
+    "sourceLessonRange": [
+      63,
+      63
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson063-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          63,
+          63
+        ]
+      }
+    ]
+  },
+  "64": {
+    "subtitle": "Independence, colonialism, and causative weak verbs",
+    "vocab": [
+      [
+        "I incite against",
+        "أُثِيرُ عَلَى",
+        "uthīru ʿalā",
+        "Verb"
+      ],
+      [
+        "I frighten",
+        "أُخِيفُ",
+        "ukhīfu",
+        "Verb"
+      ],
+      [
+        "colonialism",
+        "اِسْتِعْمَار",
+        "istiʿmār",
+        "Noun"
+      ],
+      [
+        "independence",
+        "اِسْتِقْلَال",
+        "istiqlāl",
+        "Noun"
+      ],
+      [
+        "I lose; waste",
+        "أُضِيعُ",
+        "uḍīʿu",
+        "Verb"
+      ],
+      [
+        "I reside in",
+        "أُقِيمُ فِي",
+        "uqīmu fī",
+        "Verb"
+      ],
+      [
+        "I put to sleep",
+        "أُنِيمُ",
+        "unīmu",
+        "Verb"
+      ],
+      [
+        "period; time",
+        "زَمَن",
+        "zaman",
+        "Noun",
+        "—",
+        "أَزْمِنَة"
+      ],
+      [
+        "plural of period; time",
+        "أَزْمِنَة",
+        "azmina",
+        "Plural"
+      ],
+      [
+        "I become lost",
+        "أَضِيعُ",
+        "aḍīʿu",
+        "Verb"
+      ],
+      [
+        "other than",
+        "غَيْر",
+        "ghayr",
+        "Particle"
+      ],
+      [
+        "bomber aircraft",
+        "قَاذِفَةُ قَنَابِلَ",
+        "qādhifatu qanābila",
+        "Noun"
+      ],
+      [
+        "battalion",
+        "كَتِيبَة",
+        "katība",
+        "Noun",
+        "—",
+        "كَتَائِب"
+      ],
+      [
+        "plural of battalion",
+        "كَتَائِب",
+        "katāʾib",
+        "Plural"
+      ],
+      [
+        "therefore",
+        "لِذَلِكَ",
+        "li-dhālika",
+        "Expression"
+      ],
+      [
+        "probable",
+        "مُحْتَمَل",
+        "muḥtamal",
+        "Adjective"
+      ],
+      [
+        "colony",
+        "مُسْتَعْمَرَة",
+        "mustaʿmara",
+        "Noun"
+      ],
+      [
+        "independent",
+        "مُسْتَقِلّ",
+        "mustaqill",
+        "Adjective"
+      ],
+      [
+        "time",
+        "وَقْت",
+        "waqt",
+        "Noun",
+        "—",
+        "أَوْقَات"
+      ],
+      [
+        "plural of time",
+        "أَوْقَات",
+        "awqāt",
+        "Plural"
+      ]
+    ],
+    "sentences": [
+      [
+        "How many years did the French stay in Egypt?",
+        "كَمْ عَامًا أَقَامَ الْفَرَنْسِيُّونَ بِمِصْرَ؟",
+        "kam ʿāman aqāma al-faransiyyūna bi-miṣra?"
+      ],
+      [
+        "They stayed there three years, then left.",
+        "أَقَامُوا بِهَا ثَلَاثَةَ أَعْوَامٍ ثُمَّ تَرَكُوهَا.",
+        "aqāmū bihā thalāthata aʿwāmin thumma tarakūhā."
+      ],
+      [
+        "Egypt is an independent state.",
+        "مِصْرُ دَوْلَةٌ مُسْتَقِلَّةٌ.",
+        "miṣru dawlatun mustaqillatun."
+      ],
+      [
+        "You put your children to sleep.",
+        "أَنَمْتَ أَطْفَالَكَ.",
+        "anamta aṭfālaka."
+      ]
+    ],
+    "learn": [
+      "Independence",
+      "colonialism",
+      "and causative weak verbs"
+    ],
+    "sourceLessonRange": [
+      64,
+      64
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson064-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          64,
+          64
+        ]
+      },
+      {
+        "filename": "lesson064-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  "65": {
+    "subtitle": "Hollow verbs, visits, and distances",
+    "vocab": [
+      [
+        "I sell",
+        "أَبِيعُ",
+        "abīʿu",
+        "Verb"
+      ],
+      [
+        "distance",
+        "بُعْد",
+        "buʿd",
+        "Noun",
+        "—",
+        "أَبْعَاد"
+      ],
+      [
+        "plural of distance",
+        "أَبْعَاد",
+        "abʿād",
+        "Plural"
+      ],
+      [
+        "at a distance of",
+        "عَلَى بُعْدِ",
+        "ʿalā buʿdi",
+        "Expression"
+      ],
+      [
+        "I revolt against",
+        "أَثُورُ عَلَى",
+        "athūru ʿalā",
+        "Verb"
+      ],
+      [
+        "I come",
+        "أَجِيءُ",
+        "ajīʾu",
+        "Verb"
+      ],
+      [
+        "wing",
+        "جَنَاح",
+        "janāḥ",
+        "Noun",
+        "—",
+        "أَجْنِحَة"
+      ],
+      [
+        "plural of wing",
+        "أَجْنِحَة",
+        "ajniḥa",
+        "Plural"
+      ],
+      [
+        "I fear",
+        "أَخَافُ مِنْ",
+        "akhāfu min",
+        "Verb"
+      ],
+      [
+        "I visit",
+        "أَزُورُ",
+        "azūru",
+        "Verb"
+      ],
+      [
+        "colleague",
+        "زَمِيل",
+        "zamīl",
+        "Noun",
+        "—",
+        "زُمَلَاء"
+      ],
+      [
+        "plural of colleague",
+        "زُمَلَاء",
+        "zumalāʾ",
+        "Plural"
+      ],
+      [
+        "I walk",
+        "أَسِيرُ",
+        "asīru",
+        "Verb"
+      ],
+      [
+        "I fast",
+        "أَصُومُ",
+        "aṣūmu",
+        "Verb"
+      ],
+      [
+        "I return",
+        "أَعُودُ",
+        "aʿūdu",
+        "Verb"
+      ],
+      [
+        "I am absent",
+        "أَغِيبُ",
+        "aghību",
+        "Verb"
+      ],
+      [
+        "I do",
+        "أَفْعَلُ",
+        "afʿalu",
+        "Verb"
+      ],
+      [
+        "I say",
+        "أَقُولُ",
+        "aqūlu",
+        "Verb"
+      ],
+      [
+        "kilometer",
+        "كِيلُومِتْر",
+        "kīlūmitr",
+        "Noun"
+      ],
+      [
+        "together",
+        "مَعًا",
+        "maʿan",
+        "Adverb"
+      ],
+      [
+        "mile",
+        "مِيل",
+        "mīl",
+        "Noun",
+        "—",
+        "أَمْيَال"
+      ],
+      [
+        "plural of mile",
+        "أَمْيَال",
+        "amyāl",
+        "Plural"
+      ],
+      [
+        "I sleep",
+        "أَنَامُ",
+        "anāmu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "What did you two do after returning from school yesterday?",
+        "مَاذَا فَعَلْتُمَا بَعْدَ عَوْدَتِكُمَا مِنَ الْمَدْرَسَةِ أَمْسِ؟",
+        "mādhā faʿaltumā baʿda ʿawdatikumā mina al-madrasati amsi?"
+      ],
+      [
+        "We visited our maternal aunt.",
+        "زُرْنَا خَالَتَنَا.",
+        "zurnā khālatanā."
+      ],
+      [
+        "Her house is a mile from ours.",
+        "بَيْتُهَا عَلَى بُعْدِ مِيلٍ مِنْ بَيْتِنَا.",
+        "baytuhā ʿalā buʿdi mīlin min baytinā."
+      ],
+      [
+        "I returned at six in the evening.",
+        "عُدْتُ فِي السَّاعَةِ السَّادِسَةِ مَسَاءً.",
+        "ʿudtu fī al-sāʿati al-sādisati masāʾan."
+      ]
+    ],
+    "learn": [
+      "Hollow verbs",
+      "visits",
+      "and distances"
+    ],
+    "sourceLessonRange": [
+      65,
+      65
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson065-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          65,
+          65
+        ]
+      },
+      {
+        "filename": "lesson065-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          65,
+          65
+        ]
+      }
+    ]
+  },
+  "66": {
+    "subtitle": "Being, reading, and a teacher's library",
+    "vocab": [
+      [
+        "last; final",
+        "آخِر",
+        "ākhir",
+        "Adjective"
+      ],
+      [
+        "most knowledgeable about",
+        "أَعْرَف بِـ",
+        "aʿraf bi",
+        "Comparative"
+      ],
+      [
+        "mail; post",
+        "بَرِيد",
+        "barīd",
+        "Noun"
+      ],
+      [
+        "body",
+        "جِسْم",
+        "jism",
+        "Noun",
+        "—",
+        "أَجْسَام"
+      ],
+      [
+        "plural of body",
+        "أَجْسَام",
+        "ajsām",
+        "Plural"
+      ],
+      [
+        "I carry",
+        "أَحْمِلُ",
+        "aḥmilu",
+        "Verb"
+      ],
+      [
+        "life",
+        "حَيَاة",
+        "ḥayāh",
+        "Noun"
+      ],
+      [
+        "reading",
+        "الْقِرَاءَة",
+        "al-qirāʾa",
+        "Verbal noun"
+      ],
+      [
+        "I am; I become",
+        "أَكُونُ",
+        "akūnu",
+        "Verb"
+      ],
+      [
+        "I dislike",
+        "أَكْرَهُ",
+        "akrahu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "I was a student last year.",
+        "كُنْتُ طَالِبًا فِي السَّنَةِ الْمَاضِيَةِ.",
+        "kuntu ṭāliban fī al-sanati al-māḍiyati."
+      ],
+      [
+        "My teacher encouraged me to read.",
+        "كَانَ أُسْتَاذِي يُرَغِّبُنِي فِي الْقِرَاءَةِ.",
+        "kāna ustādhī yuraghghibunī fī al-qirāʾati."
+      ],
+      [
+        "My teacher had a library in his house.",
+        "كَانَتْ لِأُسْتَاذِي مَكْتَبَةٌ فِي بَيْتِهِ.",
+        "kānat li-ustādhī maktabatun fī baytihi."
+      ],
+      [
+        "I read a book every night.",
+        "أَقْرَأُ كِتَابًا كُلَّ لَيْلَةٍ.",
+        "aqraʾu kitāban kulla laylatin."
+      ]
+    ],
+    "learn": [
+      "Being",
+      "reading",
+      "and a teacher's library"
+    ],
+    "sourceLessonRange": [
+      66,
+      66
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson066-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          66,
+          66
+        ]
+      }
+    ]
+  },
+  "67": {
+    "subtitle": "Objections, invitations, and weak verbs",
+    "vocab": [
+      [
+        "objection to",
+        "اِعْتِرَاض عَلَى",
+        "iʿtirāḍ ʿalā",
+        "Noun"
+      ],
+      [
+        "I object to",
+        "أَعْتَرِضُ عَلَى",
+        "aʿtariḍu ʿalā",
+        "Verb"
+      ],
+      [
+        "country; land",
+        "بِلَاد",
+        "bilād",
+        "Noun"
+      ],
+      [
+        "invasion",
+        "غَزْو",
+        "ghazw",
+        "Noun"
+      ],
+      [
+        "I invite; call",
+        "أَدْعُو",
+        "adʿū",
+        "Verb"
+      ],
+      [
+        "I hope",
+        "أَرْجُو",
+        "arjū",
+        "Verb"
+      ],
+      [
+        "I complain to",
+        "أَشْكُو إِلَى",
+        "ashkū ilā",
+        "Verb"
+      ],
+      [
+        "I invade",
+        "أَغْزُو",
+        "aghzū",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Why will the United Nations call the members to a special meeting?",
+        "لِمَاذَا سَتَدْعُو هَيْئَةُ الأُمَمِ الْمُتَّحِدَةِ الأَعْضَاءَ إِلَى اجْتِمَاعٍ خَاصٍّ؟",
+        "li-mādhā satadʿū hayʾatu al-umami al-muttaḥidati al-aʿḍāʾa ilā ijtimāʿin khāṣṣin?"
+      ],
+      [
+        "The meeting will be held tomorrow afternoon.",
+        "سَيَنْعَقِدُ الاجْتِمَاعُ بَعْدَ ظُهْرِ غَدٍ.",
+        "sayanʿaqidu al-ijtimāʿu baʿda ẓuhri ghadin."
+      ],
+      [
+        "Will most members object to the invasion? I hope so.",
+        "هَلْ سَيَعْتَرِضُ أَكْثَرُ الأَعْضَاءِ عَلَى الْغَزْوِ؟ أَرْجُو ذَلِكَ.",
+        "hal sayaʿtariḍu aktharu al-aʿḍāʾi ʿalā al-ghazwi? arjū dhālika."
+      ]
+    ],
+    "learn": [
+      "Objections",
+      "invitations",
+      "and weak verbs"
+    ],
+    "sourceLessonRange": [
+      67,
+      67
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson067-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          67,
+          67
+        ]
+      }
+    ]
+  },
+  "68": {
+    "subtitle": "Coasts, military news, and weak verbs",
+    "vocab": [
+      [
+        "I broadcast",
+        "أُذِيعُ",
+        "udhīʿu",
+        "Verb"
+      ],
+      [
+        "I drop; shoot down",
+        "أُسْقِطُ",
+        "usqiṭu",
+        "Verb"
+      ],
+      [
+        "I intercept",
+        "أَعْتَرِضُ",
+        "aʿtariḍu",
+        "Verb"
+      ],
+      [
+        "I take off",
+        "أُقْلِعُ",
+        "uqliʿu",
+        "Verb"
+      ],
+      [
+        "sea",
+        "بَحْر",
+        "baḥr",
+        "Noun",
+        "—",
+        "بِحَار"
+      ],
+      [
+        "plural of sea",
+        "بِحَار",
+        "biḥār",
+        "Plural"
+      ],
+      [
+        "Mediterranean Sea",
+        "الْبَحْرُ الأَبْيَضُ الْمُتَوَسِّطُ",
+        "al-baḥru al-abyaḍu al-mutawassiṭu",
+        "Place name"
+      ],
+      [
+        "Red Sea",
+        "الْبَحْرُ الأَحْمَرُ",
+        "al-baḥru al-aḥmaru",
+        "Place name"
+      ],
+      [
+        "Black Sea",
+        "الْبَحْرُ الأَسْوَدُ",
+        "al-baḥru al-aswadu",
+        "Place name"
+      ],
+      [
+        "coast",
+        "سَاحِل",
+        "sāḥil",
+        "Noun",
+        "—",
+        "سَوَاحِل"
+      ],
+      [
+        "plural of coast",
+        "سَوَاحِل",
+        "sawāḥil",
+        "Plural"
+      ],
+      [
+        "enemy",
+        "عَدُوّ",
+        "ʿaduww",
+        "Noun",
+        "—",
+        "أَعْدَاء"
+      ],
+      [
+        "plural of enemy",
+        "أَعْدَاء",
+        "aʿdāʾ",
+        "Plural"
+      ],
+      [
+        "near",
+        "قُرْبَ",
+        "qurba",
+        "Preposition"
+      ],
+      [
+        "artillery",
+        "مَدْفَعِيَّة",
+        "madfaʿiyya",
+        "Noun"
+      ],
+      [
+        "disease",
+        "مَرَض",
+        "maraḍ",
+        "Noun",
+        "—",
+        "أَمْرَاض"
+      ],
+      [
+        "plural of disease",
+        "أَمْرَاض",
+        "amrāḍ",
+        "Plural"
+      ],
+      [
+        "related to disease",
+        "مَرَضِيّ",
+        "maraḍī",
+        "Adjective"
+      ],
+      [
+        "newscast",
+        "نَشْرَةُ الأَخْبَارِ",
+        "nashratu al-akhbāri",
+        "Noun"
+      ],
+      [
+        "I attack",
+        "أُهَاجِمُ",
+        "uhājimu",
+        "Verb"
+      ],
+      [
+        "attack",
+        "هُجُوم",
+        "hujūm",
+        "Noun"
+      ],
+      [
+        "I defeat",
+        "أَهْزِمُ",
+        "ahzimu",
+        "Verb"
+      ],
+      [
+        "I come",
+        "آتِي",
+        "ātī",
+        "Verb"
+      ],
+      [
+        "I build",
+        "أَبْنِي",
+        "abnī",
+        "Verb"
+      ],
+      [
+        "I spend (time)",
+        "أَقْضِي",
+        "aqḍī",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "He will build a house near the coast.",
+        "سَيَبْنِي بَيْتًا قُرْبَ السَّاحِلِ.",
+        "sayabnī baytan qurba al-sāḥili."
+      ],
+      [
+        "How many months does he spend here each year?",
+        "كَمْ شَهْرًا يَقْضِي هُنَا كُلَّ عَامٍ؟",
+        "kam shahran yaqḍī hunā kulla ʿāmin?"
+      ],
+      [
+        "He spends two or three months.",
+        "يَقْضِي شَهْرَيْنِ أَوْ ثَلَاثَةَ أَشْهُرٍ.",
+        "yaqḍī shahrayni aw thalāthata ashhurin."
+      ],
+      [
+        "His wife and daughter will come with him.",
+        "سَتَأْتِي زَوْجَتُهُ وَابْنَتُهُ مَعَهُ.",
+        "sataʾtī zawjatuhu wa-ibnatuhu maʿahu."
+      ]
+    ],
+    "learn": [
+      "Coasts",
+      "military news",
+      "and weak verbs"
+    ],
+    "sourceLessonRange": [
+      68,
+      68
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson068-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          68,
+          68
+        ]
+      },
+      {
+        "filename": "lesson068-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          68,
+          68
+        ]
+      }
+    ]
+  },
+  "69": {
+    "subtitle": "Staying, graduation, and future plans",
+    "vocab": [
+      [
+        "moon",
+        "قَمَر",
+        "qamar",
+        "Noun"
+      ],
+      [
+        "rocket",
+        "صَارُوخ",
+        "ṣārūkh",
+        "Noun",
+        "—",
+        "صَوَارِيخ"
+      ],
+      [
+        "plural of rocket",
+        "صَوَارِيخ",
+        "ṣawārīkh",
+        "Plural"
+      ],
+      [
+        "regiment",
+        "فَوْج",
+        "fawj",
+        "Noun",
+        "—",
+        "أَفْوَاج"
+      ],
+      [
+        "plural of regiment",
+        "أَفْوَاج",
+        "afwāj",
+        "Plural"
+      ],
+      [
+        "bomb",
+        "قُنْبُلَة",
+        "qunbula",
+        "Noun",
+        "—",
+        "قَنَابِل"
+      ],
+      [
+        "plural of bomb",
+        "قَنَابِل",
+        "qanābil",
+        "Plural"
+      ],
+      [
+        "I remain; stay",
+        "أَبْقَى",
+        "abqā",
+        "Verb"
+      ],
+      [
+        "I accept; am satisfied with",
+        "أَرْضَى بِـ",
+        "arḍā bi",
+        "Verb"
+      ],
+      [
+        "I see",
+        "أَرَى",
+        "arā",
+        "Verb"
+      ],
+      [
+        "I strive to",
+        "أَسْعَى فِي",
+        "asʿā fī",
+        "Verb"
+      ],
+      [
+        "I forget",
+        "أَنْسَى",
+        "ansā",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Will your sister stay in Cairo for a long time?",
+        "هَلْ سَتَبْقَى أُخْتُكَ فِي الْقَاهِرَةِ طَوِيلًا؟",
+        "hal satabqā ukhtuka fī al-qāhirati ṭawīlan?"
+      ],
+      [
+        "She will return to America next Sunday.",
+        "سَتَعُودُ إِلَى أَمْرِيكَا يَوْمَ الأَحَدِ الْقَادِمِ.",
+        "sataʿūdu ilā amrīkā yawma al-aḥadi al-qādimi."
+      ],
+      [
+        "She will graduate at the end of next year.",
+        "سَتَتَخَرَّجُ فِي نِهَايَةِ الْعَامِ الْقَادِمِ.",
+        "satatakharraju fī nihāyati al-ʿāmi al-qādimi."
+      ],
+      [
+        "The professor will return to his homeland.",
+        "سَيَعُودُ الأُسْتَاذُ إِلَى وَطَنِهِ.",
+        "sayaʿūdu al-ustādhu ilā waṭanihi."
+      ]
+    ],
+    "learn": [
+      "Staying",
+      "graduation",
+      "and future plans"
+    ],
+    "sourceLessonRange": [
+      69,
+      69
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson069-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          69,
+          69
+        ]
+      },
+      {
+        "filename": "lesson069-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          69,
+          69
+        ]
+      }
+    ]
+  },
+  "70": {
+    "subtitle": "Courts, elections, and public announcements",
+    "vocab": [
+      [
+        "I arrest",
+        "أَعْتَقِلُ",
+        "aʿtaqilu",
+        "Verb"
+      ],
+      [
+        "I execute (a person)",
+        "أُعْدِمُ",
+        "uʿdimu",
+        "Verb"
+      ],
+      [
+        "death sentence",
+        "الْحُكْمُ بِالإِعْدَامِ",
+        "al-ḥukmu bi-l-iʿdāmi",
+        "Noun"
+      ],
+      [
+        "I announce",
+        "أُعْلِنُ",
+        "uʿlinu",
+        "Verb"
+      ],
+      [
+        "I declare war on",
+        "أُعْلِنُ الْحَرْبَ عَلَى",
+        "uʿlinu al-ḥarba ʿalā",
+        "Verb phrase"
+      ],
+      [
+        "I hold; establish",
+        "أُقِيمُ",
+        "uqīmu",
+        "Verb"
+      ],
+      [
+        "program",
+        "بَرْنَامَج",
+        "barnāmaj",
+        "Noun",
+        "—",
+        "بَرَامِج"
+      ],
+      [
+        "plural of program",
+        "بَرَامِج",
+        "barāmij",
+        "Plural"
+      ],
+      [
+        "mission",
+        "بَعْثَة",
+        "baʿtha",
+        "Noun"
+      ],
+      [
+        "military mission",
+        "بَعْثَةٌ عَسْكَرِيَّةٌ",
+        "baʿthatun ʿaskariyyatun",
+        "Noun"
+      ],
+      [
+        "diplomatic mission",
+        "بَعْثَةٌ دِبْلُومَاسِيَّةٌ",
+        "baʿthatun diblūmāsiyyatun",
+        "Noun"
+      ],
+      [
+        "archaeological expedition",
+        "بَعْثَةٌ أَثَرِيَّةٌ",
+        "baʿthatun athariyyatun",
+        "Noun"
+      ],
+      [
+        "I spy on",
+        "أَتَجَسَّسُ عَلَى",
+        "atajassasu ʿalā",
+        "Verb"
+      ],
+      [
+        "spy",
+        "جَاسُوس",
+        "jāsūs",
+        "Noun",
+        "—",
+        "جَوَاسِيس"
+      ],
+      [
+        "plural of spy",
+        "جَوَاسِيس",
+        "jawāsīs",
+        "Plural"
+      ],
+      [
+        "need",
+        "حَاجَة",
+        "ḥāja",
+        "Noun"
+      ],
+      [
+        "political party",
+        "حِزْب",
+        "ḥizb",
+        "Noun",
+        "—",
+        "أَحْزَاب"
+      ],
+      [
+        "plural of political party",
+        "أَحْزَاب",
+        "aḥzāb",
+        "Plural"
+      ],
+      [
+        "I sentence someone to",
+        "أَحْكُمُ عَلَى",
+        "aḥkumu ʿalā",
+        "Verb"
+      ],
+      [
+        "prison",
+        "سِجْن",
+        "sijn",
+        "Noun",
+        "—",
+        "سُجُون"
+      ],
+      [
+        "plural of prison",
+        "سُجُون",
+        "sujūn",
+        "Plural"
+      ],
+      [
+        "imprisonment",
+        "سَجْن",
+        "sajn",
+        "Noun"
+      ],
+      [
+        "person",
+        "شَخْص",
+        "shakhṣ",
+        "Noun",
+        "—",
+        "أَشْخَاص"
+      ],
+      [
+        "plural of person",
+        "أَشْخَاص",
+        "ashkhāṣ",
+        "Plural"
+      ],
+      [
+        "guest",
+        "ضَيْف",
+        "ḍayf",
+        "Noun",
+        "—",
+        "ضُيُوف"
+      ],
+      [
+        "plural of guest",
+        "ضُيُوف",
+        "ḍuyūf",
+        "Plural"
+      ],
+      [
+        "federal",
+        "فِيدِرَالِيّ",
+        "fīdirālī",
+        "Adjective"
+      ],
+      [
+        "scandal",
+        "فَضِيحَة",
+        "faḍīḥa",
+        "Noun",
+        "—",
+        "فَضَائِح"
+      ],
+      [
+        "plural of scandal",
+        "فَضَائِح",
+        "faḍāʾiḥ",
+        "Plural"
+      ],
+      [
+        "I stand; carry out",
+        "أَقُومُ",
+        "aqūmu",
+        "Verb"
+      ],
+      [
+        "spokesperson for",
+        "مُتَحَدِّث بِاسْمِ",
+        "mutaḥaddith bi-smi",
+        "Noun"
+      ],
+      [
+        "court",
+        "مَحْكَمَة",
+        "maḥkama",
+        "Noun",
+        "—",
+        "مَحَاكِم"
+      ],
+      [
+        "plural of court",
+        "مَحَاكِم",
+        "maḥākim",
+        "Plural"
+      ],
+      [
+        "occasion",
+        "مُنَاسَبَة",
+        "munāsaba",
+        "Noun"
+      ],
+      [
+        "on the occasion of",
+        "بِمُنَاسَبَةِ",
+        "bi-munāsabati",
+        "Expression"
+      ],
+      [
+        "type; kind",
+        "نَوْع",
+        "nawʿ",
+        "Noun",
+        "—",
+        "أَنْوَاع"
+      ],
+      [
+        "plural of type; kind",
+        "أَنْوَاع",
+        "anwāʿ",
+        "Plural"
+      ]
+    ],
+    "sentences": [
+      [
+        "The people elected the president of the Republican Party.",
+        "انْتَخَبَ الشَّعْبُ رَئِيسَ الْحِزْبِ الْجُمْهُورِيِّ.",
+        "intakhaba al-shaʿbu raʾīsa al-ḥizbi al-jumhūriyyi."
+      ],
+      [
+        "A government spokesperson announced the arrest of several people.",
+        "أَعْلَنَ مُتَحَدِّثٌ بِاسْمِ الْحُكُومَةِ اعْتِقَالَ عَدَدٍ مِنَ الأَشْخَاصِ.",
+        "aʿlana mutaḥaddithun bi-smi al-ḥukūmati iʿtiqāla ʿadadin mina al-ashkhāṣi."
+      ],
+      [
+        "The court sentenced them to imprisonment.",
+        "حَكَمَتِ الْمَحْكَمَةُ عَلَيْهِمْ بِالسِّجْنِ.",
+        "ḥakamati al-maḥkamatu ʿalayhim bi-l-sijni."
+      ]
+    ],
+    "learn": [
+      "Courts",
+      "elections",
+      "and public announcements"
+    ],
+    "sourceLessonRange": [
+      70,
+      70
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson070-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          70,
+          70
+        ]
+      },
+      {
+        "filename": "lesson070-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          70,
+          70
+        ]
+      }
+    ]
+  },
+  "71": {
+    "subtitle": "Past-tense weak verbs and summer visitors",
+    "vocab": [
+      [
+        "I come",
+        "آتِي",
+        "ātī",
+        "Verb"
+      ],
+      [
+        "I explode",
+        "أَنْفَجِرُ",
+        "anfajiru",
+        "Verb"
+      ],
+      [
+        "I stay",
+        "أَبْقَى",
+        "abqā",
+        "Verb"
+      ],
+      [
+        "I build",
+        "أَبْنِي",
+        "abnī",
+        "Verb"
+      ],
+      [
+        "I invite",
+        "أَدْعُو",
+        "adʿū",
+        "Verb"
+      ],
+      [
+        "I see",
+        "أَرَى",
+        "arā",
+        "Verb"
+      ],
+      [
+        "I hope",
+        "أَرْجُو",
+        "arjū",
+        "Verb"
+      ],
+      [
+        "I accept",
+        "أَرْضَى بِـ",
+        "arḍā bi",
+        "Verb"
+      ],
+      [
+        "visitor",
+        "زَائِر",
+        "zāʾir",
+        "Noun"
+      ],
+      [
+        "squadron",
+        "سِرْب",
+        "sirb",
+        "Noun",
+        "—",
+        "أَسْرَاب"
+      ],
+      [
+        "plural of squadron",
+        "أَسْرَاب",
+        "asrāb",
+        "Plural"
+      ],
+      [
+        "I strive",
+        "أَسْعَى",
+        "asʿā",
+        "Verb"
+      ],
+      [
+        "I complain to",
+        "أَشْكُو إِلَى",
+        "ashkū ilā",
+        "Verb"
+      ],
+      [
+        "I invade",
+        "أَغْزُو",
+        "aghzū",
+        "Verb"
+      ],
+      [
+        "relative",
+        "قَرِيب",
+        "qarīb",
+        "Noun",
+        "—",
+        "أَقْرِبَاء"
+      ],
+      [
+        "plural of relative",
+        "أَقْرِبَاء",
+        "aqribāʾ",
+        "Plural"
+      ],
+      [
+        "I spend (time)",
+        "أَقْضِي",
+        "aqḍī",
+        "Verb"
+      ],
+      [
+        "time bomb",
+        "قُنْبُلَةٌ زَمَنِيَّةٌ",
+        "qunbulatun zamaniyyatun",
+        "Noun"
+      ],
+      [
+        "I forget",
+        "أَنْسَى",
+        "ansā",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Why did your three friends come to this city?",
+        "لِمَاذَا أَتَى أَصْدِقَاؤُكَ الثَّلَاثَةُ إِلَى هَذِهِ الْمَدِينَةِ؟",
+        "li-mādhā atā aṣdiqāʾuka al-thalāthatu ilā hādhihi al-madīnati?"
+      ],
+      [
+        "They came to spend the summer vacation.",
+        "أَتَوْا لِقَضَاءِ الإِجَازَةِ الصَّيْفِيَّةِ.",
+        "ataw li-qaḍāʾi al-ijāzati al-ṣayfiyyati."
+      ],
+      [
+        "They stayed here a month, then visited other cities.",
+        "بَقُوا هُنَا شَهْرًا ثُمَّ زَارُوا مُدُنًا أُخْرَى.",
+        "baqū hunā shahran thumma zārū mudunan ukhrā."
+      ],
+      [
+        "Did the newlyweds travel to Switzerland?",
+        "هَلْ سَافَرَ الْعَرُوسَانِ إِلَى سُوِيسْرَا؟",
+        "hal sāfara al-ʿarūsāni ilā suwisrā?"
+      ]
+    ],
+    "learn": [
+      "Past-tense weak verbs and summer visitors"
+    ],
+    "sourceLessonRange": [
+      71,
+      71
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson071-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          71,
+          71
+        ]
+      },
+      {
+        "filename": "lesson071-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          71,
+          71
+        ]
+      }
+    ]
+  },
+  "72": {
+    "subtitle": "Warnings, apologies, and military terms",
+    "vocab": [
+      [
+        "I launch; release",
+        "أُطْلِقُ",
+        "uṭliqu",
+        "Verb"
+      ],
+      [
+        "I fire at",
+        "أُطْلِقُ الرَّصَاصَ عَلَى",
+        "uṭliqu al-raṣāṣa ʿalā",
+        "Verb phrase"
+      ],
+      [
+        "Pakistan",
+        "بَاكِسْتَان",
+        "bākistān",
+        "Place name"
+      ],
+      [
+        "India",
+        "الْهِنْد",
+        "al-hind",
+        "Place name"
+      ],
+      [
+        "I triumph over",
+        "أَنْتَصِرُ عَلَى",
+        "antaṣiru ʿalā",
+        "Verb"
+      ],
+      [
+        "warning",
+        "إِنْذَار",
+        "indhār",
+        "Noun"
+      ],
+      [
+        "I issue a warning to",
+        "أُصْدِرُ إِنْذَارًا إِلَى",
+        "uṣdiru indhāran ilā",
+        "Verb phrase"
+      ],
+      [
+        "weak",
+        "ضَعِيف",
+        "ḍaʿīf",
+        "Adjective",
+        "—",
+        "ضُعَفَاء"
+      ],
+      [
+        "plural of weak",
+        "ضُعَفَاء",
+        "ḍuʿafāʾ",
+        "Plural"
+      ],
+      [
+        "strong",
+        "قَوِيّ",
+        "qawī",
+        "Adjective",
+        "—",
+        "أَقْوِيَاء"
+      ],
+      [
+        "plural of strong",
+        "أَقْوِيَاء",
+        "aqwiyāʾ",
+        "Plural"
+      ],
+      [
+        "mine (explosive)",
+        "لُغْم",
+        "lughm",
+        "Noun",
+        "—",
+        "أَلْغَام"
+      ],
+      [
+        "plural of mine (explosive)",
+        "أَلْغَام",
+        "alghām",
+        "Plural"
+      ],
+      [
+        "cannon",
+        "مِدْفَع",
+        "midfaʿ",
+        "Noun",
+        "—",
+        "مَدَافِع"
+      ],
+      [
+        "plural of cannon",
+        "مَدَافِع",
+        "madāfiʿ",
+        "Plural"
+      ],
+      [
+        "official source",
+        "مَصْدَرٌ مَسْؤُولٌ",
+        "maṣdarun masʾūlun",
+        "Noun"
+      ],
+      [
+        "pardon; forgiveness",
+        "مَعْذِرَة",
+        "maʿdhira",
+        "Noun"
+      ],
+      [
+        "I request forgiveness",
+        "أَرْجُو الْمَعْذِرَةَ",
+        "arjū al-maʿdhirata",
+        "Expression"
+      ],
+      [
+        "I relate to",
+        "أَتَعَلَّقُ بِـ",
+        "ataʿallaqu bi",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Why were you absent from the teachers' meeting?",
+        "لِمَاذَا غِبْتُمْ عَنِ اجْتِمَاعِ الأَسَاتِذَةِ؟",
+        "li-mādhā ghibtum ʿani ijtimāʿi al-asātidhati?"
+      ],
+      [
+        "We forgot the time. Please excuse us.",
+        "نَسِينَا الْمَوْعِدَ. نَرْجُو الْمَعْذِرَةَ.",
+        "nasīnā al-mawʿida. narjū al-maʿdhirata."
+      ],
+      [
+        "They stayed for three and a half hours.",
+        "بَقُوا ثَلَاثَ سَاعَاتٍ وَنِصْفَ سَاعَةٍ.",
+        "baqū thalātha sāʿātin wa-niṣfa sāʿatin."
+      ],
+      [
+        "Has Egypt been independent for a long time?",
+        "هَلْ مِصْرُ مُسْتَقِلَّةٌ مُنْذُ زَمَنٍ طَوِيلٍ؟",
+        "hal miṣru mustaqillatun mundhu zamanin ṭawīlin?"
+      ]
+    ],
+    "learn": [
+      "Warnings",
+      "apologies",
+      "and military terms"
+    ],
+    "sourceLessonRange": [
+      72,
+      72
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson072-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          72,
+          72
+        ]
+      },
+      {
+        "filename": "lesson072-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          72,
+          72
+        ]
+      }
+    ]
+  },
+  "73": {
+    "subtitle": "Letters, descriptions, and promises",
+    "vocab": [
+      [
+        "reconnaissance",
+        "اِسْتِطْلَاع",
+        "istiṭlāʿ",
+        "Noun"
+      ],
+      [
+        "I finish; end",
+        "أَنْتَهِي",
+        "antahī",
+        "Verb"
+      ],
+      [
+        "until",
+        "حَتَّى",
+        "ḥattā",
+        "Particle"
+      ],
+      [
+        "invitation",
+        "دَعْوَة",
+        "daʿwa",
+        "Noun"
+      ],
+      [
+        "I mention",
+        "أَذْكُرُ",
+        "adhkuru",
+        "Verb"
+      ],
+      [
+        "operation; activity",
+        "عَمَلِيَّة",
+        "ʿamaliyya",
+        "Noun"
+      ],
+      [
+        "military operation",
+        "عَمَلِيَّةٌ حَرْبِيَّةٌ",
+        "ʿamaliyyatun ḥarbiyyatun",
+        "Noun"
+      ],
+      [
+        "immediately",
+        "فَوْرًا",
+        "fawran",
+        "Adverb"
+      ],
+      [
+        "I accept",
+        "أَقْبَلُ",
+        "aqbalu",
+        "Verb"
+      ],
+      [
+        "I die",
+        "أَمُوتُ",
+        "amūtu",
+        "Verb"
+      ],
+      [
+        "I describe",
+        "أَصِفُ",
+        "aṣifu",
+        "Verb"
+      ],
+      [
+        "description",
+        "وَصْف",
+        "waṣf",
+        "Noun",
+        "—",
+        "أَوْصَاف"
+      ],
+      [
+        "plural of description",
+        "أَوْصَاف",
+        "awṣāf",
+        "Plural"
+      ],
+      [
+        "I arrive; reach",
+        "أَصِلُ",
+        "aṣilu",
+        "Verb"
+      ],
+      [
+        "I promise",
+        "أَعِدُ",
+        "aʿidu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "Did a letter arrive from your friend in London?",
+        "هَلْ وَصَلَتْكَ رِسَالَةٌ مِنْ صَدِيقِكَ فِي لَنْدَنَ؟",
+        "hal waṣalatka risālatun min ṣadīqika fī landana?"
+      ],
+      [
+        "A letter from him reaches me every week.",
+        "تَصِلُنِي رِسَالَةٌ مِنْهُ كُلَّ أُسْبُوعٍ.",
+        "taṣilunī risālatun minhu kulla usbūʿin."
+      ],
+      [
+        "He promises to visit them in every letter.",
+        "يَعِدُنِي بِزِيَارَتِهِمْ فِي كُلِّ رِسَالَةٍ.",
+        "yaʿidunī bi-ziyāratihim fī kulli risālatin."
+      ],
+      [
+        "The professor's house is ten kilometers away.",
+        "بَيْتُ الأُسْتَاذِ عَلَى بُعْدِ عَشَرَةِ كِيلُومِتْرَاتٍ.",
+        "baytu al-ustādhi ʿalā buʿdi ʿasharati kīlūmitrātin."
+      ]
+    ],
+    "learn": [
+      "Letters",
+      "descriptions",
+      "and promises"
+    ],
+    "sourceLessonRange": [
+      73,
+      73
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson073-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          73,
+          73
+        ]
+      },
+      {
+        "filename": "lesson073-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          73,
+          73
+        ]
+      }
+    ]
+  },
+  "74": {
+    "subtitle": "Traffic, fines, and communication",
+    "vocab": [
+      [
+        "contact; communication",
+        "اِتِّصَال",
+        "ittiṣāl",
+        "Noun"
+      ],
+      [
+        "I contact",
+        "أَتَّصِلُ بِـ",
+        "attaṣilu bi",
+        "Verb"
+      ],
+      [
+        "I necessitate",
+        "أَسْتَوْجِبُ",
+        "astawjibu",
+        "Verb"
+      ],
+      [
+        "I import",
+        "أَسْتَوْرِدُ",
+        "astawridu",
+        "Verb"
+      ],
+      [
+        "I stop someone",
+        "أَسْتَوْقِفُ",
+        "astawqifu",
+        "Verb"
+      ],
+      [
+        "I require; make obligatory",
+        "أُوجِبُ",
+        "ūjibu",
+        "Verb"
+      ],
+      [
+        "I stop; halt",
+        "أُوقِفُ",
+        "ūqifu",
+        "Verb"
+      ],
+      [
+        "stopping; suspension",
+        "الإِيقَاف",
+        "al-īqāf",
+        "Verbal noun"
+      ],
+      [
+        "speed",
+        "سُرْعَة",
+        "surʿa",
+        "Noun"
+      ],
+      [
+        "quickly",
+        "بِسُرْعَةٍ",
+        "bi-surʿatin",
+        "Adverb"
+      ],
+      [
+        "policeman",
+        "شُرْطِيّ",
+        "shurṭī",
+        "Noun",
+        "—",
+        "شُرْطَة"
+      ],
+      [
+        "plural of policeman",
+        "شُرْطَة",
+        "shurṭa",
+        "Plural"
+      ],
+      [
+        "traffic policeman",
+        "شُرْطِيُّ الْمُرُورِ",
+        "shurṭiyyu al-murūri",
+        "Noun"
+      ],
+      [
+        "fine (penalty)",
+        "غَرَامَة",
+        "gharāma",
+        "Noun"
+      ],
+      [
+        "platoon",
+        "فَصِيلَة",
+        "faṣīla",
+        "Noun",
+        "—",
+        "فَصَائِل"
+      ],
+      [
+        "plural of platoon",
+        "فَصَائِل",
+        "faṣāʾil",
+        "Plural"
+      ],
+      [
+        "traffic",
+        "مُرُور",
+        "murūr",
+        "Noun"
+      ],
+      [
+        "violation",
+        "مُخَالَفَة",
+        "mukhālafa",
+        "Noun"
+      ],
+      [
+        "I descend; land",
+        "أَهْبِطُ",
+        "ahbiṭu",
+        "Verb"
+      ],
+      [
+        "landing",
+        "الْهُبُوط",
+        "al-hubūṭ",
+        "Verbal noun"
+      ]
+    ],
+    "sentences": [
+      [
+        "A traffic policeman stopped me on my way home this morning.",
+        "أَوْقَفَنِي شُرْطِيُّ الْمُرُورِ فِي طَرِيقِي إِلَى الْبَيْتِ صَبَاحَ الْيَوْمِ.",
+        "awqafanī shurṭiyyu al-murūri fī ṭarīqī ilā al-bayti ṣabāḥa al-yawmi."
+      ],
+      [
+        "My car's speed exceeded the legal speed.",
+        "كَانَتْ سُرْعَةُ سَيَّارَتِي أَكْبَرَ مِنَ السُّرْعَةِ الْقَانُونِيَّةِ.",
+        "kānat surʿatu sayyāratī akbara mina al-surʿati al-qānūniyyati."
+      ],
+      [
+        "The violation required payment of a large fine.",
+        "اسْتَوْجَبَتِ الْمُخَالَفَةُ دَفْعَ غَرَامَةٍ كَبِيرَةٍ.",
+        "istawjabati al-mukhālafatu dafʿa gharāmatin kabīratin."
+      ]
+    ],
+    "learn": [
+      "Traffic",
+      "fines",
+      "and communication"
+    ],
+    "sourceLessonRange": [
+      74,
+      74
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson074-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          74,
+          74
+        ]
+      }
+    ]
+  },
+  "79": {
+    "subtitle": "Diplomatic relations and hospital care",
+    "vocab": [
+      [
+        "I deteriorate",
+        "أَتَدَهْوَرُ",
+        "atadahwaru",
+        "Verb"
+      ],
+      [
+        "diplomatic relations",
+        "عَلَاقَاتٌ دِبْلُومَاسِيَّةٌ",
+        "ʿalāqātun diblūmāsiyyatun",
+        "Noun"
+      ],
+      [
+        "health",
+        "صِحَّة",
+        "ṣiḥḥa",
+        "Noun"
+      ],
+      [
+        "care; attention",
+        "عِنَايَة",
+        "ʿināya",
+        "Noun"
+      ],
+      [
+        "cleanliness",
+        "نَظَافَة",
+        "naẓāfa",
+        "Noun"
+      ],
+      [
+        "dirtiness",
+        "قَذَارَة",
+        "qadhāra",
+        "Noun"
+      ],
+      [
+        "disgust",
+        "اِشْمِئْزَاز",
+        "ishmiʾzāz",
+        "Noun"
+      ],
+      [
+        "medical care",
+        "عِنَايَةٌ طِبِّيَّةٌ",
+        "ʿināyatun ṭibbiyyatun",
+        "Noun"
+      ]
+    ],
+    "sentences": [
+      [
+        "Diplomatic relations deteriorated.",
+        "تَدَهْوَرَتِ الْعَلَاقَاتُ الدِّبْلُومَاسِيَّةُ.",
+        "tadahwarati al-ʿalāqātu al-diblūmāsiyyatu."
+      ],
+      [
+        "The ambassador held a press conference this morning.",
+        "عَقَدَ السَّفِيرُ مُؤْتَمَرًا صَحْفِيًّا صَبَاحَ الْيَوْمِ.",
+        "ʿaqada al-safīru muʾtamaran ṣaḥfiyyan ṣabāḥa al-yawmi."
+      ],
+      [
+        "The patients wrote a letter to the minister.",
+        "كَتَبَ الْمَرْضَى رِسَالَةً إِلَى الْوَزِيرِ.",
+        "kataba al-marḍā risālatan ilā al-wazīri."
+      ],
+      [
+        "They complained about the deterioration of their health.",
+        "شَكَوْا مِنْ تَدَهْوُرِ صِحَّتِهِمْ.",
+        "shakaw min tadahwuri ṣiḥḥatihim."
+      ]
+    ],
+    "learn": [
+      "Diplomatic relations and hospital care"
+    ],
+    "sourceLessonRange": [
+      79,
+      79
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson079-side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          79,
+          79
+        ]
+      }
+    ]
+  },
+  "80": {
+    "subtitle": "Reported statements and historical narratives",
+    "vocab": [
+      [
+        "that; the fact that",
+        "أَنَّ",
+        "anna",
+        "Particle"
+      ],
+      [
+        "permit; authorization",
+        "تَصْرِيح",
+        "taṣrīḥ",
+        "Noun",
+        "—",
+        "تَصَارِيح"
+      ],
+      [
+        "plural of permit; authorization",
+        "تَصَارِيح",
+        "taṣārīḥ",
+        "Plural"
+      ],
+      [
+        "implementation",
+        "التَّنْفِيذ",
+        "al-tanfīdh",
+        "Verbal noun"
+      ],
+      [
+        "I fly over",
+        "أُحَلِّقُ فَوْقَ",
+        "uḥalliqu fawqa",
+        "Verb"
+      ],
+      [
+        "I refuse; reject",
+        "أَرْفُضُ",
+        "arfuḍu",
+        "Verb"
+      ],
+      [
+        "resident; inhabitant",
+        "سَاكِن",
+        "sākin",
+        "Noun",
+        "—",
+        "سُكَّان"
+      ],
+      [
+        "plural of resident; inhabitant",
+        "سُكَّان",
+        "sukkān",
+        "Plural"
+      ],
+      [
+        "Second World War",
+        "الْحَرْبُ الْعَالَمِيَّةُ الثَّانِيَةُ",
+        "al-ḥarbu al-ʿālamiyyatu al-thāniyatu",
+        "Noun"
+      ]
+    ],
+    "sentences": [
+      [
+        "I know that the professor is absent.",
+        "أَعْرِفُ أَنَّ الأُسْتَاذَ غَائِبٌ.",
+        "aʿrifu anna al-ustādha ghāʾibun."
+      ],
+      [
+        "I heard that the two female students are sick.",
+        "سَمِعْتُ أَنَّ الطَّالِبَتَيْنِ مَرِيضَتَانِ.",
+        "samiʿtu anna al-ṭālibatayni marīḍatāni."
+      ],
+      [
+        "We learned that they are on vacation.",
+        "عَلِمْنَا أَنَّهُمْ فِي إِجَازَةٍ.",
+        "ʿalimnā annahum fī ijāzatin."
+      ],
+      [
+        "The newspapers mentioned that the president will visit Moscow.",
+        "ذَكَرَتِ الصُّحُفُ أَنَّ رَئِيسَ الْجُمْهُورِيَّةِ سَيَزُورُ مُوسْكُو.",
+        "dhakarati al-ṣuḥufu anna raʾīsa al-jumhūriyyati sayazūru mūskū."
+      ]
+    ],
+    "learn": [
+      "Reported statements and historical narratives"
+    ],
+    "sourceLessonRange": [
+      80,
+      80
+    ],
+    "sourceFiles": [
+      {
+        "filename": "lesson080-side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          80,
+          80
+        ]
+      }
+    ]
+  },
+  "81": {
+    "subtitle": "International institutions, passive verbs, and public affairs",
+    "vocab": [
+      [
+        "just; fair",
+        "عَادِل",
+        "ʿādil",
+        "Adjective"
+      ],
+      [
+        "armed forces",
+        "قُوَّات",
+        "quwwāt",
+        "Noun"
+      ],
+      [
+        "refugee",
+        "لَاجِئ",
+        "lājiʾ",
+        "Noun"
+      ],
+      [
+        "safeguarding",
+        "الْمُحَافَظَة عَلَى",
+        "al-muḥāfaẓa ʿalā",
+        "Verbal noun"
+      ],
+      [
+        "future",
+        "مُسْتَقْبَل",
+        "mustaqbal",
+        "Noun"
+      ],
+      [
+        "region; area",
+        "مِنْطَقَة",
+        "minṭaqa",
+        "Noun",
+        "—",
+        "مَنَاطِق"
+      ],
+      [
+        "plural of region; area",
+        "مَنَاطِق",
+        "mināṭiq",
+        "Plural"
+      ],
+      [
+        "I find",
+        "أَجِدُ",
+        "ajidu",
+        "Verb"
+      ],
+      [
+        "Jewish; a Jew",
+        "يَهُودِيّ",
+        "yahūdī",
+        "Noun",
+        "—",
+        "يَهُود"
+      ],
+      [
+        "plural of Jewish; a Jew",
+        "يَهُود",
+        "yahūd",
+        "Plural"
+      ],
+      [
+        "matter; affair",
+        "أَمْر",
+        "amr",
+        "Noun",
+        "—",
+        "أُمُور"
+      ],
+      [
+        "plural of matter; affair",
+        "أُمُور",
+        "umūr",
+        "Plural"
+      ],
+      [
+        "pipe; pipeline",
+        "أُنْبُوب",
+        "unbūb",
+        "Noun",
+        "—",
+        "أَنَابِيب"
+      ],
+      [
+        "plural of pipe; pipeline",
+        "أَنَابِيب",
+        "anābīb",
+        "Plural"
+      ],
+      [
+        "behind",
+        "خَلْفَ",
+        "khalfa",
+        "Preposition"
+      ],
+      [
+        "army chief of staff",
+        "رَئِيسُ أَرْكَانِ حَرْبِ الْجَيْشِ",
+        "raʾīsu arkāni ḥarbi al-jayshi",
+        "Noun"
+      ],
+      [
+        "truck",
+        "سَيَّارَةُ نَقْلٍ",
+        "sayyāratu naqlin",
+        "Noun"
+      ],
+      [
+        "I annex; join to",
+        "أَضُمُّ إِلَى",
+        "aḍummu ilā",
+        "Verb"
+      ],
+      [
+        "annexation",
+        "الضَّمّ",
+        "al-ḍamm",
+        "Verbal noun"
+      ],
+      [
+        "I consider; count",
+        "أَعُدُّ",
+        "aʿuddu",
+        "Verb"
+      ],
+      [
+        "I extend; lay (pipes)",
+        "أَمُدُّ",
+        "amuddu",
+        "Verb"
+      ],
+      [
+        "extension",
+        "الْمَدّ",
+        "al-madd",
+        "Verbal noun"
+      ],
+      [
+        "I perform; carry out",
+        "أُجْرِي",
+        "ujrī",
+        "Verb"
+      ],
+      [
+        "I occupy",
+        "أَحْتَلُّ",
+        "aḥtallu",
+        "Verb"
+      ],
+      [
+        "occupation",
+        "اِحْتِلَال",
+        "iḥtilāl",
+        "Noun"
+      ],
+      [
+        "I choose",
+        "أَخْتَارُ",
+        "akhtāru",
+        "Verb"
+      ],
+      [
+        "I recover; reclaim",
+        "أَسْتَعِيدُ",
+        "astaʿīdu",
+        "Verb"
+      ],
+      [
+        "I dispense with",
+        "أَسْتَغْنِي عَنْ",
+        "astaghnī ʿan",
+        "Verb"
+      ],
+      [
+        "I return something; repeat",
+        "أُعِيدُ",
+        "uʿīdu",
+        "Verb"
+      ],
+      [
+        "bank",
+        "بَنْك",
+        "bank",
+        "Noun",
+        "—",
+        "بُنُوك"
+      ],
+      [
+        "plural of bank",
+        "بُنُوك",
+        "bunūk",
+        "Plural"
+      ],
+      [
+        "I name",
+        "أُسَمِّي",
+        "usammī",
+        "Verb"
+      ],
+      [
+        "I am hostile to",
+        "أُعَادِي",
+        "uʿādī",
+        "Verb"
+      ],
+      [
+        "I punish",
+        "أُعَاقِبُ",
+        "uʿāqibu",
+        "Verb"
+      ],
+      [
+        "operation",
+        "عَمَلِيَّة",
+        "ʿamaliyya",
+        "Noun"
+      ],
+      [
+        "perhaps",
+        "لَعَلَّ",
+        "laʿalla",
+        "Particle"
+      ],
+      [
+        "but",
+        "لَكِنَّ",
+        "lākinna",
+        "Particle"
+      ],
+      [
+        "if only; I wish",
+        "لَيْتَ",
+        "layta",
+        "Particle"
+      ],
+      [
+        "bad",
+        "سَيِّئ",
+        "sayyiʾ",
+        "Adjective"
+      ],
+      [
+        "supervising; in charge of",
+        "مُشْرِف عَلَى",
+        "mushrif ʿalā",
+        "Adjective"
+      ]
+    ],
+    "sentences": [
+      [
+        "Was a solution found for the refugee problem?",
+        "هَلْ وُجِدَ حَلٌّ لِمُشْكِلَةِ اللَّاجِئِينَ؟",
+        "hal wujida ḥallun li-mushkilati al-lājiʾīna?"
+      ],
+      [
+        "They promised a fair solution in the future.",
+        "وَعَدُوا بِحَلٍّ عَادِلٍ فِي الْمُسْتَقْبَلِ.",
+        "waʿadū bi-ḥallin ʿādilin fī al-mustaqbali."
+      ],
+      [
+        "The results were published in all the Egyptian newspapers.",
+        "نُشِرَتِ النَّتَائِجُ فِي جَمِيعِ الْجَرَائِدِ الْمِصْرِيَّةِ.",
+        "nushirati al-natāʾiju fī jamīʿi al-jarāʾidi al-miṣriyyati."
+      ],
+      [
+        "I read an article that was translated from Arabic.",
+        "قَرَأْتُ مَقَالًا تُرْجِمَ مِنَ الْلُّغَةِ الْعَرَبِيَّةِ.",
+        "qaraʾtu maqālan turjima mina al-lughati al-ʿarabiyyati."
+      ],
+      [
+        "He had an operation on Saturday.",
+        "أُجْرِيَتْ لَهُ عَمَلِيَّةٌ يَوْمَ السَّبْتِ.",
+        "ujriyat lahu ʿamaliyyatun yawma al-sabti."
+      ],
+      [
+        "Where are Security Council sessions held?",
+        "أَيْنَ تُعْقَدُ جَلَسَاتُ مَجْلِسِ الأَمْنِ؟",
+        "ayna tuʿqadu jalasātu majlisi al-amni?"
+      ],
+      [
+        "They are held at United Nations headquarters in New York.",
+        "تُعْقَدُ فِي مَقَرِّ هَيْئَةِ الأُمَمِ الْمُتَّحِدَةِ بِنِيُويُورْك.",
+        "tuʿqadu fī maqarri hayʾati al-umami al-muttaḥidati bi-niyūyūrk."
+      ],
+      [
+        "The sessions will last twelve or thirteen days.",
+        "سَتَسْتَغْرِقُ الْجَلَسَاتُ اثْنَيْ عَشَرَ أَوْ ثَلَاثَةَ عَشَرَ يَوْمًا.",
+        "satastaghriqu al-jalasātu ithnay ʿashara aw thalāthata ʿashara yawman."
+      ]
+    ],
+    "learn": [
+      "International institutions",
+      "passive verbs",
+      "and public affairs"
+    ],
+    "sourceLessonRange": [
+      81,
+      86
+    ],
+    "chapterLabel": "Chapters 81–86",
+    "sourceFiles": [
+      {
+        "filename": "lesson081-086 side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          81,
+          86
+        ]
+      },
+      {
+        "filename": "lesson081-086 side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          81,
+          86
+        ]
+      }
+    ]
+  },
+  "87": {
+    "subtitle": "Broadcasting, land reform, and past negation",
+    "vocab": [
+      [
+        "better; best",
+        "أَفْضَل",
+        "afḍal",
+        "Comparative"
+      ],
+      [
+        "yes (answering a negative question)",
+        "بَلَى",
+        "balā",
+        "Response"
+      ],
+      [
+        "aircraft carrier",
+        "حَامِلَةُ طَائِرَاتٍ",
+        "ḥāmilatu ṭāʾirātin",
+        "Noun"
+      ],
+      [
+        "surface; roof",
+        "سَطْح",
+        "saṭḥ",
+        "Noun",
+        "—",
+        "سُطُوح"
+      ],
+      [
+        "plural of surface; roof",
+        "سُطُوح",
+        "suṭūḥ",
+        "Plural"
+      ],
+      [
+        "ship",
+        "سَفِينَة",
+        "safīna",
+        "Noun",
+        "—",
+        "سُفُن"
+      ],
+      [
+        "plural of ship",
+        "سُفُن",
+        "sufun",
+        "Plural"
+      ],
+      [
+        "knot (speed)",
+        "عُقْدَة",
+        "ʿuqda",
+        "Noun",
+        "—",
+        "عُقَد"
+      ],
+      [
+        "plural of knot (speed)",
+        "عُقَد",
+        "ʿuqad",
+        "Plural"
+      ],
+      [
+        "dialect",
+        "لَهْجَة",
+        "lahja",
+        "Noun"
+      ],
+      [
+        "colloquial dialect",
+        "لَهْجَةٌ عَامِّيَّةٌ",
+        "lahjatun ʿāmmiyyatun",
+        "Noun"
+      ],
+      [
+        "water",
+        "مَاء",
+        "māʾ",
+        "Noun",
+        "—",
+        "مِيَاه"
+      ],
+      [
+        "plural of water",
+        "مِيَاه",
+        "miyāh",
+        "Plural"
+      ],
+      [
+        "governorate",
+        "مُحَافَظَة",
+        "muḥāfaẓa",
+        "Noun"
+      ],
+      [
+        "announcer",
+        "مُذِيع",
+        "mudhīʿ",
+        "Noun"
+      ],
+      [
+        "newscast",
+        "نَشْرَةٌ إِخْبَارِيَّةٌ",
+        "nashratun ikhbāriyyatun",
+        "Noun"
+      ],
+      [
+        "desert",
+        "صَحْرَاء",
+        "ṣaḥrāʾ",
+        "Noun",
+        "—",
+        "صَحَارِي"
+      ],
+      [
+        "plural of desert",
+        "صَحَارِي",
+        "ṣaḥārī",
+        "Plural"
+      ],
+      [
+        "river",
+        "نَهْر",
+        "nahr",
+        "Noun",
+        "—",
+        "أَنْهَار"
+      ],
+      [
+        "plural of river",
+        "أَنْهَار",
+        "anhār",
+        "Plural"
+      ],
+      [
+        "point of view",
+        "وِجْهَةُ نَظَرٍ",
+        "wijhatu naẓarin",
+        "Noun"
+      ],
+      [
+        "I give",
+        "أُعْطِي",
+        "uʿṭī",
+        "Verb"
+      ],
+      [
+        "I deliver (a speech)",
+        "أُلْقِي",
+        "ulqī",
+        "Verb"
+      ],
+      [
+        "property; possessions",
+        "أَمْلَاك",
+        "amlāk",
+        "Noun"
+      ],
+      [
+        "speech",
+        "خِطَاب",
+        "khiṭāb",
+        "Noun"
+      ],
+      [
+        "I confiscate",
+        "أُصَادِرُ",
+        "uṣādiru",
+        "Verb"
+      ],
+      [
+        "feddan (land measure)",
+        "فَدَّان",
+        "faddān",
+        "Noun",
+        "—",
+        "أَفْدِنَة"
+      ],
+      [
+        "plural of feddan (land measure)",
+        "أَفْدِنَة",
+        "afdina",
+        "Plural"
+      ],
+      [
+        "farmer",
+        "فَلَّاح",
+        "fallāḥ",
+        "Noun"
+      ],
+      [
+        "I implement",
+        "أُنَفِّذُ",
+        "unaffidhu",
+        "Verb"
+      ],
+      [
+        "I own",
+        "أَمْلِكُ",
+        "amliku",
+        "Verb"
+      ],
+      [
+        "I become",
+        "أُصْبِحُ",
+        "uṣbiḥu",
+        "Verb"
+      ],
+      [
+        "I join",
+        "أَنْضَمُّ إِلَى",
+        "anḍammu ilā",
+        "Verb"
+      ],
+      [
+        "television set",
+        "جِهَازُ التِّلْفِزْيُونِ",
+        "jihāzu al-tilfizyūni",
+        "Noun"
+      ],
+      [
+        "radar device",
+        "جِهَازُ الرَّادَارِ",
+        "jihāzu al-rādāri",
+        "Noun"
+      ],
+      [
+        "radio set",
+        "جِهَازُ الرَّادْيُو",
+        "jihāzu al-rādyū",
+        "Noun"
+      ],
+      [
+        "guest of honor",
+        "ضَيْفُ الشَّرَفِ",
+        "ḍayfu al-sharafi",
+        "Noun"
+      ],
+      [
+        "I remain; continue",
+        "أَظَلُّ",
+        "aẓallu",
+        "Verb"
+      ],
+      [
+        "I think",
+        "أَظُنُّ",
+        "aẓunnu",
+        "Verb"
+      ],
+      [
+        "delicious",
+        "لَذِيذ",
+        "ladhīdh",
+        "Adjective"
+      ],
+      [
+        "did not (jussive negator)",
+        "لَمْ",
+        "lam",
+        "Particle"
+      ],
+      [
+        "will not (subjunctive negator)",
+        "لَنْ",
+        "lan",
+        "Particle"
+      ],
+      [
+        "as long as",
+        "مَا دَامَ",
+        "mā dāma",
+        "Expression"
+      ],
+      [
+        "manager",
+        "مُدِير",
+        "mudīr",
+        "Noun"
+      ],
+      [
+        "enjoyable",
+        "مُمْتِع",
+        "mumtiʿ",
+        "Adjective"
+      ]
+    ],
+    "sentences": [
+      [
+        "Egyptian radio broadcasts five newscasts every day.",
+        "تُذِيعُ دَارُ الإِذَاعَةِ الْمِصْرِيَّةِ خَمْسَ نَشْرَاتٍ إِخْبَارِيَّةٍ كُلَّ يَوْمٍ.",
+        "tudhīʿu dāru al-idhāʿati al-miṣriyyati khamsa nashrātin ikhbāriyyatin kulla yawmin."
+      ],
+      [
+        "The president delivered a speech.",
+        "أَلْقَى الرَّئِيسُ خِطَابًا.",
+        "alqā al-raʾīsu khiṭāban."
+      ],
+      [
+        "The farmers did not own anything.",
+        "لَمْ يَمْلِكِ الْفَلَّاحُونَ شَيْئًا.",
+        "lam yamliki al-fallāḥūna shayʾan."
+      ],
+      [
+        "It will not be before the middle of the year.",
+        "لَنْ يَكُونَ ذَلِكَ قَبْلَ مُنْتَصَفِ الْعَامِ.",
+        "lan yakūna dhālika qabla muntaṣafi al-ʿāmi."
+      ],
+      [
+        "I do not think that is possible as long as she is sick.",
+        "لَا أَظُنُّ ذَلِكَ مُحْتَمَلًا مَا دَامَتْ مَرِيضَةً.",
+        "lā aẓunnu dhālika muḥtamalan mā dāmat marīḍatan."
+      ]
+    ],
+    "learn": [
+      "Broadcasting",
+      "land reform",
+      "and past negation"
+    ],
+    "sourceLessonRange": [
+      87,
+      89
+    ],
+    "chapterLabel": "Chapters 87–89",
+    "sourceFiles": [
+      {
+        "filename": "lesson087-089 side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          87,
+          89
+        ]
+      }
+    ]
+  },
+  "90": {
+    "subtitle": "Retirement, industry, and historical reading",
+    "vocab": [
+      [
+        "celebration",
+        "اِحْتِفَال",
+        "iḥtifāl",
+        "Noun"
+      ],
+      [
+        "building; construction",
+        "بِنَاء",
+        "bināʾ",
+        "Noun"
+      ],
+      [
+        "I retire",
+        "أَتَقَاعَدُ",
+        "ataqāʿadu",
+        "Verb"
+      ],
+      [
+        "bridge",
+        "جِسْر",
+        "jisr",
+        "Noun",
+        "—",
+        "جُسُور"
+      ],
+      [
+        "plural of bridge",
+        "جُسُور",
+        "jusūr",
+        "Plural"
+      ],
+      [
+        "accident; incident",
+        "حَادِث",
+        "ḥādith",
+        "Noun",
+        "—",
+        "حَوَادِث"
+      ],
+      [
+        "plural of accident; incident",
+        "حَوَادِث",
+        "ḥawādith",
+        "Plural"
+      ],
+      [
+        "present; attending",
+        "حَاضِر",
+        "ḥāḍir",
+        "Adjective"
+      ],
+      [
+        "annual",
+        "سَنَوِيّ",
+        "sanawī",
+        "Adjective"
+      ],
+      [
+        "public; open",
+        "عَلَنِيّ",
+        "ʿalanī",
+        "Adjective"
+      ],
+      [
+        "when",
+        "عِنْدَمَا",
+        "ʿindamā",
+        "Conjunction"
+      ],
+      [
+        "subject; material",
+        "مَادَّة",
+        "mādda",
+        "Noun",
+        "—",
+        "مَوَادّ"
+      ],
+      [
+        "plural of subject; material",
+        "مَوَادّ",
+        "mawādd",
+        "Plural"
+      ],
+      [
+        "money",
+        "مَال",
+        "māl",
+        "Noun",
+        "—",
+        "أَمْوَال"
+      ],
+      [
+        "plural of money",
+        "أَمْوَال",
+        "amwāl",
+        "Plural"
+      ],
+      [
+        "means of transportation",
+        "وَسَائِلُ الْمُوَاصَلَاتِ",
+        "wasāʾilu al-muwāṣalāti",
+        "Noun"
+      ],
+      [
+        "I continue",
+        "أَسْتَمِرُّ",
+        "astamirru",
+        "Verb"
+      ],
+      [
+        "dynasty; family",
+        "أُسْرَة",
+        "usra",
+        "Noun",
+        "—",
+        "أُسَر"
+      ],
+      [
+        "plural of dynasty; family",
+        "أُسَر",
+        "usar",
+        "Plural"
+      ],
+      [
+        "I advance in",
+        "أَتَقَدَّمُ فِي",
+        "ataqaddamu fī",
+        "Verb"
+      ],
+      [
+        "agriculture",
+        "زِرَاعَة",
+        "zirāʿa",
+        "Noun"
+      ],
+      [
+        "industry",
+        "صِنَاعَة",
+        "ṣināʿa",
+        "Noun"
+      ],
+      [
+        "worker",
+        "عَامِل",
+        "ʿāmil",
+        "Noun",
+        "—",
+        "عُمَّال"
+      ],
+      [
+        "plural of worker",
+        "عُمَّال",
+        "ʿummāl",
+        "Plural"
+      ],
+      [
+        "pharaoh",
+        "فِرْعَوْن",
+        "firʿawn",
+        "Noun",
+        "—",
+        "فَرَاعِنَة"
+      ],
+      [
+        "plural of pharaoh",
+        "فَرَاعِنَة",
+        "farāʿina",
+        "Plural"
+      ],
+      [
+        "ready",
+        "مُسْتَعِدّ",
+        "mustaʿidd",
+        "Adjective"
+      ],
+      [
+        "factory",
+        "مَصْنَع",
+        "maṣnaʿ",
+        "Noun",
+        "—",
+        "مَصَانِع"
+      ],
+      [
+        "plural of factory",
+        "مَصَانِع",
+        "maṣāniʿ",
+        "Plural"
+      ],
+      [
+        "approximately",
+        "نَحْوَ",
+        "naḥwa",
+        "Adverb"
+      ],
+      [
+        "Hijra; migration",
+        "هِجْرَة",
+        "hijra",
+        "Noun"
+      ],
+      [
+        "Hijri year",
+        "سَنَةٌ هِجْرِيَّةٌ",
+        "sanatun hijriyyatun",
+        "Noun"
+      ],
+      [
+        "pyramid",
+        "هَرَم",
+        "haram",
+        "Noun",
+        "—",
+        "أَهْرَام"
+      ],
+      [
+        "plural of pyramid",
+        "أَهْرَام",
+        "ahrām",
+        "Plural"
+      ]
+    ],
+    "sentences": [
+      [
+        "He did not stay there for a long time.",
+        "لَمْ يُقِمْ بِهَا زَمَنًا طَوِيلًا.",
+        "lam yuqim bihā zamanan ṭawīlan."
+      ],
+      [
+        "He did not obtain a degree, but studied some subjects.",
+        "لَمْ يَنَلْ شَهَادَةً، لَكِنَّهُ دَرَسَ بَعْضَ الْمَوَادِّ.",
+        "lam yanal shahādatan, lākinnahu darasa baʿḍa al-mawāddi."
+      ],
+      [
+        "He may return when he retires.",
+        "قَدْ يَعُودُ عِنْدَمَا يَتَقَاعَدُ.",
+        "qad yaʿūdu ʿindamā yataqāʿadu."
+      ],
+      [
+        "The workers' conference will continue for about ten days.",
+        "سَيَسْتَمِرُّ مُؤْتَمَرُ الْعُمَّالِ نَحْوَ عَشَرَةِ أَيَّامٍ.",
+        "sayastamirru muʾtamaru al-ʿummāli naḥwa ʿasharati ayyāmin."
+      ],
+      [
+        "The sessions will not end before six o'clock.",
+        "لَنْ تَنْتَهِيَ الْجَلَسَاتُ قَبْلَ السَّاعَةِ السَّادِسَةِ.",
+        "lan tantahiya al-jalasātu qabla al-sāʿati al-sādisati."
+      ]
+    ],
+    "learn": [
+      "Retirement",
+      "industry",
+      "and historical reading"
+    ],
+    "sourceLessonRange": [
+      90,
+      92
+    ],
+    "chapterLabel": "Chapters 90–92",
+    "sourceFiles": [
+      {
+        "filename": "lesson090-092 side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          90,
+          92
+        ]
+      }
+    ]
+  },
+  "93": {
+    "subtitle": "Education, health, correspondence, and development",
+    "vocab": [
+      [
+        "father",
+        "أَب",
+        "ab",
+        "Noun",
+        "—",
+        "آبَاء"
+      ],
+      [
+        "plural of father",
+        "آبَاء",
+        "ābāʾ",
+        "Plural"
+      ],
+      [
+        "brother",
+        "أَخ",
+        "akh",
+        "Noun",
+        "—",
+        "إِخْوَة"
+      ],
+      [
+        "plural of brother",
+        "إِخْوَة",
+        "ikhwa",
+        "Plural"
+      ],
+      [
+        "I disappear",
+        "أَخْتَفِي",
+        "akhtafī",
+        "Verb"
+      ],
+      [
+        "current; present",
+        "حَاضِر",
+        "ḥāḍir",
+        "Adjective"
+      ],
+      [
+        "I rescue from",
+        "أُنْقِذُ مِنْ",
+        "unqidhu min",
+        "Verb"
+      ],
+      [
+        "plan",
+        "خُطَّة",
+        "khuṭṭa",
+        "Noun",
+        "—",
+        "خُطَط"
+      ],
+      [
+        "plural of plan",
+        "خُطَط",
+        "khuṭaṭ",
+        "Plural"
+      ],
+      [
+        "I formulate a plan",
+        "أَضَعُ خُطَّةً",
+        "aḍaʿu khuṭṭatan",
+        "Verb phrase"
+      ],
+      [
+        "helicopter",
+        "طَائِرَةُ هِلِيكُوبْتَر",
+        "ṭāʾiratu hilīkūbtar",
+        "Noun"
+      ],
+      [
+        "dean",
+        "عَمِيد",
+        "ʿamīd",
+        "Noun",
+        "—",
+        "عُمَدَاء"
+      ],
+      [
+        "plural of dean",
+        "عُمَدَاء",
+        "ʿumadāʾ",
+        "Plural"
+      ],
+      [
+        "like; as",
+        "كَـ",
+        "ka",
+        "Preposition"
+      ],
+      [
+        "level",
+        "مُسْتَوًى",
+        "mustawan",
+        "Noun"
+      ],
+      [
+        "standard of living",
+        "مُسْتَوَى الْمَعِيشَةِ",
+        "mustawā al-maʿīshati",
+        "Noun"
+      ],
+      [
+        "goal; target",
+        "هَدَف",
+        "hadaf",
+        "Noun",
+        "—",
+        "أَهْدَاف"
+      ],
+      [
+        "plural of goal; target",
+        "أَهْدَاف",
+        "ahdāf",
+        "Plural"
+      ],
+      [
+        "deputy",
+        "وَكِيل",
+        "wakīl",
+        "Noun",
+        "—",
+        "وُكَلَاء"
+      ],
+      [
+        "plural of deputy",
+        "وُكَلَاء",
+        "wukalāʾ",
+        "Plural"
+      ],
+      [
+        "I want",
+        "أُرِيدُ",
+        "urīdu",
+        "Verb"
+      ],
+      [
+        "exhaustion",
+        "إِرْهَاق",
+        "irhāq",
+        "Noun"
+      ],
+      [
+        "weekly",
+        "أُسْبُوعِيّ",
+        "usbūʿī",
+        "Adjective"
+      ],
+      [
+        "empire",
+        "إِمْبَرَاطُورِيَّة",
+        "imbarāṭūriyya",
+        "Noun"
+      ],
+      [
+        "I attempt",
+        "أُحَاوِلُ",
+        "uḥāwilu",
+        "Verb"
+      ],
+      [
+        "serious; dangerous",
+        "خَطِير",
+        "khaṭīr",
+        "Adjective"
+      ],
+      [
+        "medicine",
+        "دَوَاء",
+        "dawāʾ",
+        "Noun",
+        "—",
+        "أَدْوِيَة"
+      ],
+      [
+        "plural of medicine",
+        "أَدْوِيَة",
+        "adwiya",
+        "Plural"
+      ],
+      [
+        "rest",
+        "رَاحَة",
+        "rāḥa",
+        "Noun"
+      ],
+      [
+        "I diagnose",
+        "أُشَخِّصُ",
+        "ushakhkhiṣu",
+        "Verb"
+      ],
+      [
+        "in order to",
+        "كَيْ",
+        "kay",
+        "Particle"
+      ],
+      [
+        "written",
+        "مَكْتُوب",
+        "maktūb",
+        "Adjective"
+      ],
+      [
+        "present; existing",
+        "مَوْجُود",
+        "mawjūd",
+        "Adjective"
+      ],
+      [
+        "I prescribe medicine",
+        "أَصِفُ دَوَاءً",
+        "aṣifu dawāʾan",
+        "Verb phrase"
+      ],
+      [
+        "daily",
+        "يَوْمِيّ",
+        "yawmī",
+        "Adjective"
+      ],
+      [
+        "every day",
+        "يَوْمِيًّا",
+        "yawmiyyan",
+        "Adverb"
+      ],
+      [
+        "most informed about",
+        "أَعْلَم بِـ",
+        "aʿlam bi",
+        "Comparative"
+      ],
+      [
+        "condition; requirement",
+        "شَرْط",
+        "sharṭ",
+        "Noun",
+        "—",
+        "شُرُوط"
+      ],
+      [
+        "plural of condition; requirement",
+        "شُرُوط",
+        "shurūṭ",
+        "Plural"
+      ],
+      [
+        "responsible; in charge",
+        "مَسْؤُول",
+        "masʾūl",
+        "Adjective"
+      ],
+      [
+        "suitable",
+        "مُنَاسِب",
+        "munāsib",
+        "Adjective"
+      ],
+      [
+        "someone; anyone",
+        "أَحَد",
+        "aḥad",
+        "Pronoun"
+      ],
+      [
+        "Soviet Union",
+        "الاِتِّحَادُ السُّوفْيِتِيُّ",
+        "al-ittiḥādu al-sūfyitiyyu",
+        "Noun"
+      ],
+      [
+        "ammunition",
+        "ذَخِيرَة",
+        "dhakhīra",
+        "Noun",
+        "—",
+        "ذَخَائِر"
+      ],
+      [
+        "plural of ammunition",
+        "ذَخَائِر",
+        "dhakhāʾir",
+        "Plural"
+      ],
+      [
+        "communist",
+        "شُيُوعِيّ",
+        "shuyūʿī",
+        "Adjective"
+      ],
+      [
+        "I befriend",
+        "أُصَادِقُ",
+        "uṣādiqu",
+        "Verb"
+      ],
+      [
+        "friendship",
+        "صَدَاقَة",
+        "ṣadāqa",
+        "Noun"
+      ],
+      [
+        "against",
+        "ضِدَّ",
+        "ḍidda",
+        "Preposition"
+      ],
+      [
+        "urgent",
+        "عَاجِل",
+        "ʿājil",
+        "Adjective"
+      ],
+      [
+        "in the very near future",
+        "فِي الْقَرِيبِ الْعَاجِلِ",
+        "fī al-qarībi al-ʿājili",
+        "Expression"
+      ],
+      [
+        "reader",
+        "قَارِئ",
+        "qāriʾ",
+        "Noun",
+        "—",
+        "قُرَّاء"
+      ],
+      [
+        "plural of reader",
+        "قُرَّاء",
+        "qurrāʾ",
+        "Plural"
+      ],
+      [
+        "I affect",
+        "أُؤَثِّرُ عَلَى",
+        "uʾaththiru ʿalā",
+        "Verb"
+      ],
+      [
+        "I postpone",
+        "أُؤَجِّلُ",
+        "uʾajjilu",
+        "Verb"
+      ],
+      [
+        "I need",
+        "أَحْتَاجُ إِلَى",
+        "aḥtāju ilā",
+        "Verb"
+      ],
+      [
+        "I perform",
+        "أُؤَدِّي",
+        "uʾaddī",
+        "Verb"
+      ],
+      [
+        "I rent",
+        "أَسْتَأْجِرُ",
+        "astaʾjiru",
+        "Verb"
+      ],
+      [
+        "I establish",
+        "أُؤَسِّسُ",
+        "uʾassisu",
+        "Verb"
+      ],
+      [
+        "I assure",
+        "أُؤَكِّدُ",
+        "uʾakkidu",
+        "Verb"
+      ],
+      [
+        "I compose; author",
+        "أُؤَلِّفُ",
+        "uʾallifu",
+        "Verb"
+      ],
+      [
+        "I am affected by",
+        "أَتَأَثَّرُ بِـ",
+        "ataʾaththaru bi",
+        "Verb"
+      ],
+      [
+        "I become postponed",
+        "أَتَأَجَّلُ",
+        "ataʾajjalu",
+        "Verb"
+      ],
+      [
+        "I become established",
+        "أَتَأَسَّسُ",
+        "ataʾassasu",
+        "Verb"
+      ],
+      [
+        "I make sure of",
+        "أَتَأَكَّدُ مِنْ",
+        "ataʾakkadu min",
+        "Verb"
+      ],
+      [
+        "I conspire",
+        "أَتَآمَرُ",
+        "ataʾāmaru",
+        "Verb"
+      ],
+      [
+        "servant",
+        "خَادِم",
+        "khādim",
+        "Noun"
+      ],
+      [
+        "overthrowing the government",
+        "قَلْبُ نِظَامِ الْحُكْمِ",
+        "qalbu niẓāmi al-ḥukmi",
+        "Noun"
+      ],
+      [
+        "displaced; homeless",
+        "مُشَرَّد",
+        "musharrad",
+        "Adjective"
+      ],
+      [
+        "direction",
+        "اِتِّجَاه",
+        "ittijāh",
+        "Noun"
+      ],
+      [
+        "name",
+        "اسْم",
+        "ism",
+        "Noun",
+        "—",
+        "أَسْمَاء"
+      ],
+      [
+        "plural of name",
+        "أَسْمَاء",
+        "asmāʾ",
+        "Plural"
+      ],
+      [
+        "in order",
+        "بِالتَّرْتِيبِ",
+        "bi-l-tartībi",
+        "Expression"
+      ],
+      [
+        "I fall behind in",
+        "أَتَأَخَّرُ فِي",
+        "ataʾakhkharu fī",
+        "Verb"
+      ],
+      [
+        "ignorant; uneducated",
+        "جَاهِل",
+        "jāhil",
+        "Adjective",
+        "—",
+        "جُهَلَاء"
+      ],
+      [
+        "plural of ignorant; uneducated",
+        "جُهَلَاء",
+        "juhalāʾ",
+        "Plural"
+      ],
+      [
+        "rank",
+        "رُتْبَة",
+        "rutba",
+        "Noun",
+        "—",
+        "رُتَب"
+      ],
+      [
+        "plural of rank",
+        "رُتَب",
+        "rutab",
+        "Plural"
+      ],
+      [
+        "student",
+        "طَالِب",
+        "ṭālib",
+        "Noun",
+        "—",
+        "طَلَبَة"
+      ],
+      [
+        "plural of student",
+        "طَلَبَة",
+        "ṭalaba",
+        "Plural"
+      ],
+      [
+        "pilot",
+        "طَيَّار",
+        "ṭayyār",
+        "Noun"
+      ],
+      [
+        "I become angry",
+        "أَغْضَبُ",
+        "aghḍabu",
+        "Verb"
+      ],
+      [
+        "I become numerous",
+        "أَكْثُرُ",
+        "akthuru",
+        "Verb"
+      ],
+      [
+        "late; behind",
+        "مُتَأَخِّر",
+        "mutaʾakhkhir",
+        "Adjective"
+      ],
+      [
+        "educated",
+        "مُتَعَلِّم",
+        "mutaʿallim",
+        "Adjective"
+      ],
+      [
+        "navigator; sailor",
+        "مَلَّاح",
+        "mallāḥ",
+        "Noun"
+      ],
+      [
+        "astronaut",
+        "مَلَّاحُ الْفَضَاءِ",
+        "mallāḥu al-faḍāʾi",
+        "Noun"
+      ]
+    ],
+    "sentences": [
+      [
+        "The ministry opposes the project.",
+        "تُعَارِضُ الْوِزَارَةُ الْمَشْرُوعَ.",
+        "tuʿāriḍu al-wizāratu al-mashrūʿa."
+      ],
+      [
+        "Did the doctor diagnose your brother's illness?",
+        "هَلْ شَخَّصَ الطَّبِيبُ مَرَضَ أَخِيكَ؟",
+        "hal shakhkhaṣa al-ṭabību maraḍa akhīka?"
+      ],
+      [
+        "The illness is not serious, and its cause is exhaustion.",
+        "الْمَرَضُ لَيْسَ خَطِيرًا وَسَبَبُهُ الإِرْهَاقُ.",
+        "al-maraḍu laysa khaṭīran wa-sababuhu al-irhāqu."
+      ],
+      [
+        "My brother only needs rest.",
+        "أَخِي فِي حَاجَةٍ إِلَى الرَّاحَةِ فَقَطْ.",
+        "akhī fī ḥājatin ilā al-rāḥati faqaṭ."
+      ],
+      [
+        "Ask to meet the official in charge.",
+        "اطْلُبْ مُقَابَلَةَ الْمَوْظَفِ الْمَسْؤُولِ.",
+        "uṭlub muqābalata al-muwaẓẓafi al-masʾūli."
+      ],
+      [
+        "We befriend those who befriend us.",
+        "نُصَادِقُ مَنْ يُصَادِقُنَا.",
+        "nuṣādiqu man yuṣādiqunā."
+      ],
+      [
+        "You will find a copy of the book with this letter.",
+        "سَتَجِدُ مَعَ هَذِهِ الرِّسَالَةِ نُسْخَةً مِنَ الْكِتَابِ.",
+        "satajidu maʿa hādhihi al-risālati nuskhatan mina al-kitābi."
+      ],
+      [
+        "Success requires much work and great effort.",
+        "يَتَطَلَّبُ النَّجَاحُ عَمَلًا كَثِيرًا وَجُهُودًا عَظِيمَةً.",
+        "yataṭallabu al-najāḥu ʿamalan kathīran wa-juhūdan ʿaẓīmatan."
+      ]
+    ],
+    "learn": [
+      "Education",
+      "health",
+      "correspondence",
+      "and development"
+    ],
+    "sourceLessonRange": [
+      93,
+      98
+    ],
+    "chapterLabel": "Chapters 93–98",
+    "sourceFiles": [
+      {
+        "filename": "lesson093-098 side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          93,
+          98
+        ]
+      },
+      {
+        "filename": "lesson093-098 side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          93,
+          98
+        ]
+      }
+    ]
+  },
+  "99": {
+    "subtitle": "Education, international affairs, and public institutions",
+    "vocab": [
+      [
+        "I keep; retain",
+        "أُبْقِي",
+        "ubqī",
+        "Verb"
+      ],
+      [
+        "I reach; amount to",
+        "أَبْلُغُ",
+        "ablughu",
+        "Verb"
+      ],
+      [
+        "commerce",
+        "تِجَارَة",
+        "tijāra",
+        "Noun"
+      ],
+      [
+        "college of commerce",
+        "كُلِّيَّةُ التِّجَارَةِ",
+        "kulliyyatu al-tijārati",
+        "Noun"
+      ],
+      [
+        "I exceed",
+        "أَزِيدُ عَلَى",
+        "azīdu ʿalā",
+        "Verb"
+      ],
+      [
+        "Ain Shams",
+        "عَيْنُ شَمْسٍ",
+        "ʿaynu shamsin",
+        "Place name"
+      ],
+      [
+        "accountant",
+        "مُحَاسِب",
+        "muḥāsib",
+        "Noun"
+      ],
+      [
+        "accounting",
+        "مُحَاسَبَة",
+        "muḥāsaba",
+        "Noun"
+      ],
+      [
+        "primary school",
+        "مَدْرَسَةٌ ابْتِدَائِيَّةٌ",
+        "madrasatun ibtidāʾiyyatun",
+        "Noun"
+      ],
+      [
+        "preparatory school",
+        "مَدْرَسَةٌ إِعْدَادِيَّةٌ",
+        "madrasatun iʿdādiyyatun",
+        "Noun"
+      ],
+      [
+        "secondary school",
+        "مَدْرَسَةٌ ثَانَوِيَّةٌ",
+        "madrasatun thānawiyyatun",
+        "Noun"
+      ],
+      [
+        "crowded",
+        "مُزْدَحِم",
+        "muzdaḥim",
+        "Adjective"
+      ],
+      [
+        "person (population count)",
+        "نَسَمَة",
+        "nasama",
+        "Noun"
+      ],
+      [
+        "union; association",
+        "اِتِّحَاد",
+        "ittiḥād",
+        "Noun"
+      ],
+      [
+        "I prove",
+        "أُثْبِتُ",
+        "uthbitu",
+        "Verb"
+      ],
+      [
+        "that not; in order not to",
+        "أَلَّا",
+        "allā",
+        "Particle"
+      ],
+      [
+        "I support",
+        "أُؤَيِّدُ",
+        "uʾayyidu",
+        "Verb"
+      ],
+      [
+        "after",
+        "بَعْدَمَا",
+        "baʿdamā",
+        "Conjunction"
+      ],
+      [
+        "while; whereas",
+        "بَيْنَمَا",
+        "baynamā",
+        "Conjunction"
+      ],
+      [
+        "following; next",
+        "تَالٍ",
+        "tālin",
+        "Adjective"
+      ],
+      [
+        "details",
+        "تَفَاصِيل",
+        "tafāṣīl",
+        "Noun"
+      ],
+      [
+        "passenger",
+        "رَاكِب",
+        "rākib",
+        "Noun",
+        "—",
+        "رُكَّاب"
+      ],
+      [
+        "plural of passenger",
+        "رُكَّاب",
+        "rukkāb",
+        "Plural"
+      ],
+      [
+        "weapon",
+        "سِلَاح",
+        "silāḥ",
+        "Noun",
+        "—",
+        "أَسْلِحَة"
+      ],
+      [
+        "plural of weapon",
+        "أَسْلِحَة",
+        "asliḥa",
+        "Plural"
+      ],
+      [
+        "cross",
+        "صَلِيب",
+        "ṣalīb",
+        "Noun",
+        "—",
+        "صُلْبَان"
+      ],
+      [
+        "plural of cross",
+        "صُلْبَان",
+        "ṣulbān",
+        "Plural"
+      ],
+      [
+        "International Red Cross",
+        "الصَّلِيبُ الأَحْمَرُ الدُّوَلِيُّ",
+        "al-ṣalību al-aḥmaru al-duwaliyyu",
+        "Noun"
+      ],
+      [
+        "Zionism",
+        "صَهْيُونِيَّة",
+        "ṣahyūniyya",
+        "Noun"
+      ],
+      [
+        "light",
+        "ضَوْء",
+        "ḍawʾ",
+        "Noun",
+        "—",
+        "أَضْوَاء"
+      ],
+      [
+        "plural of light",
+        "أَضْوَاء",
+        "aḍwāʾ",
+        "Plural"
+      ],
+      [
+        "in light of",
+        "عَلَى ضَوْءِ",
+        "ʿalā ḍawʾi",
+        "Expression"
+      ],
+      [
+        "I demand",
+        "أُطَالِبُ بِـ",
+        "uṭālibu bi",
+        "Verb"
+      ],
+      [
+        "Finnish",
+        "فِنْلَنْدِيّ",
+        "finlandī",
+        "Adjective"
+      ],
+      [
+        "I resist",
+        "أُقَاوِمُ",
+        "uqāwimu",
+        "Verb"
+      ],
+      [
+        "before",
+        "قَبْلَمَا",
+        "qablamā",
+        "Conjunction"
+      ],
+      [
+        "a person killed; casualty",
+        "قَتِيل",
+        "qatīl",
+        "Noun",
+        "—",
+        "قَتْلَى"
+      ],
+      [
+        "plural of a person killed; casualty",
+        "قَتْلَى",
+        "qatlā",
+        "Plural"
+      ],
+      [
+        "piracy",
+        "قَرْصَنَة",
+        "qarṣana",
+        "Noun"
+      ],
+      [
+        "air piracy; hijacking",
+        "قَرْصَنَةٌ جَوِّيَّةٌ",
+        "qarṣanatun jawwiyyatun",
+        "Noun"
+      ],
+      [
+        "force; strength",
+        "قُوَّة",
+        "quwwa",
+        "Noun",
+        "—",
+        "قُوًى"
+      ],
+      [
+        "plural of force; strength",
+        "قُوًى",
+        "quwan",
+        "Plural"
+      ],
+      [
+        "supreme council",
+        "مَجْلِسٌ أَعْلَى",
+        "majlisun aʿlā",
+        "Noun"
+      ],
+      [
+        "Arab League",
+        "جَامِعَةُ الدُّوَلِ الْعَرَبِيَّةِ",
+        "jāmiʿatu al-duwali al-ʿarabiyyati",
+        "Noun"
+      ],
+      [
+        "any; which",
+        "أَيّ",
+        "ayy",
+        "Interrogative"
+      ],
+      [
+        "rather; but",
+        "بَلْ",
+        "bal",
+        "Particle"
+      ],
+      [
+        "I entrust; make responsible",
+        "أُحَمِّلُ",
+        "uḥammilu",
+        "Verb"
+      ],
+      [
+        "disagreement; conflict",
+        "خِلَاف",
+        "khilāf",
+        "Noun"
+      ],
+      [
+        "despite",
+        "بِالرَّغْمِ مِنْ",
+        "bi-l-raghmi min",
+        "Expression"
+      ],
+      [
+        "high",
+        "عَالٍ",
+        "ʿālin",
+        "Adjective"
+      ],
+      [
+        "aggressive",
+        "عُدْوَانِيّ",
+        "ʿudwānī",
+        "Adjective"
+      ],
+      [
+        "judge",
+        "قَاضٍ",
+        "qāḍin",
+        "Noun",
+        "—",
+        "قُضَاة"
+      ],
+      [
+        "plural of judge",
+        "قُضَاة",
+        "quḍāh",
+        "Plural"
+      ],
+      [
+        "satisfactory",
+        "مُرْضٍ",
+        "murḍin",
+        "Adjective"
+      ],
+      [
+        "continuous",
+        "مُسْتَمِرّ",
+        "mustamirr",
+        "Adjective"
+      ],
+      [
+        "responsibility",
+        "مَسْؤُولِيَّة",
+        "masʾūliyya",
+        "Noun"
+      ],
+      [
+        "usual",
+        "مُعْتَاد",
+        "muʿtād",
+        "Adjective"
+      ],
+      [
+        "as usual",
+        "كَالْمُعْتَادِ",
+        "ka-l-muʿtādi",
+        "Expression"
+      ],
+      [
+        "port",
+        "مِينَاء",
+        "mīnāʾ",
+        "Noun",
+        "—",
+        "مَوَانِئ"
+      ],
+      [
+        "plural of port",
+        "مَوَانِئ",
+        "mawāniʾ",
+        "Plural"
+      ],
+      [
+        "I attack",
+        "أَهْجُمُ عَلَى",
+        "ahjumu ʿalā",
+        "Verb"
+      ],
+      [
+        "land",
+        "أَرْض",
+        "arḍ",
+        "Noun",
+        "—",
+        "أَرَاضٍ"
+      ],
+      [
+        "plural of land",
+        "أَرَاضٍ",
+        "arāḍin",
+        "Plural"
+      ],
+      [
+        "Asia",
+        "آسِيَا",
+        "āsiyā",
+        "Place name"
+      ],
+      [
+        "Australia",
+        "أُسْتُرَالِيَا",
+        "usturāliyā",
+        "Place name"
+      ],
+      [
+        "Antarctica",
+        "أَنْتَارْكْتِيكَا",
+        "antārktīkā",
+        "Place name"
+      ],
+      [
+        "secretary-general",
+        "السِّكْرِتِيرُ الْعَامُّ",
+        "al-sikritīru al-ʿāmmu",
+        "Noun"
+      ],
+      [
+        "assistant secretary",
+        "السِّكْرِتِيرُ الْمُسَاعِدُ",
+        "al-sikritīru al-musāʿidu",
+        "Noun"
+      ],
+      [
+        "control tower",
+        "بُرْجُ الْمُرَاقَبَةِ",
+        "burju al-murāqabati",
+        "Noun"
+      ],
+      [
+        "communiqué; announcement",
+        "بَلَاغ",
+        "balāgh",
+        "Noun"
+      ],
+      [
+        "I address; deal with",
+        "أَتَنَاوَلُ",
+        "atanāwalu",
+        "Verb"
+      ],
+      [
+        "permanent",
+        "دَائِم",
+        "dāʾim",
+        "Adjective"
+      ],
+      [
+        "I raise",
+        "أَرْفَعُ",
+        "arfaʿu",
+        "Verb"
+      ],
+      [
+        "I explain",
+        "أَشْرَحُ",
+        "ashraḥu",
+        "Verb"
+      ],
+      [
+        "public; general",
+        "عَامّ",
+        "ʿāmm",
+        "Adjective"
+      ],
+      [
+        "public opinion",
+        "الرَّأْيُ الْعَامُّ",
+        "al-raʾyu al-ʿāmmu",
+        "Noun"
+      ],
+      [
+        "continent",
+        "قَارَّة",
+        "qārra",
+        "Noun"
+      ],
+      [
+        "organization",
+        "مُنَظَّمَة",
+        "munaẓẓama",
+        "Noun"
+      ],
+      [
+        "summit conference",
+        "مُؤْتَمَرُ الْقِمَّةِ",
+        "muʾtamaru al-qimmati",
+        "Noun"
+      ],
+      [
+        "means; method",
+        "وَسِيلَة",
+        "wasīla",
+        "Noun",
+        "—",
+        "وَسَائِل"
+      ],
+      [
+        "plural of means; method",
+        "وَسَائِل",
+        "wasāʾil",
+        "Plural"
+      ],
+      [
+        "I do well; improve",
+        "أُحْسِنُ",
+        "uḥsinu",
+        "Verb"
+      ],
+      [
+        "if",
+        "إِذَا",
+        "idhā",
+        "Particle"
+      ],
+      [
+        "Germany",
+        "أَلْمَانِيَا",
+        "almāniyā",
+        "Place name"
+      ],
+      [
+        "German",
+        "أَلْمَانِيّ",
+        "almānī",
+        "Adjective",
+        "—",
+        "أَلْمَان"
+      ],
+      [
+        "plural of German",
+        "أَلْمَان",
+        "almān",
+        "Plural"
+      ],
+      [
+        "I finish",
+        "أَنْتَهِي مِنْ",
+        "antahī min",
+        "Verb"
+      ],
+      [
+        "article; clause",
+        "بَنْد",
+        "band",
+        "Noun",
+        "—",
+        "بُنُود"
+      ],
+      [
+        "plural of article; clause",
+        "بُنُود",
+        "bunūd",
+        "Plural"
+      ],
+      [
+        "I receive (instruction)",
+        "أَتَلَقَّى",
+        "atalaqqā",
+        "Verb"
+      ],
+      [
+        "barracks",
+        "ثَكَنَة",
+        "thakana",
+        "Noun"
+      ],
+      [
+        "map",
+        "خَرِيطَة",
+        "kharīṭa",
+        "Noun",
+        "—",
+        "خَرَائِط"
+      ],
+      [
+        "plural of map",
+        "خَرَائِط",
+        "kharāʾiṭ",
+        "Plural"
+      ],
+      [
+        "constitution",
+        "دُسْتُور",
+        "dustūr",
+        "Noun",
+        "—",
+        "دَسَاتِير"
+      ],
+      [
+        "plural of constitution",
+        "دَسَاتِير",
+        "dasātīr",
+        "Plural"
+      ],
+      [
+        "I permit",
+        "أَسْمَحُ",
+        "asmaḥu",
+        "Verb"
+      ],
+      [
+        "habit; custom",
+        "عَادَة",
+        "ʿāda",
+        "Noun"
+      ],
+      [
+        "as is his habit",
+        "كَعَادَتِهِ",
+        "ka-ʿādatihi",
+        "Expression"
+      ],
+      [
+        "I inspect; search",
+        "أُفَتِّشُ",
+        "ufattishu",
+        "Verb"
+      ],
+      [
+        "hotel",
+        "فُنْدُق",
+        "funduq",
+        "Noun",
+        "—",
+        "فَنَادِق"
+      ],
+      [
+        "plural of hotel",
+        "فَنَادِق",
+        "fanādiq",
+        "Plural"
+      ],
+      [
+        "generous",
+        "كَرِيم",
+        "karīm",
+        "Adjective",
+        "—",
+        "كُرَمَاء"
+      ],
+      [
+        "plural of generous",
+        "كُرَمَاء",
+        "kuramāʾ",
+        "Plural"
+      ],
+      [
+        "I notice",
+        "أُلَاحِظُ",
+        "ulāḥiẓu",
+        "Verb"
+      ],
+      [
+        "I continue",
+        "أُوَاصِلُ",
+        "uwāṣilu",
+        "Verb"
+      ]
+    ],
+    "sentences": [
+      [
+        "What is the capital of Egypt?",
+        "مَا عَاصِمَةُ مِصْرَ؟",
+        "mā ʿāṣimatu miṣra?"
+      ],
+      [
+        "The Ministry of Education is trying to solve this problem.",
+        "تَسْعَى وِزَارَةُ التَّرْبِيَةِ وَالتَّعْلِيمِ فِي حَلِّ هَذِهِ الْمُشْكِلَةِ.",
+        "tasʿā wizāratu al-tarbiyati wa-l-taʿlīmi fī ḥalli hādhihi al-mushkilati."
+      ],
+      [
+        "The schools are divided into three types.",
+        "تَنْقَسِمُ الْمَدَارِسُ إِلَى ثَلَاثَةِ أَنْوَاعٍ.",
+        "tanqasimu al-madārisu ilā thalāthati anwāʿin."
+      ],
+      [
+        "The United Nations is discussing the Middle East problem.",
+        "تُنَاقِشُ الأُمَمُ الْمُتَّحِدَةُ مُشْكِلَةَ الشَّرْقِ الأَوْسَطِ.",
+        "tunāqishu al-umamu al-muttaḥidatu mushkilata al-sharqi al-awsaṭi."
+      ],
+      [
+        "The delegates discussed the political and military situation.",
+        "نَاقَشَ الْمَنْدُوبُونَ الْمَوْقِفَ السِّيَاسِيَّ وَالْعَسْكَرِيَّ.",
+        "nāqasha al-mandūbūna al-mawqifa al-siyāsiyya wa-l-ʿaskariyya."
+      ],
+      [
+        "I began learning German after finishing my higher studies.",
+        "بَدَأْتُ تَعَلُّمَ اللُّغَةِ الأَلْمَانِيَّةِ بَعْدَ انْتِهَائِي مِنَ الدِّرَاسَةِ الْعَالِيَةِ.",
+        "badaʾtu taʿalluma al-lughati al-almāniyyati baʿda intihāʾī mina al-dirāsati al-ʿāliyati."
+      ],
+      [
+        "I did not continue learning it.",
+        "لَمْ أُوَاصِلْ تَعَلُّمَهَا.",
+        "lam uwāṣil taʿallumahā."
+      ]
+    ],
+    "learn": [
+      "Education",
+      "international affairs",
+      "and public institutions"
+    ],
+    "sourceLessonRange": [
+      99,
+      104
+    ],
+    "chapterLabel": "Chapters 99–104",
+    "sourceFiles": [
+      {
+        "filename": "lesson099-104 side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          99,
+          104
+        ]
+      },
+      {
+        "filename": "lesson099-104 side 2.docx",
+        "side": 2,
+        "lessonRange": [
+          99,
+          104
+        ]
+      }
+    ]
+  },
+  "105": {
+    "subtitle": "International news, interviews, and Arabic literature",
+    "vocab": [
+      [
+        "I protest against",
+        "أَحْتَجُّ عَلَى",
+        "aḥtajju ʿalā",
+        "Verb"
+      ],
+      [
+        "Greece",
+        "الْيُونَان",
+        "al-yūnān",
+        "Place name"
+      ],
+      [
+        "supplies",
+        "إِمْدَادَات",
+        "imdādāt",
+        "Noun"
+      ],
+      [
+        "movement; maneuver",
+        "تَحَرُّك",
+        "taḥarruk",
+        "Noun"
+      ],
+      [
+        "interference; jamming",
+        "تَشْوِيش",
+        "tashwīsh",
+        "Noun"
+      ],
+      [
+        "I claim that",
+        "أَزْعُمُ أَنَّ",
+        "azʿumu anna",
+        "Verb phrase"
+      ],
+      [
+        "weapon",
+        "سِلَاح",
+        "silāḥ",
+        "Noun",
+        "—",
+        "أَسْلِحَة"
+      ],
+      [
+        "plural of weapon",
+        "أَسْلِحَة",
+        "asliḥa",
+        "Plural"
+      ],
+      [
+        "air force",
+        "سِلَاحُ الطَّيَرَانِ",
+        "silāḥu al-ṭayarāni",
+        "Noun"
+      ],
+      [
+        "artillery corps",
+        "سِلَاحُ الْمَدْفَعِيَّةِ",
+        "silāḥu al-madfaʿiyyati",
+        "Noun"
+      ],
+      [
+        "I arm",
+        "أُسَلِّحُ",
+        "usalliḥu",
+        "Verb"
+      ],
+      [
+        "crew",
+        "طَاقَم",
+        "ṭāqam",
+        "Noun",
+        "—",
+        "أَطْقُم"
+      ],
+      [
+        "plural of crew",
+        "أَطْقُم",
+        "aṭqum",
+        "Plural"
+      ],
+      [
+        "nutritional; food-related",
+        "غِذَائِيّ",
+        "ghidhāʾī",
+        "Adjective"
+      ],
+      [
+        "brick",
+        "طُوب",
+        "ṭūb",
+        "Noun"
+      ],
+      [
+        "captain (ship)",
+        "قُبْطَان",
+        "qubṭān",
+        "Noun",
+        "—",
+        "قَبَاطِنَة"
+      ],
+      [
+        "plural of captain (ship)",
+        "قَبَاطِنَة",
+        "qabāṭina",
+        "Plural"
+      ],
+      [
+        "I supply; extend",
+        "أَمُدُّ",
+        "amuddu",
+        "Verb"
+      ],
+      [
+        "monitoring; supervision",
+        "مُرَاقَبَة",
+        "murāqaba",
+        "Noun"
+      ],
+      [
+        "antenna",
+        "هَوَائِيّ",
+        "hawāʾī",
+        "Noun"
+      ],
+      [
+        "the day before yesterday",
+        "أَمْسِ الأَوَّلِ",
+        "amsi al-awwali",
+        "Expression"
+      ],
+      [
+        "in addition to",
+        "بِالإِضَافَةِ إِلَى",
+        "bi-l-iḍāfati ilā",
+        "Expression"
+      ],
+      [
+        "I train",
+        "أُدَرِّبُ",
+        "udarribu",
+        "Verb"
+      ],
+      [
+        "I encourage",
+        "أُشَجِّعُ عَلَى",
+        "ushajjiʿu ʿalā",
+        "Verb"
+      ],
+      [
+        "deal; transaction",
+        "صَفْقَة",
+        "ṣafqa",
+        "Noun"
+      ],
+      [
+        "I conclude a deal",
+        "أَعْقِدُ صَفْقَةً",
+        "aʿqidu ṣafqatan",
+        "Verb phrase"
+      ],
+      [
+        "I guarantee",
+        "أَضْمَنُ",
+        "aḍmanu",
+        "Verb"
+      ],
+      [
+        "model; type",
+        "طِرَاز",
+        "ṭirāz",
+        "Noun",
+        "—",
+        "أَطْرِزَة"
+      ],
+      [
+        "plural of model; type",
+        "أَطْرِزَة",
+        "aṭriza",
+        "Plural"
+      ],
+      [
+        "I mean",
+        "أَعْنِي",
+        "aʿnī",
+        "Verb"
+      ],
+      [
+        "only",
+        "فَحَسْبُ",
+        "fa-ḥasbu",
+        "Adverb"
+      ],
+      [
+        "technical",
+        "فَنِّيّ",
+        "fannī",
+        "Adjective"
+      ],
+      [
+        "technician",
+        "عَامِلٌ فَنِّيٌّ",
+        "ʿāmilun fanniyyun",
+        "Noun"
+      ],
+      [
+        "also",
+        "كَذَلِكَ",
+        "ka-dhālika",
+        "Adverb"
+      ],
+      [
+        "adviser",
+        "مُسْتَشَار",
+        "mustashār",
+        "Noun"
+      ],
+      [
+        "meaning",
+        "مَعْنًى",
+        "maʿnan",
+        "Noun",
+        "—",
+        "مَعَانٍ"
+      ],
+      [
+        "plural of meaning",
+        "مَعَانٍ",
+        "maʿānin",
+        "Plural"
+      ],
+      [
+        "I enable",
+        "أُمَكِّنُ مِنْ",
+        "umakkinu min",
+        "Verb"
+      ],
+      [
+        "possible",
+        "مُمْكِن",
+        "mumkin",
+        "Adjective"
+      ],
+      [
+        "news item",
+        "نَبَأ",
+        "nabaʾ",
+        "Noun",
+        "—",
+        "أَنْبَاء"
+      ],
+      [
+        "plural of news item",
+        "أَنْبَاء",
+        "anbāʾ",
+        "Plural"
+      ],
+      [
+        "I master",
+        "أُتْقِنُ",
+        "utqinu",
+        "Verb"
+      ],
+      [
+        "method; style",
+        "أُسْلُوب",
+        "uslūb",
+        "Noun",
+        "—",
+        "أَسَالِيب"
+      ],
+      [
+        "plural of method; style",
+        "أَسَالِيب",
+        "asālīb",
+        "Plural"
+      ],
+      [
+        "I add",
+        "أُضِيفُ",
+        "uḍīfu",
+        "Verb"
+      ],
+      [
+        "condition; state",
+        "حَال",
+        "ḥāl",
+        "Noun",
+        "—",
+        "أَحْوَال"
+      ],
+      [
+        "plural of condition; state",
+        "أَحْوَال",
+        "aḥwāl",
+        "Plural"
+      ],
+      [
+        "happy",
+        "سَعِيد",
+        "saʿīd",
+        "Adjective",
+        "—",
+        "سُعَدَاء"
+      ],
+      [
+        "plural of happy",
+        "سُعَدَاء",
+        "suʿadāʾ",
+        "Plural"
+      ],
+      [
+        "I express",
+        "أُعَبِّرُ عَنْ",
+        "uʿabbiru ʿan",
+        "Verb"
+      ],
+      [
+        "I change",
+        "أُغَيِّرُ",
+        "ughayyiru",
+        "Verb"
+      ],
+      [
+        "century",
+        "قَرْن",
+        "qarn",
+        "Noun",
+        "—",
+        "قُرُون"
+      ],
+      [
+        "plural of century",
+        "قُرُون",
+        "qurūn",
+        "Plural"
+      ],
+      [
+        "village",
+        "قَرْيَة",
+        "qarya",
+        "Noun",
+        "—",
+        "قُرًى"
+      ],
+      [
+        "plural of village",
+        "قُرًى",
+        "quran",
+        "Plural"
+      ],
+      [
+        "neither a little nor a lot",
+        "لَا قَلِيلًا وَلَا كَثِيرًا",
+        "lā qalīlan wa-lā kathīran",
+        "Expression"
+      ],
+      [
+        "smiling",
+        "مُبْتَسِم",
+        "mubtasim",
+        "Adjective"
+      ]
+    ],
+    "sentences": [
+      [
+        "The officers and crew declared their refusal to return.",
+        "أَعْلَنَ الضُّبَّاطُ وَالطَّاقَمُ رَفْضَهُمُ الْعَوْدَةَ.",
+        "aʿlana al-ḍubbāṭu wa-l-ṭāqamu rafḍahumu al-ʿawdata."
+      ],
+      [
+        "They held a press conference in Rome.",
+        "عَقَدُوا مُؤْتَمَرًا صَحْفِيًّا فِي رُومَا.",
+        "ʿaqadū muʾtamaran ṣaḥfiyyan fī rūmā."
+      ],
+      [
+        "We do not want war because it obstructs oil production.",
+        "لَا نُرِيدُ الْحَرْبَ لِأَنَّهَا تُعَرْقِلُ إِنْتَاجَ النَّفْطِ.",
+        "lā nurīdu al-ḥarba li-annahā tuʿarqilu intāja al-nafṭi."
+      ],
+      [
+        "We cannot guarantee peace in the region by ourselves.",
+        "لَا يُمْكِنُنَا وَحْدَنَا أَنْ نَضْمَنَ السَّلَامَ فِي الْمِنْطَقَةِ.",
+        "lā yumkinunā waḥdanā an naḍmana al-salāma fī al-minṭaqati."
+      ],
+      [
+        "Taha Hussein was born in a small village in southern Egypt.",
+        "وُلِدَ طَهَ حُسَيْنٌ فِي قَرْيَةٍ صَغِيرَةٍ بِجَنُوبِ مِصْرَ.",
+        "wulida ṭaha ḥusaynun fī qaryatin ṣaghīratin bi-janūbi miṣra."
+      ],
+      [
+        "Arabic is a means of expressing Arab life.",
+        "اللُّغَةُ الْعَرَبِيَّةُ وَسِيلَةٌ لِلتَّعْبِيرِ عَنِ الْحَيَاةِ الْعَرَبِيَّةِ.",
+        "al-lughatu al-ʿarabiyyatu wasīlatun li-l-taʿbīri ʿani al-ḥayāti al-ʿarabiyyati."
+      ],
+      [
+        "We celebrate the opening of an agricultural secondary school.",
+        "نَحْتَفِلُ بِافْتِتَاحِ مَدْرَسَةٍ ثَانَوِيَّةٍ زِرَاعِيَّةٍ.",
+        "naḥtafilu bi-iftitāḥi madrasatin thānawiyyatin zirāʿiyyatin."
+      ]
+    ],
+    "learn": [
+      "International news",
+      "interviews",
+      "and Arabic literature"
+    ],
+    "sourceLessonRange": [
+      105,
+      110
+    ],
+    "chapterLabel": "Chapters 105–110",
+    "sourceFiles": [
+      {
+        "filename": "lesson105-110 side 1.docx",
+        "side": 1,
+        "lessonRange": [
+          105,
+          110
+        ]
+      }
+    ]
+  }
+};
+for (const [number, chapter] of Object.entries(DLI_TRANSCRIPT_IMPORT)) {
+  DLI_CHAPTERS[number] = {...chapter,
+    vocab:dliWords(Number(number),chapter.vocab),
+    sentences:dliSentences(Number(number),chapter.sentences)};
+}
+const DLI_TRANSCRIPT_SOURCES = {
+  "31": [
+    {
+      "filename": "lesson031-side 1(2).docx",
+      "side": 1,
+      "lessonRange": [
+        31,
+        31
+      ]
+    },
+    {
+      "filename": "lesson031-side 2(2).docx",
+      "side": 2,
+      "lessonRange": [
+        31,
+        31
+      ]
+    }
+  ],
+  "32": [
+    {
+      "filename": "lesson032-side 1(2).docx",
+      "side": 1,
+      "lessonRange": [
+        32,
+        32
+      ]
+    },
+    {
+      "filename": "lesson032-side 2(2).docx",
+      "side": 2,
+      "lessonRange": [
+        32,
+        32
+      ]
+    }
+  ],
+  "33": [
+    {
+      "filename": "lesson033-side 1(2).docx",
+      "side": 1,
+      "lessonRange": [
+        33,
+        33
+      ]
+    },
+    {
+      "filename": "lesson033-side 2(2).docx",
+      "side": 2,
+      "lessonRange": [
+        33,
+        33
+      ]
+    }
+  ],
+  "34": [
+    {
+      "filename": "lesson034-side 1(2).docx",
+      "side": 1,
+      "lessonRange": [
+        34,
+        34
+      ]
+    },
+    {
+      "filename": "lesson034-side 2(2).docx",
+      "side": 2,
+      "lessonRange": [
+        34,
+        34
+      ]
+    }
+  ],
+  "35": [
+    {
+      "filename": "lesson035-side 1(2).docx",
+      "side": 1,
+      "lessonRange": [
+        35,
+        35
+      ]
+    },
+    {
+      "filename": "lesson035-side 2(2).docx",
+      "side": 2,
+      "lessonRange": [
+        35,
+        35
+      ]
+    }
+  ],
+  "36": [
+    {
+      "filename": "lesson036-side 1(2).docx",
+      "side": 1,
+      "lessonRange": [
+        36,
+        36
+      ]
+    },
+    {
+      "filename": "lesson036-side 2(2).docx",
+      "side": 2,
+      "lessonRange": [
+        36,
+        36
+      ]
+    }
+  ],
+  "37": [
+    {
+      "filename": "lesson037-side 1(1).docx",
+      "side": 1,
+      "lessonRange": [
+        37,
+        37
+      ]
+    },
+    {
+      "filename": "lesson037-side 2(1).docx",
+      "side": 2,
+      "lessonRange": [
+        37,
+        37
+      ]
+    }
+  ],
+  "38": [
+    {
+      "filename": "lesson038-side 1(1).docx",
+      "side": 1,
+      "lessonRange": [
+        38,
+        38
+      ]
+    },
+    {
+      "filename": "lesson038-side 2(1).docx",
+      "side": 2,
+      "lessonRange": [
+        38,
+        38
+      ]
+    }
+  ],
+  "39": [
+    {
+      "filename": "lesson039-side 1(1).docx",
+      "side": 1,
+      "lessonRange": [
+        39,
+        39
+      ]
+    },
+    {
+      "filename": "lesson039-side 2(1).docx",
+      "side": 2,
+      "lessonRange": [
+        39,
+        39
+      ]
+    }
+  ],
+  "40": [
+    {
+      "filename": "lesson040-side 1(1).docx",
+      "side": 1,
+      "lessonRange": [
+        40,
+        40
+      ]
+    },
+    {
+      "filename": "lesson040-side 2(1).docx",
+      "side": 2,
+      "lessonRange": [
+        40,
+        40
+      ]
+    }
+  ],
+  "41": [
+    {
+      "filename": "lesson041-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        41,
+        41
+      ]
+    },
+    {
+      "filename": "lesson041-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        41,
+        41
+      ]
+    }
+  ],
+  "42": [
+    {
+      "filename": "lesson042-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        42,
+        42
+      ]
+    },
+    {
+      "filename": "lesson042-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        42,
+        42
+      ]
+    }
+  ],
+  "43": [
+    {
+      "filename": "lesson043-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        43,
+        43
+      ]
+    },
+    {
+      "filename": "lesson043-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        43,
+        43
+      ]
+    }
+  ],
+  "44": [
+    {
+      "filename": "lesson044-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        44,
+        44
+      ]
+    }
+  ],
+  "45": [
+    {
+      "filename": "lesson045-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        45,
+        45
+      ]
+    },
+    {
+      "filename": "lesson045side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        45,
+        45
+      ]
+    }
+  ],
+  "46": [
+    {
+      "filename": "lesson046-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        46,
+        46
+      ]
+    },
+    {
+      "filename": "lesson046side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        46,
+        46
+      ]
+    }
+  ],
+  "47": [
+    {
+      "filename": "lesson047-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        47,
+        47
+      ]
+    },
+    {
+      "filename": "lesson047side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        47,
+        47
+      ]
+    }
+  ],
+  "48": [
+    {
+      "filename": "lesson048-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        48,
+        48
+      ]
+    },
+    {
+      "filename": "lesson048side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        48,
+        48
+      ]
+    }
+  ],
+  "49": [
+    {
+      "filename": "lesson049-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        49,
+        49
+      ]
+    },
+    {
+      "filename": "lesson049side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        49,
+        49
+      ]
+    }
+  ],
+  "50": [
+    {
+      "filename": "lesson050-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        50,
+        50
+      ]
+    }
+  ],
+  "51": [
+    {
+      "filename": "lesson051-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        51,
+        51
+      ]
+    },
+    {
+      "filename": "lesson051-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        51,
+        51
+      ]
+    }
+  ],
+  "52": [
+    {
+      "filename": "lesson052-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        52,
+        52
+      ]
+    },
+    {
+      "filename": "lesson052-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        52,
+        52
+      ]
+    }
+  ],
+  "53": [
+    {
+      "filename": "lesson053-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        53,
+        53
+      ]
+    }
+  ],
+  "54": [
+    {
+      "filename": "lesson054-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        54,
+        54
+      ]
+    },
+    {
+      "filename": "lesson054-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        54,
+        54
+      ]
+    }
+  ],
+  "55": [
+    {
+      "filename": "lesson055-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        55,
+        55
+      ]
+    },
+    {
+      "filename": "lesson055-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        55,
+        55
+      ]
+    }
+  ],
+  "56": [
+    {
+      "filename": "lesson056-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        56,
+        56
+      ]
+    },
+    {
+      "filename": "lesson056-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        56,
+        56
+      ]
+    }
+  ],
+  "57": [
+    {
+      "filename": "lesson057-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        57,
+        57
+      ]
+    },
+    {
+      "filename": "lesson057-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        57,
+        57
+      ]
+    }
+  ],
+  "58": [
+    {
+      "filename": "lesson058-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        58,
+        58
+      ]
+    },
+    {
+      "filename": "lesson058-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        58,
+        58
+      ]
+    }
+  ],
+  "59": [
+    {
+      "filename": "lesson059-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        59,
+        59
+      ]
+    },
+    {
+      "filename": "lesson059-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        59,
+        59
+      ]
+    }
+  ],
+  "60": [
+    {
+      "filename": "lesson060-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        60,
+        60
+      ]
+    }
+  ],
+  "61": [
+    {
+      "filename": "lesson061-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        61,
+        61
+      ]
+    },
+    {
+      "filename": "lesson061-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        61,
+        61
+      ]
+    }
+  ],
+  "62": [
+    {
+      "filename": "lesson062-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        62,
+        62
+      ]
+    }
+  ],
+  "63": [
+    {
+      "filename": "lesson063-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        63,
+        63
+      ]
+    }
+  ],
+  "64": [
+    {
+      "filename": "lesson064-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        64,
+        64
+      ]
+    },
+    {
+      "filename": "lesson064-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        64,
+        64
+      ]
+    }
+  ],
+  "65": [
+    {
+      "filename": "lesson065-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        65,
+        65
+      ]
+    },
+    {
+      "filename": "lesson065-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        65,
+        65
+      ]
+    }
+  ],
+  "66": [
+    {
+      "filename": "lesson066-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        66,
+        66
+      ]
+    }
+  ],
+  "67": [
+    {
+      "filename": "lesson067-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        67,
+        67
+      ]
+    }
+  ],
+  "68": [
+    {
+      "filename": "lesson068-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        68,
+        68
+      ]
+    },
+    {
+      "filename": "lesson068-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        68,
+        68
+      ]
+    }
+  ],
+  "69": [
+    {
+      "filename": "lesson069-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        69,
+        69
+      ]
+    },
+    {
+      "filename": "lesson069-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        69,
+        69
+      ]
+    }
+  ],
+  "70": [
+    {
+      "filename": "lesson070-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        70,
+        70
+      ]
+    },
+    {
+      "filename": "lesson070-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        70,
+        70
+      ]
+    }
+  ],
+  "71": [
+    {
+      "filename": "lesson071-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        71,
+        71
+      ]
+    },
+    {
+      "filename": "lesson071-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        71,
+        71
+      ]
+    }
+  ],
+  "72": [
+    {
+      "filename": "lesson072-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        72,
+        72
+      ]
+    },
+    {
+      "filename": "lesson072-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        72,
+        72
+      ]
+    }
+  ],
+  "73": [
+    {
+      "filename": "lesson073-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        73,
+        73
+      ]
+    },
+    {
+      "filename": "lesson073-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        73,
+        73
+      ]
+    }
+  ],
+  "74": [
+    {
+      "filename": "lesson074-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        74,
+        74
+      ]
+    }
+  ],
+  "79": [
+    {
+      "filename": "lesson079-side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        79,
+        79
+      ]
+    }
+  ],
+  "80": [
+    {
+      "filename": "lesson080-side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        80,
+        80
+      ]
+    }
+  ],
+  "81": [
+    {
+      "filename": "lesson081-086 side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        81,
+        86
+      ]
+    },
+    {
+      "filename": "lesson081-086 side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        81,
+        86
+      ]
+    }
+  ],
+  "87": [
+    {
+      "filename": "lesson087-089 side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        87,
+        89
+      ]
+    }
+  ],
+  "90": [
+    {
+      "filename": "lesson090-092 side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        90,
+        92
+      ]
+    }
+  ],
+  "93": [
+    {
+      "filename": "lesson093-098 side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        93,
+        98
+      ]
+    },
+    {
+      "filename": "lesson093-098 side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        93,
+        98
+      ]
+    }
+  ],
+  "99": [
+    {
+      "filename": "lesson099-104 side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        99,
+        104
+      ]
+    },
+    {
+      "filename": "lesson099-104 side 2.docx",
+      "side": 2,
+      "lessonRange": [
+        99,
+        104
+      ]
+    }
+  ],
+  "105": [
+    {
+      "filename": "lesson105-110 side 1.docx",
+      "side": 1,
+      "lessonRange": [
+        105,
+        110
+      ]
+    }
+  ]
+};
+for (const [number, sourceFiles] of Object.entries(DLI_TRANSCRIPT_SOURCES)) {
+  if (DLI_CHAPTERS[number]) DLI_CHAPTERS[number].sourceFiles=sourceFiles;
+}
+
 const DLI_ALL_V=Object.values(DLI_CHAPTERS).flatMap(chapter=>chapter.vocab);
+
 
