@@ -1585,6 +1585,7 @@ const AK_V9=alkitaabWords(9,[
   {
     "en": "some of",
     "ar": "بَعْض",
+    "grammarNote": "<p>[بَعْض] is used with a plural noun in an iḍāfa construction; for example, some classmates: [بَعْضُ الزُّمَلَاءِ]. The plural noun is genitive because it is the second part of the iḍāfa.</p>",
     "tr": "baʿḍ",
     "pos": "Determiner",
     "f": "—",
@@ -4274,5 +4275,6 @@ const AK_G7=[
 AK_G7.push({"id": "ak-c7-g5", "type": "note", "title": "Superlatives", "body": "<p>Comparatives and superlatives commonly take the form [أَفْعَل]; for example, [أَكْبَر] (bigger / biggest) or [أَكْثَر] (more / most). The construction and context determine whether the meaning is comparative or superlative.</p><div class=\"grammar-example\"><strong>bigger than</strong><br>[أَكْبَرُ مِنْ]</div><div class=\"grammar-example\"><strong>more than</strong><br>[أَكْثَرُ مِنْ]</div><div class=\"grammar-example\"><strong>the biggest house</strong><br>[أَكْبَرُ بَيْتٍ]</div>"});
 const AK_CHAPTERS_5_13={5:{subtitle:"Weather, Seasons, and Feelings",vocab:AK_V5,grammar:AK_G5,sentences:AK_S5,learn:["Weather conditions", "Seasons and temperature", "Frequency and degree", "Feelings and circumstances"]},6:{subtitle:"Education, Work, and Hobbies",vocab:AK_V6,grammar:AK_G6,sentences:AK_S6,learn:["Education and graduation", "Work and business", "Adverbs and their spelling", "Time and sequence"]},7:{subtitle:"Life Events and Institutions",vocab:AK_V7,grammar:AK_G7,sentences:AK_S7,learn:["Schools and institutions", "Life events", "Possession and fronted predicates", "Comparatives and superlatives", "Future expressions"]},8:{subtitle:"Government, Study, and the Future",vocab:AK_V8,grammar:AK_G8,sentences:AK_S8,learn:["Government and international affairs", "Study and achievement", "Past-tense conjugation", "Future-tense expressions"]},9:{subtitle:"Daily Routine and Leisure",vocab:AK_V9,sentences:AK_S9,learn:["Daily routines", "Meals and time", "Media and leisure", "Ability and movement"]},10:{subtitle:"Evening Routine, Meetings, and Time",vocab:AK_V10,sentences:AK_S10,learn:["Evening routines", "Meetings and appointments", "Work and time", "Prayer and recreation"]},11:{subtitle:"Travel, Relationships, and Experiences",vocab:AK_V11,sentences:AK_S11,learn:["Travel and tourism", "Relationships and experiences", "Places and geography", "Social interaction"]},12:{subtitle:"Travel, Leave, and Career Decisions",vocab:AK_V12,sentences:AK_S12,learn:["Vacation and holidays", "Career decisions", "Travel and visits", "Scholarships and appointments"]},13:{subtitle:"Ambitions, Work, and the Future",vocab:AK_V13,sentences:AK_S13,learn:["Ambitions and dreams", "Work and opportunities", "Media and writing", "Homesickness and stability"]}};
 const AK_VOCAB_5_13=[...AK_V5,...AK_V6,...AK_V7,...AK_V8,...AK_V9,...AK_V10,...AK_V11,...AK_V12,...AK_V13];
+
 
 
