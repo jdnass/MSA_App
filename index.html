@@ -45,19 +45,19 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=75"></script>
-<script src="./madina-book1-vocab.js?v=75"></script>
-<script src="./madina-book2-vocab.js?v=75"></script>
-<script src="./dli-basic-data.js?v=75"></script>
-<script src="./alkitaab-chapters-5-13.js?v=75"></script>
-<script src="./alkitaab-part2-chapters-1-7.js?v=75"></script>
-<script src="./mango-chapters-4-7.js?v=75"></script>
-<script src="./mango-chapters-8-10.js?v=75"></script>
-<script src="./mango-chapter-11.js?v=75"></script>
-<script src="./mango-chapter-12.js?v=75"></script>
-<script src="./mango-chapters-13-15.js?v=75"></script>
-<script src="./mango-chapters-16-20.js?v=75"></script>
-<script src="./verb-practice-data.js?v=75"></script>
+<script src="./alif-baa-vocab.js?v=76"></script>
+<script src="./madina-book1-vocab.js?v=76"></script>
+<script src="./madina-book2-vocab.js?v=76"></script>
+<script src="./dli-basic-data.js?v=76"></script>
+<script src="./alkitaab-chapters-5-13.js?v=76"></script>
+<script src="./alkitaab-part2-chapters-1-7.js?v=76"></script>
+<script src="./mango-chapters-4-7.js?v=76"></script>
+<script src="./mango-chapters-8-10.js?v=76"></script>
+<script src="./mango-chapter-11.js?v=76"></script>
+<script src="./mango-chapter-12.js?v=76"></script>
+<script src="./mango-chapters-13-15.js?v=76"></script>
+<script src="./mango-chapters-16-20.js?v=76"></script>
+<script src="./verb-practice-data.js?v=76"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -1784,11 +1784,77 @@ const timeRoutineRows=[
   ['Every minute helps.','كُلُّ دَقِيقَةٍ تُسَاعِدُ.'],
   ['I try to go to bed at 11:20 p.m.','أُحَاوِلُ أَنْ أَذْهَبَ إِلَى الفِرَاشِ فِي السَّاعَةِ الحَادِيَةَ عَشْرَةَ وَالثُّلْثِ مَسَاءً.']
 ];
-const timeRoutineSentences=timeRoutineRows.map(([en,ar],i)=>({id:`mosa-m34-s2-s${i+1}`,chapter:34,subchapter:2,idInChapter:i+1,en,ar,tr:''}));
-Object.assign(mosaModulesDraft.chapters[34],{placeholder:false,vocab:timeOrdinalVocab,grammar:timeOrdinalGrammar,sentences:timeRoutineSentences,learn:['Ordinal numbers 1–12','Telling time and describing a daily routine'],subchapters:{
-  1:{subtitle:'Ordinal numbers from first through twelfth',chapterLabel:'Ordinal Numbers 1–12',vocab:timeOrdinalVocab,grammar:timeOrdinalGrammar,sentences:[],learn:['Recognize twelve ordinal numbers','Form masculine and feminine ordinals','Use feminine forms when telling time']},
-  2:{subtitle:'Telling time throughout the day',chapterLabel:'Daily Routine',vocab:[],grammar:[],sentences:timeRoutineSentences,learn:['Ask about and describe daily schedules','Use exact and approximate times']}
-}});
+const timeRoutineLessonSpecs=[
+  {number:2,title:'Waking Up',start:0,end:4,words:[
+    ['At what time?','فِي أَيِّ وَقْتٍ؟','fī ayyi waqtin','Question'],
+    ['I wake up','أَصْحُو','aṣḥū','Verb'],
+    ['I wake up','أَسْتَيْقِظُ','astayqiẓu','Verb'],
+    ['after','بَعْدَ','baʿda','Preposition'],
+    ['dawn','فَجْر','fajr','Noun'],
+    ['usually','عَادَةً','ʿādatan','Adverb'],
+    ['around; approximately','حَوَالَي','ḥawālay','Preposition'],
+    ['clock; watch; hour','سَاعَة','sāʿa','Noun'],
+    ['half','نِصْف','niṣf','Noun'],
+    ['but','لَكِنْ','lākin','Conjunction'],
+    ['sometimes','أَحْيَانًا','aḥyānan','Adverb'],
+    ['early','مُبَكِّرًا','mubakkiran','Adverb']
+  ]},
+  {number:3,title:'Going to Work',start:4,end:8,words:[
+    ['I go','أَذْهَبُ','adhhabu','Verb'],
+    ['work','عَمَل','ʿamal','Noun'],
+    ['I leave; depart','أُغَادِرُ','ughādiru','Verb'],
+    ['morning','صَبَاح','ṣabāḥ','Noun'],
+    ['a.m.; in the morning','صَبَاحًا','ṣabāḥan','Adverb'],
+    ['I arrive','أَصِلُ','aṣilu','Verb'],
+    ['quarter','رُبْع','rubʿ','Noun'],
+    ['if; when','إِذَا','idhā','Conjunction'],
+    ['I am late; get delayed','أَتَأَخَّرُ','ataʾakhkharu','Verb'],
+    ['minus; except','إِلَّا','illā','Particle']
+  ]},
+  {number:4,title:'Lunch & Afternoon',start:8,end:12,words:[
+    ['I eat; have (a meal)','أَتَنَاوَلُ','atanāwalu','Verb'],
+    ['lunch','غَدَاء','ghadāʾ','Noun'],
+    ['minute','دَقِيقَة','daqīqa','Noun'],
+    ['minutes','دَقَائِق','daqāʾiq','Noun (broken plural)'],
+    ['noon','ظُهْر','ẓuhr','Noun'],
+    ['afternoon','بَعْدَ الظُّهْر','baʿda aẓ-ẓuhr','Time expression'],
+    ['I drink','أَشْرَبُ','ashrabu','Verb'],
+    ['coffee','قَهْوَة','qahwa','Noun']
+  ]},
+  {number:5,title:'Going Home & Evening',start:12,end:16,words:[
+    ['house; home','بَيْت','bayt','Noun'],
+    ['evening','مَسَاء','masāʾ','Noun'],
+    ['p.m.; in the evening','مَسَاءً','masāʾan','Adverb'],
+    ['I see','أَرَى','arā','Verb'],
+    ['sunset','غُرُوب الشَّمْس','ghurūb ash-shams','Noun phrase'],
+    ['winter','شِتَاء','shitāʾ','Noun'],
+    ['then','ثُمَّ','thumma','Conjunction'],
+    ['I exercise','أُمَارِسُ الرِّيَاضَةَ','umārisu ar-riyāḍata','Verb phrase'],
+    ['at night','بِاللَّيْلِ','bi-l-layli','Time expression']
+  ]},
+  {number:6,title:'Bedtime',start:16,end:21,words:[
+    ['when?','مَتَى؟','matā','Question'],
+    ['I sleep','أَنَامُ','anāmu','Verb'],
+    ['bed','فِرَاش','firāsh','Noun'],
+    ['midnight','مُنْتَصَف اللَّيْل','muntaṣaf al-layl','Time expression'],
+    ['I know','أَعْرِفُ','aʿrifu','Verb'],
+    ['time','وَقْت','waqt','Noun'],
+    ['late','مُتَأَخِّر','mutaʾakhkhir','Adjective'],
+    ['every; each','كُلّ','kull','Quantifier'],
+    ['I help','أُسَاعِدُ','usāʿidu','Verb'],
+    ['I try','أُحَاوِلُ','uḥāwilu','Verb'],
+    ['a third','ثُلْث','thulth','Noun']
+  ]}
+];
+const tellingTimeChapter=mosaModulesDraft.chapters[34];
+tellingTimeChapter.subchapters={1:{subtitle:'Ordinal numbers from first through twelfth',chapterLabel:'Ordinal Numbers 1–12',vocab:timeOrdinalVocab,grammar:timeOrdinalGrammar,sentences:[],learn:['Recognize twelve ordinal numbers','Form masculine and feminine ordinals','Use feminine forms when telling time']}};
+for(const spec of timeRoutineLessonSpecs){
+  const vocab=spec.words.map(([en,ar,tr,pos],i)=>({id:`mosa-m34-s${spec.number}-v${i+1}`,collectionId:'mosa-modules',collection:'MoSA Modules',chapter:34,subchapter:spec.number,idInChapter:i+1,en,ar,tr,pos,f:'—',mp:ar==='دَقِيقَة'?'دَقَائِق':'—',fp:ar==='سَاعَة'?'سَاعَات':'—'}));
+  // Keep sentence IDs stable to preserve settings attached to existing cards.
+  const sentences=timeRoutineRows.slice(spec.start,spec.end).map(([en,ar],i)=>({id:`mosa-m34-s2-s${spec.start+i+1}`,chapter:34,subchapter:spec.number,idInChapter:i+1,en,ar,tr:''}));
+  tellingTimeChapter.subchapters[spec.number]={subtitle:spec.title,chapterLabel:spec.title,vocab,grammar:[],sentences,learn:[`Vocabulary for ${spec.title.toLowerCase()}`,'Describe a daily routine using exact and approximate times']};
+}
+Object.assign(tellingTimeChapter,{placeholder:false,vocab:Object.values(tellingTimeChapter.subchapters).flatMap(c=>c.vocab),grammar:timeOrdinalGrammar,sentences:Object.values(tellingTimeChapter.subchapters).flatMap(c=>c.sentences),learn:['Ordinal numbers 1–12','Telling time and describing a daily routine']});
 // Local draft: reuse Al-Kitaab Part 1 present-tense grammar in Learning Arabic.
 // Key 0 places this first while preserving existing subchapter IDs and progress.
 COLLECTIONS.find(c=>c.id==='mosa-modules').chapters[3].subchapters[0]={
@@ -1966,7 +2032,7 @@ function empty(){app.innerHTML=header(state.tab[0].toUpperCase()+state.tab.slice
 render();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
   </script>
-<script src="./verb-practice.js?v=75"></script>
+<script src="./verb-practice.js?v=76"></script>
 </body>
 </html>
 
