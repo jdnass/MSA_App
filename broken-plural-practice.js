@@ -202,7 +202,7 @@ const brokenPluralPatterns=[
   {"id":"afaailah","ar":"أَفَاعِلَة","tr":"afāʿila","words":"أساتذة"},
   {"id":"fulaalaa","ar":"فُعَالَى","tr":"fuʿālā","words":"كسالى"}
 ];
-const brokenPluralState={search:'',pattern:'all',reveals:new Set()};
+const brokenPluralState={search:'',pattern:'all',reveals:new Set(),collections:new Set((()=>{try{const saved=JSON.parse(localStorage.getItem('mosa-broken-plural-collections')||'[]');return Array.isArray(saved)?saved.filter(id=>COLLECTIONS.some(c=>c.id===id)):[]}catch{return []}})())};
 function brokenPluralKey(value){return stripHarakat(String(value||'')).replace(/ـ/g,'').trim().replace(/^ال/,'').replace(/\s+/g,' ')}
 const brokenPluralPatternByWord=new Map(brokenPluralPatterns.flatMap(p=>p.words.split(' ').map(w=>[w,p.id])));
 function brokenPluralPattern(value){return brokenPluralPatternByWord.get(brokenPluralKey(value).split(' ')[0])}
@@ -248,11 +248,28 @@ function brokenPluralEntries(){
   return rows.sort((a,b)=>brokenPluralSourceRank(a.source)-brokenPluralSourceRank(b.source)||a.source.localeCompare(b.source)||a.chapter-b.chapter);
 }
 let brokenPluralCache;
-function brokenPluralList(){const q=brokenPluralKey(brokenPluralState.search).toLowerCase();return (brokenPluralCache??=brokenPluralEntries()).filter(v=>(brokenPluralState.pattern==='all'||v.pattern===brokenPluralState.pattern)&&(!q||brokenPluralKey([v.meaning,v.singular.ar,v.singular.tr,v.plural.ar,v.plural.tr,...v.sources.map(s=>s.name)].join(' ')).toLowerCase().includes(q)))}
+function brokenPluralList(){
+  const q=brokenPluralKey(brokenPluralState.search).toLowerCase(),selected=brokenPluralState.collections;
+  return (brokenPluralCache??=brokenPluralEntries()).filter(v=>(!selected.size||v.sources.some(s=>selected.has(s.id)))&&(brokenPluralState.pattern==='all'||v.pattern===brokenPluralState.pattern)&&(!q||brokenPluralKey([v.meaning,v.singular.ar,v.singular.tr,v.plural.ar,v.plural.tr,...v.sources.map(s=>s.name)].join(' ')).toLowerCase().includes(q))).map(v=>{
+    if(!selected.size)return v;
+    const source=v.sources.filter(s=>selected.has(s.id)).sort((a,b)=>brokenPluralSourceRank(a.id)-brokenPluralSourceRank(b.id)||a.id.localeCompare(b.id))[0];
+    return {...v,source:source.id};
+  }).sort((a,b)=>brokenPluralSourceRank(a.source)-brokenPluralSourceRank(b.source)||a.source.localeCompare(b.source)||a.chapter-b.chapter);
+}
+function brokenPluralFilterSheet(){
+  const entries=brokenPluralCache??=brokenPluralEntries(),ids=new Set(entries.flatMap(v=>v.sources.map(s=>s.id)));
+  const collections=COLLECTIONS.filter(c=>ids.has(c.id)).sort((a,b)=>brokenPluralSourceRank(a.id)-brokenPluralSourceRank(b.id)||a.id.localeCompare(b.id));
+  sheet.innerHTML=`<div class="handle"></div><h3>Filter Broken Plurals</h3><div class="filter-section"><h4>Collections</h4><p class="filter-prompt">Choose one or more collections. Shared pairs are included whenever they occur in a selected collection. With none selected, all collections are shown.</p><div class="filter-grid">${collections.map(c=>`<button class="filter-chip ${brokenPluralState.collections.has(c.id)?'active':''}" onclick="brokenPluralToggleCollection('${c.id}')" aria-pressed="${brokenPluralState.collections.has(c.id)}">${practiceEscape(c.name)}</button>`).join('')}</div></div><div class="filter-footer"><button class="secondary" onclick="brokenPluralClearCollections()">Clear All</button><button class="primary" onclick="closeSheet()">Done · ${brokenPluralList().length} pairs</button></div>`;
+  sheet.classList.add('open');backdrop.classList.add('open');
+}
+function brokenPluralSaveCollections(){localStorage.setItem('mosa-broken-plural-collections',JSON.stringify([...brokenPluralState.collections]))}
+function brokenPluralToggleCollection(id){if(!COLLECTIONS.some(c=>c.id===id))return;const selected=brokenPluralState.collections;if(selected.has(id))selected.delete(id);else selected.add(id);brokenPluralSaveCollections();brokenPluralFilterSheet()}
+function brokenPluralClearCollections(){brokenPluralState.collections.clear();brokenPluralSaveCollections();brokenPluralFilterSheet()}
+
 function brokenPluralField(v,side,field,value,cls){const key=v.id+':'+side+':'+field,hidden=state.hide[field]&&!brokenPluralState.reveals.has(key);return `<button class="practice-field ${cls} ${hidden?'list-hidden':''}" onclick="brokenPluralReveal('${v.id}','${side}','${field}')" aria-label="${hidden?'Reveal '+field:practiceEscape(value)}">${practiceEscape(value||'—')}</button>`}
 function brokenPluralView(){
   const entries=brokenPluralCache??=brokenPluralEntries();
-  app.innerHTML=header('Practice','Learn singular and broken-plural pairs','',`<div class="header-actions"><button class="header-gear" onclick="practiceOptions()" aria-label="Study options">${gearIcon()}</button></div>`)+practiceTabs()+`<p class="practice-intro">Broken plurals change the word’s internal pattern. Learn each singular with its plural. Within each pattern: Al-Kitaab Part 1 → Mango → Al-Kitaab Part 2 → Madina and other sources. Shared pairs appear once, under their earliest source.</p><label class="practice-search">Plural pattern<select aria-label="Plural pattern" style="width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:white;font:inherit" onchange="brokenPluralState.pattern=this.value;brokenPluralRefresh()"><option value="all">All patterns</option>${brokenPluralPatterns.filter(p=>entries.some(v=>v.pattern===p.id)).map(p=>`<option value="${p.id}" ${brokenPluralState.pattern===p.id?'selected':''}>${p.ar} · ${p.tr}</option>`).join('')}</select></label><label class="practice-search">Search broken plurals<input type="search" placeholder="English, Arabic, transliteration, or source" value="${practiceEscape(brokenPluralState.search)}" oninput="brokenPluralState.search=this.value;brokenPluralRefresh()"></label><div id="brokenPluralResults"></div>`;
+  app.innerHTML=header('Practice','Learn singular and broken-plural pairs','',`<div class="header-actions"><button class="header-filter" onclick="brokenPluralFilterSheet()" aria-label="Filter broken plurals">${filterIcon()}${brokenPluralState.collections.size?`<span class="filter-badge">${brokenPluralState.collections.size}</span>`:''}</button><button class="header-gear" onclick="practiceOptions()" aria-label="Study options">${gearIcon()}</button></div>`)+practiceTabs()+`<p class="practice-intro">Broken plurals change the word’s internal pattern. Learn each singular with its plural. Within each pattern: Al-Kitaab Part 1 → Mango → Al-Kitaab Part 2 → Madina and other sources. Shared pairs appear once, under their earliest selected source.</p><label class="practice-search">Plural pattern<select aria-label="Plural pattern" style="width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:white;font:inherit" onchange="brokenPluralState.pattern=this.value;brokenPluralRefresh()"><option value="all">All patterns</option>${brokenPluralPatterns.filter(p=>entries.some(v=>v.pattern===p.id)).map(p=>`<option value="${p.id}" ${brokenPluralState.pattern===p.id?'selected':''}>${p.ar} · ${p.tr}</option>`).join('')}</select></label><label class="practice-search">Search broken plurals<input type="search" placeholder="English, Arabic, transliteration, or source" value="${practiceEscape(brokenPluralState.search)}" oninput="brokenPluralState.search=this.value;brokenPluralRefresh()"></label><div id="brokenPluralResults"></div>`;
   brokenPluralRefresh();
 }
 function brokenPluralRefresh(){
@@ -263,7 +280,7 @@ function brokenPluralRefresh(){
       for(const v of words)html+=`<article class="practice-row">${brokenPluralField(v,'meaning','en',v.meaning,'list-en')}<div class="practice-columns" style="grid-template-columns:repeat(2,minmax(0,1fr))">${[['singular','Singular'],['plural','Broken plural']].map(([side,label])=>`<div class="practice-cell"><div class="practice-cell-label">${label}${!state.hide.audio?`<button class="practice-audio" aria-label="Play ${label.toLowerCase()}" onclick="brokenPluralSpeak('${v.id}','${side}')">${speakerIcon()}</button>`:''}</div>${brokenPluralField(v,side,'ar',arabic(v[side].ar),'list-ar')}${v[side].tr?brokenPluralField(v,side,'tr',v[side].tr,'list-tr'):''}</div>`).join('')}</div><p class="practice-note">${practiceEscape(v.sources.map(s=>s.name).join(' · '))}</p></article>`;
     }html+='</section>';
   }
-  if(!rows.length)html+='<p class="filter-empty">No matching broken plurals. Try another pattern or search.</p>';
+  if(!rows.length)html+='<p class="filter-empty">No matching broken plurals. Try another collection, pattern, or search.</p>';
   document.querySelector('#brokenPluralResults').innerHTML=html;
 }
 function brokenPluralReveal(id,side,field){if(!state.hide[field])return;brokenPluralState.reveals.add(id+':'+side+':'+field);brokenPluralRefresh()}
