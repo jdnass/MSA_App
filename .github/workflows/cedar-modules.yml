@@ -1,5 +1,5 @@
 name: Generate MoSA Modules Cedar audio
-# Resume the four remaining sentence readings with a larger output allowance.
+# Finish the final reading while preserving feminine negation exactly.
 
 on:
   workflow_dispatch:

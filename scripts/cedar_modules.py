@@ -44,7 +44,10 @@ def normalized(text):
 
 
 def one(entry, key):
-    record = cedar_samples.generate(entry, key)
+    request = dict(entry)
+    if entry["id"] == "mosa-m35-s3-s1":
+        request["pronunciation_instructions"] = " IMPORTANT: the second word is لَيْسَتْ, pronounced laysat, with a final T sound. It is NOT لَيْسَ (laysa). Read لَيْسَتْ لَدَيَّ exactly as laysat ladayya. Do not remove the final ت."
+    record = cedar_samples.generate(request, key)
     if not record["transcript"] or normalized(record["transcript"]) != normalized(entry["ar"]):
         # Keep the transcript for diagnosis; do not activate a differing reading.
         (cedar_samples.OUT / (entry["id"] + ".json")).write_text(json.dumps(record, ensure_ascii=False, indent=2))
