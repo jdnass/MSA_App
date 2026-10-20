@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "mosa-m2-s1-exchange-1",
+    "en": "Hello! Welcome!",
+    "ar": "مَرْحَبًا! أَهْلًا وَسَهْلًا!"
+  },
+  {
+    "id": "mosa-m2-s1-exchange-2",
+    "en": "Peace be upon you. — And peace be upon you.",
+    "ar": "السَّلَامُ عَلَيْكُمْ. — وَعَلَيْكُمُ السَّلَامُ."
+  },
+  {
+    "id": "mosa-m2-s2-exchange-1",
+    "en": "Good morning. — Good morning.",
+    "ar": "صَبَاحُ الْخَيْرِ. — صَبَاحُ النُّورِ."
+  },
+  {
+    "id": "mosa-m2-s2-exchange-2",
+    "en": "Good evening. — Good evening.",
+    "ar": "مَسَاءُ الْخَيْرِ. — مَسَاءُ النُّورِ."
+  },
+  {
+    "id": "mosa-m2-s3-exchange-1",
+    "en": "How are you? — Fine, praise be to God. And you? (to a man)",
+    "ar": "كَيْفَ حَالُكَ؟ — بِخَيْرٍ، الْحَمْدُ لِلَّهِ. وَأَنْتَ؟"
+  },
+  {
+    "id": "mosa-m2-s3-exchange-2",
+    "en": "How is it going? — Not bad.",
+    "ar": "كَيْفَ الْحَالُ؟ — لَا بَأْسَ."
+  },
+  {
+    "id": "mosa-m2-s4-exchange-1",
+    "en": "Nice to meet you. — Nice to meet you too. (to a man)",
+    "ar": "سَعِدْتُ بِلِقَائِكَ. — سَعِدْتُ بِلِقَائِكَ أَيْضًا."
+  },
+  {
+    "id": "mosa-m2-s4-exchange-2",
+    "en": "Welcome! Pleased to meet you. (to a woman)",
+    "ar": "أَهْلًا بِكِ! تَشَرَّفْتُ بِمَعْرِفَتِكِ."
+  },
+  {
+    "id": "mosa-m2-s5-exchange-1",
+    "en": "Hello! I haven’t seen you in a while. How have you been? (to a man)",
+    "ar": "مَرْحَبًا! لَمْ أَرَكَ مُنْذُ مُدَّةٍ. كَيْفَ كَانَتْ أَحْوَالُكَ؟"
+  },
+  {
+    "id": "mosa-m2-s5-exchange-2",
+    "en": "I missed you! How is your family? (to a woman)",
+    "ar": "اِشْتَقْتُ إِلَيْكِ! كَيْفَ حَالُ عَائِلَتِكِ؟"
+  },
+  {
+    "id": "mosa-m2-s6-exchange-1",
+    "en": "It was nice talking with you. See you tomorrow! (to a man)",
+    "ar": "سَعِدْتُ بِالْحَدِيثِ مَعَكَ. أَرَاكَ غَدًا!"
+  },
+  {
+    "id": "mosa-m2-s6-exchange-2",
+    "en": "Goodbye! Take care of yourself. (to a woman)",
+    "ar": "مَعَ السَّلَامَةِ! اِعْتَنِي بِنَفْسِكِ."
+  },
+  {
+    "id": "mosa-m2-s7-exchange-1",
+    "en": "Thank you. — You’re welcome.",
+    "ar": "شُكْرًا. — عَفْوًا."
+  },
+  {
+    "id": "mosa-m2-s7-exchange-2",
+    "en": "Excuse me, please. (to a woman)",
+    "ar": "مَعْذِرَةً، لَوْ سَمَحْتِ."
+  },
+  {
+    "id": "mosa-m2-s8-exchange-1",
+    "en": "Congratulations! — Thank you; may God bless you. (to a man)",
+    "ar": "مَبْرُوك! — اللَّهُ يُبَارِكُ فِيكَ."
+  },
+  {
+    "id": "mosa-m2-s8-exchange-2",
+    "en": "Wishing you well each year! — And you too. (to a woman)",
+    "ar": "كُلُّ عَامٍ وَأَنْتِ بِخَيْرٍ! — وَأَنْتِ بِخَيْرٍ."
+  },
+  {
+    "id": "mosa-m3-s1-s1",
+    "en": "Don’t you speak Arabic?",
+    "ar": "أَلَا تَتَكَلَّمُ العَرَبِيَّةَ؟"
+  },
+  {
+    "id": "mosa-m3-s1-s2",
+    "en": "I am learning formal Arabic.",
+    "ar": "أَتَعَلَّمُ العَرَبِيَّةَ الفُصْحَى."
+  },
+  {
+    "id": "mosa-m3-s1-s3",
+    "en": "I do not know a colloquial dialect.",
+    "ar": "لَا أَعْرِفُ لَهْجَةً عَامِّيَّةً."
+  },
+  {
+    "id": "mosa-m3-s1-s4",
+    "en": "My pronunciation is bad.",
+    "ar": "نُطْقِي سَيِّئٌ."
+  },
+  {
+    "id": "mosa-m3-s1-s5",
+    "en": "I do not pronounce some letters well.",
+    "ar": "لَا أَنْطِقُ بَعْضَ الحُرُوفِ جَيِّدًا."
+  },
+  {
+    "id": "mosa-m3-s2-s1",
+    "en": "I cannot have a conversation.",
+    "ar": "لَا أَسْتَطِيعُ إِجْرَاءَ مُحَادَثَةٍ."
+  },
+  {
+    "id": "mosa-m3-s2-s2",
+    "en": "I want to speak the language fluently.",
+    "ar": "أُرِيدُ أَنْ أَتَكَلَّمَ اللُّغَةَ بِطَلَاقَةٍ."
+  },
+  {
+    "id": "mosa-m3-s2-s3",
+    "en": "I wish to learn more about the culture.",
+    "ar": "أَرْغَبُ فِي أَنْ أَتَعَلَّمَ المَزِيدَ عَنِ الثَّقَافَةِ."
+  },
+  {
+    "id": "mosa-m3-s2-s4",
+    "en": "Can you write in Arabic?",
+    "ar": "هَلْ تَسْتَطِيعُ أَنْ تَكْتُبَ بِالعَرَبِيَّةِ؟"
+  },
+  {
+    "id": "mosa-m3-s3-s1",
+    "en": "I know around 2,000 words.",
+    "ar": "أَعْرِفُ نَحْوَ أَلْفَيْ كَلِمَةٍ."
+  },
+  {
+    "id": "mosa-m3-s3-s2",
+    "en": "I can spell about half of them.",
+    "ar": "أَسْتَطِيعُ أَنْ أَتَهَجَّى نَحْوَ نِصْفِهَا."
+  },
+  {
+    "id": "mosa-m3-s3-s3",
+    "en": "I remember most words, but I forget sometimes.",
+    "ar": "أَتَذَكَّرُ مُعْظَمَ الكَلِمَاتِ، لَكِنْ أَنْسَى أَحْيَانًا."
+  },
+  {
+    "id": "mosa-m3-s3-s4",
+    "en": "I am able to write short sentences.",
+    "ar": "أَسْتَطِيعُ أَنْ أَكْتُبَ جُمَلًا قَصِيرَةً."
+  },
+  {
+    "id": "mosa-m3-s3-s5",
+    "en": "I hope to improve my writing.",
+    "ar": "آمُلُ أَنْ أُحَسِّنَ كِتَابَتِي."
+  },
+  {
+    "id": "mosa-m3-s4-s1",
+    "en": "How do you practice?",
+    "ar": "كَيْفَ تَتَدَرَّبُ؟"
+  },
+  {
+    "id": "mosa-m3-s4-s2",
+    "en": "I memorize vocabulary words every day.",
+    "ar": "أَحْفَظُ مُفْرَدَاتٍ كُلَّ يَوْمٍ."
+  },
+  {
+    "id": "mosa-m3-s4-s3",
+    "en": "Sometimes, I read Arabic literature.",
+    "ar": "أَحْيَانًا أَقْرَأُ الأَدَبَ العَرَبِيَّ."
+  },
+  {
+    "id": "mosa-m3-s4-s4",
+    "en": "I also read magazines and articles.",
+    "ar": "أَقْرَأُ أَيْضًا مَجَلَّاتٍ وَمَقَالَاتٍ."
+  },
+  {
+    "id": "mosa-m3-s4-s5",
+    "en": "I listen to the news and podcasts.",
+    "ar": "أَسْتَمِعُ إِلَى الأَخْبَارِ وَالبُودْكَاسْت."
+  },
+  {
+    "id": "mosa-m3-s5-s1",
+    "en": "I practice with a teacher.",
+    "ar": "أَتَدَرَّبُ مَعَ مُدَرِّسٍ."
+  },
+  {
+    "id": "mosa-m3-s5-s2",
+    "en": "He teaches me grammar.",
+    "ar": "يُعَلِّمُنِي القَوَاعِدَ."
+  },
+  {
+    "id": "mosa-m3-s5-s3",
+    "en": "He is a translator.",
+    "ar": "هُوَ مُتَرْجِمٌ."
+  },
+  {
+    "id": "mosa-m3-s5-s4",
+    "en": "He works with the United Nations.",
+    "ar": "يَعْمَلُ مَعَ الأُمَمِ المُتَّحِدَةِ."
+  },
+  {
+    "id": "mosa-m3-s5-s5",
+    "en": "I am not the best pupil.",
+    "ar": "لَسْتُ أَفْضَلَ تِلْمِيذٍ."
+  },
+  {
+    "id": "mosa-m3-s5-s6",
+    "en": "However, I review lessons often.",
+    "ar": "وَلَكِنْ أُذَاكِرُ الدُّرُوسَ كَثِيرًا."
+  },
+  {
+    "id": "mosa-m4-s1-s1",
+    "en": "What is your first name?",
+    "ar": "مَا اسْمُكَ الأَوَّلُ؟"
+  },
+  {
+    "id": "mosa-m4-s1-s2",
+    "en": "My name is James.",
+    "ar": "اِسْمِي جِيمْس."
+  },
+  {
+    "id": "mosa-m4-s1-s3",
+    "en": "What is your last name?",
+    "ar": "مَا اسْمُ عَائِلَتِكَ؟"
+  },
+  {
+    "id": "mosa-m4-s1-s4",
+    "en": "My last name is Smith.",
+    "ar": "اِسْمُ عَائِلَتِي سْمِيث."
+  },
+  {
+    "id": "mosa-m4-s2-s1",
+    "en": "What languages do you speak?",
+    "ar": "مَا اللُّغَاتُ الَّتِي تَتَكَلَّمُهَا؟"
+  },
+  {
+    "id": "mosa-m4-s2-s2",
+    "en": "I speak English.",
+    "ar": "أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ."
+  },
+  {
+    "id": "mosa-m4-s2-s3",
+    "en": "I also speak a little Spanish and Arabic.",
+    "ar": "أَتَكَلَّمُ أَيْضًا قَلِيلًا مِنَ الإِسْبَانِيَّةِ وَالعَرَبِيَّةِ."
+  },
+  {
+    "id": "mosa-m4-s2-s4",
+    "en": "I do not speak French.",
+    "ar": "لَا أَتَكَلَّمُ الفَرَنْسِيَّةَ."
+  },
+  {
+    "id": "mosa-m4-s3-s1",
+    "en": "What is your birthday?",
+    "ar": "مَتَى عِيدُ مِيلَادِكَ؟"
+  },
+  {
+    "id": "mosa-m4-s3-s2",
+    "en": "My birthday is June 16, 1998.",
+    "ar": "تَارِيخُ مِيلَادِي هُوَ السَّادِسَ عَشَرَ مِنْ حَزِيرَانَ عَامَ ١٩٩٨."
+  },
+  {
+    "id": "mosa-m4-s3-s3",
+    "en": "How old are you?",
+    "ar": "كَمْ عُمْرُكَ؟"
+  },
+  {
+    "id": "mosa-m4-s3-s4",
+    "en": "I am 28 years old.",
+    "ar": "عُمْرِي ثَمَانٍ وَعِشْرُونَ سَنَةً."
+  },
+  {
+    "id": "mosa-m4-s4-s1",
+    "en": "What is your nationality?",
+    "ar": "مَا جِنْسِيَّتُكَ؟"
+  },
+  {
+    "id": "mosa-m4-s4-s2",
+    "en": "I am American.",
+    "ar": "أَنَا أَمْرِيكِيّ."
+  },
+  {
+    "id": "mosa-m4-s4-s3",
+    "en": "What is your ethnicity?",
+    "ar": "مَا عِرْقُكَ؟"
+  },
+  {
+    "id": "mosa-m4-s4-s4",
+    "en": "I am white.",
+    "ar": "أَنَا أَبْيَضُ."
+  },
+  {
+    "id": "mosa-m4-s4-s5",
+    "en": "What is your family’s origin?",
+    "ar": "مَا أَصْلُ عَائِلَتِكَ؟"
+  },
+  {
+    "id": "mosa-m4-s4-s6",
+    "en": "I am of Palestinian descent.",
+    "ar": "أَنَا مِنْ أَصْلٍ فِلَسْطِينِيٍّ."
+  },
+  {
+    "id": "mosa-m4-s5-s1",
+    "en": "Where were you born?",
+    "ar": "أَيْنَ وُلِدْتَ؟"
+  },
+  {
+    "id": "mosa-m4-s5-s2",
+    "en": "I was born in the state of Hawaii.",
+    "ar": "وُلِدْتُ فِي وِلَايَةِ هَاوَاي."
+  },
+  {
+    "id": "mosa-m4-s5-s3",
+    "en": "Where do you live?",
+    "ar": "أَيْنَ تَسْكُنُ؟"
+  },
+  {
+    "id": "mosa-m4-s5-s4",
+    "en": "I live in the city of Miami.",
+    "ar": "أَسْكُنُ فِي مَدِينَةِ مِيَامِي."
+  },
+  {
+    "id": "mosa-m4-s5-s5",
+    "en": "What was your hometown?",
+    "ar": "مَا المَدِينَةُ الَّتِي نَشَأْتَ فِيهَا؟"
+  },
+  {
+    "id": "mosa-m4-s5-s6",
+    "en": "My hometown is Kansas City, Missouri.",
+    "ar": "المَدِينَةُ الَّتِي نَشَأْتُ فِيهَا هِيَ كَانْسَاس سِيتِي فِي وِلَايَةِ مِيزُورِي."
+  },
+  {
+    "id": "mosa-m4-s5-s7",
+    "en": "Do you live alone?",
+    "ar": "هَلْ تَسْكُنُ وَحْدَكَ؟"
+  },
+  {
+    "id": "mosa-m4-s5-s8",
+    "en": "I live with my fiancée.",
+    "ar": "أَعِيشُ مَعَ خَطِيبَتِي."
+  },
+  {
+    "id": "mosa-m4-s6-s1",
+    "en": "What is your phone number?",
+    "ar": "مَا رَقْمُ هَاتِفِكَ؟"
+  },
+  {
+    "id": "mosa-m4-s6-s2",
+    "en": "My phone number is (123) 456-7890.",
+    "ar": "رَقْمُ هَاتِفِي هُوَ ‎(123) 456-7890."
+  },
+  {
+    "id": "mosa-m4-s6-s3",
+    "en": "What is your email address?",
+    "ar": "مَا عُنْوَانُ بَرِيدِكَ الإِلِكْتُرُونِيِّ؟"
+  },
+  {
+    "id": "mosa-m4-s6-s4",
+    "en": "My email address is name@email.com.",
+    "ar": "عُنْوَانُ بَرِيدِي الإِلِكْتُرُونِيِّ هُوَ ‎name@email.com."
+  },
+  {
+    "id": "mosa-m4-s7-s1",
+    "en": "What is your address?",
+    "ar": "مَا عُنْوَانُكَ؟"
+  },
+  {
+    "id": "mosa-m4-s7-s2",
+    "en": "My address is 123 Main Street, Miami, FL 33333.",
+    "ar": "عُنْوَانِي هُوَ ١٢٣ شَارِع مَيْن، مِيَامِي، فُلُورِيدَا، ٣٣٣٣٣."
+  },
+  {
+    "id": "mosa-m4-s7-s3",
+    "en": "What is your zip code?",
+    "ar": "مَا رَمْزُكَ البَرِيدِيُّ؟"
+  },
+  {
+    "id": "mosa-m4-s7-s4",
+    "en": "33333.",
+    "ar": "٣٣٣٣٣."
+  },
+  {
+    "id": "mosa-m4-s7-s5",
+    "en": "What is your passport number?",
+    "ar": "مَا رَقْمُ جَوَازِ سَفَرِكَ؟"
+  },
+  {
+    "id": "mosa-m4-s7-s6",
+    "en": "I don’t know.",
+    "ar": "لَا أَعْرِفُ."
+  },
+  {
+    "id": "mosa-m5-s1-s1",
+    "en": "Who are the members of your immediate family?",
+    "ar": "مَنْ هُمْ أَفْرَادُ أُسْرَتِكَ؟"
+  },
+  {
+    "id": "mosa-m5-s1-s2",
+    "en": "In my family, I have a dad, a mom, and a brother.",
+    "ar": "فِي أُسْرَتِي، لِي أَبٌ وَأُمٌّ وَأَخٌ."
+  },
+  {
+    "id": "mosa-m5-s1-s3",
+    "en": "My dad’s name is Paul.",
+    "ar": "اِسْمُ أَبِي بُول."
+  },
+  {
+    "id": "mosa-m5-s1-s4",
+    "en": "My mom’s name is Karen.",
+    "ar": "اِسْمُ أُمِّي كَارِن."
+  },
+  {
+    "id": "mosa-m5-s1-s5",
+    "en": "My brother’s name is Andrew.",
+    "ar": "اِسْمُ أَخِي أَنْدْرُو."
+  },
+  {
+    "id": "mosa-m5-s1-s6",
+    "en": "My father and mother live together.",
+    "ar": "يَعِيشُ أَبِي وَأُمِّي مَعًا."
+  },
+  {
+    "id": "mosa-m5-s1-s7",
+    "en": "Our dog’s name is Banana.",
+    "ar": "اِسْمُ كَلْبِنَا بَنَانَا."
+  },
+  {
+    "id": "mosa-m5-s2-s1",
+    "en": "Who are the members of your extended family?",
+    "ar": "مَنْ هُمْ أَفْرَادُ عَائِلَتِكَ الْكَبِيرَةِ؟"
+  },
+  {
+    "id": "mosa-m5-s2-s2",
+    "en": "I have many relatives in my extended family.",
+    "ar": "لِي أَقَارِبُ كَثِيرُونَ فِي عَائِلَتِي الْكَبِيرَةِ."
+  },
+  {
+    "id": "mosa-m5-s2-s3",
+    "en": "I have aunts and uncles on both sides.",
+    "ar": "لِي عَمَّاتٌ وَأَعْمَامٌ وَخَالَاتٌ وَأَخْوَالٌ."
+  },
+  {
+    "id": "mosa-m5-s3-s1",
+    "en": "My grandmothers are alive.",
+    "ar": "جَدَّتَايَ عَلَى قَيْدِ الْحَيَاةِ."
+  },
+  {
+    "id": "mosa-m5-s3-s2",
+    "en": "My grandfathers are dead.",
+    "ar": "جَدَّايَ مُتَوَفَّيَانِ."
+  },
+  {
+    "id": "mosa-m5-s3-s3",
+    "en": "My grandmothers are lucky to have big families.",
+    "ar": "جَدَّتَايَ مَحْظُوظَتَانِ لِأَنَّ لِكُلٍّ مِنْهُمَا عَائِلَةً كَبِيرَةً."
+  },
+  {
+    "id": "mosa-m5-s3-s4",
+    "en": "They have many grandsons and granddaughters.",
+    "ar": "لَهُمَا أَحْفَادٌ وَحَفِيدَاتٌ كَثِيرُونَ."
+  },
+  {
+    "id": "mosa-m5-s4-s1",
+    "en": "I have two paternal uncles and a paternal aunt.",
+    "ar": "لِي عَمَّانِ وَعَمَّةٌ."
+  },
+  {
+    "id": "mosa-m5-s4-s2",
+    "en": "I have two paternal aunts and one maternal uncle.",
+    "ar": "لِي عَمَّتَانِ وَخَالٌ وَاحِدٌ."
+  },
+  {
+    "id": "mosa-m5-s4-s3",
+    "en": "I have male paternal cousins and female paternal cousins.",
+    "ar": "لِي أَبْنَاءُ عَمٍّ وَبَنَاتُ عَمٍّ."
+  },
+  {
+    "id": "mosa-m5-s4-s4",
+    "en": "I have male maternal cousins and female paternal cousins.",
+    "ar": "لِي أَبْنَاءُ خَالٍ وَبَنَاتُ عَمٍّ."
+  },
+  {
+    "id": "mosa-m5-s4-s5",
+    "en": "My aunts and uncles have lots of children.",
+    "ar": "لِعَمَّاتِي وَأَعْمَامِي وَخَالَاتِي وَأَخْوَالِي أَوْلَادٌ كَثِيرُونَ."
+  },
+  {
+    "id": "mosa-m5-s5-s1",
+    "en": "For example, I have a paternal uncle named Joe.",
+    "ar": "مَثَلًا، لِي عَمٌّ اِسْمُهُ جُو."
+  },
+  {
+    "id": "mosa-m5-s5-s2",
+    "en": "Joe’s wife is Colleen.",
+    "ar": "زَوْجَةُ جُو هِيَ كُولِين."
+  },
+  {
+    "id": "mosa-m5-s5-s3",
+    "en": "Joe’s son is Sam.",
+    "ar": "اِبْنُ جُو هُوَ سَام."
+  },
+  {
+    "id": "mosa-m5-s5-s4",
+    "en": "Joe’s daughters are Kate and Caroline.",
+    "ar": "اِبْنَتَا جُو هُمَا كَيْت وَكَارُولَايْن."
+  },
+  {
+    "id": "mosa-m5-s5-s5",
+    "en": "I have a maternal aunt named Kelly.",
+    "ar": "لِي خَالَةٌ اِسْمُهَا كِيلِي."
+  },
+  {
+    "id": "mosa-m5-s5-s6",
+    "en": "Her daughter is Erica.",
+    "ar": "اِبْنَتُهَا هِيَ إِيرِيكَا."
+  },
+  {
+    "id": "mosa-m5-s6-s1",
+    "en": "Are you married?",
+    "ar": "هَلْ أَنْتَ مُتَزَوِّجٌ؟"
+  },
+  {
+    "id": "mosa-m5-s6-s2",
+    "en": "I am not married, but I am engaged.",
+    "ar": "أَنَا لَسْتُ مُتَزَوِّجًا، لَكِنْ أَنَا مَخْطُوبٌ."
+  },
+  {
+    "id": "mosa-m5-s6-s3",
+    "en": "My fiancée’s name is Melanie.",
+    "ar": "اِسْمُ خَطِيبَتِي مِيلَانِي."
+  },
+  {
+    "id": "mosa-m5-s6-s4",
+    "en": "Her last name is Cabrera.",
+    "ar": "اِسْمُ عَائِلَتِهَا كَابْرِيرَا."
+  },
+  {
+    "id": "mosa-m5-s6-s5",
+    "en": "I proposed last March.",
+    "ar": "خَطَبْتُهَا فِي آذَارَ الْمَاضِي."
+  },
+  {
+    "id": "mosa-m5-s6-s6",
+    "en": "I will get married to her in November.",
+    "ar": "سَأَتَزَوَّجُهَا فِي تِشْرِينَ الثَّانِي."
+  },
+  {
+    "id": "mosa-m5-s6-s7",
+    "en": "We have a long engagement.",
+    "ar": "خِطْبَتُنَا طَوِيلَةٌ."
+  },
+  {
+    "id": "mosa-m5-s6-s8",
+    "en": "Our wedding will be close.",
+    "ar": "سَيَكُونُ زِفَافُنَا قَرِيبًا."
+  },
+  {
+    "id": "mosa-m5-s6-s9",
+    "en": "I do not think we will get divorced.",
+    "ar": "لَا أَظُنُّ أَنَّ زَوَاجَنَا سَيَنْتَهِي بِالطَّلَاقِ."
+  },
+  {
+    "id": "mosa-m5-s7-s1",
+    "en": "Tell me about your future in-laws.",
+    "ar": "حَدِّثْنِي عَنْ أَهْلِ زَوْجَتِكَ الْمُسْتَقْبَلِيَّةِ."
+  },
+  {
+    "id": "mosa-m5-s7-s2",
+    "en": "Melanie has a sister named Stephanie.",
+    "ar": "لِمِيلَانِي أُخْتٌ اِسْمُهَا سْتِيفَانِي."
+  },
+  {
+    "id": "mosa-m5-s7-s3",
+    "en": "She is married to her husband, Noah.",
+    "ar": "هِيَ مُتَزَوِّجَةٌ مِنْ زَوْجِهَا نُوح."
+  },
+  {
+    "id": "mosa-m5-s7-s4",
+    "en": "I have a nephew, Ethan.",
+    "ar": "لِي اِبْنُ أُخْتِ زَوْجَتِي الْمُسْتَقْبَلِيَّةِ، وَاسْمُهُ إِيثَان."
+  },
+  {
+    "id": "mosa-m5-s7-s5",
+    "en": "Ethan is the son of my sister-in-law and brother-in-law.",
+    "ar": "إِيثَان هُوَ اِبْنُ أُخْتِ خَطِيبَتِي وَزَوْجِهَا."
+  },
+  {
+    "id": "mosa-m5-s7-s6",
+    "en": "My father-in-law was a mailman.",
+    "ar": "كَانَ حَمَايَ سَاعِيَ بَرِيدٍ."
+  },
+  {
+    "id": "mosa-m5-s7-s7",
+    "en": "My mother-in-law was a teacher.",
+    "ar": "كَانَتْ حَمَاتِي مُعَلِّمَةً."
+  },
+  {
+    "id": "mosa-m5-s7-s8",
+    "en": "Melanie’s family lives in Miami.",
+    "ar": "تَعِيشُ عَائِلَةُ مِيلَانِي فِي مِيَامِي."
+  },
+  {
+    "id": "mosa-m6-s1-s1",
+    "en": "Can you introduce me to your friends?",
+    "ar": "هَلْ يُمْكِنُكَ أَنْ تُعَرِّفَنِي بِأَصْدِقَائِكَ؟"
+  },
+  {
+    "id": "mosa-m6-s1-s2",
+    "en": "We should have a party sometime.",
+    "ar": "يَنْبَغِي أَنْ نُقِيمَ حَفْلَةً فِي وَقْتٍ مَا."
+  },
+  {
+    "id": "mosa-m6-s1-s3",
+    "en": "Sure, but I don’t like socializing.",
+    "ar": "بِالتَّأْكِيدِ، لَكِنْ لَا أُحِبُّ مُجَالَسَةَ النَّاسِ."
+  },
+  {
+    "id": "mosa-m6-s2-s1",
+    "en": "Who is that?",
+    "ar": "مَنْ ذَلِكَ؟"
+  },
+  {
+    "id": "mosa-m6-s2-s2",
+    "en": "I will introduce you to him.",
+    "ar": "سَأُعَرِّفُكَ بِهِ."
+  },
+  {
+    "id": "mosa-m6-s2-s3",
+    "en": "This is my friend Shawn.",
+    "ar": "هَذَا صَدِيقِي شُون."
+  },
+  {
+    "id": "mosa-m6-s2-s4",
+    "en": "This is his wife.",
+    "ar": "هَذِهِ زَوْجَتُهُ."
+  },
+  {
+    "id": "mosa-m6-s3-s1",
+    "en": "They are acquaintances with Ali.",
+    "ar": "هُمَا مِنْ مَعَارِفِ عَلِيٍّ."
+  },
+  {
+    "id": "mosa-m6-s3-s2",
+    "en": "Do you know Vijay?",
+    "ar": "هَلْ تَعْرِفُ فِيجَاي؟"
+  },
+  {
+    "id": "mosa-m6-s3-s3",
+    "en": "No, but he is not a stranger.",
+    "ar": "لَا، لَكِنْ هُوَ لَيْسَ غَرِيبًا."
+  },
+  {
+    "id": "mosa-m6-s3-s4",
+    "en": "He is an acquaintance.",
+    "ar": "هُوَ أَحَدُ مَعَارِفِي."
+  },
+  {
+    "id": "mosa-m6-s3-s5",
+    "en": "Maybe I will meet him in the future.",
+    "ar": "رُبَّمَا سَأُقَابِلُهُ فِي الْمُسْتَقْبَلِ."
+  },
+  {
+    "id": "mosa-m6-s3-s6",
+    "en": "I would like to get to know him.",
+    "ar": "أَرْغَبُ فِي التَّعَرُّفِ عَلَيْهِ."
+  },
+  {
+    "id": "mosa-m6-s4-s1",
+    "en": "What a nice picture!",
+    "ar": "مَا أَجْمَلَ هَذِهِ الصُّورَةَ!"
+  },
+  {
+    "id": "mosa-m6-s4-s2",
+    "en": "That is my best friend Eric.",
+    "ar": "ذَلِكَ أَفْضَلُ أَصْدِقَائِي، إِرِيك."
+  },
+  {
+    "id": "mosa-m6-s4-s3",
+    "en": "We have a long friendship.",
+    "ar": "تَرْبِطُنَا صَدَاقَةٌ طَوِيلَةٌ."
+  },
+  {
+    "id": "mosa-m6-s4-s4",
+    "en": "I trust him a lot.",
+    "ar": "أَثِقُ بِهِ كَثِيرًا."
+  },
+  {
+    "id": "mosa-m6-s4-s5",
+    "en": "We were classmates in high school.",
+    "ar": "كُنَّا زَمِيلَيْنِ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ."
+  },
+  {
+    "id": "mosa-m6-s5-s1",
+    "en": "We do not spend time together often anymore.",
+    "ar": "لَمْ نَعُدْ نَقْضِي الْوَقْتَ مَعًا كَثِيرًا."
+  },
+  {
+    "id": "mosa-m6-s5-s2",
+    "en": "But we are good with communication.",
+    "ar": "لَكِنْ نَتَوَاصَلُ بِشَكْلٍ جَيِّدٍ."
+  },
+  {
+    "id": "mosa-m6-s5-s3",
+    "en": "I have fun when we get together.",
+    "ar": "أَمْرَحُ عِنْدَمَا نَجْتَمِعُ."
+  },
+  {
+    "id": "mosa-m6-s5-s4",
+    "en": "He had a fun personality.",
+    "ar": "كَانَتْ شَخْصِيَّتُهُ مَرِحَةً."
+  },
+  {
+    "id": "mosa-m6-s5-s5",
+    "en": "I miss him.",
+    "ar": "أَفْتَقِدُهُ."
+  },
+  {
+    "id": "mosa-m6-s6-s1",
+    "en": "Who has visited you recently?",
+    "ar": "مَنْ زَارَكَ مُؤَخَّرًا؟"
+  },
+  {
+    "id": "mosa-m6-s6-s2",
+    "en": "Mohammed has visited me before.",
+    "ar": "زَارَنِي مُحَمَّدٌ مِنْ قَبْلُ."
+  },
+  {
+    "id": "mosa-m6-s6-s3",
+    "en": "I hosted him.",
+    "ar": "اِسْتَضَفْتُهُ."
+  },
+  {
+    "id": "mosa-m6-s6-s4",
+    "en": "He was a good guest.",
+    "ar": "كَانَ ضَيْفًا جَيِّدًا."
+  },
+  {
+    "id": "mosa-m6-s6-s5",
+    "en": "I will invite him again in the future.",
+    "ar": "سَأَدْعُوهُ مَرَّةً أُخْرَى فِي الْمُسْتَقْبَلِ."
+  },
+  {
+    "id": "mosa-m6-s6-s6",
+    "en": "He will probably accept the invitation.",
+    "ar": "مِنَ الْمُرَجَّحِ أَنْ يَقْبَلَ الدَّعْوَةَ."
+  },
+  {
+    "id": "mosa-m6-s7-s1",
+    "en": "Who is that?",
+    "ar": "مَنْ ذَلِكَ؟"
+  },
+  {
+    "id": "mosa-m6-s7-s2",
+    "en": "That is our friend Ana.",
+    "ar": "تِلْكَ صَدِيقَتُنَا آنَا."
+  },
+  {
+    "id": "mosa-m6-s7-s3",
+    "en": "Ana was our neighbor.",
+    "ar": "كَانَتْ آنَا جَارَتَنَا."
+  },
+  {
+    "id": "mosa-m6-s7-s4",
+    "en": "We are still in contact with her.",
+    "ar": "مَا زِلْنَا عَلَى اتِّصَالٍ بِهَا."
+  },
+  {
+    "id": "mosa-m10-s1-s1",
+    "en": "I graduated from the University of Michigan six years ago.",
+    "ar": "تَخَرَّجْتُ مِنْ جَامِعَةِ مِيشِيغَانَ مُنْذُ سِتِّ سَنَوَاتٍ."
+  },
+  {
+    "id": "mosa-m10-s1-s2",
+    "en": "I received a bachelor’s degree in business administration after four years.",
+    "ar": "حَصَلْتُ عَلَى شَهَادَةِ الْبَكَالُورِيُوسِ فِي إِدَارَةِ الْأَعْمَالِ بَعْدَ أَرْبَعِ سَنَوَاتٍ."
+  },
+  {
+    "id": "mosa-m10-s1-s3",
+    "en": "In America, four years is eight semesters.",
+    "ar": "فِي أَمْرِيكَا، أَرْبَعُ سَنَوَاتٍ تُعَادِلُ ثَمَانِيَةَ فُصُولٍ دِرَاسِيَّةٍ."
+  },
+  {
+    "id": "mosa-m10-s1-s4",
+    "en": "Business was my major.",
+    "ar": "كَانَ تَخَصُّصِي إِدَارَةَ الْأَعْمَالِ."
+  },
+  {
+    "id": "mosa-m10-s1-s5",
+    "en": "I did not study a minor.",
+    "ar": "لَمْ أَدْرُسْ تَخَصُّصًا فَرْعِيًّا."
+  },
+  {
+    "id": "mosa-m10-s1-s6",
+    "en": "Now, I am a specialist in finance.",
+    "ar": "أَنَا الْآنَ مُتَخَصِّصٌ فِي التَّمْوِيلِ."
+  },
+  {
+    "id": "mosa-m10-s2-s1",
+    "en": "My brother, Andrew, was a student there, also.",
+    "ar": "كَانَ أَخِي أَنْدْرُو طَالِبًا هُنَاكَ أَيْضًا."
+  },
+  {
+    "id": "mosa-m10-s2-s2",
+    "en": "He studied physics and economics.",
+    "ar": "دَرَسَ الْفِيزِيَاءَ وَالاِقْتِصَادَ."
+  },
+  {
+    "id": "mosa-m10-s2-s3",
+    "en": "He is good at mathematics.",
+    "ar": "هُوَ جَيِّدٌ فِي الرِّيَاضِيَّاتِ."
+  },
+  {
+    "id": "mosa-m10-s2-s4",
+    "en": "After receiving his bachelor’s degree, he studied law in California.",
+    "ar": "بَعْدَ حُصُولِهِ عَلَى شَهَادَةِ الْبَكَالُورِيُوسِ، دَرَسَ الْحُقُوقَ فِي كَالِيفُورْنِيَا."
+  },
+  {
+    "id": "mosa-m10-s2-s5",
+    "en": "Now, he is a lawyer.",
+    "ar": "هُوَ الْآنَ مُحَامٍ."
+  },
+  {
+    "id": "mosa-m10-s3-s1",
+    "en": "My roommate, Eytan, studied engineering at the same college.",
+    "ar": "دَرَسَ رَفِيقِي فِي السَّكَنِ، إِيتَان، الْهَنْدَسَةَ فِي نَفْسِ الْكُلِّيَّةِ."
+  },
+  {
+    "id": "mosa-m10-s3-s2",
+    "en": "One time, we listened to the dean speak together.",
+    "ar": "ذَاتَ مَرَّةٍ، اِسْتَمَعْنَا مَعًا إِلَى الْعَمِيدِ وَهُوَ يَتَكَلَّمُ."
+  },
+  {
+    "id": "mosa-m10-s3-s3",
+    "en": "The dean spoke in a lecture about the office of admissions.",
+    "ar": "تَكَلَّمَ الْعَمِيدُ فِي مُحَاضَرَةٍ عَنْ مَكْتَبِ الْقُبُولِ."
+  },
+  {
+    "id": "mosa-m10-s3-s4",
+    "en": "Later, my roommate obtained a doctorate.",
+    "ar": "بَعْدَ ذَلِكَ، حَصَلَ رَفِيقِي فِي السَّكَنِ عَلَى شَهَادَةِ الدُّكْتُورَاهِ."
+  },
+  {
+    "id": "mosa-m10-s3-s5",
+    "en": "His professor taught at the University of Michigan also.",
+    "ar": "دَرَّسَ أُسْتَاذُهُ فِي جَامِعَةِ مِيشِيغَانَ أَيْضًا."
+  },
+  {
+    "id": "mosa-m10-s4-s1",
+    "en": "My fiancée, Melanie, studied medicine.",
+    "ar": "دَرَسَتْ خَطِيبَتِي، مِيلَانِي، الطِّبَّ."
+  },
+  {
+    "id": "mosa-m10-s4-s2",
+    "en": "She is good at science.",
+    "ar": "هِيَ جَيِّدَةٌ فِي الْعُلُومِ."
+  },
+  {
+    "id": "mosa-m10-s4-s3",
+    "en": "She obtained a master’s degree.",
+    "ar": "حَصَلَتْ عَلَى شَهَادَةِ الْمَاجِسْتِيرِ."
+  },
+  {
+    "id": "mosa-m10-s4-s4",
+    "en": "Melanie received a scholarship from the hospital.",
+    "ar": "حَصَلَتْ مِيلَانِي عَلَى مِنْحَةٍ مِنَ الْمُسْتَشْفَى."
+  },
+  {
+    "id": "mosa-m10-s4-s5",
+    "en": "After that, she obtained a doctorate.",
+    "ar": "بَعْدَ ذَلِكَ، حَصَلَتْ عَلَى شَهَادَةِ الدُّكْتُورَاهِ."
+  },
+  {
+    "id": "mosa-m10-s4-s6",
+    "en": "She wants to teach in the future.",
+    "ar": "تُرِيدُ أَنْ تُدَرِّسَ فِي الْمُسْتَقْبَلِ."
+  },
+  {
+    "id": "mosa-m10-s4-s7",
+    "en": "She will be a great professor.",
+    "ar": "سَتَكُونُ أُسْتَاذَةً رَائِعَةً."
+  },
+  {
+    "id": "mosa-m10-s4-s8",
+    "en": "The subject of her research is excellent.",
+    "ar": "مَوْضُوعُ بَحْثِهَا مُمْتَازٌ."
+  },
+  {
+    "id": "mosa-m10-s5-s1",
+    "en": "My friend, Nicole, studied psychology.",
+    "ar": "دَرَسَتْ صَدِيقَتِي، نِيكُول، عِلْمَ النَّفْسِ."
+  },
+  {
+    "id": "mosa-m10-s5-s2",
+    "en": "My friend’s wife studied political science and history.",
+    "ar": "دَرَسَتْ زَوْجَةُ صَدِيقِي الْعُلُومَ السِّيَاسِيَّةَ وَالتَّارِيخَ."
+  },
+  {
+    "id": "mosa-m10-s5-s3",
+    "en": "I do not know anyone who studied anthropology.",
+    "ar": "لَا أَعْرِفُ أَحَدًا دَرَسَ عِلْمَ الْإِنْسَانِ."
+  },
+  {
+    "id": "mosa-m33-s1-s1",
+    "en": "I am hungry and thirsty.",
+    "ar": "أَنَا جَائِع وَعَطْشَان."
+  },
+  {
+    "id": "mosa-m33-s1-s2",
+    "en": "I would like some food and a drink.",
+    "ar": "أَرْغَبُ فِي بَعْضِ الطَّعَام وَمَشْرُوب."
+  },
+  {
+    "id": "mosa-m33-s1-s3",
+    "en": "Do you want to go to a café for breakfast?",
+    "ar": "هَلْ تُرِيدُ أَنْ تَذْهَبَ إِلَى مَقْهَى لِتَنَاوُلِ الْفُطُور؟"
+  },
+  {
+    "id": "mosa-m33-s1-s4",
+    "en": "Sure, I will eat breakfast with you.",
+    "ar": "بِالتَّأْكِيد، سَأُفْطِرُ مَعَكَ."
+  },
+  {
+    "id": "mosa-m33-s1-s5",
+    "en": "Let's go to the closest place.",
+    "ar": "دَعْنَا نَذْهَبْ إِلَى أَقْرَبِ مَكَان."
+  },
+  {
+    "id": "mosa-m33-s2-s1",
+    "en": "Hello and welcome. Come in.",
+    "ar": "أَهْلًا وَسَهْلًا. تَفَضَّلْ بِالدُّخُول."
+  },
+  {
+    "id": "mosa-m33-s2-s2",
+    "en": "May I help you?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ أُسَاعِدَكَ؟"
+  },
+  {
+    "id": "mosa-m33-s2-s3",
+    "en": "A table for two, please.",
+    "ar": "طَاوِلَة لِشَخْصَيْن، مِنْ فَضْلِكَ."
+  },
+  {
+    "id": "mosa-m33-s2-s4",
+    "en": "Right this way. Here is a menu.",
+    "ar": "تَفَضَّلْ مِنْ هُنَا. هَذِهِ قَائِمَة الطَّعَام."
+  },
+  {
+    "id": "mosa-m33-s2-s5",
+    "en": "Can I bring you some bread and butter?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ أُحْضِرَ لَكَ بَعْضَ الْخُبْز وَالزُّبْدَة؟"
+  },
+  {
+    "id": "mosa-m33-s2-s6",
+    "en": "Yes, do you have jam also?",
+    "ar": "نَعَم، هَلْ عِنْدَكُمْ مُرَبَّى أَيْضًا؟"
+  },
+  {
+    "id": "mosa-m33-s2-s7",
+    "en": "Of course.",
+    "ar": "بِالطَّبْعِ."
+  },
+  {
+    "id": "mosa-m33-s3-s1",
+    "en": "What would you like to drink?",
+    "ar": "مَاذَا تُرِيدُ أَنْ تَشْرَبَ؟"
+  },
+  {
+    "id": "mosa-m33-s3-s2",
+    "en": "I would like a small cup of coffee with milk and sugar.",
+    "ar": "أَرْغَبُ فِي فِنْجَانِ قَهْوَة صَغِير مَعَ الْحَلِيب وَالسُّكَّر."
+  },
+  {
+    "id": "mosa-m33-s3-s3",
+    "en": "And for you?",
+    "ar": "وَأَنْتَ، مَاذَا تُرِيدُ؟"
+  },
+  {
+    "id": "mosa-m33-s3-s4",
+    "en": "May I have a cold glass of mineral water without ice and a cup of hot tea?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ أَحْصُلَ عَلَى كُوبِ مَاء مَعْدِنِيّ بَارِد بِدُونِ ثَلْج، وَفِنْجَانِ شَاي سَاخِن؟"
+  },
+  {
+    "id": "mosa-m33-s3-s5",
+    "en": "Here is a pitcher of water.",
+    "ar": "هَذَا إِبْرِيق مَاء."
+  },
+  {
+    "id": "mosa-m33-s4-s1",
+    "en": "May I take your order?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ آخُذَ طَلَبَكَ؟"
+  },
+  {
+    "id": "mosa-m33-s4-s2",
+    "en": "I will have some eggs and fried potatoes.",
+    "ar": "سَأَتَنَاوَلُ بَعْضَ الْبَيْض وَالْبَطَاطَا الْمَقْلِيَّة."
+  },
+  {
+    "id": "mosa-m33-s4-s3",
+    "en": "I would like to order some fruit.",
+    "ar": "أَرْغَبُ فِي طَلَبِ بَعْضِ الْفَوَاكِه."
+  },
+  {
+    "id": "mosa-m33-s4-s4",
+    "en": "The dish looks tasty and smells good.",
+    "ar": "يَبْدُو الطَّبَق شَهِيًّا، وَرَائِحَتُهُ طَيِّبَة."
+  },
+  {
+    "id": "mosa-m33-s5-s1",
+    "en": "Can you please give me the salt and pepper? It is not salty enough.",
+    "ar": "هَلْ يُمْكِنُكَ أَنْ تُعْطِيَنِي الْمِلْح وَالْفُلْفُل، مِنْ فَضْلِكَ؟ لَيْسَ فِيهِ مِلْح كَافٍ."
+  },
+  {
+    "id": "mosa-m33-s5-s2",
+    "en": "I need some silverware.",
+    "ar": "أَحْتَاجُ إِلَى بَعْضِ أَدَوَاتِ الْمَائِدَة."
+  },
+  {
+    "id": "mosa-m33-s5-s3",
+    "en": "May I please have a fork and a knife?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ أَحْصُلَ عَلَى شَوْكَة وَسِكِّين، مِنْ فَضْلِكَ؟"
+  },
+  {
+    "id": "mosa-m33-s5-s4",
+    "en": "Yes, here is a spoon and napkin, as well.",
+    "ar": "نَعَم، وَهَذِهِ مِلْعَقَة وَمِنْدِيل أَيْضًا."
+  },
+  {
+    "id": "mosa-m33-s6-s1",
+    "en": "How was your meal?",
+    "ar": "كَيْفَ كَانَتْ وَجْبَتُكَ؟"
+  },
+  {
+    "id": "mosa-m33-s6-s2",
+    "en": "Delicious! I am full.",
+    "ar": "لَذِيذَة! أَنَا شَبْعَان."
+  },
+  {
+    "id": "mosa-m33-s6-s3",
+    "en": "Can I please have another cup of tea?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ أَحْصُلَ عَلَى فِنْجَانِ شَاي آخَر، مِنْ فَضْلِكَ؟"
+  },
+  {
+    "id": "mosa-m33-s6-s4",
+    "en": "Would you like more coffee?",
+    "ar": "هَلْ تُرِيدُ الْمَزِيد مِنَ الْقَهْوَة؟"
+  },
+  {
+    "id": "mosa-m33-s6-s5",
+    "en": "No thanks, just the bill.",
+    "ar": "لَا، شُكْرًا. الْحِسَاب فَقَط."
+  },
+  {
+    "id": "mosa-m33-s7-s1",
+    "en": "Do you want to eat lunch or dinner later?",
+    "ar": "هَلْ تُرِيدُ أَنْ تَتَنَاوَلَ الْغَدَاء أَوِ الْعَشَاء لَاحِقًا؟"
+  },
+  {
+    "id": "mosa-m33-s7-s2",
+    "en": "Yes, let's go to a restaurant with our friends for dinner.",
+    "ar": "نَعَم، دَعْنَا نَذْهَبْ إِلَى مَطْعَم مَعَ أَصْدِقَائِنَا لِتَنَاوُلِ الْعَشَاء."
+  },
+  {
+    "id": "mosa-m33-s7-s3",
+    "en": "The chef at Amal is excellent.",
+    "ar": "الطَّبَّاخ فِي مَطْعَم أَمَل مُمْتَاز."
+  },
+  {
+    "id": "mosa-m33-s7-s4",
+    "en": "Their food is spicy.",
+    "ar": "طَعَامُهُمْ حَارّ."
+  },
+  {
+    "id": "mosa-m33-s8-s1",
+    "en": "They have soy options for vegetarians and vegans.",
+    "ar": "عِنْدَهُمْ خِيَارَات مِنَ الصُّويَا لِلنَّبَاتِيِّين وَالنَّبَاتِيِّين الصِّرْف."
+  },
+  {
+    "id": "mosa-m33-s8-s2",
+    "en": "They have a menu for individuals with gluten, wheat, and other intolerances.",
+    "ar": "عِنْدَهُمْ قَائِمَة طَعَام لِلْأَشْخَاص الَّذِينَ يُعَانُونَ مِنْ عَدَمِ تَحَمُّلِ الْغُلُوتِين أَوِ الْقَمْح أَوْ مَوَادّ أُخْرَى."
+  },
+  {
+    "id": "mosa-m33-s8-s3",
+    "en": "My friend is allergic to peanuts and tree nuts.",
+    "ar": "صَدِيقِي عِنْدَهُ حَسَاسِيَّة مِنَ الْفُول السُّودَانِيّ وَالْمُكَسَّرَات الشَّجَرِيَّة."
+  },
+  {
+    "id": "mosa-m33-s8-s4",
+    "en": "Their menu will say if the dish contains nuts, dairy products, or shellfish.",
+    "ar": "سَتُوَضِّحُ قَائِمَة الطَّعَام عِنْدَهُمْ مَا إِذَا كَانَ الطَّبَق يَحْتَوِي عَلَى مُكَسَّرَات أَوْ أَلْبَان أَوْ مَحَار."
+  },
+  {
+    "id": "mosa-m33-s8-s5",
+    "en": "I am happy I do not have an allergy!",
+    "ar": "أَنَا سَعِيد لِأَنَّهُ لَيْسَتْ عِنْدِي حَسَاسِيَّة!"
+  },
+  {
+    "id": "mosa-m35-s1-s1",
+    "en": "I work in a small company.",
+    "ar": "أَعْمَلُ فِي شَرِكَة صَغِيرَة."
+  },
+  {
+    "id": "mosa-m35-s1-s2",
+    "en": "Our company has 9 employees.",
+    "ar": "فِي شَرِكَتِنَا تِسْعَة مُوَظَّفِينَ."
+  },
+  {
+    "id": "mosa-m35-s1-s3",
+    "en": "We invest in other businesses.",
+    "ar": "نَسْتَثْمِرُ فِي شَرِكَات أُخْرَى."
+  },
+  {
+    "id": "mosa-m35-s1-s4",
+    "en": "In the past, we invested in regional banks.",
+    "ar": "فِي المَاضِي، اِسْتَثْمَرْنَا فِي بُنُوك إِقْلِيمِيَّة."
+  },
+  {
+    "id": "mosa-m35-s1-s5",
+    "en": "We invest in stocks and bonds.",
+    "ar": "نَسْتَثْمِرُ فِي الأَسْهُم وَالسَّنَدَات."
+  },
+  {
+    "id": "mosa-m35-s1-s6",
+    "en": "I work in finance because I want to make money.",
+    "ar": "أَعْمَلُ فِي التَّمْوِيل لِأَنَّنِي أُرِيدُ أَنْ أَكْسِبَ المَال."
+  },
+  {
+    "id": "mosa-m35-s2-s1",
+    "en": "If I succeed, then I will become a millionaire.",
+    "ar": "إِذَا نَجَحْتُ، فَسَأُصْبِحُ مِلْيُونِيرًا."
+  },
+  {
+    "id": "mosa-m35-s2-s2",
+    "en": "My profession is hard.",
+    "ar": "مِهْنَتِي صَعْبَة."
+  },
+  {
+    "id": "mosa-m35-s2-s3",
+    "en": "The directors I work for are difficult.",
+    "ar": "المُدِيرُونَ الَّذِينَ أَعْمَلُ تَحْتَ إِدَارَتِهِمْ صَعْبُو المِرَاس."
+  },
+  {
+    "id": "mosa-m35-s2-s4",
+    "en": "I have one colleague in the same position.",
+    "ar": "لَدَيَّ زَمِيل وَاحِد فِي نَفْس المَنْصِب."
+  },
+  {
+    "id": "mosa-m35-s2-s5",
+    "en": "We earn the same salary.",
+    "ar": "نَتَقَاضَى نَفْس الرَّاتِب."
+  },
+  {
+    "id": "mosa-m35-s2-s6",
+    "en": "When I interviewed, it was clear there was no formal training.",
+    "ar": "عِنْدَمَا خَضَعْتُ لِمُقَابَلَة العَمَل، كَانَ مِنَ الوَاضِح أَنَّهُ لَا يُوجَدُ تَدْرِيب رَسْمِيّ."
+  },
+  {
+    "id": "mosa-m35-s3-s1",
+    "en": "Fortunately, I do not have much responsibility.",
+    "ar": "لِحُسْنِ الحَظّ، لَيْسَتْ لَدَيَّ مَسْؤُولِيَّات كَثِيرَة."
+  },
+  {
+    "id": "mosa-m35-s3-s2",
+    "en": "The owners are in charge.",
+    "ar": "أَصْحَاب الشَّرِكَة هُمُ المَسْؤُولُونَ."
+  },
+  {
+    "id": "mosa-m35-s3-s3",
+    "en": "However, we share the same goal.",
+    "ar": "لَكِنْ، نَشْتَرِكُ فِي نَفْس الهَدَف."
+  },
+  {
+    "id": "mosa-m35-s3-s4",
+    "en": "We want success for our investors.",
+    "ar": "نُرِيدُ النَّجَاح لِمُسْتَثْمِرِينَا."
+  },
+  {
+    "id": "mosa-m35-s4-s1",
+    "en": "If I fail, I will be fired.",
+    "ar": "إِذَا فَشِلْتُ، فَسَأُفْصَلُ مِنَ العَمَل."
+  },
+  {
+    "id": "mosa-m35-s4-s2",
+    "en": "I hope to retire soon.",
+    "ar": "آمُلُ أَنْ أَتَقَاعَدَ قَرِيبًا."
+  },
+  {
+    "id": "mosa-m35-s4-s3",
+    "en": "I want to submit my resignation.",
+    "ar": "أُرِيدُ أَنْ أُقَدِّمَ اِسْتِقَالَتِي."
+  },
+  {
+    "id": "mosa-m35-s4-s4",
+    "en": "If I leave my job, I will look for another job outside finance.",
+    "ar": "إِذَا تَرَكْتُ وَظِيفَتِي، فَسَأَبْحَثُ عَنْ وَظِيفَة أُخْرَى خَارِجَ التَّمْوِيل."
+  },
+  {
+    "id": "mosa-m35-s4-s5",
+    "en": "If I decide to leave, I will train someone before leaving.",
+    "ar": "إِذَا قَرَّرْتُ أَنْ أُغَادِرَ، فَسَأُدَرِّبُ شَخْصًا قَبْلَ أَنْ أُغَادِرَ."
+  },
+  {
+    "id": "mosa-m35-s5-s1",
+    "en": "If I were foreign like Sean, I would leave the company.",
+    "ar": "لَوْ كُنْتُ أَجْنَبِيًّا مِثْلَ شُون، لَتَرَكْتُ الشَّرِكَة."
+  },
+  {
+    "id": "mosa-m35-s5-s2",
+    "en": "If I had ten million dollars today, I would also leave.",
+    "ar": "لَوْ كَانَ لَدَيَّ عَشَرَةُ مَلَايِينِ دُولَارٍ اليَوْمَ، لَغَادَرْتُ أَيْضًا."
+  },
+  {
+    "id": "mosa-m10-s1-s7",
+    "en": "The University of Michigan is a public university.",
+    "ar": "جَامِعَةُ مِيشِيغَانَ جَامِعَةٌ حُكُومِيَّةٌ."
+  }
+]
