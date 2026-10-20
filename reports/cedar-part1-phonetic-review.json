@@ -1,0 +1,720 @@
+{
+  "scope": "alkitaab1",
+  "model": "gpt-audio-1.5",
+  "method": "Each MP3 is sent as input_audio with the exact target text for audible-ending, added-speech, repetition, and word review.",
+  "total": 790,
+  "reviewed": 20,
+  "finished": false,
+  "summary": {
+    "matches": 15,
+    "needs_review": 5
+  },
+  "issueCounts": {
+    "unwanted_ending": 3,
+    "wrong_word": 2
+  },
+  "requests": 25,
+  "usage": {
+    "prompt_tokens": 8602,
+    "completion_tokens": 1000,
+    "audio_input_tokens": 358
+  },
+  "limitations": "Automated audio-model judgments, not human listening or phonetic certification. Confidence and uncertainty are preserved. No audio or app content changed.",
+  "rows": [
+    {
+      "id": "cv-00c72e34a0fb1fde375e997b",
+      "en": "the weather",
+      "ar": "الطَّقْس",
+      "file": "cv-00c72e34a0fb1fde375e997b.mp3",
+      "signature": "829d28f5f8064acd0ad5d69b34778acefe6e00190c61c3301a14c3543705d4cb",
+      "audioSHA256": "371b0bc1049ea326589c28cb737cc50c022ba137a74c5238d2139822598d22bb",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "at-taqa",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "الطَّقْس",
+            "heard": "at-taqa",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final consonant 's' sound in 'الطَّقْس' was not pronounced; it ended as 'taqa' instead."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 77,
+        "total_tokens": 499,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 77
+        }
+      }
+    },
+    {
+      "id": "cv-00cbb658ee123856ac65b98b",
+      "en": "dinner",
+      "ar": "العَشاء",
+      "file": "cv-00cbb658ee123856ac65b98b.mp3",
+      "signature": "c1b3e8e84c344d6a5cadac2ebf97f1066ee751cc99d4406d9993abf4e3c01550",
+      "audioSHA256": "840abcc8c7e456c46259ef558bfd7d343ebf1aeab4fe23e5769a5575e8d286a4",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "al-ʿashaa",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 421,
+        "completion_tokens": 36,
+        "total_tokens": 457,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 36
+        }
+      }
+    },
+    {
+      "id": "cv-01be31180678706f1140d4cb",
+      "en": "grandfather",
+      "ar": "جَدَّات",
+      "file": "cv-01be31180678706f1140d4cb.mp3",
+      "signature": "8ec8ecdb5f2f1a285a94e3029fd8410679e3fa6789c5fea796e4df7745502570",
+      "audioSHA256": "c8c823481f9e8b3a343ea75e725cdbd463c390c0c798b4b5def6006188c5b061",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "jaddaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 39,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-0200bc2e1a6274b6fad70018",
+      "en": "writing",
+      "ar": "كِتَابَة",
+      "file": "cv-0200bc2e1a6274b6fad70018.mp3",
+      "signature": "5b4108bc9420dba4da3d08565d9e955eb8e8b1187f450979278fa0ac96be3f47",
+      "audioSHA256": "9ab4ff2e6708177626933e3daf159ca36604d29def9f19e49994334faba341cc",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "kitaabah",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation ends with a pausal 'ah' as expected for taa marbuuta."
+      },
+      "usage": {
+        "prompt_tokens": 427,
+        "completion_tokens": 45,
+        "total_tokens": 472,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 45
+        }
+      }
+    },
+    {
+      "id": "cv-025b626cf9a537260a4e0a55",
+      "en": "I prayed",
+      "ar": "صَلَّيْتُ",
+      "file": "cv-025b626cf9a537260a4e0a55.mp3",
+      "signature": "4af7ecb96eb8fb3ead32834e4309ef937b092c3f331cbd04caf9bdb2868fbae3",
+      "audioSHA256": "81b735a525a5052a922b0e33641ec6995a39ce6bc40d8d5b100d4486dd827ba1",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "sallaytu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'صَلَّيْتُ' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 427,
+        "completion_tokens": 49,
+        "total_tokens": 476,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 49
+        }
+      }
+    },
+    {
+      "id": "cv-02f1ccb7c0077ef0f18d9909",
+      "en": "I think; believe that",
+      "ar": "أَظُنُّ أَنَّ",
+      "file": "cv-02f1ccb7c0077ef0f18d9909.mp3",
+      "signature": "a357643f2ef148b90aa34f9b574cc55231c623bae4401ec3b03fb40c63bcbdfd",
+      "audioSHA256": "d44cec33d4be61acb1071910a31f57961221f1bdab53f8aeca36427b5c70728d",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "azunnu anna",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or deviations."
+      },
+      "usage": {
+        "prompt_tokens": 429,
+        "completion_tokens": 41,
+        "total_tokens": 470,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 415,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 41
+        }
+      }
+    },
+    {
+      "id": "cv-04ff9a48730d1219f8975b1d",
+      "en": "male paternal cousin",
+      "ar": "بِنْت عَمّ",
+      "file": "cv-04ff9a48730d1219f8975b1d.mp3",
+      "signature": "faafb22aa8c0848b8195f137b7c9475279b07c11ca478c6240e1632904d925ec",
+      "audioSHA256": "e8b2fb191b2e7cd904fb20b04b7f91353a5f80adff01874c3a7063341da024eb",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "bint 3amm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or additions."
+      },
+      "usage": {
+        "prompt_tokens": 431,
+        "completion_tokens": 42,
+        "total_tokens": 473,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 18,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 42
+        }
+      }
+    },
+    {
+      "id": "cv-1661d988c73097d3c2563d7d",
+      "en": "relative",
+      "ar": "أَقَارِب",
+      "file": "cv-1661d988c73097d3c2563d7d.mp3",
+      "signature": "26d48e678af4d9bd061c77d2c7bc8030456f87a0f15aecd64552f1034234c440",
+      "audioSHA256": "ceeb79d2d0c2dabc7684e8723e618fda5efb23a9f041ef11ad8ffe712ff77c23",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "aqaarib",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 423,
+        "completion_tokens": 33,
+        "total_tokens": 456,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 33
+        }
+      }
+    },
+    {
+      "id": "cv-18d63a480730a2e00d731c09",
+      "en": "husband",
+      "ar": "زَوْج",
+      "file": "cv-18d63a480730a2e00d731c09.mp3",
+      "signature": "1561ed074fb2756f723f5d497d9c68ac3fda83912e7620d7a1015dad9e36441c",
+      "audioSHA256": "bca5f06f858e4017b71b719d3086be7d6e3ae738318b752f4ef4e558010d583d",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "zawj",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'زَوْج' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 425,
+        "completion_tokens": 39,
+        "total_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-34857ddaf7893af82b1ed740",
+      "en": "law, as a field of study",
+      "ar": "الحُقُوق",
+      "file": "cv-34857ddaf7893af82b1ed740.mp3",
+      "signature": "944c30671cf38e8aee10aa6722055201529d75d1f8d33b7f3bffb9feacc77b3f",
+      "audioSHA256": "1100e7caa094d4117e8080c9ff6a49b660af43ab5c33a2e09f2410c03995fd52",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "al-huquuq",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 425,
+        "completion_tokens": 35,
+        "total_tokens": 460,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 35
+        }
+      }
+    },
+    {
+      "id": "cv-40ad915f6a30ac5742ad5078",
+      "en": "relative",
+      "ar": "قَرِيبَة",
+      "file": "cv-40ad915f6a30ac5742ad5078.mp3",
+      "signature": "4e4290dad0ce187601784bde7cbaf8bf41000f8605a1a643ed162a459f729213",
+      "audioSHA256": "d17e8ba0db05c4c5b14767fe9abea64fef46fcd134d059f0327856d6640a521d",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "qariiba",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'قَرِيبَة' with a pausal ending."
+      },
+      "usage": {
+        "prompt_tokens": 442,
+        "completion_tokens": 40,
+        "total_tokens": 482,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 30,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-633e643be5e939852cabe1e0",
+      "en": "male paternal cousin",
+      "ar": "اِبْن عَمّ",
+      "file": "cv-633e643be5e939852cabe1e0.mp3",
+      "signature": "11651216bf5f8931bb5f42c10a013d2b782a21c645144d22f354071263c2104b",
+      "audioSHA256": "1ffa668bdaed797aac9a905e96f8e4b257778fe7b231f5484bd3455bd2500f77",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "ibnu 3amm",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "ابن",
+            "heard": "ibnu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final 'u' vowel to 'ibn', which should end without a vowel."
+      },
+      "usage": {
+        "prompt_tokens": 428,
+        "completion_tokens": 80,
+        "total_tokens": 508,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 80
+        }
+      }
+    },
+    {
+      "id": "cv-647899124cf18326f6d37885",
+      "en": "anthropology",
+      "ar": "عِلْم الإِنْسَان",
+      "file": "cv-647899124cf18326f6d37885.mp3",
+      "signature": "01eaf7a1fd3d7a4fd4a66e7bc18e36fb9a81797b4655e2a6f90b44f579e553c8",
+      "audioSHA256": "6cf733b8f02f113354dcda73b19679720158dea82fd199c595ac88f11e57be13",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "ʿilm al-insān",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 479,
+        "completion_tokens": 37,
+        "total_tokens": 516,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 64,
+          "text_tokens": 415,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 37
+        }
+      }
+    },
+    {
+      "id": "cv-69eb601e409e4f000ecd82c4",
+      "en": "husband",
+      "ar": "أَزْوَاج",
+      "file": "cv-69eb601e409e4f000ecd82c4.mp3",
+      "signature": "a05d2adb8cf95cca93fecaec21d16f732446caa5fe500f66915e567b5d12e044",
+      "audioSHA256": "0dba1c26f2ecde430f63d19b40300807f3b35c1590acc9de10ce1af8a579af16",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "az",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "أَزْوَاج",
+            "heard": "az",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The recording only contains 'az' and is missing the rest of the target word 'awaj'."
+      },
+      "usage": {
+        "prompt_tokens": 436,
+        "completion_tokens": 78,
+        "total_tokens": 514,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 23,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 78
+        }
+      }
+    },
+    {
+      "id": "cv-6dd67cf13e6e30e23ec49b3a",
+      "en": "male paternal cousin",
+      "ar": "بَنَات عَمّ",
+      "file": "cv-6dd67cf13e6e30e23ec49b3a.mp3",
+      "signature": "b39515607990b4ce493bc0974e8c3072716107e70f605f1db2dac2ffc7b668b6",
+      "audioSHA256": "15614bb809f632d07a3d1dd9f06c283a33cdb6c5eca4893654d2bb0100d40661",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "banaat 3amm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or speech."
+      },
+      "usage": {
+        "prompt_tokens": 430,
+        "completion_tokens": 43,
+        "total_tokens": 473,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 17,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 43
+        }
+      }
+    },
+    {
+      "id": "cv-a357b6c24b926ad0f9627222",
+      "en": "relative",
+      "ar": "قَرِيبَات",
+      "file": "cv-a357b6c24b926ad0f9627222.mp3",
+      "signature": "bc37dd531f1649b691c233712a72eca938174550cdd7e410a1d84b4b85ab9933",
+      "audioSHA256": "5ee88e3d340638c280b35bb8bbe05e873a3bbbc4a449886c8572681da58f22b4",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "qariibatu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "قَرِيبَات",
+            "heard": "qariibatu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final word was pronounced with an extra -u vowel at the end, which is not in the target."
+      },
+      "usage": {
+        "prompt_tokens": 426,
+        "completion_tokens": 73,
+        "total_tokens": 499,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 73
+        }
+      }
+    },
+    {
+      "id": "cv-bf5a9cedb34cb64ec554a95a",
+      "en": "male paternal cousin",
+      "ar": "أَبْنَاء عَمّ",
+      "file": "cv-bf5a9cedb34cb64ec554a95a.mp3",
+      "signature": "1336ed50ee682e6268005405800d436ca40aa9ff631ffddf5e5a89ab22cc0dc9",
+      "audioSHA256": "85f0384842b0c29a10e7fb275e2ed75ae16c76a389db8cda1a161aa266351f7c",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "abnaaʔu ʕamm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with the final damma on 'abnaaʔu' and a pausal 'ʕamm'."
+      },
+      "usage": {
+        "prompt_tokens": 433,
+        "completion_tokens": 56,
+        "total_tokens": 489,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 18,
+          "text_tokens": 415,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 56
+        }
+      }
+    },
+    {
+      "id": "cv-c089085658f182859f8254d5",
+      "en": "relative",
+      "ar": "قَرِيب",
+      "file": "cv-c089085658f182859f8254d5.mp3",
+      "signature": "74e32d975e7363641f60af6680b624bdfad57c7598b774a8a24d0c6039f8b2d1",
+      "audioSHA256": "842f22e45ecc7b09f73cd45511740c42a547ea9f617e8fc89cc43a26456330e0",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "qarīb",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 423,
+        "completion_tokens": 32,
+        "total_tokens": 455,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 32
+        }
+      }
+    },
+    {
+      "id": "cv-eacadda043abf62c9869b209",
+      "en": "husband",
+      "ar": "زَوْجَات",
+      "file": "cv-eacadda043abf62c9869b209.mp3",
+      "signature": "8c2db626292a020965d168812d683c821a9d46668f14ddd7118904ae4305e481",
+      "audioSHA256": "0293ec822365e4c5be9772e3ce56c5c5670c693038be4562249c198dcc897c0f",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "zawjaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'زَوْجَات' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 427,
+        "completion_tokens": 42,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 42
+        }
+      }
+    },
+    {
+      "id": "cv-efdc450b8c1e54e108462258",
+      "en": "husband",
+      "ar": "زَوْجَة",
+      "file": "cv-efdc450b8c1e54e108462258.mp3",
+      "signature": "c3b9ddb6188c88ca03992d42db69bd6f02dbd743815fbf2047d4b5bdf86c9572",
+      "audioSHA256": "02fa16d8bd6deabaf60df21f288c441d62ceb99389ed769714fa17aa58512847",
+      "priority": true,
+      "review": {
+        "heard_phonetic": "zawjatun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "زَوْجَة",
+            "heard": "zawjatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a tanween 'un' ending, which is not present in the target."
+      },
+      "usage": {
+        "prompt_tokens": 426,
+        "completion_tokens": 83,
+        "total_tokens": 509,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 83
+        }
+      }
+    }
+  ]
+}
