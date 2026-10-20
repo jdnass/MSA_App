@@ -45,19 +45,19 @@
 <nav class="bottom" id="bottom"></nav>
 <div class="sheet-backdrop" id="backdrop"></div><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Study options"></section>
 <div class="grammar-note-backdrop" id="grammarNoteBackdrop" onclick="closeGrammarNote()"></div><section class="grammar-note-dialog" id="grammarNoteDialog" role="dialog" aria-modal="true" aria-labelledby="grammarNoteTitle"></section>
-<script src="./alif-baa-vocab.js?v=82"></script>
-<script src="./madina-book1-vocab.js?v=82"></script>
-<script src="./madina-book2-vocab.js?v=82"></script>
-<script src="./dli-basic-data.js?v=82"></script>
-<script src="./alkitaab-chapters-5-13.js?v=82"></script>
-<script src="./alkitaab-part2-chapters-1-7.js?v=82"></script>
-<script src="./mango-chapters-4-7.js?v=82"></script>
-<script src="./mango-chapters-8-10.js?v=82"></script>
-<script src="./mango-chapter-11.js?v=82"></script>
-<script src="./mango-chapter-12.js?v=82"></script>
-<script src="./mango-chapters-13-15.js?v=82"></script>
-<script src="./mango-chapters-16-20.js?v=82"></script>
-<script src="./verb-practice-data.js?v=82"></script>
+<script src="./alif-baa-vocab.js?v=83"></script>
+<script src="./madina-book1-vocab.js?v=83"></script>
+<script src="./madina-book2-vocab.js?v=83"></script>
+<script src="./dli-basic-data.js?v=83"></script>
+<script src="./alkitaab-chapters-5-13.js?v=83"></script>
+<script src="./alkitaab-part2-chapters-1-7.js?v=83"></script>
+<script src="./mango-chapters-4-7.js?v=83"></script>
+<script src="./mango-chapters-8-10.js?v=83"></script>
+<script src="./mango-chapter-11.js?v=83"></script>
+<script src="./mango-chapter-12.js?v=83"></script>
+<script src="./mango-chapters-13-15.js?v=83"></script>
+<script src="./mango-chapters-16-20.js?v=83"></script>
+<script src="./verb-practice-data.js?v=83"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -1944,6 +1944,12 @@ function isCompanionVerbForm(word){
   if(word.verbGroup)return word.id!==word.verbGroup;
   return word.collectionId==='mango-msa'&&/-form-\d+$/.test(word.id);
 }
+// Keep source-listed plurals; hide only supplemental broken-plural cards.
+function isSupplementalBrokenPlural(word){
+  if(word.sourceOrders?.length)return false;
+  if(!/broken plural/i.test(word.pos||''))return false;
+  return Boolean(word.singularId||/(?:-bp|-plural)$/.test(word.id));
+}
 let savedFilters={collections:[],chapters:[],difficulties:[],verbFamilies:[],brokenPlurals:[]};try{let parsed=JSON.parse(localStorage.getItem('mosa-vocab-filters')||'{}');for(let key of Object.keys(savedFilters))if(Array.isArray(parsed[key]))savedFilters[key]=parsed[key]}catch(e){}
 const collectionNameToId=name=>COLLECTIONS.find(collection=>collection.name===name)?.id||name;
 savedFilters.collections=savedFilters.collections.map(collectionNameToId).filter(id=>COLLECTIONS.some(collection=>collection.id===id));
@@ -2014,7 +2020,7 @@ function jumpConversation(value){let cards=currentConversationChapter().cards;st
 function conversationStudy(){let chapter=currentConversationChapter(),d=currentConversation(),total=chapter.cards.length,slider=`<div class="scrubber"><input type="range" min="1" max="${total}" value="${state.index+1}" onchange="jumpConversation(this.value)" aria-label="Card position"><div class="scrubber-labels"><span>1</span><span>${total}</span></div></div>`;app.innerHTML=header(chapter.title,'',"state.view='conversations';state.lesson=false;stopAudio();render()",studyHeaderActions())+conversationCard(d)+slider+`<div class="actions"><button class="secondary" onclick="conversationStep(1)">Skip</button><button class="primary" onclick="speakConversation()">Replay</button></div>`;enableSwipe(conversationStep);let autoKey=`conversation:${chapter.id}:${d.id}`;if(!state.hide.audio&&state.lastAutoKey!==autoKey){state.lastAutoKey=autoKey;setTimeout(speakConversation,180)}}
 function overview(){let c=currentChapterData(),grammar=c.grammar||[];app.innerHTML=header(currentChapterLabel(),'',"state.view=selectedCollection().chapters[state.chapter].subchapters?'subchapters':'chapters';render()")+`<section class="overview"><div class="book">📖</div><h2>${currentChapterLabel()}</h2><p>${c.subtitle}</p><div class="stats"><div class="stat"><b>${c.vocab.length}</b><small>Vocabulary Words</small></div><div class="stat"><b>${c.sentences.length}</b><small>Sample Sentences</small></div></div><button class="primary" style="width:100%" onclick="startLesson()">▶ &nbsp; Start Lesson</button><div class="section-buttons" aria-label="Lesson sections"><button class="section-button" onclick="startLesson('vocab')" ${c.vocab.length?'':'disabled aria-disabled="true"'}>Vocabulary<span class="section-ar" lang="ar">المُفْرَدات</span></button><button class="section-button" onclick="startLesson('grammar')" ${grammar.length?'':'disabled aria-disabled="true"'}>Grammar<span class="section-ar" lang="ar">القَواعِد</span></button><button class="section-button" onclick="startLesson('sentence')" ${c.sentences.length?'':'disabled aria-disabled="true"'}>Sentences<span class="section-ar" lang="ar">الجُمَل</span></button></div><div class="learn"><strong>What you’ll learn:</strong><ul>${c.learn.map(x=>`<li>${x}</li>`).join('')}</ul></div></section>`}
 function startLesson(kind=currentChapterData().vocab.length?'vocab':(currentChapterData().grammar||[]).length?'grammar':'sentence'){if(!sectionList(kind).length)return;state.lesson=true;state.kind=kind;state.index=0;state.view='study';state.lastAutoKey=null;render()}
-function filteredVocabulary(){let f=state.filters;return ALL_V.filter(word=>{if(f.verbFamilies.has('original')&&isCompanionVerbForm(word))return false;if(f.brokenPlurals.has('source')&&!isSourceBrokenPlural(word))return false;if(f.collections.size&&!f.collections.has(word.collectionId))return false;let chapters=f.collections.size?[...f.chapters].filter(key=>key.startsWith(`${word.collectionId}:`)):[];if(chapters.length&&!chapters.includes(`${word.collectionId}:${word.chapter}`))return false;return !f.difficulties.size||f.difficulties.has(state.ratings[word.id]||3)})}
+function filteredVocabulary(){let f=state.filters;return ALL_V.filter(word=>{if(f.verbFamilies.has('original')&&isCompanionVerbForm(word))return false;if(f.brokenPlurals.has('source')&&isSupplementalBrokenPlural(word))return false;if(f.collections.size&&!f.collections.has(word.collectionId))return false;let chapters=f.collections.size?[...f.chapters].filter(key=>key.startsWith(`${word.collectionId}:`)):[];if(chapters.length&&!chapters.includes(`${word.collectionId}:${word.chapter}`))return false;return !f.difficulties.size||f.difficulties.has(state.ratings[word.id]||3)})}
 function sectionList(kind=state.kind,c=currentChapterData()){return kind==='vocab'?c.vocab:kind==='grammar'?(c.grammar||[]):c.sentences}
 function currentList(){if(!state.lesson)return filteredVocabulary();return sectionList()}
 function current(){return currentList()[state.index]}
@@ -2068,7 +2074,7 @@ function speak(){if(state.hide.audio||state.kind==='grammar')return;let d=curren
 function openSheet(){let rows=[['en','◉','Hide English'],['ar','◉','Hide Arabic'],['tr','Tᵀ','Hide Transliteration'],['harakat','حَ','Hide Harakat'],['audio',speakerIcon(),'Hide Audio']];sheet.innerHTML=`<div class="handle"></div><h3>Study Options</h3>${rows.map(([k,ic,l])=>`<div class="option">${ic?`<span>${ic}</span>`:''}${l}<button type="button" class="switch ${state.hide[k]?'on':''}" onclick="toggle('${k}')" aria-label="${l}" aria-pressed="${state.hide[k]}"></button></div>`).join('')}${!state.lesson?`<h3>Order</h3><div class="order"><button class="${state.order==='chronological'?'active':''}" onclick="setOrder('chronological')">Chronological</button><button class="${state.order==='shuffle'?'active':''}" onclick="setOrder('shuffle')">⤨ Shuffle</button></div>`:''}`;sheet.classList.add('open');backdrop.classList.add('open')}
 function filterChip(type,value,label=value){let active=state.filters[type].has(value),encoded=String(value).replace(/'/g,"\\'");return `<button type="button" class="filter-chip ${active?'active':''}" onclick="toggleFilter('${type}','${encoded}')" aria-pressed="${active}">${label}</button>`}
 function populatedCollections(){return COLLECTIONS.filter(collection=>(collection.vocab?.length||0)>0||Object.values(collection.chapters).some(chapter=>chapter.vocab.length))}
-function openFilterSheet(){let selected=populatedCollections().filter(collection=>state.filters.collections.has(collection.id)&&Object.keys(collection.chapters).length);let chapterSections=selected.length?selected.map(collection=>`<div class="filter-section"><h4>${collection.name}</h4><div class="filter-grid">${Object.entries(collection.chapters).filter(([,chapter])=>chapter.vocab.length).map(([number])=>filterChip('chapters',`${collection.id}:${number}`,chapterDisplayLabel(collection.id,number))).join('')}</div></div>`).join(''):`<p class="filter-prompt">Select a collection with chapters to filter by chapter.</p>`;sheet.innerHTML=`<div class="handle"></div><h3>Filter Vocabulary</h3><div class="filter-section"><h4>Collections</h4><div class="filter-grid">${populatedCollections().map(collection=>filterChip('collections',collection.id,collection.name)).join('')}</div></div><div class="filter-section"><h3>Chapters</h3>${chapterSections}</div><div class="filter-section"><h4>Difficulty</h4><div class="filter-grid">${[1,2,3,4,5].map(number=>filterChip('difficulties',number,String(number))).join('')}</div></div><div class="filter-section"><h4>Verb families</h4><div class="filter-grid">${filterChip('verbFamilies','original','Original vocabulary only')}${filterChip('brokenPlurals','source','Broken plurals')}</div><p class="filter-prompt">Original vocabulary only hides added verb forms. Broken plurals shows only plural words explicitly included in the course vocabulary, excluding supplemental plurals.</p></div><div class="filter-footer"><button class="secondary" onclick="clearFilters()">Clear All</button><button class="primary" onclick="closeSheet()">Done · ${filteredVocabulary().length} words</button></div>`;sheet.classList.add('open');backdrop.classList.add('open')}
+function openFilterSheet(){let selected=populatedCollections().filter(collection=>state.filters.collections.has(collection.id)&&Object.keys(collection.chapters).length);let chapterSections=selected.length?selected.map(collection=>`<div class="filter-section"><h4>${collection.name}</h4><div class="filter-grid">${Object.entries(collection.chapters).filter(([,chapter])=>chapter.vocab.length).map(([number])=>filterChip('chapters',`${collection.id}:${number}`,chapterDisplayLabel(collection.id,number))).join('')}</div></div>`).join(''):`<p class="filter-prompt">Select a collection with chapters to filter by chapter.</p>`;sheet.innerHTML=`<div class="handle"></div><h3>Filter Vocabulary</h3><div class="filter-section"><h4>Collections</h4><div class="filter-grid">${populatedCollections().map(collection=>filterChip('collections',collection.id,collection.name)).join('')}</div></div><div class="filter-section"><h3>Chapters</h3>${chapterSections}</div><div class="filter-section"><h4>Difficulty</h4><div class="filter-grid">${[1,2,3,4,5].map(number=>filterChip('difficulties',number,String(number))).join('')}</div></div><div class="filter-section"><h4>Verb families</h4><div class="filter-grid">${filterChip('verbFamilies','original','Original vocabulary only')}${filterChip('brokenPlurals','source','Broken plurals')}</div><p class="filter-prompt">Original vocabulary only hides added verb forms. Broken plurals hides supplemental broken-plural cards we added, keeping the rest of your vocabulary and plurals explicitly listed in the courses.</p></div><div class="filter-footer"><button class="secondary" onclick="clearFilters()">Clear All</button><button class="primary" onclick="closeSheet()">Done · ${filteredVocabulary().length} words</button></div>`;sheet.classList.add('open');backdrop.classList.add('open')}
 function saveFilters(){localStorage.setItem('mosa-vocab-filters',JSON.stringify({collections:[...state.filters.collections],chapters:[...state.filters.chapters],difficulties:[...state.filters.difficulties],verbFamilies:[...state.filters.verbFamilies],brokenPlurals:[...state.filters.brokenPlurals]}))}
 function toggleFilter(type,value){let parsed=type==='difficulties'?Number(value):value,set=state.filters[type],preferred=current()?.id;if(set.has(parsed)){set.delete(parsed);if(type==='collections')for(let chapter of [...state.filters.chapters])if(chapter.startsWith(`${parsed}:`))state.filters.chapters.delete(chapter)}else set.add(parsed);saveFilters();let list=filteredVocabulary(),match=list.findIndex(word=>word.id===preferred);state.index=match>=0?match:0;resetShuffle();openFilterSheet()}
 function clearFilters(renderStudy=false){for(let set of Object.values(state.filters))set.clear();saveFilters();let saved=ALL_V[state.vocabIndex];state.index=Math.max(0,filteredVocabulary().findIndex(word=>saved&&word.id===saved.id));resetShuffle();if(renderStudy){closeSheet(false);render()}else openFilterSheet()}
@@ -2079,8 +2085,8 @@ function setOrder(o){if(state.order!==o){state.order=o;if(o==='shuffle')resetShu
 function empty(){app.innerHTML=header(state.tab[0].toUpperCase()+state.tab.slice(1),'',state.tab==='lessons'?"state.view='collections';render()":'')+`<section class="empty"><div><div class="cone">🚧</div><h2>In Progress</h2><p>This section is currently under construction. Check back soon!</p></div></section>`}
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
   </script>
-<script src="./broken-plural-practice.js?v=82"></script>
-<script src="./verb-practice.js?v=82"></script>
+<script src="./broken-plural-practice.js?v=83"></script>
+<script src="./verb-practice.js?v=83"></script>
 <script>render();</script>
 </body>
 </html>
