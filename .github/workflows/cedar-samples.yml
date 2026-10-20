@@ -1,0 +1,39 @@
+name: Cedar pronunciation samples
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cedar-samples
+  cancel-in-progress: false
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install WebSocket client
+        run: python -m pip install websocket-client==1.8.0
+      - name: Validate three source sentences
+        run: python scripts/cedar_samples.py --dry-run
+      - name: Generate three Cedar samples
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/cedar_samples.py
+      - name: Save audio and usage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mosa-cedar-samples
+          path: cedar-samples/
+          if-no-files-found: ignore
+          retention-days: 30
