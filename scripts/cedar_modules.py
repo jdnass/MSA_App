@@ -46,7 +46,9 @@ def normalized(text):
 def one(entry, key):
     record = cedar_samples.generate(entry, key)
     if not record["transcript"] or normalized(record["transcript"]) != normalized(entry["ar"]):
-        # Keep the recording and transcript for review, but do not activate it.
+        # Keep the transcript for diagnosis; do not activate a differing reading.
+        (cedar_samples.OUT / (entry["id"] + ".json")).write_text(json.dumps(record, ensure_ascii=False, indent=2))
+        print("Transcript mismatch " + entry["id"] + ": " + json.dumps(record["transcript"], ensure_ascii=False), flush=True)
         raise ValueError("Transcript differs from source: " + entry["id"])
     wav = cedar_samples.OUT / record["file"]
     target = DEST / (entry["id"] + ".mp3")
@@ -90,7 +92,7 @@ def main():
     failures = []
     with tempfile.TemporaryDirectory() as temporary:
         cedar_samples.OUT = Path(temporary)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:
             tasks = {pool.submit(one, s, key): s for s in pending}
             for task in concurrent.futures.as_completed(tasks):
                 entry = tasks[task]
@@ -101,7 +103,8 @@ def main():
                     print("Saved " + entry["id"] + " (" + str(record["seconds"]) + "s)", flush=True)
                 except Exception as error:
                     # No HTTP headers or key-bearing exception objects are printed.
-                    print("Failed " + entry["id"] + ": " + type(error).__name__, flush=True)
+                    detail = str(error) if type(error) in (RuntimeError, ValueError) else type(error).__name__
+                    print("Failed " + entry["id"] + ": " + detail, flush=True)
                     failures.append(entry["id"])
         # Save rejected transcripts/recordings to the workflow artifact for diagnosis.
         if failures:

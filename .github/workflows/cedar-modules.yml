@@ -1,4 +1,5 @@
 name: Generate MoSA Modules Cedar audio
+# Resume missing recordings sequentially after the initial bulk pass.
 
 on:
   workflow_dispatch:
