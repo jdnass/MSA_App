@@ -1,0 +1,5111 @@
+{
+  "summary": {
+    "total": 790,
+    "blindReviewed": 790,
+    "blindFailed": 0,
+    "blindUncertain": 108,
+    "candidateRecordings": 161,
+    "possibleUnmarkedEndingRecordings": 76,
+    "possibleAddedSpeechOrRepetitionRecordings": 6,
+    "targetAwareFlaggedRecordings": 87,
+    "targetAwareUnavailable": 8
+  },
+  "limitations": "Automated direct-audio reviews, not human listening or phonetic certification. Target-aware and blind reviewers can disagree or mishear. Counts are review candidates, not confirmed error counts. No app or audio changes.",
+  "rows": [
+    {
+      "id": "cv-00c72e34a0fb1fde375e997b",
+      "en": "the weather",
+      "ar": "الطَّقْس",
+      "file": "cv-00c72e34a0fb1fde375e997b.mp3",
+      "audioSHA256": "371b0bc1049ea326589c28cb737cc50c022ba137a74c5238d2139822598d22bb",
+      "blind_heard": "al-taqā",
+      "blind_arabic": "اَلتَّقَا",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "الطَّقْس",
+              "heard": "at-taqa",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "at-taqa",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "الطَّقْس",
+            "heard": "at-taqa",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final consonant 's' sound in 'الطَّقْس' was not pronounced; it ended as 'taqa' instead."
+      }
+    },
+    {
+      "id": "cv-00cbb658ee123856ac65b98b",
+      "en": "dinner",
+      "ar": "العَشاء",
+      "file": "cv-00cbb658ee123856ac65b98b.mp3",
+      "audioSHA256": "840abcc8c7e456c46259ef558bfd7d343ebf1aeab4fe23e5769a5575e8d286a4",
+      "blind_heard": "al-ʿashāʾu",
+      "blind_arabic": "ٱلْعَشَاءُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "العَشاء",
+          "heard": "al-ʿashāʾu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-ʿashaa",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-04e9e13fc5110a260c858b43",
+      "en": "work",
+      "ar": "العَمَل",
+      "file": "cv-04e9e13fc5110a260c858b43.mp3",
+      "audioSHA256": "965fb6643f784946fd9752fbb1ae382bf9930166ce6ce2dc01c6a3ca981db58e",
+      "blind_heard": "al-ʿamalu",
+      "blind_arabic": "ٱلْعَمَلُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "العَمَل",
+          "heard": "al-ʿamalu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-ʿamal",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-04ff9a48730d1219f8975b1d",
+      "en": "male paternal cousin",
+      "ar": "بِنْت عَمّ",
+      "file": "cv-04ff9a48730d1219f8975b1d.mp3",
+      "audioSHA256": "e8b2fb191b2e7cd904fb20b04b7f91353a5f80adff01874c3a7063341da024eb",
+      "blind_heard": "bint ʿam",
+      "blind_arabic": "بِنْتْ عَمْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "bint 3amm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or additions."
+      }
+    },
+    {
+      "id": "cv-06a9b80cd2dc158fedbb321b",
+      "en": "family",
+      "ar": "أُسَر",
+      "file": "cv-06a9b80cd2dc158fedbb321b.mp3",
+      "audioSHA256": "1da8a27be5bd13e89a0a7d69ece48e55a4119ff4238213ff8d18e89b48ffd487",
+      "blind_heard": "ʾusara",
+      "blind_arabic": "أُسَرَ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "أُسَر",
+          "heard": "ʾusara",
+          "reviewer_uncertain": true
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "usar",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أُسَر' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-07f692bda7f95a0a1445b7f1",
+      "en": "I graduated",
+      "ar": "تَخَرَّجْتُ",
+      "file": "cv-07f692bda7f95a0a1445b7f1.mp3",
+      "audioSHA256": "e2c41b3afaf08468161fb9108202697f378ac845d9b7d52f9281930e1e7796c2",
+      "blind_heard": "kharrijt(u)",
+      "blind_arabic": "خَرَّجْتُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "تَخَرَّجْتُ",
+              "heard": "takharradju",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "takharradju",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "تَخَرَّجْتُ",
+            "heard": "takharradju",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel was pronounced as 'u' instead of the expected 'tu' ending."
+      }
+    },
+    {
+      "id": "cv-08b7a4d9f3bf5c4cad7fc798",
+      "en": "obtaining; receiving",
+      "ar": "حُصُول",
+      "file": "cv-08b7a4d9f3bf5c4cad7fc798.mp3",
+      "audioSHA256": "e7ccfb19f2d2929dbf27614f391418605bc22963463317c71fe0df4835564bce",
+      "blind_heard": "ḥawṣūlun",
+      "blind_arabic": "حَوصولٌ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "حُصُول",
+              "heard": "husoolun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "husoolun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "حُصُول",
+            "heard": "husoolun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final tanween '-un' which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-0b81542ada7e920f7c5b1bf7",
+      "en": "afternoon",
+      "ar": "بَعْدَ الظُّهْر",
+      "file": "cv-0b81542ada7e920f7c5b1bf7.mp3",
+      "audioSHA256": "ef5d8c1d695a1d85d6861eb150c1f22c28268e37c9576dfcbbc9f27eb27f30aa",
+      "blind_heard": "baʿda ʔal-ẓuhri",
+      "blind_arabic": "بَعْدَ ٱلظُّهْرِ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الظُّهْر",
+          "heard": "ʔal-ẓuhri",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "baʿda ʾaẓ-ẓuhr",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or words."
+      }
+    },
+    {
+      "id": "cv-0b89004ad8aab43a46e9840e",
+      "en": "I found",
+      "ar": "وَجَدْتُ",
+      "file": "cv-0b89004ad8aab43a46e9840e.mp3",
+      "audioSHA256": "658e35933aeb4129f805962dddaabeb5f251b5bcb3572fea1804f48ba615b37c",
+      "blind_heard": "wajadtu",
+      "blind_arabic": "وَجَدْتُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "وَجَدْتُ",
+              "heard": "wajadt",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "wajadt",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "وَجَدْتُ",
+            "heard": "wajadt",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel 'u' in 'wajadtُ' was not clearly pronounced, ending instead in a consonant stop."
+      }
+    },
+    {
+      "id": "cv-0dbc70fb6cd0ce7418956e2a",
+      "en": "I died",
+      "ar": "مُتُّ",
+      "file": "cv-0dbc70fb6cd0ce7418956e2a.mp3",
+      "audioSHA256": "3e0eac3df4e9ece29edd92da1c6fc3f9f3348163772cd50392816bc9575b1906",
+      "blind_heard": "muta muta",
+      "blind_arabic": "مُتَى مُتَى",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مُتُّ",
+              "heard": "muta",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "muta",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مُتُّ",
+            "heard": "muta",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel 'a' was added; the target should end abruptly at 'mut'."
+      }
+    },
+    {
+      "id": "cv-0ec4bf810ca528a08ad4b843",
+      "en": "night",
+      "ar": "اللَّيْل",
+      "file": "cv-0ec4bf810ca528a08ad4b843.mp3",
+      "audioSHA256": "822e46b36f4c27d088ccfc933ae1fdfa681176e87fa6e5406e3862febed625cc",
+      "blind_heard": "al-laylu",
+      "blind_arabic": "اَللَّيْلُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "اللَّيْل",
+          "heard": "al-laylu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-layl",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'اللَّيْل' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-104667e06d12c39c6d4e2cc5",
+      "en": "eating",
+      "ar": "أَكْل",
+      "file": "cv-104667e06d12c39c6d4e2cc5.mp3",
+      "audioSHA256": "0708f9f0faa6d49a84ee3f459395ffde94f1464ca74cac5eb2cd13bd94942da3",
+      "blind_heard": "ʔaklu",
+      "blind_arabic": "أَكْلُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "أَكْل",
+          "heard": "ʔaklu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "akl",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَكْل' with no extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-12fa618866e74c2a63a4654c",
+      "en": "fruits",
+      "ar": "فَواكِه",
+      "file": "cv-12fa618866e74c2a63a4654c.mp3",
+      "audioSHA256": "3bfe8d8afbc81564442094aedcf07d9beac1cc3ebc6164d9c6caa994085a43a5",
+      "blind_heard": "ʔawākihi",
+      "blind_arabic": "أواكِهِ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "فَواكِه",
+              "heard": "fawaakihi",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "fawaakihi",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فَواكِه",
+            "heard": "fawaakihi",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final vowel '-i' which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-13f838d2febc501c2ef74e12",
+      "en": "semester",
+      "ar": "فُصول دِراسيّة",
+      "file": "cv-13f838d2febc501c2ef74e12.mp3",
+      "audioSHA256": "cc70fe06e070feddc82070756889ea782aa7a2a3f8f67a09a6fcfcb4f945f898",
+      "blind_heard": "buṣūlun dirāsiyyatun",
+      "blind_arabic": "بُصُولٌ دِرَاسِيَّةٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "فُصول",
+              "heard": "fusulun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "fusulun dirasiyya",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فُصول",
+            "heard": "fusulun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The first word had an audible tanween '-un' ending which is not in the target."
+      }
+    },
+    {
+      "id": "cv-15a0ffb183a5a0c4daaba325",
+      "en": "appointments",
+      "ar": "مَوَاعِيد",
+      "file": "cv-15a0ffb183a5a0c4daaba325.mp3",
+      "audioSHA256": "c92aa68e33fa5b025015c40c4a16bc530daa165a14035c112e74953f7d23abd7",
+      "blind_heard": "mawāʿīdu",
+      "blind_arabic": "مَواعيدُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "مَوَاعِيد",
+          "heard": "mawāʿīdu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mawaa'id",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-1661d988c73097d3c2563d7d",
+      "en": "relative",
+      "ar": "أَقَارِب",
+      "file": "cv-1661d988c73097d3c2563d7d.mp3",
+      "audioSHA256": "ceeb79d2d0c2dabc7684e8723e618fda5efb23a9f041ef11ad8ffe712ff77c23",
+      "blind_heard": "ʔaqāribu",
+      "blind_arabic": "أقارِبُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "أَقَارِب",
+          "heard": "ʔaqāribu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "aqaarib",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-18d63a480730a2e00d731c09",
+      "en": "husband",
+      "ar": "زَوْج",
+      "file": "cv-18d63a480730a2e00d731c09.mp3",
+      "audioSHA256": "bca5f06f858e4017b71b719d3086be7d6e3ae738318b752f4ef4e558010d583d",
+      "blind_heard": "zawju",
+      "blind_arabic": "زَوْجُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "زَوْج",
+          "heard": "zawju",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "zawj",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'زَوْج' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-198daa9ca598b74a13df22a8",
+      "en": "staying up late",
+      "ar": "سَهَر",
+      "file": "cv-198daa9ca598b74a13df22a8.mp3",
+      "audioSHA256": "8253cc328fb2d8be11e2839fa0d6dcde50ac238e7302b847acb610d4d6ff5a2d",
+      "blind_heard": "sahara",
+      "blind_arabic": "سَهَرَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "سَهَر",
+          "heard": "sahara",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "sahar",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'sahar' with no extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-19e5b3126c5dd210f03ebfaf",
+      "en": "people",
+      "ar": "النَّاس",
+      "file": "cv-19e5b3126c5dd210f03ebfaf.mp3",
+      "audioSHA256": "e1b2b85630e1f3d49fd754a7c671353e2573336a94a0aaf94815769921914b15",
+      "blind_heard": "al-naasu",
+      "blind_arabic": "ٱلنّاسُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "النَّاس",
+          "heard": "al-naasu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "an-naas",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'النَّاس' with no extra endings or words."
+      }
+    },
+    {
+      "id": "cv-1a766fa5b62a94525ff1049f",
+      "en": "mother",
+      "ar": "أُمَّهات",
+      "file": "cv-1a766fa5b62a94525ff1049f.mp3",
+      "audioSHA256": "3195e6c5e14a3834b38bbebe99439fac20eba08dd0ab5696f1e2cc6daaa6f73a",
+      "blind_heard": "ʔaːh, ʔummahaːt",
+      "blind_arabic": "آه، أمهاتْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_added_speech",
+          "heard": "آه، أمهاتْ",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ummahaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-1b6a6494a62307620561f903",
+      "en": "feeling",
+      "ar": "شُعُور",
+      "file": "cv-1b6a6494a62307620561f903.mp3",
+      "audioSHA256": "c337801a6ff48e996de4d054ed4518aab3e9deee5270e89c16a611347743899f",
+      "blind_heard": "shuʿūru",
+      "blind_arabic": "شُعُورُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "شُعُور",
+          "heard": "shuʿūru",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "shuʕuur",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'شُعُور' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-1becaa8077da14a15abd5d31",
+      "en": "I refused",
+      "ar": "رَفَضْتُ",
+      "file": "cv-1becaa8077da14a15abd5d31.mp3",
+      "audioSHA256": "e705877ac954b3df2cd3c04bbc8cac20ea21a897968f581b094ae1e5989e63a0",
+      "blind_heard": "rafaʿtu",
+      "blind_arabic": "رَفَعْتُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "رَفَضْتُ",
+              "heard": "rafadat",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "rafadat tu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "رَفَضْتُ",
+            "heard": "rafadat",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an extra 'a' sound, making it 'rafadat' instead of 'rafadt'."
+      }
+    },
+    {
+      "id": "cv-1d086d7b14b9a2297a6f8a1d",
+      "en": "crazy",
+      "ar": "مَجْنونة",
+      "file": "cv-1d086d7b14b9a2297a6f8a1d.mp3",
+      "audioSHA256": "f51bdcd6abc4e8e6182e3b6dc7522dcf73288ee6c486b496cd6c565843ea89e0",
+      "blind_heard": "majnūna",
+      "blind_arabic": "مَجْنُونَةَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مَجْنونة",
+              "heard": "majnun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "majnun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مَجْنونة",
+            "heard": "majnun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final 'a' sound of 'مَجْنونة' was not pronounced; it ended abruptly."
+      }
+    },
+    {
+      "id": "cv-1e6568de96193571180862f8",
+      "en": "restaurants",
+      "ar": "مَطَاعِم",
+      "file": "cv-1e6568de96193571180862f8.mp3",
+      "audioSHA256": "adfa1f9dd60573ee64c8fbfef24c2ed000fcc935036bc6bc30b4ddeabb6b6cd2",
+      "blind_heard": "maṭʿam",
+      "blind_arabic": "مَطْعَمْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "مَطَاعِم",
+              "heard": "mataam",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mataam",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "مَطَاعِم",
+            "heard": "mataam",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The plural form 'mataaim' was expected, but the singular 'mataam' was pronounced."
+      }
+    },
+    {
+      "id": "cv-20868a4b20a504fbac03e49b",
+      "en": "I speak; converse",
+      "ar": "أَتَكَلَّمُ",
+      "file": "cv-20868a4b20a504fbac03e49b.mp3",
+      "audioSHA256": "c609f9828355d0c129fae9f3ae19e138afa9dd9e7438f7b72c9b212219bc829f",
+      "blind_heard": "atakallamu",
+      "blind_arabic": "أَتَكَلَّمُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "أَتَكَلَّمُ",
+              "heard": "atakallam",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "atakallam",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "أَتَكَلَّمُ",
+            "heard": "atakallam",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final damma on the verb was not pronounced; it ended in a pause instead."
+      }
+    },
+    {
+      "id": "cv-2115cbc68085ea451e11c297",
+      "en": "relationship",
+      "ar": "عَلاقَة",
+      "file": "cv-2115cbc68085ea451e11c297.mp3",
+      "audioSHA256": "2656560cf67d52295e3734162a92dfb5d9e2c2b50610a0b9509631950bf6c707",
+      "blind_heard": "ʿalā qaṭṭata",
+      "blind_arabic": "عَلَى قَطَّةَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "عَلاقَة",
+              "heard": "ʿalaaqata",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ʿalaaqata",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "عَلاقَة",
+            "heard": "ʿalaaqata",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel '-ta' was pronounced, but the target word should end in a pausal 'a' sound."
+      }
+    },
+    {
+      "id": "cv-21f4af14e72ad621d730b24f",
+      "en": "of course",
+      "ar": "طَبْعًا",
+      "file": "cv-21f4af14e72ad621d730b24f.mp3",
+      "audioSHA256": "447818ad85e98e6ccd3c9d18dd31e56981d9bdefc296456de0e40afcc7333e76",
+      "blind_heard": "qabbā ṭabʿan",
+      "blind_arabic": "قَبَّا طَبْعًا",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_added_speech",
+          "heard": "قَبَّا طَبْعًا",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "tab'an",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'طَبْعًا' with the correct -an ending."
+      }
+    },
+    {
+      "id": "cv-22fa1d6274c39d47479d9a10",
+      "en": "(one) vocabulary word",
+      "ar": "المُفْرَد",
+      "file": "cv-22fa1d6274c39d47479d9a10.mp3",
+      "audioSHA256": "3e7a283eaf6d469d2b26fa2732fad6830e4011fcbaed496b2b9e0776b98a5ea0",
+      "blind_heard": "ah... al-mufrad",
+      "blind_arabic": "أه... المُفرَدْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_added_speech",
+          "heard": "أه... المُفرَدْ",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-mufrad",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-23873feea95493368854523d",
+      "en": "specialist in",
+      "ar": "مُتَخَصِّصُون فِي",
+      "file": "cv-23873feea95493368854523d.mp3",
+      "audioSHA256": "6a71d0b80d0d025176cc21fb9ae9ea813973d72b10d3d44303982a29bc01b15a",
+      "blind_heard": "mutakhassisuːnu fi",
+      "blind_arabic": "مُتَخَصِّصونُ فِي",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مُتَخَصِّصُون",
+              "heard": "mutakhassinuun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mutakhassinuun fi",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مُتَخَصِّصُون",
+            "heard": "mutakhassinuun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final -uun was pronounced as -uun, adding an extra vowel sound not marked in the target."
+      }
+    },
+    {
+      "id": "cv-260383365506fd05cffc9b58",
+      "en": "settling down; stability",
+      "ar": "اِسْتِقْرَار",
+      "file": "cv-260383365506fd05cffc9b58.mp3",
+      "audioSHA256": "7fde9e0bd26dcd2eded72a70ed72426e2464130d33ff43b484a016b95eeca8c4",
+      "blind_heard": "istiqrārun",
+      "blind_arabic": "اِسْتِقْرارٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "اِسْتِقْرَار",
+          "heard": "istiqrārun",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "istiqraar",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-2959759b153ae0cf8a70c835",
+      "en": "exchanging; exchange",
+      "ar": "تَبَادُل",
+      "file": "cv-2959759b153ae0cf8a70c835.mp3",
+      "audioSHA256": "2e82327604fcc638edd2c787ef11f9f472bc5b3a0e08a28bd64c28e55431afd4",
+      "blind_heard": "tabādulu",
+      "blind_arabic": "تَبَادُلُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "تَبَادُل",
+          "heard": "tabādulu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "tabadul",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'تَبَادُل' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-29eeb4132e9e145cf1ae9dd8",
+      "en": "prime ministers",
+      "ar": "رُؤَسَاء الوُزَرَاء",
+      "file": "cv-29eeb4132e9e145cf1ae9dd8.mp3",
+      "audioSHA256": "90e47b5e51789f29a69817a99a30917f655469c4576b5d99f96a00a1f2b85864",
+      "blind_heard": "ruʔasāʔa al-wuzarāʔi",
+      "blind_arabic": "رُؤَسَاءَ الْوُزَرَاءِ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "رُؤَسَاء",
+          "heard": "ruʔasāʔa",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الوُزَرَاء",
+          "heard": "al-wuzarāʔi",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ruʔasaʔ alwuzaraʔ",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with no audible extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-2a82b5408aa7740de15b668d",
+      "en": "individuals",
+      "ar": "أَفْرَاد",
+      "file": "cv-2a82b5408aa7740de15b668d.mp3",
+      "audioSHA256": "326c415e6604e823e32aba889e566228dccefc0683af98ee96bf52afa7b75ccb",
+      "blind_heard": "afrāda",
+      "blind_arabic": "أفرادَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "أَفْرَاد",
+          "heard": "afrāda",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "afraada",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'afraada' with a final 'a' sound."
+      }
+    },
+    {
+      "id": "cv-33ee67bec3e5e755588072f5",
+      "en": "I entered",
+      "ar": "دَخَلْتُ",
+      "file": "cv-33ee67bec3e5e755588072f5.mp3",
+      "audioSHA256": "e2054b6df31f2af1184feea2c37c5f010405c973667bf529ebb4bd84bd9467a7",
+      "blind_heard": "dakhaltu",
+      "blind_arabic": "دَخَلْتُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "دَخَلْتُ",
+              "heard": "dakhalta",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "dakhalta",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "دَخَلْتُ",
+            "heard": "dakhalta",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel was pronounced as 'ta' instead of the required 'tu'."
+      }
+    },
+    {
+      "id": "cv-34857ddaf7893af82b1ed740",
+      "en": "law, as a field of study",
+      "ar": "الحُقُوق",
+      "file": "cv-34857ddaf7893af82b1ed740.mp3",
+      "audioSHA256": "1100e7caa094d4117e8080c9ff6a49b660af43ab5c33a2e09f2410c03995fd52",
+      "blind_heard": "ḥaqqun",
+      "blind_arabic": "حَقٌّ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-huquuq",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-36e856800edb177ccfe3340d",
+      "en": "dancing",
+      "ar": "الرَّقْص",
+      "file": "cv-36e856800edb177ccfe3340d.mp3",
+      "audioSHA256": "722bb8fed2374fbdcf102a320830fb26c57e7bc1c84395aa547dc9143154432b",
+      "blind_heard": "ar-raqṣu",
+      "blind_arabic": "ٱلرَّقْصُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الرَّقْص",
+          "heard": "ar-raqṣu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ar-raqs",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-3af5478a977c77d60ee22f19",
+      "en": "playing",
+      "ar": "لَعِب",
+      "file": "cv-3af5478a977c77d60ee22f19.mp3",
+      "audioSHA256": "beb807a5cd74ec2b23f34752f60b4628b639e8c0b9c7ae0851ec4c26316df76d",
+      "blind_heard": "laʕib",
+      "blind_arabic": "لَعِبْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "لَعِب",
+              "heard": "laʕiba",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "laʕiba",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "لَعِب",
+            "heard": "laʕiba",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final short vowel 'a' at the end, which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-3b9b14189b7e085a21cdf2af",
+      "en": "visiting; visit",
+      "ar": "زِيَارَة",
+      "file": "cv-3b9b14189b7e085a21cdf2af.mp3",
+      "audioSHA256": "4e20f583a9662420067e405552ea1ba067f212a6074d18b694ed231a74189466",
+      "blind_heard": "ziyaaratun",
+      "blind_arabic": "زِيَارَةٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "زِيَارَة",
+              "heard": "ziyaaratun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ziyaaratun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "زِيَارَة",
+            "heard": "ziyaaratun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final tanween '-tun' which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-3f7fec94716c3cf7be0d2359",
+      "en": "friend",
+      "ar": "أَصْدِقاء",
+      "file": "cv-3f7fec94716c3cf7be0d2359.mp3",
+      "audioSHA256": "5e5e59f3caa2c7607837e8f0394d09601994776d51bc5a50ceab97a67f4ad207",
+      "blind_heard": "asdiqāʾu",
+      "blind_arabic": "أَصْدِقَاءُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "أَصْدِقاء",
+          "heard": "asdiqāʾu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "asdiqaa",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-40ad915f6a30ac5742ad5078",
+      "en": "relative",
+      "ar": "قَرِيبَة",
+      "file": "cv-40ad915f6a30ac5742ad5078.mp3",
+      "audioSHA256": "d17e8ba0db05c4c5b14767fe9abea64fef46fcd134d059f0327856d6640a521d",
+      "blind_heard": "qarībun qarība",
+      "blind_arabic": "قَريبٌ قَريبَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "qariiba",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'قَرِيبَة' with a pausal ending."
+      }
+    },
+    {
+      "id": "cv-43771b2d97d4b1bb16d2e2c2",
+      "en": "today",
+      "ar": "اليَوْم",
+      "file": "cv-43771b2d97d4b1bb16d2e2c2.mp3",
+      "audioSHA256": "ace718c2caa7c8ca5dbcf0a5f90a2dd2919f76c550bf734dc2dd02d6a7701c3e",
+      "blind_heard": "al-yawmu",
+      "blind_arabic": "ٱلْيَوْمُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "اليَوْم",
+          "heard": "al-yawmu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-yawm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-4533440d5af205cf695465ca",
+      "en": "medicine, as a profession",
+      "ar": "الطِّبّ",
+      "file": "cv-4533440d5af205cf695465ca.mp3",
+      "audioSHA256": "2ada7323334df4ecbf507c8a4202c6427ad275b457badcfba87146e4d5aa6f72",
+      "blind_heard": "al-ṭibb-a",
+      "blind_arabic": "ٱلطِّبَّ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الطِّبّ",
+          "heard": "al-ṭibb-a",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "at-tibb",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no audible extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-4624b2d414e49a104b86a512",
+      "en": "experience",
+      "ar": "تَجارِب",
+      "file": "cv-4624b2d414e49a104b86a512.mp3",
+      "audioSHA256": "d9b24f05dcee3c274a39d4b48e5c7dea126069d799bd8e82423e3980b880a9f1",
+      "blind_heard": "ʔujāribu",
+      "blind_arabic": "أُجَارِبُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "تَجارِب",
+              "heard": "tajaaribu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "tajaaribu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "تَجارِب",
+            "heard": "tajaaribu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final short vowel 'u' was pronounced, which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-46cd3547c11f79b43d3259b8",
+      "en": "I dismiss; fire",
+      "ar": "فَصَلْتُ",
+      "file": "cv-46cd3547c11f79b43d3259b8.mp3",
+      "audioSHA256": "2c6f24b3d0748b7accf427b634420e25447632fe3fcbf52ad88a30274517d816",
+      "blind_heard": "fa-saltu",
+      "blind_arabic": "فَصَلْتُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "فَصَلْتُ",
+              "heard": "fa salt",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "fa salt",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فَصَلْتُ",
+            "heard": "fa salt",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel 'u' was not pronounced; it ended as 'fa salt' instead of 'fa saltu'."
+      }
+    },
+    {
+      "id": "cv-4b31916ffde9ed4f1564d8d5",
+      "en": "translation from / to",
+      "ar": "التَّرْجَمَة مِنْ",
+      "file": "cv-4b31916ffde9ed4f1564d8d5.mp3",
+      "audioSHA256": "41c4aa8962040cdd02f30d54ed78c2e11b453b28ab6f223d9e7fe456f03e76b0",
+      "blind_heard": "at-tarjamatu min",
+      "blind_arabic": "اَلتَّرْجَمَةُ مِنْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "التَّرْجَمَة",
+              "heard": "tarjamatu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "at-tarjamatu min",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "التَّرْجَمَة",
+            "heard": "tarjamatu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final word 'التَّرْجَمَة' was pronounced with an extra final vowel 'u' instead of the expected pausal 'a'."
+      }
+    },
+    {
+      "id": "cv-4cc6721269a22310ab05ccd5",
+      "en": "sleeping; sleep",
+      "ar": "نَوْم",
+      "file": "cv-4cc6721269a22310ab05ccd5.mp3",
+      "audioSHA256": "5ce5295eafbba38ba172790631dbe326e6d8e831054265fa869f5083dd64fe77",
+      "blind_heard": "nawma",
+      "blind_arabic": "نَوْمَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "نَوْم",
+          "heard": "nawma",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "nawm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation was clear and ended without any extra vowel."
+      }
+    },
+    {
+      "id": "cv-4ebcb80a6b059738d5089b4b",
+      "en": "works; jobs",
+      "ar": "أَعْمَال",
+      "file": "cv-4ebcb80a6b059738d5089b4b.mp3",
+      "audioSHA256": "cdf060d5558c868dbd92cf30f77352639d74903dc966c1fabacc10df91eba79a",
+      "blind_heard": "ʔaːmana",
+      "blind_arabic": "آمَنَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "أَعْمَال",
+              "heard": "aʕmaalin",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "aʕmaalin",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "أَعْمَال",
+            "heard": "aʕmaalin",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final -in tanween sound which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-4edf15b814c7c7b0a1e8645d",
+      "en": "elementary",
+      "ar": "اِبْتِدائِيّة",
+      "file": "cv-4edf15b814c7c7b0a1e8645d.mp3",
+      "audioSHA256": "0138b5507063336b2b6254abd1e78a95182c6a7e9908dca5dcfd8b15153b45d8",
+      "blind_heard": "ibtidāʾiyyatun",
+      "blind_arabic": "ابْتِدَائِيَّةٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "اِبْتِدائِيّة",
+              "heard": "ibtidaa'iyyatiya",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ibtidaa'iyyatiya",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "اِبْتِدائِيّة",
+            "heard": "ibtidaa'iyyatiya",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an extra 'tiya' ending, which introduces an unwanted final vowel sound."
+      }
+    },
+    {
+      "id": "cv-518e7802940c849338ecc5d1",
+      "en": "teaching assistant",
+      "ar": "مُعيدة",
+      "file": "cv-518e7802940c849338ecc5d1.mp3",
+      "audioSHA256": "8b71fe5d06569cffd004cc938217a97de7566f5a971e63c6457de936f0aa2749",
+      "blind_heard": "muʕīda",
+      "blind_arabic": "مُعِيدَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مُعيدة",
+              "heard": "muʕiidatun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "muʕiidatun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مُعيدة",
+            "heard": "muʕiidatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final -tun ending instead of pausing on 'muʕiida'."
+      }
+    },
+    {
+      "id": "cv-527aaa65747d2c2c8f4c67a7",
+      "en": "subjects; topics",
+      "ar": "مَوَاضِيع",
+      "file": "cv-527aaa65747d2c2c8f4c67a7.mp3",
+      "audioSHA256": "b0b8ddc8b36b36dc8e4307b5a76727f22228ed21fb8c3aeb4134cb0f24543068",
+      "blind_heard": "mawāḍiʿī",
+      "blind_arabic": "مَوَاضِعِي",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مَوَاضِيع",
+              "heard": "mawadiʕi",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mawadiʕi",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مَوَاضِيع",
+            "heard": "mawadiʕi",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel 'i' was pronounced, but the target word should end without an audible final short vowel."
+      }
+    },
+    {
+      "id": "cv-5679dd0c4d1d1b1215fa070b",
+      "en": "address",
+      "ar": "عَنَاوِين",
+      "file": "cv-5679dd0c4d1d1b1215fa070b.mp3",
+      "audioSHA256": "c7e4be197845b9859704dec8ec5db93d235a4bd1b2b9eeed95d3fe27061b4277",
+      "blind_heard": "ʿanāwīn",
+      "blind_arabic": "عَناوِين",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "عناوين",
+              "heard": "ʕanaawiina",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ʕanaawiina",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "عناوين",
+            "heard": "ʕanaawiina",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final vowel '-a' at the end, which is not in the target."
+      }
+    },
+    {
+      "id": "cv-567e7f624a6ff82e39d6fd55",
+      "en": "semester",
+      "ar": "فَصْل دِراسيّ",
+      "file": "cv-567e7f624a6ff82e39d6fd55.mp3",
+      "audioSHA256": "aadcd27036b8006fc9c4d55357d79be0fd8fe4ddd50292d4d7e3d838294977fc",
+      "blind_heard": "faṣlun dirāsiyyun",
+      "blind_arabic": "فَصْلٌ دِراسِيٌّ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "فَصْل",
+          "heard": "faṣlun",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "فَصْل",
+              "heard": "faṣlun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "faṣlun dirāsī",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فَصْل",
+            "heard": "faṣlun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final -un tanween to 'فَصْل' which was not in the target."
+      }
+    },
+    {
+      "id": "cv-56cc055892eabf12d07fbdec",
+      "en": "weeks",
+      "ar": "أَسَابِيع",
+      "file": "cv-56cc055892eabf12d07fbdec.mp3",
+      "audioSHA256": "ee4e6c109f53be9faea267e69c688b9dcc7cb3a77f2de14473af3506852c9f2d",
+      "blind_heard": "assa... bi... aw",
+      "blind_arabic": "أَسَّا... بِي... أَوْ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "أَسَابِيع",
+              "heard": "asabiʕu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "asabiʕu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "أَسَابِيع",
+            "heard": "asabiʕu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final short vowel 'u' which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-571864222ea374a5912e4b19",
+      "en": "first",
+      "ar": "أَوَّلون",
+      "file": "cv-571864222ea374a5912e4b19.mp3",
+      "audioSHA256": "c63adb09ebb0078c9c6136d8a55ab112354a90cef2e20b5135367d4bc292df58",
+      "blind_heard": "awwalanna",
+      "blind_arabic": "أَوَّلَنَّ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "أَوَّلون",
+              "heard": "awwaluna",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "awwaluna",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "أَوَّلون",
+            "heard": "awwaluna",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final vowel sound '-a' at the end, which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-5880ddc87bb178bcac59fb2f",
+      "en": "market",
+      "ar": "سوق",
+      "file": "cv-5880ddc87bb178bcac59fb2f.mp3",
+      "audioSHA256": "df6e457abbc095c3582f6f2ee6fb02a396f07a1f6a35a50ad3c79ecb7658f950",
+      "blind_heard": "sawq",
+      "blind_arabic": "سَوْقْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "سوق",
+              "heard": "su:qa",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "su:qa",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "سوق",
+            "heard": "su:qa",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final short vowel 'a' which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-5ac55fa33c5cf5babcf05be7",
+      "en": "mosques",
+      "ar": "جَوَامِع",
+      "file": "cv-5ac55fa33c5cf5babcf05be7.mp3",
+      "audioSHA256": "b086955e290f7805f7b072ed453559908b1c58fcd970b1ecc42ecbaef7281740",
+      "blind_heard": "jawāmiʿu",
+      "blind_arabic": "جَوامِعُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "جَوَامِع",
+          "heard": "jawāmiʿu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "جوامع",
+              "heard": "jawāmiʕ",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "jawāmiʕ",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "جوامع",
+            "heard": "jawāmiʕ",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final damma on 'جوامعُ' was not pronounced; it ended in a pausal form."
+      }
+    },
+    {
+      "id": "cv-5ae794d1fc4263ab541fa67c",
+      "en": "returning; return",
+      "ar": "رُجُوع",
+      "file": "cv-5ae794d1fc4263ab541fa67c.mp3",
+      "audioSHA256": "46666fd851071019dd6ec60f37279d076ff91ad5652afe9da62507ba2b4c9fa1",
+      "blind_heard": "rujūʿa",
+      "blind_arabic": "رُجُوعَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "رُجُوع",
+          "heard": "rujūʿa",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "rujuuʕ",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'رُجُوع' without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-5ae7cdfd94c9a049d8c52d4a",
+      "en": "area, region",
+      "ar": "مَنَاطِق",
+      "file": "cv-5ae7cdfd94c9a049d8c52d4a.mp3",
+      "audioSHA256": "0ccd81c2c5eeda25df640acff6bc783a2e1acf8de4b2db9db63135f86a142430",
+      "blind_heard": "manaatiqa",
+      "blind_arabic": "مَنَاطِقَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "مَنَاطِق",
+          "heard": "manaatiqa",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "manaatiq",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'مَنَاطِق' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-5c7627b5cc8ad1a77195c2ca",
+      "en": "I sit",
+      "ar": "أَجْلِسُ",
+      "file": "cv-5c7627b5cc8ad1a77195c2ca.mp3",
+      "audioSHA256": "d539cb0d55bd6a24e1814c781782708f97b97f4db1e48de92616efb98c1fb113",
+      "blind_heard": "ijlis",
+      "blind_arabic": "اِجلِسْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "أَجْلِسُ",
+              "heard": "ajlis",
+              "confidence": "high"
+            },
+            {
+              "type": "unwanted_ending",
+              "word": "أَجْلِسُ",
+              "heard": "missing final u",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ajlis",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "أَجْلِسُ",
+            "heard": "ajlis",
+            "confidence": "high"
+          },
+          {
+            "type": "unwanted_ending",
+            "word": "أَجْلِسُ",
+            "heard": "missing final u",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final short vowel 'u' was not pronounced; it ended as 'ajlis' instead of 'ajlisu'."
+      }
+    },
+    {
+      "id": "cv-5d3a64d35e93853ac5468369",
+      "en": "I settled down",
+      "ar": "اِسْتَقْرَرْتُ",
+      "file": "cv-5d3a64d35e93853ac5468369.mp3",
+      "audioSHA256": "b605d2954697eddcfd7e86f04c9b496b70444857d79e78445718dd90f62b12f0",
+      "blind_heard": "is taqarartu",
+      "blind_arabic": "إس تَقرَرتُ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "اِسْتَقْرَرْتُ",
+              "heard": "istaqraratu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "istaqraratu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "اِسْتَقْرَرْتُ",
+            "heard": "istaqraratu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel was pronounced as 'u' after the 't', adding an unwanted ending."
+      }
+    },
+    {
+      "id": "cv-5e95e62c93495e56b0506452",
+      "en": "the Middle East",
+      "ar": "الشَّرْق الأَوْسَط",
+      "file": "cv-5e95e62c93495e56b0506452.mp3",
+      "audioSHA256": "3654677785eb8d267d291cc91aa912a620151e34ef20dec16de7567aede8e6ff",
+      "blind_heard": "ash-sharq-u al-awsat-u",
+      "blind_arabic": "اَلشَّرْقُ الْأَوْسَطُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الشَّرْق",
+          "heard": "ash-sharq-u",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الأَوْسَط",
+          "heard": "al-awsat-u",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ash-sharq al-awsat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or words."
+      }
+    },
+    {
+      "id": "cv-6285fad21eb663ea79e63c72",
+      "en": "presidents; heads",
+      "ar": "رُؤَسَاء",
+      "file": "cv-6285fad21eb663ea79e63c72.mp3",
+      "audioSHA256": "f4c60903fea103e09584db0895060c08bc86a89e704217c4d92f1e9820a1a5ea",
+      "blind_heard": "buru asaa a",
+      "blind_arabic": "بُرُو أَسَا أَ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "رُؤَسَاء",
+              "heard": "ruʔasaʔa",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ruʔasaʔa",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "رُؤَسَاء",
+            "heard": "ruʔasaʔa",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an extra final vowel sound '-a' at the end, which is not in the target."
+      }
+    },
+    {
+      "id": "cv-6304c9beb6f6d027190185fa",
+      "en": "sea",
+      "ar": "بِحار",
+      "file": "cv-6304c9beb6f6d027190185fa.mp3",
+      "audioSHA256": "1ff82266cc991673f358806fde50009e645980ae08b0d84bc88595772128207f",
+      "blind_heard": "biḥāru",
+      "blind_arabic": "بِحارُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "بِحار",
+          "heard": "biḥāru",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "biḥaar",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'biḥaar' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-633e643be5e939852cabe1e0",
+      "en": "male paternal cousin",
+      "ar": "اِبْن عَمّ",
+      "file": "cv-633e643be5e939852cabe1e0.mp3",
+      "audioSHA256": "1ffa668bdaed797aac9a905e96f8e4b257778fe7b231f5484bd3455bd2500f77",
+      "blind_heard": "ibnu ʿamm",
+      "blind_arabic": "ابنُ عَمّ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "اِبْن",
+          "heard": "ibnu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "ابن",
+              "heard": "ibnu",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ibnu 3amm",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "ابن",
+            "heard": "ibnu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final 'u' vowel to 'ibn', which should end without a vowel."
+      }
+    },
+    {
+      "id": "cv-640e91bb7fb4fbe96509aac2",
+      "en": "I dismiss; fire",
+      "ar": "أَفْصِلُ",
+      "file": "cv-640e91bb7fb4fbe96509aac2.mp3",
+      "audioSHA256": "fc9670bae437e732bb66e3564e3ae58c82ad6e071b1ed83a383f8110cf00824f",
+      "blind_heard": "af sledo",
+      "blind_arabic": "أَفْ سْلِيدُ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "أَفْصِلُ",
+              "heard": "afsil",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "afsil",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "أَفْصِلُ",
+            "heard": "afsil",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final damma on the verb was not pronounced; it ended as 'afsil' instead of 'afsilu'."
+      }
+    },
+    {
+      "id": "cv-6461b389aba66a446e5e05b0",
+      "en": "sea",
+      "ar": "بَحْر",
+      "file": "cv-6461b389aba66a446e5e05b0.mp3",
+      "audioSHA256": "713a513d43eece1a250ffedb49a3fb522e189829f37b3be3b17f9e6cdad03d5f",
+      "blind_heard": "baḥru",
+      "blind_arabic": "بَحْرُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "بَحْر",
+          "heard": "baḥru",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "baHr",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'بَحْر' with no extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-647899124cf18326f6d37885",
+      "en": "anthropology",
+      "ar": "عِلْم الإِنْسَان",
+      "file": "cv-647899124cf18326f6d37885.mp3",
+      "audioSHA256": "6cf733b8f02f113354dcda73b19679720158dea82fd199c595ac88f11e57be13",
+      "blind_heard": "ḥasanan saʔaqraʔu hādhihi biʕināyatin wabiṣawtin wāḍiḥin marratan wāḥidatan ʕilmu lʔinsāni",
+      "blind_arabic": "حَسَنًا سَأَقْرَأُ هَذِهِ بِعِنَايَةٍ وَبِصَوْتٍ وَاضِحٍ مَرَّةً وَاحِدَةً عِلْمُ الْإِنْسَانِ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "عِلْم",
+          "heard": "ʕilmu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الإِنْسَان",
+          "heard": "lʔinsāni",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "possible_added_speech",
+          "heard": "حَسَنًا سَأَقْرَأُ هَذِهِ بِعِنَايَةٍ وَبِصَوْتٍ وَاضِحٍ مَرَّةً وَاحِدَةً عِلْمُ الْإِنْسَانِ",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ʿilm al-insān",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-65016a9b7cb67fbc0f5b7c50",
+      "en": "comparative",
+      "ar": "مُقارَنة",
+      "file": "cv-65016a9b7cb67fbc0f5b7c50.mp3",
+      "audioSHA256": "ab3f65da357f265d66cd40f50369a8d4ffcd248938f1f94f9dde5f1caf652b16",
+      "blind_heard": "muqāratun",
+      "blind_arabic": "مُقَارَتٌ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مُقارَنة",
+              "heard": "muqaaratun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "muqaaratun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مُقارَنة",
+            "heard": "muqaaratun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final word was pronounced with a -tun ending, but the target requires a pausal 'a' sound without the final tanween."
+      }
+    },
+    {
+      "id": "cv-67785241ee3933d27516ae8e",
+      "en": "daytime",
+      "ar": "النَّهَار",
+      "file": "cv-67785241ee3933d27516ae8e.mp3",
+      "audioSHA256": "e5bc9f70963c60285e4aafef22a8ce2235642f9ac52a599fb96a3a43e58d65a8",
+      "blind_heard": "an-nahāru",
+      "blind_arabic": "النَّهارُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "النَّهَار",
+          "heard": "an-nahāru",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "an-nahaar",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or deviations."
+      }
+    },
+    {
+      "id": "cv-69458ac173dbbdf480c6b3db",
+      "en": "day",
+      "ar": "أَيّام",
+      "file": "cv-69458ac173dbbdf480c6b3db.mp3",
+      "audioSHA256": "0ef44e2645d91b7d252e02e8e758e6419bfa35713d86168bb3992465705f7e24",
+      "blind_heard": "ʾayyāmu",
+      "blind_arabic": "أَيَّامُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "أَيّام",
+          "heard": "ʾayyāmu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "أَيّام",
+              "heard": "ayyaama",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ayyaama",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "أَيّام",
+            "heard": "ayyaama",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final vowel 'a' at the end of 'ayyaam' which is not in the target."
+      }
+    },
+    {
+      "id": "cv-69a29a429f5942b7836f4871",
+      "en": "vacation from work",
+      "ar": "إِجازَة",
+      "file": "cv-69a29a429f5942b7836f4871.mp3",
+      "audioSHA256": "7e9dd3c99853f3df3d8b88a8f557a22863097187d4becd40abcf99cbc00e22ee",
+      "blind_heard": "ijāzatu",
+      "blind_arabic": "إجازَةُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "إِجازَة",
+              "heard": "ijaazatu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ijaazatu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "إِجازَة",
+            "heard": "ijaazatu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final word was pronounced with a damma ending 'tu' instead of the expected pausal 'a'."
+      }
+    },
+    {
+      "id": "cv-69eb601e409e4f000ecd82c4",
+      "en": "husband",
+      "ar": "أَزْوَاج",
+      "file": "cv-69eb601e409e4f000ecd82c4.mp3",
+      "audioSHA256": "0dba1c26f2ecde430f63d19b40300807f3b35c1590acc9de10ce1af8a579af16",
+      "blind_heard": "ʔaz ʔaz",
+      "blind_arabic": "أَزْ أَزْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "أَزْوَاج",
+              "heard": "az",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "az",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "أَزْوَاج",
+            "heard": "az",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The recording only contains 'az' and is missing the rest of the target word 'awaj'."
+      }
+    },
+    {
+      "id": "cv-6a74b9fa31a0d5db7ab246dd",
+      "en": "late",
+      "ar": "مُتَأَخِّرة",
+      "file": "cv-6a74b9fa31a0d5db7ab246dd.mp3",
+      "audioSHA256": "b968d5522d093571a929000dd5a12c830b59a08a5fd3fe1bd3d7b2628bce3e05",
+      "blind_heard": "mutaʔaxxirun mashiya",
+      "blind_arabic": "مُتَأَخِّرٌ مَشِيَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "extra_speech",
+              "word": "mashiya",
+              "heard": "mashiya",
+              "confidence": "high"
+            },
+            {
+              "type": "wrong_word",
+              "word": "مُتَأَخِّرة",
+              "heard": "muta'akhkhirun",
+              "confidence": "high"
+            },
+            {
+              "type": "unwanted_ending",
+              "word": "مُتَأَخِّرة",
+              "heard": "muta'akhkhirun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "muta'akhkhirun mashiya",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "extra_speech",
+            "word": "mashiya",
+            "heard": "mashiya",
+            "confidence": "high"
+          },
+          {
+            "type": "wrong_word",
+            "word": "مُتَأَخِّرة",
+            "heard": "muta'akhkhirun",
+            "confidence": "high"
+          },
+          {
+            "type": "unwanted_ending",
+            "word": "مُتَأَخِّرة",
+            "heard": "muta'akhkhirun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added 'mashiya' and pronounced 'muta'akhkhirun' instead of the target 'muta'akhkhira'."
+      }
+    },
+    {
+      "id": "cv-6cee71f3c7c3a3300025ccc7",
+      "en": "army",
+      "ar": "جُيُوش",
+      "file": "cv-6cee71f3c7c3a3300025ccc7.mp3",
+      "audioSHA256": "4bf4f1fd67aade9739d32ea732bb54ffdeb63dd54dcdadcea447f591115bbd80",
+      "blind_heard": "ju-yu ju-yu",
+      "blind_arabic": "جُيُو جُيُو",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "repetition",
+              "word": "جُيُوش",
+              "heard": "juyuu juyuu",
+              "confidence": "high"
+            },
+            {
+              "type": "wrong_word",
+              "word": "جُيُوش",
+              "heard": "juyuu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "juyuu juyuu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "repetition",
+            "word": "جُيُوش",
+            "heard": "juyuu juyuu",
+            "confidence": "high"
+          },
+          {
+            "type": "wrong_word",
+            "word": "جُيُوش",
+            "heard": "juyuu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker repeated the utterance and did not pronounce the final 'sh' sound, resulting in 'juyuu' instead of 'juyush'."
+      }
+    },
+    {
+      "id": "cv-6dd67cf13e6e30e23ec49b3a",
+      "en": "male paternal cousin",
+      "ar": "بَنَات عَمّ",
+      "file": "cv-6dd67cf13e6e30e23ec49b3a.mp3",
+      "audioSHA256": "15614bb809f632d07a3d1dd9f06c283a33cdb6c5eca4893654d2bb0100d40661",
+      "blind_heard": "banat ʿam",
+      "blind_arabic": "بَنَتْ عَمْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "banaat 3amm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or speech."
+      }
+    },
+    {
+      "id": "cv-6fd1394cb1206042f318f5ad",
+      "en": "entering; entry",
+      "ar": "دُخُول",
+      "file": "cv-6fd1394cb1206042f318f5ad.mp3",
+      "audioSHA256": "b8ceff5287689ae46635e4c13ed21e59fc1dc2b03a5ebec51190f9aa299aa53d",
+      "blind_heard": "dukhulu",
+      "blind_arabic": "دُخُولُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "دُخُول",
+          "heard": "dukhulu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "dukhuul",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'دُخُول' without any extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-72f9e99593c046e58f0dce8f",
+      "en": "positions; jobs",
+      "ar": "وَظَائِف",
+      "file": "cv-72f9e99593c046e58f0dce8f.mp3",
+      "audioSHA256": "6f124001dbc0f7b2cf486f7953c477358989d2355e671c48b6b3137f36965a20",
+      "blind_heard": "waẓāʔifu",
+      "blind_arabic": "وَظائِفُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "وَظَائِف",
+          "heard": "waẓāʔifu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "وَظَائِف",
+              "heard": "wazaa'if",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "wazaa'if",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "وَظَائِف",
+            "heard": "wazaa'if",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final damma on 'وَظَائِفُ' was not pronounced; it ended in a pause instead."
+      }
+    },
+    {
+      "id": "cv-7656aa9412d3b12288248ec8",
+      "en": "busy with",
+      "ar": "مَشْغُولَة بِ",
+      "file": "cv-7656aa9412d3b12288248ec8.mp3",
+      "audioSHA256": "4ecd4e7682b79f8c8e04f791423fc7855cde5f40765520405279814184561ad6",
+      "blind_heard": "mash ghūlatun bi",
+      "blind_arabic": "مَشْ غُولَةٌ بِ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مَشْغُولَة",
+              "heard": "mashghoolatun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mashghoolatun bi",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مَشْغُولَة",
+            "heard": "mashghoolatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final -tun ending on 'mashghoola' which was not in the target."
+      }
+    },
+    {
+      "id": "cv-772be16d54035c9d444f275e",
+      "en": "evening",
+      "ar": "المَسَاء",
+      "file": "cv-772be16d54035c9d444f275e.mp3",
+      "audioSHA256": "65d1a58945f868dbb319c861528db516a0a73447e0c767a7df4b884f2db74513",
+      "blind_heard": "al-masāʾu",
+      "blind_arabic": "ٱلْمَسَاءُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "المَسَاء",
+          "heard": "al-masāʾu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-masaa",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with a proper pausal ending."
+      }
+    },
+    {
+      "id": "cv-78ae2465917c5d9fca954ddc",
+      "en": "studying",
+      "ar": "دِرَاسَة",
+      "file": "cv-78ae2465917c5d9fca954ddc.mp3",
+      "audioSHA256": "ccfeb961d8d3d8ec62e9d97ecc3c48bce30ea29d9148b3983b74ff4bce9ee1e1",
+      "blind_heard": "diraasatun",
+      "blind_arabic": "دِراسَةٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "دِرَاسَة",
+              "heard": "diraasat",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "diraasat",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "دِرَاسَة",
+            "heard": "diraasat",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final taa marbuuta was pronounced with a 't' sound instead of the expected pausal 'a'."
+      }
+    },
+    {
+      "id": "cv-7a10bb723bc5d90d81543b1b",
+      "en": "noon",
+      "ar": "الظُّهْر",
+      "file": "cv-7a10bb723bc5d90d81543b1b.mp3",
+      "audioSHA256": "2b16e0904496c6ed9be285eed21eb82eb6e161ce38a81d86c4255e9835763e85",
+      "blind_heard": "al-ẓuhru",
+      "blind_arabic": "اَلظُّهْرُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الظُّهْر",
+          "heard": "al-ẓuhru",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "الظُّهْر",
+              "heard": "zuhri",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "az-zuhri",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "الظُّهْر",
+            "heard": "zuhri",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final word was pronounced with an extra 'i' vowel at the end instead of ending in a pause."
+      }
+    },
+    {
+      "id": "cv-7a26ae14c069799a9b019e5a",
+      "en": "newspapers",
+      "ar": "جَرَائِد",
+      "file": "cv-7a26ae14c069799a9b019e5a.mp3",
+      "audioSHA256": "e243b50ac95eac7d6048f379e77c046889a9a458d0a0392fcf85e415188fcef4",
+      "blind_heard": "sharaːʔidu",
+      "blind_arabic": "شَرَائِدُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "جرائد",
+              "heard": "jaraaidu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "jaraaidu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "جرائد",
+            "heard": "jaraaidu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final vowel 'u' which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-7a600adc70dab2030c67f885",
+      "en": "other; another",
+      "ar": "آخَر",
+      "file": "cv-7a600adc70dab2030c67f885.mp3",
+      "audioSHA256": "36da0c3ea61d62ab044574b0dcb1ad0a5a3681b534029cdfb7a1d5c718c4834c",
+      "blind_heard": "ʾākhara",
+      "blind_arabic": "آخَرُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "آخَر",
+          "heard": "ʾākhara",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "آخَر",
+              "heard": "aakharu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "aakharu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "آخَر",
+            "heard": "aakharu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final short vowel 'u' which is not in the target."
+      }
+    },
+    {
+      "id": "cv-7d177db05ce082a6e65ffa50",
+      "en": "my mother",
+      "ar": "وَالِدَتِي",
+      "file": "cv-7d177db05ce082a6e65ffa50.mp3",
+      "audioSHA256": "31353a1caad3a1920b17b12b57c4e595d6186e4b3800c74b1798db99a1f340cf",
+      "blind_heard": "waalidatai",
+      "blind_arabic": "والِدَتي",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "وَالِدَتِي",
+              "heard": "walidati",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "walidati",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "وَالِدَتِي",
+            "heard": "walidati",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The initial 'wa' sound was missing, resulting in 'walidati' instead of 'walidati' with the initial conjunction."
+      }
+    },
+    {
+      "id": "cv-82224b21e1b6ad9859b9f0ad",
+      "en": "the world",
+      "ar": "العالَم",
+      "file": "cv-82224b21e1b6ad9859b9f0ad.mp3",
+      "audioSHA256": "d445794ef7b26f5f8b285cb91223ea387633c7fdbf4bf6a751235462409d86d6",
+      "blind_heard": "al-ʿālamu al-ʿālamu",
+      "blind_arabic": "الْعالَمُ الْعالَمُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "العالَم",
+          "heard": "al-ʿālamu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "possible_unmarked_ending",
+          "word": "العالَم",
+          "heard": "al-ʿālamu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "possible_repetition",
+          "heard": "الْعالَمُ الْعالَمُ",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-3aalam",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any unwanted final vowels or extra speech."
+      }
+    },
+    {
+      "id": "cv-831ddb3ca40b83e5b09c4550",
+      "en": "enjoying; enjoyment",
+      "ar": "اِسْتِمْتَاع",
+      "file": "cv-831ddb3ca40b83e5b09c4550.mp3",
+      "audioSHA256": "8430ca9351f2828fbaaf5f675de6eb5ce8a949be6277b33fd5ac2749c279b875",
+      "blind_heard": "istimtāʿu",
+      "blind_arabic": "اِسْتِمْتاعُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "اِسْتِمْتَاع",
+          "heard": "istimtāʿu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "istimtaaʿu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target, including the final damma."
+      }
+    },
+    {
+      "id": "cv-847c64df499ba2bd095ab35d",
+      "en": "seas",
+      "ar": "بِحَار / بُحُور",
+      "file": "cv-847c64df499ba2bd095ab35d.mp3",
+      "audioSHA256": "65eab3093573a36d9ec1801cd6e9242283aaa66c170993923907f64c2d77641c",
+      "blind_heard": "biḥār-un buḥūr-un",
+      "blind_arabic": "بِحارٌ بُحورٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "بِحَار",
+          "heard": "biḥār-un",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "possible_unmarked_ending",
+          "word": "بُحُور",
+          "heard": "buḥūr-un",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "bihaar buhuur",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "Both alternatives were pronounced clearly with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-84bc05e6e7f8bfddbd4f040d",
+      "en": "every / all",
+      "ar": "كُلّ",
+      "file": "cv-84bc05e6e7f8bfddbd4f040d.mp3",
+      "audioSHA256": "cd3dac5cc3911db4c8afeeaa7b42b2484b7f4b6430252a784d1027dc9819bca5",
+      "blind_heard": "kulla",
+      "blind_arabic": "كُلَّ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "كُلّ",
+          "heard": "kulla",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "kull",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'كُلّ' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-86386d1516cbb26c67e690d9",
+      "en": "high",
+      "ar": "عالٍ",
+      "file": "cv-86386d1516cbb26c67e690d9.mp3",
+      "audioSHA256": "6a8da2776f2185957249834d9c2e62efa7d3148ef3168694e0ae96e217040284",
+      "blind_heard": "ʿaːlimu",
+      "blind_arabic": "ʿālimu",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "عالٍ",
+              "heard": "ʕaalim",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ʕaalim",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "عالٍ",
+            "heard": "ʕaalim",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker pronounced 'ʕaalim' instead of the target 'ʕaalin'."
+      }
+    },
+    {
+      "id": "cv-87289e2dbf38134f4eea4ef5",
+      "en": "spring",
+      "ar": "الرَّبيع",
+      "file": "cv-87289e2dbf38134f4eea4ef5.mp3",
+      "audioSHA256": "114f09496fa608af76026c4e7b2064f599e85df838fa242d03c96b0eb45d4fcd",
+      "blind_heard": "ar-rabīʿu",
+      "blind_arabic": "ٱلرَّبِيعُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الرَّبيع",
+          "heard": "ar-rabīʿu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ar-rabiʕ",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-8974d38aa6ec1503cbd8a651",
+      "en": "meat",
+      "ar": "لُحوم",
+      "file": "cv-8974d38aa6ec1503cbd8a651.mp3",
+      "audioSHA256": "3a8547bfefc7ffba7967feeddc4aed941de5116906a2a5c4d48d2766f261315f",
+      "blind_heard": "luḥūmu",
+      "blind_arabic": "لُحومُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "لُحوم",
+          "heard": "luḥūmu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "luhuum",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'لُحوم' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-89b308f5d70922c232a8f70c",
+      "en": "week",
+      "ar": "أَسابيع",
+      "file": "cv-89b308f5d70922c232a8f70c.mp3",
+      "audioSHA256": "052b0a0bdb37f06c8a18fe4dd3769f0cf350d45189ab405cf529a5043ad34c5d",
+      "blind_heard": "ʔaaa sabīʕu",
+      "blind_arabic": "آاا سَبيعُ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "أَسابيع",
+              "heard": "asaabii3u",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "asaabii3u",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "أَسابيع",
+            "heard": "asaabii3u",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel 'u' was pronounced, which is not present in the target word."
+      }
+    },
+    {
+      "id": "cv-8b82ef2f3486f3861878ff6d",
+      "en": "talking; speaking",
+      "ar": "تَكَلُّم",
+      "file": "cv-8b82ef2f3486f3861878ff6d.mp3",
+      "audioSHA256": "e3601c8ce92271a8eecbf996a2b0c9cee4c8a7d009234c324b7e79a3a340d20c",
+      "blind_heard": "takallamu",
+      "blind_arabic": "تَكَلَّمُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "تَكَلُّم",
+          "heard": "takallamu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "takallum",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-8be51a3747b1b17de0dc9a91",
+      "en": "before",
+      "ar": "قَبْل",
+      "file": "cv-8be51a3747b1b17de0dc9a91.mp3",
+      "audioSHA256": "bf038a653c7c8036011d6647b9187e09843d8f84f0d9949500559a0efbf7130f",
+      "blind_heard": "qabli",
+      "blind_arabic": "قَبْلِ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "قَبْل",
+          "heard": "qabli",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "qabl",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation ended cleanly without an extra vowel, matching the target."
+      }
+    },
+    {
+      "id": "cv-8c504d21f1a2b99946153037",
+      "en": "hotel",
+      "ar": "فَنادِق",
+      "file": "cv-8c504d21f1a2b99946153037.mp3",
+      "audioSHA256": "d88eabab3a8f63042427fb6d87c8a59729bd5bc48fab8bac5fa3032e5b4d81d9",
+      "blind_heard": "as-salaamu ʿalaykumu",
+      "blind_arabic": "السَّلامُ عَلَيْكُمُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "فَنادِق",
+              "heard": "fanaadiqu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "fanaadiqu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فَنادِق",
+            "heard": "fanaadiqu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final short vowel 'u' which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-8caeb81d60cc4f8da5c73dd3",
+      "en": "hotel",
+      "ar": "فُنْدُق",
+      "file": "cv-8caeb81d60cc4f8da5c73dd3.mp3",
+      "audioSHA256": "e4930c422e4c9e53497223ae5482f27a60732bede6ea87a1877fdac9a89c3a0c",
+      "blind_heard": "funduqu",
+      "blind_arabic": "فُنْدُقُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "فُنْدُق",
+          "heard": "funduqu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "فندق",
+              "heard": "funduqu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "funduqu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فندق",
+            "heard": "funduqu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final vowel 'u' at the end, which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-8cbeb5f914634352a7f73e66",
+      "en": "government",
+      "ar": "حُكومات",
+      "file": "cv-8cbeb5f914634352a7f73e66.mp3",
+      "audioSHA256": "bc8d7d1072565ab7963e8adbaed0f28fb2758569befd3797028c06e212308949",
+      "blind_heard": "ukumun",
+      "blind_arabic": "أُكُمُنْ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "حُكومات",
+              "heard": "hukuman",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "hukuman",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "حُكومات",
+            "heard": "hukuman",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The plural ending -aat was not pronounced; instead it sounded like the singular with an -an ending."
+      }
+    },
+    {
+      "id": "cv-8dc29fce676ae389de289c14",
+      "en": "coming; next",
+      "ar": "قادِم",
+      "file": "cv-8dc29fce676ae389de289c14.mp3",
+      "audioSHA256": "1e9b69ffe850b39f6c8fedc94744de65239be4191a7522ad45d0967279d74b4f",
+      "blind_heard": "qaadimun",
+      "blind_arabic": "قَادِمٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "قادِم",
+          "heard": "qaadimun",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "qaadim",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'قادِم' without any unwanted final vowel."
+      }
+    },
+    {
+      "id": "cv-90c55b37af24560d0843402a",
+      "en": "prime minister",
+      "ar": "رَئيس الوُزَراء",
+      "file": "cv-90c55b37af24560d0843402a.mp3",
+      "audioSHA256": "d62f447e584f06ee207bf4922d58258bea5c8e01bd3b7b29f2b82dd4eccee99e",
+      "blind_heard": "aysa al-wuzaraa-u",
+      "blind_arabic": "أَيسَ الوزَرَاءُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الوُزَراء",
+          "heard": "al-wuzaraa-u",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ra'iis el-wuzaraa",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-94400d37996dd219b273bc0c",
+      "en": "summers",
+      "ar": "أَصْيَاف / صُيُوف",
+      "file": "cv-94400d37996dd219b273bc0c.mp3",
+      "audioSHA256": "777569ed13cb2c839e3cb5d90471e7703899075b23f597430a97b54bd2d18f04",
+      "blind_heard": "ʔaṣ... ṣiyaamu... suyuuf",
+      "blind_arabic": "أَصْ... صِيَامُ... سُيُوفْ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "أَصْيَاف",
+              "heard": "as-siyaam",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "as-siyaam / suyuuf",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "أَصْيَاف",
+            "heard": "as-siyaam",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The first word was pronounced as 'as-siyaam' instead of 'as-yaaf'. The second word 'suyuuf' matches."
+      }
+    },
+    {
+      "id": "cv-94c1dc5311ce7afdb4f8b1b2",
+      "en": "cold",
+      "ar": "بارِدة",
+      "file": "cv-94c1dc5311ce7afdb4f8b1b2.mp3",
+      "audioSHA256": "55a31bf74dd9257f11c55b2b8e02b554a07e64eb15967ef9b83fa1bbd56436fe",
+      "blind_heard": "tārida",
+      "blind_arabic": "تارِدَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "بارِدة",
+              "heard": "baaridatun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "baaridatun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "بارِدة",
+            "heard": "baaridatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final -tun ending instead of pausing on the taa marbuuta."
+      }
+    },
+    {
+      "id": "cv-959f081d0f85f6fc352ac3fa",
+      "en": "science",
+      "ar": "عِلْم",
+      "file": "cv-959f081d0f85f6fc352ac3fa.mp3",
+      "audioSHA256": "6034ef3b114ca0f2614b384b11d0049a39cbec32e0c73102712e412346cbddc4",
+      "blind_heard": "ʿilm-u",
+      "blind_arabic": "عِلْمُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "عِلْم",
+          "heard": "ʿilm-u",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ilm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'عِلْم' without any extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-98cf6db1e99a819bfcc79b1a",
+      "en": "I am absent from; miss",
+      "ar": "تَغَيَّبْتُ",
+      "file": "cv-98cf6db1e99a819bfcc79b1a.mp3",
+      "audioSHA256": "d966f57ce2e1a521b6e4d72ce2ecacce444604368fbff6ddf8983d0210f75dc3",
+      "blind_heard": "taghayyabat",
+      "blind_arabic": "تَغَيَّبَتْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "تَغَيَّبْتُ",
+              "heard": "taghayyabat",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "taghayyabat",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "تَغَيَّبْتُ",
+            "heard": "taghayyabat",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final consonant was pronounced as 't' instead of 'tu', indicating a wrong ending."
+      }
+    },
+    {
+      "id": "cv-a2590929893116c3f156db73",
+      "en": "late",
+      "ar": "مُتَأَخِّر",
+      "file": "cv-a2590929893116c3f156db73.mp3",
+      "audioSHA256": "8eee3359c048b0eebe24871f889e0b779d1766524a93d0a90c292f0318318bc9",
+      "blind_heard": "mutaʔaḫḫirun",
+      "blind_arabic": "مُتَأَخِّرٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "مُتَأَخِّر",
+          "heard": "mutaʔaḫḫirun",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "muta'akhkhir",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-a357b6c24b926ad0f9627222",
+      "en": "relative",
+      "ar": "قَرِيبَات",
+      "file": "cv-a357b6c24b926ad0f9627222.mp3",
+      "audioSHA256": "5ee88e3d340638c280b35bb8bbe05e873a3bbbc4a449886c8572681da58f22b4",
+      "blind_heard": "qāri bat-tu",
+      "blind_arabic": "قَارِي بَتُّ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "قَرِيبَات",
+              "heard": "qariibatu",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "qariibatu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "قَرِيبَات",
+            "heard": "qariibatu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final word was pronounced with an extra -u vowel at the end, which is not in the target."
+      }
+    },
+    {
+      "id": "cv-a3b3b23a3f172ad3b6adc5d8",
+      "en": "salad",
+      "ar": "سَلَطة",
+      "file": "cv-a3b3b23a3f172ad3b6adc5d8.mp3",
+      "audioSHA256": "159a834e6de2d100c958baeb01ce92cc0696b27f02400468b95e0fa560a521fe",
+      "blind_heard": "sa-naq-ta",
+      "blind_arabic": "سَنَقْطَ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "سَلَطة",
+              "heard": "salatah",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "salatah",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "سَلَطة",
+            "heard": "salatah",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel was pronounced as 'ah' instead of the expected pausal 'a'."
+      }
+    },
+    {
+      "id": "cv-a4556dde61f9f6dd8b5ee26e",
+      "en": "halves",
+      "ar": "أَنْصَاف",
+      "file": "cv-a4556dde61f9f6dd8b5ee26e.mp3",
+      "audioSHA256": "d577a96d3c46f26ad1437bf84d42b770157f4ce3c4976d89e07c30386e49caad",
+      "blind_heard": "ʾanṣāfu",
+      "blind_arabic": "أَنصَافُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "أَنْصَاف",
+          "heard": "ʾanṣāfu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": null
+    },
+    {
+      "id": "cv-a4e5331f7c3ac3ad1df4769d",
+      "en": "eyes",
+      "ar": "عُيُون / أَعْيُن",
+      "file": "cv-a4e5331f7c3ac3ad1df4769d.mp3",
+      "audioSHA256": "ad88b6103a7bab24269718fc089b5f97061e43b42ed7e5b9266f71244ee42c86",
+      "blind_heard": "ʿuyūn ʿuyūn",
+      "blind_arabic": "ʿuyūn ʿuyūn",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "extra_speech",
+              "word": null,
+              "heard": "uyuun",
+              "confidence": "high"
+            },
+            {
+              "type": "wrong_word",
+              "word": "عُيُون / أَعْيُن",
+              "heard": "uyuun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "uyuun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "extra_speech",
+            "word": null,
+            "heard": "uyuun",
+            "confidence": "high"
+          },
+          {
+            "type": "wrong_word",
+            "word": "عُيُون / أَعْيُن",
+            "heard": "uyuun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "Only one form 'uyuun' was pronounced, missing the second alternative 'a'yun'."
+      }
+    },
+    {
+      "id": "cv-a54d6a1865ce17b2137287e9",
+      "en": "season",
+      "ar": "فَصْل",
+      "file": "cv-a54d6a1865ce17b2137287e9.mp3",
+      "audioSHA256": "27388318e2a69734be9100ee65bf1e979af6364de0bdbbc6faf72e9016079197",
+      "blind_heard": "sa... sal",
+      "blind_arabic": "سَ... صَلْ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "فَصْل",
+              "heard": "fasla",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "fasla",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فَصْل",
+            "heard": "fasla",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an 'a' vowel at the end, making it 'fasla' instead of the target 'fasl'."
+      }
+    },
+    {
+      "id": "cv-a59663fb56b29c9ab532044b",
+      "en": "religion",
+      "ar": "الدِّين",
+      "file": "cv-a59663fb56b29c9ab532044b.mp3",
+      "audioSHA256": "f732456b46147d3f7a19078aa86fd490458f58a7059039167094252b5f3fc5f6",
+      "blind_heard": "ad-dīm",
+      "blind_arabic": "أَدْدِيمْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "الدِّين",
+              "heard": "diina",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ad-diina",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "الدِّين",
+            "heard": "diina",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final vowel 'a' at the end of 'الدِّين' which should end without it."
+      }
+    },
+    {
+      "id": "cv-a599e25cf890002846a0e50b",
+      "en": "busy with",
+      "ar": "مَشْغُولُون بِ",
+      "file": "cv-a599e25cf890002846a0e50b.mp3",
+      "audioSHA256": "1121458e47adf021db7dede5f876df5afffcb140c2b35f01fea6f0e7ee535678",
+      "blind_heard": "mashghūlūna bi-",
+      "blind_arabic": "مَشغولونَ بِـ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "مَشْغُولُون",
+          "heard": "mashghūlūna",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mashghuuluun bi",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-a67e5f04d03ea86252f1f387",
+      "en": "special; private",
+      "ar": "خاصّة",
+      "file": "cv-a67e5f04d03ea86252f1f387.mp3",
+      "audioSHA256": "5002be1eaa1c9fe25283c1c9c38585ccd45fb8e2b4b6c53cc7badcc88989802d",
+      "blind_heard": "khaa saṭan",
+      "blind_arabic": "خا سَطَنْ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "خاصّة",
+              "heard": "khaasatan",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "khaasatan",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "خاصّة",
+            "heard": "khaasatan",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an -an ending, making it sound like 'khaasatan' instead of the required 'khaassa'."
+      }
+    },
+    {
+      "id": "cv-a7e041b799f008c8d5e4c46f",
+      "en": "I fail",
+      "ar": "أَفْشَلُ",
+      "file": "cv-a7e041b799f008c8d5e4c46f.mp3",
+      "audioSHA256": "2365271ebcdfef0cde716254fd0b617310d2f2825046dfa79267ad084f544f62",
+      "blind_heard": "saʔaqraʔu al-kalimati kama hiya. wa biṣawtin waːḍiḥin wa mubattaʔin qalīlan. ʔa... fʃalu",
+      "blind_arabic": "سَأَقْرَأُ الكَلِمَةِ كَمَا هِيَ. وَبِصَوْتٍ وَاضِحٍ وَمُبَطَّئٍ قَلِيلًا. أَ... فْشَلُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "extra_speech",
+              "word": "أَفْشَلُ",
+              "heard": "sa aqraʔu al kalimati kama hiya wa bi sawtin wadihin wa mubattaʔin qalilan",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "sa aqraʔu al kalimati kama hiya wa bi sawtin wadihin wa mubattaʔin qalilan afshal",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "extra_speech",
+            "word": "أَفْشَلُ",
+            "heard": "sa aqraʔu al kalimati kama hiya wa bi sawtin wadihin wa mubattaʔin qalilan",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an introductory sentence before the target word."
+      }
+    },
+    {
+      "id": "cv-ad7a002a9f9a603cd63969cd",
+      "en": "busy with",
+      "ar": "مَشْغُولَات بِ",
+      "file": "cv-ad7a002a9f9a603cd63969cd.mp3",
+      "audioSHA256": "8c926e1abd3778c2b05459e4ceceed3368f6bbb13c61bb473a66cf0716fb4d00",
+      "blind_heard": "mashghūlātِ bih",
+      "blind_arabic": "مَشغولاتِ بِهْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مَشْغُولَات",
+              "heard": "mashghoolaatin",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mashghoolaatin bih",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مَشْغُولَات",
+            "heard": "mashghoolaatin",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an -in ending to 'mashghoolaat', which should end in a pausal 'aat'."
+      }
+    },
+    {
+      "id": "cv-af835dba4a4ad94f1572c4cf",
+      "en": "business administration",
+      "ar": "إِدارة الأَعْمال",
+      "file": "cv-af835dba4a4ad94f1572c4cf.mp3",
+      "audioSHA256": "c6bd20160921b739452cb125e7d7e501012e11bafd29ed345753377f554ac650",
+      "blind_heard": "ʾidārat-a al-ʾaʿmāl-i",
+      "blind_arabic": "إدارةَ الأعمالِ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الأَعْمال",
+          "heard": "al-ʾaʿmāl-i",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "إِدارة",
+              "heard": "idaarat",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "idaarat al-a3maal",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "إِدارة",
+            "heard": "idaarat",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final taa marbuuta in 'إِدارة' was pronounced as 't', which is incorrect; it should end in a pausal 'a' sound."
+      }
+    },
+    {
+      "id": "cv-b2fa7cef25b08054169d5065",
+      "en": "the same university",
+      "ar": "نَفْس الجَامِعَة",
+      "file": "cv-b2fa7cef25b08054169d5065.mp3",
+      "audioSHA256": "04308fa4ca7289169b10624bc0e8b00514df1d1db9fcf8c55bf7308ccdc676f4",
+      "blind_heard": "nafsu al-jaamiʿati",
+      "blind_arabic": "نَفْسُ الجَامِعَةِ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "نَفْس",
+          "heard": "nafsu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "nafs al-jaami'ah",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with a pausal ending on 'al-jaami'ah'."
+      }
+    },
+    {
+      "id": "cv-b3242c136efd8ccfd0a05259",
+      "en": "dream",
+      "ar": "حُلْم",
+      "file": "cv-b3242c136efd8ccfd0a05259.mp3",
+      "audioSHA256": "65e893bcfe7883e1c1cd07539f34974d2a189798f75bac241b86562017d04d3e",
+      "blind_heard": "ḥulim",
+      "blind_arabic": "حُلِمْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "حُلْم",
+              "heard": "hulum",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "hulum",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "حُلْم",
+            "heard": "hulum",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final vowel 'u' sound, making it 'hulum' instead of the target 'hulm'."
+      }
+    },
+    {
+      "id": "cv-b3681bace91906b14bf61814",
+      "en": "college; university school",
+      "ar": "كُلِّيَّات",
+      "file": "cv-b3681bace91906b14bf61814.mp3",
+      "audioSHA256": "ad6f5e974e26136713e0cf2cd2fbbc10f2908ee5f765558c7ac4a2ac7f30b53f",
+      "blind_heard": "kulliyyatī",
+      "blind_arabic": "كُلِّيَّتِي",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "كُلِّيَّات",
+              "heard": "kulliyyati",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "kulliyyati",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "كُلِّيَّات",
+            "heard": "kulliyyati",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final word was pronounced with an extra 'i' vowel at the end instead of ending in a pausal 'a' sound."
+      }
+    },
+    {
+      "id": "cv-b55572289ddf6bd8b9c01544",
+      "en": "elementary",
+      "ar": "اِبْتِدائِيّ",
+      "file": "cv-b55572289ddf6bd8b9c01544.mp3",
+      "audioSHA256": "625d6e11c0ecf31941ccacd9374e51990ac871122cd03497e0ebfc4a0aabe5d9",
+      "blind_heard": "ibtidāʾiyin",
+      "blind_arabic": "اِبْتِدَائِيٍ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "اِبْتِدائِيّ",
+              "heard": "ibtidaa'iyyin",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ibtidaa'iyyin",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "اِبْتِدائِيّ",
+            "heard": "ibtidaa'iyyin",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final -in tanween sound which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-b5c63e2ff103919d2b7a5a36",
+      "en": "position; job",
+      "ar": "وَظائِف",
+      "file": "cv-b5c63e2ff103919d2b7a5a36.mp3",
+      "audioSHA256": "048b35b5f8a810aa6b7b1549bdd30e2cd9ac8cf0a9cea7e510e1efdf1efdc8c7",
+      "blind_heard": "waẓāʾifu",
+      "blind_arabic": "وَظَائِفُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "وَظائِف",
+          "heard": "waẓāʾifu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "wazaa'ifu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-b9179e70336ce8ce8c9e1f9d",
+      "en": "specialist in",
+      "ar": "مُتَخَصِّصَات فِي",
+      "file": "cv-b9179e70336ce8ce8c9e1f9d.mp3",
+      "audioSHA256": "3472269532eeaac7a28077dc4d1b0100431220c64e506aaa07e493d56e6fb7a3",
+      "blind_heard": "mutakhassiṣatun fī",
+      "blind_arabic": "مُتَخَصِّصَةٌ فِي",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مُتَخَصِّصَات",
+              "heard": "mutakhassisatun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mutakhassisatun fi",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مُتَخَصِّصَات",
+            "heard": "mutakhassisatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final word 'مُتَخَصِّصَات' was pronounced with an extra -un ending instead of a pausal 'aat'."
+      }
+    },
+    {
+      "id": "cv-b976c2729d8d1cb91cddb25e",
+      "en": "rain",
+      "ar": "مَطَر",
+      "file": "cv-b976c2729d8d1cb91cddb25e.mp3",
+      "audioSHA256": "cf394e0825d2dceefe0f5a485ca8c9d2179d4192a1072510621da4177e258eea",
+      "blind_heard": "matar",
+      "blind_arabic": "مَطَرْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مَطَر",
+              "heard": "mataru",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mataru",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مَطَر",
+            "heard": "mataru",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final short vowel 'u' which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-b9f5f58941126b4bd02fd22d",
+      "en": "father",
+      "ar": "وَالِدَات",
+      "file": "cv-b9f5f58941126b4bd02fd22d.mp3",
+      "audioSHA256": "186d040c7eafd5a30f9c4d4fe591bf48f8fd5f69880bff5650e21c9b1e62cf26",
+      "blind_heard": "wālīdātu",
+      "blind_arabic": "وَالِدَاتُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "وَالِدَات",
+          "heard": "wālīdātu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "waalidaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-ba13b706f14532b166de39be",
+      "en": "seasons",
+      "ar": "فُصُول",
+      "file": "cv-ba13b706f14532b166de39be.mp3",
+      "audioSHA256": "712c9bcc5585e2e987d1bca0eee883281a88fcafaa76a206713dcb18dbbaa31b",
+      "blind_heard": "fuṣūlu",
+      "blind_arabic": "فُصُولُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "فُصُول",
+          "heard": "fuṣūlu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "fusul",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'فُصُول' without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-bf5a9cedb34cb64ec554a95a",
+      "en": "male paternal cousin",
+      "ar": "أَبْنَاء عَمّ",
+      "file": "cv-bf5a9cedb34cb64ec554a95a.mp3",
+      "audioSHA256": "85f0384842b0c29a10e7fb275e2ed75ae16c76a389db8cda1a161aa266351f7c",
+      "blind_heard": "abnāʾu ʿamm-in",
+      "blind_arabic": "أَبْناءُ عَمٍّ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "أَبْنَاء",
+          "heard": "abnāʾu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "possible_unmarked_ending",
+          "word": "عَمّ",
+          "heard": "ʿamm-in",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "abnaaʔu ʕamm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with the final damma on 'abnaaʔu' and a pausal 'ʕamm'."
+      }
+    },
+    {
+      "id": "cv-c089085658f182859f8254d5",
+      "en": "relative",
+      "ar": "قَرِيب",
+      "file": "cv-c089085658f182859f8254d5.mp3",
+      "audioSHA256": "842f22e45ecc7b09f73cd45511740c42a547ea9f617e8fc89cc43a26456330e0",
+      "blind_heard": "ḥabīb",
+      "blind_arabic": "حَبيبْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "qarīb",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-c28e80af2d32b70f417bdd91",
+      "en": "going down; staying",
+      "ar": "نُزُول",
+      "file": "cv-c28e80af2d32b70f417bdd91.mp3",
+      "audioSHA256": "65a82339d8970731ac97ab70d17b2e610f7ebe00c95248cf25031ca1b4f97c35",
+      "blind_heard": "nuzūlu",
+      "blind_arabic": "نُزُولُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "نُزُول",
+          "heard": "nuzūlu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "nuzool",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'نُزُول' without any extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-c3fc0295d216d4ad75a463fe",
+      "en": "helping; assistance",
+      "ar": "مُسَاعَدَة",
+      "file": "cv-c3fc0295d216d4ad75a463fe.mp3",
+      "audioSHA256": "f0cab78fca536fbbe2da2fdb3151321efa98f9694dda83614d5b0bbf3b399fe3",
+      "blind_heard": "musaːʕadata",
+      "blind_arabic": "مُساعَدَةَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مُسَاعَدَة",
+              "heard": "musaadatan",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "musaadatan",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مُسَاعَدَة",
+            "heard": "musaadatan",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final tanween '-an' sound, which is not present in the target word."
+      }
+    },
+    {
+      "id": "cv-c8f99fbdc40467d1dfeafb00",
+      "en": "in front of; before",
+      "ar": "أَمامَ",
+      "file": "cv-c8f99fbdc40467d1dfeafb00.mp3",
+      "audioSHA256": "8e0f8b0f4943c1a5a60a2fafcc02cdc1a65af6598dcee4e63443a31d834b4dfc",
+      "blind_heard": "ʔamaam ʔamaam",
+      "blind_arabic": "أَمامْ أَمامْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_repetition",
+          "heard": "أَمامْ أَمامْ",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "amaam",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَمامَ' with a final 'a' sound and no extra endings."
+      }
+    },
+    {
+      "id": "cv-c910bdbe30f8d08153948aa3",
+      "en": "future",
+      "ar": "المُسْتَقْبَل",
+      "file": "cv-c910bdbe30f8d08153948aa3.mp3",
+      "audioSHA256": "b8238b7bd553177c36c1a1a504f7e333dad5a587638ef2d815bd812a7d329b42",
+      "blind_heard": "al-mustaqbalu",
+      "blind_arabic": "ٱلْمُسْتَقْبَلُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "المُسْتَقْبَل",
+          "heard": "al-mustaqbalu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-mustaqbal",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or words."
+      }
+    },
+    {
+      "id": "cv-ca2d2c8b2f732e334576620e",
+      "en": "only; lonely",
+      "ar": "وَحِيدُون",
+      "file": "cv-ca2d2c8b2f732e334576620e.mp3",
+      "audioSHA256": "42afa055daee6aebf49b03cb6df3e2d61f3f538923e75b64f4b462253527a047",
+      "blind_heard": "waḥīdun",
+      "blind_arabic": "وَحِيدٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "وَحِيدُون",
+              "heard": "wahidun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "wahidun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "وَحِيدُون",
+            "heard": "wahidun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The plural ending '-uun' was not pronounced; instead, it sounded like the singular form with a final -un."
+      }
+    },
+    {
+      "id": "cv-caac8c2f3764824be4bea304",
+      "en": "May God have mercy on her",
+      "ar": "رَحِمَها الله",
+      "file": "cv-caac8c2f3764824be4bea304.mp3",
+      "audioSHA256": "a1cad6c9384a47e4b9e27039f06e64c8095187bff587644762ca8921ce6bbf47",
+      "blind_heard": "raḥimahaː ʔallaːhu",
+      "blind_arabic": "رَحِمَهَا اللّٰهُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الله",
+          "heard": "ʔallaːhu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "rahimaha allah",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-cbabfb829272775ba6ec6ad0",
+      "en": "subject; topic",
+      "ar": "مَواضيع / مَوْضوعات",
+      "file": "cv-cbabfb829272775ba6ec6ad0.mp3",
+      "audioSHA256": "69958823c57eac69904be27ccb72fc251cf7281ab5e733f417d77cc517851bec",
+      "blind_heard": "mawāḍīʿa malbūʿāt",
+      "blind_arabic": "مَوَاضِيعَ مَلْبُوعَاتْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "مَواضيع",
+          "heard": "mawāḍīʿa",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mawaadiʕ mawduʕaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "Both alternatives were pronounced clearly without unwanted endings."
+      }
+    },
+    {
+      "id": "cv-cc9c717e3b91590e5b5fd854",
+      "en": "mosque",
+      "ar": "جَوامِع",
+      "file": "cv-cc9c717e3b91590e5b5fd854.mp3",
+      "audioSHA256": "3ed958baafc6ec41666233af114ddafd382f488bedb0ec97e7fadb784e9268f6",
+      "blind_heard": "jawāmiʿa",
+      "blind_arabic": "جوامِعَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "جَوامِع",
+          "heard": "jawāmiʿa",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "jawāmiʿ",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'جَوامِع' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-ccd825c257548ac6313b7963",
+      "en": "interview",
+      "ar": "مُقابَلَة",
+      "file": "cv-ccd825c257548ac6313b7963.mp3",
+      "audioSHA256": "0311758f8d90a784f749d7d1fc2b932fd0343b8ef874e2871f17278914c2199b",
+      "blind_heard": "muqaabalatun",
+      "blind_arabic": "مُقابَلَةٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مُقابَلَة",
+              "heard": "muqaabalatun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "muqaabalatun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مُقابَلَة",
+            "heard": "muqaabalatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final -tun ending, which is not present in the target. The target should end in a pausal 'a' sound."
+      }
+    },
+    {
+      "id": "cv-ce7ab67b72cafd76221396a4",
+      "en": "going",
+      "ar": "ذَهَاب",
+      "file": "cv-ce7ab67b72cafd76221396a4.mp3",
+      "audioSHA256": "c0489e46e3f2a2fcc520ae0eaf376ebcbfe8807c34b4c813a7811f68164d8bc4",
+      "blind_heard": "dhahab",
+      "blind_arabic": "ذَهَبْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "ذَهَاب",
+              "heard": "dhahaab",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "dhahaab",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "ذَهَاب",
+            "heard": "dhahaab",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final long vowel sound, making it 'dhahaab' instead of the target 'dhahab'."
+      }
+    },
+    {
+      "id": "cv-d0670bb34338b2d18c83c110",
+      "en": "semesters",
+      "ar": "فُصُول دِرَاسِيَّة",
+      "file": "cv-d0670bb34338b2d18c83c110.mp3",
+      "audioSHA256": "2a8b355e77d3516d2894a7d83237f037209bdab2bb78a5ca82268bd9342fcef5",
+      "blind_heard": "fuṣūlu d-dirāsiyyatu",
+      "blind_arabic": "فُصُولُ الدِّراسِيَّةُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "فُصُول",
+          "heard": "fuṣūlu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "فُصُول",
+              "heard": "fusoolu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "fusoolu ddiraasiyya",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فُصُول",
+            "heard": "fusoolu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final vowel 'u' to 'فُصُول' which should end in a pause."
+      }
+    },
+    {
+      "id": "cv-d4744c0c5de16f1d5ff3c3d8",
+      "en": "subject; topic",
+      "ar": "مَوْضوع",
+      "file": "cv-d4744c0c5de16f1d5ff3c3d8.mp3",
+      "audioSHA256": "c46d5157e76610920ef6b965097bef291be3259fad12948203be8a83dafdd867",
+      "blind_heard": "mawḍūʿu",
+      "blind_arabic": "مَوضوعُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "مَوْضوع",
+          "heard": "mawḍūʿu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مَوْضوع",
+              "heard": "mawduʕu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mawduʕu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مَوْضوع",
+            "heard": "mawduʕu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final short vowel 'u' was pronounced, which is not marked in the target."
+      }
+    },
+    {
+      "id": "cv-d49ad279e9ce49b722d41bd4",
+      "en": "chess",
+      "ar": "الشَّطْرَنْج",
+      "file": "cv-d49ad279e9ce49b722d41bd4.mp3",
+      "audioSHA256": "b618dbf407d72a7ae24262961d1ebc8a344d8940a8f172821bdb011fa8f42848",
+      "blind_heard": "ash-shaṭranju",
+      "blind_arabic": "اَلشَّطْرَنْجُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الشَّطْرَنْج",
+          "heard": "ash-shaṭranju",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "ash-shatrang",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-d8a0092a9f4bba19863f59f4",
+      "en": "rains",
+      "ar": "أَمْطَار",
+      "file": "cv-d8a0092a9f4bba19863f59f4.mp3",
+      "audioSHA256": "e87115cbaa2138c098ec6eff74fc706d6409b574fe9bb7aa1d4b95a2d180f279",
+      "blind_heard": "amṭāru",
+      "blind_arabic": "أَمْطارُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "أَمْطَار",
+          "heard": "amṭāru",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "amtar",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-db1d434823c4d28fe2f1e3a7",
+      "en": "gathering together",
+      "ar": "تَجَمُّع",
+      "file": "cv-db1d434823c4d28fe2f1e3a7.mp3",
+      "audioSHA256": "ffce9d86d39a381963b411d91ef68bfbe960e1413c15454f9a7a0ec643361919",
+      "blind_heard": "tajammuʿa",
+      "blind_arabic": "تَجَمُّعَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "تَجَمُّع",
+          "heard": "tajammuʿa",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "tajammuʿ",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-dcb88c56e3996e8fbb68d140",
+      "en": "graduating; graduation",
+      "ar": "تَخَرُّج",
+      "file": "cv-dcb88c56e3996e8fbb68d140.mp3",
+      "audioSHA256": "eae6cf719a93f70e50f93eba2f7df06c4ac7933674b92aee059d6fe76916c93f",
+      "blind_heard": "taḫarruji",
+      "blind_arabic": "تَخَرُّجِي",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "تَخَرُّج",
+              "heard": "takharruji",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "takharruji",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "تَخَرُّج",
+            "heard": "takharruji",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final 'i' vowel, which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-de080fc911080cf929ffeb74",
+      "en": "admission",
+      "ar": "القُبُول",
+      "file": "cv-de080fc911080cf929ffeb74.mp3",
+      "audioSHA256": "dd7b177a34f9723541d29b21e8c5c893eebb7621ccc55cfbd7b526cedf74e29e",
+      "blind_heard": "al-qubūlu",
+      "blind_arabic": "ٱلْقُبُولُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "القُبُول",
+          "heard": "al-qubūlu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-qubuul",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-de0ac4468718d97a8db23f7b",
+      "en": "reviewing lessons",
+      "ar": "مُذَاكَرَة",
+      "file": "cv-de0ac4468718d97a8db23f7b.mp3",
+      "audioSHA256": "5536fe8c4e30612468e3efa580298580d794b69ece8fae3261bba79c6e0bf434",
+      "blind_heard": "muḏākaratun",
+      "blind_arabic": "مُذَاكَرَةٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مُذَاكَرَة",
+              "heard": "muzakaratun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "muzakaratun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مُذَاكَرَة",
+            "heard": "muzakaratun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final tanween '-tun' which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-e0b1098bc49646be8d7019ca",
+      "en": "grammar",
+      "ar": "القَوَاعِد",
+      "file": "cv-e0b1098bc49646be8d7019ca.mp3",
+      "audioSHA256": "905672fae4c3dcf6de338c4013af00af336747d0240b2fb0821f862040253cf5",
+      "blind_heard": "al-qawāʿidu",
+      "blind_arabic": "القَواعِدُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "القَوَاعِد",
+          "heard": "al-qawāʿidu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-qawaʕid",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no audible extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-e3344c6642ea702359e89089",
+      "en": "I want to",
+      "ar": "أُريدُ أَنْ",
+      "file": "cv-e3344c6642ea702359e89089.mp3",
+      "audioSHA256": "1637f0dd830fce0ab416f0ab2f846b1fc982952baf02f08f780cb6d71ef94e48",
+      "blind_heard": "ʾurīdu ʾan",
+      "blind_arabic": "أُرِيدُ أَنْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "wrong_word",
+              "word": "أُريدُ",
+              "heard": "urid",
+              "confidence": "high"
+            },
+            {
+              "type": "wrong_word",
+              "word": "أَنْ",
+              "heard": "an",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "urid an",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "أُريدُ",
+            "heard": "urid",
+            "confidence": "high"
+          },
+          {
+            "type": "wrong_word",
+            "word": "أَنْ",
+            "heard": "an",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final damma on 'أُريدُ' was not pronounced, and 'أَنْ' was pronounced without the expected final sukun, making it sound like 'an'."
+      }
+    },
+    {
+      "id": "cv-e360289b56c589e9aecda54f",
+      "en": "mosque",
+      "ar": "جامِع",
+      "file": "cv-e360289b56c589e9aecda54f.mp3",
+      "audioSHA256": "9e64e3acd7b16cb2069365ee832c157c64167ee864a299b5a659a90c1f571dcc",
+      "blind_heard": "jaːmiʕu",
+      "blind_arabic": "جَامِعُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "جامِع",
+          "heard": "jaːmiʕu",
+          "reviewer_uncertain": false
+        },
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "جامِع",
+              "heard": "jaamiʕu",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "jaamiʕu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "جامِع",
+            "heard": "jaamiʕu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final short vowel 'u' was pronounced, which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-e7634227f762c251af3d9ff5",
+      "en": "officer",
+      "ar": "ضَابِطَة",
+      "file": "cv-e7634227f762c251af3d9ff5.mp3",
+      "audioSHA256": "1404ea8872717093298bb651f0f7f3f192a968c954508e9586e62f5a317f31f0",
+      "blind_heard": "baabi ṭaṭa",
+      "blind_arabic": "بَابِ طَطَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "ضَابِطَة",
+              "heard": "dabitatan",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "dabitatan",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "ضَابِطَة",
+            "heard": "dabitatan",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an -an tanween ending, which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-e9b27ac56363ac77d5f402da",
+      "en": "two years",
+      "ar": "سَنَتانِ / سَنَتَيْنِ",
+      "file": "cv-e9b27ac56363ac77d5f402da.mp3",
+      "audioSHA256": "1169512980e53caeeab3be5e4ba0100eaa4e6d268a698cf62fa9a2325ddbb549",
+      "blind_heard": "sanataʿallamu sanataʿallamu",
+      "blind_arabic": "سَنَتَعَلَّمُ سَنَتَعَلَّمُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "extra_speech",
+              "word": null,
+              "heard": "sanatani",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "sanatani",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "extra_speech",
+            "word": null,
+            "heard": "sanatani",
+            "confidence": "high"
+          }
+        ],
+        "notes": "Only one form 'sanatani' was heard, but the target requires both 'sanatani' and 'sanatayni' separated by a pause."
+      }
+    },
+    {
+      "id": "cv-ea9784a53faa437c26bbe6ac",
+      "en": "opinion about",
+      "ar": "رَأْي في",
+      "file": "cv-ea9784a53faa437c26bbe6ac.mp3",
+      "audioSHA256": "e8e012d44745b1738d159fdec39b45c113e2dfd40d2f44d10622c91e2dcf1140",
+      "blind_heard": "raḥ yifi",
+      "blind_arabic": "رَحْ يِفِي",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "رَأْي",
+              "heard": "raʔyiin",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "raʔyiin fii",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "رَأْي",
+            "heard": "raʔyiin",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The word 'رَأْي' was pronounced with an extra 'iin' ending instead of a pause."
+      }
+    },
+    {
+      "id": "cv-eacadda043abf62c9869b209",
+      "en": "husband",
+      "ar": "زَوْجَات",
+      "file": "cv-eacadda043abf62c9869b209.mp3",
+      "audioSHA256": "0293ec822365e4c5be9772e3ce56c5c5670c693038be4562249c198dcc897c0f",
+      "blind_heard": "zawjāt",
+      "blind_arabic": "زَوْجاتْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "zawjaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'زَوْجَات' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-efdc450b8c1e54e108462258",
+      "en": "husband",
+      "ar": "زَوْجَة",
+      "file": "cv-efdc450b8c1e54e108462258.mp3",
+      "audioSHA256": "02fa16d8bd6deabaf60df21f288c441d62ceb99389ed769714fa17aa58512847",
+      "blind_heard": "sawjatun",
+      "blind_arabic": "سَوْجَتُنْ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "زَوْجَة",
+              "heard": "zawjatun",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "type": "user_reported_example_or_related_form"
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "zawjatun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "زَوْجَة",
+            "heard": "zawjatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a tanween 'un' ending, which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-f01675758fd195d2203ec6a0",
+      "en": "specialist in",
+      "ar": "مُتَخَصِّصَة فِي",
+      "file": "cv-f01675758fd195d2203ec6a0.mp3",
+      "audioSHA256": "94e67966c90b1e5a1c97534cb212b633d27eb7431bef279e7a575ccdfcc13abe",
+      "blind_heard": "mutahassisatun fi",
+      "blind_arabic": "مُتَحَسِّسَةٌ فِي",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "مُتَخَصِّصَة",
+              "heard": "mutakhassisatun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "mutakhassisatun fi",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "مُتَخَصِّصَة",
+            "heard": "mutakhassisatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final -tun ending to 'mutakhassisa', which should end in a pausal 'a' sound."
+      }
+    },
+    {
+      "id": "cv-f143cbe3e66f1f85c231d9b4",
+      "en": "officer",
+      "ar": "ضَابِطَات",
+      "file": "cv-f143cbe3e66f1f85c231d9b4.mp3",
+      "audioSHA256": "50499dcc68b8f702ae1f980b5066c22f58a04bd31df588cec2b9bd7554e56359",
+      "blind_heard": "bā bi ṭā ṭa",
+      "blind_arabic": "بَا بِ طَا طَ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "ضَابِطَات",
+              "heard": "dabitata",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "dabitata",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "ضَابِطَات",
+            "heard": "dabitata",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final short vowel '-a' at the end, which is not present in the target."
+      }
+    },
+    {
+      "id": "cv-f1b1be673cdb6b435cc0602c",
+      "en": "reading",
+      "ar": "قِرَاءَة",
+      "file": "cv-f1b1be673cdb6b435cc0602c.mp3",
+      "audioSHA256": "84a2142dff76d31cc8f926a44ab81e9555ab3c683d1ecb0490083080ab0eaa2c",
+      "blind_heard": "kira a",
+      "blind_arabic": "كِرا أَ",
+      "blind_uncertain": true,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "قِرَاءَة",
+              "heard": "qiraaʔatun",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "qiraaʔatun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "قِرَاءَة",
+            "heard": "qiraaʔatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a tanween -un ending instead of pausing on the taa marbuuta."
+      }
+    },
+    {
+      "id": "cv-f4e631846a21879cb7201dca",
+      "en": "economics; economy",
+      "ar": "الاِقْتِصاد",
+      "file": "cv-f4e631846a21879cb7201dca.mp3",
+      "audioSHA256": "5e9b1dd78f97b14879f710c3f62f2162ac900396d4dc23ded95dbbdb86b13325",
+      "blind_heard": "al-iqtiṣādu",
+      "blind_arabic": "اَلْاِقْتِصَادُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الاِقْتِصاد",
+          "heard": "al-iqtiṣādu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-iqtisad",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or alterations."
+      }
+    },
+    {
+      "id": "cv-f6ff5e5544a1c20fe8c62d9b",
+      "en": "getting to know; acquaintance",
+      "ar": "تَعَرُّف",
+      "file": "cv-f6ff5e5544a1c20fe8c62d9b.mp3",
+      "audioSHA256": "afe929158d3d450e1c98c685489c9a6b33e275ef157ae786c728be281fc79700",
+      "blind_heard": "taʕarrufu",
+      "blind_arabic": "تَعَرُّفُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "تَعَرُّف",
+          "heard": "taʕarrufu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "taʕarrufu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target, ending with a clear 'u' sound as required."
+      }
+    },
+    {
+      "id": "cv-fb2e0fcbaa9689d65d520a12",
+      "en": "I wish to",
+      "ar": "رَغِبْتُ",
+      "file": "cv-fb2e0fcbaa9689d65d520a12.mp3",
+      "audioSHA256": "f3295b4cf9ea4c5caf122f313f8298e2f587a14dd440484a63958ad3cdc7a9aa",
+      "blind_heard": "raaḍibatun",
+      "blind_arabic": "راضِبَةٌ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "target_aware_reviewer_flag",
+          "issues": [
+            {
+              "type": "unwanted_ending",
+              "word": "رَغِبْتُ",
+              "heard": "raghibatum",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "raghibatum",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "رَغِبْتُ",
+            "heard": "raghibatum",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an unwanted final 'um' sound, making it 'raghibatum' instead of the target 'raghibtu'."
+      }
+    },
+    {
+      "id": "cv-fc21a58742aebf8c61481c6d",
+      "en": "being",
+      "ar": "كَوْن",
+      "file": "cv-fc21a58742aebf8c61481c6d.mp3",
+      "audioSHA256": "396d761ef72163d77074f55c91832fb58403812e6edc6a1c0fb1aeedde542f93",
+      "blind_heard": "kawn-u",
+      "blind_arabic": "كَوْنُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "كَوْن",
+          "heard": "kawn-u",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "kawn",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'kawn' with no extra endings or errors."
+      }
+    },
+    {
+      "id": "cv-fe8e7bbf1169eeb04289161c",
+      "en": "lunch",
+      "ar": "الغَداء",
+      "file": "cv-fe8e7bbf1169eeb04289161c.mp3",
+      "audioSHA256": "bf29979c29f93a78936b06403ca9939fe1e6a949531441b005290d7a6570116f",
+      "blind_heard": "al-ghadāʾu",
+      "blind_arabic": "أَلْغَدَاءُ",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "الغَداء",
+          "heard": "al-ghadāʾu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "al-ghadaa",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with a pausal ending on the taa marbuuta."
+      }
+    },
+    {
+      "id": "cv-ff651625873dd12399f0fe4b",
+      "en": "suitable for",
+      "ar": "مُناسِب لِ",
+      "file": "cv-ff651625873dd12399f0fe4b.mp3",
+      "audioSHA256": "08a1432befec715b65dcf063a926239f94cdf5795d547e4fe5bcd8d2572f6a84",
+      "blind_heard": "munāsibu lī",
+      "blind_arabic": "مُناسِبُ لِي",
+      "blind_uncertain": false,
+      "findings": [
+        {
+          "type": "possible_unmarked_ending",
+          "word": "مُناسِب",
+          "heard": "munāsibu",
+          "reviewer_uncertain": false
+        }
+      ],
+      "guided_review": {
+        "heard_phonetic": "munaasib li",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with no extra endings or words."
+      }
+    }
+  ]
+}
