@@ -43,10 +43,10 @@
   },
   "cv-d9bda85213dfdc873e6998b7": {
     "revision": "literal-endings-1",
-    "max_output_tokens": 384,
+    "max_output_tokens": 1024,
     "max_audio_seconds": 1.5,
     "verify_audio": true,
-    "session_instructions": "انطق الكلمة أُسْرَة وحدها، مرة واحدة فقط، دون شرح أو تكرار. لا تضف حركة إعراب."
+    "session_instructions": "انطق فقط أُسْرَة، مرة واحدة، بصيغة الوقف."
   },
   "cv-e0b1098bc49646be8d7019ca": {
     "revision": "literal-endings-1",
@@ -99,10 +99,10 @@
   },
   "cv-17df78193c3f9697983ac01b": {
     "revision": "part1-audit-repair-1",
-    "max_output_tokens": 256,
+    "max_output_tokens": 1024,
     "max_audio_seconds": 1.9,
     "verify_audio": true,
-    "session_instructions": "ابدأ مباشرة بالفعل أَتَبادَلُ مرة واحدة، مع ضمة اللام المكتوبة، دون إضافة ها أو أي لفظ آخر."
+    "session_instructions": "انطق فقط أَتَبادَلُ، مرة واحدة. حافظ على ضمة اللام المكتوبة."
   },
   "cv-23873feea95493368854523d": {
     "revision": "part1-audit-repair-1",
@@ -141,10 +141,10 @@
   },
   "cv-67950bf64f781d84b058fc2d": {
     "revision": "part1-audit-repair-1",
-    "max_output_tokens": 256,
+    "max_output_tokens": 1024,
     "max_audio_seconds": 2.1,
     "verify_audio": true,
-    "session_instructions": "انطق فُرْصَة سَعيدة فقط. انطق التاء المربوطة بصيغة الوقف في الكلمتين. لا تضف آه أو أي صوت بعد العبارة."
+    "session_instructions": "انطق فقط فُرْصَة سَعيدة، مرة واحدة. انته دون إضافة أي صوت، واقرأ التاء المربوطة بصيغة الوقف."
   },
   "cv-81a7acd78d3d57b633446046": {
     "revision": "part1-audit-repair-1",
@@ -155,17 +155,17 @@
   },
   "cv-82b6256a7ed96708852b8e96": {
     "revision": "part1-audit-repair-1",
-    "max_output_tokens": 256,
+    "max_output_tokens": 1024,
     "max_audio_seconds": 1.6,
     "verify_audio": true,
-    "session_instructions": "انطق تَذَكُّر مرة واحدة. حافظ على تشديد الكاف، وانته على الراء دون حركة أو مقطع إضافي."
+    "session_instructions": "انطق فقط تَذَكُّر، مرة واحدة. انته على الراء دون حركة إعراب."
   },
   "cv-8af7c88b262d0aed6d02bd6c": {
     "revision": "part1-audit-repair-1",
-    "max_output_tokens": 256,
+    "max_output_tokens": 1024,
     "max_audio_seconds": 2,
     "verify_audio": true,
-    "session_instructions": "انطق فَشِلْتُ فِي فقط. حافظ على ضمة التاء المكتوبة وعلى الياء الطويلة في في. لا تضف تمهيدا أو مثالا."
+    "session_instructions": "انطق فقط فَشِلْتُ فِي، مرة واحدة. الحرف الأول فاء، وليس باء."
   },
   "cv-af2f8babe1201e97f2e1ff26": {
     "revision": "part1-audit-repair-1",
@@ -176,9 +176,9 @@
   },
   "cv-e9b27ac56363ac77d5f402da": {
     "revision": "part1-audit-repair-1",
-    "max_output_tokens": 256,
+    "max_output_tokens": 1024,
     "max_audio_seconds": 2.9,
     "verify_audio": true,
-    "session_instructions": "انطق سَنَتانِ ثم سَنَتَيْنِ مع وقفة قصيرة. حافظ على كسرة النون المكتوبة في كل بديل. لا تضف إلى أو أو أو أي كلمة ربط."
+    "session_instructions": "انطق البديلين سَنَتانِ ثم سَنَتَيْنِ. ضع وقفة صامتة بينهما، ولا تنطق كلمة ثم أو أي حرف ربط. انطق كسرة النون المكتوبة في كل بديل."
   }
 }

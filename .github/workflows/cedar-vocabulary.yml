@@ -1,5 +1,5 @@
 name: Complete Al-Kitaab Part 1 Cedar audio
-# Repair audit-flagged added speech and unmarked endings; retain all other cached clips.
+# Retry six rejected audit repairs with adequate completion allowance and concise instructions.
 on:
   workflow_dispatch:
   push:
