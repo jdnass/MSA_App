@@ -1,0 +1,106 @@
+{
+  "model": "gpt-realtime-2.1-mini",
+  "voice": "cedar",
+  "targets": 5183,
+  "completed": 2827,
+  "remaining": 2356,
+  "failed": {
+    "cv-0ce30f2c74cb52880b3de85f": {
+      "ar": "أَهْجُمُ عَلَى",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-13a1f36c8a7b7f0b668f5f3f": {
+      "ar": "جُبْنَة",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-171ad00fd74fc4716d9f57cd": {
+      "ar": "اِعْتِبَار",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-192f1d7c5b71f28ac2da1a2b": {
+      "ar": "مريض -- مريضة",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-1b1142994bc4540aeb0dac90": {
+      "ar": "جَرَّ",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-242888ecc9bd9986334eebca": {
+      "ar": "مُقَدَّس",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-241e3b7ceefd2838f257d4d5": {
+      "ar": "طَائِرَةُ هِلِيكُوبْتَر",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-279e81fffd44b85484c78e63": {
+      "ar": "عَالِم",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-293eb634dd40fd6310a1d320": {
+      "ar": "نُشُوء",
+      "reason": "Audio response did not complete"
+    },
+    "cv-2b80ced20dacd1df808cc748": {
+      "ar": "بِلَاد / بُلْدَان",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-3cc74422afbe055064dc9570": {
+      "ar": "شَرِكة",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-45e92328289028ce94d67d89": {
+      "ar": "ظُرَفَاء",
+      "reason": "Audio response did not complete"
+    },
+    "cv-4f15464eb0a173a15e12c583": {
+      "ar": "مُمَلَّح",
+      "reason": "Transcript mismatch: مُ مُلَّلح"
+    },
+    "cv-4f0506d0f28d4405a8b17a8f": {
+      "ar": "سَيِّئات",
+      "reason": "Audio response did not complete"
+    },
+    "cv-549493b467f4b40b0746206a": {
+      "ar": "حُكومَة",
+      "reason": "Audio response did not complete"
+    },
+    "cv-6aabb4cda0f3dbb955760ee8": {
+      "ar": "قابِل لِلتَّفاوُض",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-73d6083e8750d988841dc1cd": {
+      "ar": "تَقَاوِيم",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-7d177db05ce082a6e65ffa50": {
+      "ar": "وَالِدَتِي",
+      "reason": "Audio response did not complete"
+    },
+    "cv-7b7aa9aaf056f6fddb5f8498": {
+      "ar": "نَفْس ال",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-7f64b4393a13d4545b6a4946": {
+      "ar": "ولد -- أوْلاد",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-7eeba441025e79745bac7f10": {
+      "ar": "مَجْلِس الشُّيُوخ",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-7ef4234357ba710298a9809e": {
+      "ar": "كَتَبَ",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    },
+    "cv-84b434e6c8efd185e08a1f07": {
+      "ar": "اِبْن أُخْت الزَّوْجَة",
+      "reason": "OpenAI error: rate_limit_exceeded"
+    }
+  },
+  "estimatedGenerationCostUSD": 2.536374,
+  "requests": 4408,
+  "cards": 5346,
+  "verbTrees": 268,
+  "brokenPluralPairs": 428
+}
