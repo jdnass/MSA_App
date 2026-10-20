@@ -1,0 +1,63 @@
+name: Generate MoSA Modules Cedar audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/cedar-modules.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cedar-modules
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install generation dependencies
+        run: |
+          python -m pip install websocket-client==1.8.0
+          command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Validate source and audio integration
+        run: |
+          node scripts/check-module-audio.cjs
+          python -m py_compile scripts/cedar_modules.py
+          python scripts/cedar_modules.py --dry-run
+      - name: Generate missing Cedar recordings
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/cedar_modules.py
+      - name: Preserve recordings and usage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mosa-modules-cedar-audio
+          path: |
+            audio/mosa-modules/
+            cedar-module-audio.js
+            cedar-review/
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Save generated audio to repository
+        if: always()
+        run: |
+          if [ ! -f audio/mosa-modules/manifest.json ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/mosa-modules cedar-module-audio.js
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save Cedar recordings for MoSA Modules sentences"
+          git pull --rebase origin main
+          git push origin HEAD:main
