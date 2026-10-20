@@ -6601,6 +6601,546 @@
         }
       },
       "signature": "29c364e6a480f9fe606ac10396aa8532edaf06715262626e979e0d76106b9e51"
+    },
+    "mosa-m3-s3-s3": {
+      "id": "mosa-m3-s3-s3",
+      "en": "I remember most words, but I forget sometimes.",
+      "ar": "أَتَذَكَّرُ مُعْظَمَ الكَلِمَاتِ، لَكِنْ أَنْسَى أَحْيَانًا.",
+      "file": "mosa-m3-s3-s3.mp3",
+      "seconds": 4.55,
+      "transcript": "أَتَذَكَّرُ مُعْظَمَ الكَلِمَاتِ، لَكِنْ أَنْسَى أَحْيَانًا.",
+      "usage": {
+        "total_tokens": 282,
+        "input_tokens": 100,
+        "output_tokens": 182,
+        "input_token_details": {
+          "text_tokens": 100,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 91,
+          "audio_tokens": 91,
+          "reasoning_tokens": 33
+        }
+      },
+      "signature": "bbddd598d17a3617b98d105a2a511b450015aeb9b78628877bea256ed0c0b0e4"
+    },
+    "mosa-m4-s2-s2": {
+      "id": "mosa-m4-s2-s2",
+      "en": "I speak English.",
+      "ar": "أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ.",
+      "file": "mosa-m4-s2-s2.mp3",
+      "seconds": 3.4,
+      "transcript": "أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ.",
+      "usage": {
+        "total_tokens": 229,
+        "input_tokens": 79,
+        "output_tokens": 150,
+        "input_token_details": {
+          "text_tokens": 79,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 82,
+          "audio_tokens": 68,
+          "reasoning_tokens": 47
+        }
+      },
+      "signature": "fa761fa697d068e89cae03d7b9d088ec623ab8e9fe670ae82370ecc1afa63028"
+    },
+    "mosa-m4-s7-s4": {
+      "id": "mosa-m4-s7-s4",
+      "en": "33333.",
+      "ar": "٣٣٣٣٣.",
+      "file": "mosa-m4-s7-s4.mp3",
+      "seconds": 2.7,
+      "transcript": "٣٣٣٣٣",
+      "usage": {
+        "total_tokens": 178,
+        "input_tokens": 64,
+        "output_tokens": 114,
+        "input_token_details": {
+          "text_tokens": 64,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 60,
+          "audio_tokens": 54,
+          "reasoning_tokens": 45
+        }
+      },
+      "signature": "77f470fff47843f8ec3d03dff845c4e03a4df386dd944c401520f4d220af3b90"
+    },
+    "mosa-m10-s3-s1": {
+      "id": "mosa-m10-s3-s1",
+      "en": "My roommate, Eytan, studied engineering at the same college.",
+      "ar": "دَرَسَ رَفِيقِي فِي السَّكَنِ، إِيتَان، الْهَنْدَسَةَ فِي نَفْسِ الْكُلِّيَّةِ.",
+      "file": "mosa-m10-s3-s1.mp3",
+      "seconds": 7.75,
+      "transcript": "دَرَسَ رَفِيقِي فِي السَّكَنِ، إِيتَان، الْهَنْدَسَةَ فِي نَفْسِ الْكُلِّيَّةِ.",
+      "usage": {
+        "total_tokens": 377,
+        "input_tokens": 109,
+        "output_tokens": 268,
+        "input_token_details": {
+          "text_tokens": 109,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 113,
+          "audio_tokens": 155,
+          "reasoning_tokens": 44
+        }
+      },
+      "signature": "0724c93ae49094791119bb58732aa13be357b92ad2acf86c2e9750113928a570"
+    },
+    "mosa-m33-s8-s1": {
+      "id": "mosa-m33-s8-s1",
+      "en": "They have soy options for vegetarians and vegans.",
+      "ar": "عِنْدَهُمْ خِيَارَات مِنَ الصُّويَا لِلنَّبَاتِيِّين وَالنَّبَاتِيِّين الصِّرْف.",
+      "file": "mosa-m33-s8-s1.mp3",
+      "seconds": 8.1,
+      "transcript": "عِنْدَهُمْ خِيَارَات مِنَ الصُّويَا لِلنَّبَاتِيِّين وَالنَّبَاتِيِّين الصِّرْف.",
+      "usage": {
+        "total_tokens": 395,
+        "input_tokens": 101,
+        "output_tokens": 294,
+        "input_token_details": {
+          "text_tokens": 101,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 64,
+          "cached_tokens_details": {
+            "text_tokens": 64,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 132,
+          "audio_tokens": 162,
+          "reasoning_tokens": 71
+        }
+      },
+      "signature": "2a230d2d964cd7ce0941f2a7d5918c8f4f56f2b7ba838cdc15b599a640329f31"
+    },
+    "mosa-m35-s2-s2": {
+      "id": "mosa-m35-s2-s2",
+      "en": "My profession is hard.",
+      "ar": "مِهْنَتِي صَعْبَة.",
+      "file": "mosa-m35-s2-s2.mp3",
+      "seconds": 1.9,
+      "transcript": "مِهْنَتِي صَعْبَة.",
+      "usage": {
+        "total_tokens": 176,
+        "input_tokens": 73,
+        "output_tokens": 103,
+        "input_token_details": {
+          "text_tokens": 73,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 65,
+          "audio_tokens": 38,
+          "reasoning_tokens": 38
+        }
+      },
+      "signature": "940cddd6fe8348a8d7f6d941b82a555950d21c8f71410408eccf7aede79db886"
+    },
+    "mosa-m35-s2-s3": {
+      "id": "mosa-m35-s2-s3",
+      "en": "The directors I work for are difficult.",
+      "ar": "المُدِيرُونَ الَّذِينَ أَعْمَلُ تَحْتَ إِدَارَتِهِمْ صَعْبُو المِرَاس.",
+      "file": "mosa-m35-s2-s3.mp3",
+      "seconds": 5.15,
+      "transcript": "المُدِيرُونَ الَّذِينَ أَعْمَلُ تَحْتَ إِدَارَتِهِمْ صَعْبُو المِرَاس.",
+      "usage": {
+        "total_tokens": 377,
+        "input_tokens": 103,
+        "output_tokens": 274,
+        "input_token_details": {
+          "text_tokens": 103,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 64,
+          "cached_tokens_details": {
+            "text_tokens": 64,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 171,
+          "audio_tokens": 103,
+          "reasoning_tokens": 110
+        }
+      },
+      "signature": "3bdda1a08375defaf6345417adbb0f10bd0a2d648e9a530efc1efa497f533958"
+    },
+    "mosa-m35-s2-s4": {
+      "id": "mosa-m35-s2-s4",
+      "en": "I have one colleague in the same position.",
+      "ar": "لَدَيَّ زَمِيل وَاحِد فِي نَفْس المَنْصِب.",
+      "file": "mosa-m35-s2-s4.mp3",
+      "seconds": 4.1,
+      "transcript": "لَدَيَّ زَمِيل وَاحِد فِي نَفْس المَنْصِب.",
+      "usage": {
+        "total_tokens": 233,
+        "input_tokens": 83,
+        "output_tokens": 150,
+        "input_token_details": {
+          "text_tokens": 83,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 68,
+          "audio_tokens": 82,
+          "reasoning_tokens": 27
+        }
+      },
+      "signature": "d9c8919c499007be6f861b4369c7147f994451dfe73b7296d5d78700e3601e9e"
+    },
+    "mosa-m35-s2-s5": {
+      "id": "mosa-m35-s2-s5",
+      "en": "We earn the same salary.",
+      "ar": "نَتَقَاضَى نَفْس الرَّاتِب.",
+      "file": "mosa-m35-s2-s5.mp3",
+      "seconds": 2.55,
+      "transcript": "نَتَقَاضَى نَفْس الرَّاتِب.",
+      "usage": {
+        "total_tokens": 177,
+        "input_tokens": 76,
+        "output_tokens": 101,
+        "input_token_details": {
+          "text_tokens": 76,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 50,
+          "audio_tokens": 51,
+          "reasoning_tokens": 18
+        }
+      },
+      "signature": "d4ae999c378f9cb7b979abe013dc26f39e0f1e3c2a78f9833698eb943cde86e7"
+    },
+    "mosa-m35-s2-s6": {
+      "id": "mosa-m35-s2-s6",
+      "en": "When I interviewed, it was clear there was no formal training.",
+      "ar": "عِنْدَمَا خَضَعْتُ لِمُقَابَلَة العَمَل، كَانَ مِنَ الوَاضِح أَنَّهُ لَا يُوجَدُ تَدْرِيب رَسْمِيّ.",
+      "file": "mosa-m35-s2-s6.mp3",
+      "seconds": 6.4,
+      "transcript": "عِنْدَمَا خَضَعْتُ لِمُقَابَلَة العَمَل، كَانَ مِنَ الوَاضِح أَنَّهُ لَا يُوجَدُ تَدْرِيب رَسْمِيّ.",
+      "usage": {
+        "total_tokens": 408,
+        "input_tokens": 119,
+        "output_tokens": 289,
+        "input_token_details": {
+          "text_tokens": 119,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 64,
+          "cached_tokens_details": {
+            "text_tokens": 64,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 161,
+          "audio_tokens": 128,
+          "reasoning_tokens": 82
+        }
+      },
+      "signature": "2a14bf6133e6bed0534325579657d65bd1fe8d01183caa3c7f03722cea98f622"
+    },
+    "mosa-m35-s3-s2": {
+      "id": "mosa-m35-s3-s2",
+      "en": "The owners are in charge.",
+      "ar": "أَصْحَاب الشَّرِكَة هُمُ المَسْؤُولُونَ.",
+      "file": "mosa-m35-s3-s2.mp3",
+      "seconds": 4.45,
+      "transcript": "أَصْحَاب الشَّرِكَة هُمُ المَسْؤُولُونَ.",
+      "usage": {
+        "total_tokens": 241,
+        "input_tokens": 84,
+        "output_tokens": 157,
+        "input_token_details": {
+          "text_tokens": 84,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 68,
+          "audio_tokens": 89,
+          "reasoning_tokens": 26
+        }
+      },
+      "signature": "552823f50681d7cef464f2e1b3b6267a739bcb765427d2476e3b413109ee0aae"
+    },
+    "mosa-m35-s3-s3": {
+      "id": "mosa-m35-s3-s3",
+      "en": "However, we share the same goal.",
+      "ar": "لَكِنْ، نَشْتَرِكُ فِي نَفْس الهَدَف.",
+      "file": "mosa-m35-s3-s3.mp3",
+      "seconds": 2.6,
+      "transcript": "لَكِنْ، نَشْتَرِكُ فِي نَفْس الهَدَف.",
+      "usage": {
+        "total_tokens": 235,
+        "input_tokens": 85,
+        "output_tokens": 150,
+        "input_token_details": {
+          "text_tokens": 85,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 98,
+          "audio_tokens": 52,
+          "reasoning_tokens": 57
+        }
+      },
+      "signature": "c725d368eefc21b5e0eb97b0b1c625290e62288993fb1aab6f259c5c97efbbbf"
+    },
+    "mosa-m35-s3-s4": {
+      "id": "mosa-m35-s3-s4",
+      "en": "We want success for our investors.",
+      "ar": "نُرِيدُ النَّجَاح لِمُسْتَثْمِرِينَا.",
+      "file": "mosa-m35-s3-s4.mp3",
+      "seconds": 3.05,
+      "transcript": "نُرِيدُ النَّجَاح لِمُسْتَثْمِرِينَا.",
+      "usage": {
+        "total_tokens": 244,
+        "input_tokens": 84,
+        "output_tokens": 160,
+        "input_token_details": {
+          "text_tokens": 84,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 99,
+          "audio_tokens": 61,
+          "reasoning_tokens": 59
+        }
+      },
+      "signature": "15a0ec3f0535ec4ebdbeb54a86defefc857d7084f9068517c52889179828cb49"
+    },
+    "mosa-m35-s4-s1": {
+      "id": "mosa-m35-s4-s1",
+      "en": "If I fail, I will be fired.",
+      "ar": "إِذَا فَشِلْتُ، فَسَأُفْصَلُ مِنَ العَمَل.",
+      "file": "mosa-m35-s4-s1.mp3",
+      "seconds": 3.1,
+      "transcript": "إِذَا فَشِلْتُ، فَسَأُفْصَلُ مِنَ العَمَل.",
+      "usage": {
+        "total_tokens": 225,
+        "input_tokens": 87,
+        "output_tokens": 138,
+        "input_token_details": {
+          "text_tokens": 87,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 64,
+          "cached_tokens_details": {
+            "text_tokens": 64,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 76,
+          "audio_tokens": 62,
+          "reasoning_tokens": 35
+        }
+      },
+      "signature": "754ce866f83f344008b641de2bdccbd489f91f1683af9bd9231d1a86f8bcaebe"
+    },
+    "mosa-m35-s4-s2": {
+      "id": "mosa-m35-s4-s2",
+      "en": "I hope to retire soon.",
+      "ar": "آمُلُ أَنْ أَتَقَاعَدَ قَرِيبًا.",
+      "file": "mosa-m35-s4-s2.mp3",
+      "seconds": 3.5,
+      "transcript": "آمُلُ أَنْ أَتَقَاعَدَ قَرِيبًا.",
+      "usage": {
+        "total_tokens": 236,
+        "input_tokens": 78,
+        "output_tokens": 158,
+        "input_token_details": {
+          "text_tokens": 78,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 64,
+          "cached_tokens_details": {
+            "text_tokens": 64,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 88,
+          "audio_tokens": 70,
+          "reasoning_tokens": 54
+        }
+      },
+      "signature": "f860a812f950cd1a300f1b4fa7ed15b8b8646b418c6919fb0977147f0d489b2d"
+    },
+    "mosa-m35-s4-s3": {
+      "id": "mosa-m35-s4-s3",
+      "en": "I want to submit my resignation.",
+      "ar": "أُرِيدُ أَنْ أُقَدِّمَ اِسْتِقَالَتِي.",
+      "file": "mosa-m35-s4-s3.mp3",
+      "seconds": 4.05,
+      "transcript": "أُرِيدُ أَنْ أُقَدِّمَ اِسْتِقَالَتِي.",
+      "usage": {
+        "total_tokens": 230,
+        "input_tokens": 84,
+        "output_tokens": 146,
+        "input_token_details": {
+          "text_tokens": 84,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 64,
+          "cached_tokens_details": {
+            "text_tokens": 64,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 65,
+          "audio_tokens": 81,
+          "reasoning_tokens": 25
+        }
+      },
+      "signature": "79caff6af4af8a0feb8782b65ae285dfed0a6e6bf0d516246bb1d560fa8739d1"
+    },
+    "mosa-m35-s5-s2": {
+      "id": "mosa-m35-s5-s2",
+      "en": "If I had ten million dollars today, I would also leave.",
+      "ar": "لَوْ كَانَ لَدَيَّ عَشَرَةُ مَلَايِينِ دُولَارٍ اليَوْمَ، لَغَادَرْتُ أَيْضًا.",
+      "file": "mosa-m35-s5-s2.mp3",
+      "seconds": 6.55,
+      "transcript": "لَوْ كَانَ لَدَيَّ عَشَرَةُ مَلَايِينِ دُولَارٍ اليَوْمَ، لَغَادَرْتُ أَيْضًا.",
+      "usage": {
+        "total_tokens": 331,
+        "input_tokens": 107,
+        "output_tokens": 224,
+        "input_token_details": {
+          "text_tokens": 107,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 93,
+          "audio_tokens": 131,
+          "reasoning_tokens": 26
+        }
+      },
+      "signature": "8f9460a510f896e4d2bbe09f48028f8bdc2f24d25102cb708ffcc112ca0a216f"
+    },
+    "mosa-m10-s1-s7": {
+      "id": "mosa-m10-s1-s7",
+      "en": "The University of Michigan is a public university.",
+      "ar": "جَامِعَةُ مِيشِيغَانَ جَامِعَةٌ حُكُومِيَّةٌ.",
+      "file": "mosa-m10-s1-s7.mp3",
+      "seconds": 3.8,
+      "transcript": "جَامِعَةُ مِيشِيغَانَ جَامِعَةٌ حُكُومِيَّةٌ.",
+      "usage": {
+        "total_tokens": 285,
+        "input_tokens": 92,
+        "output_tokens": 193,
+        "input_token_details": {
+          "text_tokens": 92,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 64,
+          "cached_tokens_details": {
+            "text_tokens": 64,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 117,
+          "audio_tokens": 76,
+          "reasoning_tokens": 67
+        }
+      },
+      "signature": "38e5732b820875b89dd38ca7ad91687903e0ae12bc17d7f6ebf1fb44174630ae"
     }
   }
 }
