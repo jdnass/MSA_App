@@ -1,5 +1,5 @@
 name: Complete Al-Kitaab Part 1 Cedar audio
-# Retry the remaining family clip with concise instructions; retain verification.
+# Repair audit-flagged added speech and unmarked endings; retain all other cached clips.
 on:
   workflow_dispatch:
   push:

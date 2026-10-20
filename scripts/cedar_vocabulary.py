@@ -29,6 +29,9 @@ def transcript_matches(actual,expected):
     # Orthographic ASR is not a complete phonetic check. Reject marked extra
     # endings when a transcript does expose them, as well as added/missing words.
     if norm(actual)!=norm(expected): return False
+    # Tanween may be typed before or after its supporting alif; these are equivalent.
+    actual=re.sub(r"([ء-ي])\u064bا",r"\1ا"+"\u064b",actual)
+    expected=re.sub(r"([ء-ي])\u064bا",r"\1ا"+"\u064b",expected)
     token_pattern=r"[ء-يٱ][ء-يٱ\u064b-\u065f\u0670]*"
     supplied=re.findall(token_pattern,expected)
     heard=re.findall(token_pattern,actual)
