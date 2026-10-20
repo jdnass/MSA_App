@@ -19,5 +19,82 @@
     "max_audio_seconds": 2.1,
     "verify_audio": true,
     "session_instructions": "You are recording one Arabic dictionary headword. Say exactly مِنْطَقَة once, pronounced min-ta-qa, with emphatic Arabic taa and Arabic qaaf. Exactly three syllables. Use the pausal pronunciation of the final taa marbuuta: end with a short a, without a t, tun, tan, extra vowel, extra syllable, or audible breath after the word. Clear natural Modern Standard Arabic at normal conversational speed. No introduction, explanation, translation, or repetition."
+  },
+  "cv-5679dd0c4d1d1b1215fa070b": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.8,
+    "verify_audio": true,
+    "session_instructions": "Say exactly عَنَاوِين once. Pronunciation guide for silent reference only: a-naa-WEEN, beginning with Arabic ayn. Clearly pronounce the w consonant between naa and the long ee. End on n, with no final a, u, or i."
+  },
+  "cv-5ae7cdfd94c9a049d8c52d4a": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.7,
+    "verify_audio": true,
+    "session_instructions": "Say exactly مَنَاطِق once. Pronunciation guide for silent reference only: ma-naa-tiq. End on q. Do not add u, a, i, un, an, or in."
+  },
+  "cv-8b82ef2f3486f3861878ff6d": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.6,
+    "verify_audio": true,
+    "session_instructions": "Say exactly تَكَلُّم once. Pronunciation guide for silent reference only: ta-kal-lum. Keep the doubled l. End on m, without un, an, in, a, i, or u after the m."
+  },
+  "cv-d9bda85213dfdc873e6998b7": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.5,
+    "verify_audio": true,
+    "session_instructions": "Say exactly أُسْرَة once. Pronunciation guide for silent reference only: us-ra. Say this word only once. End with short a. No t, tanween, repeated word, alternate pronunciation, or second attempt."
+  },
+  "cv-e0b1098bc49646be8d7019ca": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.8,
+    "verify_audio": true,
+    "session_instructions": "Say exactly القَوَاعِد once. Pronunciation guide for silent reference only: al-qa-waa-id. End on d. Do not say qawaaidu, qawaaida, or qawaaidi."
+  },
+  "cv-ed6dbc20ba0cd08f5bbb8f32": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 2.5,
+    "verify_audio": true,
+    "session_instructions": "Say exactly أَتَكَلَّمُ عَنْ once. Pronunciation guide for silent reference only: a-ta-kal-la-mu an, with Arabic ayn at the beginning of an. Keep the explicitly written u on atakallamu. End the preposition an on n. Do not say an-an or add any sound after it."
+  },
+  "cv-ee5b3b611a761c503f20cbb8": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.5,
+    "verify_audio": true,
+    "session_instructions": "Say exactly وَالِد once. Pronunciation guide for silent reference only: waa-lid. This is the masculine word, ending clearly on d. No a, u, i, or tanween after d. Do not say waalida, the feminine counterpart."
+  },
+  "cv-f0bce98e88de0eb9870b0953": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 2.6,
+    "verify_audio": true,
+    "session_instructions": "Say exactly الأُمَم المُتَّحِدَة once. Pronunciation guide for silent reference only: al-u-mam al-mut-ta-hi-da, with no vowel after the m in umam. Do not say umami, umamu, or umama. End muttahida with a short a, without t or a case ending."
+  },
+  "cv-f24ea478d29dd08d1abffcd4": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.4,
+    "verify_audio": true,
+    "session_instructions": "Say exactly عُمْر once. Pronunciation guide for silent reference only: umr, beginning with Arabic ayn and ending on r. One short word. Do not add kataba, an example, or any other word."
+  },
+  "cv-f35631f29814ddf0ad3827a4": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.5,
+    "verify_audio": true,
+    "session_instructions": "Say exactly بَلَد once. Pronunciation guide for silent reference only: ba-lad. Begin directly with balad and end on d. Nothing before or after the word. No introductory sentence, baladun, baladan, or baladin."
+  },
+  "cv-f7b14c18462d4dcdbd29a1ad": {
+    "revision": "literal-endings-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.6,
+    "verify_audio": true,
+    "session_instructions": "Say exactly جِنْسِيَّة once. Pronunciation guide for silent reference only: jin-siy-ya. End with the short a of taa marbuuta. No t sound or case ending; do not say jinsiyyatun or jinsiyyati."
   }
 }

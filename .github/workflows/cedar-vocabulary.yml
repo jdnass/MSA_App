@@ -1,5 +1,5 @@
 name: Complete Al-Kitaab Part 1 Cedar audio
-# Repair three reported pronunciations with independent audio checks; reuse other recordings.
+# Repair 11 reported clips; forbid unmarked endings and verify actual audio.
 on:
   workflow_dispatch:
   push:

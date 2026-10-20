@@ -18,6 +18,34 @@ def norm(s):
     s=re.sub(r"[\u0610-\u061a\u064b-\u065f\u0670\u0640\u06d6-\u06ed]","",s)
     return re.sub(r"[^\w]","",re.sub("[أإآٱ]","ا",s).replace("ى","ي"))
 
+
+VOCAB_INSTRUCTIONS=(
+    "Record only the supplied Arabic vocabulary text, exactly once, in natural Modern Standard Arabic. "
+    "This is an isolated vocabulary recording, not conversation. Start immediately with the target and stop immediately after it. "
+    "Never introduce, explain, translate, repeat, answer, or supply an example sentence. "
+    "Pronounce the written short vowels and tanween exactly. Never infer or add an unwritten final case vowel or tanween, on any word in a multiword entry. "
+    "Keep explicitly marked final vowels, such as the final damma in a present-tense verb. "
+    "When the final consonant has no vowel mark, stop on that consonant without an extra vowel. "
+    "For a taa marbuuta without an explicit ending vowel, use the pausal a pronunciation, not at, atun, atin, or atan. "
+    "Use normal, brief consonants and a natural pace, without exaggerated articulation. "
+)
+def transcript_matches(actual,expected):
+    # Orthographic ASR is not a complete phonetic check. Reject marked extra
+    # endings when a transcript does expose them, as well as added/missing words.
+    if norm(actual)!=norm(expected): return False
+    token_pattern=r"[ء-يٱ][ء-يٱ\u064b-\u065f\u0670]*"
+    supplied=re.findall(token_pattern,expected)
+    heard=re.findall(token_pattern,actual)
+    if len(supplied)!=len(heard): return False
+    for source,spoken in zip(supplied,heard):
+        source_end=re.search(r"[\u064b-\u065f\u0670]*$",source).group()
+        spoken_end=re.search(r"[\u064b-\u065f\u0670]*$",spoken).group()
+        source_vowels=re.findall(r"[\u064b-\u0650]",source_end)
+        spoken_vowels=re.findall(r"[\u064b-\u0650]",spoken_end)
+        if spoken_vowels and spoken_vowels!=source_vowels: return False
+    return True
+
+
 def slot():
     global NEXT
     with LOCK:
@@ -43,7 +71,7 @@ def verify_recording(path,key,expected):
     with urllib.request.urlopen(request,timeout=60) as response:
         result=json.loads(response.read())
     text=result.get("text","")
-    if norm(text)!=norm(expected): raise RuntimeError("Independent audio check rejected extra or incorrect words: "+text[:200])
+    if not transcript_matches(text,expected): raise RuntimeError("Independent audio check rejected extra or incorrect words: "+text[:200])
     return text
 
 def one(t,key):
@@ -58,7 +86,7 @@ def one(t,key):
             request["pronunciation_instructions"]+=" Pronounce the syllable "+syllables[t["spoken"]]+", not the letter name."
         if attempt:
             request["pronunciation_instructions"]+=" Preserve every supplied letter and vowel exactly."
-        if t.get("session_instructions"): request["session_instructions"]=t["session_instructions"]
+        request["session_instructions"]=VOCAB_INSTRUCTIONS+" "+t.get("session_instructions","")
         try:
             with LOCK: ATTEMPTS+=1
             r=cedar_samples.generate(request,key)
@@ -66,7 +94,7 @@ def one(t,key):
             a=u.get("output_token_details",{}).get("audio_tokens",0)
             cost=(u.get("input_tokens",0)*0.6+a*20+max(0,u.get("output_tokens",0)-a)*2.4)/1000000
             with LOCK: SPENT+=cost
-            if norm(r["transcript"])!=norm(t["spoken"]):
+            if not transcript_matches(r["transcript"],t["spoken"]):
                 last="Transcript mismatch: "+r["transcript"]
                 continue
             target=DEST/(t["id"]+".mp3")
