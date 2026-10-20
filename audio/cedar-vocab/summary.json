@@ -8,9 +8,26 @@
   "targets": 5183,
   "completed": 3184,
   "remaining": 1999,
-  "failed": {},
-  "estimatedGenerationCostUSD": 2.844596,
-  "requests": 4827,
+  "failed": {
+    "cv-5679dd0c4d1d1b1215fa070b": {
+      "ar": "عَنَاوِين",
+      "reason": "Audio response did not complete"
+    },
+    "cv-d9bda85213dfdc873e6998b7": {
+      "ar": "أُسْرَة",
+      "reason": "Independent audio check rejected extra or incorrect words: 오시라."
+    },
+    "cv-f24ea478d29dd08d1abffcd4": {
+      "ar": "عُمْر",
+      "reason": "Audio response did not complete"
+    },
+    "cv-f7b14c18462d4dcdbd29a1ad": {
+      "ar": "جِنْسِيَّة",
+      "reason": "Independent audio check rejected extra or incorrect words: Żinsija."
+    }
+  },
+  "estimatedGenerationCostUSD": 2.859795,
+  "requests": 4864,
   "cards": 5346,
   "verbTrees": 268,
   "brokenPluralPairs": 428
