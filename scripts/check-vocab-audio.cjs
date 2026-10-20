@@ -4,6 +4,7 @@ for(const m of source.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g))new 
 const funcs=source.match(/function cedarVocabKey[\s\S]*?\n\n/)[0];
 let played=[],spoken=[];
 const ctx={window:{MOSA_MODULE_AUDIO:{'mosa-m10-s1-s1':{ar:'جملة',src:'module.mp3'}},MOSA_VOCAB_IDS:{vocab:true},MOSA_VOCAB_AUDIO:{'كِتاب':'cedar.mp3','كُتُب':'plural.mp3','أُدَرِّسُ':'tree.mp3'}},NATIVE_AUDIO_BY_ID:{vocab:'my-voice.m4a',conversation:'conversation.m4a'},NATIVE_AUDIO_BY_KEY:{},VOCABULARY_BASE_AR:{},nativeAudioKey:d=>d.ar,stopAudio(){ctx.activeNativeAudio=null;},speakWithTTS:ar=>spoken.push(ar),Audio:class{constructor(src){this.src=src;}play(){played.push(this.src);return Promise.resolve();}}};
+ctx.window.MOSA_VOCAB_AUDIO=Object.fromEntries(Object.entries(ctx.window.MOSA_VOCAB_AUDIO).map(([k,v])=>[k.normalize('NFC'),v]));
 vm.createContext(ctx);vm.runInContext(funcs,ctx);
 ctx.playArabic({id:'vocab',ar:'كِتاب'});assert.equal(played.pop(),'cedar.mp3');
 ctx.playArabic({id:'bp-1',ar:'كُتُب',audioKind:'vocabulary'});assert.equal(played.pop(),'plural.mp3');

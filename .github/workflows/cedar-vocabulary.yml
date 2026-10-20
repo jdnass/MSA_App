@@ -1,4 +1,5 @@
 name: Generate all Cedar vocabulary audio
+# Validate Arabic Unicode normalization before bulk generation.
 on:
   workflow_dispatch:
   push:
