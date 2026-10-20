@@ -1,11 +1,28 @@
 """Audit saved Part 1 vocabulary audio without changing any recording."""
 import concurrent.futures, collections, json, os, re, time
 from pathlib import Path
-from cedar_vocabulary import norm, transcript_matches, verify_recording
+from cedar_vocabulary import norm, verify_recording
 ROOT=Path(__file__).resolve().parent.parent
 OUT=ROOT/"reports"/"cedar-part1-audit.json"
 DEADLINE=time.monotonic()+12*60
 PREFIX="Independent audio check rejected extra or incorrect words: "
+
+
+def transcript_matches(actual,expected):
+    if norm(actual)!=norm(expected): return False
+    def words(text):
+        text=re.sub(r"([ء-ي])\u064bا","\\1ا" + "\u064b",text)
+        return re.findall(r"[ء-يٱ][ء-يٱ\u064b-\u065f\u0670]*",text)
+    a,e=words(actual),words(expected)
+    if len(a)!=len(e): return True # ASR token splitting is not a vowel-ending error.
+    for heard,source in zip(a,e):
+        if norm(heard)!=norm(source): continue
+        def vowels(word):
+            ending=re.search(r"[\u064b-\u065f\u0670]*$",word).group()
+            return re.findall(r"[\u064b-\u0650]",ending)
+        if vowels(heard) and vowels(heard)!=vowels(source): return False
+    return True
+
 
 def tokens(s):
     return [norm(w) for w in re.findall(r"[ء-يٱ][ء-يٱ\u064b-\u065f\u0670]*",s)]
