@@ -206,6 +206,22 @@ const brokenPluralState={search:'',pattern:'all',reveals:new Set(),collections:n
 function brokenPluralKey(value){return stripHarakat(String(value||'')).replace(/ـ/g,'').trim().replace(/^ال/,'').replace(/\s+/g,' ')}
 const brokenPluralPatternByWord=new Map(brokenPluralPatterns.flatMap(p=>p.words.split(' ').map(w=>[w,p.id])));
 function brokenPluralPattern(value){return brokenPluralPatternByWord.get(brokenPluralKey(value).split(' ')[0])}
+// Additional reviewed source plurals not yet used by the pattern practice table.
+const sourceBrokenPluralWords=new Set('آثار أملاك تفاصيل صنادل جوارب تمارين أمم'.split(' '));
+// Unvocalized spellings can coincide with a singular or a weekday.
+const sourceBrokenPluralExclusions=new Set(['dli-c87-25','madina-book1-30','ak2-c9-12','mango-c13-23']);
+// Source vocabulary cards qualify; supplemental family-completion cards do not.
+// Part 2 preserves sourceOrders even for explicitly listed plural cards.
+function isSourceBrokenPlural(word){
+  if(sourceBrokenPluralExclusions.has(word.id)||isCompanionVerbForm(word))return false;
+  if(Array.isArray(word.sourceOrders)&&!word.sourceOrders.length)return false;
+  if(!word.sourceOrders?.length&&(word.singularId||/(?:-bp|-plural)$/.test(word.id)))return false;
+  if(!/noun|adjective/i.test(word.pos||'')&&!/^madina/.test(word.collectionId||''))return false;
+  if(/pronoun|verb/i.test(word.pos||''))return false;
+  const key=brokenPluralKey(word.ar).split(' ')[0];
+  if(['شرطة','ناس','عرب','يهود','أربعة'].includes(key))return false;
+  return brokenPluralPatternByWord.has(key)||sourceBrokenPluralWords.has(key);
+}
 function brokenPluralSourceRank(id){return id==='alkitaab1'?0:id==='mango-msa'?1:id==='alkitaab2'?2:id.startsWith('madina')?3:4}
 function brokenPluralEntries(){
   const collections=[...COLLECTIONS].sort((a,b)=>brokenPluralSourceRank(a.id)-brokenPluralSourceRank(b.id));
