@@ -2350,6 +2350,20 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "idInChapter": 46
       },
       {
+        "id": "mango-c6-answer-alt",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 6,
+        "en": "the answer",
+        "ar": "الإِجابَة",
+        "tr": "al-ijāba",
+        "pos": "Noun",
+        "f": "—",
+        "mp": "—",
+        "fp": "الإِجابات",
+        "idInChapter": 47
+      },
+      {
         "id": "mango-c6-29",
         "collectionId": "mango-msa",
         "collection": "Mango Languages (MSA)",
@@ -2361,7 +2375,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 47
+        "idInChapter": 48
       },
       {
         "id": "mango-c6-29-form-1",
@@ -2375,7 +2389,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 48
+        "idInChapter": 49
       },
       {
         "id": "mango-c6-29-form-2",
@@ -2389,7 +2403,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 49
+        "idInChapter": 50
       },
       {
         "id": "mango-c6-30",
@@ -2403,7 +2417,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 50
+        "idInChapter": 51
       },
       {
         "id": "mango-c6-30-form-1",
@@ -2417,7 +2431,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 51
+        "idInChapter": 52
       },
       {
         "id": "mango-c6-30-form-2",
@@ -2431,7 +2445,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 52
+        "idInChapter": 53
       },
       {
         "id": "mango-c6-31",
@@ -2445,7 +2459,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 53
+        "idInChapter": 54
       },
       {
         "id": "mango-c6-31-form-1",
@@ -2459,7 +2473,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 54
+        "idInChapter": 55
       },
       {
         "id": "mango-c6-31-form-2",
@@ -2473,7 +2487,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 55
+        "idInChapter": 56
       },
       {
         "id": "mango-c6-32",
@@ -2487,7 +2501,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "حُرُوف",
         "fp": "—",
-        "idInChapter": 56
+        "idInChapter": 57
       },
       {
         "id": "mango-c6-32-plural",
@@ -2501,7 +2515,7 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 57
+        "idInChapter": 58
       }
     ],
     "sentences": [],
@@ -3377,3 +3391,4 @@ window.MANGO_ADDITIONAL_CHAPTERS = {
     ]
   }
 };
+
