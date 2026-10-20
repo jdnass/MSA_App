@@ -1,0 +1,23 @@
+{
+  "cv-4b4598b8dd236997569771e8": {
+    "revision": "pronunciation-fix-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 2.5,
+    "verify_audio": true,
+    "session_instructions": "You are recording one Arabic dictionary headword. Say exactly الفُصْحَى once, pronounced al-fus-haa. Begin immediately with the word and stop after it. Clear natural Modern Standard Arabic at normal conversational speed. No introduction, full sentence, explanation, translation, greeting, repetition, or other sounds."
+  },
+  "cv-6cb43212da414fea0a784fe4": {
+    "revision": "pronunciation-fix-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 1.8,
+    "verify_audio": true,
+    "session_instructions": "You are recording one Arabic dictionary headword. Say exactly أَسْكُنُ once, pronounced as-ku-nu. Use a brief ordinary unvoiced s consonant, with no stretching, hissing, doubling, inserted vowel, or dramatic articulation. Clear natural Modern Standard Arabic at normal conversational speed. Three short syllables. Begin with the word and stop after it. No introduction, translation, explanation, or repetition."
+  },
+  "cv-4d5b83250969250c107e3990": {
+    "revision": "pronunciation-fix-1",
+    "max_output_tokens": 128,
+    "max_audio_seconds": 2.1,
+    "verify_audio": true,
+    "session_instructions": "You are recording one Arabic dictionary headword. Say exactly مِنْطَقَة once, pronounced min-ta-qa, with emphatic Arabic taa and Arabic qaaf. Exactly three syllables. Use the pausal pronunciation of the final taa marbuuta: end with a short a, without a t, tun, tan, extra vowel, extra syllable, or audible breath after the word. Clear natural Modern Standard Arabic at normal conversational speed. No introduction, explanation, translation, or repetition."
+  }
+}

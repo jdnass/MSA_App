@@ -29,6 +29,13 @@ for(const col of data.collections){for(const w of col.vocab||[])word(w,'lesson')
 for(const v of data.verbs)for(const f of ['present','past','noun']){ids.add(v.id+'-'+f);add(v[f]?.ar,'verb-tree:'+f,v.meaning||'');}
 for(const b of data.broken)for(const f of ['singular','plural']){if(b[f]?.id)ids.add(b[f].id);add(b[f]?.ar,'broken-plural:'+f,b.meaning||'');}
 for(const t of [...targets.values()])for(const part of t.ar.split(/\s*[/؛;]\s*/))add(part,'variant',t.en);
+const overridesPath=path.join(root,'cedar-vocab-pronunciation.json');
+const overrides=fs.existsSync(overridesPath)?JSON.parse(fs.readFileSync(overridesPath,'utf8')):{};
+for(const [id,settings] of Object.entries(overrides)){
+ const target=[...targets.values()].find(t=>t.id===id);
+ if(!target)throw Error('Unknown pronunciation override: '+id);
+ for(const field of ['revision','session_instructions','max_output_tokens','max_audio_seconds','verify_audio'])if(settings[field]!==undefined)target[field]=settings[field];
+}
 const entries=[...targets.values()].sort((a,b)=>a.id.localeCompare(b.id));
 if(entries.length>10000||entries.length<1000||new Set(entries.map(t=>t.id)).size!==entries.length)throw Error('Unexpected vocabulary target count');
 

@@ -12,7 +12,7 @@ SPENT=0.0
 ATTEMPTS=0
 
 def sig(t):
-    return hashlib.sha256(("cedar-vocab-v1\n"+cedar_samples.MODEL+"\n"+t["spoken"]).encode()).hexdigest()
+    return hashlib.sha256(("cedar-vocab-v1\n"+cedar_samples.MODEL+"\n"+t["spoken"]+("\n"+t["revision"] if t.get("revision") else "")).encode()).hexdigest()
 
 def norm(s):
     s=re.sub(r"[\u0610-\u061a\u064b-\u065f\u0670\u0640\u06d6-\u06ed]","",s)
@@ -29,18 +29,36 @@ def slot():
         NEXT=max(NEXT,now)+0.21
     time.sleep(wait)
 
+
+def verify_recording(path,key,expected):
+    """Independently transcribe the actual repaired audio, not its generated transcript."""
+    import urllib.request, uuid
+    boundary="mosa-"+uuid.uuid4().hex
+    parts=[]
+    for name,value in {"model":"gpt-4o-transcribe","language":"ar","response_format":"json"}.items():
+        parts.append(("--"+boundary+'\r\nContent-Disposition: form-data; name="'+name+'"\r\n\r\n'+value+"\r\n").encode())
+    parts.append(("--"+boundary+'\r\nContent-Disposition: form-data; name="file"; filename="word.mp3"\r\nContent-Type: audio/mpeg\r\n\r\n').encode()+path.read_bytes()+b"\r\n")
+    body=b"".join(parts)+("--"+boundary+"--\r\n").encode()
+    request=urllib.request.Request("https://api.openai.com/v1/audio/transcriptions",data=body,headers={"Authorization":"Bearer "+key,"Content-Type":"multipart/form-data; boundary="+boundary})
+    with urllib.request.urlopen(request,timeout=60) as response:
+        result=json.loads(response.read())
+    text=result.get("text","")
+    if norm(text)!=norm(expected): raise RuntimeError("Independent audio check rejected extra or incorrect words: "+text[:200])
+    return text
+
 def one(t,key):
     global SPENT,ATTEMPTS
     last=""
-    for attempt in range(4):
+    for attempt in range(6 if t.get("verify_audio") else 4):
         slot()
-        request={"id":t["id"],"ar":t["spoken"],"max_output_tokens":512 if len(t["spoken"])>30 else 256,"min_audio_seconds":0.12}
+        request={"id":t["id"],"ar":t["spoken"],"max_output_tokens":t.get("max_output_tokens",512 if len(t["spoken"])>30 else 256),"min_audio_seconds":0.12}
         request["pronunciation_instructions"]=" This is vocabulary pronunciation, not conversation. Speak only the supplied Arabic once. Do not name letters, translate, answer questions, add articles, or correct grammar. Read slash-separated alternatives with a short pause without adding words. Do not speak ellipses or punctuation. English meaning for silent context only: "+t.get("en","")[:140]+"."
         syllables={"لِ":"li","بِ":"bi","كَ":"ka","وَ":"wa","فَ":"fa","سَ":"sa"}
         if t["spoken"] in syllables:
             request["pronunciation_instructions"]+=" Pronounce the syllable "+syllables[t["spoken"]]+", not the letter name."
         if attempt:
             request["pronunciation_instructions"]+=" Preserve every supplied letter and vowel exactly."
+        if t.get("session_instructions"): request["session_instructions"]=t["session_instructions"]
         try:
             with LOCK: ATTEMPTS+=1
             r=cedar_samples.generate(request,key)
@@ -56,9 +74,18 @@ def one(t,key):
             wav=cedar_samples.OUT/r["file"]
             subprocess.run(["ffmpeg","-hide_banner","-loglevel","error","-y","-i",str(wav),"-codec:a","libmp3lame","-b:a","64k",str(temporary)],check=True)
             if temporary.stat().st_size<500: raise RuntimeError("Invalid MP3")
+            checked=None
+            if t.get("verify_audio"):
+                # Keep natural consonants; remove only silence at the edges.
+                trimmed=temporary.with_name(temporary.stem+"-trim.mp3")
+                subprocess.run(["ffmpeg","-hide_banner","-loglevel","error","-y","-i",str(temporary),"-af","silenceremove=start_periods=1:start_duration=0.02:start_threshold=-50dB:start_silence=0.04,areverse,silenceremove=start_periods=1:start_duration=0.02:start_threshold=-50dB:start_silence=0.06,areverse","-codec:a","libmp3lame","-b:a","64k",str(trimmed)],check=True)
+                trimmed.replace(temporary)
+                duration=float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","default=noprint_wrappers=1:nokey=1",str(temporary)],text=True).strip())
+                if not 0.2<=duration<=t["max_audio_seconds"]: raise RuntimeError("Repaired word duration rejected: "+str(duration))
+                checked=verify_recording(temporary,key,t["spoken"])
             temporary.replace(target)
             wav.unlink(missing_ok=True)
-            return {"ar":t["ar"],"spoken":t["spoken"],"file":target.name,"signature":sig(t),"seconds":r["seconds"],"transcript":r["transcript"],"usage":u}
+            return {"ar":t["ar"],"spoken":t["spoken"],"file":target.name,"signature":sig(t),"seconds":r["seconds"],"transcript":r["transcript"],"usage":u,**({"verifiedTranscript":checked,"revision":t["revision"],"seconds":round(duration,2)} if checked else {})}
         except Exception as e:
             last=str(e) if type(e) is RuntimeError else type(e).__name__
             if "insufficient_quota" in last:
