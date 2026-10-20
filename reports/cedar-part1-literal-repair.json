@@ -1,0 +1,309 @@
+{
+  "voice": "cedar",
+  "model": "gpt-4o-mini-tts",
+  "selected": 155,
+  "accepted": 108,
+  "remaining": 47,
+  "acceptedIds": [
+    "cv-00cbb658ee123856ac65b98b",
+    "cv-07f692bda7f95a0a1445b7f1",
+    "cv-08b7a4d9f3bf5c4cad7fc798",
+    "cv-0b81542ada7e920f7c5b1bf7",
+    "cv-0b89004ad8aab43a46e9840e",
+    "cv-0dbc70fb6cd0ce7418956e2a",
+    "cv-0ec4bf810ca528a08ad4b843",
+    "cv-15a0ffb183a5a0c4daaba325",
+    "cv-1661d988c73097d3c2563d7d",
+    "cv-18d63a480730a2e00d731c09",
+    "cv-198daa9ca598b74a13df22a8",
+    "cv-19e5b3126c5dd210f03ebfaf",
+    "cv-1a766fa5b62a94525ff1049f",
+    "cv-1b6a6494a62307620561f903",
+    "cv-1becaa8077da14a15abd5d31",
+    "cv-1d086d7b14b9a2297a6f8a1d",
+    "cv-1e6568de96193571180862f8",
+    "cv-20868a4b20a504fbac03e49b",
+    "cv-2115cbc68085ea451e11c297",
+    "cv-21f4af14e72ad621d730b24f",
+    "cv-22fa1d6274c39d47479d9a10",
+    "cv-23873feea95493368854523d",
+    "cv-2959759b153ae0cf8a70c835",
+    "cv-2a82b5408aa7740de15b668d",
+    "cv-33ee67bec3e5e755588072f5",
+    "cv-34857ddaf7893af82b1ed740",
+    "cv-3af5478a977c77d60ee22f19",
+    "cv-3b9b14189b7e085a21cdf2af",
+    "cv-3f7fec94716c3cf7be0d2359",
+    "cv-43771b2d97d4b1bb16d2e2c2",
+    "cv-4533440d5af205cf695465ca",
+    "cv-4624b2d414e49a104b86a512",
+    "cv-46cd3547c11f79b43d3259b8",
+    "cv-4cc6721269a22310ab05ccd5",
+    "cv-4edf15b814c7c7b0a1e8645d",
+    "cv-518e7802940c849338ecc5d1",
+    "cv-527aaa65747d2c2c8f4c67a7",
+    "cv-567e7f624a6ff82e39d6fd55",
+    "cv-571864222ea374a5912e4b19",
+    "cv-5880ddc87bb178bcac59fb2f",
+    "cv-5ac55fa33c5cf5babcf05be7",
+    "cv-5c7627b5cc8ad1a77195c2ca",
+    "cv-5d3a64d35e93853ac5468369",
+    "cv-6285fad21eb663ea79e63c72",
+    "cv-6304c9beb6f6d027190185fa",
+    "cv-640e91bb7fb4fbe96509aac2",
+    "cv-65016a9b7cb67fbc0f5b7c50",
+    "cv-69458ac173dbbdf480c6b3db",
+    "cv-69a29a429f5942b7836f4871",
+    "cv-69eb601e409e4f000ecd82c4",
+    "cv-6a74b9fa31a0d5db7ab246dd",
+    "cv-6cee71f3c7c3a3300025ccc7",
+    "cv-6fd1394cb1206042f318f5ad",
+    "cv-72f9e99593c046e58f0dce8f",
+    "cv-78ae2465917c5d9fca954ddc",
+    "cv-7a10bb723bc5d90d81543b1b",
+    "cv-7a26ae14c069799a9b019e5a",
+    "cv-7a600adc70dab2030c67f885",
+    "cv-7d177db05ce082a6e65ffa50",
+    "cv-82224b21e1b6ad9859b9f0ad",
+    "cv-831ddb3ca40b83e5b09c4550",
+    "cv-847c64df499ba2bd095ab35d",
+    "cv-84bc05e6e7f8bfddbd4f040d",
+    "cv-86386d1516cbb26c67e690d9",
+    "cv-8974d38aa6ec1503cbd8a651",
+    "cv-8c504d21f1a2b99946153037",
+    "cv-8caeb81d60cc4f8da5c73dd3",
+    "cv-8cbeb5f914634352a7f73e66",
+    "cv-8dc29fce676ae389de289c14",
+    "cv-94c1dc5311ce7afdb4f8b1b2",
+    "cv-959f081d0f85f6fc352ac3fa",
+    "cv-98cf6db1e99a819bfcc79b1a",
+    "cv-a2590929893116c3f156db73",
+    "cv-a54d6a1865ce17b2137287e9",
+    "cv-a59663fb56b29c9ab532044b",
+    "cv-a599e25cf890002846a0e50b",
+    "cv-a67e5f04d03ea86252f1f387",
+    "cv-a7e041b799f008c8d5e4c46f",
+    "cv-b2fa7cef25b08054169d5065",
+    "cv-b3242c136efd8ccfd0a05259",
+    "cv-b55572289ddf6bd8b9c01544",
+    "cv-b5c63e2ff103919d2b7a5a36",
+    "cv-b976c2729d8d1cb91cddb25e",
+    "cv-b9f5f58941126b4bd02fd22d",
+    "cv-ba13b706f14532b166de39be",
+    "cv-c28e80af2d32b70f417bdd91",
+    "cv-c3fc0295d216d4ad75a463fe",
+    "cv-c8f99fbdc40467d1dfeafb00",
+    "cv-ca2d2c8b2f732e334576620e",
+    "cv-caac8c2f3764824be4bea304",
+    "cv-cc9c717e3b91590e5b5fd854",
+    "cv-ccd825c257548ac6313b7963",
+    "cv-ce7ab67b72cafd76221396a4",
+    "cv-d4744c0c5de16f1d5ff3c3d8",
+    "cv-d49ad279e9ce49b722d41bd4",
+    "cv-db1d434823c4d28fe2f1e3a7",
+    "cv-dcb88c56e3996e8fbb68d140",
+    "cv-de0ac4468718d97a8db23f7b",
+    "cv-e0b1098bc49646be8d7019ca",
+    "cv-e3344c6642ea702359e89089",
+    "cv-e7634227f762c251af3d9ff5",
+    "cv-e9b27ac56363ac77d5f402da",
+    "cv-ea9784a53faa437c26bbe6ac",
+    "cv-efdc450b8c1e54e108462258",
+    "cv-f1b1be673cdb6b435cc0602c",
+    "cv-fb2e0fcbaa9689d65d520a12",
+    "cv-fc21a58742aebf8c61481c6d",
+    "cv-fe8e7bbf1169eeb04289161c"
+  ],
+  "failed": {
+    "cv-633e643be5e939852cabe1e0": {
+      "ar": "اِبْن عَمّ",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: ibn"
+    },
+    "cv-647899124cf18326f6d37885": {
+      "ar": "عِلْم الإِنْسَان",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: عِلْمُ"
+    },
+    "cv-bf5a9cedb34cb64ec554a95a": {
+      "ar": "أَبْنَاء عَمّ",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: أبناءُ"
+    },
+    "cv-00c72e34a0fb1fde375e997b": {
+      "ar": "الطَّقْس",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: al-ṭaqs"
+    },
+    "cv-04e9e13fc5110a260c858b43": {
+      "ar": "العَمَل",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: al-ʿamal"
+    },
+    "cv-12fa618866e74c2a63a4654c": {
+      "ar": "فَواكِه",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: fawaːkih"
+    },
+    "cv-13f838d2febc501c2ef74e12": {
+      "ar": "فُصول دِراسيّة",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: فصولٌ"
+    },
+    "cv-104667e06d12c39c6d4e2cc5": {
+      "ar": "أَكْل",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: أكلٌ"
+    },
+    "cv-29eeb4132e9e145cf1ae9dd8": {
+      "ar": "رُؤَسَاء الوُزَرَاء",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: رؤساءُ"
+    },
+    "cv-260383365506fd05cffc9b58": {
+      "ar": "اِسْتِقْرَار",
+      "reason": "Literal speech repair not accepted: Unexpected word-recording duration"
+    },
+    "cv-36e856800edb177ccfe3340d": {
+      "ar": "الرَّقْص",
+      "reason": "Literal speech repair not accepted: Audio reviewer did not return JSON"
+    },
+    "cv-4ebcb80a6b059738d5089b4b": {
+      "ar": "أَعْمَال",
+      "reason": "Literal speech repair not accepted: Extra, missing, or repeated words"
+    },
+    "cv-5679dd0c4d1d1b1215fa070b": {
+      "ar": "عَنَاوِين",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: ʿanāwīn"
+    },
+    "cv-4b31916ffde9ed4f1564d8d5": {
+      "ar": "التَّرْجَمَة مِنْ",
+      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: at-tarjamatu"
+    },
+    "cv-56cc055892eabf12d07fbdec": {
+      "ar": "أَسَابِيع",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: أصابعَ"
+    },
+    "cv-5ae794d1fc4263ab541fa67c": {
+      "ar": "رُجُوع",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: رُجُوعَ"
+    },
+    "cv-5e95e62c93495e56b0506452": {
+      "ar": "الشَّرْق الأَوْسَط",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: الوسطُ"
+    },
+    "cv-5ae7cdfd94c9a049d8c52d4a": {
+      "ar": "مَنَاطِق",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: manaatiq"
+    },
+    "cv-6461b389aba66a446e5e05b0": {
+      "ar": "بَحْر",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: بَحْرٌ"
+    },
+    "cv-67785241ee3933d27516ae8e": {
+      "ar": "النَّهَار",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: an-nahaar"
+    },
+    "cv-7656aa9412d3b12288248ec8": {
+      "ar": "مَشْغُولَة بِ",
+      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: mashghūlatun"
+    },
+    "cv-772be16d54035c9d444f275e": {
+      "ar": "المَسَاء",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: al-masāʾ"
+    },
+    "cv-87289e2dbf38134f4eea4ef5": {
+      "ar": "الرَّبيع",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: الرَّبِيعَ"
+    },
+    "cv-8b82ef2f3486f3861878ff6d": {
+      "ar": "تَكَلُّم",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: takallam"
+    },
+    "cv-8be51a3747b1b17de0dc9a91": {
+      "ar": "قَبْل",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: قَبْلَ"
+    },
+    "cv-89b308f5d70922c232a8f70c": {
+      "ar": "أَسابيع",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: السابعة"
+    },
+    "cv-90c55b37af24560d0843402a": {
+      "ar": "رَئيس الوُزَراء",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: raʔiːs"
+    },
+    "cv-94400d37996dd219b273bc0c": {
+      "ar": "أَصْيَاف / صُيُوف",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: السياف"
+    },
+    "cv-a3b3b23a3f172ad3b6adc5d8": {
+      "ar": "سَلَطة",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: صلاةَ"
+    },
+    "cv-a4556dde61f9f6dd8b5ee26e": {
+      "ar": "أَنْصَاف",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: ʔanṣāf"
+    },
+    "cv-a357b6c24b926ad0f9627222": {
+      "ar": "قَرِيبَات",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: qarībāat"
+    },
+    "cv-a4e5331f7c3ac3ad1df4769d": {
+      "ar": "عُيُون / أَعْيُن",
+      "reason": "Literal speech repair not accepted: Extra, missing, or repeated words"
+    },
+    "cv-af835dba4a4ad94f1572c4cf": {
+      "ar": "إِدارة الأَعْمال",
+      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: ʾidāratu"
+    },
+    "cv-ad7a002a9f9a603cd63969cd": {
+      "ar": "مَشْغُولَات بِ",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: mashghūlāt"
+    },
+    "cv-b9179e70336ce8ce8c9e1f9d": {
+      "ar": "مُتَخَصِّصَات فِي",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: mutakhassisāt"
+    },
+    "cv-b3681bace91906b14bf61814": {
+      "ar": "كُلِّيَّات",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: kulliyāt"
+    },
+    "cv-c910bdbe30f8d08153948aa3": {
+      "ar": "المُسْتَقْبَل",
+      "reason": "Literal speech repair not accepted: Extra, missing, or repeated words"
+    },
+    "cv-cbabfb829272775ba6ec6ad0": {
+      "ar": "مَواضيع / مَوْضوعات",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: mawāḍīʿ"
+    },
+    "cv-d8a0092a9f4bba19863f59f4": {
+      "ar": "أَمْطَار",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: أمْفار"
+    },
+    "cv-d0670bb34338b2d18c83c110": {
+      "ar": "فُصُول دِرَاسِيَّة",
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: فصولٌ"
+    },
+    "cv-e360289b56c589e9aecda54f": {
+      "ar": "جامِع",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: جامِعَة"
+    },
+    "cv-de080fc911080cf929ffeb74": {
+      "ar": "القُبُول",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: al-qabūl"
+    },
+    "cv-f01675758fd195d2203ec6a0": {
+      "ar": "مُتَخَصِّصَة فِي",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: متخصصَ"
+    },
+    "cv-f143cbe3e66f1f85c231d9b4": {
+      "ar": "ضَابِطَات",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: ḍābiṭāt"
+    },
+    "cv-f6ff5e5544a1c20fe8c62d9b": {
+      "ar": "تَعَرُّف",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: taʕarruf"
+    },
+    "cv-f4e631846a21879cb7201dca": {
+      "ar": "الاِقْتِصاد",
+      "reason": "Literal speech repair not accepted: Extra, missing, or repeated words"
+    },
+    "cv-ff651625873dd12399f0fe4b": {
+      "ar": "مُناسِب لِ",
+      "reason": "Literal speech repair not accepted: Unwanted final sound: munaasib"
+    }
+  },
+  "unchangedCardText": true,
+  "method": "Speech API with pronunciation-only sukun; target-blind audio review and literal ending checks. Automated checks, not human certification."
+}
