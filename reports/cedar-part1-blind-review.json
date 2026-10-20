@@ -1,0 +1,932 @@
+{
+  "scope": "alkitaab1",
+  "model": "gpt-audio-1.5",
+  "method": "Each MP3 is heard as input_audio without expected text; the model reports the actual utterance and audible final sounds before comparison.",
+  "total": 790,
+  "reviewed": 20,
+  "finished": false,
+  "summary": {
+    "captured": 19,
+    "uncertain": 1
+  },
+  "issueCounts": {},
+  "requests": 25,
+  "usage": {
+    "prompt_tokens": 5784,
+    "completion_tokens": 2025,
+    "audio_input_tokens": 364
+  },
+  "limitations": "Automated audio-model judgments, not human listening or phonetic certification. Confidence and uncertainty are preserved. No audio or app content changed.",
+  "rows": [
+    {
+      "id": "cv-00c72e34a0fb1fde375e997b",
+      "en": "the weather",
+      "ar": "الطَّقْس",
+      "file": "cv-00c72e34a0fb1fde375e997b.mp3",
+      "signature": "829d28f5f8064acd0ad5d69b34778acefe6e00190c61c3301a14c3543705d4cb",
+      "audioSHA256": "371b0bc1049ea326589c28cb737cc50c022ba137a74c5238d2139822598d22bb",
+      "priority": false,
+      "review": {
+        "heard_arabic": "اَلتَّقَا",
+        "heard_phonetic": "al-taqā",
+        "word_endings": [
+          {
+            "word_arabic": "اَلتَّقَا",
+            "phonetic": "al-taqā",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": true,
+        "notes": "Single utterance with a long vowel ending; initial definite article and consonants are somewhat unclear.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 82,
+        "total_tokens": 364,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 82
+        }
+      }
+    },
+    {
+      "id": "cv-00cbb658ee123856ac65b98b",
+      "en": "dinner",
+      "ar": "العَشاء",
+      "file": "cv-00cbb658ee123856ac65b98b.mp3",
+      "signature": "c1b3e8e84c344d6a5cadac2ebf97f1066ee751cc99d4406d9993abf4e3c01550",
+      "audioSHA256": "840abcc8c7e456c46259ef558bfd7d343ebf1aeab4fe23e5769a5575e8d286a4",
+      "priority": false,
+      "review": {
+        "heard_arabic": "ٱلْعَشَاءُ",
+        "heard_phonetic": "al-ʿashāʾu",
+        "word_endings": [
+          {
+            "word_arabic": "ٱلْعَشَاءُ",
+            "phonetic": "al-ʿashāʾu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 90,
+        "total_tokens": 373,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 90
+        }
+      }
+    },
+    {
+      "id": "cv-01be31180678706f1140d4cb",
+      "en": "grandfather",
+      "ar": "جَدَّات",
+      "file": "cv-01be31180678706f1140d4cb.mp3",
+      "signature": "8ec8ecdb5f2f1a285a94e3029fd8410679e3fa6789c5fea796e4df7745502570",
+      "audioSHA256": "c8c823481f9e8b3a343ea75e725cdbd463c390c0c798b4b5def6006188c5b061",
+      "priority": false,
+      "review": {
+        "heard_arabic": "جَدْ داتْ",
+        "heard_phonetic": "jad dat",
+        "word_endings": [
+          {
+            "word_arabic": "جَدْ",
+            "phonetic": "jad",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "داتْ",
+            "phonetic": "dat",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words heard clearly with consonant endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 84,
+        "total_tokens": 367,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 84
+        }
+      }
+    },
+    {
+      "id": "cv-0200bc2e1a6274b6fad70018",
+      "en": "writing",
+      "ar": "كِتَابَة",
+      "file": "cv-0200bc2e1a6274b6fad70018.mp3",
+      "signature": "5b4108bc9420dba4da3d08565d9e955eb8e8b1187f450979278fa0ac96be3f47",
+      "audioSHA256": "9ab4ff2e6708177626933e3daf159ca36604d29def9f19e49994334faba341cc",
+      "priority": false,
+      "review": {
+        "heard_arabic": "كِتابَ",
+        "heard_phonetic": "kitaːba",
+        "word_endings": [
+          {
+            "word_arabic": "كِتابَ",
+            "phonetic": "kitaːba",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 70,
+        "total_tokens": 355,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 70
+        }
+      }
+    },
+    {
+      "id": "cv-025b626cf9a537260a4e0a55",
+      "en": "I prayed",
+      "ar": "صَلَّيْتُ",
+      "file": "cv-025b626cf9a537260a4e0a55.mp3",
+      "signature": "4af7ecb96eb8fb3ead32834e4309ef937b092c3f331cbd04caf9bdb2868fbae3",
+      "audioSHA256": "81b735a525a5052a922b0e33641ec6995a39ce6bc40d8d5b100d4486dd827ba1",
+      "priority": false,
+      "review": {
+        "heard_arabic": "صَلِّي تُ",
+        "heard_phonetic": "ṣallī tu",
+        "word_endings": [
+          {
+            "word_arabic": "صَلِّي",
+            "phonetic": "ṣallī",
+            "ending": "long_vowel"
+          },
+          {
+            "word_arabic": "تُ",
+            "phonetic": "tu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two distinct parts heard: 'ṣallī' with a long vowel ending, followed by 'tu' ending in u.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 101,
+        "total_tokens": 386,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 101
+        }
+      }
+    },
+    {
+      "id": "cv-04720b7325c4f65b353f5cdd",
+      "en": "employee",
+      "ar": "مُوَظَّفَة",
+      "file": "cv-04720b7325c4f65b353f5cdd.mp3",
+      "signature": "11d9253429d692c2677fe14e6622e15c55fafc431bdf3dedd0bc8770ee047680",
+      "audioSHA256": "2af9bd2d0252abb6cf7d377f9d233aab5865df1260bb9b81baf23067ac4a8d1c",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُوَظَّفَ",
+        "heard_phonetic": "muwaḍḍafa",
+        "word_endings": [
+          {
+            "word_arabic": "مُوَظَّفَ",
+            "phonetic": "muwaḍḍafa",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 291,
+        "completion_tokens": 82,
+        "total_tokens": 373,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 20,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 82
+        }
+      }
+    },
+    {
+      "id": "cv-04ff9a48730d1219f8975b1d",
+      "en": "male paternal cousin",
+      "ar": "بِنْت عَمّ",
+      "file": "cv-04ff9a48730d1219f8975b1d.mp3",
+      "signature": "faafb22aa8c0848b8195f137b7c9475279b07c11ca478c6240e1632904d925ec",
+      "audioSHA256": "e8b2fb191b2e7cd904fb20b04b7f91353a5f80adff01874c3a7063341da024eb",
+      "priority": true,
+      "review": {
+        "heard_arabic": "بِنْتْ عَمْ",
+        "heard_phonetic": "bint ʿam",
+        "word_endings": [
+          {
+            "word_arabic": "بِنْتْ",
+            "phonetic": "bint",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "عَمْ",
+            "phonetic": "ʿam",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly spoken with final consonant endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 96,
+        "total_tokens": 385,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 18,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 96
+        }
+      }
+    },
+    {
+      "id": "cv-1661d988c73097d3c2563d7d",
+      "en": "relative",
+      "ar": "أَقَارِب",
+      "file": "cv-1661d988c73097d3c2563d7d.mp3",
+      "signature": "26d48e678af4d9bd061c77d2c7bc8030456f87a0f15aecd64552f1034234c440",
+      "audioSHA256": "ceeb79d2d0c2dabc7684e8723e618fda5efb23a9f041ef11ad8ffe712ff77c23",
+      "priority": true,
+      "review": {
+        "heard_arabic": "أقارِبُ",
+        "heard_phonetic": "ʔaqāribu",
+        "word_endings": [
+          {
+            "word_arabic": "أقارِبُ",
+            "phonetic": "ʔaqāribu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 72,
+        "total_tokens": 354,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 72
+        }
+      }
+    },
+    {
+      "id": "cv-18d63a480730a2e00d731c09",
+      "en": "husband",
+      "ar": "زَوْج",
+      "file": "cv-18d63a480730a2e00d731c09.mp3",
+      "signature": "1561ed074fb2756f723f5d497d9c68ac3fda83912e7620d7a1015dad9e36441c",
+      "audioSHA256": "bca5f06f858e4017b71b719d3086be7d6e3ae738318b752f4ef4e558010d583d",
+      "priority": true,
+      "review": {
+        "heard_arabic": "زَوْجُ",
+        "heard_phonetic": "zawju",
+        "word_endings": [
+          {
+            "word_arabic": "زَوْجُ",
+            "phonetic": "zawju",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 68,
+        "total_tokens": 354,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 68
+        }
+      }
+    },
+    {
+      "id": "cv-34857ddaf7893af82b1ed740",
+      "en": "law, as a field of study",
+      "ar": "الحُقُوق",
+      "file": "cv-34857ddaf7893af82b1ed740.mp3",
+      "signature": "944c30671cf38e8aee10aa6722055201529d75d1f8d33b7f3bffb9feacc77b3f",
+      "audioSHA256": "1100e7caa094d4117e8080c9ff6a49b660af43ab5c33a2e09f2410c03995fd52",
+      "priority": true,
+      "review": {
+        "heard_arabic": "حَقٌّ",
+        "heard_phonetic": "ḥaqqun",
+        "word_endings": [
+          {
+            "word_arabic": "حَقٌّ",
+            "phonetic": "ḥaqqun",
+            "ending": "un"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word with clear final -un tanween.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 67,
+        "total_tokens": 352,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 67
+        }
+      }
+    },
+    {
+      "id": "cv-40ad915f6a30ac5742ad5078",
+      "en": "relative",
+      "ar": "قَرِيبَة",
+      "file": "cv-40ad915f6a30ac5742ad5078.mp3",
+      "signature": "4e4290dad0ce187601784bde7cbaf8bf41000f8605a1a643ed162a459f729213",
+      "audioSHA256": "d17e8ba0db05c4c5b14767fe9abea64fef46fcd134d059f0327856d6640a521d",
+      "priority": true,
+      "review": {
+        "heard_arabic": "قَريبٌ قَريبَ",
+        "heard_phonetic": "qarībun qarība",
+        "word_endings": [
+          {
+            "word_arabic": "قَريبٌ",
+            "phonetic": "qarībun",
+            "ending": "un"
+          },
+          {
+            "word_arabic": "قَريبَ",
+            "phonetic": "qarība",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two repetitions of the word 'قريب' with different endings were heard clearly.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 301,
+        "completion_tokens": 97,
+        "total_tokens": 398,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 30,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 97
+        }
+      }
+    },
+    {
+      "id": "cv-633e643be5e939852cabe1e0",
+      "en": "male paternal cousin",
+      "ar": "اِبْن عَمّ",
+      "file": "cv-633e643be5e939852cabe1e0.mp3",
+      "signature": "11651216bf5f8931bb5f42c10a013d2b782a21c645144d22f354071263c2104b",
+      "audioSHA256": "1ffa668bdaed797aac9a905e96f8e4b257778fe7b231f5484bd3455bd2500f77",
+      "priority": true,
+      "review": {
+        "heard_arabic": "ابنُ عَمّ",
+        "heard_phonetic": "ibnu ʿamm",
+        "word_endings": [
+          {
+            "word_arabic": "ابنُ",
+            "phonetic": "ibnu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "عَمّ",
+            "phonetic": "ʿamm",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly spoken with a final u on the first and consonant ending on the second.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 99,
+        "total_tokens": 385,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 99
+        }
+      }
+    },
+    {
+      "id": "cv-647899124cf18326f6d37885",
+      "en": "anthropology",
+      "ar": "عِلْم الإِنْسَان",
+      "file": "cv-647899124cf18326f6d37885.mp3",
+      "signature": "01eaf7a1fd3d7a4fd4a66e7bc18e36fb9a81797b4655e2a6f90b44f579e553c8",
+      "audioSHA256": "6cf733b8f02f113354dcda73b19679720158dea82fd199c595ac88f11e57be13",
+      "priority": true,
+      "review": {
+        "heard_arabic": "حَسَنًا سَأَقْرَأُ هَذِهِ بِعِنَايَةٍ وَبِصَوْتٍ وَاضِحٍ مَرَّةً وَاحِدَةً عِلْمُ الْإِنْسَانِ",
+        "heard_phonetic": "ḥasanan saʔaqraʔu hādhihi biʕināyatin wabiṣawtin wāḍiḥin marratan wāḥidatan ʕilmu lʔinsāni",
+        "word_endings": [
+          {
+            "word_arabic": "حَسَنًا",
+            "phonetic": "ḥasanan",
+            "ending": "an"
+          },
+          {
+            "word_arabic": "سَأَقْرَأُ",
+            "phonetic": "saʔaqraʔu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "هَذِهِ",
+            "phonetic": "hādhihi",
+            "ending": "long_vowel"
+          },
+          {
+            "word_arabic": "بِعِنَايَةٍ",
+            "phonetic": "biʕināyatin",
+            "ending": "in"
+          },
+          {
+            "word_arabic": "وَبِصَوْتٍ",
+            "phonetic": "wabiṣawtin",
+            "ending": "in"
+          },
+          {
+            "word_arabic": "وَاضِحٍ",
+            "phonetic": "wāḍiḥin",
+            "ending": "in"
+          },
+          {
+            "word_arabic": "مَرَّةً",
+            "phonetic": "marratan",
+            "ending": "an"
+          },
+          {
+            "word_arabic": "وَاحِدَةً",
+            "phonetic": "wāḥidatan",
+            "ending": "an"
+          },
+          {
+            "word_arabic": "عِلْمُ",
+            "phonetic": "ʕilmu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "الْإِنْسَانِ",
+            "phonetic": "lʔinsāni",
+            "ending": "i"
+          }
+        ],
+        "uncertain": false,
+        "notes": "All words and endings were clear and distinct.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 335,
+        "completion_tokens": 412,
+        "total_tokens": 747,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 64,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 412
+        }
+      }
+    },
+    {
+      "id": "cv-69eb601e409e4f000ecd82c4",
+      "en": "husband",
+      "ar": "أَزْوَاج",
+      "file": "cv-69eb601e409e4f000ecd82c4.mp3",
+      "signature": "a05d2adb8cf95cca93fecaec21d16f732446caa5fe500f66915e567b5d12e044",
+      "audioSHA256": "0dba1c26f2ecde430f63d19b40300807f3b35c1590acc9de10ce1af8a579af16",
+      "priority": true,
+      "review": {
+        "heard_arabic": "أَزْ أَزْ",
+        "heard_phonetic": "ʔaz ʔaz",
+        "word_endings": [
+          {
+            "word_arabic": "أَزْ",
+            "phonetic": "ʔaz",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "أَزْ",
+            "phonetic": "ʔaz",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two identical utterances of 'ʔaz' with final consonant endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 294,
+        "completion_tokens": 104,
+        "total_tokens": 398,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 23,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 104
+        }
+      }
+    },
+    {
+      "id": "cv-6dd67cf13e6e30e23ec49b3a",
+      "en": "male paternal cousin",
+      "ar": "بَنَات عَمّ",
+      "file": "cv-6dd67cf13e6e30e23ec49b3a.mp3",
+      "signature": "b39515607990b4ce493bc0974e8c3072716107e70f605f1db2dac2ffc7b668b6",
+      "audioSHA256": "15614bb809f632d07a3d1dd9f06c283a33cdb6c5eca4893654d2bb0100d40661",
+      "priority": true,
+      "review": {
+        "heard_arabic": "بَنَتْ عَمْ",
+        "heard_phonetic": "banat ʿam",
+        "word_endings": [
+          {
+            "word_arabic": "بَنَتْ",
+            "phonetic": "banat",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "عَمْ",
+            "phonetic": "ʿam",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with consonant endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 95,
+        "total_tokens": 383,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 17,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 95
+        }
+      }
+    },
+    {
+      "id": "cv-a357b6c24b926ad0f9627222",
+      "en": "relative",
+      "ar": "قَرِيبَات",
+      "file": "cv-a357b6c24b926ad0f9627222.mp3",
+      "signature": "bc37dd531f1649b691c233712a72eca938174550cdd7e410a1d84b4b85ab9933",
+      "audioSHA256": "5ee88e3d340638c280b35bb8bbe05e873a3bbbc4a449886c8572681da58f22b4",
+      "priority": true,
+      "review": {
+        "heard_arabic": "قَارِي بَتُّ",
+        "heard_phonetic": "qāri bat-tu",
+        "word_endings": [
+          {
+            "word_arabic": "قَارِي",
+            "phonetic": "qāri",
+            "ending": "i"
+          },
+          {
+            "word_arabic": "بَتُّ",
+            "phonetic": "bat-tu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words heard clearly with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 91,
+        "total_tokens": 376,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 91
+        }
+      }
+    },
+    {
+      "id": "cv-bf5a9cedb34cb64ec554a95a",
+      "en": "male paternal cousin",
+      "ar": "أَبْنَاء عَمّ",
+      "file": "cv-bf5a9cedb34cb64ec554a95a.mp3",
+      "signature": "1336ed50ee682e6268005405800d436ca40aa9ff631ffddf5e5a89ab22cc0dc9",
+      "audioSHA256": "85f0384842b0c29a10e7fb275e2ed75ae16c76a389db8cda1a161aa266351f7c",
+      "priority": true,
+      "review": {
+        "heard_arabic": "أَبْناءُ عَمٍّ",
+        "heard_phonetic": "abnāʾu ʿamm-in",
+        "word_endings": [
+          {
+            "word_arabic": "أَبْناءُ",
+            "phonetic": "abnāʾu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "عَمٍّ",
+            "phonetic": "ʿamm-in",
+            "ending": "in"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 100,
+        "total_tokens": 389,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 18,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 100
+        }
+      }
+    },
+    {
+      "id": "cv-c089085658f182859f8254d5",
+      "en": "relative",
+      "ar": "قَرِيب",
+      "file": "cv-c089085658f182859f8254d5.mp3",
+      "signature": "74e32d975e7363641f60af6680b624bdfad57c7598b774a8a24d0c6039f8b2d1",
+      "audioSHA256": "842f22e45ecc7b09f73cd45511740c42a547ea9f617e8fc89cc43a26456330e0",
+      "priority": true,
+      "review": {
+        "heard_arabic": "حَبيبْ",
+        "heard_phonetic": "ḥabīb",
+        "word_endings": [
+          {
+            "word_arabic": "حَبيبْ",
+            "phonetic": "ḥabīb",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final consonant ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 67,
+        "total_tokens": 351,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 67
+        }
+      }
+    },
+    {
+      "id": "cv-eacadda043abf62c9869b209",
+      "en": "husband",
+      "ar": "زَوْجَات",
+      "file": "cv-eacadda043abf62c9869b209.mp3",
+      "signature": "8c2db626292a020965d168812d683c821a9d46668f14ddd7118904ae4305e481",
+      "audioSHA256": "0293ec822365e4c5be9772e3ce56c5c5670c693038be4562249c198dcc897c0f",
+      "priority": true,
+      "review": {
+        "heard_arabic": "زَوْجاتْ",
+        "heard_phonetic": "zawjāt",
+        "word_endings": [
+          {
+            "word_arabic": "زَوْجاتْ",
+            "phonetic": "zawjāt",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with a final consonant stop.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 72,
+        "total_tokens": 358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 72
+        }
+      }
+    },
+    {
+      "id": "cv-efdc450b8c1e54e108462258",
+      "en": "husband",
+      "ar": "زَوْجَة",
+      "file": "cv-efdc450b8c1e54e108462258.mp3",
+      "signature": "c3b9ddb6188c88ca03992d42db69bd6f02dbd743815fbf2047d4b5bdf86c9572",
+      "audioSHA256": "02fa16d8bd6deabaf60df21f288c441d62ceb99389ed769714fa17aa58512847",
+      "priority": true,
+      "review": {
+        "heard_arabic": "سَوْجَتُنْ",
+        "heard_phonetic": "sawjatun",
+        "word_endings": [
+          {
+            "word_arabic": "سَوْجَتُنْ",
+            "phonetic": "sawjatun",
+            "ending": "un"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'un' ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 76,
+        "total_tokens": 361,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 76
+        }
+      }
+    }
+  ]
+}
