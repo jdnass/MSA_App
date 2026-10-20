@@ -7141,6 +7141,96 @@
         }
       },
       "signature": "38e5732b820875b89dd38ca7ad91687903e0ae12bc17d7f6ebf1fb44174630ae"
+    },
+    "mosa-m4-s5-s6": {
+      "id": "mosa-m4-s5-s6",
+      "en": "My hometown is Kansas City, Missouri.",
+      "ar": "المَدِينَةُ الَّتِي نَشَأْتُ فِيهَا هِيَ كَانْسَاس سِيتِي فِي وِلَايَةِ مِيزُورِي.",
+      "file": "mosa-m4-s5-s6.mp3",
+      "seconds": 5.35,
+      "transcript": "المَدِينَةُ الَّتِي نَشَأْتُ فِيهَا هِيَ كَانْسَاس سِيتِي فِي وِلَايَةِ مِيزُورِي.",
+      "usage": {
+        "total_tokens": 479,
+        "input_tokens": 133,
+        "output_tokens": 346,
+        "input_token_details": {
+          "text_tokens": 133,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 239,
+          "audio_tokens": 107,
+          "reasoning_tokens": 172
+        }
+      },
+      "signature": "79b2a5bc9fec3a7c8bc38c2ed93a213a5df83839a576ecc13c7016318a6d913f"
+    },
+    "mosa-m33-s4-s4": {
+      "id": "mosa-m33-s4-s4",
+      "en": "The dish looks tasty and smells good.",
+      "ar": "يَبْدُو الطَّبَق شَهِيًّا، وَرَائِحَتُهُ طَيِّبَة.",
+      "file": "mosa-m33-s4-s4.mp3",
+      "seconds": 4.05,
+      "transcript": "يَبْدُو الطَّبَق شَهِيًّا، وَرَائِحَتُهُ طَيِّبَة.",
+      "usage": {
+        "total_tokens": 319,
+        "input_tokens": 116,
+        "output_tokens": 203,
+        "input_token_details": {
+          "text_tokens": 116,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 122,
+          "audio_tokens": 81,
+          "reasoning_tokens": 72
+        }
+      },
+      "signature": "3a701aa92e58af9824bc3d7b34099fb60d92b201e61f1549afffe3af281ca613"
+    },
+    "mosa-m35-s4-s4": {
+      "id": "mosa-m35-s4-s4",
+      "en": "If I leave my job, I will look for another job outside finance.",
+      "ar": "إِذَا تَرَكْتُ وَظِيفَتِي، فَسَأَبْحَثُ عَنْ وَظِيفَة أُخْرَى خَارِجَ التَّمْوِيل.",
+      "file": "mosa-m35-s4-s4.mp3",
+      "seconds": 6.1,
+      "transcript": "إِذَا تَرَكْتُ وَظِيفَتِي، فَسَأَبْحَثُ عَنْ وَظِيفَة أُخْرَى خَارِجَ التَّمْوِيل.",
+      "usage": {
+        "total_tokens": 434,
+        "input_tokens": 140,
+        "output_tokens": 294,
+        "input_token_details": {
+          "text_tokens": 140,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 172,
+          "audio_tokens": 122,
+          "reasoning_tokens": 96
+        }
+      },
+      "signature": "6d7fae52cec7028cd650960c312d71d49c2ccd7e09cb941de963ef4792f6a173"
     }
   }
 }
