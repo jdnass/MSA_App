@@ -1,5 +1,5 @@
 name: Generate MoSA Modules Cedar audio
-# Resume missing recordings sequentially after the initial bulk pass.
+# Resume the four remaining sentence readings with a larger output allowance.
 
 on:
   workflow_dispatch:

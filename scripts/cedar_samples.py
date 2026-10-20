@@ -38,7 +38,7 @@ def generate(entry, key):
     try:
         ws.send(json.dumps({"type": "session.update", "session": {
             "type": "realtime", "output_modalities": ["audio"],
-            "instructions": "Read the user's Arabic text verbatim, once, in clear Modern Standard Arabic. Use a calm, natural teaching voice at a slightly slower pace. Preserve the supplied vowels. Do not translate, explain, greet, or add any words.",
+            "instructions": "Read the user's Arabic text verbatim, once, in clear Modern Standard Arabic. Use a calm, natural teaching voice at a slightly slower pace. Preserve the supplied vowels. Do not translate, explain, greet, or add any words. Do not correct or paraphrase the text. Preserve its grammatical endings and read every word through the end of the sentence.",
             "audio": {"output": {"voice": "cedar", "format": {"type": "audio/pcm", "rate": RATE}}},
         }}))
         requested = False
@@ -54,7 +54,7 @@ def generate(entry, key):
                     "content": [{"type": "input_text", "text": entry["ar"]}],
                 }}))
                 ws.send(json.dumps({"type": "response.create", "response": {
-                    "output_modalities": ["audio"], "max_output_tokens": 512,
+                    "output_modalities": ["audio"], "max_output_tokens": 1024,
                 }}))
                 requested = True
             elif kind == "response.output_audio.delta":
