@@ -12779,7 +12779,12 @@
         "lesson:ar",
         "verb-tree:present",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "ابدأ مباشرة بالفعل أَتَبادَلُ مرة واحدة، مع ضمة اللام المكتوبة، دون إضافة ها أو أي لفظ آخر.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 1.9,
+      "verify_audio": true
     },
     {
       "id": "cv-17e0ee20ef958c377d7a039d",
@@ -15563,7 +15568,12 @@
         "vocabulary:mp",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق مُتَخَصِّصُون فِي مرة واحدة. لا تضف حركة بعد نون متخصّصون، وابدأ مباشرة بالكلمة دون جملة تمهيدية.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 2.7,
+      "verify_audio": true
     },
     {
       "id": "cv-239053956580f69cb10ed5e4",
@@ -19372,7 +19382,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "broken-plural:singular"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق الجَوّ ثم الطَّقْس، مع وقفة قصيرة بين البديلين. لا تقل أو أو أي كلمة ربط، ولا تضف حركة إعراب غير مكتوبة.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 2.8,
+      "verify_audio": true
     },
     {
       "id": "cv-340af3c825d872fed8f4dc17",
@@ -23710,7 +23725,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق فِعْلًا مرة واحدة فقط. انطق تنوين الفتح المكتوب في آخرها. ابدأ بالكلمة مباشرة، دون جملة تمهيدية أو شرح.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 1.7,
+      "verify_audio": true
     },
     {
       "id": "cv-46c1530c4627fe91fe7e5d6e",
@@ -25288,10 +25308,10 @@
         "broken-plural:singular",
         "variant"
       ],
-      "revision": "pronunciation-fix-1",
-      "session_instructions": "You are recording one Arabic dictionary headword. Say exactly مِنْطَقَة once, pronounced min-ta-qa, with emphatic Arabic taa and Arabic qaaf. Exactly three syllables. Use the pausal pronunciation of the final taa marbuuta: end with a short a, without a t, tun, tan, extra vowel, extra syllable, or audible breath after the word. Clear natural Modern Standard Arabic at normal conversational speed. No introduction, explanation, translation, or repetition.",
-      "max_output_tokens": 128,
-      "max_audio_seconds": 2.1,
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق مِنْطَقَة مرة واحدة بصيغة الوقف، دون نطق التاء المربوطة تاء، ودون إضافة حركة إعراب أو تنوين.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 1.6,
       "verify_audio": true
     },
     {
@@ -29082,7 +29102,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق الشَّرْق الأَوْسَط. قف على قاف الشرق بلا ضمة، ثم انطق الأوسط وانته على الطاء بلا حركة إعراب.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 2.5,
+      "verify_audio": true
     },
     {
       "id": "cv-5e99e7bde6d3486d3262caed",
@@ -30714,7 +30739,12 @@
         "verb-tree:noun",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق قَوْل مرة واحدة فقط، وانته على اللام الساكنة. لا تكرر الكلمة ولا تضف تنوينا.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 1.4,
+      "verify_audio": true
     },
     {
       "id": "cv-656a5473c0bf19f0e36ed95a",
@@ -31213,7 +31243,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق فُرْصَة سَعيدة فقط. انطق التاء المربوطة بصيغة الوقف في الكلمتين. لا تضف آه أو أي صوت بعد العبارة.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 2.1,
+      "verify_audio": true
     },
     {
       "id": "cv-6795b20fb5e26ac2101b633d",
@@ -37104,7 +37139,12 @@
         "vocabulary:mp",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق مُتَرْجِمُون مرة واحدة مباشرة، دون تمهيد. انته على النون بلا حركة بعدها.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 1.9,
+      "verify_audio": true
     },
     {
       "id": "cv-81ab276b92979c16b46c9ac3",
@@ -37423,7 +37463,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق تَذَكُّر مرة واحدة. حافظ على تشديد الكاف، وانته على الراء دون حركة أو مقطع إضافي.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 1.6,
+      "verify_audio": true
     },
     {
       "id": "cv-82c2f23fbf00ea2c493d0a2f",
@@ -39152,7 +39197,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق فَشِلْتُ فِي فقط. حافظ على ضمة التاء المكتوبة وعلى الياء الطويلة في في. لا تضف تمهيدا أو مثالا.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 2,
+      "verify_audio": true
     },
     {
       "id": "cv-8b05aff6a4122fb80a2a08a1",
@@ -47377,7 +47427,12 @@
         "vocabulary:fp",
         "lesson:fp",
         "variant"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق مُسْتَشْفَيات فقط، مرة واحدة. انته على التاء دون حركة إعراب أو كلمة يا أو أي لفظ إضافي.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 2,
+      "verify_audio": true
     },
     {
       "id": "cv-af48036939e124c9d675b79d",
@@ -57167,7 +57222,7 @@
         "variant"
       ],
       "revision": "literal-endings-1",
-      "session_instructions": "الكلمة هي أُسْرَة. انطقها مرة واحدة فقط، دون تكرار أو شرح. لا تضف حركة إعراب في نهايتها.",
+      "session_instructions": "انطق الكلمة أُسْرَة وحدها، مرة واحدة فقط، دون شرح أو تكرار. لا تضف حركة إعراب.",
       "max_output_tokens": 384,
       "max_audio_seconds": 1.5,
       "verify_audio": true
@@ -60737,7 +60792,12 @@
       "kinds": [
         "vocabulary:ar",
         "lesson:ar"
-      ]
+      ],
+      "revision": "part1-audit-repair-1",
+      "session_instructions": "انطق سَنَتانِ ثم سَنَتَيْنِ مع وقفة قصيرة. حافظ على كسرة النون المكتوبة في كل بديل. لا تضف إلى أو أو أو أي كلمة ربط.",
+      "max_output_tokens": 256,
+      "max_audio_seconds": 2.9,
+      "verify_audio": true
     },
     {
       "id": "cv-e9bbd605851f0d37dd4eda96",
