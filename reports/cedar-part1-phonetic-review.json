@@ -3,24 +3,24 @@
   "model": "gpt-audio-1.5",
   "method": "Each MP3 is sent as input_audio with the exact target text for audible-ending, added-speech, repetition, and word review.",
   "total": 790,
-  "reviewed": 400,
+  "reviewed": 500,
   "finished": false,
   "summary": {
-    "matches": 348,
-    "needs_review": 49,
-    "unavailable": 3
+    "matches": 439,
+    "needs_review": 57,
+    "unavailable": 4
   },
   "issueCounts": {
-    "unwanted_ending": 42,
-    "wrong_word": 9,
+    "unwanted_ending": 46,
+    "wrong_word": 13,
     "extra_speech": 1,
     "repetition": 1
   },
-  "requests": 414,
+  "requests": 515,
   "usage": {
-    "prompt_tokens": 174876,
-    "completion_tokens": 18294,
-    "audio_input_tokens": 5927
+    "prompt_tokens": 217430,
+    "completion_tokens": 22643,
+    "audio_input_tokens": 7304
   },
   "limitations": "Automated audio-model judgments, not human listening or phonetic certification. Confidence and uncertainty are preserved. No audio or app content changed.",
   "rows": [
@@ -12164,6 +12164,13 @@
       }
     },
     {
+      "id": "cv-72aa80fe9a405c21ded490dc",
+      "en": "I obtain; receive",
+      "ar": "أَحْصُلُ عَلَى",
+      "priority": false,
+      "error": "Review request failed: ValueError"
+    },
+    {
       "id": "cv-72dec71653ae37da688cb1b1",
       "en": "other; another",
       "ar": "آخَرون",
@@ -13331,6 +13338,3329 @@
           "accepted_prediction_tokens": 0,
           "rejected_prediction_tokens": 0,
           "text_tokens": 34
+        }
+      }
+    },
+    {
+      "id": "cv-810451a0ab795f52aad5a0ec",
+      "en": "I become",
+      "ar": "أُصْبِحُ",
+      "file": "cv-810451a0ab795f52aad5a0ec.mp3",
+      "signature": "0fc0403dc8972f681368fa8ddb0b896e253b697f55d940d8dc03e4dd1d09453f",
+      "audioSHA256": "4510c6ca52bd85e15ea3e1811eddf659ad887495297f873d6a09beda10f0d6d3",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "usbiḥu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target exactly with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 429,
+        "completion_tokens": 35,
+        "total_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 414,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 35
+        }
+      }
+    },
+    {
+      "id": "cv-81a7acd78d3d57b633446046",
+      "en": "translator",
+      "ar": "مُتَرْجِمُون",
+      "file": "cv-81a7acd78d3d57b633446046.mp3",
+      "signature": "843890e24fd55ebbce734357bec983906ef669ef41eb90bfacb761650ea5c627",
+      "audioSHA256": "d4491c0185a2a0ebfafea1276bc563fb5bb19338f1424429587b7a60c802440b",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "mutarjimuun",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with the correct long plural ending -uun and no extra final vowel."
+      },
+      "usage": {
+        "prompt_tokens": 423,
+        "completion_tokens": 48,
+        "total_tokens": 471,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 414,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 48
+        }
+      }
+    },
+    {
+      "id": "cv-81d6b95af9ce89938be2d96c",
+      "en": "I am still",
+      "ar": "زَوال",
+      "file": "cv-81d6b95af9ce89938be2d96c.mp3",
+      "signature": "cb6dc554e424ac81109a54bc08db7a22de789d262cea90c691e756c97a8f00ac",
+      "audioSHA256": "6580a704d0d2ceaecff1c8474b429dbe48c1b88fe0814708970a64699dd5d1ee",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "zawaal",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'زَوال' without any extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 418,
+        "completion_tokens": 44,
+        "total_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 44
+        }
+      }
+    },
+    {
+      "id": "cv-820312b0f7a0b762f9a00a66",
+      "en": "humidity",
+      "ar": "الرُّطوبة",
+      "file": "cv-820312b0f7a0b762f9a00a66.mp3",
+      "signature": "80f45520de9754fbccffc0e724b346ac530bccbdb631aac1fc2b5082c1d5fd9a",
+      "audioSHA256": "20612a284b16aa3ac08518b003bf9d383fd372fbd74bacc55b16040a6c4c7a67",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ar-rutuba",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with a pausal ending on the taa marbuuta."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 45,
+        "total_tokens": 467,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 45
+        }
+      }
+    },
+    {
+      "id": "cv-820c8edae193d0f830169aac",
+      "en": "I study",
+      "ar": "أَدْرُسُ",
+      "file": "cv-820c8edae193d0f830169aac.mp3",
+      "signature": "de5c20e7657b1f8cf5b70cdc7f829710e375e3bf211c017ac286c94fd5745ebc",
+      "audioSHA256": "6fa86292128cd12c346f3a7498a9d49b7db73e445133b43dcc9b0b4c2c04c89a",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "adrusu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَدْرُسُ' with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 424,
+        "completion_tokens": 47,
+        "total_tokens": 471,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 47
+        }
+      }
+    },
+    {
+      "id": "cv-82224b21e1b6ad9859b9f0ad",
+      "en": "the world",
+      "ar": "العالَم",
+      "file": "cv-82224b21e1b6ad9859b9f0ad.mp3",
+      "signature": "492a19bfa2eb0ff5e87c80cf9ca0aab32f74382e522f59d56c377961d7887c0c",
+      "audioSHA256": "d445794ef7b26f5f8b285cb91223ea387633c7fdbf4bf6a751235462409d86d6",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "al-3aalam",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any unwanted final vowels or extra speech."
+      },
+      "usage": {
+        "prompt_tokens": 431,
+        "completion_tokens": 43,
+        "total_tokens": 474,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 22,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 43
+        }
+      }
+    },
+    {
+      "id": "cv-825a1f06fc7eea0997e6f00c",
+      "en": "crazy",
+      "ar": "مَجانين",
+      "file": "cv-825a1f06fc7eea0997e6f00c.mp3",
+      "signature": "38777e741909954eb13f1746f32097e1b40d6cb7f43e8fb6e11630381e4a2d25",
+      "audioSHA256": "16c776d0b17758c000635ba76788ced63c8ead21f26675e2bf6fef7ef090f096",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "majaaniin",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'مَجانين' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 425,
+        "completion_tokens": 46,
+        "total_tokens": 471,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 46
+        }
+      }
+    },
+    {
+      "id": "cv-82b6256a7ed96708852b8e96",
+      "en": "remembering",
+      "ar": "تَذَكُّر",
+      "file": "cv-82b6256a7ed96708852b8e96.mp3",
+      "signature": "aeebb533b19bb167295c68d329302f6fd3eba713dad5896ea029db68696d5260",
+      "audioSHA256": "350810d3c6324787617b780ac9e70c878675e97b675bbb1a47dc24e064787fc9",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "tadhakkur",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 421,
+        "completion_tokens": 40,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 8,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-82e16c3b45b0cf9e354ecae6",
+      "en": "I help",
+      "ar": "أُساعِدُ",
+      "file": "cv-82e16c3b45b0cf9e354ecae6.mp3",
+      "signature": "ca0ac723dde2ce538732e686c6364d115e195adbce1fed8439bd43eec64af031",
+      "audioSHA256": "3a06212623f9c27864d7adecf5d416ab1475665469f8b9f87463b690dc617569",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "u saʕidu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 431,
+        "completion_tokens": 35,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 18,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 35
+        }
+      }
+    },
+    {
+      "id": "cv-831ddb3ca40b83e5b09c4550",
+      "en": "enjoying; enjoyment",
+      "ar": "اِسْتِمْتَاع",
+      "file": "cv-831ddb3ca40b83e5b09c4550.mp3",
+      "signature": "9152c75606bd100b4b645d44a08022b88dcaa9b04519f501f11e0feff1f1e1d9",
+      "audioSHA256": "8430ca9351f2828fbaaf5f675de6eb5ce8a949be6277b33fd5ac2749c279b875",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "istimtaaʿu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target, including the final damma."
+      },
+      "usage": {
+        "prompt_tokens": 434,
+        "completion_tokens": 36,
+        "total_tokens": 470,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 18,
+          "text_tokens": 416,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 36
+        }
+      }
+    },
+    {
+      "id": "cv-83a4c9b7f8c75e92f87b85da",
+      "en": "dying; death",
+      "ar": "مَوْت",
+      "file": "cv-83a4c9b7f8c75e92f87b85da.mp3",
+      "signature": "f2ac1ac8134012d4fed8694b43b96f1cb2d65ad5261bffbcd6c4e65d903355be",
+      "audioSHA256": "e014eea9248ba620bb11ffac83579263438b92d6b746e1034683b0a93aa32a25",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "mawt",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'mawt' with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 420,
+        "completion_tokens": 42,
+        "total_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 42
+        }
+      }
+    },
+    {
+      "id": "cv-8412516ac360f1b50116af10",
+      "en": "understanding",
+      "ar": "فَهْم",
+      "file": "cv-8412516ac360f1b50116af10.mp3",
+      "signature": "02773ca0f7ecf8c08b5dad03819d5881e2c18723b051f94542b4da78c212de7e",
+      "audioSHA256": "46f2f171911006ee93c8e4a52662c242026f164e6049448e29289b616a4add4e",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "fahm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'فَهْم' with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 418,
+        "completion_tokens": 44,
+        "total_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 44
+        }
+      }
+    },
+    {
+      "id": "cv-847c64df499ba2bd095ab35d",
+      "en": "seas",
+      "ar": "بِحَار / بُحُور",
+      "file": "cv-847c64df499ba2bd095ab35d.mp3",
+      "signature": "be8f234e171899dba4868330d998b69159d5ec4c847247a7040e1e94506d37e7",
+      "audioSHA256": "65eab3093573a36d9ec1801cd6e9242283aaa66c170993923907f64c2d77641c",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "bihaar buhuur",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "Both alternatives were pronounced clearly with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 438,
+        "completion_tokens": 40,
+        "total_tokens": 478,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 22,
+          "text_tokens": 416,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-848a22c03274142b79e9f342",
+      "en": "theater",
+      "ar": "مَسْرَح",
+      "file": "cv-848a22c03274142b79e9f342.mp3",
+      "signature": "c58e34d68144bf3f428d61730cd8018734dab352989845dc71adad58f37b60d4",
+      "audioSHA256": "6607a72a3df42ece880b79ef4ac8184110947aaa5094f2b1fd45bac9614257ab",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "masraḥ",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'مَسْرَح' with no extra endings or words."
+      },
+      "usage": {
+        "prompt_tokens": 432,
+        "completion_tokens": 42,
+        "total_tokens": 474,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 19,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 42
+        }
+      }
+    },
+    {
+      "id": "cv-84bc05e6e7f8bfddbd4f040d",
+      "en": "every / all",
+      "ar": "كُلّ",
+      "file": "cv-84bc05e6e7f8bfddbd4f040d.mp3",
+      "signature": "3be3d1df0945276e5474955eec8093db08fca98b104c4e02c4d7bf1aba8a3e84",
+      "audioSHA256": "cd3dac5cc3911db4c8afeeaa7b42b2484b7f4b6430252a784d1027dc9819bca5",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "kull",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'كُلّ' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 418,
+        "completion_tokens": 37,
+        "total_tokens": 455,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 37
+        }
+      }
+    },
+    {
+      "id": "cv-84ff8697406569617aa2a99f",
+      "en": "saddening; distressing",
+      "ar": "مُحْزِن",
+      "file": "cv-84ff8697406569617aa2a99f.mp3",
+      "signature": "24cf5016e0afaa303a365d94a2188935a50746cdd2b80f8a26e934cb24913f2e",
+      "audioSHA256": "b3b3a3094d1863eb3e1f64ada014da9e856b69c17a3feb7793a3b0aef830b3d2",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "muHzin",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'مُحْزِن' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 420,
+        "completion_tokens": 41,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 41
+        }
+      }
+    },
+    {
+      "id": "cv-853a85ba69b0ff53b787e668",
+      "en": "more",
+      "ar": "أَكْثَر",
+      "file": "cv-853a85ba69b0ff53b787e668.mp3",
+      "signature": "7dac2fc58959a6fb8a26296fad3cda83d728fff6bc57092de2153178ee5662dc",
+      "audioSHA256": "b9fcfc4055ca29058bd12a56aea501b92dcbc661030d39feb1b027fe95f26e86",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "akthar",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَكْثَر' with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 428,
+        "completion_tokens": 47,
+        "total_tokens": 475,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 47
+        }
+      }
+    },
+    {
+      "id": "cv-8632ce4cc99f6e217ff97aa5",
+      "en": "I am still",
+      "ar": "لَا أَزَالُ",
+      "file": "cv-8632ce4cc99f6e217ff97aa5.mp3",
+      "signature": "a80e677c8d2019e022c0a5250badcfe99ecf2caecbfca095334fbeae95a04d6d",
+      "audioSHA256": "5fd883a539e8b2da115e2d424e50cf7b6820c69d4faeb087c1a7cc1c5ef8849b",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "laa azaalu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 429,
+        "completion_tokens": 35,
+        "total_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 35
+        }
+      }
+    },
+    {
+      "id": "cv-86386d1516cbb26c67e690d9",
+      "en": "high",
+      "ar": "عالٍ",
+      "file": "cv-86386d1516cbb26c67e690d9.mp3",
+      "signature": "28c17025e03490933daf77f2a9472fcc5aba183453fc2e649f8f17b3d52e21e7",
+      "audioSHA256": "6a8da2776f2185957249834d9c2e62efa7d3148ef3168694e0ae96e217040284",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ʕaalim",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "عالٍ",
+            "heard": "ʕaalim",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker pronounced 'ʕaalim' instead of the target 'ʕaalin'."
+      },
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 65,
+        "total_tokens": 484,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 65
+        }
+      }
+    },
+    {
+      "id": "cv-86d39953f30a9d45d6f693c1",
+      "en": "ministry",
+      "ar": "وِزارَة",
+      "file": "cv-86d39953f30a9d45d6f693c1.mp3",
+      "signature": "0c20ab7214ab79f51ca3a5fcffda0a97811cdacb5e1d7e742206222c40fe1e08",
+      "audioSHA256": "9d4e540154a5357f3cbe95ee678f468f88f003906baf272768e32e6f8ac09d7e",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "wizaara",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'wizaara' with a pausal ending."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 43,
+        "total_tokens": 465,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 43
+        }
+      }
+    },
+    {
+      "id": "cv-871bed25a2f53165a24821ca",
+      "en": "I come to",
+      "ar": "أَجيءُ",
+      "file": "cv-871bed25a2f53165a24821ca.mp3",
+      "signature": "e05e4cbd56a19b65ad86dc9bfc24d55ba97cd7d762a954d05f4a30516655bda7",
+      "audioSHA256": "4ce5095b28516129e5a174316b285507e74258af06010fd55ea1cec2294980ec",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "aji'u",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with the final damma clearly heard."
+      },
+      "usage": {
+        "prompt_tokens": 421,
+        "completion_tokens": 39,
+        "total_tokens": 460,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-87289e2dbf38134f4eea4ef5",
+      "en": "spring",
+      "ar": "الرَّبيع",
+      "file": "cv-87289e2dbf38134f4eea4ef5.mp3",
+      "signature": "4e6eb3f5b5a33d58b052e8d5238700ed41f33bce3159729d5649f280a4d87e14",
+      "audioSHA256": "114f09496fa608af76026c4e7b2064f599e85df838fa242d03c96b0eb45d4fcd",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ar-rabiʕ",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 35,
+        "total_tokens": 454,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 35
+        }
+      }
+    },
+    {
+      "id": "cv-877ae9a054af019115c71b30",
+      "en": "cold",
+      "ar": "بارِد",
+      "file": "cv-877ae9a054af019115c71b30.mp3",
+      "signature": "5b3ab50382c96078db12596ee797f3a81f75094112eece14a2aa0e986a7b0b61",
+      "audioSHA256": "f247b84b69b90d1d1ecb3044bf8e3407276a3fd7d7c6df6ef9ece10a4a5052dc",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "baarid",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'بارِد' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 420,
+        "completion_tokens": 37,
+        "total_tokens": 457,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 37
+        }
+      }
+    },
+    {
+      "id": "cv-87c82e7d82f2e0e1713b02ee",
+      "en": "I stayed up late",
+      "ar": "سَهِرْتُ",
+      "file": "cv-87c82e7d82f2e0e1713b02ee.mp3",
+      "signature": "5852b73ee70d15049329508526525a66ed7819597cf0c287085a1d0dd0ce48c6",
+      "audioSHA256": "197da4cdc710549a921d11fdcfbd18751ab10e3f5d7678b3928baa4d587b16fa",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "sahirtu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'sahirtu' with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 426,
+        "completion_tokens": 46,
+        "total_tokens": 472,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 46
+        }
+      }
+    },
+    {
+      "id": "cv-882c05e0bac998774b26fce3",
+      "en": "I lived",
+      "ar": "عِشْتُ",
+      "file": "cv-882c05e0bac998774b26fce3.mp3",
+      "signature": "9a5d82191cae79f2f710c1c5c0747252ae905b21b975e2f7546a394d2dd6302c",
+      "audioSHA256": "fc6ea8610c9edcd61b8547670467bdde9fc4add8666f5a3e8a528fa07fe2d9a8",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ʿiʃtu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'ʿiʃtu' with no extra endings or words."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 44,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 44
+        }
+      }
+    },
+    {
+      "id": "cv-88c01e9110447f8b65be2a35",
+      "en": "tour",
+      "ar": "جَوْلات",
+      "file": "cv-88c01e9110447f8b65be2a35.mp3",
+      "signature": "fb44ccf5d0c5514ed8ccafd979f7d7a3abbb501f4afabb4f87fe312d223ee987",
+      "audioSHA256": "2234f6e35441bb147079300266d1c67cd654dea539f0d28de6575a548d117d88",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "jawlaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'جَوْلات' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 38,
+        "total_tokens": 457,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
+        }
+      }
+    },
+    {
+      "id": "cv-8974d38aa6ec1503cbd8a651",
+      "en": "meat",
+      "ar": "لُحوم",
+      "file": "cv-8974d38aa6ec1503cbd8a651.mp3",
+      "signature": "577690a3c0f8c226f077f3251f96332a7ad1841ea45b345f872ebc05e44720f8",
+      "audioSHA256": "3a8547bfefc7ffba7967feeddc4aed941de5116906a2a5c4d48d2766f261315f",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "luhuum",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'لُحوم' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 421,
+        "completion_tokens": 39,
+        "total_tokens": 460,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-89b308f5d70922c232a8f70c",
+      "en": "week",
+      "ar": "أَسابيع",
+      "file": "cv-89b308f5d70922c232a8f70c.mp3",
+      "signature": "3054a6efba9b90db913a39b69e5995e936b7b308130fcfffb218b4945310055a",
+      "audioSHA256": "052b0a0bdb37f06c8a18fe4dd3769f0cf350d45189ab405cf529a5043ad34c5d",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "asaabii3u",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "أَسابيع",
+            "heard": "asaabii3u",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final vowel 'u' was pronounced, which is not present in the target word."
+      },
+      "usage": {
+        "prompt_tokens": 460,
+        "completion_tokens": 82,
+        "total_tokens": 542,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 50,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 82
+        }
+      }
+    },
+    {
+      "id": "cv-8a6abbc9c3efe7a02ffabf7c",
+      "en": "I know",
+      "ar": "أَعْرِفُ",
+      "file": "cv-8a6abbc9c3efe7a02ffabf7c.mp3",
+      "signature": "689e95982efbbef50be82d8b935b4d7cad3d494af437a239bdca5e5c53cf1377",
+      "audioSHA256": "4e9cf02d1d40f847abfe2366d1e4079bd99d40c30a66fec128df6247246dd85c",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "a3rifu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَعْرِفُ' with the final damma clearly heard."
+      },
+      "usage": {
+        "prompt_tokens": 426,
+        "completion_tokens": 50,
+        "total_tokens": 476,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 50
+        }
+      }
+    },
+    {
+      "id": "cv-8a72647c44f6bfdc4348579b",
+      "en": "I met",
+      "ar": "قَابَلْتُ",
+      "file": "cv-8a72647c44f6bfdc4348579b.mp3",
+      "signature": "79e71d9683480d5d5322ec479245eda1faf0c0c376144359496392352ca679aa",
+      "audioSHA256": "66c831077b9436b7e884de3792f27ff9cde76d88b156aa0d8285214f56c74eff",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "qaabaltu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 424,
+        "completion_tokens": 40,
+        "total_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-8adf673dd176ac1dec9263e3",
+      "en": "friend",
+      "ar": "صَديق",
+      "file": "cv-8adf673dd176ac1dec9263e3.mp3",
+      "signature": "f0ae10a3c50bf04077cd004438b1f81035dd03ea0cb9a0886e0a156133865c40",
+      "audioSHA256": "6f060f41c2dcf51ef42eb1770e1fbde4c479873fc6eb3f20b9550505d60031fe",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "sadiiq",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'صَديق' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 44,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 44
+        }
+      }
+    },
+    {
+      "id": "cv-8af7c88b262d0aed6d02bd6c",
+      "en": "I failed at",
+      "ar": "فَشِلْتُ فِي",
+      "file": "cv-8af7c88b262d0aed6d02bd6c.mp3",
+      "signature": "aa64c7d6865e309b8819705f25ba01f4dfcbd1b600f776cdfa472cf1533083fb",
+      "audioSHA256": "4b198354f875f4a522662e33df4823b14fdee433e5742359c132d43fd75437b8",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "fashiltu fi",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or speech."
+      },
+      "usage": {
+        "prompt_tokens": 433,
+        "completion_tokens": 42,
+        "total_tokens": 475,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 18,
+          "text_tokens": 415,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 42
+        }
+      }
+    },
+    {
+      "id": "cv-8b087bf081437ae0150ae281",
+      "en": "other; another",
+      "ar": "أُخْرى",
+      "file": "cv-8b087bf081437ae0150ae281.mp3",
+      "signature": "681a545e741b28e593a25f7806b117b4232b4fd099c68f02eb0d285f49fc3a2d",
+      "audioSHA256": "3abfdb2fa27e230a3c3b1504b8284b460345b638d0cf4ab9eafb8cb285ca32d6",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ukhra",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أُخْرى' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 39,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-8b82ef2f3486f3861878ff6d",
+      "en": "talking; speaking",
+      "ar": "تَكَلُّم",
+      "file": "cv-8b82ef2f3486f3861878ff6d.mp3",
+      "signature": "2b2949b85f3d8294ba03b93b9c1caa8418a1ee03f0a3047448a1b0893b94339e",
+      "audioSHA256": "e3601c8ce92271a8eecbf996a2b0c9cee4c8a7d009234c324b7e79a3a340d20c",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "takallum",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 418,
+        "completion_tokens": 39,
+        "total_tokens": 457,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 6,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-8baf353d7cada4f914797de5",
+      "en": "foreign affairs",
+      "ar": "الخارِجِيَّة",
+      "file": "cv-8baf353d7cada4f914797de5.mp3",
+      "signature": "557a3a75010a4c6d1605f5d52072cc46e4abd5d46e68fb1317fea1020fad4aa8",
+      "audioSHA256": "eefe78463992cf57f01ceef74766f23ec897315dffbfd0be583e95396d538288",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "al-khaarijiyya",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with a proper pausal ending on the taa marbuuta."
+      },
+      "usage": {
+        "prompt_tokens": 428,
+        "completion_tokens": 47,
+        "total_tokens": 475,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 47
+        }
+      }
+    },
+    {
+      "id": "cv-8be51a3747b1b17de0dc9a91",
+      "en": "before",
+      "ar": "قَبْل",
+      "file": "cv-8be51a3747b1b17de0dc9a91.mp3",
+      "signature": "e331228eddc3a1741417f4e1fcfff91396c61b29ceeca50ce174b1b9ee6e81bc",
+      "audioSHA256": "bf038a653c7c8036011d6647b9187e09843d8f84f0d9949500559a0efbf7130f",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "qabl",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation ended cleanly without an extra vowel, matching the target."
+      },
+      "usage": {
+        "prompt_tokens": 418,
+        "completion_tokens": 40,
+        "total_tokens": 458,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 8,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-8c504d21f1a2b99946153037",
+      "en": "hotel",
+      "ar": "فَنادِق",
+      "file": "cv-8c504d21f1a2b99946153037.mp3",
+      "signature": "8a3d49a0def0499d3acc6f197883c7d1ba1c60a9e484ab816f747a1e96ebe3ce",
+      "audioSHA256": "d88eabab3a8f63042427fb6d87c8a59729bd5bc48fab8bac5fa3032e5b4d81d9",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "fanaadiqu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فَنادِق",
+            "heard": "fanaadiqu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final short vowel 'u' which is not present in the target."
+      },
+      "usage": {
+        "prompt_tokens": 423,
+        "completion_tokens": 81,
+        "total_tokens": 504,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 81
+        }
+      }
+    },
+    {
+      "id": "cv-8caeb81d60cc4f8da5c73dd3",
+      "en": "hotel",
+      "ar": "فُنْدُق",
+      "file": "cv-8caeb81d60cc4f8da5c73dd3.mp3",
+      "signature": "af40d6745efc74dd55c0d7de4a6437100d5d0a5ca2eb453570f295dbe5a4bf99",
+      "audioSHA256": "e4930c422e4c9e53497223ae5482f27a60732bede6ea87a1877fdac9a89c3a0c",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "funduqu",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "فندق",
+            "heard": "funduqu",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added an audible final vowel 'u' at the end, which is not present in the target."
+      },
+      "usage": {
+        "prompt_tokens": 425,
+        "completion_tokens": 80,
+        "total_tokens": 505,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 80
+        }
+      }
+    },
+    {
+      "id": "cv-8cbeb5f914634352a7f73e66",
+      "en": "government",
+      "ar": "حُكومات",
+      "file": "cv-8cbeb5f914634352a7f73e66.mp3",
+      "signature": "c58b152ea8f2032cc6a170c0a29687a52505298e316e6ba0538bc13c236c7a93",
+      "audioSHA256": "bc8d7d1072565ab7963e8adbaed0f28fb2758569befd3797028c06e212308949",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "hukuman",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "حُكومات",
+            "heard": "hukuman",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The plural ending -aat was not pronounced; instead it sounded like the singular with an -an ending."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 64,
+        "total_tokens": 486,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 64
+        }
+      }
+    },
+    {
+      "id": "cv-8cde05982db9a550d5ae6c79",
+      "en": "father",
+      "ar": "وَالِدَة",
+      "file": "cv-8cde05982db9a550d5ae6c79.mp3",
+      "signature": "6d75d041399db3508626608dd170024bb7e78bf90c5f3b688d9b7a085d492d51",
+      "audioSHA256": "cf3684df43495b015615a79e3380aed45be43bdc38ba906a21640af7c2a45e7b",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "waalida",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'والدة' with a pausal ending 'a'."
+      },
+      "usage": {
+        "prompt_tokens": 427,
+        "completion_tokens": 44,
+        "total_tokens": 471,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 44
+        }
+      }
+    },
+    {
+      "id": "cv-8d3ea436ee034e0d72ea5bcb",
+      "en": "worlds",
+      "ar": "عَوَالِم",
+      "file": "cv-8d3ea436ee034e0d72ea5bcb.mp3",
+      "signature": "f469119274ce95cfa5f1cdf774a6a98f912fa224db91553ed68ef5439ec3c1e3",
+      "audioSHA256": "7b83f893825f039f8dd16dd38c2f60510ae7787b5b2c4230fcce9f58263de0c0",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "3awalim",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'عَوَالِم' without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 424,
+        "completion_tokens": 46,
+        "total_tokens": 470,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 46
+        }
+      }
+    },
+    {
+      "id": "cv-8dc29fce676ae389de289c14",
+      "en": "coming; next",
+      "ar": "قادِم",
+      "file": "cv-8dc29fce676ae389de289c14.mp3",
+      "signature": "609d37bfbbe49da81c5d2f278d2525477e518934e0bfd93796230bf3f8e5c09b",
+      "audioSHA256": "1e9b69ffe850b39f6c8fedc94744de65239be4191a7522ad45d0967279d74b4f",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "qaadim",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'قادِم' without any unwanted final vowel."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 43,
+        "total_tokens": 465,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 43
+        }
+      }
+    },
+    {
+      "id": "cv-8e3a75ccd2ea69494b1acd86",
+      "en": "sayings; statements",
+      "ar": "أَقْوَال",
+      "file": "cv-8e3a75ccd2ea69494b1acd86.mp3",
+      "signature": "4e2af3e48f6c661be4c6462558a6f886323a140263cdf59f22bdac484421c825",
+      "audioSHA256": "091e1d8653cde14ded5f73c51421a8018ce2fcff5be69d0768b169f21cab8f58",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "aqwaal",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَقْوَال' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 427,
+        "completion_tokens": 40,
+        "total_tokens": 467,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-8e7223f019dcd0e2dfca7cbc",
+      "en": "they were / you all were",
+      "ar": "كانوا / كُنْتُمْ",
+      "file": "cv-8e7223f019dcd0e2dfca7cbc.mp3",
+      "signature": "2dd40123e57dc95cf55b7f1fae72250154009a37555abe8fa5bf1beda01e1d9f",
+      "audioSHA256": "9c1b28933663d3036eb9578f2134cb841753422c04dce707fe90d602b9b0e506",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "kaanu kuntum",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "Both target forms were spoken clearly with no extra endings or speech."
+      },
+      "usage": {
+        "prompt_tokens": 438,
+        "completion_tokens": 41,
+        "total_tokens": 479,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 25,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 41
+        }
+      }
+    },
+    {
+      "id": "cv-8e7555428645cba93bc67ccc",
+      "en": "I succeed; pass",
+      "ar": "أَنْجَحُ في",
+      "file": "cv-8e7555428645cba93bc67ccc.mp3",
+      "signature": "71cdf9e7b5f4fccafede57ff0e40ebbe2d8bada52f8f32c2e25e622dea68c430",
+      "audioSHA256": "9073d25073ae5581d8b713df1a9cc30bc669f04b69b46e53b7e0104fda2f568f",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "anjahu fii",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with no extra endings or words."
+      },
+      "usage": {
+        "prompt_tokens": 432,
+        "completion_tokens": 40,
+        "total_tokens": 472,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 19,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-8e77d39cdceb2d1a286b4073",
+      "en": "only; lonely",
+      "ar": "وَحِيدَات",
+      "file": "cv-8e77d39cdceb2d1a286b4073.mp3",
+      "signature": "5a8d456335cf0691c93d6aefad8538ba33767a0dd4bffb469831550fd85a988c",
+      "audioSHA256": "203b9d8f156dcf9e0710cfec2dca5f95ce78350b00c91cd37afa1ede2fb63a6f",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "wahidatat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 429,
+        "completion_tokens": 39,
+        "total_tokens": 468,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 17,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-8f7d82a259469d75f77c92b7",
+      "en": "president; head",
+      "ar": "رُؤَساء",
+      "file": "cv-8f7d82a259469d75f77c92b7.mp3",
+      "signature": "c517c7f771359299d82f54d44392b92d9a5ac28790bd3a207b69b9b7deaf8b18",
+      "audioSHA256": "15d3620f2dfb7f9ef1ac6363e359dad786a1a60991494393744e56bad4bb9fe9",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ruʔasaʔ",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'رُؤَساء' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 425,
+        "completion_tokens": 43,
+        "total_tokens": 468,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 43
+        }
+      }
+    },
+    {
+      "id": "cv-8f8d5b62daa398df830973bf",
+      "en": "first",
+      "ar": "أَوَّل",
+      "file": "cv-8f8d5b62daa398df830973bf.mp3",
+      "signature": "6d50596b03051466e569ac24b9d282c04e45cdcd5d718d5cc30ffa311ee86b4c",
+      "audioSHA256": "2d126049da0cc3c3422e67bf9edc4ca8176b232bfb3eee6a4f2f330d18a78172",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "awwal",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَوَّل' without any extra endings or additions."
+      },
+      "usage": {
+        "prompt_tokens": 418,
+        "completion_tokens": 44,
+        "total_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 8,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 44
+        }
+      }
+    },
+    {
+      "id": "cv-8fd1687166172cba8fa089ff",
+      "en": "I enjoy",
+      "ar": "أَسْتَمْتِعُ بِ",
+      "file": "cv-8fd1687166172cba8fa089ff.mp3",
+      "signature": "ccea139fd67e643eb552e841f9b686b8c0c77ccf987ca15decc6d5091b33e1bd",
+      "audioSHA256": "f296cfe066b9c05cf05994b46abdad4afef1216347dcbaf4260b61c9cc73795a",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "astamtiʿu bi",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or words."
+      },
+      "usage": {
+        "prompt_tokens": 437,
+        "completion_tokens": 38,
+        "total_tokens": 475,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 19,
+          "text_tokens": 418,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
+        }
+      }
+    },
+    {
+      "id": "cv-90255bf6eba844e958a993b2",
+      "en": "salad",
+      "ar": "سَلَطات",
+      "file": "cv-90255bf6eba844e958a993b2.mp3",
+      "signature": "7689ef6c7ace202b027d4083a2f1b6162d0b8270c116caae66f0e5a2b0325759",
+      "audioSHA256": "534b77a4479ab6147bb09d10cadf11c7a5114d7833d0b0aaa1191297de8d6292",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "salatat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'سَلَطات' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 424,
+        "completion_tokens": 38,
+        "total_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
+        }
+      }
+    },
+    {
+      "id": "cv-90c55b37af24560d0843402a",
+      "en": "prime minister",
+      "ar": "رَئيس الوُزَراء",
+      "file": "cv-90c55b37af24560d0843402a.mp3",
+      "signature": "e234346eca046518aea5f09a7a0626b28a910c0c91e3c21d85955516a3773920",
+      "audioSHA256": "d62f447e584f06ee207bf4922d58258bea5c8e01bd3b7b29f2b82dd4eccee99e",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ra'iis el-wuzaraa",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 435,
+        "completion_tokens": 38,
+        "total_tokens": 473,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 21,
+          "text_tokens": 414,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
+        }
+      }
+    },
+    {
+      "id": "cv-90e2acdc3a7d17029907ecb7",
+      "en": "I play",
+      "ar": "أَلْعَبُ",
+      "file": "cv-90e2acdc3a7d17029907ecb7.mp3",
+      "signature": "fc0480dc8677d6a174c29c629869d4bcb3bfd412161dbd0830dff79f0ee2de8a",
+      "audioSHA256": "43004da7887003bd60ad48b94370f9d48386ef4555a0549a3d9feb53c9c256ff",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "alʿabu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 423,
+        "completion_tokens": 40,
+        "total_tokens": 463,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-91f03de13b492aeeeda9204c",
+      "en": "appointment",
+      "ar": "مَوْعِد",
+      "file": "cv-91f03de13b492aeeeda9204c.mp3",
+      "signature": "173d011990ecfdcd8bdd2aa49b8ffa306089ccb1c9e0852d723513ee250e16d7",
+      "audioSHA256": "64e920b84e284190aa64c464974e3962d52b98ce4761a4764bb8b487bb325b2c",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "maw3id",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'مَوْعِد' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 428,
+        "completion_tokens": 48,
+        "total_tokens": 476,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 48
+        }
+      }
+    },
+    {
+      "id": "cv-92fec99954228f53aeb5d81d",
+      "en": "I refuse",
+      "ar": "أَرْفُضُ",
+      "file": "cv-92fec99954228f53aeb5d81d.mp3",
+      "signature": "2b6bb48d4ca2060b3af55dd222c4209935402a5a0527013abaa4dacbba55932b",
+      "audioSHA256": "76f55b55aac7d0892e552bd6f1f4b83730204a650a6be8bb4e0cb4e22390a511",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "arfudu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target exactly with no extra endings or words."
+      },
+      "usage": {
+        "prompt_tokens": 432,
+        "completion_tokens": 33,
+        "total_tokens": 465,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 19,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 33
+        }
+      }
+    },
+    {
+      "id": "cv-932303fded0e07654218f59d",
+      "en": "(one) vocabulary word",
+      "ar": "مُفْرَدات",
+      "file": "cv-932303fded0e07654218f59d.mp3",
+      "signature": "d987936799408b3b8dc6da4855cf274f861547833200b39e38ef57b58230bd1b",
+      "audioSHA256": "cadb54736145ca621a4b84d311b5106a03cb9162c7f20fc341f1ddd8518e4c21",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "mufradaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'mufradaat' with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 425,
+        "completion_tokens": 46,
+        "total_tokens": 471,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 46
+        }
+      }
+    },
+    {
+      "id": "cv-93410efbd73e444c296d1796",
+      "en": "classmate",
+      "ar": "زَميل",
+      "file": "cv-93410efbd73e444c296d1796.mp3",
+      "signature": "857665100a730975b80f839bd67e4289413ea787c6ca7ee42eec61c3a71f27dc",
+      "audioSHA256": "99653531c1f738e46af6e332b15f1c1d6eb436791adf694e41444839682b79b0",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "zamiil",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'زَميل' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 421,
+        "completion_tokens": 38,
+        "total_tokens": 459,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
+        }
+      }
+    },
+    {
+      "id": "cv-93b20d7d43c431232b76329b",
+      "en": "article",
+      "ar": "مَقالَة",
+      "file": "cv-93b20d7d43c431232b76329b.mp3",
+      "signature": "55bd8927a55af23be3ce2288da6957e46613721ea3c7dce35ff9f510fdfbfcb3",
+      "audioSHA256": "72a0ac1df1aca65a1d95298503d18630adbc767ca1b07e475cc433d69deaaf3e",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "maqalah",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target, ending with a pausal 'ah' sound as expected."
+      },
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 38,
+        "total_tokens": 457,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 8,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
+        }
+      }
+    },
+    {
+      "id": "cv-93db59c629576e39a1be1a9f",
+      "en": "sea",
+      "ar": "بُحُور",
+      "file": "cv-93db59c629576e39a1be1a9f.mp3",
+      "signature": "41ebcd0eb7f886273d2cdd6917daaa5f6cc7305970f2e1e637d143d3b5b708aa",
+      "audioSHA256": "924f3fcee8d65a747bea8e1827498c74089c3f4ef2b8c9a4aa0340d4da9ba23b",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "buhuur",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'بُحُور' without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 420,
+        "completion_tokens": 46,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 46
+        }
+      }
+    },
+    {
+      "id": "cv-943672f7fd6531c701d875bc",
+      "en": "friend",
+      "ar": "صَديقات",
+      "file": "cv-943672f7fd6531c701d875bc.mp3",
+      "signature": "638107f7b15b4ade9069fd87e3b3373bed2d8c6af658c5173a92866558a95db6",
+      "audioSHA256": "a748d7fa1ec5226de9bf6d57580842d2abbdc6ee78c5c5e6d6e566c9a4f784bb",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "sadiqaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 40,
+        "total_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-94400d37996dd219b273bc0c",
+      "en": "summers",
+      "ar": "أَصْيَاف / صُيُوف",
+      "file": "cv-94400d37996dd219b273bc0c.mp3",
+      "signature": "b9976529e87832a560339ac4a99f61c849931cb83a14ed943f379329e879cc4a",
+      "audioSHA256": "777569ed13cb2c839e3cb5d90471e7703899075b23f597430a97b54bd2d18f04",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "as-siyaam / suyuuf",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "أَصْيَاف",
+            "heard": "as-siyaam",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The first word was pronounced as 'as-siyaam' instead of 'as-yaaf'. The second word 'suyuuf' matches."
+      },
+      "usage": {
+        "prompt_tokens": 446,
+        "completion_tokens": 84,
+        "total_tokens": 530,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 27,
+          "text_tokens": 419,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 84
+        }
+      }
+    },
+    {
+      "id": "cv-94a5d4df12b83672c35fe066",
+      "en": "together",
+      "ar": "مَعًا",
+      "file": "cv-94a5d4df12b83672c35fe066.mp3",
+      "signature": "76636208252fddea9468b3e37a962538eab4dabf89f1ec41352e4a9d3549f7d0",
+      "audioSHA256": "808122f051f1a63af82cb69af68a177528b7dc8e7091d0b2e37ac262e2c34de4",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "maʕan",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'مَعًا' with the correct -an ending."
+      },
+      "usage": {
+        "prompt_tokens": 421,
+        "completion_tokens": 39,
+        "total_tokens": 460,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-94ac4c3e9c87f932be2f47ac",
+      "en": "club; association",
+      "ar": "نَوادٍ",
+      "file": "cv-94ac4c3e9c87f932be2f47ac.mp3",
+      "signature": "2cd46dbb96f09cc9ea44547900e9ae95ce8275177473cc1b5587decddbf86d3c",
+      "audioSHA256": "119a46992384a193a15c19910ab6e42be067dbf2e48147e64250b5d84ce690f6",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "nawaadin",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation aligns with the target, ending in -in as required."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 41,
+        "total_tokens": 463,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 41
+        }
+      }
+    },
+    {
+      "id": "cv-94c1dc5311ce7afdb4f8b1b2",
+      "en": "cold",
+      "ar": "بارِدة",
+      "file": "cv-94c1dc5311ce7afdb4f8b1b2.mp3",
+      "signature": "f83b361703046c911a4c0a4501f2b0deddb62f08195775b4848ae53ce69d7280",
+      "audioSHA256": "55a31bf74dd9257f11c55b2b8e02b554a07e64eb15967ef9b83fa1bbd56436fe",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "baaridatun",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "unwanted_ending",
+            "word": "بارِدة",
+            "heard": "baaridatun",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The speaker added a final -tun ending instead of pausing on the taa marbuuta."
+      },
+      "usage": {
+        "prompt_tokens": 418,
+        "completion_tokens": 65,
+        "total_tokens": 483,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 65
+        }
+      }
+    },
+    {
+      "id": "cv-959420b696cce0c958dcbb25",
+      "en": "extended family",
+      "ar": "عَائِلَة",
+      "file": "cv-959420b696cce0c958dcbb25.mp3",
+      "signature": "932b63ff09d795a4c36b8b9a4750a47d61f51397add5b826bb477043076ee485",
+      "audioSHA256": "353a11736782141f66e8f9cf4914a1d3799ce8eadf13767eb92f18c7a7835936",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "aa'ila",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'عَائِلَة' with a pausal ending."
+      },
+      "usage": {
+        "prompt_tokens": 423,
+        "completion_tokens": 46,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 46
+        }
+      }
+    },
+    {
+      "id": "cv-959f081d0f85f6fc352ac3fa",
+      "en": "science",
+      "ar": "عِلْم",
+      "file": "cv-959f081d0f85f6fc352ac3fa.mp3",
+      "signature": "f2a5aa7590c76470b4643f7045169074104c11e6bb11cec506cea4939f243f56",
+      "audioSHA256": "6034ef3b114ca0f2614b384b11d0049a39cbec32e0c73102712e412346cbddc4",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ilm",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'عِلْم' without any extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 42,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 42
+        }
+      }
+    },
+    {
+      "id": "cv-9630de4bb35c7566db930b7c",
+      "en": "my father",
+      "ar": "وَالِدِي",
+      "file": "cv-9630de4bb35c7566db930b7c.mp3",
+      "signature": "db1edb4d3593c0774628ba4c9b0c7fcb7b426e61bc800bdb76553f023ffffdaa",
+      "audioSHA256": "a4ab4ce211866d9551bd6e6360d4c5a714591b37af9c073b059cf1a69dda2a7d",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "waalidi",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'والدي' without any extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 43,
+        "total_tokens": 465,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 43
+        }
+      }
+    },
+    {
+      "id": "cv-967956e085df46336785a1fc",
+      "en": "after",
+      "ar": "بَعْدَ",
+      "file": "cv-967956e085df46336785a1fc.mp3",
+      "signature": "0d14df6a47d548615dc3872a124bdfd24ac596465bf7bec5a6832339133e7d19",
+      "audioSHA256": "719416b13affeb495cfe883bb0ea3ae50b0a395549c33168de175f28cfb519b5",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "baʕda",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'بَعْدَ' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 423,
+        "completion_tokens": 41,
+        "total_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 41
+        }
+      }
+    },
+    {
+      "id": "cv-971fd936fd29d7c38ed53883",
+      "en": "living; residing",
+      "ar": "سَكَن",
+      "file": "cv-971fd936fd29d7c38ed53883.mp3",
+      "signature": "7dec0d4eb45357d87ccbae6a8432cf05dbec590ddeb8f16c400cdbe84e391bce",
+      "audioSHA256": "ac63102bfcb53123ba50ab2a9537d338917fbdbcd10ab7ba17df55bc00b90959",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "sakan",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'sakan' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 423,
+        "completion_tokens": 36,
+        "total_tokens": 459,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 36
+        }
+      }
+    },
+    {
+      "id": "cv-9847017e05b401a555453eff",
+      "en": "I meant; intended",
+      "ar": "عَنَيْتُ",
+      "file": "cv-9847017e05b401a555453eff.mp3",
+      "signature": "b2e50a56f9875a382b0c6c422815192a1114cf33c614654fd171778d03ab5451",
+      "audioSHA256": "89244a2e0ca11e999db9885cd41346a7e747ce0da3506b2e5151a6759614f6a9",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ʿanaytu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 40,
+        "total_tokens": 459,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 8,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-98cf6db1e99a819bfcc79b1a",
+      "en": "I am absent from; miss",
+      "ar": "تَغَيَّبْتُ",
+      "file": "cv-98cf6db1e99a819bfcc79b1a.mp3",
+      "signature": "4971fa79b3e25ee02ae1f76f336e0553cf3b72dfad4092976b8e183cb603fbfb",
+      "audioSHA256": "d966f57ce2e1a521b6e4d72ce2ecacce444604368fbff6ddf8983d0210f75dc3",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "taghayyabat",
+        "verdict": "needs_review",
+        "issues": [
+          {
+            "type": "wrong_word",
+            "word": "تَغَيَّبْتُ",
+            "heard": "taghayyabat",
+            "confidence": "high"
+          }
+        ],
+        "notes": "The final consonant was pronounced as 't' instead of 'tu', indicating a wrong ending."
+      },
+      "usage": {
+        "prompt_tokens": 428,
+        "completion_tokens": 72,
+        "total_tokens": 500,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 415,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 72
+        }
+      }
+    },
+    {
+      "id": "cv-98d4bed2ebd8035adec1ae53",
+      "en": "general; public",
+      "ar": "عامّ",
+      "file": "cv-98d4bed2ebd8035adec1ae53.mp3",
+      "signature": "242c26558a0c8e297f125103f970c4f81e4bdd69f61145bbab8724d58abe52d5",
+      "audioSHA256": "e3e42af8c64326506a9ec66ba877e7c06db95080f27b49eafb7ededf9095c25c",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ʕaam",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'عامّ' with no extra endings or deviations."
+      },
+      "usage": {
+        "prompt_tokens": 416,
+        "completion_tokens": 44,
+        "total_tokens": 460,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 8,
+          "text_tokens": 408,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 44
+        }
+      }
+    },
+    {
+      "id": "cv-98d727db0fe00b642ef458e3",
+      "en": "waking someone up",
+      "ar": "إِيقَاظ",
+      "file": "cv-98d727db0fe00b642ef458e3.mp3",
+      "signature": "e00a2b9c7169af176148a12e5e98a4a240422ddd5b69500b9bb0924de3d4b9d3",
+      "audioSHA256": "fe5604344895aea0b328f560f1e4e86ea04182ec4fa7563bf25ab8eb2ff8c938",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "iiqaadh",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 423,
+        "completion_tokens": 33,
+        "total_tokens": 456,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 33
+        }
+      }
+    },
+    {
+      "id": "cv-992474076470249a5fa77729",
+      "en": "I decide to",
+      "ar": "أُقَرِّرُ أَنْ",
+      "file": "cv-992474076470249a5fa77729.mp3",
+      "signature": "3f9eba1c0bd9c16f6b7ad2d6271c5459b41f7237b8328638e0de11d4ac5ea629",
+      "audioSHA256": "a1d745bbf0b7eb472c64c1faa13db0fd2688fcf5c8c00a31dfad240dbbad8b7f",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "uqarriru an",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or words."
+      },
+      "usage": {
+        "prompt_tokens": 436,
+        "completion_tokens": 40,
+        "total_tokens": 476,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 21,
+          "text_tokens": 415,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-99336a54f9723d293629668d",
+      "en": "picture",
+      "ar": "صُوَر",
+      "file": "cv-99336a54f9723d293629668d.mp3",
+      "signature": "70c28afae162fc39f61247e852bec41dbd4520c6393cde703d8062b55ac8573d",
+      "audioSHA256": "d5f7da70858eeaffe73d90616e7a6180b6a4a65a0f269d07a75008d008837de9",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "suwar",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'صُوَر' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 421,
+        "completion_tokens": 38,
+        "total_tokens": 459,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
+        }
+      }
+    },
+    {
+      "id": "cv-9959c3b9905788ac50822bb9",
+      "en": "I get to know; meet",
+      "ar": "أَتَعَرَّفُ عَلى",
+      "file": "cv-9959c3b9905788ac50822bb9.mp3",
+      "signature": "4a516834fe52fdf23c52296c4520b7697a0720ef35a43eb6423e2fea28463b3f",
+      "audioSHA256": "1dc1d6a2b70d93f0f45ba09a4a30d45bff1d3a735f9a7291fc52a222968b5e49",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ataʿarrafu ʿala",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with no extra endings or deviations."
+      },
+      "usage": {
+        "prompt_tokens": 435,
+        "completion_tokens": 47,
+        "total_tokens": 482,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 18,
+          "text_tokens": 417,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 47
+        }
+      }
+    },
+    {
+      "id": "cv-99a40b698d708528f6ef3371",
+      "en": "I decided to",
+      "ar": "قَرَّرْتُ أَنْ",
+      "file": "cv-99a40b698d708528f6ef3371.mp3",
+      "signature": "b5339284afad5ca344f51c735b5bdcc998c5a2adc78bd879c0e89726acb96ed8",
+      "audioSHA256": "42e9b003429fc15c4bee4e17135a441a0ae5f21a31cd815f49a138a80014007b",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "qarrartu an",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with no extra endings or words."
+      },
+      "usage": {
+        "prompt_tokens": 432,
+        "completion_tokens": 41,
+        "total_tokens": 473,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 17,
+          "text_tokens": 415,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 41
+        }
+      }
+    },
+    {
+      "id": "cv-99ba879998520ac8c2e9b66d",
+      "en": "age",
+      "ar": "أَعْمَار",
+      "file": "cv-99ba879998520ac8c2e9b66d.mp3",
+      "signature": "05f5efc4df08871beec045ae8a1d833451742890f9ab6b6839961f584488f045",
+      "audioSHA256": "b12ede49c3b9c16a08ba0b6dcdd4f21dcd1d88257d97f99e05b1d76007ed9eea",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "a3maar",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَعْمَار' with no extra endings or deviations."
+      },
+      "usage": {
+        "prompt_tokens": 420,
+        "completion_tokens": 46,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 46
+        }
+      }
+    },
+    {
+      "id": "cv-99c2b8f1f14a2e81612bf6a5",
+      "en": "employee",
+      "ar": "مُوَظَّفُون",
+      "file": "cv-99c2b8f1f14a2e81612bf6a5.mp3",
+      "signature": "79628d091ceba99e8bf120e67639ea0d56627c6395764ec32889958c151f1cb9",
+      "audioSHA256": "8c999457428022431567d48a713054abd5fc3f1fdb39a2626a0ee3714ba07dbf",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "muwaZZafuun",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with the correct long -uun ending and no extra vowels."
+      },
+      "usage": {
+        "prompt_tokens": 428,
+        "completion_tokens": 46,
+        "total_tokens": 474,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 46
+        }
+      }
+    },
+    {
+      "id": "cv-99f941d6fd88101b6e8487b4",
+      "en": "kings",
+      "ar": "مُلُوك",
+      "file": "cv-99f941d6fd88101b6e8487b4.mp3",
+      "signature": "498fce3e04cd74351c436ab0a8b3b844a6fd46c1787be62b02d2620c7bf07f92",
+      "audioSHA256": "d73666ea88248394afa14dc3238610c080f9deedc88bcd4e37a61fc86a113ab8",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "muluuk",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'mulūk' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 418,
+        "completion_tokens": 43,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 8,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 43
+        }
+      }
+    },
+    {
+      "id": "cv-99fdf0467f35b769b62763da",
+      "en": "I lived; resided",
+      "ar": "سَكَنْتُ",
+      "file": "cv-99fdf0467f35b769b62763da.mp3",
+      "signature": "19a19a33176a27b01f7ac987ce60e1d3e6f41f803e17164f4a07c78127405b58",
+      "audioSHA256": "5c1cd735c572a5de0622b479110d0eef09ed6419a1ad86352f087c9e6a0d69ca",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "sakantu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'sakantu' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 425,
+        "completion_tokens": 36,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 36
+        }
+      }
+    },
+    {
+      "id": "cv-9a624a10ab9a0c3ecbeef582",
+      "en": "I understand",
+      "ar": "أَفْهَمُ",
+      "file": "cv-9a624a10ab9a0c3ecbeef582.mp3",
+      "signature": "2e4ed276f75c892b824c7753c38a2e866c21cfa4f9278ef06d7e41543e63dd74",
+      "audioSHA256": "75d0ead6835914a096d3c53190f82b6d192341f8e165fcbe76de693c866d6fa4",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "afhamu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'afhamu' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 436,
+        "completion_tokens": 36,
+        "total_tokens": 472,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 23,
+          "text_tokens": 413,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 36
+        }
+      }
+    },
+    {
+      "id": "cv-9ad63565500a108992748bfc",
+      "en": "picture",
+      "ar": "صُورَة",
+      "file": "cv-9ad63565500a108992748bfc.mp3",
+      "signature": "497737f50f4e171287a6af9220fc0bf6e79323349576f22ae8376cb2cd63204f",
+      "audioSHA256": "267e6ea27f162b9fb4d8577e757853c499bcf57a0fc2ad9e995f658ec6933a65",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "suura",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'صُورَة' with a pausal ending."
+      },
+      "usage": {
+        "prompt_tokens": 424,
+        "completion_tokens": 38,
+        "total_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
+        }
+      }
+    },
+    {
+      "id": "cv-9b0b85276a13c90464ff41e5",
+      "en": "I ate breakfast",
+      "ar": "أَفْطَرْتُ",
+      "file": "cv-9b0b85276a13c90464ff41e5.mp3",
+      "signature": "00c4035b4bf4c8086afd5905b0edb1b2b21bf6df4c2c4f451f0200fa9fede164",
+      "audioSHA256": "50cbc2e2edd1b6ffeaa271f746ae6b1125b03d00f9a85f2bd662731e27c79133",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "aftartu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target exactly with no extra endings or words."
+      },
+      "usage": {
+        "prompt_tokens": 436,
+        "completion_tokens": 33,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 21,
+          "text_tokens": 415,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 33
+        }
+      }
+    },
+    {
+      "id": "cv-9b61dfbd897c104cb1b9980f",
+      "en": "engineer",
+      "ar": "مُهَنْدِس",
+      "file": "cv-9b61dfbd897c104cb1b9980f.mp3",
+      "signature": "0311477315d3bb44b1ded7866815b2016e47354bbda72ebad30069a11f9d272f",
+      "audioSHA256": "67fda3c7f5e3030d49756eeafb97a9410097b93a0438e804de7335e6cfc7d3fd",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "muhandis",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 426,
+        "completion_tokens": 40,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-9bbc309b5c2f62ae02e323d5",
+      "en": "eye",
+      "ar": "عَيْن",
+      "file": "cv-9bbc309b5c2f62ae02e323d5.mp3",
+      "signature": "24811c3ae7edcf53d2b90b3a9b877cc42b77f8546ed67a51497c888add31c696",
+      "audioSHA256": "cf4800ccd4bde7f1a5ca9071c2c928c73e604b8bc1f33c66777634d5f0905ef2",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ʕayn",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'ʕayn' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 418,
+        "completion_tokens": 38,
+        "total_tokens": 456,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 409,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
+        }
+      }
+    },
+    {
+      "id": "cv-9c7242a50716173fea3f69cd",
+      "en": "official holiday",
+      "ar": "عُطَل",
+      "file": "cv-9c7242a50716173fea3f69cd.mp3",
+      "signature": "dc9544c7942ac195f4a90931fd9ce3fa9797d46f790dcb27ccdc4fbbd578124d",
+      "audioSHA256": "6d232156da39f52d7f3f69d0211a0935d2b398dd031f489aa45e97640228f260",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ʕuṭal",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'عُطَل' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 420,
+        "completion_tokens": 41,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 41
+        }
+      }
+    },
+    {
+      "id": "cv-9ca002cdff4bb515d21a54b2",
+      "en": "I am; I become",
+      "ar": "أَكونُ",
+      "file": "cv-9ca002cdff4bb515d21a54b2.mp3",
+      "signature": "7762604c20673d878c00bafbf4ccd9a495434eb6772960e87ef5b168603982d3",
+      "audioSHA256": "e00210c0b6a5ca95020a5b82c3f531dcb4459075b2b8dd53a79416ef021c47d2",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "akoonu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَكونُ' with the final damma clearly heard."
+      },
+      "usage": {
+        "prompt_tokens": 424,
+        "completion_tokens": 39,
+        "total_tokens": 463,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-9cc760527fe8f842ae695649",
+      "en": "state; nation-state",
+      "ar": "دَوْلَة",
+      "file": "cv-9cc760527fe8f842ae695649.mp3",
+      "signature": "0ab80e210b4f136dfabde10823d9207cf5e38f9f526ddf177926257fe25014db",
+      "audioSHA256": "4f12e294e525def957b3deebc580ceffdabb9506cae6a1b12abaf0f841b85ab1",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "dawla",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with a pausal 'a' ending and no extra vowels or words."
+      },
+      "usage": {
+        "prompt_tokens": 422,
+        "completion_tokens": 47,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 47
+        }
+      }
+    },
+    {
+      "id": "cv-9cd0dc391e976ae490b3bc01",
+      "en": "once; one time",
+      "ar": "مَرَّة",
+      "file": "cv-9cd0dc391e976ae490b3bc01.mp3",
+      "signature": "04057cfc0ae2d601406519edcfb7b7fcc49cfbaec1df4132c19f818369da5937",
+      "audioSHA256": "0f7cdeed9ce8f1f5dbb4529ca94354be47e12d5eb33a19261a70574d8d1b72bf",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "marra",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with a pausal 'a' ending on the taa marbuuta."
+      },
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 46,
+        "total_tokens": 465,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 46
+        }
+      }
+    },
+    {
+      "id": "cv-9cef8d51b1f3191f7c6bdecc",
+      "en": "I encourage someone to",
+      "ar": "شَجَّعْتُ",
+      "file": "cv-9cef8d51b1f3191f7c6bdecc.mp3",
+      "signature": "ed81546d6e059c9399aef566bc33cd51b501a835b5e89f9721c27b971f55db66",
+      "audioSHA256": "96966843e46c4878a3566e48cf80b765393d5a739621f7f4f6752e5843a9e47c",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "shajjaʿtu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 428,
+        "completion_tokens": 35,
+        "total_tokens": 463,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 414,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 35
+        }
+      }
+    },
+    {
+      "id": "cv-9da77bcefde7be93414e23d0",
+      "en": "elementary",
+      "ar": "اِبْتِدائِيّات",
+      "file": "cv-9da77bcefde7be93414e23d0.mp3",
+      "signature": "f90ed65608fbc50ee5162edbd1a8ceab89096bcb5c13165f9fd5bed7f4f7408f",
+      "audioSHA256": "b64c20efeaa1d45a3e8dc0bfe9c20bf2e919862ad98a26cbabf447d914ca3800",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ibtidaa'iyyaat",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 434,
+        "completion_tokens": 36,
+        "total_tokens": 470,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 18,
+          "text_tokens": 416,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 36
+        }
+      }
+    },
+    {
+      "id": "cv-9dc721022a6ec938c1f9044a",
+      "en": "I find",
+      "ar": "أَجِدُ",
+      "file": "cv-9dc721022a6ec938c1f9044a.mp3",
+      "signature": "0fcad193c7fb2a44458cd36ef1dc03bcf6032b9183e6a1794a4ff5bca83baa89",
+      "audioSHA256": "6901f0f6bf57126c38a1ac64bb9a2439bc36362fb8225d57733bf3b347bd398b",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ajidu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'ajidu' with no extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 427,
+        "completion_tokens": 36,
+        "total_tokens": 463,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 36
+        }
+      }
+    },
+    {
+      "id": "cv-9df68177e1a943cda7b3b67b",
+      "en": "I listen to",
+      "ar": "أَسْتَمِعُ إِلى",
+      "file": "cv-9df68177e1a943cda7b3b67b.mp3",
+      "signature": "4ac28b3e1cb3f2633fd5d95968a50c813be07f209a6466c5e921eb9b55882e33",
+      "audioSHA256": "c877fd3ed5cf3b64694d5a38d98c7d375bfb7a0d092418b8099f3c4ee593c5d0",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "astami'u ila",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target phrase with no extra endings or words."
+      },
+      "usage": {
+        "prompt_tokens": 435,
+        "completion_tokens": 41,
+        "total_tokens": 476,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 17,
+          "text_tokens": 418,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 41
+        }
+      }
+    },
+    {
+      "id": "cv-9e0ba613800b460da16cc262",
+      "en": "being cut off; disconnection",
+      "ar": "اِنْقِطَاع",
+      "file": "cv-9e0ba613800b460da16cc262.mp3",
+      "signature": "21b5fa34e4fe122e1c6a9201a067a01345ccc75c364604f62341d490e7337bbf",
+      "audioSHA256": "810207b88bf174f69fd6024e1e8c82412166a2936eeed550bf32d307a6849e3f",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "in qitaʕ",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or errors."
+      },
+      "usage": {
+        "prompt_tokens": 434,
+        "completion_tokens": 35,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 20,
+          "text_tokens": 414,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 35
+        }
+      }
+    },
+    {
+      "id": "cv-9f0f297146bb2e717859259f",
+      "en": "I am; I become",
+      "ar": "أَكُونُ",
+      "file": "cv-9f0f297146bb2e717859259f.mp3",
+      "signature": "36d8d8ef9c367dc78242eb0d0e9c7677fd0883a002ea066af6efdee11f05158a",
+      "audioSHA256": "2aa49e76bbc818f35023dd1702b78aac8e120d87266f42d116909edb5192ac0c",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "akuunu",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'أَكُونُ' with the final long vowel 'uu' and the final damma on the verb."
+      },
+      "usage": {
+        "prompt_tokens": 420,
+        "completion_tokens": 49,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 411,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 49
+        }
+      }
+    },
+    {
+      "id": "cv-9f77724a39b0fef409483f4f",
+      "en": "college; university school",
+      "ar": "كُلِّيَّة",
+      "file": "cv-9f77724a39b0fef409483f4f.mp3",
+      "signature": "291f464cf2d83c1a9c28af70b79f4533182963fcb0349ab6d47f8f49704bc097",
+      "audioSHA256": "fee4919ad04a08af02f988310648418428db7c4a0511eb56105d14b5e7a47ef8",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "kulliyya",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'كُلِّيَّة' with a pausal 'a' ending."
+      },
+      "usage": {
+        "prompt_tokens": 424,
+        "completion_tokens": 43,
+        "total_tokens": 467,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 412,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 43
+        }
+      }
+    },
+    {
+      "id": "cv-9f9e9e354c42cb50f3cb4101",
+      "en": "of; among",
+      "ar": "مِنْ",
+      "file": "cv-9f9e9e354c42cb50f3cb4101.mp3",
+      "signature": "9be8b1e070ceb9bd8f6651e5938a0832f1ddd75a643d6985cd197406d5cea221",
+      "audioSHA256": "efc9dac58a77dbcf469d6ec5684a7a6eecc0ffc6edbea05ee96e7a43263b90d5",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "min",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target 'min' with no extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 40,
+        "total_tokens": 459,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 408,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 40
+        }
+      }
+    },
+    {
+      "id": "cv-9fbf6778e841cc9973f67546",
+      "en": "late",
+      "ar": "مُتَأَخِّرون",
+      "file": "cv-9fbf6778e841cc9973f67546.mp3",
+      "signature": "016eb3888593ec4045d02230d018e838c33158c9555def69f086bd23d3dd8af4",
+      "audioSHA256": "b33bbddb188e94382ff0d55d7e3355dad10fa9a86fca24fe9397fab503d82f00",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "mutaʔakhkhiruun",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target, including the long -uun ending."
+      },
+      "usage": {
+        "prompt_tokens": 434,
+        "completion_tokens": 39,
+        "total_tokens": 473,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 19,
+          "text_tokens": 415,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 39
+        }
+      }
+    },
+    {
+      "id": "cv-a16c3861cb1536185e26bd09",
+      "en": "son",
+      "ar": "اِبْن",
+      "file": "cv-a16c3861cb1536185e26bd09.mp3",
+      "signature": "90276ca0025368de22f8fce7fe3b6fdd47b13986ed2e0a2f85ab5b7af6a72ea2",
+      "audioSHA256": "7de4b294b63a47656ef7af7ca50a3db11c5f114f96e927cec46fc30e2ccc0f44",
+      "priority": false,
+      "review": {
+        "heard_phonetic": "ibn",
+        "verdict": "matches",
+        "issues": [],
+        "notes": "The pronunciation matches the target without any extra endings or alterations."
+      },
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 38,
+        "total_tokens": 457,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 410,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 38
         }
       }
     },
