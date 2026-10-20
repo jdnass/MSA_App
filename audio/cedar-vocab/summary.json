@@ -8,34 +8,9 @@
   "targets": 5183,
   "completed": 3184,
   "remaining": 1999,
-  "failed": {
-    "cv-17df78193c3f9697983ac01b": {
-      "ar": "أَتَبادَلُ",
-      "reason": "Audio response did not complete"
-    },
-    "cv-67950bf64f781d84b058fc2d": {
-      "ar": "فُرْصَة سَعيدة",
-      "reason": "Audio response did not complete"
-    },
-    "cv-82b6256a7ed96708852b8e96": {
-      "ar": "تَذَكُّر",
-      "reason": "Audio response did not complete"
-    },
-    "cv-8af7c88b262d0aed6d02bd6c": {
-      "ar": "فَشِلْتُ فِي",
-      "reason": "Independent audio check rejected extra or incorrect words: بشيلتوفي."
-    },
-    "cv-d9bda85213dfdc873e6998b7": {
-      "ar": "أُسْرَة",
-      "reason": "Independent audio check rejected extra or incorrect words: 왔어라."
-    },
-    "cv-e9b27ac56363ac77d5f402da": {
-      "ar": "سَنَتانِ / سَنَتَيْنِ",
-      "reason": "Independent audio check rejected extra or incorrect words: Sana tani."
-    }
-  },
-  "estimatedGenerationCostUSD": 2.905478,
-  "requests": 4941,
+  "failed": {},
+  "estimatedGenerationCostUSD": 2.928011,
+  "requests": 4959,
   "cards": 5346,
   "verbTrees": 268,
   "brokenPluralPairs": 428
