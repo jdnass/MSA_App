@@ -57167,8 +57167,8 @@
         "variant"
       ],
       "revision": "literal-endings-1",
-      "session_instructions": "انطق أُسْرَة مرة واحدة فقط، بضم الهمزة وسكون السين وفتح الراء. انطق التاء المربوطة وقفا، بلا تاء أو تنوين.",
-      "max_output_tokens": 256,
+      "session_instructions": "الكلمة هي أُسْرَة. انطقها مرة واحدة فقط، دون تكرار أو شرح. لا تضف حركة إعراب في نهايتها.",
+      "max_output_tokens": 384,
       "max_audio_seconds": 1.5,
       "verify_audio": true
     },

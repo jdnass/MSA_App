@@ -11,11 +11,11 @@
   "failed": {
     "cv-d9bda85213dfdc873e6998b7": {
       "ar": "أُسْرَة",
-      "reason": "Independent audio check rejected extra or incorrect words: مسرح."
+      "reason": "Independent audio check rejected extra or incorrect words: こっそら。"
     }
   },
-  "estimatedGenerationCostUSD": 2.868418,
-  "requests": 4880,
+  "estimatedGenerationCostUSD": 2.872664,
+  "requests": 4886,
   "cards": 5346,
   "verbTrees": 268,
   "brokenPluralPairs": 428
