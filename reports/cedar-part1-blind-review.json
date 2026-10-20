@@ -3,18 +3,18 @@
   "model": "gpt-audio-1.5",
   "method": "Each MP3 is heard as input_audio without expected text; the model reports the actual utterance and audible final sounds before comparison.",
   "total": 790,
-  "reviewed": 700,
-  "finished": false,
+  "reviewed": 790,
+  "finished": true,
   "summary": {
-    "captured": 603,
-    "uncertain": 97
+    "captured": 682,
+    "uncertain": 108
   },
   "issueCounts": {},
-  "requests": 705,
+  "requests": 790,
   "usage": {
-    "prompt_tokens": 199664,
-    "completion_tokens": 57843,
-    "audio_input_tokens": 9964
+    "prompt_tokens": 225245,
+    "completion_tokens": 65417,
+    "audio_input_tokens": 11155
   },
   "limitations": "Automated audio-model judgments, not human listening or phonetic certification. Confidence and uncertainty are preserved. No audio or app content changed.",
   "rows": [
@@ -29721,6 +29721,1153 @@
       }
     },
     {
+      "id": "cv-e3ee456ac246d75561548104",
+      "en": "only; lonely",
+      "ar": "وَحِيد",
+      "file": "cv-e3ee456ac246d75561548104.mp3",
+      "signature": "89d45d9dbd2a644b67ec6420e75090719928acfc9abd4bd4e2354104f311147a",
+      "audioSHA256": "0cb05ac53f8215659023aeb839635601421489125fcb899095b69ebbc6e70d88",
+      "priority": false,
+      "review": {
+        "heard_arabic": "وَحِيدْ",
+        "heard_phonetic": "waḥīd",
+        "word_endings": [
+          {
+            "word_arabic": "وَحِيدْ",
+            "phonetic": "waḥīd",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with a final consonant ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 72,
+        "total_tokens": 354,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 72
+        }
+      }
+    },
+    {
+      "id": "cv-e482363c4c2127f9e5b835c5",
+      "en": "meat",
+      "ar": "لَحْم",
+      "file": "cv-e482363c4c2127f9e5b835c5.mp3",
+      "signature": "3296f13fbe052012b7b8d04dc5bf9cc43919d10a7c8c64c08de0d0c780a50b4c",
+      "audioSHA256": "d444a6a30679b0fe9ff0dd0655f8130884168b8dd1b9f5456499c31354681f25",
+      "priority": false,
+      "review": {
+        "heard_arabic": "لَحْن",
+        "heard_phonetic": "laḥn",
+        "word_endings": [
+          {
+            "word_arabic": "لَحْن",
+            "phonetic": "laḥn",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 64,
+        "total_tokens": 347,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 64
+        }
+      }
+    },
+    {
+      "id": "cv-e4f6d391b1d80d8f3e5a8b5c",
+      "en": "a lot; much",
+      "ar": "كَثيرًا",
+      "file": "cv-e4f6d391b1d80d8f3e5a8b5c.mp3",
+      "signature": "753a20c6cfa455c78cf64876c24fc6396d483889be72b214000dbad5747f0120",
+      "audioSHA256": "b0a6b9b7754a3f8f1920d53492778b5720a39c3eba9a59ff383f523d18289303",
+      "priority": false,
+      "review": {
+        "heard_arabic": "كَثِيرًا",
+        "heard_phonetic": "kathiiran",
+        "word_endings": [
+          {
+            "word_arabic": "كَثِيرًا",
+            "phonetic": "kathiiran",
+            "ending": "an"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word with clear tanween 'an' ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 68,
+        "total_tokens": 352,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 68
+        }
+      }
+    },
+    {
+      "id": "cv-e54fecb8c5db33af2969201c",
+      "en": "work",
+      "ar": "الشُّغْل",
+      "file": "cv-e54fecb8c5db33af2969201c.mp3",
+      "signature": "bbaad275762717aa8b2d849617a3601c5abf57f2065b3d62fa6139e7e40aeacf",
+      "audioSHA256": "927ebeb7b2688f915da88121f4b98325c58f355c3f215c83df957900b24cb690",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَشُغِلُ",
+        "heard_phonetic": "ʔaʃuɣilu",
+        "word_endings": [
+          {
+            "word_arabic": "أَشُغِلُ",
+            "phonetic": "ʔaʃuɣilu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 84,
+        "total_tokens": 367,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 84
+        }
+      }
+    },
+    {
+      "id": "cv-e5d06e976a52c4392533910f",
+      "en": "I teach",
+      "ar": "أُدَرِّسُ",
+      "file": "cv-e5d06e976a52c4392533910f.mp3",
+      "signature": "98723cc5fabf02972899dcc98a23a8e5d1e3d6c68ab36f683b1ce4cb0a2a03bc",
+      "audioSHA256": "4b4df4ecb7632f83b42651d28c6a3f488f0502fd67f7bb806371995d83ade963",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أُدَرِّسُ",
+        "heard_phonetic": "u-darrisu",
+        "word_endings": [
+          {
+            "word_arabic": "أُدَرِّسُ",
+            "phonetic": "u-darrisu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 74,
+        "total_tokens": 358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 74
+        }
+      }
+    },
+    {
+      "id": "cv-e5fda7efcf5fc6e5ae4a1350",
+      "en": "fish (plural)",
+      "ar": "أَسْمَاك",
+      "file": "cv-e5fda7efcf5fc6e5ae4a1350.mp3",
+      "signature": "ab95898855f40530688bbb577cac97670b94affd64e76e42022500018eb903cd",
+      "audioSHA256": "76ddde5f3dbfaf32227c05395601f3ec037002aad82e7e5db129e19c40ed5206",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَسْ مَعَكْ",
+        "heard_phonetic": "ʔas maʕak",
+        "word_endings": [
+          {
+            "word_arabic": "أَسْ",
+            "phonetic": "ʔas",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "مَعَكْ",
+            "phonetic": "maʕak",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": true,
+        "notes": "The phrase is unclear and may be a fragment; endings sound like consonants.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 107,
+        "total_tokens": 392,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 107
+        }
+      }
+    },
+    {
+      "id": "cv-e609a48557f87f5035ba3754",
+      "en": "I am cut off; disconnected",
+      "ar": "أَنْقَطِعُ",
+      "file": "cv-e609a48557f87f5035ba3754.mp3",
+      "signature": "3e756e128fdcc08f68fb094b175faf03d94894874b5c76d6762ac1a15d7fed74",
+      "audioSHA256": "8d5c34751390c6b79f47b59a857b9aeb6b2fe5fbd367213ee728569284d54912",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أهلاً... أَهْ أَهْلَنُ",
+        "heard_phonetic": "ʔahlan... ʔah ʔahlanu",
+        "word_endings": [
+          {
+            "word_arabic": "أهلاً",
+            "phonetic": "ʔahlan",
+            "ending": "an"
+          },
+          {
+            "word_arabic": "أَهْ",
+            "phonetic": "ʔah",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "أَهْلَنُ",
+            "phonetic": "ʔahlanu",
+            "ending": "un"
+          }
+        ],
+        "uncertain": true,
+        "notes": "There is a pause and repetition with some hesitation; the final vowel in the last word sounds like 'un' but not fully clear.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 148,
+        "total_tokens": 429,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 148
+        }
+      }
+    },
+    {
+      "id": "cv-e651a6a2cc88638940664472",
+      "en": "around; about",
+      "ar": "حَوالَيْ",
+      "file": "cv-e651a6a2cc88638940664472.mp3",
+      "signature": "a80a319fb8b98cb6131134f30611e28faf44766869c12cb2638f0b8229f7026d",
+      "audioSHA256": "6b0bf0f7811d96e3619b802458fba01a139b6095b32d49f0fae666cd4075a319",
+      "priority": false,
+      "review": {
+        "heard_arabic": "حَوَالَيْ",
+        "heard_phonetic": "ḥawalay",
+        "word_endings": [
+          {
+            "word_arabic": "حَوَالَيْ",
+            "phonetic": "ḥawalay",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single utterance with a long vowel ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 66,
+        "total_tokens": 347,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 66
+        }
+      }
+    },
+    {
+      "id": "cv-e6b869e3c1393d924723043b",
+      "en": "individual",
+      "ar": "فَرْدة",
+      "file": "cv-e6b869e3c1393d924723043b.mp3",
+      "signature": "f7a15d8f1ba069d4a5e45d12ef330bcafe2101bdd5d67ecc4edeb1dc244fdcd0",
+      "audioSHA256": "c6141ed76d47f9bd87aafc2299050c5e1b2a18071c14dad0439b066abda859ce",
+      "priority": false,
+      "review": {
+        "heard_arabic": "فَرَّرْدَ",
+        "heard_phonetic": "farrarda",
+        "word_endings": [
+          {
+            "word_arabic": "فَرَّرْدَ",
+            "phonetic": "farrarda",
+            "ending": "a"
+          }
+        ],
+        "uncertain": true,
+        "notes": "Single utterance with unclear meaning, final vowel sounded like 'a' but overall pronunciation uncertain.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 80,
+        "total_tokens": 362,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 80
+        }
+      }
+    },
+    {
+      "id": "cv-e6c85750b561183228e4167c",
+      "en": "restaurant",
+      "ar": "مَطاعِم",
+      "file": "cv-e6c85750b561183228e4167c.mp3",
+      "signature": "4bcec35708e7d0cf6488c7085773548dd66e9a5d07d09d2bb3b8c49e803b3778",
+      "audioSHA256": "b3cb94b229d077e35b7119b389e393221ae44b556739f2d95531a15149c26ed1",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مَطاعِمْ",
+        "heard_phonetic": "maṭāʿim",
+        "word_endings": [
+          {
+            "word_arabic": "مَطاعِمْ",
+            "phonetic": "maṭāʿim",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final consonant ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 79,
+        "total_tokens": 366,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 79
+        }
+      }
+    },
+    {
+      "id": "cv-e74bc3f211c474e17ec66293",
+      "en": "I listen to",
+      "ar": "أَسْتَمِعُ",
+      "file": "cv-e74bc3f211c474e17ec66293.mp3",
+      "signature": "35a90ba79976d977e218d1ae683978545d4d391d3808fea63a9bdbc580b2a123",
+      "audioSHA256": "b2dce8ece2154c59c565b11978d90fbeaa972b0550a6a03a957b28258c095e7a",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَسْتَمِعُ",
+        "heard_phonetic": "ʔastamiʕu",
+        "word_endings": [
+          {
+            "word_arabic": "أَسْتَمِعُ",
+            "phonetic": "ʔastamiʕu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 84,
+        "total_tokens": 371,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 84
+        }
+      }
+    },
+    {
+      "id": "cv-e7634227f762c251af3d9ff5",
+      "en": "officer",
+      "ar": "ضَابِطَة",
+      "file": "cv-e7634227f762c251af3d9ff5.mp3",
+      "signature": "e9b256705fca2105c6bf3ba494d3d9ff4d73c2bee6e219907228a883913b4bc7",
+      "audioSHA256": "1404ea8872717093298bb651f0f7f3f192a968c954508e9586e62f5a317f31f0",
+      "priority": false,
+      "review": {
+        "heard_arabic": "بَابِ طَطَ",
+        "heard_phonetic": "baabi ṭaṭa",
+        "word_endings": [
+          {
+            "word_arabic": "بَابِ",
+            "phonetic": "baabi",
+            "ending": "i"
+          },
+          {
+            "word_arabic": "طَطَ",
+            "phonetic": "ṭaṭa",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with distinct final vowels.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 93,
+        "total_tokens": 377,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 93
+        }
+      }
+    },
+    {
+      "id": "cv-e79a6177487322cc7e8ce0b9",
+      "en": "engineering",
+      "ar": "الهَنْدَسَة",
+      "file": "cv-e79a6177487322cc7e8ce0b9.mp3",
+      "signature": "0ee2f2f550c6cce43bd41c6feb4f21e56e4180dfd0568972d2631da0a47f58bf",
+      "audioSHA256": "aa3d474ff46569b76d6ca006c6f8c33559452d94bcd489f5d12947658b024616",
+      "priority": false,
+      "review": {
+        "heard_arabic": "ٱلْهَنْدَسَةُ",
+        "heard_phonetic": "al-handasatu",
+        "word_endings": [
+          {
+            "word_arabic": "ٱلْهَنْدَسَةُ",
+            "phonetic": "al-handasatu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 84,
+        "total_tokens": 370,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 84
+        }
+      }
+    },
+    {
+      "id": "cv-e80532620ad2067f452edbf0",
+      "en": "two years",
+      "ar": "سَنَتانِ",
+      "file": "cv-e80532620ad2067f452edbf0.mp3",
+      "signature": "5a24496f1b3195b2a0d4b668780f487bc368da4296ff1a99cb447dff0b12d846",
+      "audioSHA256": "3a56ac0e02700eb1ac1cf35c1a9147b739c38a1e09f10d2d2ae500b92c19a633",
+      "priority": false,
+      "review": {
+        "heard_arabic": "سَنَةً تَانِي",
+        "heard_phonetic": "sanatan taani",
+        "word_endings": [
+          {
+            "word_arabic": "سَنَةً",
+            "phonetic": "sanatan",
+            "ending": "an"
+          },
+          {
+            "word_arabic": "تَانِي",
+            "phonetic": "taani",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with tanween on the first and a long vowel ending on the second.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 102,
+        "total_tokens": 392,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 19,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 102
+        }
+      }
+    },
+    {
+      "id": "cv-e83842e90dd4523d17da12e5",
+      "en": "Egyptian",
+      "ar": "مِصْرِيّ",
+      "file": "cv-e83842e90dd4523d17da12e5.mp3",
+      "signature": "2094c485dafc9e8da50cd3e89a6bf098d57c68d61c79a77f7f2c51e570b29bc9",
+      "audioSHA256": "c290bd00accbce1dde385dbd9dfacb4f6f220bf41a65bef9fc9457da2b68c26e",
+      "priority": false,
+      "review": {
+        "heard_arabic": "miṣrī",
+        "heard_phonetic": "miṣrī",
+        "word_endings": [
+          {
+            "word_arabic": "miṣrī",
+            "phonetic": "miṣrī",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word with a long vowel ending",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 66,
+        "total_tokens": 349,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 66
+        }
+      }
+    },
+    {
+      "id": "cv-e842b14267a48202a5eff7ce",
+      "en": "subject; topic",
+      "ar": "مَواضيع",
+      "file": "cv-e842b14267a48202a5eff7ce.mp3",
+      "signature": "b4452a2e542e82c4f993de6c99a809b231fc2853136ffa8030f5ac58c1fa5fe6",
+      "audioSHA256": "9e1f53b00ff5736203e82d91506e52cd945c36f58958b3398024bb1ce1c20854",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مَوَاضِعَ",
+        "heard_phonetic": "mawāḍiʿa",
+        "word_endings": [
+          {
+            "word_arabic": "مَوَاضِعَ",
+            "phonetic": "mawāḍiʿa",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly ending with a short 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 85,
+        "total_tokens": 373,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 17,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 85
+        }
+      }
+    },
+    {
+      "id": "cv-e8864dec29db0a62221aa255",
+      "en": "I failed",
+      "ar": "فَشِلْتُ",
+      "file": "cv-e8864dec29db0a62221aa255.mp3",
+      "signature": "37895f596b0a721a740a9cabacbe96af99a09a2e5918bd21bd877d9a55ea85dc",
+      "audioSHA256": "140d659be8c668f5edc0193f69e77b0d740772da86dd3c84b9aa32e15d8b8606",
+      "priority": false,
+      "review": {
+        "heard_arabic": "فَشِلْتُ",
+        "heard_phonetic": "fa-shil-tu",
+        "word_endings": [
+          {
+            "word_arabic": "فَشِلْتُ",
+            "phonetic": "fa-shil-tu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 280,
+        "completion_tokens": 74,
+        "total_tokens": 354,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 74
+        }
+      }
+    },
+    {
+      "id": "cv-e8acd9f2ac990ab2dfc36b30",
+      "en": "hot",
+      "ar": "حارّة",
+      "file": "cv-e8acd9f2ac990ab2dfc36b30.mp3",
+      "signature": "55e16c86cda54de9abbbb839bd042b11df2d5d8330eeb4f61a4af9c38959bd8d",
+      "audioSHA256": "000e8c8353ebc6fc903c7c0a547813cfe36577079aa87651d557e853f8ac52fe",
+      "priority": false,
+      "review": {
+        "heard_arabic": "حارَ",
+        "heard_phonetic": "ḥāra",
+        "word_endings": [
+          {
+            "word_arabic": "حارَ",
+            "phonetic": "ḥāra",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 64,
+        "total_tokens": 348,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 64
+        }
+      }
+    },
+    {
+      "id": "cv-e8cc383b9138e57d8aed49da",
+      "en": "beliefs; suppositions",
+      "ar": "ظُنُون",
+      "file": "cv-e8cc383b9138e57d8aed49da.mp3",
+      "signature": "01f811e1548bf1d23682d8308b377d6485ab571d93c0aa78daf9d7570cb47a63",
+      "audioSHA256": "060fdfb218f4e73b179568f76b3ee0ec86c2659b0ccbf4dfa7533f1b1f67c993",
+      "priority": false,
+      "review": {
+        "heard_arabic": "زُنُونْ",
+        "heard_phonetic": "zunūn",
+        "word_endings": [
+          {
+            "word_arabic": "زُنُونْ",
+            "phonetic": "zunūn",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word heard clearly with a final consonant sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 70,
+        "total_tokens": 355,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 70
+        }
+      }
+    },
+    {
+      "id": "cv-e8dd17e5829fbd6c8be718f3",
+      "en": "accident",
+      "ar": "حَوادِث",
+      "file": "cv-e8dd17e5829fbd6c8be718f3.mp3",
+      "signature": "2817e1d543219341bd3128ddadf3e18bd6a05382e59a86b1fc1d8ff40ae15a51",
+      "audioSHA256": "c5c08fbc380ad15d542fd3b8980743d1d44239638ddef3db35502898b7c66c08",
+      "priority": false,
+      "review": {
+        "heard_arabic": "حَوادِثْ",
+        "heard_phonetic": "ḥawādith",
+        "word_endings": [
+          {
+            "word_arabic": "حَوادِثْ",
+            "phonetic": "ḥawādith",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with a final consonant sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 74,
+        "total_tokens": 358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 74
+        }
+      }
+    },
+    {
+      "id": "cv-e8df598f33af78726c61e347",
+      "en": "degree",
+      "ar": "دَرَجة",
+      "file": "cv-e8df598f33af78726c61e347.mp3",
+      "signature": "e926a702c71e57d3bb81436aa886e52a994d79af8d196d9378b7aca0147ef2a3",
+      "audioSHA256": "75f95f18f336a70628064f6045e3a1527f45ca78bef47af1616358770a879ecb",
+      "priority": false,
+      "review": {
+        "heard_arabic": "دَعَا",
+        "heard_phonetic": "daʕā",
+        "word_endings": [
+          {
+            "word_arabic": "دَعَا",
+            "phonetic": "daʕā",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word with a long final vowel heard clearly.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 280,
+        "completion_tokens": 67,
+        "total_tokens": 347,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 67
+        }
+      }
+    },
+    {
+      "id": "cv-e8fb1a85393567c1f176f9e1",
+      "en": "coming; next",
+      "ar": "قادِمة",
+      "file": "cv-e8fb1a85393567c1f176f9e1.mp3",
+      "signature": "41d0a8784d7b427c2e392de6b1b05586b02e3d830772f47f29f4471070937a18",
+      "audioSHA256": "90b972421fc3488966323c1c64c3b3eb4046ac520c5edf9f5a77a3730060bef5",
+      "priority": false,
+      "review": {
+        "heard_arabic": "قَادِمَ",
+        "heard_phonetic": "qaadima",
+        "word_endings": [
+          {
+            "word_arabic": "قَادِمَ",
+            "phonetic": "qaadima",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 70,
+        "total_tokens": 351,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 70
+        }
+      }
+    },
+    {
+      "id": "cv-e9b27ac56363ac77d5f402da",
+      "en": "two years",
+      "ar": "سَنَتانِ / سَنَتَيْنِ",
+      "file": "cv-e9b27ac56363ac77d5f402da.mp3",
+      "signature": "191934983ed29cd30f42f9ba1dd8d17821321c44397d70f852beedadace42b92",
+      "audioSHA256": "1169512980e53caeeab3be5e4ba0100eaa4e6d268a698cf62fa9a2325ddbb549",
+      "priority": false,
+      "review": {
+        "heard_arabic": "سَنَتَعَلَّمُ سَنَتَعَلَّمُ",
+        "heard_phonetic": "sanataʿallamu sanataʿallamu",
+        "word_endings": [
+          {
+            "word_arabic": "سَنَتَعَلَّمُ",
+            "phonetic": "sanataʿallamu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "سَنَتَعَلَّمُ",
+            "phonetic": "sanataʿallamu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "The phrase was repeated twice with clear final 'u' endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 291,
+        "completion_tokens": 128,
+        "total_tokens": 419,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 20,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 128
+        }
+      }
+    },
+    {
+      "id": "cv-e9e05330bdcb1c9d9f0be735",
+      "en": "I said",
+      "ar": "قُلْتُ",
+      "file": "cv-e9e05330bdcb1c9d9f0be735.mp3",
+      "signature": "c314cd233ff7aa6178ccc0b7f8a91dfa48f953f55ba8e44f7834a9bba4a6d7ff",
+      "audioSHA256": "23966231a8951057446dc4d09370b0a2f5832f7aa7462dee743ebee41973bfd3",
+      "priority": false,
+      "review": {
+        "heard_arabic": "كُنتُ",
+        "heard_phonetic": "kuntu",
+        "word_endings": [
+          {
+            "word_arabic": "كُنتُ",
+            "phonetic": "kuntu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 64,
+        "total_tokens": 345,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 64
+        }
+      }
+    },
+    {
+      "id": "cv-ea3855d6e85602cb7df87bbf",
+      "en": "magazine; journal",
+      "ar": "مَجَلَّة",
+      "file": "cv-ea3855d6e85602cb7df87bbf.mp3",
+      "signature": "4d7adbcdec908a0f76b4bf103c2538805880b081ef3f72c71d8724c5593b4b4b",
+      "audioSHA256": "ee5ef63c53a695767c3619d084a0a088deee7dd94e7770c21c1d1ed70db500a3",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مَجَلَّةٌ",
+        "heard_phonetic": "majallatun",
+        "word_endings": [
+          {
+            "word_arabic": "مَجَلَّةٌ",
+            "phonetic": "majallatun",
+            "ending": "un"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with tanween 'un' at the end.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 75,
+        "total_tokens": 356,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 75
+        }
+      }
+    },
+    {
+      "id": "cv-ea9784a53faa437c26bbe6ac",
+      "en": "opinion about",
+      "ar": "رَأْي في",
+      "file": "cv-ea9784a53faa437c26bbe6ac.mp3",
+      "signature": "dada726bae17ed0c87b659f83829063433a4d72fd288e010f0d523acc129fd98",
+      "audioSHA256": "e8e012d44745b1738d159fdec39b45c113e2dfd40d2f44d10622c91e2dcf1140",
+      "priority": false,
+      "review": {
+        "heard_arabic": "رَحْ يِفِي",
+        "heard_phonetic": "raḥ yifi",
+        "word_endings": [
+          {
+            "word_arabic": "رَحْ",
+            "phonetic": "raḥ",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "يِفِي",
+            "phonetic": "yifi",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words heard clearly, with the second ending in a long vowel sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 98,
+        "total_tokens": 386,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 17,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 98
+        }
+      }
+    },
+    {
+      "id": "cv-eab6214dec38c93addebd5b1",
+      "en": "works; jobs",
+      "ar": "أَعْمَال / أَشْغَال",
+      "file": "cv-eab6214dec38c93addebd5b1.mp3",
+      "signature": "0d23644f52d84e86fa7620d169683354ce6a15caca203fac5809b5662ba66f29",
+      "audioSHA256": "7b44b3d17707b0b2677ceede301cf80c8cf08e3f53493c28dc4f2809dd270d71",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أعمالْ أشغالْ",
+        "heard_phonetic": "ʔaʕmaal ʔaʃɣaal",
+        "word_endings": [
+          {
+            "word_arabic": "أعمالْ",
+            "phonetic": "ʔaʕmaal",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "أشغالْ",
+            "phonetic": "ʔaʃɣaal",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words spoken clearly, both ending in a consonant sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 293,
+        "completion_tokens": 114,
+        "total_tokens": 407,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 22,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 114
+        }
+      }
+    },
+    {
       "id": "cv-eacadda043abf62c9869b209",
       "en": "husband",
       "ar": "زَوْجَات",
@@ -29762,6 +30909,605 @@
       }
     },
     {
+      "id": "cv-eae062a9e3b0303606a25cd8",
+      "en": "I am still",
+      "ar": "ما زِلْتُ",
+      "file": "cv-eae062a9e3b0303606a25cd8.mp3",
+      "signature": "e9f9afdb97c49ae1e792e684c20f05f27f1bcefa0e98da882fcc206676c62327",
+      "audioSHA256": "389ad4ed054018be0b011b0ca2c057b72bb16f96961ce609bc3d595bcf62d2b9",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مَا زِنْتُ",
+        "heard_phonetic": "mā zintu",
+        "word_endings": [
+          {
+            "word_arabic": "مَا",
+            "phonetic": "mā",
+            "ending": "long_vowel"
+          },
+          {
+            "word_arabic": "زِنْتُ",
+            "phonetic": "zintu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 87,
+        "total_tokens": 369,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 87
+        }
+      }
+    },
+    {
+      "id": "cv-eb556675da9c2d1b49d8cdae",
+      "en": "saddening; distressing",
+      "ar": "مُحْزِنة",
+      "file": "cv-eb556675da9c2d1b49d8cdae.mp3",
+      "signature": "10d239afb1a82aaf60b98cd8248fbd1894ec9bb2621239692a35b81b8e78f80f",
+      "audioSHA256": "81b8d41e8af210d29f6491d5fa2fda6b4721c14cb68202c59559d056193a25c4",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُحْزِنَة",
+        "heard_phonetic": "muḥzinah",
+        "word_endings": [
+          {
+            "word_arabic": "مُحْزِنَة",
+            "phonetic": "muḥzinah",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 76,
+        "total_tokens": 358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 76
+        }
+      }
+    },
+    {
+      "id": "cv-ec3e8e305d83876c69fef8b9",
+      "en": "reasons; causes",
+      "ar": "أَسْبَاب",
+      "file": "cv-ec3e8e305d83876c69fef8b9.mp3",
+      "signature": "f8f917db939a4f65f49e58cc547069ce705b28b9d49e2cdc0e47bdd521ffaa41",
+      "audioSHA256": "04df89414298b155c180d90904a650b477d07aae64b12b0b8e0266b8902f4e9f",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَسْ بابْ",
+        "heard_phonetic": "as bab",
+        "word_endings": [
+          {
+            "word_arabic": "أَسْ",
+            "phonetic": "as",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "بابْ",
+            "phonetic": "bab",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": true,
+        "notes": "The first segment 'أَسْ' may be a partial word or false start. The endings are consonant sounds, and the overall phrase is unclear.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 294,
+        "completion_tokens": 107,
+        "total_tokens": 401,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 23,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 107
+        }
+      }
+    },
+    {
+      "id": "cv-ed0281048e1e3c6e8d6e8164",
+      "en": "several",
+      "ar": "عِدَّة",
+      "file": "cv-ed0281048e1e3c6e8d6e8164.mp3",
+      "signature": "3cb3b70d6b36c233bbe34774ef15448f64b9c5a2b7df7a37202fa42979822d42",
+      "audioSHA256": "e439447349d595006f68fc55040e121b9b94c66f211711c89a2e85cdd25566de",
+      "priority": false,
+      "review": {
+        "heard_arabic": "عِدَّ",
+        "heard_phonetic": "ʿidda",
+        "word_endings": [
+          {
+            "word_arabic": "عِدَّ",
+            "phonetic": "ʿidda",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word with a clear final 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 66,
+        "total_tokens": 351,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 66
+        }
+      }
+    },
+    {
+      "id": "cv-ed2a2490a9ef36684cb5be35",
+      "en": "night",
+      "ar": "لَيالٍ",
+      "file": "cv-ed2a2490a9ef36684cb5be35.mp3",
+      "signature": "f3b2fc67e25d63a3d135017af90844791ea7f21501e2e923104df44d96f14a0f",
+      "audioSHA256": "8b57da82ef3510d2566527fddb35b11aabde5a125b00edd4a15f74d5e22a080f",
+      "priority": false,
+      "review": {
+        "heard_arabic": "لَيالٍ",
+        "heard_phonetic": "layālin",
+        "word_endings": [
+          {
+            "word_arabic": "لَيالٍ",
+            "phonetic": "layālin",
+            "ending": "in"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'in' ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 280,
+        "completion_tokens": 66,
+        "total_tokens": 346,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 66
+        }
+      }
+    },
+    {
+      "id": "cv-ed6dbc20ba0cd08f5bbb8f32",
+      "en": "I talk / speak about",
+      "ar": "أَتَكَلَّمُ عَنْ",
+      "file": "cv-ed6dbc20ba0cd08f5bbb8f32.mp3",
+      "signature": "b144358636ee223b853d20716adde9eadcd76a7d673535007208feadf08a7ddf",
+      "audioSHA256": "657a62b81f5794e0fead569fcc7f2362b7d9dc617e0d254af3e8c3d3c871871c",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَتَكَلَّمُ عَنْ",
+        "heard_phonetic": "atakallamu ʿan",
+        "word_endings": [
+          {
+            "word_arabic": "أَتَكَلَّمُ",
+            "phonetic": "atakallamu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "عَنْ",
+            "phonetic": "ʿan",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Clear pronunciation of two words with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 101,
+        "total_tokens": 382,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 101
+        }
+      }
+    },
+    {
+      "id": "cv-ed898a563006a0d2f029a6e5",
+      "en": "I could / was able",
+      "ar": "اِسْتَطَعْتُ",
+      "file": "cv-ed898a563006a0d2f029a6e5.mp3",
+      "signature": "11de9763e5f704286d43c4e5f4c996ba95618da4f4b32a7ec397bcc61b46d16e",
+      "audioSHA256": "fad43307057284eea5ffaf836260ca15b1559ca6c6b38dcad447de1d6e6888b4",
+      "priority": false,
+      "review": {
+        "heard_arabic": "إِسْتَطَعْتُ",
+        "heard_phonetic": "istataʿtu",
+        "word_endings": [
+          {
+            "word_arabic": "إِسْتَطَعْتُ",
+            "phonetic": "istataʿtu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 84,
+        "total_tokens": 372,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 17,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 84
+        }
+      }
+    },
+    {
+      "id": "cv-edb4599bfb24eef48a343491",
+      "en": "scholarship; grant",
+      "ar": "مِنْحَة",
+      "file": "cv-edb4599bfb24eef48a343491.mp3",
+      "signature": "ef032f3cf3f831b77db7f58aeb46fc2b9ed720ff8951bd9e9daab5485805a18c",
+      "audioSHA256": "ab7fa1237f1c1b294b985dad4f3e9f3f0a1eeb30a19dff792f7c0d505e3936b5",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مِنْحَ",
+        "heard_phonetic": "minḥa",
+        "word_endings": [
+          {
+            "word_arabic": "مِنْحَ",
+            "phonetic": "minḥa",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 68,
+        "total_tokens": 350,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 68
+        }
+      }
+    },
+    {
+      "id": "cv-edc450ad23af8d994ecdca46",
+      "en": "acquaintances",
+      "ar": "مَعَارِف",
+      "file": "cv-edc450ad23af8d994ecdca46.mp3",
+      "signature": "14f29db15e1411e16692dd47073538c977b278a1a2c6de884a93774b6e65a8e5",
+      "audioSHA256": "68a1b5a136e22a25e261b8b246e289c5a45c71477ad65b5b9531004e6de7f3dd",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مَعارِفْ",
+        "heard_phonetic": "maʕaːrif",
+        "word_endings": [
+          {
+            "word_arabic": "مَعارِفْ",
+            "phonetic": "maʕaːrif",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final consonant ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 79,
+        "total_tokens": 361,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 79
+        }
+      }
+    },
+    {
+      "id": "cv-ee5b3b611a761c503f20cbb8",
+      "en": "father",
+      "ar": "وَالِد",
+      "file": "cv-ee5b3b611a761c503f20cbb8.mp3",
+      "signature": "0ba82853ae2018a838a5cfa2163f1d32532d63ccbfe65d2de5fd08729c9f6b5b",
+      "audioSHA256": "096324e739a68f8223bf6bc18c44468aac857043e8509a7010d52aff2c1f86c6",
+      "priority": false,
+      "review": {
+        "heard_arabic": "وَنِدْ",
+        "heard_phonetic": "wa-nid",
+        "word_endings": [
+          {
+            "word_arabic": "وَ",
+            "phonetic": "wa",
+            "ending": "a"
+          },
+          {
+            "word_arabic": "نِدْ",
+            "phonetic": "nid",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": true,
+        "notes": "The utterance is very short and unclear, possibly a partial phrase or false start.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 279,
+        "completion_tokens": 90,
+        "total_tokens": 369,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 8,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 90
+        }
+      }
+    },
+    {
+      "id": "cv-eea8a7f6dbe965cb339844e0",
+      "en": "weather; atmosphere",
+      "ar": "الجَوّ",
+      "file": "cv-eea8a7f6dbe965cb339844e0.mp3",
+      "signature": "89e0c704df647356adfbdf2bf046b3adb01380102a6ad5329de084350ad734ef",
+      "audioSHA256": "3b150bf09ec31e9f19fa3a02fdea24b9415ee6f8958b08fdcf1437e593f5e320",
+      "priority": false,
+      "review": {
+        "heard_arabic": "ٱلْجَوُّ",
+        "heard_phonetic": "al-jawwu",
+        "word_endings": [
+          {
+            "word_arabic": "ٱلْجَوُّ",
+            "phonetic": "al-jawwu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final -u sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 75,
+        "total_tokens": 360,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 75
+        }
+      }
+    },
+    {
+      "id": "cv-ef0293d221c9465f20b43293",
+      "en": "translator",
+      "ar": "مُتَرْجِم",
+      "file": "cv-ef0293d221c9465f20b43293.mp3",
+      "signature": "f9016e8bc058228c06a187b2b402f7da2b8dbef9e71c46eff1a3b003e98329bc",
+      "audioSHA256": "a8b3aa8313f7dc1a7d80507a30c99144dd1cf955248d6aff7e16e25cb090481c",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُتَرْجِمْ",
+        "heard_phonetic": "mutarjim",
+        "word_endings": [
+          {
+            "word_arabic": "مُتَرْجِمْ",
+            "phonetic": "mutarjim",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final consonant ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 77,
+        "total_tokens": 358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 77
+        }
+      }
+    },
+    {
+      "id": "cv-ef64c3c1f63eddfa79d00f7c",
+      "en": "program",
+      "ar": "بَرامِج",
+      "file": "cv-ef64c3c1f63eddfa79d00f7c.mp3",
+      "signature": "7d1fea95f5b45080044a26d572a4c6af182c587436a6ca3f65d96c71f728cec0",
+      "audioSHA256": "46e39f2b03f8b2ccf7bc2146905a9b8bf7df3685eb15d88c1413a2521a684748",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مَرْحَبًا",
+        "heard_phonetic": "marḥaban",
+        "word_endings": [
+          {
+            "word_arabic": "مَرْحَبًا",
+            "phonetic": "marḥaban",
+            "ending": "an"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word 'marḥaban' clearly heard with tanween 'an' ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 76,
+        "total_tokens": 357,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 76
+        }
+      }
+    },
+    {
+      "id": "cv-ef68451f772c2fe3a0bf03a3",
+      "en": "I came to",
+      "ar": "جِئْتُ إِلَى",
+      "file": "cv-ef68451f772c2fe3a0bf03a3.mp3",
+      "signature": "da7925d73f6c005819787bfc3e058bdc024a489f965f71e7bb9b2efb38174641",
+      "audioSHA256": "8323abd3f429fed3b18e765b5fa655813a328a875cb3faaf4b85f4eaf3b103d2",
+      "priority": false,
+      "review": {
+        "heard_arabic": "جِئْتُ إِلَى",
+        "heard_phonetic": "jiʔtu ʔilā",
+        "word_endings": [
+          {
+            "word_arabic": "جِئْتُ",
+            "phonetic": "jiʔtu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "إِلَى",
+            "phonetic": "ʔilā",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly spoken with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 100,
+        "total_tokens": 387,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 100
+        }
+      }
+    },
+    {
       "id": "cv-efdc450b8c1e54e108462258",
       "en": "husband",
       "ar": "زَوْجَة",
@@ -29799,6 +31545,2130 @@
           "accepted_prediction_tokens": 0,
           "rejected_prediction_tokens": 0,
           "text_tokens": 76
+        }
+      }
+    },
+    {
+      "id": "cv-f00ee4346ba0c74eb00e64fc",
+      "en": "I succeeded; passed",
+      "ar": "نَجَحْتُ فِي",
+      "file": "cv-f00ee4346ba0c74eb00e64fc.mp3",
+      "signature": "20fa11bba48f7805224df199b899bde962957ab7cdc0ef5539e2425d37920fe5",
+      "audioSHA256": "38b4ff4cb9a42576017f797a88a244dad7d53c5174cea69b16a5b353413d168a",
+      "priority": false,
+      "review": {
+        "heard_arabic": "نَجَحْتُ فِي",
+        "heard_phonetic": "najaḥtu fī",
+        "word_endings": [
+          {
+            "word_arabic": "نَجَحْتُ",
+            "phonetic": "najaḥtu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "فِي",
+            "phonetic": "fī",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 97,
+        "total_tokens": 384,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 97
+        }
+      }
+    },
+    {
+      "id": "cv-f01675758fd195d2203ec6a0",
+      "en": "specialist in",
+      "ar": "مُتَخَصِّصَة فِي",
+      "file": "cv-f01675758fd195d2203ec6a0.mp3",
+      "signature": "906e761c328b039070cbcd99b139491ed8de7029e4f28d988ef004b504121ab2",
+      "audioSHA256": "94e67966c90b1e5a1c97534cb212b633d27eb7431bef279e7a575ccdfcc13abe",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُتَحَسِّسَةٌ فِي",
+        "heard_phonetic": "mutahassisatun fi",
+        "word_endings": [
+          {
+            "word_arabic": "مُتَحَسِّسَةٌ",
+            "phonetic": "mutahassisatun",
+            "ending": "un"
+          },
+          {
+            "word_arabic": "فِي",
+            "phonetic": "fi",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 293,
+        "completion_tokens": 105,
+        "total_tokens": 398,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 22,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 105
+        }
+      }
+    },
+    {
+      "id": "cv-f0bce98e88de0eb9870b0953",
+      "en": "United Nations",
+      "ar": "الأُمَم المُتَّحِدَة",
+      "file": "cv-f0bce98e88de0eb9870b0953.mp3",
+      "signature": "3daa6906698c9141fe8d3c32409a1ed33dd702f8635855f9b713fa1961c8d29b",
+      "audioSHA256": "64ab9ed56ef568779b52aab069d7701e8aaaf659780076e7f0fd0c30a03dba6e",
+      "priority": false,
+      "review": {
+        "heard_arabic": "السلامُ عليكمْ",
+        "heard_phonetic": "as-salāmu ʿalaykum",
+        "word_endings": [
+          {
+            "word_arabic": "السلامُ",
+            "phonetic": "as-salāmu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "عليكمْ",
+            "phonetic": "ʿalaykum",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Simple greeting with clear endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 92,
+        "total_tokens": 377,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 92
+        }
+      }
+    },
+    {
+      "id": "cv-f143cbe3e66f1f85c231d9b4",
+      "en": "officer",
+      "ar": "ضَابِطَات",
+      "file": "cv-f143cbe3e66f1f85c231d9b4.mp3",
+      "signature": "1bff87ad9f6c48831126f6d22b9c30ee4bbaff4fef33adc600b71b3ba3b456ac",
+      "audioSHA256": "50499dcc68b8f702ae1f980b5066c22f58a04bd31df588cec2b9bd7554e56359",
+      "priority": false,
+      "review": {
+        "heard_arabic": "بَا بِ طَا طَ",
+        "heard_phonetic": "bā bi ṭā ṭa",
+        "word_endings": [
+          {
+            "word_arabic": "بَا",
+            "phonetic": "bā",
+            "ending": "long_vowel"
+          },
+          {
+            "word_arabic": "بِ",
+            "phonetic": "bi",
+            "ending": "i"
+          },
+          {
+            "word_arabic": "طَا",
+            "phonetic": "ṭā",
+            "ending": "long_vowel"
+          },
+          {
+            "word_arabic": "طَ",
+            "phonetic": "ṭa",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Clear pronunciation of four syllables with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 128,
+        "total_tokens": 411,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 128
+        }
+      }
+    },
+    {
+      "id": "cv-f14490366ffb3a39729de238",
+      "en": "also",
+      "ar": "أَيْضًا",
+      "file": "cv-f14490366ffb3a39729de238.mp3",
+      "signature": "1069ea9c1e9df2dfc3f177f3e1d0e522a398701a634479126cc9280c6ac576b8",
+      "audioSHA256": "82103be2c2234048f2ba8f31657d23ad50a7d58049f32e15a6f2a50e349b8453",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَيُّبٌ",
+        "heard_phonetic": "ʾayyubun",
+        "word_endings": [
+          {
+            "word_arabic": "أَيُّبٌ",
+            "phonetic": "ʾayyubun",
+            "ending": "un"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final -un tanween.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 74,
+        "total_tokens": 356,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 74
+        }
+      }
+    },
+    {
+      "id": "cv-f167bf890de200c924c9878e",
+      "en": "I encourage someone to",
+      "ar": "أُشَجِّعُ",
+      "file": "cv-f167bf890de200c924c9878e.mp3",
+      "signature": "1634e569fcdf2a367ada8738d8d23472971bce756a0cda5de5c6d70b7e28c744",
+      "audioSHA256": "ed9a28baabb3c088737d5b526d6f918aef1a63e1820126c771900898ed8e460d",
+      "priority": false,
+      "review": {
+        "heard_arabic": "وَشَجَّعُ",
+        "heard_phonetic": "wa shajjaʿu",
+        "word_endings": [
+          {
+            "word_arabic": "وَ",
+            "phonetic": "wa",
+            "ending": "a"
+          },
+          {
+            "word_arabic": "شَجَّعُ",
+            "phonetic": "shajjaʿu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words heard clearly with distinct final vowels.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 92,
+        "total_tokens": 373,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 92
+        }
+      }
+    },
+    {
+      "id": "cv-f176b0142892dd8db4c25c57",
+      "en": "comparative",
+      "ar": "مُقارَن",
+      "file": "cv-f176b0142892dd8db4c25c57.mp3",
+      "signature": "106f04fed9357189a9093bfc8a0632d79b8bf79e32a0454646e1ab601bf5aeb1",
+      "audioSHA256": "74761d3f4c4165d75234bfe6148ad21b92b08bab2189442e79f05666aaa8aa37",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُقارَن",
+        "heard_phonetic": "muqāran",
+        "word_endings": [
+          {
+            "word_arabic": "مُقارَن",
+            "phonetic": "muqāran",
+            "ending": "an"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word with clear tanween 'an' ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 68,
+        "total_tokens": 355,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 68
+        }
+      }
+    },
+    {
+      "id": "cv-f1b1be673cdb6b435cc0602c",
+      "en": "reading",
+      "ar": "قِرَاءَة",
+      "file": "cv-f1b1be673cdb6b435cc0602c.mp3",
+      "signature": "8b7b8d0c7bf57e963882ee026c988eb2c7547e4c714c243a027d072f96ba969c",
+      "audioSHA256": "84a2142dff76d31cc8f926a44ab81e9555ab3c683d1ecb0490083080ab0eaa2c",
+      "priority": false,
+      "review": {
+        "heard_arabic": "كِرا أَ",
+        "heard_phonetic": "kira a",
+        "word_endings": [
+          {
+            "word_arabic": "كِرا",
+            "phonetic": "kira",
+            "ending": "a"
+          },
+          {
+            "word_arabic": "أَ",
+            "phonetic": "a",
+            "ending": "a"
+          }
+        ],
+        "uncertain": true,
+        "notes": "Two short utterances with a pause; unclear context and pronunciation.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 84,
+        "total_tokens": 367,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 84
+        }
+      }
+    },
+    {
+      "id": "cv-f24ea478d29dd08d1abffcd4",
+      "en": "age",
+      "ar": "عُمْر",
+      "file": "cv-f24ea478d29dd08d1abffcd4.mp3",
+      "signature": "9ec4641efc49fb99383169cfb4390675a8f078be2f4adf7bb970da9eda070261",
+      "audioSHA256": "ed1439cf50f87bf61a3ced44174fbbf43e43c456ad310fcceef507dcdc74bad5",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أهْمَ",
+        "heard_phonetic": "ahma",
+        "word_endings": [
+          {
+            "word_arabic": "أهْمَ",
+            "phonetic": "ahma",
+            "ending": "a"
+          }
+        ],
+        "uncertain": true,
+        "notes": "Only a single utterance was heard, unclear pronunciation and context.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 276,
+        "completion_tokens": 66,
+        "total_tokens": 342,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 5,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 66
+        }
+      }
+    },
+    {
+      "id": "cv-f338ad5e1683f7306e37429b",
+      "en": "congratulations!",
+      "ar": "مَبْرُوك!",
+      "file": "cv-f338ad5e1683f7306e37429b.mp3",
+      "signature": "84b134d02c8c395d73174872c5a06de9f86e797d760daa9f2543c662340fc41e",
+      "audioSHA256": "a5767eb278b23c72456ccd483c0ed6ba5241683ff7d9578b851b0c649c57fe41",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مَبْرُوكْ",
+        "heard_phonetic": "mabruuk",
+        "word_endings": [
+          {
+            "word_arabic": "مَبْرُوكْ",
+            "phonetic": "mabruuk",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with a final consonant stop.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 76,
+        "total_tokens": 359,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 76
+        }
+      }
+    },
+    {
+      "id": "cv-f35631f29814ddf0ad3827a4",
+      "en": "country",
+      "ar": "بَلَد",
+      "file": "cv-f35631f29814ddf0ad3827a4.mp3",
+      "signature": "3ab877897b6a11b56c17859b8b61000e8fda53dcd8d9d41abdea7ed7b60cb00c",
+      "audioSHA256": "fd9cda7f4aead3884cdfd3dc593240ae894014319b8612897aa0a25ae80bc1fb",
+      "priority": false,
+      "review": {
+        "heard_arabic": "بَنَفْ",
+        "heard_phonetic": "banaf",
+        "word_endings": [
+          {
+            "word_arabic": "بَنَفْ",
+            "phonetic": "banaf",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": true,
+        "notes": "The utterance is short and unclear, sounds like a partial word ending in a consonant.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 276,
+        "completion_tokens": 76,
+        "total_tokens": 352,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 5,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 76
+        }
+      }
+    },
+    {
+      "id": "cv-f378320cf6cdd6a3e0290282",
+      "en": "opinions",
+      "ar": "آرَاء",
+      "file": "cv-f378320cf6cdd6a3e0290282.mp3",
+      "signature": "056e96310ecaa38bf693622159a27bc9062daa9dd0bdac01d5883bb155cc50b0",
+      "audioSHA256": "75b820f6fba81c968f33d4a7d32b1647c776ce22aac198c57dd799b9749cf2af",
+      "priority": false,
+      "review": {
+        "heard_arabic": "آرَ",
+        "heard_phonetic": "ʔāra",
+        "word_endings": [
+          {
+            "word_arabic": "آرَ",
+            "phonetic": "ʔāra",
+            "ending": "a"
+          }
+        ],
+        "uncertain": true,
+        "notes": "Single utterance with a final 'a' sound, unclear context.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 69,
+        "total_tokens": 356,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 69
+        }
+      }
+    },
+    {
+      "id": "cv-f417b78019fd12a78cbff47a",
+      "en": "I can; it is possible for me",
+      "ar": "يُمْكِنُني أَنْ",
+      "file": "cv-f417b78019fd12a78cbff47a.mp3",
+      "signature": "80c0d51dc302e351de426af367d1124e961ea05f6b637b4e865f719f8b7636b5",
+      "audioSHA256": "41c852a1c46becd432139a881591938de8eddca45b5967f215bd8ad2f9e59995",
+      "priority": false,
+      "review": {
+        "heard_arabic": "يُوكِيُونِي",
+        "heard_phonetic": "yūkiyūnī",
+        "word_endings": [
+          {
+            "word_arabic": "يُوكِيُونِي",
+            "phonetic": "yūkiyūnī",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": true,
+        "notes": "Single utterance with elongated vowels; pronunciation unclear.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 291,
+        "completion_tokens": 79,
+        "total_tokens": 370,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 20,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 79
+        }
+      }
+    },
+    {
+      "id": "cv-f41e819eae9de6e7a73ef4f8",
+      "en": "past; last",
+      "ar": "الماضي",
+      "file": "cv-f41e819eae9de6e7a73ef4f8.mp3",
+      "signature": "790b2c19c8e462cd3b78086ce98b7982b4557bfbfbb24fb1fc76166b86612e51",
+      "audioSHA256": "0d978bda1246c6eef657049a16934f40f2946325b99a0d94b050e664cb9d681e",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَن ماضِي",
+        "heard_phonetic": "ʔan maːḍi",
+        "word_endings": [
+          {
+            "word_arabic": "أَن",
+            "phonetic": "ʔan",
+            "ending": "n"
+          },
+          {
+            "word_arabic": "ماضِي",
+            "phonetic": "maːḍi",
+            "ending": "i"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with final 'n' and 'i' endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 98,
+        "total_tokens": 380,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 98
+        }
+      }
+    },
+    {
+      "id": "cv-f49d8398c9121bb71f160dc6",
+      "en": "wishing; desire",
+      "ar": "رَغْبَة",
+      "file": "cv-f49d8398c9121bb71f160dc6.mp3",
+      "signature": "983c7ba33afe3203d072f69d3f151e355d1f8967a08f9d378404a6ea8d884dac",
+      "audioSHA256": "e172449ecd5216a8e8446e092810f343d8664afb7a8c01638a4108ae52f306dc",
+      "priority": false,
+      "review": {
+        "heard_arabic": "رَغْدَ",
+        "heard_phonetic": "raghda",
+        "word_endings": [
+          {
+            "word_arabic": "رَغْدَ",
+            "phonetic": "raghda",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly ending with 'a' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 69,
+        "total_tokens": 351,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 69
+        }
+      }
+    },
+    {
+      "id": "cv-f4e631846a21879cb7201dca",
+      "en": "economics; economy",
+      "ar": "الاِقْتِصاد",
+      "file": "cv-f4e631846a21879cb7201dca.mp3",
+      "signature": "d0577d6c26d065c8d173b2d984f62747a0b81e81da1fc7d792497ff88ed080ba",
+      "audioSHA256": "5e9b1dd78f97b14879f710c3f62f2162ac900396d4dc23ded95dbbdb86b13325",
+      "priority": false,
+      "review": {
+        "heard_arabic": "اَلْاِقْتِصَادُ",
+        "heard_phonetic": "al-iqtiṣādu",
+        "word_endings": [
+          {
+            "word_arabic": "اَلْاِقْتِصَادُ",
+            "phonetic": "al-iqtiṣādu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 92,
+        "total_tokens": 377,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 92
+        }
+      }
+    },
+    {
+      "id": "cv-f51e13211486eae474afa062",
+      "en": "I succeeded",
+      "ar": "نَجَحْتُ",
+      "file": "cv-f51e13211486eae474afa062.mp3",
+      "signature": "d86ab0dfb99019e0122608973c0e244f681f938f0e9c3f7a404558456702ae62",
+      "audioSHA256": "c955b303e2b85aec0b2b6217f9cbba87042f8bb74e0353bce9f59c1eaca0c8e1",
+      "priority": false,
+      "review": {
+        "heard_arabic": "نَجَحْتُ",
+        "heard_phonetic": "najaḥtu",
+        "word_endings": [
+          {
+            "word_arabic": "نَجَحْتُ",
+            "phonetic": "najaḥtu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 76,
+        "total_tokens": 357,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 76
+        }
+      }
+    },
+    {
+      "id": "cv-f582eb6bcb6e5cbb44fc9444",
+      "en": "best",
+      "ar": "أَحْسَن",
+      "file": "cv-f582eb6bcb6e5cbb44fc9444.mp3",
+      "signature": "b9f6dc4bb1e05eb2b9b6c573d64ce4601f6db0876231d2c2b1ca2f3457aaa882",
+      "audioSHA256": "470f4a2d93e77aba1089abb9aba31a5e4d667d6ebc2838fd3166acf9dee241a3",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَحْسَن",
+        "heard_phonetic": "ʔaḥsan",
+        "word_endings": [
+          {
+            "word_arabic": "أَحْسَن",
+            "phonetic": "ʔaḥsan",
+            "ending": "an"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with tanween 'an' ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 75,
+        "total_tokens": 361,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 75
+        }
+      }
+    },
+    {
+      "id": "cv-f60985cf04ad3d30cdfd8b15",
+      "en": "I thought about",
+      "ar": "فَكَّرْتُ فِي",
+      "file": "cv-f60985cf04ad3d30cdfd8b15.mp3",
+      "signature": "1d10a73be2cc63b4c671fc4aaccb068d0d07a41f1c6af06fdd2bbdf7f55a585a",
+      "audioSHA256": "3234842d3c3698485157188d6857c74830a4960c2e585a43b828074b23076e3f",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَكَّرْتُ فِي",
+        "heard_phonetic": "akkartu fi",
+        "word_endings": [
+          {
+            "word_arabic": "أَكَّرْتُ",
+            "phonetic": "akkartu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "فِي",
+            "phonetic": "fi",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 91,
+        "total_tokens": 381,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 19,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 91
+        }
+      }
+    },
+    {
+      "id": "cv-f62ba84b018a9592f4e9c0d9",
+      "en": "she was",
+      "ar": "كانَتْ",
+      "file": "cv-f62ba84b018a9592f4e9c0d9.mp3",
+      "signature": "fe83d26a95b13332eb6b62f7106094b8f282fa71b9e7b0bf5417559e67a8d559",
+      "audioSHA256": "54c8e4e3743b69ac37505c792c1c52f92c0427ce5e0632b42172548cf015c3c9",
+      "priority": false,
+      "review": {
+        "heard_arabic": "كانَتْ",
+        "heard_phonetic": "kaanat",
+        "word_endings": [
+          {
+            "word_arabic": "كانَتْ",
+            "phonetic": "kaanat",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word heard clearly with final consonant ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 65,
+        "total_tokens": 352,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 65
+        }
+      }
+    },
+    {
+      "id": "cv-f63acf383b14bc20ec182621",
+      "en": "culture",
+      "ar": "الثَّقَافَة",
+      "file": "cv-f63acf383b14bc20ec182621.mp3",
+      "signature": "590d4fecc719cfa6f1e92089f071f08ebed1787fa892c9b8178486487abf21fe",
+      "audioSHA256": "0f3f551f1f8d7c305372bb66bcf136de519e1c9955c05482c62fdc67cd499ec0",
+      "priority": false,
+      "review": {
+        "heard_arabic": "اَلثَّقَافَةُ",
+        "heard_phonetic": "al-thaqāfatu",
+        "word_endings": [
+          {
+            "word_arabic": "اَلثَّقَافَةُ",
+            "phonetic": "al-thaqāfatu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 84,
+        "total_tokens": 370,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 84
+        }
+      }
+    },
+    {
+      "id": "cv-f6de9c3d96be5fcf05dda9c1",
+      "en": "teaching assistant",
+      "ar": "مُعيد",
+      "file": "cv-f6de9c3d96be5fcf05dda9c1.mp3",
+      "signature": "a3437beae74c842b0804a7340471de93e470a10ba378d0491aea7b7e39477789",
+      "audioSHA256": "e1251f79bd836e6c345f57bde972d91e2e700d1d6f5fade372a88fc597e98032",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُوʿيْدْ",
+        "heard_phonetic": "muʿīd",
+        "word_endings": [
+          {
+            "word_arabic": "مُوʿيْدْ",
+            "phonetic": "muʿīd",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word heard clearly with final consonant ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 280,
+        "completion_tokens": 79,
+        "total_tokens": 359,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 79
+        }
+      }
+    },
+    {
+      "id": "cv-f6ff5e5544a1c20fe8c62d9b",
+      "en": "getting to know; acquaintance",
+      "ar": "تَعَرُّف",
+      "file": "cv-f6ff5e5544a1c20fe8c62d9b.mp3",
+      "signature": "ff87ff3e2c616875ca155c8c7be563674ad8eb5618a98ade7bbcddd0d9ba7dee",
+      "audioSHA256": "afe929158d3d450e1c98c685489c9a6b33e275ef157ae786c728be281fc79700",
+      "priority": false,
+      "review": {
+        "heard_arabic": "تَعَرُّفُ",
+        "heard_phonetic": "taʕarrufu",
+        "word_endings": [
+          {
+            "word_arabic": "تَعَرُّفُ",
+            "phonetic": "taʕarrufu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final u vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 72,
+        "total_tokens": 355,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 72
+        }
+      }
+    },
+    {
+      "id": "cv-f78012b3f38cf10f4f21b56b",
+      "en": "secondary",
+      "ar": "ثانَوِيّة",
+      "file": "cv-f78012b3f38cf10f4f21b56b.mp3",
+      "signature": "08ecdb39edbfb30334a94af05d99166e39b3b63b4771b6d1f95a61be46cef696",
+      "audioSHA256": "d03f3ee6c939767908afd979cb27a0396d17aaf26c7c57106a5194c365f5e781",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَنَوِيَّة",
+        "heard_phonetic": "ʔanawiyya",
+        "word_endings": [
+          {
+            "word_arabic": "أَنَوِيَّة",
+            "phonetic": "ʔanawiyya",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 74,
+        "total_tokens": 358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 74
+        }
+      }
+    },
+    {
+      "id": "cv-f7b14c18462d4dcdbd29a1ad",
+      "en": "nationality",
+      "ar": "جِنْسِيَّة",
+      "file": "cv-f7b14c18462d4dcdbd29a1ad.mp3",
+      "signature": "2257b0957a892ff3f82fe5fafa3f7699d07436314f544e094c024601677f1a3d",
+      "audioSHA256": "32c0a93d5a2bf7a905a2fd27dbf36ac81ea647f5211db95e98c3d768ab1be803",
+      "priority": false,
+      "review": {
+        "heard_arabic": "جِنْسِي",
+        "heard_phonetic": "jinsi",
+        "word_endings": [
+          {
+            "word_arabic": "جِنْسِي",
+            "phonetic": "jinsi",
+            "ending": "i"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'i' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 66,
+        "total_tokens": 347,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 66
+        }
+      }
+    },
+    {
+      "id": "cv-f8474e41927364e3f46e19a0",
+      "en": "I obtain; receive",
+      "ar": "أَحْصُلُ",
+      "file": "cv-f8474e41927364e3f46e19a0.mp3",
+      "signature": "36545705ff6d72c4c97c57d59192a0a855416944e39cb3699b09466f50055ae6",
+      "audioSHA256": "c94dabe98361f5f1f12382fb84f8dee79de2e3fea8e8367fdaf1e17fa76c7cbf",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَحْصُلُ",
+        "heard_phonetic": "aḥṣulu",
+        "word_endings": [
+          {
+            "word_arabic": "أَحْصُلُ",
+            "phonetic": "aḥṣulu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 74,
+        "total_tokens": 355,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 74
+        }
+      }
+    },
+    {
+      "id": "cv-f86ed4ef7c46174a43b53161",
+      "en": "match; game",
+      "ar": "مُباراة",
+      "file": "cv-f86ed4ef7c46174a43b53161.mp3",
+      "signature": "cb19117e0baccaa3b5e9294cc5a89d8655b5eec4cb2c7626bd3f147a27dafef3",
+      "audioSHA256": "f3b6e2dd80b3bf52c78d0b73e247a4bf1753cd140400fafcedf5c73df8b61f16",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُبارَكْ",
+        "heard_phonetic": "mubārak",
+        "word_endings": [
+          {
+            "word_arabic": "مُبارَكْ",
+            "phonetic": "mubārak",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final consonant ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 73,
+        "total_tokens": 354,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 73
+        }
+      }
+    },
+    {
+      "id": "cv-f91ec76dae030a66381d0f70",
+      "en": "married",
+      "ar": "مُتَزَوِّجَات",
+      "file": "cv-f91ec76dae030a66381d0f70.mp3",
+      "signature": "40d51057a75267d2f8b0ea90571778f3c2a6b4e1b8d31c1efd115ee2b200da05",
+      "audioSHA256": "b11e900496ab8f777ab15917820e5fc16bfaf7858f43d7326bef0d6b55da5671",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُتْ زَوْوِجَاتْ",
+        "heard_phonetic": "mut zawwijāt",
+        "word_endings": [
+          {
+            "word_arabic": "مُتْ",
+            "phonetic": "mut",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "زَوْوِجَاتْ",
+            "phonetic": "zawwijāt",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard, both ending in a consonant sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 297,
+        "completion_tokens": 107,
+        "total_tokens": 404,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 26,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 107
+        }
+      }
+    },
+    {
+      "id": "cv-f92086d383d314e57623b847",
+      "en": "I go down; stay",
+      "ar": "أَنْزِلُ",
+      "file": "cv-f92086d383d314e57623b847.mp3",
+      "signature": "e6e97353cbe01d9d02a1fbd5bd6ae9d351ed1403adea470410817498ff4de32d",
+      "audioSHA256": "910f397fe6a2a11637d11e9f789ba5b0d5bcd0e67e57e84c0c17ff548d6fd33b",
+      "priority": false,
+      "review": {
+        "heard_arabic": "اِنزِلَ",
+        "heard_phonetic": "in-zila",
+        "word_endings": [
+          {
+            "word_arabic": "اِنزِلَ",
+            "phonetic": "in-zila",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 68,
+        "total_tokens": 350,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 68
+        }
+      }
+    },
+    {
+      "id": "cv-f92bb68a20139655d90572ee",
+      "en": "center",
+      "ar": "مَرَاكِز",
+      "file": "cv-f92bb68a20139655d90572ee.mp3",
+      "signature": "29cfe4862460a8d03fc235216a485fd7e11dfae19cc2d7a9d1dce54c2fa02a02",
+      "audioSHA256": "b8eeb96dd1f60bd987887636ef35218529fd99cda8f05c336bd372b31ea0753c",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مَراكِزْ",
+        "heard_phonetic": "maraakiz",
+        "word_endings": [
+          {
+            "word_arabic": "مَراكِزْ",
+            "phonetic": "maraakiz",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final consonant ending.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 73,
+        "total_tokens": 356,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 73
+        }
+      }
+    },
+    {
+      "id": "cv-f97e30503f89321b8e0db940",
+      "en": "club; association",
+      "ar": "نادٍ",
+      "file": "cv-f97e30503f89321b8e0db940.mp3",
+      "signature": "db5cb6d47809a1ffb39215b9744d101087e04610dce037d234129b05541e7bf3",
+      "audioSHA256": "45bb7acb8200c5cb970a37d1dbf1fe1dc6d767d2688c686b85462a49529d4794",
+      "priority": false,
+      "review": {
+        "heard_arabic": "نَادِنْ",
+        "heard_phonetic": "naadin",
+        "word_endings": [
+          {
+            "word_arabic": "نَادِنْ",
+            "phonetic": "naadin",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with a final consonant sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 285,
+        "completion_tokens": 68,
+        "total_tokens": 353,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 14,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 68
+        }
+      }
+    },
+    {
+      "id": "cv-fa11acc74c76259f8ee3afa3",
+      "en": "tonight",
+      "ar": "اللَّيْلَة",
+      "file": "cv-fa11acc74c76259f8ee3afa3.mp3",
+      "signature": "d6a5594e73ad6290be542325d26e3dd4e1186a84c77bee169d32467e20f3507f",
+      "audioSHA256": "5a3f3ed723754c2b22450e4c3bceb65a56e0b4ce24c014ef7be91bcf78cd78f8",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَن لَيْلَ",
+        "heard_phonetic": "an layla",
+        "word_endings": [
+          {
+            "word_arabic": "أَن",
+            "phonetic": "an",
+            "ending": "n"
+          },
+          {
+            "word_arabic": "لَيْلَ",
+            "phonetic": "layla",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard, with final 'n' and 'a' endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 89,
+        "total_tokens": 372,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 89
+        }
+      }
+    },
+    {
+      "id": "cv-fa1f8d74c8c882838ec5c4e2",
+      "en": "after + verb",
+      "ar": "بَعْدَ أَنْ",
+      "file": "cv-fa1f8d74c8c882838ec5c4e2.mp3",
+      "signature": "6c66b385200b649d7a346940ef97b98b7aeabc5deef1bb651f188e5192a4a456",
+      "audioSHA256": "e828cc51049dfbee60b00598bb8466df464d4e907a3c6c70df37dbadd287174c",
+      "priority": false,
+      "review": {
+        "heard_arabic": "بَعْدَ أَنْ",
+        "heard_phonetic": "baʿda an",
+        "word_endings": [
+          {
+            "word_arabic": "بَعْدَ",
+            "phonetic": "baʿda",
+            "ending": "a"
+          },
+          {
+            "word_arabic": "أَنْ",
+            "phonetic": "an",
+            "ending": "an"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly spoken with final vowels 'a' and 'an'.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 94,
+        "total_tokens": 380,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 94
+        }
+      }
+    },
+    {
+      "id": "cv-fa842ccc4512c0c084676547",
+      "en": "I became",
+      "ar": "أَصْبَحْتُ",
+      "file": "cv-fa842ccc4512c0c084676547.mp3",
+      "signature": "be348a5e7ed3d0a6f325cc4560cd6a3df0b4cd669c1eba18be8d5ea0fc78ff3b",
+      "audioSHA256": "5c6e784f24179aa87c73ade95e714d8cb1a12e0dbff18a87c6fe11935b12d694",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَصْبَحْتُ",
+        "heard_phonetic": "ʔaṣbaḥtu",
+        "word_endings": [
+          {
+            "word_arabic": "أَصْبَحْتُ",
+            "phonetic": "ʔaṣbaḥtu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 86,
+        "total_tokens": 369,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 86
+        }
+      }
+    },
+    {
+      "id": "cv-fb2e0fcbaa9689d65d520a12",
+      "en": "I wish to",
+      "ar": "رَغِبْتُ",
+      "file": "cv-fb2e0fcbaa9689d65d520a12.mp3",
+      "signature": "8b13e378c0fcb9cea919988e3a3f1a16deff0c5106b6443d4b619a3b334726f3",
+      "audioSHA256": "f3295b4cf9ea4c5caf122f313f8298e2f587a14dd440484a63958ad3cdc7a9aa",
+      "priority": false,
+      "review": {
+        "heard_arabic": "راضِبَةٌ",
+        "heard_phonetic": "raaḍibatun",
+        "word_endings": [
+          {
+            "word_arabic": "راضِبَةٌ",
+            "phonetic": "raaḍibatun",
+            "ending": "un"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly ending with -un tanween.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 75,
+        "total_tokens": 356,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 10,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 75
+        }
+      }
+    },
+    {
+      "id": "cv-fb45c48aca83df892f614470",
+      "en": "I meet",
+      "ar": "قابَلْتُ",
+      "file": "cv-fb45c48aca83df892f614470.mp3",
+      "signature": "1acd3890fc9ec60b2c0c31025947084c2b5b78d68e11df82e1bd9099d04d2271",
+      "audioSHA256": "395634442c63fb4cb861858d14b6608098e13afa45265d8144a2ea2a63b99600",
+      "priority": false,
+      "review": {
+        "heard_arabic": "قابَلتُ",
+        "heard_phonetic": "qābaltu",
+        "word_endings": [
+          {
+            "word_arabic": "قابَل",
+            "phonetic": "qābal",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "تُ",
+            "phonetic": "tu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single phrase with clear final u sound on the second part.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 283,
+        "completion_tokens": 88,
+        "total_tokens": 371,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 12,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 88
+        }
+      }
+    },
+    {
+      "id": "cv-fbb65e0b39dc3d4b8617e524",
+      "en": "I think about",
+      "ar": "فَكَّرْتُ",
+      "file": "cv-fbb65e0b39dc3d4b8617e524.mp3",
+      "signature": "8bd06ce3e769bf30e43b4f0afb1d62e4279c8c65e8abb7b997b28bf4dbdc0ba2",
+      "audioSHA256": "c29dd672d463fdbad3bcafe99c249b958a4b23e997b422278b45b11e97aaad71",
+      "priority": false,
+      "review": {
+        "heard_arabic": "سَكَّرْتُ",
+        "heard_phonetic": "sakkartu",
+        "word_endings": [
+          {
+            "word_arabic": "سَكَّرْتُ",
+            "phonetic": "sakkartu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'u' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 72,
+        "total_tokens": 358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 72
+        }
+      }
+    },
+    {
+      "id": "cv-fc21a58742aebf8c61481c6d",
+      "en": "being",
+      "ar": "كَوْن",
+      "file": "cv-fc21a58742aebf8c61481c6d.mp3",
+      "signature": "260942b3837f12011998c7e42235a7d286f62d9cc91a4f43cdb1e542af963f92",
+      "audioSHA256": "396d761ef72163d77074f55c91832fb58403812e6edc6a1c0fb1aeedde542f93",
+      "priority": false,
+      "review": {
+        "heard_arabic": "كَوْنُ",
+        "heard_phonetic": "kawn-u",
+        "word_endings": [
+          {
+            "word_arabic": "كَوْنُ",
+            "phonetic": "kawn-u",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly ending with a short 'u' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 279,
+        "completion_tokens": 69,
+        "total_tokens": 348,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 8,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 69
+        }
+      }
+    },
+    {
+      "id": "cv-fc3159bb6b2deaf78d6308fc",
+      "en": "sunny",
+      "ar": "مُشْمِسة",
+      "file": "cv-fc3159bb6b2deaf78d6308fc.mp3",
+      "signature": "a4966a0f3cd9c62ba8ca859c93319328fb4c816c5fc1c7e552546d7241691603",
+      "audioSHA256": "9b99dcf70d122b2ad1c8479ab84d710c769bc521a9557be08e1ea131dd7fa804",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُش مِسَ",
+        "heard_phonetic": "mush misa",
+        "word_endings": [
+          {
+            "word_arabic": "مُش",
+            "phonetic": "mush",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "مِسَ",
+            "phonetic": "misa",
+            "ending": "a"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard, with the second ending in a short 'a' vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 280,
+        "completion_tokens": 95,
+        "total_tokens": 375,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 9,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 95
+        }
+      }
+    },
+    {
+      "id": "cv-fcb390c169c3df68f73c86f4",
+      "en": "appointing; appointment",
+      "ar": "تَعْيِين",
+      "file": "cv-fcb390c169c3df68f73c86f4.mp3",
+      "signature": "defb8c78c4d6464906cdfe90f3a2f20d0f6b5124e2ca532c6b0db29f24a296b4",
+      "audioSHA256": "1017188d5d2976032de473221a971bbba77ad1dabf9757353fbf0c9df8de0615",
+      "priority": false,
+      "review": {
+        "heard_arabic": "دَاعِين",
+        "heard_phonetic": "daaʿiin",
+        "word_endings": [
+          {
+            "word_arabic": "دَاعِين",
+            "phonetic": "daaʿiin",
+            "ending": "in"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with final 'in' sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 68,
+        "total_tokens": 350,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 68
+        }
+      }
+    },
+    {
+      "id": "cv-fd1c53a91946ea09b5bec6ac",
+      "en": "I decide",
+      "ar": "أُقَرِّرُ",
+      "file": "cv-fd1c53a91946ea09b5bec6ac.mp3",
+      "signature": "cf9abbccdeeb9a6ee3cce700e0ffbbb94fb5f59293476eef749602a5c6264c59",
+      "audioSHA256": "eef21ad4c4ddf6192cbfbd0a38a1297ead5a656a28910b1a7971a44870eaaaf6",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَنا أَعودُ وَأَكرِّرُ",
+        "heard_phonetic": "ʔana ʔaʕuːdu wa ʔakarriru",
+        "word_endings": [
+          {
+            "word_arabic": "أَنا",
+            "phonetic": "ʔana",
+            "ending": "a"
+          },
+          {
+            "word_arabic": "أَعودُ",
+            "phonetic": "ʔaʕuːdu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "وَ",
+            "phonetic": "wa",
+            "ending": "a"
+          },
+          {
+            "word_arabic": "أَكرِّرُ",
+            "phonetic": "ʔakarriru",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Clear pronunciation of each word with final vowels audible.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 294,
+        "completion_tokens": 160,
+        "total_tokens": 454,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 23,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 160
+        }
+      }
+    },
+    {
+      "id": "cv-fd4b756536c0c56fb5d9dac6",
+      "en": "employee",
+      "ar": "مُوَظَّفَات",
+      "file": "cv-fd4b756536c0c56fb5d9dac6.mp3",
+      "signature": "6e0c18fef84a65e13199efb8762b17a498a029d0f04136e48d61b36e6c5a0de9",
+      "audioSHA256": "48670a0e3449f91b63ebc56a4ea0dfe20196a3101b876bb8cb988c5a53db6ae2",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُوَظَّفَاتْ",
+        "heard_phonetic": "muwaẓẓafāt",
+        "word_endings": [
+          {
+            "word_arabic": "مُوَظَّفَاتْ",
+            "phonetic": "muwaẓẓafāt",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with a final consonant sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 90,
+        "total_tokens": 378,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 17,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 90
+        }
+      }
+    },
+    {
+      "id": "cv-fdd1b60c494e0d30ad5f00da",
+      "en": "I sleep",
+      "ar": "أَنامُ",
+      "file": "cv-fdd1b60c494e0d30ad5f00da.mp3",
+      "signature": "e183780c7d27609e492de9d9db891dca612f531be7adb73d8acebede3953c9f7",
+      "audioSHA256": "c0ed6e0db11cdf96fd8959a60ad0ff8008f748f6c198f7b190558a40f2609945",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَنَا أَمُّ",
+        "heard_phonetic": "ʔana ʔammu",
+        "word_endings": [
+          {
+            "word_arabic": "أَنَا",
+            "phonetic": "ʔana",
+            "ending": "a"
+          },
+          {
+            "word_arabic": "أَمُّ",
+            "phonetic": "ʔammu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": true,
+        "notes": "The second word is unclear; it sounds like 'ʔammu' with a final 'u' vowel, but the meaning is uncertain.",
+        "verdict": "uncertain"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 110,
+        "total_tokens": 392,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 110
+        }
+      }
+    },
+    {
+      "id": "cv-fe5e8d6293bb2eb4ece1cd65",
+      "en": "I was absent from; missed",
+      "ar": "تَغَيَّبْتُ عَنْ",
+      "file": "cv-fe5e8d6293bb2eb4ece1cd65.mp3",
+      "signature": "479af2112e86a4bd9e298ba2cdfe26bfc561f3d615f271efb7df281afc1e4d94",
+      "audioSHA256": "0b8d7655d6ba65d39440103e7dba027658fbb5d562054360a5293701a92887c4",
+      "priority": false,
+      "review": {
+        "heard_arabic": "تَغَيَّبْتُ عَنْ",
+        "heard_phonetic": "taghayyabtu ʿan",
+        "word_endings": [
+          {
+            "word_arabic": "تَغَيَّبْتُ",
+            "phonetic": "taghayyabtu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "عَنْ",
+            "phonetic": "ʿan",
+            "ending": "n"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Clear pronunciation of two words with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 292,
+        "completion_tokens": 103,
+        "total_tokens": 395,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 21,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 103
+        }
+      }
+    },
+    {
+      "id": "cv-fe64535345525e9adeca8253",
+      "en": "crowding",
+      "ar": "الاِزْدِحام",
+      "file": "cv-fe64535345525e9adeca8253.mp3",
+      "signature": "df4a79f2cbc791219acbb46e4e2c2bc18de46af15d3c8be31edaaee41a27d23b",
+      "audioSHA256": "b0b0d8b158200dafc4de7c4bd8b3fe00fffe8ac107d986e3a375de2a9280c988",
+      "priority": false,
+      "review": {
+        "heard_arabic": "اَلْاِزْدِحَامُ",
+        "heard_phonetic": "al-izdiḥāmu",
+        "word_endings": [
+          {
+            "word_arabic": "اَلْ",
+            "phonetic": "al",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "اِزْدِحَامُ",
+            "phonetic": "izdiḥāmu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Clear pronunciation of two parts with final 'u' vowel on the second word.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 112,
+        "total_tokens": 398,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 112
+        }
+      }
+    },
+    {
+      "id": "cv-fe8e7bbf1169eeb04289161c",
+      "en": "lunch",
+      "ar": "الغَداء",
+      "file": "cv-fe8e7bbf1169eeb04289161c.mp3",
+      "signature": "0c5a5c66414ef06dedb27bf012770cf00582db3f772f8dbb06bc63e27a5736fb",
+      "audioSHA256": "bf29979c29f93a78936b06403ca9939fe1e6a949531441b005290d7a6570116f",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَلْغَدَاءُ",
+        "heard_phonetic": "al-ghadāʾu",
+        "word_endings": [
+          {
+            "word_arabic": "أَلْغَدَاءُ",
+            "phonetic": "al-ghadāʾu",
+            "ending": "u"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word with clear final u vowel.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 282,
+        "completion_tokens": 79,
+        "total_tokens": 361,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 11,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 79
+        }
+      }
+    },
+    {
+      "id": "cv-feb925d2fbe5aaa37afc1797",
+      "en": "summer",
+      "ar": "الصَّيْف",
+      "file": "cv-feb925d2fbe5aaa37afc1797.mp3",
+      "signature": "16139afd3bacad483641be75dfa7943d94ccd488b2e06268787d107040c7cc48",
+      "audioSHA256": "ffb35f04bce9f5556fc8230d0a9e2efaaf114035935074df15cf8c514c7299aa",
+      "priority": false,
+      "review": {
+        "heard_arabic": "أَصْ صَيْفْ",
+        "heard_phonetic": "ʔaṣ ṣayf",
+        "word_endings": [
+          {
+            "word_arabic": "أَصْ",
+            "phonetic": "ʔaṣ",
+            "ending": "consonant"
+          },
+          {
+            "word_arabic": "صَيْفْ",
+            "phonetic": "ṣayf",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words with a clear pause between them, both ending in consonants.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 287,
+        "completion_tokens": 104,
+        "total_tokens": 391,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 16,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 104
+        }
+      }
+    },
+    {
+      "id": "cv-ff651625873dd12399f0fe4b",
+      "en": "suitable for",
+      "ar": "مُناسِب لِ",
+      "file": "cv-ff651625873dd12399f0fe4b.mp3",
+      "signature": "2023052df5432106a4156ed85edf9437a926c4f769d33bc4a93b5e7a06a5ba66",
+      "audioSHA256": "08a1432befec715b65dcf063a926239f94cdf5795d547e4fe5bcd8d2572f6a84",
+      "priority": false,
+      "review": {
+        "heard_arabic": "مُناسِبُ لِي",
+        "heard_phonetic": "munāsibu lī",
+        "word_endings": [
+          {
+            "word_arabic": "مُناسِبُ",
+            "phonetic": "munāsibu",
+            "ending": "u"
+          },
+          {
+            "word_arabic": "لِي",
+            "phonetic": "lī",
+            "ending": "long_vowel"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Two words clearly heard with distinct endings.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 90,
+        "total_tokens": 374,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 13,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 90
+        }
+      }
+    },
+    {
+      "id": "cv-ffa4ea2b33b8c3c485eac1d9",
+      "en": "two years",
+      "ar": "سَنَتَيْنِ",
+      "file": "cv-ffa4ea2b33b8c3c485eac1d9.mp3",
+      "signature": "6d484ead7a5b927f5b7b395373df5b6c7498786fa69ac8c9546b159898429eb6",
+      "audioSHA256": "4fd3374dd36035b4c23a559f0cb7cb257af0e54aed6318ff48e92354adb17207",
+      "priority": false,
+      "review": {
+        "heard_arabic": "سَنَتَيْنْ",
+        "heard_phonetic": "sanatayn",
+        "word_endings": [
+          {
+            "word_arabic": "سَنَتَيْنْ",
+            "phonetic": "sanatayn",
+            "ending": "consonant"
+          }
+        ],
+        "uncertain": false,
+        "notes": "Single word clearly pronounced with a final consonant sound.",
+        "verdict": "captured"
+      },
+      "usage": {
+        "prompt_tokens": 286,
+        "completion_tokens": 74,
+        "total_tokens": 360,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 15,
+          "text_tokens": 271,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": 74
         }
       }
     }
