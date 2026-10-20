@@ -31,10 +31,30 @@ for(const b of data.broken)for(const f of ['singular','plural']){if(b[f]?.id)ids
 for(const t of [...targets.values()])for(const part of t.ar.split(/\s*[/؛;]\s*/))add(part,'variant',t.en);
 const entries=[...targets.values()].sort((a,b)=>a.id.localeCompare(b.id));
 if(entries.length>10000||entries.length<1000||new Set(entries.map(t=>t.id)).size!==entries.length)throw Error('Unexpected vocabulary target count');
-const report={version:1,cardCount:data.vocab.length,practiceVerbs:data.verbs.length,brokenPluralPairs:data.broken.length,ids:[...ids].sort(),entries};
+
+const collectionId=process.argv.find(a=>a.startsWith('--collection='))?.split('=')[1];
+let scope=null;
+if(collectionId){
+ const collection=data.collections.find(c=>c.id===collectionId);
+ if(!collection)throw Error('Unknown collection: '+collectionId);
+ const scopedKeys=new Set();
+ const scopedAdd=ar=>{if(typeof ar!=='string'||!/[ء-ي]/.test(ar))return;scopedKeys.add(key(ar));for(const part of ar.split(/\s*[/؛;]\s*/))scopedKeys.add(key(part));};
+ const scopedWord=w=>{for(const f of ['ar','f','mp','fp','masculine','sourcePastAr','sourcePresentAr'])scopedAdd(w[f]);};
+ const scopedChapter=ch=>{for(const w of ch.vocab||[])scopedWord(w);for(const sub of Object.values(ch.subchapters||{}))scopedChapter(sub);};
+ for(const w of collection.vocab||[])scopedWord(w);
+ for(const ch of Object.values(collection.chapters||{}))scopedChapter(ch);
+ for(const w of data.vocab.filter(w=>w.collectionId===collectionId))scopedWord(w);
+ for(const v of data.verbs.filter(v=>v.memberships?.some(m=>m.collectionId===collectionId)))for(const f of ['present','past','noun'])scopedAdd(v[f]?.ar);
+ for(const b of data.broken.filter(b=>b.sources?.some(s=>s.id===collectionId)))for(const f of ['singular','plural'])scopedAdd(b[f]?.ar);
+ const selected=entries.filter(t=>scopedKeys.has(t.ar));
+ if(!selected.length||selected.length!==scopedKeys.size)throw Error('Invalid scoped target coverage');
+ scope={collectionId,ids:selected.map(t=>t.id)};
+}
+
+const report={version:1,scope,cardCount:data.vocab.length,practiceVerbs:data.verbs.length,brokenPluralPairs:data.broken.length,ids:[...ids].sort(),entries};
 if(process.argv.includes('--coverage')){
  const recordings={};const dir=path.join(root,'audio/cedar-vocab/manifests');for(const f of fs.readdirSync(dir))if(f.endsWith('.json'))Object.assign(recordings,JSON.parse(fs.readFileSync(path.join(dir,f),'utf8')));const manifest={recordings};
- const missing=entries.filter(t=>!manifest.recordings[t.id]||manifest.recordings[t.id].ar!==t.ar||!fs.existsSync(path.join(root,'audio/cedar-vocab',manifest.recordings[t.id].file)));
+ const missing=entries.filter(t=>(!scope||scope.ids.includes(t.id))&&(!manifest.recordings[t.id]||manifest.recordings[t.id].ar!==t.ar||!fs.existsSync(path.join(root,'audio/cedar-vocab',manifest.recordings[t.id].file))));
  if(missing.length)throw Error('Missing vocabulary recordings: '+missing.length);
  console.log('PASS: complete vocabulary, verb-tree, and broken-plural audio coverage');
 }else fs.writeFileSync(path.join(root,'cedar-vocab-targets.json'),JSON.stringify(report,null,2)+'\n');

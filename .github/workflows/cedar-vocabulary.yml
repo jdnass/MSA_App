@@ -1,5 +1,5 @@
-name: Generate all Cedar vocabulary audio
-# Validate Arabic Unicode normalization before bulk generation.
+name: Complete Al-Kitaab Part 1 Cedar audio
+# Generate only missing Part 1 readings; preserve all existing Cedar recordings.
 on:
   workflow_dispatch:
   push:
@@ -14,7 +14,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,16 +29,16 @@ jobs:
           command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
       - name: Export all live vocabulary and validate playback
         run: |
-          node scripts/export-cedar-vocabulary.cjs
+          node scripts/export-cedar-vocabulary.cjs --collection=alkitaab1
           node scripts/check-vocab-audio.cjs
           node scripts/check-module-audio.cjs
           python -m py_compile scripts/cedar_vocabulary.py scripts/cedar_samples.py
-      - name: Generate missing Cedar vocabulary audio
+      - name: Generate missing Part 1 Cedar vocabulary audio
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/cedar_vocabulary.py
-      - name: Validate complete coverage
-        run: node scripts/export-cedar-vocabulary.cjs --coverage
+      - name: Validate complete Part 1 coverage
+        run: node scripts/export-cedar-vocabulary.cjs --collection=alkitaab1 --coverage
       - name: Preserve audio and coverage report
         if: always()
         uses: actions/upload-artifact@v4

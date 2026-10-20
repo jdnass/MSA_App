@@ -7,6 +7,7 @@ DEST=ROOT/"audio"/"cedar-vocab"
 LOCK=threading.Lock()
 STOP=threading.Event()
 NEXT=0.0
+DEADLINE=time.monotonic()+20*60
 SPENT=0.0
 ATTEMPTS=0
 
@@ -20,7 +21,7 @@ def norm(s):
 def slot():
     global NEXT
     with LOCK:
-        if STOP.is_set() or SPENT>=9.8:
+        if STOP.is_set() or SPENT>=9.8 or time.monotonic()>=DEADLINE:
             STOP.set()
             raise RuntimeError("Stopped at budget or account-credit guard")
         now=time.monotonic()
@@ -74,13 +75,20 @@ def save(records,targets,failed):
     for k,rows in shards.items(): (DEST/"manifests"/(k+".json")).write_text(json.dumps(rows,ensure_ascii=False,separators=(",",":")))
     mapping={r["ar"]:"./audio/cedar-vocab/"+r["file"]+"?v="+r["signature"][:12] for r in records.values()}
     (ROOT/"cedar-vocab-audio.js").write_text("/* AI-generated Cedar vocabulary, extended forms and broken plurals. */\nwindow.MOSA_VOCAB_IDS="+json.dumps(dict.fromkeys(targets["ids"],True),separators=(",",":"))+";\nwindow.MOSA_VOCAB_AUDIO="+json.dumps(mapping,ensure_ascii=False,separators=(",",":"))+";\n")
-    report={"model":cedar_samples.MODEL,"voice":"cedar","targets":len(targets["entries"]),"completed":len(records),"remaining":len(targets["entries"])-len(records),"failed":failed,"estimatedGenerationCostUSD":round(SPENT,6),"requests":ATTEMPTS,"cards":targets["cardCount"],"verbTrees":targets["practiceVerbs"],"brokenPluralPairs":targets["brokenPluralPairs"]}
+    scope=targets.get("scope")
+    scoped_ids=set(scope["ids"]) if scope else {t["id"] for t in targets["entries"]}
+    scope_remaining=len(scoped_ids-set(records))
+    report={"scope":scope["collectionId"] if scope else "all","scopeTargets":len(scoped_ids),"scopeCompleted":len(scoped_ids & set(records)),"scopeRemaining":scope_remaining,"model":cedar_samples.MODEL,"voice":"cedar","targets":len(targets["entries"]),"completed":len(records),"remaining":len(targets["entries"])-len(records),"failed":failed,"estimatedGenerationCostUSD":round(SPENT,6),"requests":ATTEMPTS,"cards":targets["cardCount"],"verbTrees":targets["practiceVerbs"],"brokenPluralPairs":targets["brokenPluralPairs"]}
     (DEST/"summary.json").write_text(json.dumps(report,ensure_ascii=False,indent=2))
 
 def main():
     global SPENT,ATTEMPTS
     targets=json.loads((ROOT/"cedar-vocab-targets.json").read_text())
     data=targets["entries"]
+    scope=targets.get("scope")
+    scoped_ids=set(scope["ids"]) if scope else {t["id"] for t in data}
+    selected=[t for t in data if t["id"] in scoped_ids]
+    if not selected or len(selected)!=len(scoped_ids): raise ValueError("Invalid collection scope")
     if not 1000<=len(data)<=10000 or len({t["id"] for t in data})!=len(data): raise ValueError("Invalid vocabulary target count")
     key=os.environ.get("OPENAI_API_KEY")
     if not key: raise ValueError("OPENAI_API_KEY secret is missing")
@@ -93,12 +101,12 @@ def main():
     for p in (DEST/"manifests").glob("*.json"): records.update(json.loads(p.read_text()))
     wanted={t["id"] for t in data}
     records={k:v for k,v in records.items() if k in wanted}
-    pending=[t for t in data if records.get(t["id"],{}).get("signature")!=sig(t) or not (DEST/records[t["id"]]["file"]).exists()]
+    pending=[t for t in selected if records.get(t["id"],{}).get("signature")!=sig(t) or not (DEST/records[t["id"]]["file"]).exists()]
     failures={}
     print(str(len(data))+" targets; "+str(len(pending))+" missing; "+str(len(records))+" cached",flush=True)
     with tempfile.TemporaryDirectory() as temp:
         cedar_samples.OUT=Path(temp)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
             tasks={pool.submit(one,t,key):t for t in pending}
             completed=0
             for task in concurrent.futures.as_completed(tasks):
@@ -109,12 +117,13 @@ def main():
                     failures[t["id"]]={"ar":t["ar"],"reason":detail}
                     if not STOP.is_set(): print("Failed "+t["id"]+": "+detail,flush=True)
                 completed+=1
-                if completed%50==0 or completed==len(pending):
+                if completed%10==0 or completed==len(pending):
                     save(records,targets,failures)
                     print("Coverage "+str(len(records))+"/"+str(len(data))+"; estimate $"+str(round(SPENT,3)),flush=True)
     save(records,targets,failures)
-    if failures or len(records)!=len(data): raise ValueError("Incomplete vocabulary generation: "+str(len(data)-len(records))+" missing")
-    print("PASS: all vocabulary audio generated",flush=True)
+    missing=[t for t in selected if t["id"] not in records or records[t["id"]].get("signature")!=sig(t) or not (DEST/records[t["id"]]["file"]).exists()]
+    if missing: raise ValueError("Incomplete scoped vocabulary generation: "+str(len(missing))+" missing")
+    print("PASS: selected vocabulary audio generated",flush=True)
 
 if __name__=="__main__":
     try: main()

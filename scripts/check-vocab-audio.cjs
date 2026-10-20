@@ -11,10 +11,11 @@ ctx.playArabic({id:'bp-1',ar:'كُتُب',audioKind:'vocabulary'});assert.equal(
 ctx.playArabic({id:'practice-x-present',ar:'أُدَرِّسُ',audioKind:'vocabulary'});assert.equal(played.pop(),'tree.mp3');
 ctx.playArabic({id:'mosa-m10-s1-s1',ar:'جملة'});assert.equal(played.pop(),'module.mp3');
 ctx.playArabic({id:'conversation',ar:'جملة'});assert.equal(played.pop(),'conversation.m4a');
-ctx.window.MOSA_VOCAB_AUDIO={};ctx.playArabic({id:'vocab',ar:'كِتاب'});assert.equal(spoken.pop(),'كِتاب');assert(!played.includes('my-voice.m4a'));
+ctx.window.MOSA_VOCAB_AUDIO={};ctx.playArabic({id:'vocab',ar:'كِتاب'});assert.equal(spoken.length,0);assert(!played.includes('my-voice.m4a'));
 assert.equal(ctx.cedarVocabKey(' كِـتاب  '),'كِتاب');
 assert.notEqual(ctx.cedarVocabKey('كَتَبَ'),ctx.cedarVocabKey('كُتُب'));
 assert(source.includes("vocabularyFormAudio(d,'mp')"));
 assert(fs.readFileSync('broken-plural-practice.js','utf8').includes("audioKind:'vocabulary'"));
 assert(fs.readFileSync('verb-practice.js','utf8').includes("audioKind:'vocabulary'"));
+assert(!/speechSynthesis|SpeechSynthesisUtterance|speakWithTTS/.test(source),'No non-Cedar speech synthesis anywhere');
 console.log('PASS: Cedar replaces recorded vocabulary; forms, trees, plurals, sentence audio and fallback routing verified');
