@@ -1,5 +1,5 @@
 name: Complete Al-Kitaab Part 1 Cedar audio
-# Generate only missing Part 1 readings; preserve all existing Cedar recordings.
+# Repair three reported pronunciations with independent audio checks; reuse other recordings.
 on:
   workflow_dispatch:
   push:
