@@ -7231,6 +7231,37 @@
         }
       },
       "signature": "6d7fae52cec7028cd650960c312d71d49c2ccd7e09cb941de963ef4792f6a173"
+    },
+    "mosa-m35-s3-s1": {
+      "id": "mosa-m35-s3-s1",
+      "en": "Fortunately, I do not have much responsibility.",
+      "ar": "لِحُسْنِ الحَظّ، لَيْسَتْ لَدَيَّ مَسْؤُولِيَّات كَثِيرَة.",
+      "pronunciation_instructions": " IMPORTANT: the second word is لَيْسَتْ, pronounced laysat, with a final T sound. It is NOT لَيْسَ (laysa). Read لَيْسَتْ لَدَيَّ exactly as laysat ladayya. Do not remove the final ت.",
+      "file": "mosa-m35-s3-s1.mp3",
+      "seconds": 4.55,
+      "transcript": "لِحُسْنِ الحَظّ، لَيْسَتْ لَدَيَّ مَسْؤُوليَّات كَثِيرَة.",
+      "usage": {
+        "total_tokens": 434,
+        "input_tokens": 182,
+        "output_tokens": 252,
+        "input_token_details": {
+          "text_tokens": 182,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 161,
+          "audio_tokens": 91,
+          "reasoning_tokens": 104
+        }
+      },
+      "signature": "bd37ac869e878723c4d5af9a12407e483fb90af3a1e56baebee20ed8853b99ed"
     }
   }
 }
