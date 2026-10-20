@@ -8,7 +8,7 @@ assert(match,'audio player exists');
 let played=[],spoken=[];
 const ctx={window:{MOSA_MODULE_AUDIO:{'mosa-m10-s1-s1':{ar:'نص',src:'cedar.mp3'}}},
  NATIVE_AUDIO_BY_ID:{vocab:'original.m4a'},NATIVE_AUDIO_BY_KEY:{},VOCABULARY_BASE_AR:{},
- nativeAudioKey:d=>d.ar,stopAudio:()=>{},speakWithTTS:ar=>spoken.push(ar),
+ cedarVocabKey:d=>d,nativeAudioKey:d=>d.ar,stopAudio:()=>{},speakWithTTS:ar=>spoken.push(ar),
  Audio:class {constructor(src){this.src=src;}play(){played.push(this.src);return Promise.resolve();}}};
 vm.createContext(ctx);vm.runInContext(match[0],ctx);
 ctx.playArabic({id:'mosa-m10-s1-s1',ar:'نص'});assert.equal(played.pop(),'cedar.mp3');

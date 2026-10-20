@@ -284,4 +284,4 @@ function brokenPluralRefresh(){
   document.querySelector('#brokenPluralResults').innerHTML=html;
 }
 function brokenPluralReveal(id,side,field){if(!state.hide[field])return;brokenPluralState.reveals.add(id+':'+side+':'+field);brokenPluralRefresh()}
-function brokenPluralSpeak(id,side){if(state.hide.audio||!['singular','plural'].includes(side))return;const row=(brokenPluralCache||[]).find(v=>v.id===id);if(row)playArabic(row[side])}
+function brokenPluralSpeak(id,side){if(state.hide.audio||!['singular','plural'].includes(side))return;const row=(brokenPluralCache||[]).find(v=>v.id===id);if(row)playArabic({...row[side],audioKind:'vocabulary'})}

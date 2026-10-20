@@ -54,7 +54,7 @@ def generate(entry, key):
                     "content": [{"type": "input_text", "text": entry["ar"]}],
                 }}))
                 ws.send(json.dumps({"type": "response.create", "response": {
-                    "output_modalities": ["audio"], "max_output_tokens": 1024,
+                    "output_modalities": ["audio"], "max_output_tokens": entry.get("max_output_tokens", 1024),
                 }}))
                 requested = True
             elif kind == "response.output_audio.delta":
@@ -74,7 +74,7 @@ def generate(entry, key):
     finally:
         ws.close()
     pcm = b"".join(chunks)
-    if len(pcm) < RATE or len(pcm) % 2:
+    if len(pcm) < int(RATE * 2 * entry.get("min_audio_seconds", 0.5)) or len(pcm) % 2:
         raise RuntimeError("Missing or invalid PCM audio")
     name = entry["id"] + ".wav"
     with wave.open(str(OUT / name), "wb") as audio:
