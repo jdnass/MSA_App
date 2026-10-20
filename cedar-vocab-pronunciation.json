@@ -22,10 +22,10 @@
   },
   "cv-5679dd0c4d1d1b1215fa070b": {
     "revision": "literal-endings-1",
-    "max_output_tokens": 128,
+    "max_output_tokens": 256,
     "max_audio_seconds": 1.8,
     "verify_audio": true,
-    "session_instructions": "Say exactly عَنَاوِين once. Pronunciation guide for silent reference only: a-naa-WEEN, beginning with Arabic ayn. Clearly pronounce the w consonant between naa and the long ee. End on n, with no final a, u, or i."
+    "session_instructions": "انطق عَنَاوِين مرة واحدة. وضّح صوت الواو بعد الألف، وانته بالنون الساكنة، بلا حركة بعدها."
   },
   "cv-5ae7cdfd94c9a049d8c52d4a": {
     "revision": "literal-endings-1",
@@ -43,10 +43,10 @@
   },
   "cv-d9bda85213dfdc873e6998b7": {
     "revision": "literal-endings-1",
-    "max_output_tokens": 128,
+    "max_output_tokens": 256,
     "max_audio_seconds": 1.5,
     "verify_audio": true,
-    "session_instructions": "Say exactly أُسْرَة once. Pronunciation guide for silent reference only: us-ra. Say this word only once. End with short a. No t, tanween, repeated word, alternate pronunciation, or second attempt."
+    "session_instructions": "انطق أُسْرَة مرة واحدة فقط، بضم الهمزة وسكون السين وفتح الراء. انطق التاء المربوطة وقفا، بلا تاء أو تنوين."
   },
   "cv-e0b1098bc49646be8d7019ca": {
     "revision": "literal-endings-1",
@@ -78,10 +78,10 @@
   },
   "cv-f24ea478d29dd08d1abffcd4": {
     "revision": "literal-endings-1",
-    "max_output_tokens": 128,
+    "max_output_tokens": 256,
     "max_audio_seconds": 1.4,
     "verify_audio": true,
-    "session_instructions": "Say exactly عُمْر once. Pronunciation guide for silent reference only: umr, beginning with Arabic ayn and ending on r. One short word. Do not add kataba, an example, or any other word."
+    "session_instructions": "انطق عُمْر مرة واحدة فقط. ضم العين وسكّن الميم والراء. لا تضف أي كلمة أخرى."
   },
   "cv-f35631f29814ddf0ad3827a4": {
     "revision": "literal-endings-1",
@@ -92,9 +92,9 @@
   },
   "cv-f7b14c18462d4dcdbd29a1ad": {
     "revision": "literal-endings-1",
-    "max_output_tokens": 128,
+    "max_output_tokens": 256,
     "max_audio_seconds": 1.6,
     "verify_audio": true,
-    "session_instructions": "Say exactly جِنْسِيَّة once. Pronunciation guide for silent reference only: jin-siy-ya. End with the short a of taa marbuuta. No t sound or case ending; do not say jinsiyyatun or jinsiyyati."
+    "session_instructions": "انطق جِنْسِيَّة مرة واحدة فقط. انطق التاء المربوطة وقفا، بلا تاء أو حركة إعراب أو تنوين."
   }
 }

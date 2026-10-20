@@ -1,5 +1,5 @@
 name: Complete Al-Kitaab Part 1 Cedar audio
-# Repair 11 reported clips; forbid unmarked endings and verify actual audio.
+# Retry only the four rejected clips with simpler Arabic instructions.
 on:
   workflow_dispatch:
   push:

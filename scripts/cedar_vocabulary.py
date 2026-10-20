@@ -98,7 +98,7 @@ def one(t,key):
                 last="Transcript mismatch: "+r["transcript"]
                 continue
             target=DEST/(t["id"]+".mp3")
-            temporary=target.with_suffix(".tmp.mp3")
+            temporary=cedar_samples.OUT/(t["id"]+".mp3")
             wav=cedar_samples.OUT/r["file"]
             subprocess.run(["ffmpeg","-hide_banner","-loglevel","error","-y","-i",str(wav),"-codec:a","libmp3lame","-b:a","64k",str(temporary)],check=True)
             if temporary.stat().st_size<500: raise RuntimeError("Invalid MP3")
