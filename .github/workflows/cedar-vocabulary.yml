@@ -1,5 +1,5 @@
 name: Complete Al-Kitaab Part 1 Cedar audio
-# Retry only the four rejected clips with simpler Arabic instructions.
+# Retry the remaining family clip with concise instructions; retain verification.
 on:
   workflow_dispatch:
   push:

@@ -20,14 +20,10 @@ def norm(s):
 
 
 VOCAB_INSTRUCTIONS=(
-    "Record only the supplied Arabic vocabulary text, exactly once, in natural Modern Standard Arabic. "
-    "This is an isolated vocabulary recording, not conversation. Start immediately with the target and stop immediately after it. "
-    "Never introduce, explain, translate, repeat, answer, or supply an example sentence. "
-    "Pronounce the written short vowels and tanween exactly. Never infer or add an unwritten final case vowel or tanween, on any word in a multiword entry. "
-    "Keep explicitly marked final vowels, such as the final damma in a present-tense verb. "
-    "When the final consonant has no vowel mark, stop on that consonant without an extra vowel. "
-    "For a taa marbuuta without an explicit ending vowel, use the pausal a pronunciation, not at, atun, atin, or atan. "
-    "Use normal, brief consonants and a natural pace, without exaggerated articulation. "
+    "Read only the supplied Arabic vocabulary text, exactly once, in natural Modern Standard Arabic. "
+    "Pronounce explicitly written ending vowels and tanween, but never invent unmarked case endings on any word. "
+    "Use pausal taa marbuuta unless it has an explicitly written ending vowel. "
+    "Start directly with the target and stop after it: no introduction, example, translation, repetition, or other words. "
 )
 def transcript_matches(actual,expected):
     # Orthographic ASR is not a complete phonetic check. Reject marked extra

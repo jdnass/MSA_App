@@ -43,10 +43,10 @@
   },
   "cv-d9bda85213dfdc873e6998b7": {
     "revision": "literal-endings-1",
-    "max_output_tokens": 256,
+    "max_output_tokens": 384,
     "max_audio_seconds": 1.5,
     "verify_audio": true,
-    "session_instructions": "انطق أُسْرَة مرة واحدة فقط، بضم الهمزة وسكون السين وفتح الراء. انطق التاء المربوطة وقفا، بلا تاء أو تنوين."
+    "session_instructions": "الكلمة هي أُسْرَة. انطقها مرة واحدة فقط، دون تكرار أو شرح. لا تضف حركة إعراب في نهايتها."
   },
   "cv-e0b1098bc49646be8d7019ca": {
     "revision": "literal-endings-1",
