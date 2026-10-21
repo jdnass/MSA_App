@@ -52,12 +52,14 @@ def validate(review,expected):
         if supplied!="pausal_taa" and vowels and vowels!=expected_vowels:
             raise ValueError("Unmarked or changed vowel in heard word: "+actual)
         if supplied=="pausal_taa":
-            if actual_end in ("un","in","an","u","i") or re.search(r"t(?:un|in|an|u|i|a)$",ph):
+            if actual_end in ("un","in","an","u","i") or re.search(r"t(?:un|in|an|u|i|a)?$",ph):
                 raise ValueError("Unwanted taa marbuuta ending: "+ph)
             if actual_end not in ("a","consonant"): raise ValueError("Unclear pausal ending")
         elif supplied=="consonant":
             intrinsic_n=e.endswith("ن") and actual_end in ("an","in","un") and ph.endswith("n")
             if actual_end!="consonant" and not intrinsic_n: raise ValueError("Unwanted final sound: "+ph)
+            if not ph or re.search(r"[aeiouāīūɑɐəɪʊæɛɔː:]$",ph):
+                raise ValueError("Phonetic ending does not confirm final consonant: "+ph)
         elif supplied=="long_vowel":
             if actual_end not in ("long_vowel","a","i","u"): raise ValueError("Unclear written long vowel")
         elif actual_end!=supplied:
@@ -68,7 +70,9 @@ BLIND="""Listen to the entire attached Arabic audio. No expected text is supplie
 Return EVERYTHING actually spoken, including any introduction, repetition, fragments, and partial words. Do not correct pronunciation or supply a dictionary form.
 Report audible word-final sounds, not endings inferred from grammar. Use standard Arabic letters in word_arabic, adding the ending vowels you actually hear; use normal taa marbuuta spelling when appropriate.
 Return ONLY JSON: heard_arabic, heard_phonetic, word_endings (array of word_arabic, phonetic, ending), uncertain (boolean).
-ending must be consonant, a, i, u, an, in, un, long_vowel, or unclear. Use unclear if unsure. Preserve each actual vowel in phonetic."""
+ending must be consonant, a, i, u, an, in, un, long_vowel, or unclear. Use unclear if unsure. Preserve each actual vowel in phonetic.
+These labels describe the FINAL SOUND, not the last syllable or grammatical case. A long vowel BEFORE a final consonant does not make the ending long_vowel. Examples: ibn, al-taqs, qanun, kulliyyat, an-nahar, ra'is, and fawakih end in consonant; qanunu ends in u; qanunun ends in un. A word ending in its own n is consonant unless an EXTRA tanween syllable is actually heard.
+Use Latin/IPA in phonetic, Arabic script only in word_arabic. Supply no grammatical vowels you cannot hear. Each word's phonetic and ending must agree. Output a JSON object without code fences or commentary."""
 INSTRUCTIONS="""Read only the supplied Arabic words once, naturally, in Modern Standard Arabic. No introduction, explanation, translation, examples, or repetition.
 Follow the supplied vowel and sukun marks literally. Do not infer grammatical case endings on any word.
 Keep explicitly written final vowels and tanween. Unmarked final taa marbuuta is pausal a/ah, never at, atun, atan, atin, atu or ati.
@@ -92,19 +96,41 @@ def review_audio(clip,key):
     if not match: raise ValueError("Audio reviewer did not return JSON")
     return json.loads(match.group())
 
+def generate_clip(text,t,key):
+    return post("https://api.openai.com/v1/audio/speech",{
+        "model":t.get("generation_model",SPEECH_MODEL),"voice":"cedar","input":text,
+        "instructions":INSTRUCTIONS+" End on the supplied final sound, then silence.",
+        "response_format":"mp3","speed":0.95},key,binary=True)
+
+def prepare_clip(spoken,t,key,separate=False):
+    # Separate requests prevent inferred case endings inside multiword entries.
+    parts=re.findall(TOKEN,spoken) if separate else [spoken]
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp=Path(tmp); paths=[]
+        for i,part in enumerate(parts):
+            raw=tmp/(str(i)+".mp3"); raw.write_bytes(generate_clip(part,t,key))
+            clean=tmp/(str(i)+".wav")
+            subprocess.run(["ffmpeg","-hide_banner","-loglevel","error","-y","-i",str(raw),
+                "-af","silenceremove=start_periods=1:start_duration=0.02:start_threshold=-55dB:start_silence=0.04,areverse,silenceremove=start_periods=1:start_duration=0.02:start_threshold=-55dB:start_silence=0.06,areverse,apad=pad_dur=0.12",
+                "-ar","24000","-ac","1",str(clean)],check=True)
+            paths.append(clean)
+        listing=tmp/"concat.txt"
+        listing.write_text("".join("file '"+str(path)+"'\n" for path in paths))
+        combined=tmp/"candidate.mp3"
+        subprocess.run(["ffmpeg","-hide_banner","-loglevel","error","-y","-f","concat","-safe","0","-i",str(listing),
+            "-codec:a","libmp3lame","-b:a","96k",str(combined)],check=True)
+        seconds=float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","default=noprint_wrappers=1:nokey=1",str(combined)],text=True).strip())
+        return combined.read_bytes(),seconds
+
 def repair_one(t,key,signature):
     spoken=speech_text(t["spoken"])
     last="No accepted candidate"
     for attempt in range(4):
+        review=None
         try:
-            clip=post("https://api.openai.com/v1/audio/speech",{
-                "model":t.get("generation_model",SPEECH_MODEL),"voice":"cedar","input":spoken,
-                "instructions":INSTRUCTIONS+(" Be particularly careful to stop exactly on every sukun." if attempt else ""),
-                "response_format":"mp3","speed":0.95},key,binary=True)
+            separate=attempt>=2 and len(re.findall(TOKEN,spoken))>1
+            clip,seconds=prepare_clip(spoken,t,key,separate)
             if len(clip)<500: raise ValueError("Empty speech recording")
-            with tempfile.TemporaryDirectory() as tmp:
-                path=Path(tmp)/"candidate.mp3"; path.write_bytes(clip)
-                seconds=float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","default=noprint_wrappers=1:nokey=1",str(path)],text=True).strip())
             if not 0.2<=seconds<=max(4,3*len(re.findall(TOKEN,t["spoken"]))):
                 raise ValueError("Unexpected word-recording duration")
             review=review_audio(clip,key)
@@ -116,9 +142,12 @@ def repair_one(t,key,signature):
               "signature":signature,"seconds":round(seconds,2),"transcript":review.get("heard_arabic",""),
               "verifiedTranscript":review.get("heard_arabic",""),"revision":t["revision"],"generation_engine":"speech",
               "generation_model":t.get("generation_model",SPEECH_MODEL),"voice":"cedar",
-              "audioSHA256":hashlib.sha256(clip).hexdigest(),"audioReview":review,"speechAttempts":attempt+1}
+              "audioSHA256":hashlib.sha256(clip).hexdigest(),"audioReview":review,"speechAttempts":attempt+1,"separateWords":separate}
         except Exception as error:
             last=str(error)[:180] if type(error) is ValueError else type(error).__name__
+            diagnostic=ROOT/"reports"/"cedar-rejected"
+            diagnostic.mkdir(parents=True,exist_ok=True)
+            (diagnostic/(t["id"]+"-"+str(attempt+1)+".json")).write_text(json.dumps({"ar":t["ar"],"reason":last,"review":review},ensure_ascii=False,indent=2))
             if attempt<3: time.sleep(1+attempt)
     raise RuntimeError("Literal speech repair not accepted: "+last)
 
@@ -130,3 +159,4 @@ def probe():
     print("PASS: dedicated Speech API accepts Cedar",flush=True)
 
 if __name__=="__main__": probe()
+

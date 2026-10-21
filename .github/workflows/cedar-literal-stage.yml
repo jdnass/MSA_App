@@ -1,5 +1,5 @@
 name: Stage Part 1 literal Cedar audio repairs
-# Repair the consented audit batch using literal Cedar speech and blind acoustic checks.
+# Resume unresolved repairs; preserve the 108 recordings already accepted.
 on:
   workflow_dispatch:
   push:
@@ -33,6 +33,7 @@ jobs:
           node scripts/check-vocab-audio.cjs
           node scripts/check-module-audio.cjs
           python -m py_compile scripts/cedar_vocabulary.py scripts/cedar_samples.py scripts/repair_cedar_audio.py
+          python scripts/test_repair_cedar_audio.py
       - name: Verify dedicated Cedar speech endpoint
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -53,6 +54,7 @@ jobs:
             cedar-vocab-audio.js
             cedar-vocab-targets.json
             reports/cedar-part1-literal-repair.json
+            reports/cedar-rejected/
           if-no-files-found: ignore
           retention-days: 30
       - name: Save reusable recordings
@@ -67,3 +69,4 @@ jobs:
           git commit -m "Save Cedar vocabulary, extended-form, and broken-plural recordings"
           git pull --rebase origin fix/part1-literal-audio
           git push origin HEAD:fix/part1-literal-audio
+
