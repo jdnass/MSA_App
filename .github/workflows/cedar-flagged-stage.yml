@@ -1,0 +1,60 @@
+name: Repair the 29 explicitly flagged Cedar entries
+on:
+  push:
+    branches: ['fix/flagged29-audio']
+    paths: ['.github/workflows/cedar-flagged-stage.yml']
+permissions:
+  contents: write
+concurrency:
+  group: cedar-vocabulary
+  cancel-in-progress: false
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install audio dependency
+        run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Verify phonetics, strict scope and persistent API caps without paid calls
+        run: |
+          python -m py_compile scripts/repair_flagged_audio.py scripts/test_flagged_audio.py
+          python scripts/test_flagged_audio.py
+          node scripts/check-vocab-audio.cjs
+          node scripts/check-module-audio.cjs
+      - name: Repair only the named entries, with at most two candidates each
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/repair_flagged_audio.py
+      - name: Verify all Part 1 entries retain playable recordings
+        run: node scripts/export-cedar-vocabulary.cjs --collection=alkitaab1 --coverage
+      - name: Preserve exact audio results and request accounting
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mosa-flagged29-audio
+          path: |
+            audio/cedar-vocab/
+            cedar-vocab-audio.js
+            cedar-vocab-pronunciation.json
+            cedar-flagged-batch.json
+            reports/cedar-flagged-29-repair.json
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Save accepted recordings and unresolved-entry report
+        if: always()
+        run: |
+          if [ ! -f reports/cedar-flagged-29-repair.json ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/cedar-vocab cedar-vocab-audio.js cedar-vocab-pronunciation.json reports/cedar-flagged-29-repair.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save bounded repairs for the explicitly flagged vocabulary entries"
+          git pull --rebase origin fix/flagged29-audio
+          git push origin HEAD:fix/flagged29-audio
