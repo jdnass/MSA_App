@@ -9,193 +9,33 @@
   "completed": 3184,
   "remaining": 1999,
   "failed": {
-    "cv-633e643be5e939852cabe1e0": {
-      "ar": "اِبْن عَمّ",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: ibn"
-    },
     "cv-647899124cf18326f6d37885": {
       "ar": "عِلْم الإِنْسَان",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: عِلْمُ"
-    },
-    "cv-bf5a9cedb34cb64ec554a95a": {
-      "ar": "أَبْنَاء عَمّ",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: أبناءُ"
-    },
-    "cv-00c72e34a0fb1fde375e997b": {
-      "ar": "الطَّقْس",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: al-ṭaqs"
-    },
-    "cv-04e9e13fc5110a260c858b43": {
-      "ar": "العَمَل",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: al-ʿamal"
-    },
-    "cv-12fa618866e74c2a63a4654c": {
-      "ar": "فَواكِه",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: fawaːkih"
-    },
-    "cv-13f838d2febc501c2ef74e12": {
-      "ar": "فُصول دِراسيّة",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: فصولٌ"
-    },
-    "cv-104667e06d12c39c6d4e2cc5": {
-      "ar": "أَكْل",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: أكلٌ"
-    },
-    "cv-29eeb4132e9e145cf1ae9dd8": {
-      "ar": "رُؤَسَاء الوُزَرَاء",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: رؤساءُ"
-    },
-    "cv-260383365506fd05cffc9b58": {
-      "ar": "اِسْتِقْرَار",
-      "reason": "Literal speech repair not accepted: Unexpected word-recording duration"
-    },
-    "cv-36e856800edb177ccfe3340d": {
-      "ar": "الرَّقْص",
-      "reason": "Literal speech repair not accepted: Audio reviewer did not return JSON"
+      "reason": "Literal speech repair not accepted: Audio word mismatch: أَلْ"
     },
     "cv-4ebcb80a6b059738d5089b4b": {
       "ar": "أَعْمَال",
-      "reason": "Literal speech repair not accepted: Extra, missing, or repeated words"
-    },
-    "cv-5679dd0c4d1d1b1215fa070b": {
-      "ar": "عَنَاوِين",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: ʿanāwīn"
-    },
-    "cv-4b31916ffde9ed4f1564d8d5": {
-      "ar": "التَّرْجَمَة مِنْ",
-      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: at-tarjamatu"
-    },
-    "cv-56cc055892eabf12d07fbdec": {
-      "ar": "أَسَابِيع",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: أصابعَ"
-    },
-    "cv-5ae794d1fc4263ab541fa67c": {
-      "ar": "رُجُوع",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: رُجُوعَ"
-    },
-    "cv-5e95e62c93495e56b0506452": {
-      "ar": "الشَّرْق الأَوْسَط",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: الوسطُ"
-    },
-    "cv-5ae7cdfd94c9a049d8c52d4a": {
-      "ar": "مَنَاطِق",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: manaatiq"
-    },
-    "cv-6461b389aba66a446e5e05b0": {
-      "ar": "بَحْر",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: بَحْرٌ"
-    },
-    "cv-67785241ee3933d27516ae8e": {
-      "ar": "النَّهَار",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: an-nahaar"
-    },
-    "cv-7656aa9412d3b12288248ec8": {
-      "ar": "مَشْغُولَة بِ",
-      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: mashghūlatun"
+      "reason": "Literal speech repair not accepted: Audio word mismatch: أعمان"
     },
     "cv-772be16d54035c9d444f275e": {
       "ar": "المَسَاء",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: al-masāʾ"
-    },
-    "cv-87289e2dbf38134f4eea4ef5": {
-      "ar": "الرَّبيع",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: الرَّبِيعَ"
-    },
-    "cv-8b82ef2f3486f3861878ff6d": {
-      "ar": "تَكَلُّم",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: takallam"
-    },
-    "cv-8be51a3747b1b17de0dc9a91": {
-      "ar": "قَبْل",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: قَبْلَ"
+      "reason": "Literal speech repair not accepted: Unwanted final sound: al-masaa"
     },
     "cv-89b308f5d70922c232a8f70c": {
       "ar": "أَسابيع",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: السابعة"
-    },
-    "cv-90c55b37af24560d0843402a": {
-      "ar": "رَئيس الوُزَراء",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: raʔiːs"
-    },
-    "cv-94400d37996dd219b273bc0c": {
-      "ar": "أَصْيَاف / صُيُوف",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: السياف"
+      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: أسابيعَ"
     },
     "cv-a3b3b23a3f172ad3b6adc5d8": {
       "ar": "سَلَطة",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: صلاةَ"
-    },
-    "cv-a4556dde61f9f6dd8b5ee26e": {
-      "ar": "أَنْصَاف",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: ʔanṣāf"
-    },
-    "cv-a357b6c24b926ad0f9627222": {
-      "ar": "قَرِيبَات",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: qarībāat"
-    },
-    "cv-a4e5331f7c3ac3ad1df4769d": {
-      "ar": "عُيُون / أَعْيُن",
-      "reason": "Literal speech repair not accepted: Extra, missing, or repeated words"
+      "reason": "Literal speech repair not accepted: Audio word mismatch: سَنَاطَ"
     },
     "cv-af835dba4a4ad94f1572c4cf": {
       "ar": "إِدارة الأَعْمال",
-      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: ʾidāratu"
-    },
-    "cv-ad7a002a9f9a603cd63969cd": {
-      "ar": "مَشْغُولَات بِ",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: mashghūlāt"
-    },
-    "cv-b9179e70336ce8ce8c9e1f9d": {
-      "ar": "مُتَخَصِّصَات فِي",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: mutakhassisāt"
-    },
-    "cv-b3681bace91906b14bf61814": {
-      "ar": "كُلِّيَّات",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: kulliyāt"
-    },
-    "cv-c910bdbe30f8d08153948aa3": {
-      "ar": "المُسْتَقْبَل",
-      "reason": "Literal speech repair not accepted: Extra, missing, or repeated words"
-    },
-    "cv-cbabfb829272775ba6ec6ad0": {
-      "ar": "مَواضيع / مَوْضوعات",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: mawāḍīʿ"
-    },
-    "cv-d8a0092a9f4bba19863f59f4": {
-      "ar": "أَمْطَار",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: أمْفار"
-    },
-    "cv-d0670bb34338b2d18c83c110": {
-      "ar": "فُصُول دِرَاسِيَّة",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: فصولٌ"
-    },
-    "cv-e360289b56c589e9aecda54f": {
-      "ar": "جامِع",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: جامِعَة"
-    },
-    "cv-de080fc911080cf929ffeb74": {
-      "ar": "القُبُول",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: al-qabūl"
-    },
-    "cv-f01675758fd195d2203ec6a0": {
-      "ar": "مُتَخَصِّصَة فِي",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: متخصصَ"
-    },
-    "cv-f143cbe3e66f1f85c231d9b4": {
-      "ar": "ضَابِطَات",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: ḍābiṭāt"
-    },
-    "cv-f6ff5e5544a1c20fe8c62d9b": {
-      "ar": "تَعَرُّف",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: taʕarruf"
-    },
-    "cv-f4e631846a21879cb7201dca": {
-      "ar": "الاِقْتِصاد",
-      "reason": "Literal speech repair not accepted: Extra, missing, or repeated words"
+      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: ʔidaːrat"
     },
     "cv-ff651625873dd12399f0fe4b": {
       "ar": "مُناسِب لِ",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: munaasib"
+      "reason": "Literal speech repair not accepted: Audio word mismatch: لي"
     }
   },
   "estimatedGenerationCostUSD": 2.928011,
@@ -205,8 +45,8 @@
   "brokenPluralPairs": 428,
   "literalSpeechRepairs": {
     "selected": 155,
-    "accepted": 108,
-    "remaining": 47
+    "accepted": 148,
+    "remaining": 7
   },
   "costAccountingNote": "Legacy cost estimate excludes Speech API and new blind audio-review calls."
 }
