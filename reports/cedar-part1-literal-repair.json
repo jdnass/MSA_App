@@ -2,8 +2,8 @@
   "voice": "cedar",
   "model": "gpt-4o-mini-tts",
   "selected": 155,
-  "accepted": 151,
-  "remaining": 4,
+  "accepted": 154,
+  "remaining": 1,
   "acceptedIds": [
     "cv-00c72e34a0fb1fde375e997b",
     "cv-00cbb658ee123856ac65b98b",
@@ -79,6 +79,7 @@
     "cv-6fd1394cb1206042f318f5ad",
     "cv-72f9e99593c046e58f0dce8f",
     "cv-7656aa9412d3b12288248ec8",
+    "cv-772be16d54035c9d444f275e",
     "cv-78ae2465917c5d9fca954ddc",
     "cv-7a10bb723bc5d90d81543b1b",
     "cv-7a26ae14c069799a9b019e5a",
@@ -113,6 +114,7 @@
     "cv-a67e5f04d03ea86252f1f387",
     "cv-a7e041b799f008c8d5e4c46f",
     "cv-ad7a002a9f9a603cd63969cd",
+    "cv-af835dba4a4ad94f1572c4cf",
     "cv-b2fa7cef25b08054169d5065",
     "cv-b3242c136efd8ccfd0a05259",
     "cv-b3681bace91906b14bf61814",
@@ -155,24 +157,13 @@
     "cv-f6ff5e5544a1c20fe8c62d9b",
     "cv-fb2e0fcbaa9689d65d520a12",
     "cv-fc21a58742aebf8c61481c6d",
-    "cv-fe8e7bbf1169eeb04289161c"
+    "cv-fe8e7bbf1169eeb04289161c",
+    "cv-ff651625873dd12399f0fe4b"
   ],
   "failed": {
-    "cv-772be16d54035c9d444f275e": {
-      "ar": "المَسَاء",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: al-masaa"
-    },
     "cv-a3b3b23a3f172ad3b6adc5d8": {
       "ar": "سَلَطة",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: ثلاثة"
-    },
-    "cv-ff651625873dd12399f0fe4b": {
-      "ar": "مُناسِب لِ",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: لي"
-    },
-    "cv-af835dba4a4ad94f1572c4cf": {
-      "ar": "إِدارة الأَعْمال",
-      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: ʔidaːrat"
+      "reason": "Literal speech repair not accepted: Audio reviewer did not return JSON"
     }
   },
   "unchangedCardText": true,

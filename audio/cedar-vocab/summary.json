@@ -9,21 +9,9 @@
   "completed": 3184,
   "remaining": 1999,
   "failed": {
-    "cv-772be16d54035c9d444f275e": {
-      "ar": "المَسَاء",
-      "reason": "Literal speech repair not accepted: Unwanted final sound: al-masaa"
-    },
     "cv-a3b3b23a3f172ad3b6adc5d8": {
       "ar": "سَلَطة",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: ثلاثة"
-    },
-    "cv-ff651625873dd12399f0fe4b": {
-      "ar": "مُناسِب لِ",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: لي"
-    },
-    "cv-af835dba4a4ad94f1572c4cf": {
-      "ar": "إِدارة الأَعْمال",
-      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: ʔidaːrat"
+      "reason": "Literal speech repair not accepted: Audio reviewer did not return JSON"
     }
   },
   "estimatedGenerationCostUSD": 2.928011,
@@ -33,8 +21,8 @@
   "brokenPluralPairs": 428,
   "literalSpeechRepairs": {
     "selected": 155,
-    "accepted": 151,
-    "remaining": 4
+    "accepted": 154,
+    "remaining": 1
   },
   "costAccountingNote": "Legacy cost estimate excludes Speech API and new blind audio-review calls."
 }
