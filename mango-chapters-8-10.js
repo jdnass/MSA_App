@@ -1670,6 +1670,20 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "idInChapter": 17
       },
       {
+        "id": "mango-c10-turn-around",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 10,
+        "en": "I turn / turn around",
+        "ar": "أَسْتَدِيرُ",
+        "tr": "astadīru",
+        "pos": "Verb",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "idInChapter": 18
+      },
+      {
         "id": "mango-c10-10-form-1",
         "collectionId": "mango-msa",
         "collection": "Mango Languages (MSA)",
@@ -1681,7 +1695,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 18
+        "idInChapter": 19
       },
       {
         "id": "mango-c10-10-form-2",
@@ -1695,7 +1709,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 19
+        "idInChapter": 20
       },
       {
         "id": "mango-c10-11",
@@ -1709,7 +1723,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 20
+        "idInChapter": 21
       },
       {
         "id": "mango-c10-12",
@@ -1723,7 +1737,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "الزَّوايا",
         "fp": "—",
-        "idInChapter": 21
+        "idInChapter": 22
       },
       {
         "id": "mango-c10-12-plural",
@@ -1737,7 +1751,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 22
+        "idInChapter": 23
       },
       {
         "id": "mango-c10-13",
@@ -1751,7 +1765,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 23
+        "idInChapter": 24
       },
       {
         "id": "mango-c10-13-form-1",
@@ -1765,7 +1779,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 24
+        "idInChapter": 25
       },
       {
         "id": "mango-c10-13-form-2",
@@ -1779,7 +1793,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 25
+        "idInChapter": 26
       },
       {
         "id": "mango-c10-14",
@@ -1793,7 +1807,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 26
+        "idInChapter": 27
       },
       {
         "id": "mango-c10-15",
@@ -1807,7 +1821,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 27
+        "idInChapter": 28
       },
       {
         "id": "mango-c10-16",
@@ -1821,7 +1835,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 28
+        "idInChapter": 29
       },
       {
         "id": "mango-c10-17",
@@ -1835,7 +1849,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 29
+        "idInChapter": 30
       },
       {
         "id": "mango-c10-18",
@@ -1849,7 +1863,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 30
+        "idInChapter": 31
       },
       {
         "id": "mango-c10-19",
@@ -1863,7 +1877,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 31
+        "idInChapter": 32
       },
       {
         "id": "mango-c10-20",
@@ -1877,7 +1891,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 32
+        "idInChapter": 33
       },
       {
         "id": "mango-c10-21",
@@ -1891,7 +1905,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 33
+        "idInChapter": 34
       },
       {
         "id": "mango-c10-22",
@@ -1905,7 +1919,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 34
+        "idInChapter": 35
       },
       {
         "id": "mango-c10-23",
@@ -1919,7 +1933,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 35
+        "idInChapter": 36
       },
       {
         "id": "mango-c10-24",
@@ -1933,7 +1947,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 36
+        "idInChapter": 37
       },
       {
         "id": "mango-c10-24-form-1",
@@ -1947,7 +1961,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 37
+        "idInChapter": 38
       },
       {
         "id": "mango-c10-24-form-2",
@@ -1961,7 +1975,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 38
+        "idInChapter": 39
       },
       {
         "id": "mango-c10-24-form-3",
@@ -1975,7 +1989,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 39
+        "idInChapter": 40
       },
       {
         "id": "mango-c10-25",
@@ -1989,7 +2003,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 40
+        "idInChapter": 41
       },
       {
         "id": "mango-c10-26",
@@ -2003,7 +2017,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 41
+        "idInChapter": 42
       },
       {
         "id": "mango-c10-27",
@@ -2017,7 +2031,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 42
+        "idInChapter": 43
       },
       {
         "id": "mango-c10-28",
@@ -2031,7 +2045,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 43
+        "idInChapter": 44
       },
       {
         "id": "mango-c10-29",
@@ -2045,7 +2059,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 44
+        "idInChapter": 45
       },
       {
         "id": "mango-c10-30",
@@ -2059,7 +2073,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 45
+        "idInChapter": 46
       },
       {
         "id": "mango-c10-31",
@@ -2073,7 +2087,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "بُنُوك",
         "fp": "—",
-        "idInChapter": 46
+        "idInChapter": 47
       },
       {
         "id": "mango-c10-31-plural",
@@ -2087,7 +2101,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 47
+        "idInChapter": 48
       },
       {
         "id": "mango-c10-32",
@@ -2101,7 +2115,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "فَنادِق",
         "fp": "—",
-        "idInChapter": 48
+        "idInChapter": 49
       },
       {
         "id": "mango-c10-32-plural",
@@ -2115,7 +2129,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 49
+        "idInChapter": 50
       },
       {
         "id": "mango-c10-33",
@@ -2129,7 +2143,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "مَيادِين",
         "fp": "—",
-        "idInChapter": 50
+        "idInChapter": 51
       },
       {
         "id": "mango-c10-33-plural",
@@ -2143,7 +2157,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 51
+        "idInChapter": 52
       },
       {
         "id": "mango-c10-34",
@@ -2157,7 +2171,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 52
+        "idInChapter": 53
       }
     ],
     "sentences": [],
