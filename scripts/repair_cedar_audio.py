@@ -56,7 +56,8 @@ def validate(review,expected):
                 raise ValueError("Unwanted taa marbuuta ending: "+ph)
             if actual_end not in ("a","consonant"): raise ValueError("Unclear pausal ending")
         elif supplied=="consonant":
-            intrinsic_n=e.endswith("ن") and actual_end in ("an","in","un") and ph.endswith("n")
+            written_n=e.count("ن")+len(re.findall("ن[َُِْ]*ّ",s))
+            intrinsic_n=e.endswith("ن") and actual_end in ("an","in","un") and ph.endswith("n") and ph.count("n")<=written_n
             if actual_end!="consonant" and not intrinsic_n: raise ValueError("Unwanted final sound: "+ph)
             if not ph or re.search(r"[aeiouāīūɑɐəɪʊæɛɔː:]$",ph):
                 raise ValueError("Phonetic ending does not confirm final consonant: "+ph)
@@ -94,12 +95,24 @@ def review_audio(clip,key):
     text=result["choices"][0]["message"].get("content","")
     match=re.search(r"\{[\s\S]*\}",text)
     if not match: raise ValueError("Audio reviewer did not return JSON")
-    return json.loads(match.group())
+    review=json.loads(match.group())
+    if any(not re.fullmatch(TOKEN,w.get("word_arabic","")) for w in review.get("word_endings",[])):
+        raise ValueError("Audio reviewer did not use Arabic script")
+    return review
+
+HINTS={
+    "cv-4ebcb80a6b059738d5089b4b":"The word means works/businesses: aʿmāl. Clearly pronounce the pharyngeal ayn and final l, with no vowel after l.",
+    "cv-772be16d54035c9d444f275e":"The word means the evening: al-masāʾ. Clearly pronounce the final glottal stop hamza after the long aa. End at the hamza.",
+    "cv-a3b3b23a3f172ad3b6adc5d8":"The word means salad: salaṭa, with short a vowels and emphatic ṭ. Use normal s, not emphatic ṣ. Do not lengthen the vowels.",
+    "cv-af835dba4a4ad94f1572c4cf":"Pronounce idāra, pause, al-aʿmāl. The first word must end in a, with NO t sound before the pause.",
+    "cv-ff651625873dd12399f0fe4b":"Pronounce munāsib, pause, li. The final li is a SHORT syllable, not long lī. No vowel follows the b in munāsib.",
+    "cv-647899124cf18326f6d37885":"Pronounce ʿilm, pause, al-insān. The first word begins with pharyngeal ayn and ends on m, without a vowel after m."
+}
 
 def generate_clip(text,t,key):
     return post("https://api.openai.com/v1/audio/speech",{
         "model":t.get("generation_model",SPEECH_MODEL),"voice":"cedar","input":text,
-        "instructions":INSTRUCTIONS+" End on the supplied final sound, then silence.",
+        "instructions":INSTRUCTIONS+" End on the supplied final sound, then silence. "+HINTS.get(t["id"],""),
         "response_format":"mp3","speed":0.95},key,binary=True)
 
 def prepare_clip(spoken,t,key,separate=False):
@@ -125,6 +138,19 @@ def prepare_clip(spoken,t,key,separate=False):
 def repair_one(t,key,signature):
     spoken=speech_text(t["spoken"])
     last="No accepted candidate"
+    # Reuse a fully vocalized spelling's accepted recording for this identical word.
+    if t["id"]=="cv-89b308f5d70922c232a8f70c":
+        source_id="cv-56cc055892eabf12d07fbdec"
+        manifest=json.loads((DEST/"manifests"/"5.json").read_text())
+        source=manifest.get(source_id,{})
+        if source.get("audioReview"):
+            validate(source["audioReview"],t["spoken"])
+            clip=(DEST/source["file"]).read_bytes()
+            if hashlib.sha256(clip).hexdigest()!=source.get("audioSHA256"):
+                raise ValueError("Reusable audio hash mismatch")
+            target=DEST/(t["id"]+".mp3"); target.write_bytes(clip)
+            return {**source,"ar":t["ar"],"spoken":t["spoken"],"file":target.name,"signature":signature,
+                "revision":t["revision"],"reusedFrom":source_id}
     for attempt in range(4):
         review=None
         try:
@@ -133,7 +159,12 @@ def repair_one(t,key,signature):
             if len(clip)<500: raise ValueError("Empty speech recording")
             if not 0.2<=seconds<=max(4,3*len(re.findall(TOKEN,t["spoken"]))):
                 raise ValueError("Unexpected word-recording duration")
-            review=review_audio(clip,key)
+            for review_attempt in range(2):
+                try:
+                    review=review_audio(clip,key)
+                    break
+                except ValueError as error:
+                    if review_attempt: raise
             validate(review,t["spoken"])
             target=DEST/(t["id"]+".mp3")
             temporary=target.with_suffix(".accepted.tmp")

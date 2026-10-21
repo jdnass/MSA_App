@@ -1,5 +1,5 @@
 name: Stage Part 1 literal Cedar audio repairs
-# Resume unresolved repairs; preserve the 108 recordings already accepted.
+# Retry the final seven unresolved recordings; preserve accepted audio.
 on:
   workflow_dispatch:
   push:

@@ -15,6 +15,7 @@ class LiteralAudioTests(unittest.TestCase):
     def test_reject_added_case_ending(self):
         for word,phonetic,label in [("قانونٌ","qānūnun","un"),("قانونُ","qānūnu","u")]:
             with self.assertRaises(ValueError): validate(review(word,phonetic,label),"قَانُون")
+        with self.assertRaises(ValueError): validate(review("قانون","qānūnun","un"),"قَانُون")
 
     def test_reject_contradictory_phonetic_and_label(self):
         with self.assertRaises(ValueError): validate(review("قانون","qānūnu","consonant"),"قَانُون")
