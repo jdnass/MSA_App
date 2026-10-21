@@ -1,0 +1,3473 @@
+{
+  "batch": "mango-missing-2026-10-21",
+  "scope": "mango-msa",
+  "scopeTargets": 1122,
+  "existingReused": 702,
+  "selected": 420,
+  "maxAttemptsPerEntry": 2,
+  "speechRequests": 663,
+  "blindReviewRequests": 659,
+  "targetReviewRequests": 247,
+  "speechAudioSeconds": 684.8609999999996,
+  "reviewUsage": {
+    "prompt_tokens": 302427,
+    "completion_tokens": 37655,
+    "total_tokens": 340082
+  },
+  "entries": {
+    "cv-4f0506d0f28d4405a8b17a8f": {
+      "ar": "سَيِّئات",
+      "en": "bad",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: سَيِّئ",
+        "Audio word mismatch: سيء"
+      ]
+    },
+    "cv-4f15464eb0a173a15e12c583": {
+      "ar": "مُمَلَّح",
+      "en": "salted / salty",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-6aabb4cda0f3dbb955760ee8": {
+      "ar": "قابِل لِلتَّفاوُض",
+      "en": "negotiable",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-73d6083e8750d988841dc1cd": {
+      "ar": "تَقَاوِيم",
+      "en": "the calendar",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-8e68964ae91bde7bdbbdbeb0": {
+      "ar": "مَارِس",
+      "en": "March (Egyptian name)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Unwanted final sound: maarisu"
+      ]
+    },
+    "cv-8f2b1ba1c5f16e9c368f33e4": {
+      "ar": "مَفْقُودَة",
+      "en": "missing",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-8fa2853abf171ccb87ae2fcf": {
+      "ar": "الْمَدْرَسَة الاِبْتِدائِيَّة",
+      "en": "elementary school",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-8fdb6a9b401921ae153fdfc3": {
+      "ar": "رُبَّمَا",
+      "en": "Perhaps, maybe",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-900d3b9f9ba203176c75f768": {
+      "ar": "سَمِينَات",
+      "en": "fat",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: سَمِعِينَاتْ",
+        "Audio word mismatch: samīnā"
+      ]
+    },
+    "cv-90289110ec07a5ef03dbe3fc": {
+      "ar": "عِنْدَ",
+      "en": "at / have",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-902b167ee85258c95bc0f732": {
+      "ar": "بِالطَّبْع",
+      "en": "of course",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-908cdc56ff5d231ab17f4a3f": {
+      "ar": "جَرَيْتُ",
+      "en": "I ran",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: جارَيْتُ",
+        "Target phonetic review: {'pass': False, 'issues': ['missing/changed consonant or vowel'], 'uncertain': False}"
+      ]
+    },
+    "cv-930fd823a8824cd119b3963d": {
+      "ar": "رُكَب",
+      "en": "knee",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: رُكاب",
+        "Audio word mismatch: رُكِبْتُ"
+      ]
+    },
+    "cv-93d5340bc9ac3add15c77467": {
+      "ar": "بَدَّلْتُ",
+      "en": "I changed",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-944ab875733f41117d2ecb04": {
+      "ar": "زَمِيلَات السَّكَن",
+      "en": "roommate",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-94651ec39d12214cad12b6ac": {
+      "ar": "حَلْق",
+      "en": "throat",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: هَلْ",
+        "Audio word mismatch: هَلْ"
+      ]
+    },
+    "cv-94cd5b006e349ecea60a5aae": {
+      "ar": "أَشْرِبَة",
+      "en": "drink / beverage",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: أَشْرِبَ"
+      ]
+    },
+    "cv-95d6cb9008ee706cc6a0b5fc": {
+      "ar": "الاِتِّصَال",
+      "en": "the contact / communication",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-95f81eb0338efd78304c50ce": {
+      "ar": "صَباحُ الخَيْرِ",
+      "en": "good morning",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ṣabaaḥ",
+        "Explicitly marked ending not preserved: ṣabaaḥ"
+      ]
+    },
+    "cv-9616ca7260af5a9694e86fff": {
+      "ar": "مَوْقِع إِلِكْتْرُونِيّ",
+      "en": "website",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unmarked or changed vowel in heard word: موقعٌ",
+        "Target phonetic review: {'pass': False, 'issues': ['Unmarked case ending on مَوْقِع'], 'uncertain': False}"
+      ]
+    },
+    "cv-96b5bd62180f09ad86f09b39": {
+      "ar": "الْقَلِيل مِنْ",
+      "en": "a little of",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-96fcde2d078efb3106126e4b": {
+      "ar": "أُمَّهَات",
+      "en": "mom",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-981b31786d8c12b6aa1c66f0": {
+      "ar": "مُدَرِّبُونَ",
+      "en": "trainer",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-98311ce8b1d6d98bbfb57736": {
+      "ar": "مِعْطَف",
+      "en": "coat",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-98311e1e7af75e6421640abe": {
+      "ar": "مُنْتَصَف اللَّيْل",
+      "en": "midnight",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-985280dadefe79937b7a0062": {
+      "ar": "اِسْتِقْلال",
+      "en": "boarding / taking transportation",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-98afa14a201fbf8f2a5b8454": {
+      "ar": "أُخْت",
+      "en": "sister",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أُخ",
+        "Audio word mismatch: أُخ"
+      ]
+    },
+    "cv-998877fbfdb20b2afc29794d": {
+      "ar": "سِتُّونَ",
+      "en": "sixty (٦٠)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9993a9686c9bc6c80e281fe0": {
+      "ar": "أَبَارِيق",
+      "en": "pitcher / jug",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-99f0ece01e3576b2dda5f9a3": {
+      "ar": "إِيلَام",
+      "en": "causing pain",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: إيران"
+      ]
+    },
+    "cv-9a14a703fd7970614d9a2539": {
+      "ar": "قَلَم",
+      "en": "pen; pencil",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9a444e9c0bd51a8cbf548731": {
+      "ar": "فِبْرَايِر",
+      "en": "February (Egyptian name)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9a7ca8d429913977be0ac0e1": {
+      "ar": "مَزْح",
+      "en": "joking",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9b40658302ae964d6d4b58a2": {
+      "ar": "فَعَلْتُ",
+      "en": "I did something",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9b5d946a97d1463cebe4331f": {
+      "ar": "قَبْلَ بِضْعِ سَاعَاتٍ",
+      "en": "a few hours ago",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9b65dc1fb5872ad0f7dccffc": {
+      "ar": "كَرَاسِيّ",
+      "en": "chair",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9bb03a923d48b0c13cf9bdbc": {
+      "ar": "آسِف",
+      "en": "sorry",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9bd4e6cf454aace0ee95f3f0": {
+      "ar": "حَلِيب",
+      "en": "milk",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9bf161cba0415c23fb91b08e": {
+      "ar": "نَعَمْ",
+      "en": "yes",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9c196343dd200403d8f0f3da": {
+      "ar": "مُدُن",
+      "en": "city",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: مُدُون"
+      ]
+    },
+    "cv-9c261aa88d698de5ae713e2e": {
+      "ar": "مَدِينَة",
+      "en": "city",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: مدينَ"
+      ]
+    },
+    "cv-9c37378bed79f59280218146": {
+      "ar": "صُدُور",
+      "en": "issuance; publication",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "CalledProcessError",
+        "Audio word mismatch: صُدود"
+      ]
+    },
+    "cv-9c6d6f717b03a35abff45294": {
+      "ar": "لَمْس",
+      "en": "touch",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9c84cc9d655573b4a981c009": {
+      "ar": "يَبْدُو",
+      "en": "it looks / seems",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9d5f1b29f409630543da2e47": {
+      "ar": "أَلْفانِ",
+      "en": "two thousand (٢٠٠٠)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʾalfaan",
+        "Audio word mismatch: الفن"
+      ]
+    },
+    "cv-9d6f390f196ecbab83f3dedb": {
+      "ar": "بِكَمْ",
+      "en": "how much",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-9d8bfbd6eaef1a5e884bd88b": {
+      "ar": "سِمَان",
+      "en": "fat",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-9dac11899f34366f4de9a766": {
+      "ar": "سَاخِنَة",
+      "en": "hot — temperature",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: سافِنا"
+      ]
+    },
+    "cv-9db008704cc7ef2e9cdafeb3": {
+      "ar": "اِسْمُكَ",
+      "en": "your name",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: ismuka",
+        "Audio word mismatch: ismuka"
+      ]
+    },
+    "cv-9e125eae4a25e246243fc718": {
+      "ar": "رَطْبَة",
+      "en": "humid",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: رَطَبَ",
+        "Audio word mismatch: رَطْب"
+      ]
+    },
+    "cv-9eb08bc8f1e625fb241d778f": {
+      "ar": "عَصِير",
+      "en": "juice",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: حسّيت",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-9fc788f22854eea928d7e2f3": {
+      "ar": "جَنُوب",
+      "en": "south",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: جانو"
+      ]
+    },
+    "cv-9ffe279cbb4c526cde37a136": {
+      "ar": "دَرَجَة الْحَرَارَة",
+      "en": "temperature",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a018572da801dfebfb50a0c5": {
+      "ar": "حَمّام",
+      "en": "bath",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a05a7310068dd90cec67f945": {
+      "ar": "نَحِيف",
+      "en": "skinny / thin",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a05f5058a3632c60edb789a8": {
+      "ar": "سَبْعَةَ عَشَرَ",
+      "en": "seventeen (١٧)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʿashar",
+        "Explicitly marked ending not preserved: ʿashar"
+      ]
+    },
+    "cv-a0e1a93e01715a45e79a5a7a": {
+      "ar": "بِالتَّأْكِيدِ",
+      "en": "certainly",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: بِتَّكْتِيرِ",
+        "Explicitly marked ending not preserved: bi-t-taʾkiid"
+      ]
+    },
+    "cv-a0efbb50b38195b2d00138ce": {
+      "ar": "حَفِيدَات",
+      "en": "granddaughter",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a111da70eca6829678f5e214": {
+      "ar": "اِحْتَجْتُ",
+      "en": "I needed",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a1e78c94d4e885b3cc88989c": {
+      "ar": "تَخَصُّص فَرْعِيّ",
+      "en": "minor / secondary specialization",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unclear written long vowel",
+        "Audio word mismatch: التخصص"
+      ]
+    },
+    "cv-a1eaf98621dea8a7d7cc46e9": {
+      "ar": "مِنَ الْمُؤَكَّدِ",
+      "en": "sure / certainly",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Explicitly marked ending not preserved: min"
+      ]
+    },
+    "cv-a2ae927a1c8566284fd4efa9": {
+      "ar": "اِعْتَنِينَ بِأَنْفُسِكُنَّ",
+      "en": "take care of yourself",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: يعتنين",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-a2dc795cb139f02184d2cfc6": {
+      "ar": "سَكَنِيَّة",
+      "en": "residential",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: ساكنيَ",
+        "Audio word mismatch: سكني"
+      ]
+    },
+    "cv-a30f00c04e1d57b1364a71b3": {
+      "ar": "مُبَكِّرًا",
+      "en": "early",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a377960345e33755ef9debf4": {
+      "ar": "سَيِّئَة",
+      "en": "bad",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unwanted taa marbuuta ending: sayyiʾatun",
+        "Audio word mismatch: سيّارة"
+      ]
+    },
+    "cv-a43b1e83e297f0cd8b8f0e0f": {
+      "ar": "عاصِمَة",
+      "en": "capital",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-a55d7f06447be16c40d833b2": {
+      "ar": "طَاوِلَة",
+      "en": "table",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-a655efe5cba11d7f0548834a": {
+      "ar": "أَبْرِيل",
+      "en": "April (Egyptian name)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أبرييل",
+        "Audio word mismatch: أبْرِين"
+      ]
+    },
+    "cv-a674b8a31f062ed621a9bd56": {
+      "ar": "أَغْبِيَاء",
+      "en": "stupid",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أزبياء",
+        "Audio word mismatch: أغدِيَة"
+      ]
+    },
+    "cv-a6983746de9561dcd06da540": {
+      "ar": "سَيَّارَة",
+      "en": "car; automobile",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a6ef1e944736511f6500662c": {
+      "ar": "اِسْتِطاعَة",
+      "en": "ability",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Target phonetic review: {'pass': False, 'issues': ['Final taa marbuuta pronounced with t instead of pausal a'], 'uncertain': False}",
+        "Target phonetic review: {'pass': False, 'issues': ['Added introduction'], 'uncertain': False}"
+      ]
+    },
+    "cv-a725d90a928eed5a623a66d2": {
+      "ar": "مَعَ",
+      "en": "with",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a7284ee99288e01ccbebbe2a": {
+      "ar": "اِسْتَقْلَلْتُ",
+      "en": "I boarded / took transportation",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: استقبلَلتُ",
+        "Audio word mismatch: استقلّتُ"
+      ]
+    },
+    "cv-a77f5eb6aa3fee13f7100745": {
+      "ar": "مِتْرُو الأَنْفَاق",
+      "en": "subway",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: مِتْرُ",
+        "Audio word mismatch: مِترُ"
+      ]
+    },
+    "cv-a78f49d0a76ea05b2a6a19e3": {
+      "ar": "مَثْقُوب",
+      "en": "punctured",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: مَفْقود"
+      ]
+    },
+    "cv-a79386a6070436970bcea7b7": {
+      "ar": "بِجاما",
+      "en": "pajamas",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: بيجاما",
+        "Audio word mismatch: بِجامَ"
+      ]
+    },
+    "cv-a7f3446183ebfe2989f9a2c3": {
+      "ar": "اِلْتِقاء",
+      "en": "I meet / meet up",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a8278c763dbbd9fbd5c06b6f": {
+      "ar": "شُبَّان",
+      "en": "young",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Unwanted final sound: shubbaān"
+      ]
+    },
+    "cv-a8a35d795f4ea9a4ed43f0b8": {
+      "ar": "هَرْوَلْتُ",
+      "en": "I jogged",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a964cdb31f2da3672a298c36": {
+      "ar": "بِشَكْل أَبْطَأ",
+      "en": "more slowly",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unmarked or changed vowel in heard word: بِشَكْلٍ",
+        "Unmarked or changed vowel in heard word: بِشَكْلٍ"
+      ]
+    },
+    "cv-a96bb02e75b7bb833d1e5a6a": {
+      "ar": "السُّؤال",
+      "en": "the question",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: أَسْتُأَذ"
+      ]
+    },
+    "cv-a97a56206b2f45859c656343": {
+      "ar": "حِينَ",
+      "en": "when — linking events",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: حينا",
+        "CalledProcessError"
+      ]
+    },
+    "cv-a9e72f07dee572bfcc8f425d": {
+      "ar": "كُرْسِيّ",
+      "en": "chair",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-a9ef57020e39107be726abc5": {
+      "ar": "أُكَلِّفُ",
+      "en": "I impose a cost / charge",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-a9fd8b44c2c25ca75e9db3f3": {
+      "ar": "حَمَّامَات",
+      "en": "Bathroom",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-aa6632045c55af72fe130f94": {
+      "ar": "أَخْوَال",
+      "en": "maternal uncle",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: أخوان"
+      ]
+    },
+    "cv-aa790baf43fb1693df6fd750": {
+      "ar": "غَسَلْتُ الْمَلابِس",
+      "en": "I washed clothes",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-aa8fff095b2ac9039375c49d": {
+      "ar": "أَتَمَنَّى",
+      "en": "I hope / wish",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-aaf2a4fb11053e929c1752d7": {
+      "ar": "كَلِمَة",
+      "en": "word",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-aaf65ff8848b059d31d29c3b": {
+      "ar": "مِئات",
+      "en": "hundreds",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: مياء",
+        "Audio word mismatch: مِئَة"
+      ]
+    },
+    "cv-ab5b3001a5e9cb2a8d6a3f45": {
+      "ar": "مَتاجِر مُتَعَدِّدَة الْأَقْسام",
+      "en": "department store",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unmarked or changed vowel in heard word: متاجرُ",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-ab76ddc42d8a3c1f84d006c9": {
+      "ar": "سَانْدَوِيتْشَات",
+      "en": "sandwich",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: ساندويچا"
+      ]
+    },
+    "cv-abb7c666f405bc25dca6227c": {
+      "ar": "الزَّوايا",
+      "en": "the corner",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-abc6fa7df9ee78d66370aa36": {
+      "ar": "كِيلُومِتْرات",
+      "en": "kilometers",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ac087de7ca5ccde3a1d74aad": {
+      "ar": "الْحَمَّام",
+      "en": "the restroom",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Unwanted final sound: al-ḥammaam"
+      ]
+    },
+    "cv-ac1af069cc70b32092a52b27": {
+      "ar": "مَعِدَة",
+      "en": "stomach",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: ماعي",
+        "Unwanted taa marbuuta ending: maʿidatun"
+      ]
+    },
+    "cv-ac3a324fc4d63417c1c17de9": {
+      "ar": "أَحْتَاجُ إِلَى",
+      "en": "I need",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ac46a8a86dba43ba789385fa": {
+      "ar": "خَال",
+      "en": "maternal uncle",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: حام",
+        "CalledProcessError"
+      ]
+    },
+    "cv-aca1bca11fc68ebf280fac75": {
+      "ar": "مُدَرِّس",
+      "en": "instructor / teacher",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-acd3f226cb524ff260fc8006": {
+      "ar": "أَطْبَاق",
+      "en": "dish / plate",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: الطّباق"
+      ]
+    },
+    "cv-ad445ff06c5eb3ff34315e50": {
+      "ar": "السَّبْت",
+      "en": "Saturday",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: أَسَّبْتْ"
+      ]
+    },
+    "cv-ad7e1abae79b81bc0d973231": {
+      "ar": "الأَحَد",
+      "en": "Sunday",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-adaec20fba20c1dbae28553f": {
+      "ar": "حَارّ",
+      "en": "hot",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-adbb8d42f8c0fc9823f774df": {
+      "ar": "لَبِسْتُ",
+      "en": "I wore, put on clothes",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ae0c5928d600b00d6c594872": {
+      "ar": "دَعَوْتُ",
+      "en": "I invited",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ae2238d52ff99108da295619": {
+      "ar": "يَمِينًا",
+      "en": "right",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ae281d0b360c37d50de72aee": {
+      "ar": "أَبْقَى",
+      "en": "I remain; stay",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ae3538c184fbb678b9cf2bc8": {
+      "ar": "مَلايِين",
+      "en": "millions",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ae464f349543f57750652473": {
+      "ar": "شِتَاء",
+      "en": "winter",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ae669c62663a39b3c1cb3141": {
+      "ar": "حالُكِ",
+      "en": "your condition",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-ae7f85898a171c2af402ddac": {
+      "ar": "الْيَوْم",
+      "en": "today",
+      "attempts": 0,
+      "status": "reused"
+    },
+    "cv-aeae4dbaf483f09a1eb2fccc": {
+      "ar": "أُصِبْتُ",
+      "en": "I was injured",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أُسِبْتُ",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-aed51450e1c6ec7cbecacd20": {
+      "ar": "السِّعْر",
+      "en": "the price",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: أَسْسَاعَ"
+      ]
+    },
+    "cv-af942f7a52c5712f8054cc65": {
+      "ar": "أَمْزَحُ فَقَطْ",
+      "en": "I am just kidding",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-afab0746857228349ef1c0d3": {
+      "ar": "أَكْوَاب",
+      "en": "glass / cup",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أقوى",
+        "Audio word mismatch: أقوى"
+      ]
+    },
+    "cv-afb5e222c6e622141aa0d729": {
+      "ar": "مَكْسُورَة",
+      "en": "broken",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-afcdb407181dd8fe3426d823": {
+      "ar": "مَفْقُود",
+      "en": "missing",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-afe82ec592fa028360c44f92": {
+      "ar": "شَوْكَات",
+      "en": "fork",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: شوكَ"
+      ]
+    },
+    "cv-b004c42032fee08f1e5971f0": {
+      "ar": "أَغْسِلُ",
+      "en": "I wash something",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: أظن"
+      ]
+    },
+    "cv-b0191f481b127e64a5bb9a5c": {
+      "ar": "اِسْتِرْخَاء",
+      "en": "relaxing / relaxation",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: استراح",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-b09b9da10e31b97f064aab1c": {
+      "ar": "أَذْكِيَاء",
+      "en": "smart",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b0ef2951292c23b9dfb40c52": {
+      "ar": "صَدِيقَة",
+      "en": "friend (feminine)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: صَديقَ",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-b0f36fbd337a113af562cad6": {
+      "ar": "مَواقِع",
+      "en": "site",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b111abccea21c85fc5beaaad": {
+      "ar": "الْوِلايات الْمُتَّحِدَة",
+      "en": "United States",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unwanted final sound: al-wilaayaat",
+        "Unwanted final sound: al-wilaayaat"
+      ]
+    },
+    "cv-b14e22e092aa14b480a87115": {
+      "ar": "قَبْلَ",
+      "en": "before",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: qabl",
+        "Audio word mismatch: قَبْ"
+      ]
+    },
+    "cv-b16a436770efafad20575d61": {
+      "ar": "اِحْتَفَلْتُ",
+      "en": "I celebrated",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b1cacfb81c78b880e20edeaf": {
+      "ar": "يَحْتَوِي",
+      "en": "it contains",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b1d60e905ff482a02e592109": {
+      "ar": "صَغِير",
+      "en": "small; young; junior",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b2f4594d88706c95821e36d0": {
+      "ar": "أُحِبُّ",
+      "en": "I love",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʾuḥibb",
+        "Explicitly marked ending not preserved: ʾuḥibb"
+      ]
+    },
+    "cv-b2fe362b006dbba90e26c6be": {
+      "ar": "مُمْتَلِئَة",
+      "en": "full",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: ممتلئ",
+        "Audio word mismatch: ممتدّة"
+      ]
+    },
+    "cv-b3264e59496fcaece634d1cf": {
+      "ar": "جَوَاز سَفَر",
+      "en": "Passport",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b39f48aaf8d4e48b1af8e1d4": {
+      "ar": "شَابَّات",
+      "en": "young",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: شباب",
+        "Audio word mismatch: شَبّاك"
+      ]
+    },
+    "cv-b3b1788407b29c07a06e2481": {
+      "ar": "سَرَقْتُ",
+      "en": "I stole",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: سرقتُه"
+      ]
+    },
+    "cv-b3b7cd1cc073d8a8d7504d48": {
+      "ar": "أَرْبَعُونَ",
+      "en": "forty (٤٠)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʾarbaʿuun",
+        "Explicitly marked ending not preserved: ʾarbaʿuun"
+      ]
+    },
+    "cv-b3c93f8ac0a22343b3da5bf7": {
+      "ar": "حَامِض",
+      "en": "sour",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: حامِد",
+        "Audio word mismatch: حامد"
+      ]
+    },
+    "cv-b3ccd4ac1222ac8470906d66": {
+      "ar": "مَحَافِظ",
+      "en": "wallet",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b4e32c6b3d4ca70292e77e1b": {
+      "ar": "لِقَاحَات",
+      "en": "vaccine",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: لقاح"
+      ]
+    },
+    "cv-b4f2ee6b522e9b456f8561e9": {
+      "ar": "إِدَارَات الإِطْفَاء",
+      "en": "the fire department",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b59792e993532347273ac886": {
+      "ar": "نَحِيفَات",
+      "en": "skinny / thin",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-b5a0ea8d663da27262780f7a": {
+      "ar": "أَكِيد",
+      "en": "sure / certain",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: أكي"
+      ]
+    },
+    "cv-b5f18d9110f57453e0eadee1": {
+      "ar": "لَوْ سَمَحْتِ",
+      "en": "please (to a man)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unclear written long vowel",
+        "Unclear written long vowel"
+      ]
+    },
+    "cv-b62e7facb775fe47adad0f10": {
+      "ar": "أَنْسَى",
+      "en": "I forget",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b6544b33e04031ddc14db55a": {
+      "ar": "وِشاح",
+      "en": "scarf",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: ويشاء",
+        "Audio word mismatch: ويشاء"
+      ]
+    },
+    "cv-b654f5f755f9a815b726a707": {
+      "ar": "أُهَرْوِلُ",
+      "en": "I jog",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-b6f6d3817dbeb8dcb7f9545f": {
+      "ar": "أَدْعُو",
+      "en": "I invite; call",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: الدُّرُوسُ",
+        "Audio word mismatch: أدّو"
+      ]
+    },
+    "cv-b71daa83ecc8feff87d44b8d": {
+      "ar": "مُعْجَب",
+      "en": "impressed",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: مُعْجَدّ",
+        "Audio word mismatch: مُعْجَم"
+      ]
+    },
+    "cv-b73953cf2420b87fdf09edfe": {
+      "ar": "دِراسَة",
+      "en": "studying",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: دِراسَ",
+        "Audio word mismatch: دِراسَ"
+      ]
+    },
+    "cv-b7f5dcf9e8ef8a9da7be4501": {
+      "ar": "قَرِيب مِنْ",
+      "en": "close to; near",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b801e8e7dd8fe1e5c7c03538": {
+      "ar": "إِنَّهَا",
+      "en": "she / she is (emphatic)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b8157ae98b4045c8a7ea6b23": {
+      "ar": "شَخْصِيَّة",
+      "en": "personality",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b830889518b954b7030035cd": {
+      "ar": "هَدَايَا",
+      "en": "gift",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b8ab7425c6e43964da27a1a7": {
+      "ar": "الشّاطِئ",
+      "en": "the beach",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أشّاطِق",
+        "Audio word mismatch: الشّابّ"
+      ]
+    },
+    "cv-b8c2f7cbe30119e58feb2358": {
+      "ar": "فِكْرَة",
+      "en": "idea",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: فكّر",
+        "Target phonetic review: {'pass': False, 'issues': ['Missing or changed consonant or vowel'], 'uncertain': False}"
+      ]
+    },
+    "cv-b8cfb85de6b1979d1ccfd5bb": {
+      "ar": "زَوَاج",
+      "en": "marriage",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b8d46414a7b8351b45b2eb23": {
+      "ar": "مَحَطَّات",
+      "en": "the station",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b8e7e9a62120292a662911d7": {
+      "ar": "حَفْل",
+      "en": "party ceremony",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-b908307d8f783edca800f9dc": {
+      "ar": "خَصْم",
+      "en": "discount",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: خَصٌّ",
+        "Audio word mismatch: حسنا"
+      ]
+    },
+    "cv-b936860d969e6045ee353ef2": {
+      "ar": "مُفَضَّلَات",
+      "en": "favorite",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: مُفَضَّلَ",
+        "Audio word mismatch: مفضّلة"
+      ]
+    },
+    "cv-b994fe70adb13fe89c64400a": {
+      "ar": "مُرَبَّعات",
+      "en": "square (shape)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-b9beb4df7e8319f446acec61": {
+      "ar": "بِسُرْعَة كَبِيرَة",
+      "en": "fast / at high speed",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unwanted taa marbuuta ending: bi surʿatin",
+        "Unwanted taa marbuuta ending: bisurʿatin"
+      ]
+    },
+    "cv-ba6b4b1f49f4ca0c1d2ec125": {
+      "ar": "أَراكُمْ",
+      "en": "see you",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Unwanted final sound: ʾaraa kum"
+      ]
+    },
+    "cv-baf9d8a0a01b52c67adcf8c7": {
+      "ar": "أَعْرَاس",
+      "en": "Wedding",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أَراس",
+        "Audio word mismatch: أعرص"
+      ]
+    },
+    "cv-bb066f0da8d6cbb9e87247f7": {
+      "ar": "سَيِّدي",
+      "en": "sir",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-bbd75553ba12833ad01c764f": {
+      "ar": "أَذْرُع",
+      "en": "arm",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: الزُّرُق",
+        "Audio word mismatch: أَزْرُعُ"
+      ]
+    },
+    "cv-bbef38f6ec24ea7255cccaaf": {
+      "ar": "ما أَخْبارُكِ؟",
+      "en": "what's up? / what is your news?",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-bbfaae8a6971b68e0952ed38": {
+      "ar": "مَوَاقِف سَيَّارَات",
+      "en": "parking lot",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-bc6ed76cdc7bd4fd5d2f757f": {
+      "ar": "سَعيدات",
+      "en": "happy",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-bc73a89321a20a76091ed4a2": {
+      "ar": "أَرْتَدِي",
+      "en": "I wear",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-bc97dd67cf158b829f145740": {
+      "ar": "إِبْرِيق",
+      "en": "pitcher / jug",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-bcaf68a4c5d013bde85b7465": {
+      "ar": "طُلّاب",
+      "en": "student",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-bcafa164d12c7f72010aa4bb": {
+      "ar": "نُوفَمْبَر",
+      "en": "November",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: نوفنبا"
+      ]
+    },
+    "cv-bcc7fca802b23ebd6dfe8c7d": {
+      "ar": "سَمِينَة",
+      "en": "fat",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: سَمِعْنا",
+        "Audio word mismatch: سميعا"
+      ]
+    },
+    "cv-bccd1253b410c24fcab46281": {
+      "ar": "دَافِئَة",
+      "en": "warm",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: دافِعَ",
+        "Audio word mismatch: دافِع"
+      ]
+    },
+    "cv-bd2180575d301b7162be6103": {
+      "ar": "سَرِقَات",
+      "en": "robbery / theft",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: سأريك",
+        "Audio word mismatch: السَّيِّداتُ"
+      ]
+    },
+    "cv-bd2ef2320064d50400720c09": {
+      "ar": "نِسْيان",
+      "en": "forgetting",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-bd9404029984ca258b4fe713": {
+      "ar": "تَقْرِيبًا",
+      "en": "approximately almost",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-be4c887fd636744abf940d0c": {
+      "ar": "غَادَرْتُ",
+      "en": "I left, departed",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-beca76bfe65031ef24d201d6": {
+      "ar": "لاحِقًا",
+      "en": "later",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-bf12462ebb932024b7224c36": {
+      "ar": "أَلْبَان",
+      "en": "dairy / dairy products",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: الْبَنْ"
+      ]
+    },
+    "cv-bf79797fa8a005627a64fed8": {
+      "ar": "مَكْسُور",
+      "en": "broken",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: مَكْسُو"
+      ]
+    },
+    "cv-bf879ac1fc76f45a0eec9d4e": {
+      "ar": "صَغِيرَة",
+      "en": "small; young; junior",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: صَطِيْيَن",
+        "Audio word mismatch: صغير"
+      ]
+    },
+    "cv-bfbf26c1b2c7adef3bf17004": {
+      "ar": "مَتاجِر بِقالَة",
+      "en": "grocery store",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unmarked or changed vowel in heard word: متاجرُ",
+        "Audio word mismatch: بقالي"
+      ]
+    },
+    "cv-bfef94cb6ad89c980f45d22c": {
+      "ar": "كُلَّمَا",
+      "en": "every time / whenever",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-c03554526dcb6a191db17182": {
+      "ar": "مُفَكِّرَة",
+      "en": "notebook",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: موفّك"
+      ]
+    },
+    "cv-c071f769fd0b07656578ff1f": {
+      "ar": "وِلايات",
+      "en": "states",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: ولاية"
+      ]
+    },
+    "cv-c08195b67425099e1fe8024a": {
+      "ar": "سُعَال",
+      "en": "cough",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: سُعان"
+      ]
+    },
+    "cv-c111da90d9d382f7a3a9acf1": {
+      "ar": "كُرَة اليَد",
+      "en": "handball",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Idaafa word mismatch",
+        "Missing idaafa t or added case vowel"
+      ]
+    },
+    "cv-c1fe1d26ad6481f254693ade": {
+      "ar": "أُمَارِسُ الرِّيَاضَةَ",
+      "en": "I exercise",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Target phonetic review: {'pass': False, 'issues': ['Missing final vowel on الرِّيَاضَةَ'], 'uncertain': False}",
+        "Explicitly marked ending not preserved: ʾumaaris"
+      ]
+    },
+    "cv-c23f7983b1f9f2592e5b6f98": {
+      "ar": "مَرْحَبًا",
+      "en": "hello",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Explicitly marked ending not preserved: marḥaba"
+      ]
+    },
+    "cv-c27bb95689bcd6834afee2a3": {
+      "ar": "إِطَار مَثْقُوب",
+      "en": "flat tire",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Unmarked or changed vowel in heard word: إطارٌ"
+      ]
+    },
+    "cv-c2be7adb62c78ce943085e13": {
+      "ar": "مَشَاكِل",
+      "en": "the problem",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c3a935cd3b59af10a7dc2b1b": {
+      "ar": "أَسْتَدِيرُ",
+      "en": "I turn / turn around",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c444fbd3a830e3316e3e0258": {
+      "ar": "مَشْرُوبَات",
+      "en": "drinks",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c45a3d9a1101cec10ad08c8b": {
+      "ar": "إِرادَة",
+      "en": "wanting / desire",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c462fe041ed4ca45ccf19205": {
+      "ar": "سَبَحْتُ",
+      "en": "I swam",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: sabaḥt",
+        "Audio word mismatch: صباحُ"
+      ]
+    },
+    "cv-c4e4ca4a09d9c8958eab6338": {
+      "ar": "مَيْدان",
+      "en": "square (public square)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c5dbf92189e9d9753cb4d528": {
+      "ar": "ثَمانِيَةَ عَشَرَ",
+      "en": "eighteen (١٨)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʿashar",
+        "Explicitly marked ending not preserved: ʿashar"
+      ]
+    },
+    "cv-c5f440cc8449661fb9be6b44": {
+      "ar": "الذِّكْرَى السَّنَوِيَّة",
+      "en": "anniversary",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c6a83328778d95ca78c714fd": {
+      "ar": "طَعام",
+      "en": "food",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c6ec24ba50ad731427fadaa5": {
+      "ar": "سَراوِيل",
+      "en": "pants",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: سَداوين",
+        "Audio word mismatch: سراوين"
+      ]
+    },
+    "cv-c6febe8cf6491a5cb9ae8ded": {
+      "ar": "حَفِيد",
+      "en": "grandson",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: حَفِيظٌ",
+        "Audio word mismatch: حَفيظ"
+      ]
+    },
+    "cv-c7402c4dab14d012d1b853cb": {
+      "ar": "طَبِيب",
+      "en": "doctor physician",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: بَبِي"
+      ]
+    },
+    "cv-c740f99e603b74bc17097acb": {
+      "ar": "وَسِيمَات",
+      "en": "handsome",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Target phonetic review: {'pass': False, 'issues': ['missing/changed consonant or vowel'], 'uncertain': False}",
+        "Audio word mismatch: وسمعت"
+      ]
+    },
+    "cv-c7566f6623aaa5047925ce72": {
+      "ar": "وَسَط الْمَدِينَة",
+      "en": "downtown",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c782f8aa1bdd24197e15a321": {
+      "ar": "سُتْرَة",
+      "en": "jacket",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: سُتَّ",
+        "Audio word mismatch: سُتَّ"
+      ]
+    },
+    "cv-c7830a051da3c2c99e7a18a4": {
+      "ar": "طَبِيبَة",
+      "en": "doctor physician",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c789a66ef5d3a8aeeef8fd58": {
+      "ar": "أَيَّار",
+      "en": "May (Levant / Iraq name)",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: أَيَّا"
+      ]
+    },
+    "cv-c7b3a848c9a861a0c9298acb": {
+      "ar": "أُسَمَّى",
+      "en": "I am called / named",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: وسمّى",
+        "Audio word mismatch: أُسَمّا"
+      ]
+    },
+    "cv-c80944437f49285f4f5d6ab3": {
+      "ar": "أَحْبَبْتُ",
+      "en": "I liked / loved",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c88c5834f0814251110660e6": {
+      "ar": "سِبْتَمْبَر",
+      "en": "September",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c8ac301368dca249e6566f4d": {
+      "ar": "أَحْفَاد",
+      "en": "grandson",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c8aec24f79aaf91ae58d0752": {
+      "ar": "رَقْم",
+      "en": "number",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: مرحباً",
+        "Audio word mismatch: مرحباً"
+      ]
+    },
+    "cv-c90eb45dc2c171004f7b035e": {
+      "ar": "رِقَاب",
+      "en": "neck",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c92a621dd2859a2683fadfb0": {
+      "ar": "مَسَاءً",
+      "en": "p.m.",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c95ae5e0194df2fd82822a08": {
+      "ar": "أَتَهَجَّى",
+      "en": "I spell",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-c990974352ada0b8d374181f": {
+      "ar": "كُسُور",
+      "en": "break / fracture",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: كوسور"
+      ]
+    },
+    "cv-ca7ded09ae0228e6a564d552": {
+      "ar": "غَرِيبَة",
+      "en": "stranger",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: حَريص"
+      ]
+    },
+    "cv-caabb63cbf0e2d7dd0a31d3e": {
+      "ar": "اِرْتَدَيْتُ",
+      "en": "I wore",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-caae263681c65a104d4d4008": {
+      "ar": "أَقْدَام",
+      "en": "foot",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: أقدَمْ"
+      ]
+    },
+    "cv-caebcdc06bd506044eb6462e": {
+      "ar": "حَارَّة",
+      "en": "hot",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: حار",
+        "Target phonetic review: {'pass': False, 'issues': ['Missing or changed consonant or vowel'], 'uncertain': False}"
+      ]
+    },
+    "cv-cb5b901d0208a2b27a884b2b": {
+      "ar": "مِئَة",
+      "en": "one hundred (١٠٠)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-cb650fc10774be18ac907e5a": {
+      "ar": "بَنْك",
+      "en": "bank",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: بَن",
+        "Audio word mismatch: بَنْدُ"
+      ]
+    },
+    "cv-cbf4e9c9a9e7446adebdc624": {
+      "ar": "زَمِيل السَّكَن",
+      "en": "roommate",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-cc3cae965f00d9b4983a7aff": {
+      "ar": "مَشَيْتُ",
+      "en": "I walked",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-ccc7eecff734e41a4a9fe61b": {
+      "ar": "الْهَنْدَسَة",
+      "en": "engineering",
+      "attempts": 0,
+      "status": "reused"
+    },
+    "cv-ccfca248a82c7e64651448b1": {
+      "ar": "الْمَدْرَسَة الثَّانَوِيَّة",
+      "en": "high school",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-cd6188159ab6e61ce6e3bbf5": {
+      "ar": "اِنْسِدَاد الأَنْف",
+      "en": "stuffy nose / nasal congestion",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Target phonetic review: {'pass': False, 'issues': [\"Unmarked case ending: 'اِنْسِدَاد' should not have a case vowel at the end\"], 'uncertain': False}",
+        "Target phonetic review: {'pass': False, 'issues': [\"Changed final vowel on اِنْسِدَاد (should be pausal 'a', pronounced 'u' instead)\"], 'uncertain': False}"
+      ]
+    },
+    "cv-cd660f16d5dbc981c6731579": {
+      "ar": "كَثْرَة",
+      "en": "abundance / being numerous",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: كَسْرَة",
+        "Unwanted taa marbuuta ending: kathra tun"
+      ]
+    },
+    "cv-cd72ff0a32550b7f5f191862": {
+      "ar": "أَكِيدَة",
+      "en": "sure / certain",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أكيد",
+        "Audio word mismatch: أكيد"
+      ]
+    },
+    "cv-cd763815285900f71918d79b": {
+      "ar": "الْمَرَح",
+      "en": "the fun",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: المرأة"
+      ]
+    },
+    "cv-ce163d824303adf6026c4541": {
+      "ar": "طَبَق",
+      "en": "dish / plate",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: طبع",
+        "Audio word mismatch: طبع"
+      ]
+    },
+    "cv-ce26a40e4a549e8528501445": {
+      "ar": "خَمْسَةَ عَشَرَ",
+      "en": "fifteen (١٥)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʿashar",
+        "Explicitly marked ending not preserved: ʿashar"
+      ]
+    },
+    "cv-ce30eb68915ec39eed8b05be": {
+      "ar": "الشَّمْس",
+      "en": "the sun",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ce87ab3a197a26ad0413f80a": {
+      "ar": "وَصْفَة طِبِّيَّة",
+      "en": "prescription",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unwanted taa marbuuta ending: waṣfatun",
+        "Unwanted taa marbuuta ending: waṣfatun"
+      ]
+    },
+    "cv-cebca331cc164477e08a2bc6": {
+      "ar": "سَيَّارَات إِسْعَاف",
+      "en": "ambulance",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-cfbb294d16f1f09ee6d951c9": {
+      "ar": "شارِع",
+      "en": "street",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-d04c54382e82f3d1ee8befab": {
+      "ar": "إِعَاقَة",
+      "en": "blocking / obstruction",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: إيعاق",
+        "Audio word mismatch: إعادة"
+      ]
+    },
+    "cv-d08574699635f7e1100fe42b": {
+      "ar": "شَاي",
+      "en": "tea",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-d0c9045c49d56ed99c115265": {
+      "ar": "هِيَ",
+      "en": "she",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: hiy",
+        "Audio word mismatch: هيا"
+      ]
+    },
+    "cv-d109a93f6f2654c420105c80": {
+      "ar": "أَعْرَاض",
+      "en": "symptoms",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: أعراب"
+      ]
+    },
+    "cv-d11cd53ea4cd895dbdf53651": {
+      "ar": "دَعْوَة",
+      "en": "invitation",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: داوَ",
+        "Audio word mismatch: داوَ"
+      ]
+    },
+    "cv-d15345516d70835d01f2e83e": {
+      "ar": "كَبَاب",
+      "en": "kebab",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-d1e3e6c277a172360dbeeef8": {
+      "ar": "ثَلاثُونَ",
+      "en": "thirty (٣٠)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: ثلاثُ",
+        "Explicitly marked ending not preserved: thalaathuuna"
+      ]
+    },
+    "cv-d1e5fd0b962a8b545dcc4df0": {
+      "ar": "مُتْعَبَة",
+      "en": "tired",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: مُتَعَب",
+        "Audio word mismatch: مُتَعَب"
+      ]
+    },
+    "cv-d1eee2491ca3cc9dd0b57660": {
+      "ar": "حَزينون",
+      "en": "sad",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: حزينٌ",
+        "Audio word mismatch: حازينون"
+      ]
+    },
+    "cv-d21331ba57fa59e5ed6e4bfb": {
+      "ar": "الْفَصْل",
+      "en": "the season",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Target phonetic review: {'pass': False, 'issues': [\"Missing definite article 'ال'\", \"Missing consonant 'ف'\", \"Missing consonant 'ص'\", \"Missing consonant 'ل'\"], 'uncertain': False}"
+      ]
+    },
+    "cv-d245937cedd1962b17df5047": {
+      "ar": "تِلْكَ",
+      "en": "that (masculine)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-d2e662880bc88a5161544753": {
+      "ar": "قَائِمَة الطَّعَام",
+      "en": "menu",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Missing idaafa t or added case vowel",
+        "Idaafa word mismatch"
+      ]
+    },
+    "cv-d2eee5b5ddfd77a631542b37": {
+      "ar": "ذَكِيَّة",
+      "en": "smart",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: ذَكِيَ",
+        "Audio word mismatch: ذَكِيّ"
+      ]
+    },
+    "cv-d2f9945bc7377b67f094c2e0": {
+      "ar": "بِدَل",
+      "en": "suit",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: بِدَأْ"
+      ]
+    },
+    "cv-d32cbf551f4782552a1e38a0": {
+      "ar": "الْأَفْضَل",
+      "en": "the best",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-d45aee422660f293713a8d3e": {
+      "ar": "الْقِطار",
+      "en": "the train",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-d480d01ad4743198fa01f9c5": {
+      "ar": "أَجْرِي",
+      "en": "I run",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Target phonetic review: {'pass': False, 'issues': ['missing/changed consonant or vowel'], 'uncertain': False}",
+        "Audio word mismatch: أجل"
+      ]
+    },
+    "cv-d4a5b8021682e969f82cb9a2": {
+      "ar": "حَظّ",
+      "en": "luck",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: حافّة"
+      ]
+    },
+    "cv-d4c6c588ab19ae44f29da3a5": {
+      "ar": "اِمْرَأَة إِطْفَاء",
+      "en": "fireman / firefighter",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: اطفا",
+        "Idaafa word mismatch"
+      ]
+    },
+    "cv-d4d648ee699d5337a6bfa5e1": {
+      "ar": "مَارَسْتُ الرِّيَاضَةَ",
+      "en": "I exercised",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Explicitly marked ending not preserved: maarast"
+      ]
+    },
+    "cv-d523a0eb447de323eafb9d47": {
+      "ar": "التُّرْكِيَّة",
+      "en": "Turkish",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-d58b3a7ee1c389662c859c83": {
+      "ar": "جَيِّدات",
+      "en": "good",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: جِيد",
+        "Audio word mismatch: جَيِّدَتْ"
+      ]
+    },
+    "cv-d59128203fbeaba8013907a1": {
+      "ar": "بَيْضَات",
+      "en": "egg",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: بيضاء",
+        "Audio word mismatch: بيباب"
+      ]
+    },
+    "cv-d59235104800ea86da33af46": {
+      "ar": "خُطَّاب",
+      "en": "fiancé",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: خُطّى",
+        "Audio word mismatch: خُطَّة"
+      ]
+    },
+    "cv-d5979ab10dd02ce2f8227846": {
+      "ar": "أَحْسِيَة",
+      "en": "the soup",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: أحسِن"
+      ]
+    },
+    "cv-d5a02b326220843cf71dbc17": {
+      "ar": "التَّمْوِيل",
+      "en": "finance",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: التمويز"
+      ]
+    },
+    "cv-d653a68087de71542bf29e09": {
+      "ar": "مُلاحَظَة",
+      "en": "note",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Target phonetic review: {'pass': False, 'issues': ['missing or changed consonant or vowel'], 'uncertain': False}",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-d6a166069fe2ad8286f209e9": {
+      "ar": "فِي أَيِّ وَقْتٍ؟",
+      "en": "At what time?",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʾayy",
+        "Explicitly marked ending not preserved: ʾayy"
+      ]
+    },
+    "cv-d7329f75882a763c7a8ede55": {
+      "ar": "غُرَبَاء",
+      "en": "stranger",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: هُرَبا",
+        "Audio word mismatch: غُراب"
+      ]
+    },
+    "cv-d7acd543995c12dfe95d8bc5": {
+      "ar": "سُتَر",
+      "en": "jacket",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-d7e3059e0a9635ce1575e6a4": {
+      "ar": "مَتْجَر مُتَعَدِّد الْأَقْسام",
+      "en": "department store",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unmarked or changed vowel in heard word: مُتَعَدِّدُ",
+        "Target phonetic review: {'pass': False, 'issues': [\"Changed vowel in 'مُتَعَدِّد' (final vowel should be kasra, pronounced as damma)\", \"Changed vowel in 'الأقسام' (initial vowel should be fatḥa, pronounced as ḍamma)\"], 'uncertain': False}"
+      ]
+    },
+    "cv-d8729fbda0e8348ade3ffb36": {
+      "ar": "أَغْسِلُ الْمَلابِس",
+      "en": "I wash clothes",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-d9707eb8406483f68c295c2b": {
+      "ar": "لٰكِنْ",
+      "en": "but",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-da5f9ceb38b6c18ec94b1eac": {
+      "ar": "مُدَرِّبَات",
+      "en": "trainer",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-da656aa9e1ab513713d973c8": {
+      "ar": "حالُكَ",
+      "en": "your condition",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: حانُكَ",
+        "Audio word mismatch: هالو"
+      ]
+    },
+    "cv-da95fc31809c29ef16d20cab": {
+      "ar": "أَصْوَات",
+      "en": "vote; voice",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: الصوات"
+      ]
+    },
+    "cv-da97a6cb9179c114f5f17dbf": {
+      "ar": "أُحْضِرُ",
+      "en": "I bring",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʾaḥḍur"
+      ]
+    },
+    "cv-dac28016d710d19440940b1d": {
+      "ar": "الْمُرُور",
+      "en": "the traffic",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-db453be3c018c5b02c571671": {
+      "ar": "قُبَّعَة",
+      "en": "hat",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: أبّا"
+      ]
+    },
+    "cv-db7696accf250cbf685c1f3f": {
+      "ar": "فِي",
+      "en": "in",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-dbb9de0eb61a3cd5b37bbfb7": {
+      "ar": "الْمُشْكِلَة",
+      "en": "the problem",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: المشكِل"
+      ]
+    },
+    "cv-dbc95528e17be174758a30a7": {
+      "ar": "الْعِراق",
+      "en": "Iraq",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-dc49c39bb9fb1ca1cd3a47f8": {
+      "ar": "صَوْت",
+      "en": "vote; voice",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-dc75b2a1c31f139ae4bfcf64": {
+      "ar": "أُرِيدُ",
+      "en": "I want",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-dc8946fc576b69fba049d990": {
+      "ar": "أَنْتُنَّ",
+      "en": "you",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أَنْتُمْ",
+        "Audio word mismatch: أنتُم"
+      ]
+    },
+    "cv-dd0d1f3a34b6f03a636399c0": {
+      "ar": "مَعَكِ حَقّ",
+      "en": "you're right (to a man)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-dd0d7d8606ee0dd6530a5c6e": {
+      "ar": "رِحْلَة",
+      "en": "Trip",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unwanted taa marbuuta ending: riḥlatun",
+        "Audio word mismatch: مرحبا"
+      ]
+    },
+    "cv-dd5056914e709acac6326659": {
+      "ar": "سِبَاحَة",
+      "en": "swimming",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: سِباح",
+        "Audio word mismatch: سِباحَ"
+      ]
+    },
+    "cv-dd5a5ea11e883af05a36dfa0": {
+      "ar": "لَيْلَةٌ سَعيدةٌ",
+      "en": "good night",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Explicitly marked ending not preserved: saʿiidat"
+      ]
+    },
+    "cv-dd9d9c62123bf069816a4cd2": {
+      "ar": "دُبَيّ",
+      "en": "Dubai",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Unclear written long vowel",
+        "Unclear written long vowel"
+      ]
+    },
+    "cv-de84af2987bf4dc7cb46e25f": {
+      "ar": "كَيْفَ حالُكَ؟",
+      "en": "how are you?",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ḥaalk",
+        "Explicitly marked ending not preserved: ḥaalk"
+      ]
+    },
+    "cv-de8646f44bafb95ddb585e88": {
+      "ar": "غَسَلْتُ",
+      "en": "I washed something",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-df04822d5f3dea45a8bc6229": {
+      "ar": "حَوْلَ",
+      "en": "around",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-df180f83386f234065f7b45d": {
+      "ar": "إِنْفِلُوَنْزَا",
+      "en": "influenza",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-df4dc1990e9ebd7c1736d6bc": {
+      "ar": "رَائِعُون",
+      "en": "great / excellent",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: رائعٌ",
+        "Audio word mismatch: رائعٌ"
+      ]
+    },
+    "cv-dfba02b3a590dfabeb453235": {
+      "ar": "رَائِع",
+      "en": "great / excellent",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e025ece9c73ca0b675d1cda6": {
+      "ar": "قَلِيلًا",
+      "en": "a little / not much",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e03ee26da857fe19c93a9dc8": {
+      "ar": "أَنَّ",
+      "en": "that; the fact that",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-e065368d77952e61da978124": {
+      "ar": "الإِجابَة",
+      "en": "the answer",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e0f7b60577e9f513e58fc9a9": {
+      "ar": "مُرْهِقَة",
+      "en": "tiring",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: مرحباً",
+        "Audio word mismatch: مُرْحِبا"
+      ]
+    },
+    "cv-e11ab137bca6f5555b0eaa34": {
+      "ar": "تَمَشَّيْتُ مَسَافَةً طَوِيلَةً",
+      "en": "I took a long walk",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e147f867071e59ea6382be2d": {
+      "ar": "كَيْفَ حالُكِ؟",
+      "en": "how are you?",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: kayfa",
+        "Explicitly marked ending not preserved: ḥaalk"
+      ]
+    },
+    "cv-e1e6f843d06691435203fc7d": {
+      "ar": "وُلِدْتُ",
+      "en": "I was born",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Explicitly marked ending not preserved: wulidtu"
+      ]
+    },
+    "cv-e210c17ec28e482ced35976a": {
+      "ar": "هَادِئَة",
+      "en": "quiet",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: هذه",
+        "Audio word mismatch: هٰذِهِ"
+      ]
+    },
+    "cv-e272088bea8412d4ffac9123": {
+      "ar": "بِدَل سِباحَة",
+      "en": "bathing suit",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: السِّبَاحَة",
+        "Audio word mismatch: دِدَلْ"
+      ]
+    },
+    "cv-e35d2ed361973d8260b02bbe": {
+      "ar": "بَارِدَة",
+      "en": "cold",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: باري",
+        "Audio word mismatch: بَارِدٌ"
+      ]
+    },
+    "cv-e385ebeb236569fbe2548fa0": {
+      "ar": "أَراكِ",
+      "en": "see you",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: أراكي"
+      ]
+    },
+    "cv-e3dce9413cbdd4301a6964b3": {
+      "ar": "تَبِعْتُ",
+      "en": "I followed",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: تابعتُ"
+      ]
+    },
+    "cv-e4ceb6daef5dd2fddb3e8cb6": {
+      "ar": "إِيران",
+      "en": "Iran",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e4d5c1ac98c3eef3de7c7b07": {
+      "ar": "حَدَث",
+      "en": "event",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: حَدَ"
+      ]
+    },
+    "cv-e5333093665a74a956266d73": {
+      "ar": "طَرِيفَات",
+      "en": "funny / amusing",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e5558d178a0fc11622733081": {
+      "ar": "تَمَنٍّ",
+      "en": "hoping / wishing",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: taman",
+        "Audio word mismatch: تمنّي"
+      ]
+    },
+    "cv-e58f52eeb7baa112b5eb033b": {
+      "ar": "يُكَلِّفُ",
+      "en": "costs",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e5aacb680b7705fea5b393dd": {
+      "ar": "نَبَاتِيَّة",
+      "en": "vegetarian",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: نباتي"
+      ]
+    },
+    "cv-e5f31d0f3d7098204b715242": {
+      "ar": "رَائِعَات",
+      "en": "great / excellent",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-e5fe8c8c754d4a819475f269": {
+      "ar": "مَذَاق",
+      "en": "taste / flavor",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: ماذا",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-e64fe6635228ce407545f2ca": {
+      "ar": "دِيسَمْبَر",
+      "en": "December",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-e67c3bee2dcf804ff7a4e254": {
+      "ar": "مَثْقُوبَة",
+      "en": "punctured",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: مَثْعُوبَ",
+        "Audio word mismatch: مَثْقوبَ"
+      ]
+    },
+    "cv-e6f61fcfff56be2a1b24a425": {
+      "ar": "مُشْمِسَة",
+      "en": "sunny",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-e6fcab4b5ef4f1dc0ae6c5fc": {
+      "ar": "سَيِّئ",
+      "en": "bad",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: سَيِّء",
+        "Audio word mismatch: سَيِّب"
+      ]
+    },
+    "cv-e73fe21e110a0a4075062755": {
+      "ar": "رَقَبَة",
+      "en": "neck",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e7407fbdb905158c041fe8fe": {
+      "ar": "الْمَدارِس الثَّانَوِيَّة",
+      "en": "high school",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Unmarked or changed vowel in heard word: المدارسُ"
+      ]
+    },
+    "cv-e788561e8dbb431b3c9caed2": {
+      "ar": "سِكِّين",
+      "en": "knife",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e7d529d8301e4f0b35796cb9": {
+      "ar": "إِحْضَار",
+      "en": "bringing",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e80f613faf764fea1c819d76": {
+      "ar": "زُمَلَاء السَّكَن",
+      "en": "roommate",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e81d11cdb9d9e3d30912f9e5": {
+      "ar": "مَشْي",
+      "en": "walking",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: مش"
+      ]
+    },
+    "cv-e82b69fa4cdb755c1a471ff5": {
+      "ar": "طَرِيف",
+      "en": "funny / amusing",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: باريس"
+      ]
+    },
+    "cv-e86f58759926f52098c9e14d": {
+      "ar": "إِخْوَة",
+      "en": "brother",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: إخ",
+        "Audio word mismatch: إفوة"
+      ]
+    },
+    "cv-e8ae682b05e675648a0f51b8": {
+      "ar": "هاتِف",
+      "en": "phone",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "TimeoutError",
+        "Audio word mismatch: حَتِف"
+      ]
+    },
+    "cv-e919906fc1781f02b163e001": {
+      "ar": "جَيِّدَة",
+      "en": "good",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: جَيِّد",
+        "Audio word mismatch: جيد"
+      ]
+    },
+    "cv-e922e0c832a74e63da3b6cfe": {
+      "ar": "كِبَار",
+      "en": "big; senior; high-ranking",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: طيّبًا"
+      ]
+    },
+    "cv-e96f00af3453a4a8127a9a58": {
+      "ar": "جَرْي",
+      "en": "running",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: جدي",
+        "Audio word mismatch: جاري"
+      ]
+    },
+    "cv-e9a142a4ea22891976c556a1": {
+      "ar": "كَلَّفْتُ",
+      "en": "I impose a cost / charge",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e9a4b4afee5b50874f38c863": {
+      "ar": "أَراكَ",
+      "en": "see you",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: أراكي"
+      ]
+    },
+    "cv-e9c5c523aab812f4d919fd0b": {
+      "ar": "سِيقَان",
+      "en": "leg",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-e9e43aadc73373ed3916e544": {
+      "ar": "أُقَابِلُ",
+      "en": "I meet",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-e9ea8361739e0366e51fea3f": {
+      "ar": "تُرْكِيا",
+      "en": "Turkey",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ea2993e7dbc192fd8f0f3d2e": {
+      "ar": "حَمَّام إِفْرَنْجِيّ",
+      "en": "western style restroom",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: إسبَنجِي"
+      ]
+    },
+    "cv-ea9c6c2699c070e26a619fa5": {
+      "ar": "عُلْبَة",
+      "en": "a can",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: أريد",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-ea9cfa3c6239273c5dd96183": {
+      "ar": "رَوَائِح",
+      "en": "a smell",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-eae8ffbc606b22063595783b": {
+      "ar": "اِسْمي",
+      "en": "my name",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-eb0ae5dc19f9b1a556592184": {
+      "ar": "الْأُرْدُنّ",
+      "en": "Jordan",
+      "attempts": 0,
+      "status": "reused"
+    },
+    "cv-eb0fb1018b05cddac17fcb47": {
+      "ar": "أَمْيال",
+      "en": "miles",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-ec3962d2262da574489e7ac8": {
+      "ar": "رَائِعَة",
+      "en": "great / excellent",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: رأى",
+        "Audio word mismatch: رأيتُ"
+      ]
+    },
+    "cv-ed28cec472fb7b601b2efbaf": {
+      "ar": "اِثْنانِ",
+      "en": "two (٢)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: إسناد",
+        "Explicitly marked ending not preserved: ʾithnaan"
+      ]
+    },
+    "cv-ed3e0111882094afb7d687c7": {
+      "ar": "قَصِيرَة",
+      "en": "short",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: qaṣīra"
+      ]
+    },
+    "cv-ed5d26ac0efa8d674b1d432a": {
+      "ar": "غَبِيّ",
+      "en": "stupid",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: غريب",
+        "Unclear written long vowel"
+      ]
+    },
+    "cv-ed6e4b1831a02ea3e4a1fe85": {
+      "ar": "جَائِع",
+      "en": "hungry",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: جاء",
+        "Audio word mismatch: جاءَ"
+      ]
+    },
+    "cv-ed81b1f934ad0abfd25d3a00": {
+      "ar": "مُتْعَبُونَ",
+      "en": "tired",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: mutʿabūn",
+        "Explicitly marked ending not preserved: mutʿabuun"
+      ]
+    },
+    "cv-edbbc6437073df7bd68f78ca": {
+      "ar": "كَانُون الأَوَّل",
+      "en": "December (Levant / Iraq name)",
+      "attempts": 0,
+      "status": "reused"
+    },
+    "cv-edca600213364172378e8a97": {
+      "ar": "حَامِضَة",
+      "en": "sour",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: حامِدَ",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-ee87c0217b27834267cff47d": {
+      "ar": "ثَمانِيَة",
+      "en": "eight (٨)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ee970d81e10e8b6bc337b0d9": {
+      "ar": "جُوع",
+      "en": "hunger",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-eef8052a4380cf22d535c596": {
+      "ar": "خَطِيب",
+      "en": "fiancé",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-ef1076993b253eb54828da6e": {
+      "ar": "أَعِيشُ فِي",
+      "en": "I live in",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: عَي",
+        "Audio word mismatch: أييي"
+      ]
+    },
+    "cv-ef209975c35a86a0d6689da1": {
+      "ar": "مَرِحْتُ",
+      "en": "I enjoyed myself / had fun",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: mariḥtu",
+        "Audio word mismatch: مَرْحَبْ"
+      ]
+    },
+    "cv-ef5240789c52c60cec006fa7": {
+      "ar": "غُلُوتِين",
+      "en": "gluten",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: رولوتين",
+        "Audio word mismatch: فولوتين"
+      ]
+    },
+    "cv-ef8d4ad0dfb88c20af2a49b1": {
+      "ar": "ذَكِيَّات",
+      "en": "smart",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-efe3b26732ee998e438e8773": {
+      "ar": "أَنْعَطِفُ",
+      "en": "I turn",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-f00b6af04dd52ac5ebf036fc": {
+      "ar": "مَشْرُوب",
+      "en": "a drink",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: مَشْرُوط",
+        "Audio word mismatch: مَشْرُوع"
+      ]
+    },
+    "cv-f00b9020e49835112b6bcb66": {
+      "ar": "الْفارِسِيَّة",
+      "en": "Persian / Farsi",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f0382cb08137546b7318fd13": {
+      "ar": "عَظِيمَة",
+      "en": "Great",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: عظيم",
+        "Audio word mismatch: أظن"
+      ]
+    },
+    "cv-f0c0433a9798568279144e8b": {
+      "ar": "سَعيدة",
+      "en": "happy",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f10f36ce259e5993a9b6f003": {
+      "ar": "نِحَاف",
+      "en": "skinny / thin",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: نِحا"
+      ]
+    },
+    "cv-f132d51db4f9470cbb1ebe07": {
+      "ar": "كَبِير",
+      "en": "big; senior; high-ranking",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f18f335c6e038b62021e29cc": {
+      "ar": "هُنَّ",
+      "en": "they",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f1957bc3dbcc511d973e89fd": {
+      "ar": "ذَكِيّ",
+      "en": "smart",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f19bd2cc74681cb06732309e": {
+      "ar": "بَدْلَة",
+      "en": "suit",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: بَدْلَ",
+        "Audio word mismatch: بَدْلَ"
+      ]
+    },
+    "cv-f1cb3058f7fd8b07802f1b23": {
+      "ar": "إِصَابَة",
+      "en": "injury",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f1de01a6a5ab0e39c064748d": {
+      "ar": "أُكْتُوبَر",
+      "en": "October",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f243a347bcd06326703c4f48": {
+      "ar": "هُنَاكَ",
+      "en": "there",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f27c29d15a97fc0353b97a6f": {
+      "ar": "خَمْسُونَ",
+      "en": "fifty (٥٠)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: khamsuun",
+        "Audio word mismatch: خمسو"
+      ]
+    },
+    "cv-f2ac3f9dae79297d3efbf0e6": {
+      "ar": "مَايُو",
+      "en": "May (Egyptian name)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: نايُ",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-f30c95679d5be7ee9d50298f": {
+      "ar": "بِالذَّهَاب",
+      "en": "going (with bi-)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f37f092ac3114c8e077dde37": {
+      "ar": "ذِرَاع",
+      "en": "arm",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f37f4a93ea1a7b788788d6b1": {
+      "ar": "رَجاءً",
+      "en": "please",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: حسناً"
+      ]
+    },
+    "cv-f3c51f26c411eef9af787181": {
+      "ar": "سَعِدْتُ بِلِقائِكِ",
+      "en": "nice to meet you",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: سأَكْتُبُ"
+      ]
+    },
+    "cv-f3e3408ad6fd257807d1ace2": {
+      "ar": "أَغُسْطُس",
+      "en": "August",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-f3eb3a84e747825d235d1c1a": {
+      "ar": "فُول سُودَانِيّ",
+      "en": "peanuts",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: فون",
+        "Audio word mismatch: طول"
+      ]
+    },
+    "cv-f4aa0942df3693e094b2ac0f": {
+      "ar": "يَنَايِر",
+      "en": "January (Egyptian name)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-f4d450c85c25b4506eea470c": {
+      "ar": "مِلْيُون",
+      "en": "million (١٠٠٠٠٠٠)",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f4df374a86102e57b36ec3e7": {
+      "ar": "هَادِئ",
+      "en": "quiet",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-f5fc97677f618a5f20f9fc5a": {
+      "ar": "يُولْيُو",
+      "en": "July",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: يُولُو",
+        "Audio word mismatch: يولي"
+      ]
+    },
+    "cv-f665f4564e350b312a457ab1": {
+      "ar": "تَكْلِيف",
+      "en": "costing",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-f6735fc50465f67fa71286bb": {
+      "ar": "فَقَدْتُ",
+      "en": "I lost",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: فقد",
+        "Audio word mismatch: فقد"
+      ]
+    },
+    "cv-f678a8b5e2249db44e8651bb": {
+      "ar": "أَمْزَحُ",
+      "en": "I am kidding",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-f81d35c6cb10dd2e841e1540": {
+      "ar": "كَثُرَ",
+      "en": "increases / becomes more numerous",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: كَثُورَ",
+        "Audio word mismatch: كفوا"
+      ]
+    },
+    "cv-f844d56788d50d0b0760af3e": {
+      "ar": "التَّعْلِيم",
+      "en": "education",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f873bc688e7d0c859bd3d2e1": {
+      "ar": "أُصَابُ",
+      "en": "I am injured / get injured",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f8b06646b38f0eac4ebecb20": {
+      "ar": "مُدَرِّب",
+      "en": "trainer",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f8f916ccb9af02b8dd6cc18c": {
+      "ar": "ساعَة",
+      "en": "hour",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: سَع",
+        "Audio word mismatch: سا"
+      ]
+    },
+    "cv-f9085efb7ca24a2cfc10ae26": {
+      "ar": "مَزَحْتُ",
+      "en": "I was kidding / joked",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f90db6e7f9249eb73b2964d1": {
+      "ar": "عُطْلَة نِهَايَة الأُسْبُوع",
+      "en": "weekend",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Idaafa word mismatch",
+        "Missing idaafa t or added case vowel"
+      ]
+    },
+    "cv-f951312c76a798a1d44ad141": {
+      "ar": "أَسْتَطِيعُ",
+      "en": "I can",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʾastaṭiiʿ",
+        "Explicitly marked ending not preserved: ʾastaṭiiʿ"
+      ]
+    },
+    "cv-f9731a4c6c4ee17a012133c4": {
+      "ar": "قَدَّمْتُ",
+      "en": "I presented, offered",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Target phonetic review: {'pass': False, 'issues': ['missing/changed consonant or vowel'], 'uncertain': False}",
+        "Audio word mismatch: أَدَّمْتُ"
+      ]
+    },
+    "cv-f982bae987e56c7ed1b0a1f2": {
+      "ar": "مُشْمِسَات",
+      "en": "sunny",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-f99baa9b41be48663026806a": {
+      "ar": "هُنَا",
+      "en": "here",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f9af6da20107a700ce16d136": {
+      "ar": "اِلْتَقَيْتُ",
+      "en": "I meet / meet up",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f9bbf27dfc58b75f963595cc": {
+      "ar": "صَبَاحًا",
+      "en": "a.m.",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f9dbb5cfee456d1c3a01873a": {
+      "ar": "فِي الْوَقْت الْحالِيّ",
+      "en": "for now",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-f9e8bc82ecff7c1ad4b1dbf9": {
+      "ar": "هٰذَا الأُسْبُوعَ",
+      "en": "this week",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: alʾusbuuʿ",
+        "Explicitly marked ending not preserved: alʾusbuuʿ"
+      ]
+    },
+    "cv-fa073b9dd35679ed0fb17c8f": {
+      "ar": "تَعَلُّم",
+      "en": "learning",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-fadd6228cac03c3128265932": {
+      "ar": "أَمْر",
+      "en": "matter; affair",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Audio word mismatch: أم"
+      ]
+    },
+    "cv-fb23608c448368663230d3de": {
+      "ar": "أَسْتَرْخِي",
+      "en": "I relax",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-fb2e3eba967a75750ff32694": {
+      "ar": "وَالِدَان",
+      "en": "parents",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-fb5a9b1c9323ab892bafc9e9": {
+      "ar": "عِشْرُونَ",
+      "en": "twenty (٢٠)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʿishruun",
+        "Explicitly marked ending not preserved: ʿishruun"
+      ]
+    },
+    "cv-fb837d40014734d4bb9e2de0": {
+      "ar": "أَحْضَرْتُ لِ",
+      "en": "I brought to / for",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: زِي",
+        "Audio word mismatch: لي"
+      ]
+    },
+    "cv-fbcbdbeeb8656dc7ca5dc652": {
+      "ar": "أَيْلُول",
+      "en": "September (Levant / Iraq name)",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-fbf4a00d622230dc317c212e": {
+      "ar": "رُؤُوس",
+      "en": "head",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Audio word mismatch: رؤوف"
+      ]
+    },
+    "cv-fbf917574cd21263978e0935": {
+      "ar": "أُذُن",
+      "en": "ear",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: وضعنا",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-fc0292f9cfc86b200e96eab4": {
+      "ar": "سَيِّدات",
+      "en": "ma’am",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-fc15763fd52fe39bc5dc7a89": {
+      "ar": "مَقَاهٍ",
+      "en": "café",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-fc43ae7bd2b47ef86b5b15b2": {
+      "ar": "جَدِيد",
+      "en": "new",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: جدي",
+        "CalledProcessError"
+      ]
+    },
+    "cv-fcb4784f5c3f9ec2bd7278ff": {
+      "ar": "خَرِيطَة",
+      "en": "map",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: خَريج",
+        "Target phonetic review: {'pass': False, 'issues': [\"Missing final vowel 'a' on taa marbuuta\"], 'uncertain': False}"
+      ]
+    },
+    "cv-fcc174e7b28d0c92da65d4a1": {
+      "ar": "حَفَلَات شِوَاء",
+      "en": "barbecue / barbecue party",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Audio word mismatch: الشواء",
+        "Audio word mismatch: شِعُر"
+      ]
+    },
+    "cv-fd80d81e1574285d1eabb1a5": {
+      "ar": "أَثْناءَ",
+      "en": "during",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: ʾathnaaʾ",
+        "Explicitly marked ending not preserved: ʾathnaaʾ"
+      ]
+    },
+    "cv-fde28cb73d887beeff03965c": {
+      "ar": "التِّجارَة",
+      "en": "business / commerce / trade",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words",
+        "Target phonetic review: {'pass': False, 'issues': ['Missing or changed consonant or vowel'], 'uncertain': False}"
+      ]
+    },
+    "cv-fe038169e59f915663fe96e9": {
+      "ar": "أَعْطَيْتُ",
+      "en": "I gave",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Target phonetic review: {'pass': False, 'issues': ['Changed consonant or vowel'], 'uncertain': False}"
+      ]
+    },
+    "cv-fe27e5bd555017d5dabe817d": {
+      "ar": "نَسِيتُ",
+      "en": "I forgot",
+      "attempts": 2,
+      "status": "unresolved",
+      "rejections": [
+        "Explicitly marked ending not preserved: nasiit",
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-fe2a3c44e8951a0b5422f82e": {
+      "ar": "شَمال",
+      "en": "north",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-fe2e347ba9052ce165b98918": {
+      "ar": "طَرِيفَة",
+      "en": "funny / amusing",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-fe4a84206e18f34224a15bcd": {
+      "ar": "دَوَاء",
+      "en": "medicine",
+      "attempts": 1,
+      "status": "accepted"
+    },
+    "cv-fe5c4ece408ad56734ea4285": {
+      "ar": "صُويَا",
+      "en": "soy",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    },
+    "cv-fee6694be3d0a50ea42b560a": {
+      "ar": "هٰذِهِ",
+      "en": "this",
+      "attempts": 2,
+      "status": "accepted",
+      "rejections": [
+        "Uncertain, extra, missing or repeated words"
+      ]
+    }
+  },
+  "method": "Missing only; silence trim; blind word/ending review plus separate targeted phonetic review. Automated checks, not human certification.",
+  "accepted": 229,
+  "reused": 4,
+  "unresolved": 187,
+  "existingAudioUnchanged": true,
+  "publicationNote": "One unreferenced pre-existing audio filename was restored; the accepted new recording uses a separate filename. No existing audio was replaced."
+}
