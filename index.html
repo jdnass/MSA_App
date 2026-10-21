@@ -39,16 +39,10 @@
 .list-meaning{display:flex;align-items:center;gap:4px}.list-grammar-note{flex-shrink:0;border:0;background:transparent;color:#d32626;font-size:1.4rem;font-weight:900;padding:5px;cursor:pointer}
 .practice-model{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 8px;margin:12px 0 16px}.practice-model h4{margin:0 0 6px;color:var(--blue);font-size:.8rem}.practice-model>.list-en{margin-bottom:8px}.practice-model .practice-columns{margin-top:5px}
 
-    /* Grammar lessons use orange surfaces; Arabic affix highlighting stays red. */
-    .row.grammar-lesson,.overview.grammar-lesson{background:#fff3e2;border-color:#f1c991}
+    /* Orange identifies the grammar entry bar; study and overview surfaces retain their blue theme. */
+    .row.grammar-lesson{background:#fff3e2;border-color:#f1c991}
     .row.grammar-lesson strong{color:#8d420b}
     .row.grammar-lesson .row-icon{background:#ffe5c1;color:#8d420b}
-    .grammar-card,.grammar-card .study-main{background:#fff8ed}
-    .grammar-card .grammar-kicker,.grammar-card .grammar-section{color:#a6500d}
-    .grammar-card .grammar-example,.grammar-card .grammar-term,.grammar-card .grammar-pattern{background:#ffecd2;color:#673710}
-    .grammar-card .grammar-table th{background:#ffe5c1;color:#673710}
-    .grammar-card .conjugation-table{border-color:#eac99c}
-    .grammar-card .conjugation-table td{border-color:#eac99c}
 </style>
 </head>
 <body>
@@ -73,6 +67,7 @@
 <script src="./cedar-vocab-audio.js?v=92"></script>
 <script src="./cooking-module.js?v=93"></script>
 <script src="./module-grammar.js?v=94"></script>
+<script src="./currency-counting.js?v=95"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -1930,6 +1925,7 @@ for(const chapter of Object.values(mosaModulesDraft.chapters)){
 
 window.MOSA_APPLY_COOKING(mosaModulesDraft);
 window.MOSA_APPLY_MODULE_GRAMMAR(mosaModulesDraft,COLLECTIONS.find(c=>c.id==='alkitaab1'));
+window.MOSA_APPLY_CURRENCY_COUNTING(mosaModulesDraft);
 
 const ALL_V=[...uniqueVocabulary([...Object.values(CHAPTERS).flatMap(chapter=>chapter.vocab),...MANGO_V1,...DLI_ALL_V],true),...MANGO_V2,...MANGO_V3,...ALIF_BAA_CARDS,...MADINA_BOOK1_CARDS,...AK2_ALL_V,...Object.values(window.MANGO_ADDITIONAL_CHAPTERS).flatMap(chapter=>chapter.vocab),...Object.values(COLLECTIONS.find(c=>c.id==='mosa-modules').chapters).flatMap(c=>c.vocab),...MADINA_BOOK2_CARDS];
 // Vocabulary grammar comments shared by lesson cards and the vocabulary list.
