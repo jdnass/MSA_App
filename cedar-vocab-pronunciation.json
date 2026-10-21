@@ -637,7 +637,7 @@
     "verify_audio": true
   },
   "cv-6461b389aba66a446e5e05b0": {
-    "revision": "literal-speech-acoustic-1",
+    "revision": "flagged-29-v1",
     "generation_engine": "speech",
     "generation_model": "gpt-4o-mini-tts",
     "repair_priority": false,
@@ -952,7 +952,7 @@
     "verify_audio": true
   },
   "cv-af835dba4a4ad94f1572c4cf": {
-    "revision": "literal-speech-acoustic-1",
+    "revision": "flagged-29-v1",
     "generation_engine": "speech",
     "generation_model": "gpt-4o-mini-tts",
     "repair_priority": false,
@@ -1236,6 +1236,88 @@
     "generation_engine": "speech",
     "generation_model": "gpt-4o-mini-tts",
     "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-549493b467f4b40b0746206a": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-3bba6b2f68f6a7dfaf2f9aa3": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-2b2d222ee21a68a55b4a62e6": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-realtime-2.1-mini"
+  },
+  "cv-25057c3d68a6fc2a3ceaa995": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-a9e087eff2ba918c91bd88e0": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-9e0ba613800b460da16cc262": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-b7af7420ee938a1413bb56da": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-99a40b698d708528f6ef3371": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-bdab62a94540044cfd94220c": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-101c54f99df7c37becc0a0d4": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-699f92ebe35082fd9893cc90": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-d5339808c6706b6acc90b040": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-f41e819eae9de6e7a73ef4f8": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
+    "verify_audio": true
+  },
+  "cv-82e16c3b45b0cf9e354ecae6": {
+    "revision": "flagged-29-v1",
+    "generation_model": "gpt-4o-mini-tts",
+    "generation_engine": "speech",
     "verify_audio": true
   }
 }
