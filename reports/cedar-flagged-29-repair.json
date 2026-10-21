@@ -1,0 +1,886 @@
+{
+  "batch": "flagged-29-v1",
+  "selected": 29,
+  "maxGenerationAttemptsPerEntry": 2,
+  "maxSpeechRequests": 56,
+  "maxAudioReviewRequests": 56,
+  "speechRequests": 50,
+  "audioReviewRequests": 49,
+  "speechAudioSeconds": 57.336000000000006,
+  "reviewUsage": {
+    "prompt_tokens": 19924,
+    "completion_tokens": 2758,
+    "total_tokens": 22682
+  },
+  "entries": {
+    "cv-af835dba4a4ad94f1572c4cf": {
+      "label": "business administration",
+      "ar": "إِدارة الأَعْمال",
+      "status": "accepted",
+      "attempts": 2,
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Unwanted taa marbuuta ending: ʾidaarat-i",
+          "review": {
+            "heard_arabic": "إدارةِ الأعمال",
+            "word_endings": [
+              {
+                "word_arabic": "إدارةِ",
+                "phonetic": "ʾidaarat-i",
+                "ending": "i"
+              },
+              {
+                "word_arabic": "الأعمال",
+                "phonetic": "al-ʾaʿmaal",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ],
+      "audioSHA256": "0b58fc7ec9ac2f0d42bfa272a5e92ae25fa5b2524f1e1269d74791c13c151046",
+      "seconds": 1.392
+    },
+    "cv-549493b467f4b40b0746206a": {
+      "label": "government",
+      "ar": "حُكومَة",
+      "status": "accepted",
+      "attempts": 2,
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio reviewer uncertain",
+          "review": {
+            "heard_arabic": "حُكومَ",
+            "word_endings": [
+              {
+                "word_arabic": "حُكومَ",
+                "phonetic": "ḥukuuma",
+                "ending": "a"
+              }
+            ],
+            "uncertain": true
+          }
+        }
+      ],
+      "audioSHA256": "9687a9f96533b8fb61efe36e746734afc4e7dfa7d17a13123e6685c8eba5a0d3",
+      "seconds": 1.008
+    },
+    "cv-8fd1687166172cba8fa089ff": {
+      "label": "I enjoy",
+      "ar": "أَسْتَمْتِعُ بِ",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio word mismatch: بهِ",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: به",
+          "review": {
+            "heard_arabic": "أستمتعُ به",
+            "word_endings": [
+              {
+                "word_arabic": "أستمتعُ",
+                "phonetic": "ʾastamtiʿu",
+                "ending": "u"
+              },
+              {
+                "word_arabic": "به",
+                "phonetic": "bihi",
+                "ending": "i"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio word mismatch: بهِ",
+          "review": {
+            "heard_arabic": "أستمتعُ بهِ",
+            "word_endings": [
+              {
+                "word_arabic": "أستمتعُ",
+                "phonetic": "ʾastamtiʿu",
+                "ending": "u"
+              },
+              {
+                "word_arabic": "بهِ",
+                "phonetic": "bihi",
+                "ending": "i"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-3bba6b2f68f6a7dfaf2f9aa3": {
+      "label": "boring",
+      "ar": "مُمِلّ",
+      "status": "accepted",
+      "attempts": 1,
+      "audioSHA256": "7b8551737f94f04cab33beafef8a75a80b1d3d67ee2e75a49d721540b83c6c54",
+      "seconds": 0.792
+    },
+    "cv-2b2d222ee21a68a55b4a62e6": {
+      "label": "king",
+      "ar": "مَلِك",
+      "status": "trimmed",
+      "attempts": 0,
+      "audioSHA256": "1bb22600c9bf943b13545df3c2167529a94bdec65ebe86689622c991ab43a44e",
+      "seconds": 0.744
+    },
+    "cv-25057c3d68a6fc2a3ceaa995": {
+      "label": "since; ago",
+      "ar": "مُنْذُ",
+      "status": "accepted",
+      "attempts": 2,
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "CalledProcessError",
+          "review": null
+        }
+      ],
+      "audioSHA256": "8ec620794552f96562a8d8cde18a941178123f6abb2e6b76389cb6d3a9ec659a",
+      "seconds": 0.816
+    },
+    "cv-6461b389aba66a446e5e05b0": {
+      "label": "sea",
+      "ar": "بَحْر",
+      "status": "accepted",
+      "attempts": 1,
+      "audioSHA256": "047735d81c56ad5ebc43241180dc1ac6d98742aee1e45681b38188a177748afb",
+      "seconds": 0.648
+    },
+    "cv-b75b333639a67d5d570ee315": {
+      "label": "tour",
+      "ar": "جَوْلَة",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio word mismatch: جَوّ",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: زَوْلَ",
+          "review": {
+            "heard_arabic": "زَوْلَ",
+            "word_endings": [
+              {
+                "word_arabic": "زَوْلَ",
+                "phonetic": "zawla",
+                "ending": "a"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio word mismatch: جَوّ",
+          "review": {
+            "heard_arabic": "جَوّ",
+            "word_endings": [
+              {
+                "word_arabic": "جَوّ",
+                "phonetic": "jaww",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-a9e087eff2ba918c91bd88e0": {
+      "label": "I proposed marriage",
+      "ar": "خَطَبْتُ",
+      "status": "accepted",
+      "attempts": 1,
+      "audioSHA256": "907033a00391dc314050b48e3ac8185fe7c195a59d83ce5cd8eba3990b296f80",
+      "seconds": 0.888
+    },
+    "cv-4dc1c04db5985a5e41fee983": {
+      "label": "hotels",
+      "ar": "فَنَادِق",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Extra, missing, or repeated words",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: فَنَادِي",
+          "review": {
+            "heard_arabic": "فَنَادِي",
+            "word_endings": [
+              {
+                "word_arabic": "فَنَادِي",
+                "phonetic": "fa-naa-dii",
+                "ending": "long_vowel"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Extra, missing, or repeated words",
+          "review": {
+            "heard_arabic": "فَنَعْرِفُ",
+            "word_endings": [
+              {
+                "word_arabic": "فَ",
+                "phonetic": "fa",
+                "ending": "a"
+              },
+              {
+                "word_arabic": "نَعْرِفُ",
+                "phonetic": "naʿrifu",
+                "ending": "u"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-9e0ba613800b460da16cc262": {
+      "label": "being cut off; disconnection",
+      "ar": "اِنْقِطَاع",
+      "status": "accepted",
+      "attempts": 2,
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Extra, missing, or repeated words",
+          "review": {
+            "heard_arabic": "إنُّ قِطاع",
+            "word_endings": [
+              {
+                "word_arabic": "إنُّ",
+                "phonetic": "ʾinnu",
+                "ending": "u"
+              },
+              {
+                "word_arabic": "قِطاع",
+                "phonetic": "qiṭaaʿ",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ],
+      "audioSHA256": "6c4ef9cdeaeaa911cdc73da5c88938526bae0406e9d96335972f76cdf859d818",
+      "seconds": 0.984
+    },
+    "cv-94a5d4df12b83672c35fe066": {
+      "label": "together",
+      "ar": "مَعًا",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio word mismatch: مَعَنْ",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: نعم",
+          "review": {
+            "heard_arabic": "نعم",
+            "word_endings": [
+              {
+                "word_arabic": "نعم",
+                "phonetic": "naʿam",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio word mismatch: مَعَنْ",
+          "review": {
+            "heard_arabic": "مَعَنْ",
+            "word_endings": [
+              {
+                "word_arabic": "مَعَنْ",
+                "phonetic": "maʿan",
+                "ending": "an"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-1f580269f33d977929767629": {
+      "label": "taking",
+      "ar": "أَخْذ",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio word mismatch: أخ",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: أخ",
+          "review": {
+            "heard_arabic": "أخ",
+            "word_endings": [
+              {
+                "word_arabic": "أخ",
+                "phonetic": "ʾaḵ",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio word mismatch: أخ",
+          "review": {
+            "heard_arabic": "أخ",
+            "word_endings": [
+              {
+                "word_arabic": "أخ",
+                "phonetic": "ʾaḵ",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-b7af7420ee938a1413bb56da": {
+      "label": "I visit",
+      "ar": "أَزورُ",
+      "status": "accepted",
+      "attempts": 2,
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: أزوول",
+          "review": {
+            "heard_arabic": "أزوول",
+            "word_endings": [
+              {
+                "word_arabic": "أزوول",
+                "phonetic": "ʾazūl",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ],
+      "audioSHA256": "be391244e72a7067760f82462daa8c4ce4ee40f10d8f3ab750fe5da3aa6c0187",
+      "seconds": 0.96
+    },
+    "cv-2ec86c4b0dc1f36625c831e8": {
+      "label": "I was appointed",
+      "ar": "عُيِّنْتُ",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio reviewer uncertain",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: أريدُ",
+          "review": {
+            "heard_arabic": "أريدُ",
+            "word_endings": [
+              {
+                "word_arabic": "أريدُ",
+                "phonetic": "ʾuriidu",
+                "ending": "u"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio reviewer uncertain",
+          "review": {
+            "heard_arabic": "أوي ينطق",
+            "word_endings": [
+              {
+                "word_arabic": "أوي",
+                "phonetic": "ʾawi",
+                "ending": "i"
+              },
+              {
+                "word_arabic": "ينطق",
+                "phonetic": "yanṭiq",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": true
+          }
+        }
+      ]
+    },
+    "cv-2722f614ea0fd378980819fe": {
+      "label": "being absent; absence",
+      "ar": "تَغَيُّب",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Pronunciation mismatch: taghayyab",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: تغيّر",
+          "review": {
+            "heard_arabic": "تغيّر",
+            "word_endings": [
+              {
+                "word_arabic": "تغيّر",
+                "phonetic": "taghayyar",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Pronunciation mismatch: taghayyab",
+          "review": {
+            "heard_arabic": "تغيّب",
+            "word_endings": [
+              {
+                "word_arabic": "تغيّب",
+                "phonetic": "taghayyab",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-99a40b698d708528f6ef3371": {
+      "label": "I decided to",
+      "ar": "قَرَّرْتُ أَنْ",
+      "status": "accepted",
+      "attempts": 2,
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Extra, missing, or repeated words",
+          "review": {
+            "heard_arabic": "قررت أن أن تجد أن تسمع",
+            "word_endings": [
+              {
+                "word_arabic": "قررت",
+                "phonetic": "qarrart",
+                "ending": "consonant"
+              },
+              {
+                "word_arabic": "أن",
+                "phonetic": "ʾan",
+                "ending": "consonant"
+              },
+              {
+                "word_arabic": "أن",
+                "phonetic": "ʾan",
+                "ending": "consonant"
+              },
+              {
+                "word_arabic": "تجد",
+                "phonetic": "tajida",
+                "ending": "a"
+              },
+              {
+                "word_arabic": "أن",
+                "phonetic": "ʾan",
+                "ending": "consonant"
+              },
+              {
+                "word_arabic": "تسمع",
+                "phonetic": "tasmaʿ",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ],
+      "audioSHA256": "0487e5bd243f32cc737cb89b9a6cea739032946e1061778c35664d9c821d7562",
+      "seconds": 1.176
+    },
+    "cv-7723c70f4fdeaa830d2d4887": {
+      "label": "decision",
+      "ar": "قَرار",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio word mismatch: قَرَأْ",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: قَرَأْ",
+          "review": {
+            "heard_arabic": "قَرَأْ",
+            "word_endings": [
+              {
+                "word_arabic": "قَرَأْ",
+                "phonetic": "qaraʾ",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio word mismatch: قَرَأْ",
+          "review": {
+            "heard_arabic": "قَرَأْ",
+            "word_endings": [
+              {
+                "word_arabic": "قَرَأْ",
+                "phonetic": "qaraʾ",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-bdab62a94540044cfd94220c": {
+      "label": "I spend time",
+      "ar": "أَقْضي",
+      "status": "accepted",
+      "attempts": 2,
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio reviewer uncertain",
+          "review": {
+            "heard_arabic": "أَكُلِ",
+            "word_endings": [
+              {
+                "word_arabic": "أَكُلِ",
+                "phonetic": "ʾa ku li",
+                "ending": "i"
+              }
+            ],
+            "uncertain": true
+          }
+        }
+      ],
+      "audioSHA256": "af3cf1c8cfcec3ecd2ca2ac79eeab7434de5b2c84a53b30de48a99ebb9a046ce",
+      "seconds": 0.84
+    },
+    "cv-1399756295c13132ba5323b0": {
+      "label": "spending time",
+      "ar": "قَضَاء",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio word mismatch: قَضَى",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Unmarked or changed vowel in heard word: قَضاءً",
+          "review": {
+            "heard_arabic": "قَضاءً",
+            "word_endings": [
+              {
+                "word_arabic": "قَضاءً",
+                "phonetic": "qaḍaaʾan",
+                "ending": "an"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio word mismatch: قَضَى",
+          "review": {
+            "heard_arabic": "قَضَى",
+            "word_endings": [
+              {
+                "word_arabic": "قَضَى",
+                "phonetic": "qaḍaa",
+                "ending": "long_vowel"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-1e17a1c433cb6a46ad513792": {
+      "label": "death",
+      "ar": "وَفاة",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio word mismatch: وفاء",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: وفاء",
+          "review": {
+            "heard_arabic": "وفاء",
+            "word_endings": [
+              {
+                "word_arabic": "وفاء",
+                "phonetic": "wafaaʾ",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio word mismatch: وفاء",
+          "review": {
+            "heard_arabic": "وفاء",
+            "word_endings": [
+              {
+                "word_arabic": "وفاء",
+                "phonetic": "wafaaʾ",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-699f92ebe35082fd9893cc90": {
+      "label": "I returned",
+      "ar": "رَجَعْتُ",
+      "status": "accepted",
+      "attempts": 2,
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Pronunciation mismatch: rajjʿtu",
+          "review": {
+            "heard_arabic": "رَجَّعْتُ",
+            "word_endings": [
+              {
+                "word_arabic": "رَجَّعْتُ",
+                "phonetic": "rajjʿtu",
+                "ending": "u"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ],
+      "audioSHA256": "772b1ae48f7f46e25f5d595461c4ce9c46043a386fb51f0ce7eaf6cced17b99c",
+      "seconds": 1.128
+    },
+    "cv-101c54f99df7c37becc0a0d4": {
+      "label": "I encourage someone to",
+      "ar": "أُشَجِّعُ عَلى",
+      "status": "accepted",
+      "attempts": 2,
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Pronunciation mismatch: ʾašajjʿu",
+          "review": {
+            "heard_arabic": "أشجِّعُ على",
+            "word_endings": [
+              {
+                "word_arabic": "أشجِّعُ",
+                "phonetic": "ʾašajjʿu",
+                "ending": "u"
+              },
+              {
+                "word_arabic": "على",
+                "phonetic": "ʿala",
+                "ending": "a"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ],
+      "audioSHA256": "d86e6fad0bbc6109fc0f061229ef10ee87fd4e4d66203db38b95b01089ee69b2",
+      "seconds": 1.968
+    },
+    "cv-e8cc383b9138e57d8aed49da": {
+      "label": "beliefs; suppositions",
+      "ar": "ظُنُون",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio word mismatch: فنون",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Extra, missing, or repeated words",
+          "review": {
+            "heard_arabic": "ض نون",
+            "word_endings": [
+              {
+                "word_arabic": "ض",
+                "phonetic": "ḍ",
+                "ending": "consonant"
+              },
+              {
+                "word_arabic": "نون",
+                "phonetic": "nuun",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio word mismatch: فنون",
+          "review": {
+            "heard_arabic": "فنون",
+            "word_endings": [
+              {
+                "word_arabic": "فنون",
+                "phonetic": "funuun",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-67950bf64f781d84b058fc2d": {
+      "label": "Nice to meet you",
+      "ar": "فُرْصَة سَعيدة",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Unwanted taa marbuuta ending: furṣatun",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Unwanted taa marbuuta ending: furṣatun",
+          "review": {
+            "heard_arabic": "فُرْصَةٌ سَعِيدَة",
+            "word_endings": [
+              {
+                "word_arabic": "فُرْصَةٌ",
+                "phonetic": "furṣatun",
+                "ending": "un"
+              },
+              {
+                "word_arabic": "سَعِيدَة",
+                "phonetic": "saʿiidat",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Unwanted taa marbuuta ending: furṣatun",
+          "review": {
+            "heard_arabic": "فُرْصَةٌ سَعِيدَة",
+            "word_endings": [
+              {
+                "word_arabic": "فُرْصَةٌ",
+                "phonetic": "furṣatun",
+                "ending": "un"
+              },
+              {
+                "word_arabic": "سَعِيدَة",
+                "phonetic": "saʿiidat",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    },
+    "cv-d5339808c6706b6acc90b040": {
+      "label": "I left",
+      "ar": "خَرَجْتُ مِنْ",
+      "status": "accepted",
+      "attempts": 1,
+      "audioSHA256": "9315f3fd0b6ae9ac0a09c3c01e2b1ee58026b85336a0676cb229214835f89200",
+      "seconds": 1.2
+    },
+    "cv-f41e819eae9de6e7a73ef4f8": {
+      "label": "past; last",
+      "ar": "الماضي",
+      "status": "accepted",
+      "attempts": 1,
+      "audioSHA256": "3e5feb127f181f259691d42d41ce71b6c8c225f08eba4d3589508fad78b3d69b",
+      "seconds": 1.2
+    },
+    "cv-82e16c3b45b0cf9e354ecae6": {
+      "label": "I help",
+      "ar": "أُساعِدُ",
+      "status": "accepted",
+      "attempts": 1,
+      "audioSHA256": "c35a0e71d23c375bcfdca1b2ec153992ee59e1b58d57ebe8080f183ec194e9b2",
+      "seconds": 1.176
+    },
+    "cv-b6720143923d8c485f8948c5": {
+      "label": "basketball",
+      "ar": "كُرَة السَّلَّة",
+      "status": "unresolved",
+      "attempts": 2,
+      "reason": "Audio word mismatch: kurat",
+      "reviews": [
+        {
+          "attempt": 1,
+          "reason": "Audio word mismatch: كُرَت",
+          "review": {
+            "heard_arabic": "kurat tassal",
+            "word_endings": [
+              {
+                "word_arabic": "كُرَت",
+                "phonetic": "kurat",
+                "ending": "consonant"
+              },
+              {
+                "word_arabic": "تَسَّل",
+                "phonetic": "tassal",
+                "ending": "consonant"
+              }
+            ],
+            "uncertain": false
+          }
+        },
+        {
+          "attempt": 2,
+          "reason": "Audio word mismatch: kurat",
+          "review": {
+            "heard_arabic": "kurat as-salla",
+            "word_endings": [
+              {
+                "word_arabic": "kurat",
+                "phonetic": "kurat",
+                "ending": "consonant"
+              },
+              {
+                "word_arabic": "as-salla",
+                "phonetic": "as-salla",
+                "ending": "a"
+              }
+            ],
+            "uncertain": false
+          }
+        }
+      ]
+    }
+  },
+  "unchangedCardText": true,
+  "method": "Exact allowlist; at most two candidate generations and two target-blind phonetic reviews per entry; silence-only trim for king. Automated checks, not human certification.",
+  "accepted": 15,
+  "trimmed": 1,
+  "unresolved": 13,
+  "outOfScopeChanges": 0
+}

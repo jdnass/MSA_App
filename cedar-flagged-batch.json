@@ -1,0 +1,391 @@
+{
+  "version": 1,
+  "batch": "flagged-29-v1",
+  "maxAttemptsPerEntry": 2,
+  "entries": [
+    {
+      "id": "cv-af835dba4a4ad94f1572c4cf",
+      "label": "business administration",
+      "ar": "إِدارة الأَعْمال",
+      "spoken": "إِدارة الأَعْمال",
+      "speechInput": "إِدَارَتْ الأَعْمَالْ",
+      "expectedPhonetics": [
+        "idārat",
+        "al-aʿmāl"
+      ],
+      "guidance": "Keep the construct-state t of idārat clearly audible, then link to al-aʿmāl. No vowel between t and the article.",
+      "requireLinkedT": true,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-549493b467f4b40b0746206a",
+      "label": "government",
+      "ar": "حُكومَة",
+      "spoken": "حُكومَة",
+      "speechInput": "حُكُومَة",
+      "expectedPhonetics": [
+        "ḥukūma"
+      ],
+      "guidance": "End with a short a, without t, tu, tun or another syllable.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-8fd1687166172cba8fa089ff",
+      "label": "I enjoy",
+      "ar": "أَسْتَمْتِعُ بِ",
+      "spoken": "أَسْتَمْتِعُ بِ",
+      "speechInput": "أَسْتَمْتِعُ بِ",
+      "expectedPhonetics": [
+        "ʾastamtiʿu",
+        "bi"
+      ],
+      "guidance": "Clearly pronounce voiced pharyngeal ayn in astamtiʿu. End that verb with short u, then short bi.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-3bba6b2f68f6a7dfaf2f9aa3",
+      "label": "boring",
+      "ar": "مُمِلّ",
+      "spoken": "مُمِلّ",
+      "speechInput": "مُمِلّْ",
+      "expectedPhonetics": [
+        "mumill"
+      ],
+      "guidance": "Pronounce mu-mill, short i and a clearly doubled final l; no added vowel.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-2b2d222ee21a68a55b4a62e6",
+      "label": "king",
+      "ar": "مَلِك",
+      "spoken": "مَلِك",
+      "speechInput": "مَلِكْ",
+      "expectedPhonetics": [
+        "malik"
+      ],
+      "guidance": "Trim initial silence only.",
+      "requireLinkedT": false,
+      "action": "trim"
+    },
+    {
+      "id": "cv-25057c3d68a6fc2a3ceaa995",
+      "label": "since; ago",
+      "ar": "مُنْذُ",
+      "spoken": "مُنْذُ",
+      "speechInput": "مُنْذُ",
+      "expectedPhonetics": [
+        "mundhu"
+      ],
+      "guidance": "Pronounce mun-dhu. The final short u is required; dh is voiced interdental, not z.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-6461b389aba66a446e5e05b0",
+      "label": "sea",
+      "ar": "بَحْر",
+      "spoken": "بَحْر",
+      "speechInput": "بَحْرْ",
+      "expectedPhonetics": [
+        "baḥr"
+      ],
+      "guidance": "Pronounce baḥr only ONCE; end on r without an added vowel.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-b75b333639a67d5d570ee315",
+      "label": "tour",
+      "ar": "جَوْلَة",
+      "spoken": "جَوْلَة",
+      "speechInput": "جَوْلَة",
+      "expectedPhonetics": [
+        "jawla"
+      ],
+      "guidance": "Pronounce jawla with pausal final a, not t and no case ending.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-a9e087eff2ba918c91bd88e0",
+      "label": "I proposed marriage",
+      "ar": "خَطَبْتُ",
+      "spoken": "خَطَبْتُ",
+      "speechInput": "خَطَبْتُ",
+      "expectedPhonetics": [
+        "khaṭabtu"
+      ],
+      "guidance": "Begin with the voiceless velar/uvular fricative kh, never f. Keep final short u.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-4dc1c04db5985a5e41fee983",
+      "label": "hotels",
+      "ar": "فَنَادِق",
+      "spoken": "فَنَادِق",
+      "speechInput": "فَنَادِقْ",
+      "expectedPhonetics": [
+        "fanādiq"
+      ],
+      "guidance": "The last consonant is a clear voiceless uvular qaf q, never t or k. Stop after q, no extra syllable.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-9e0ba613800b460da16cc262",
+      "label": "being cut off; disconnection",
+      "ar": "اِنْقِطَاع",
+      "spoken": "اِنْقِطَاع",
+      "speechInput": "اِنْقِطَاعْ",
+      "expectedPhonetics": [
+        "inqiṭāʿ"
+      ],
+      "guidance": "Start in-qi without extra syllables before it. End with pharyngeal ayn, no case ending.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-94a5d4df12b83672c35fe066",
+      "label": "together",
+      "ar": "مَعًا",
+      "spoken": "مَعًا",
+      "speechInput": "مَعًا",
+      "expectedPhonetics": [
+        "maʿan"
+      ],
+      "guidance": "Begin with a clear bilabial m, not n. Pronounce the written final an.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-1f580269f33d977929767629",
+      "label": "taking",
+      "ar": "أَخْذ",
+      "spoken": "أَخْذ",
+      "speechInput": "أَخْذْ",
+      "expectedPhonetics": [
+        "ʾakhdh"
+      ],
+      "guidance": "Pronounce akhdh: a then kh then voiced interdental dh, without extra vowels or words.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-b7af7420ee938a1413bb56da",
+      "label": "I visit",
+      "ar": "أَزورُ",
+      "spoken": "أَزورُ",
+      "speechInput": "أَزُورُ",
+      "expectedPhonetics": [
+        "ʾazūru"
+      ],
+      "guidance": "Use long ū after z, not long ā. Keep the written final short u.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-2ec86c4b0dc1f36625c831e8",
+      "label": "I was appointed",
+      "ar": "عُيِّنْتُ",
+      "spoken": "عُيِّنْتُ",
+      "speechInput": "عُيِّنْتُ",
+      "expectedPhonetics": [
+        "ʿuyyintu"
+      ],
+      "guidance": "Pronounce ʿuy-yin-tu; no a or other vowel between n and t. Clearly pronounce initial ayn.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-2722f614ea0fd378980819fe",
+      "label": "being absent; absence",
+      "ar": "تَغَيُّب",
+      "spoken": "تَغَيُّب",
+      "speechInput": "تَغَيُّبْ",
+      "expectedPhonetics": [
+        "taghayyub"
+      ],
+      "guidance": "Pronounce ta-ghay-yub exactly once. Use voiced velar/uvular fricative gh and a doubled y.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-99a40b698d708528f6ef3371",
+      "label": "I decided to",
+      "ar": "قَرَّرْتُ أَنْ",
+      "spoken": "قَرَّرْتُ أَنْ",
+      "speechInput": "قَرَّرْتُ أَنْ",
+      "expectedPhonetics": [
+        "qarrartu",
+        "ʾan"
+      ],
+      "guidance": "Clearly pronounce initial uvular qaf q, and doubled r. Keep tu then an.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-7723c70f4fdeaa830d2d4887",
+      "label": "decision",
+      "ar": "قَرار",
+      "spoken": "قَرار",
+      "speechInput": "قَرَارْ",
+      "expectedPhonetics": [
+        "qarār"
+      ],
+      "guidance": "Begin with a clear uvular qaf q, not a glottal stop, k or silence.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-bdab62a94540044cfd94220c",
+      "label": "I spend time",
+      "ar": "أَقْضي",
+      "spoken": "أَقْضي",
+      "speechInput": "أَقْضِي",
+      "expectedPhonetics": [
+        "ʾaqḍī"
+      ],
+      "guidance": "Pronounce aq-ḍī, with a q-ḍ consonant cluster. No a or other vowel between q and ḍ.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-1399756295c13132ba5323b0",
+      "label": "spending time",
+      "ar": "قَضَاء",
+      "spoken": "قَضَاء",
+      "speechInput": "قَضَاءْ",
+      "expectedPhonetics": [
+        "qaḍāʾ"
+      ],
+      "guidance": "Begin with clear uvular qaf q. End with the written glottal stop hamza, without a case vowel.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-1e17a1c433cb6a46ad513792",
+      "label": "death",
+      "ar": "وَفاة",
+      "spoken": "وَفاة",
+      "speechInput": "وَفَاة",
+      "expectedPhonetics": [
+        "wafāh"
+      ],
+      "guidance": "Pronounce wafāh/wafā, with pausal taa marbuuta. Never add a t or case vowel.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-699f92ebe35082fd9893cc90",
+      "label": "I returned",
+      "ar": "رَجَعْتُ",
+      "spoken": "رَجَعْتُ",
+      "speechInput": "رَجَعْتُ",
+      "expectedPhonetics": [
+        "rajaʿtu"
+      ],
+      "guidance": "Clearly finish with the written short u in -tu. Do not stop at t.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-101c54f99df7c37becc0a0d4",
+      "label": "I encourage someone to",
+      "ar": "أُشَجِّعُ عَلى",
+      "spoken": "أُشَجِّعُ عَلى",
+      "speechInput": "أُشَجِّعُ عَلَى",
+      "expectedPhonetics": [
+        "ʾushajjiʿu",
+        "ʿalā"
+      ],
+      "guidance": "Make both voiced pharyngeal ayn consonants audible, one in ushajjiʿu and one at the start of ʿalā.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-e8cc383b9138e57d8aed49da",
+      "label": "beliefs; suppositions",
+      "ar": "ظُنُون",
+      "spoken": "ظُنُون",
+      "speechInput": "ظُنُونْ",
+      "expectedPhonetics": [
+        "ẓunūn"
+      ],
+      "guidance": "Begin with MSA emphatic voiced INTERDENTAL fricative ẓ (pharyngealized dh), not plain z.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-67950bf64f781d84b058fc2d",
+      "label": "Nice to meet you",
+      "ar": "فُرْصَة سَعيدة",
+      "spoken": "فُرْصَة سَعيدة",
+      "speechInput": "فُرْصَة سَعِيدَة",
+      "expectedPhonetics": [
+        "furṣa",
+        "saʿīda"
+      ],
+      "guidance": "Pronounce furṣa saʿīda without tanween or case vowels. Both taa marbuutas are pausal a, not t.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-d5339808c6706b6acc90b040",
+      "label": "I left",
+      "ar": "خَرَجْتُ مِنْ",
+      "spoken": "خَرَجْتُ مِنْ",
+      "speechInput": "خَرَجْتُ مِنْ",
+      "expectedPhonetics": [
+        "kharajtu",
+        "min"
+      ],
+      "guidance": "The second word is min with bilabial m, not nin. Retain short u in kharajtu.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-f41e819eae9de6e7a73ef4f8",
+      "label": "past; last",
+      "ar": "الماضي",
+      "spoken": "الماضي",
+      "speechInput": "المَاضِي",
+      "expectedPhonetics": [
+        "al-māḍī"
+      ],
+      "guidance": "Clearly pronounce the l of the article al before m, never n. Final ī is long.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-82e16c3b45b0cf9e354ecae6",
+      "label": "I help",
+      "ar": "أُساعِدُ",
+      "spoken": "أُساعِدُ",
+      "speechInput": "أُسَاعِدُ",
+      "expectedPhonetics": [
+        "ʾusāʿidu"
+      ],
+      "guidance": "Pronounce u-sā-ʿi-du, with no extra syllable before the initial u. Make ayn audible.",
+      "requireLinkedT": false,
+      "action": "regenerate"
+    },
+    {
+      "id": "cv-b6720143923d8c485f8948c5",
+      "label": "basketball",
+      "ar": "كُرَة السَّلَّة",
+      "spoken": "كُرَة السَّلَّة",
+      "speechInput": "كُرَتْ السَّلَّة",
+      "expectedPhonetics": [
+        "kurat",
+        "as-salla"
+      ],
+      "guidance": "Keep the linking t of kurat as this is idaafa, but add NO u or other case vowel after it. Final salla ends in a, not t.",
+      "requireLinkedT": true,
+      "action": "regenerate"
+    }
+  ]
+}
