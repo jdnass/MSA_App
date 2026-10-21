@@ -84,6 +84,7 @@ def main():
             changed=[]
             for i,t in enumerate(tokens):changed.append(re.sub('ة[َُِْ]*$','تْ',t) if i in linked else speech_text(t))
             spoken=' '.join(changed)
+        reason=(row.get('rejections') or ['Persistent attempt cap already reached'])[-1]
         while row['attempts']<2:
             with LOCK:row['attempts']+=1;row['status']='reviewing';checkpoint()
             try:
