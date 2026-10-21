@@ -1,5 +1,5 @@
 name: Stage Part 1 literal Cedar audio repairs
-# Retry the final seven unresolved recordings; preserve accepted audio.
+# Resolve four remaining readings, allowing construct taa without added case vowels.
 on:
   workflow_dispatch:
   push:

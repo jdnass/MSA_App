@@ -35,6 +35,14 @@ class LiteralAudioTests(unittest.TestCase):
         r["word_endings"]*=2
         with self.assertRaises(ValueError): validate(r,"أَزْوَاج")
 
+    def test_construct_t_is_not_a_case_vowel(self):
+        r={"uncertain":False,"word_endings":[
+            {"word_arabic":"إدارة","phonetic":"idārat","ending":"consonant"},
+            {"word_arabic":"الأعمال","phonetic":"al-aʿmāl","ending":"consonant"}]}
+        self.assertTrue(validate(r,"إِدارة الأَعْمال"))
+        r["word_endings"][0].update(phonetic="idāratu",ending="u")
+        with self.assertRaises(ValueError):validate(r,"إِدارة الأَعْمال")
+
     def test_uncertain_recording(self):
         r=review("أزواج","azwāj","consonant"); r["uncertain"]=True
         with self.assertRaises(ValueError): validate(r,"أَزْوَاج")

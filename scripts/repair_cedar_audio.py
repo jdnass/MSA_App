@@ -38,7 +38,7 @@ def validate(review,expected):
     source=re.findall(TOKEN,expected)
     heard=review.get("word_endings",[])
     if len(source)!=len(heard): raise ValueError("Extra, missing, or repeated words")
-    for s,h in zip(source,heard):
+    for index,(s,h) in enumerate(zip(source,heard)):
         actual=h.get("word_arabic","")
         # Pausal taa marbuuta is occasionally transcribed as final haa.
         a=norm(actual); e=norm(s)
@@ -52,7 +52,9 @@ def validate(review,expected):
         if supplied!="pausal_taa" and vowels and vowels!=expected_vowels:
             raise ValueError("Unmarked or changed vowel in heard word: "+actual)
         if supplied=="pausal_taa":
-            if actual_end in ("un","in","an","u","i") or re.search(r"t(?:un|in|an|u|i|a)?$",ph):
+            construct=index+1<len(source) and not e.startswith("ال") and norm(source[index+1]).startswith("ال")
+            linked_t=construct and actual_end=="consonant" and ph.endswith("t")
+            if actual_end in ("un","in","an","u","i") or (re.search(r"t(?:un|in|an|u|i|a)?$",ph) and not linked_t):
                 raise ValueError("Unwanted taa marbuuta ending: "+ph)
             if actual_end not in ("a","consonant"): raise ValueError("Unclear pausal ending")
         elif supplied=="consonant":
@@ -74,9 +76,11 @@ Return ONLY JSON: heard_arabic, heard_phonetic, word_endings (array of word_arab
 ending must be consonant, a, i, u, an, in, un, long_vowel, or unclear. Use unclear if unsure. Preserve each actual vowel in phonetic.
 These labels describe the FINAL SOUND, not the last syllable or grammatical case. A long vowel BEFORE a final consonant does not make the ending long_vowel. Examples: ibn, al-taqs, qanun, kulliyyat, an-nahar, ra'is, and fawakih end in consonant; qanunu ends in u; qanunun ends in un. A word ending in its own n is consonant unless an EXTRA tanween syllable is actually heard.
 Use Latin/IPA in phonetic, Arabic script only in word_arabic. Supply no grammatical vowels you cannot hear. Each word's phonetic and ending must agree. Output a JSON object without code fences or commentary."""
+BLIND+=""" A final hamza/glottal stop is a consonant: retain it in phonetic as ʔ or ʾ when audible. Do not treat a long vowel followed by a glottal stop as a vowel-final word.
+Distinguish a short standalone syllable li (لِ) from long lī (لي), and bi (بِ) from bī (بي). Do not insert a yaa to make a standalone short syllable look like a dictionary word. For short syllables use ending i; long syllables use long_vowel."""
 INSTRUCTIONS="""Read only the supplied Arabic words once, naturally, in Modern Standard Arabic. No introduction, explanation, translation, examples, or repetition.
 Follow the supplied vowel and sukun marks literally. Do not infer grammatical case endings on any word.
-Keep explicitly written final vowels and tanween. Unmarked final taa marbuuta is pausal a/ah, never at, atun, atan, atin, atu or ati.
+Keep explicitly written final vowels and tanween. Unmarked taa marbuuta at a phrase boundary is pausal a/ah. A linked construct-state taa marbuuta may have its normal t consonant, but never add a case vowel after it.
 Comma separators between alternatives mean a short silent pause; add no connector.
 Speak at a natural clear pace without exaggerated consonants."""
 
@@ -104,12 +108,23 @@ HINTS={
     "cv-4ebcb80a6b059738d5089b4b":"The word means works/businesses: aʿmāl. Clearly pronounce the pharyngeal ayn and final l, with no vowel after l.",
     "cv-772be16d54035c9d444f275e":"The word means the evening: al-masāʾ. Clearly pronounce the final glottal stop hamza after the long aa. End at the hamza.",
     "cv-a3b3b23a3f172ad3b6adc5d8":"The word means salad: salaṭa, with short a vowels and emphatic ṭ. Use normal s, not emphatic ṣ. Do not lengthen the vowels.",
-    "cv-af835dba4a4ad94f1572c4cf":"Pronounce idāra, pause, al-aʿmāl. The first word must end in a, with NO t sound before the pause.",
+    "cv-af835dba4a4ad94f1572c4cf":"Pronounce idārat al-aʿmāl, with the construct-state t linking directly to the article. NO u, i, un, in or an after that t.",
     "cv-ff651625873dd12399f0fe4b":"Pronounce munāsib, pause, li. The final li is a SHORT syllable, not long lī. No vowel follows the b in munāsib.",
     "cv-647899124cf18326f6d37885":"Pronounce ʿilm, pause, al-insān. The first word begins with pharyngeal ayn and ends on m, without a vowel after m."
 }
 
 def generate_clip(text,t,key):
+    if t.get("realtime_fallback"):
+        import cedar_samples
+        request={"id":t["id"]+"-fallback-"+hashlib.sha256(text.encode()).hexdigest()[:8],
+            "ar":text,"max_output_tokens":512,"min_audio_seconds":0.12,"max_audio_seconds":10,
+            "session_instructions":INSTRUCTIONS,
+            "pronunciation_instructions":"Read only the supplied Arabic once. "+HINTS.get(t["id"],"")+" Silent English context: "+t.get("en","")+". Never speak this context."}
+        if text=="لِ": request["pronunciation_instructions"]+=" Say the SHORT syllable li, not a letter name and not long lee."
+        result=cedar_samples.generate(request,key)
+        path=cedar_samples.OUT/result["file"]
+        clip=path.read_bytes(); path.unlink(missing_ok=True)
+        return clip
     return post("https://api.openai.com/v1/audio/speech",{
         "model":t.get("generation_model",SPEECH_MODEL),"voice":"cedar","input":text,
         "instructions":INSTRUCTIONS+" End on the supplied final sound, then silence. "+HINTS.get(t["id"],""),
@@ -155,7 +170,8 @@ def repair_one(t,key,signature):
         review=None
         try:
             separate=attempt>=2 and len(re.findall(TOKEN,spoken))>1
-            clip,seconds=prepare_clip(spoken,t,key,separate)
+            generation={**t,"realtime_fallback":attempt>=2}
+            clip,seconds=prepare_clip(spoken,generation,key,separate)
             if len(clip)<500: raise ValueError("Empty speech recording")
             if not 0.2<=seconds<=max(4,3*len(re.findall(TOKEN,t["spoken"]))):
                 raise ValueError("Unexpected word-recording duration")
@@ -172,7 +188,7 @@ def repair_one(t,key,signature):
             return {"ar":t["ar"],"spoken":t["spoken"],"speechInput":spoken,"file":target.name,
               "signature":signature,"seconds":round(seconds,2),"transcript":review.get("heard_arabic",""),
               "verifiedTranscript":review.get("heard_arabic",""),"revision":t["revision"],"generation_engine":"speech",
-              "generation_model":t.get("generation_model",SPEECH_MODEL),"voice":"cedar",
+              "generation_model":("gpt-realtime-2.1-mini" if generation["realtime_fallback"] else t.get("generation_model",SPEECH_MODEL)),"voice":"cedar",
               "audioSHA256":hashlib.sha256(clip).hexdigest(),"audioReview":review,"speechAttempts":attempt+1,"separateWords":separate}
         except Exception as error:
             last=str(error)[:180] if type(error) is ValueError else type(error).__name__
