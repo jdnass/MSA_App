@@ -163,9 +163,13 @@
   "failed": {
     "cv-a3b3b23a3f172ad3b6adc5d8": {
       "ar": "سَلَطة",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: سَلات"
+      "reason": "Literal speech repair not accepted: Audio word mismatch: سلام"
     }
   },
   "unchangedCardText": true,
-  "method": "Speech API with pronunciation-only sukun; target-blind audio review and literal ending checks. Automated checks, not human certification."
+  "modelsUsed": [
+    "gpt-4o-mini-tts",
+    "gpt-realtime-2.1-mini"
+  ],
+  "method": "Cedar speech generation with bounded realtime fallback; pronunciation-only sukun; target-blind audio review and literal ending checks. Preserve normal construct-state taa without added case vowels. Automated checks, not human certification."
 }

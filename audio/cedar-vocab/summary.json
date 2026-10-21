@@ -11,7 +11,7 @@
   "failed": {
     "cv-a3b3b23a3f172ad3b6adc5d8": {
       "ar": "سَلَطة",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: سَلات"
+      "reason": "Literal speech repair not accepted: Audio word mismatch: سلام"
     }
   },
   "estimatedGenerationCostUSD": 2.928011,
