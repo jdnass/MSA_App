@@ -21,25 +21,34 @@
     "session_instructions": "انطق مِنْطَقَة مرة واحدة بصيغة الوقف، دون نطق التاء المربوطة تاء، ودون إضافة حركة إعراب أو تنوين."
   },
   "cv-5679dd0c4d1d1b1215fa070b": {
-    "revision": "literal-endings-1",
+    "revision": "literal-speech-acoustic-1",
     "max_output_tokens": 256,
     "max_audio_seconds": 1.8,
     "verify_audio": true,
-    "session_instructions": "انطق عَنَاوِين مرة واحدة. وضّح صوت الواو بعد الألف، وانته بالنون الساكنة، بلا حركة بعدها."
+    "session_instructions": "انطق عَنَاوِين مرة واحدة. وضّح صوت الواو بعد الألف، وانته بالنون الساكنة، بلا حركة بعدها.",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false
   },
   "cv-5ae7cdfd94c9a049d8c52d4a": {
-    "revision": "literal-endings-1",
+    "revision": "literal-speech-acoustic-1",
     "max_output_tokens": 128,
     "max_audio_seconds": 1.7,
     "verify_audio": true,
-    "session_instructions": "Say exactly مَنَاطِق once. Pronunciation guide for silent reference only: ma-naa-tiq. End on q. Do not add u, a, i, un, an, or in."
+    "session_instructions": "Say exactly مَنَاطِق once. Pronunciation guide for silent reference only: ma-naa-tiq. End on q. Do not add u, a, i, un, an, or in.",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false
   },
   "cv-8b82ef2f3486f3861878ff6d": {
-    "revision": "literal-endings-1",
+    "revision": "literal-speech-acoustic-1",
     "max_output_tokens": 128,
     "max_audio_seconds": 1.6,
     "verify_audio": true,
-    "session_instructions": "Say exactly تَكَلُّم once. Pronunciation guide for silent reference only: ta-kal-lum. Keep the doubled l. End on m, without un, an, in, a, i, or u after the m."
+    "session_instructions": "Say exactly تَكَلُّم once. Pronunciation guide for silent reference only: ta-kal-lum. Keep the doubled l. End on m, without un, an, in, a, i, or u after the m.",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false
   },
   "cv-d9bda85213dfdc873e6998b7": {
     "revision": "literal-endings-1",
@@ -49,11 +58,14 @@
     "session_instructions": "انطق فقط أُسْرَة، مرة واحدة، بصيغة الوقف."
   },
   "cv-e0b1098bc49646be8d7019ca": {
-    "revision": "literal-endings-1",
+    "revision": "literal-speech-acoustic-1",
     "max_output_tokens": 128,
     "max_audio_seconds": 1.8,
     "verify_audio": true,
-    "session_instructions": "Say exactly القَوَاعِد once. Pronunciation guide for silent reference only: al-qa-waa-id. End on d. Do not say qawaaidu, qawaaida, or qawaaidi."
+    "session_instructions": "Say exactly القَوَاعِد once. Pronunciation guide for silent reference only: al-qa-waa-id. End on d. Do not say qawaaidu, qawaaida, or qawaaidi.",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false
   },
   "cv-ed6dbc20ba0cd08f5bbb8f32": {
     "revision": "literal-endings-1",
@@ -105,11 +117,14 @@
     "session_instructions": "انطق فقط أَتَبادَلُ، مرة واحدة. حافظ على ضمة اللام المكتوبة."
   },
   "cv-23873feea95493368854523d": {
-    "revision": "part1-audit-repair-1",
+    "revision": "literal-speech-acoustic-1",
     "max_output_tokens": 256,
     "max_audio_seconds": 2.7,
     "verify_audio": true,
-    "session_instructions": "انطق مُتَخَصِّصُون فِي مرة واحدة. لا تضف حركة بعد نون متخصّصون، وابدأ مباشرة بالكلمة دون جملة تمهيدية."
+    "session_instructions": "انطق مُتَخَصِّصُون فِي مرة واحدة. لا تضف حركة بعد نون متخصّصون، وابدأ مباشرة بالكلمة دون جملة تمهيدية.",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false
   },
   "cv-340674566f2f7d619e8264bc": {
     "revision": "part1-audit-repair-1",
@@ -126,11 +141,14 @@
     "session_instructions": "انطق فِعْلًا مرة واحدة فقط. انطق تنوين الفتح المكتوب في آخرها. ابدأ بالكلمة مباشرة، دون جملة تمهيدية أو شرح."
   },
   "cv-5e95e62c93495e56b0506452": {
-    "revision": "part1-audit-repair-1",
+    "revision": "literal-speech-acoustic-1",
     "max_output_tokens": 256,
     "max_audio_seconds": 2.5,
     "verify_audio": true,
-    "session_instructions": "انطق الشَّرْق الأَوْسَط. قف على قاف الشرق بلا ضمة، ثم انطق الأوسط وانته على الطاء بلا حركة إعراب."
+    "session_instructions": "انطق الشَّرْق الأَوْسَط. قف على قاف الشرق بلا ضمة، ثم انطق الأوسط وانته على الطاء بلا حركة إعراب.",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false
   },
   "cv-654f9d2fe0c3324af861e2ee": {
     "revision": "part1-audit-repair-1",
@@ -175,10 +193,1049 @@
     "session_instructions": "انطق مُسْتَشْفَيات فقط، مرة واحدة. انته على التاء دون حركة إعراب أو كلمة يا أو أي لفظ إضافي."
   },
   "cv-e9b27ac56363ac77d5f402da": {
-    "revision": "part1-audit-repair-1",
+    "revision": "literal-speech-acoustic-1",
     "max_output_tokens": 1024,
     "max_audio_seconds": 2.9,
     "verify_audio": true,
-    "session_instructions": "انطق البديلين سَنَتانِ ثم سَنَتَيْنِ. ضع وقفة صامتة بينهما، ولا تنطق كلمة ثم أو أي حرف ربط. انطق كسرة النون المكتوبة في كل بديل."
+    "session_instructions": "انطق البديلين سَنَتانِ ثم سَنَتَيْنِ. ضع وقفة صامتة بينهما، ولا تنطق كلمة ثم أو أي حرف ربط. انطق كسرة النون المكتوبة في كل بديل.",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false
+  },
+  "cv-34857ddaf7893af82b1ed740": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": true,
+    "verify_audio": true
+  },
+  "cv-647899124cf18326f6d37885": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": true,
+    "verify_audio": true
+  },
+  "cv-69eb601e409e4f000ecd82c4": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": true,
+    "verify_audio": true
+  },
+  "cv-633e643be5e939852cabe1e0": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": true,
+    "verify_audio": true
+  },
+  "cv-bf5a9cedb34cb64ec554a95a": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": true,
+    "verify_audio": true
+  },
+  "cv-efdc450b8c1e54e108462258": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": true,
+    "verify_audio": true
+  },
+  "cv-1661d988c73097d3c2563d7d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": true,
+    "verify_audio": true
+  },
+  "cv-00c72e34a0fb1fde375e997b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-00cbb658ee123856ac65b98b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-04e9e13fc5110a260c858b43": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-07f692bda7f95a0a1445b7f1": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-08b7a4d9f3bf5c4cad7fc798": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-0b81542ada7e920f7c5b1bf7": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-0b89004ad8aab43a46e9840e": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-0dbc70fb6cd0ce7418956e2a": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-0ec4bf810ca528a08ad4b843": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-104667e06d12c39c6d4e2cc5": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-12fa618866e74c2a63a4654c": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-13f838d2febc501c2ef74e12": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-15a0ffb183a5a0c4daaba325": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-18d63a480730a2e00d731c09": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-198daa9ca598b74a13df22a8": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-19e5b3126c5dd210f03ebfaf": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-1a766fa5b62a94525ff1049f": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-1b6a6494a62307620561f903": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-1becaa8077da14a15abd5d31": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-1d086d7b14b9a2297a6f8a1d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-1e6568de96193571180862f8": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-20868a4b20a504fbac03e49b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-2115cbc68085ea451e11c297": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-21f4af14e72ad621d730b24f": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-22fa1d6274c39d47479d9a10": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-260383365506fd05cffc9b58": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-2959759b153ae0cf8a70c835": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-29eeb4132e9e145cf1ae9dd8": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-2a82b5408aa7740de15b668d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-33ee67bec3e5e755588072f5": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-36e856800edb177ccfe3340d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-3af5478a977c77d60ee22f19": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-3b9b14189b7e085a21cdf2af": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-3f7fec94716c3cf7be0d2359": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-43771b2d97d4b1bb16d2e2c2": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-4533440d5af205cf695465ca": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-4624b2d414e49a104b86a512": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-46cd3547c11f79b43d3259b8": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-4b31916ffde9ed4f1564d8d5": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-4cc6721269a22310ab05ccd5": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-4ebcb80a6b059738d5089b4b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-4edf15b814c7c7b0a1e8645d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-518e7802940c849338ecc5d1": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-527aaa65747d2c2c8f4c67a7": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-567e7f624a6ff82e39d6fd55": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-56cc055892eabf12d07fbdec": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-571864222ea374a5912e4b19": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-5880ddc87bb178bcac59fb2f": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-5ac55fa33c5cf5babcf05be7": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-5ae794d1fc4263ab541fa67c": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-5c7627b5cc8ad1a77195c2ca": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-5d3a64d35e93853ac5468369": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-6285fad21eb663ea79e63c72": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-6304c9beb6f6d027190185fa": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-640e91bb7fb4fbe96509aac2": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-6461b389aba66a446e5e05b0": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-65016a9b7cb67fbc0f5b7c50": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-67785241ee3933d27516ae8e": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-69458ac173dbbdf480c6b3db": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-69a29a429f5942b7836f4871": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-6a74b9fa31a0d5db7ab246dd": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-6cee71f3c7c3a3300025ccc7": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-6fd1394cb1206042f318f5ad": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-72f9e99593c046e58f0dce8f": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-7656aa9412d3b12288248ec8": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-772be16d54035c9d444f275e": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-78ae2465917c5d9fca954ddc": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-7a10bb723bc5d90d81543b1b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-7a26ae14c069799a9b019e5a": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-7a600adc70dab2030c67f885": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-7d177db05ce082a6e65ffa50": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-82224b21e1b6ad9859b9f0ad": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-831ddb3ca40b83e5b09c4550": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-847c64df499ba2bd095ab35d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-84bc05e6e7f8bfddbd4f040d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-86386d1516cbb26c67e690d9": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-87289e2dbf38134f4eea4ef5": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-8974d38aa6ec1503cbd8a651": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-89b308f5d70922c232a8f70c": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-8be51a3747b1b17de0dc9a91": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-8c504d21f1a2b99946153037": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-8caeb81d60cc4f8da5c73dd3": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-8cbeb5f914634352a7f73e66": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-8dc29fce676ae389de289c14": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-90c55b37af24560d0843402a": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-94400d37996dd219b273bc0c": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-94c1dc5311ce7afdb4f8b1b2": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-959f081d0f85f6fc352ac3fa": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-98cf6db1e99a819bfcc79b1a": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a2590929893116c3f156db73": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a357b6c24b926ad0f9627222": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a3b3b23a3f172ad3b6adc5d8": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a4556dde61f9f6dd8b5ee26e": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a4e5331f7c3ac3ad1df4769d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a54d6a1865ce17b2137287e9": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a59663fb56b29c9ab532044b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a599e25cf890002846a0e50b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a67e5f04d03ea86252f1f387": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-a7e041b799f008c8d5e4c46f": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-ad7a002a9f9a603cd63969cd": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-af835dba4a4ad94f1572c4cf": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-b2fa7cef25b08054169d5065": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-b3242c136efd8ccfd0a05259": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-b3681bace91906b14bf61814": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-b55572289ddf6bd8b9c01544": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-b5c63e2ff103919d2b7a5a36": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-b9179e70336ce8ce8c9e1f9d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-b976c2729d8d1cb91cddb25e": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-b9f5f58941126b4bd02fd22d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-ba13b706f14532b166de39be": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-c28e80af2d32b70f417bdd91": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-c3fc0295d216d4ad75a463fe": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-c8f99fbdc40467d1dfeafb00": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-c910bdbe30f8d08153948aa3": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-ca2d2c8b2f732e334576620e": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-caac8c2f3764824be4bea304": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-cbabfb829272775ba6ec6ad0": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-cc9c717e3b91590e5b5fd854": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-ccd825c257548ac6313b7963": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-ce7ab67b72cafd76221396a4": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-d0670bb34338b2d18c83c110": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-d4744c0c5de16f1d5ff3c3d8": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-d49ad279e9ce49b722d41bd4": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-d8a0092a9f4bba19863f59f4": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-db1d434823c4d28fe2f1e3a7": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-dcb88c56e3996e8fbb68d140": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-de080fc911080cf929ffeb74": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-de0ac4468718d97a8db23f7b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-e3344c6642ea702359e89089": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-e360289b56c589e9aecda54f": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-e7634227f762c251af3d9ff5": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-ea9784a53faa437c26bbe6ac": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-f01675758fd195d2203ec6a0": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-f143cbe3e66f1f85c231d9b4": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-f1b1be673cdb6b435cc0602c": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-f4e631846a21879cb7201dca": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-f6ff5e5544a1c20fe8c62d9b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-fb2e0fcbaa9689d65d520a12": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-fc21a58742aebf8c61481c6d": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-fe8e7bbf1169eeb04289161c": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
+  },
+  "cv-ff651625873dd12399f0fe4b": {
+    "revision": "literal-speech-acoustic-1",
+    "generation_engine": "speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "repair_priority": false,
+    "verify_audio": true
   }
 }

@@ -7523,7 +7523,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-00cbb658ee123856ac65b98b",
@@ -7534,7 +7539,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-00dedc65029cc4f9a8ce4970",
@@ -8257,7 +8267,12 @@
       "spoken": "العَمَل",
       "kinds": [
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-04fc840f6903da01966838c9",
@@ -9012,7 +9027,12 @@
         "lesson:ar",
         "verb-tree:past",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-07faa17c88ea98484c94df59",
@@ -9190,7 +9210,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-08c547d6caf54d99280eb106",
@@ -9821,7 +9846,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-0b86cf5dc147046019c7b0e4",
@@ -9845,7 +9875,12 @@
         "lesson:ar",
         "verb-tree:past",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-0b89fa72b08a93a3e77595a6",
@@ -10336,7 +10371,12 @@
         "lesson:ar",
         "verb-tree:past",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-0dbfc7b502109c659e561195",
@@ -10572,7 +10612,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-0ecb41bd770e963b5e83acf6",
@@ -10899,7 +10944,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-104d89f07b3832fc60deb9a0",
@@ -11520,7 +11570,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-13267ad28ae7b82d5cdd8f28",
@@ -11709,7 +11764,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-14032561bf92c25250ba4503",
@@ -12244,7 +12304,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-15b309dae7c0cf2b5393d457",
@@ -12362,7 +12427,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": true
     },
     {
       "id": "cv-166586a441ee90eb4ded112e",
@@ -13079,7 +13149,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-18e63c74bb377c8cb9d50796",
@@ -13363,7 +13438,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-198f3abdda39f4651c8a73f5",
@@ -13464,7 +13544,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-19e8fd86808f00a475679b0f",
@@ -13609,7 +13694,12 @@
         "vocabulary:mp",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-1a797a4277e2286e5a0e1810",
@@ -13795,7 +13885,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-1b6cfda950ffca7000e4516e",
@@ -13905,7 +14000,12 @@
         "lesson:ar",
         "verb-tree:past",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-1bf87266317af91d00a46157",
@@ -14161,7 +14261,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-1d0d88e960b8ebf82e709c0c",
@@ -14530,7 +14635,12 @@
         "lesson:mp",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-1e6c206b59fb9324e7509cc5",
@@ -14996,7 +15106,12 @@
         "lesson:ar",
         "verb-tree:present",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-20971bad33524101281e1174",
@@ -15085,7 +15200,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-211902e9a92c8cecd17043b3",
@@ -15223,7 +15343,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-21f7142f6fa7709d4aec8850",
@@ -15466,7 +15591,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-231e77dc164c58129f7cb004",
@@ -15569,11 +15699,14 @@
         "lesson:mp",
         "variant"
       ],
-      "revision": "part1-audit-repair-1",
+      "revision": "literal-speech-acoustic-1",
       "session_instructions": "انطق مُتَخَصِّصُون فِي مرة واحدة. لا تضف حركة بعد نون متخصّصون، وابدأ مباشرة بالكلمة دون جملة تمهيدية.",
       "max_output_tokens": 256,
       "max_audio_seconds": 2.7,
-      "verify_audio": true
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-239053956580f69cb10ed5e4",
@@ -16141,7 +16274,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-260c870c6e0a3a2ede7d6824",
@@ -17062,7 +17200,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-296051ea4eb57201e797aa08",
@@ -17157,7 +17300,12 @@
         "lesson:ar",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-29f4a827bb2f9d1b60e61e9e",
@@ -17268,7 +17416,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-2a88250b94e9e70adea88698",
@@ -19346,7 +19499,12 @@
         "lesson:ar",
         "verb-tree:past",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-33eeac353dceb63797dc385a",
@@ -19500,7 +19658,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": true
     },
     {
       "id": "cv-3488b4ba0c27b1f08aaaadea",
@@ -20171,7 +20334,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-3700a396ac0625a678c36db3",
@@ -21006,7 +21174,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-3b1549cf0acb5ea2aeac0934",
@@ -21124,7 +21297,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-3ba65023b8e7d07df594d135",
@@ -22071,7 +22249,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-3f88919235bb6d2bbd0ca5cc",
@@ -22934,7 +23117,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-439027ba237fc00bd9058737",
@@ -23311,7 +23499,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-453b5f01d3d38f7f05b95222",
@@ -23625,7 +23818,12 @@
         "lesson:fp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-462610cb8327698a83fa4c2a",
@@ -23773,7 +23971,12 @@
       "kinds": [
         "verb-tree:past",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-46ede65d8f59066b57e02e93",
@@ -24859,7 +25062,12 @@
       "spoken": "التَّرْجَمَة مِنْ",
       "kinds": [
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-4b42800cc7389cc79386b655",
@@ -25237,7 +25445,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-4ccf3f176f6a3d49de14dc3f",
@@ -25627,7 +25840,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-4ed19a36e1086574f513a8bc",
@@ -25662,7 +25880,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-4eea3522e152d0ea2d0b7c17",
@@ -26234,7 +26457,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-51af7bda1ca4e5fabc0dc8d7",
@@ -26438,7 +26666,12 @@
         "lesson:ar",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-527b391d8fe08ad0b6027e65",
@@ -27349,11 +27582,14 @@
         "broken-plural:plural",
         "variant"
       ],
-      "revision": "literal-endings-1",
+      "revision": "literal-speech-acoustic-1",
       "session_instructions": "انطق عَنَاوِين مرة واحدة. وضّح صوت الواو بعد الألف، وانته بالنون الساكنة، بلا حركة بعدها.",
       "max_output_tokens": 256,
       "max_audio_seconds": 1.8,
-      "verify_audio": true
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-567e7f624a6ff82e39d6fd55",
@@ -27365,7 +27601,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-5681a55b5748aa633ad15f73",
@@ -27480,7 +27721,12 @@
         "lesson:ar",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-56e32a3a0cff3a21cfb0a4d0",
@@ -27523,7 +27769,12 @@
         "vocabulary:mp",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-571a3ecbd0eb7ce7b19b6e75",
@@ -27830,7 +28081,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-58850a1a4ab3d3abe4dba3cf",
@@ -28275,7 +28531,12 @@
         "lesson:ar",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-5ade00adb81b1120491d6093",
@@ -28312,7 +28573,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-5ae7cdfd94c9a049d8c52d4a",
@@ -28328,11 +28594,14 @@
         "broken-plural:plural",
         "variant"
       ],
-      "revision": "literal-endings-1",
+      "revision": "literal-speech-acoustic-1",
       "session_instructions": "Say exactly مَنَاطِق once. Pronunciation guide for silent reference only: ma-naa-tiq. End on q. Do not add u, a, i, un, an, or in.",
       "max_output_tokens": 128,
       "max_audio_seconds": 1.7,
-      "verify_audio": true
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-5aecb2831bd541ef603a8595",
@@ -28632,7 +28901,12 @@
         "lesson:ar",
         "verb-tree:present",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-5c7830c73e061205cbb3445a",
@@ -28785,7 +29059,12 @@
         "lesson:ar",
         "verb-tree:past",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-5d4d33ee28ef9cda2eae36be",
@@ -29103,11 +29382,14 @@
         "lesson:ar",
         "variant"
       ],
-      "revision": "part1-audit-repair-1",
+      "revision": "literal-speech-acoustic-1",
       "session_instructions": "انطق الشَّرْق الأَوْسَط. قف على قاف الشرق بلا ضمة، ثم انطق الأوسط وانته على الطاء بلا حركة إعراب.",
       "max_output_tokens": 256,
       "max_audio_seconds": 2.5,
-      "verify_audio": true
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-5e99e7bde6d3486d3262caed",
@@ -29992,7 +30274,12 @@
         "lesson:ar",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-628e4b30b280073771757942",
@@ -30086,7 +30373,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-630f4ce03426e16ad6c72f88",
@@ -30179,7 +30471,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": true
     },
     {
       "id": "cv-635a9b67a7db865460037b60",
@@ -30375,7 +30672,12 @@
       "kinds": [
         "verb-tree:present",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-641b8ec5582e9cd9e7812c23",
@@ -30455,7 +30757,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-6462c72bbbd99b7234a9d7b0",
@@ -30488,7 +30795,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": true
     },
     {
       "id": "cv-64801859cae1fc9da63f4652",
@@ -30639,7 +30951,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-65064ceffc764ed812c4ae0f",
@@ -31174,7 +31491,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-677d89d6be64bfc761987a58",
@@ -31540,7 +31862,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-694dc0a6f0858fa0c778b044",
@@ -31652,7 +31979,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-69af1024bf498db8f5cb4b91",
@@ -31737,7 +32069,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": true
     },
     {
       "id": "cv-6a1217cdb3f7a05be6b9887f",
@@ -31873,7 +32210,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-6a7a31bd9c8d03e824dfded7",
@@ -32442,7 +32784,12 @@
         "lesson:ar",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-6d0060d1a5d2f5ee5c8bf8cb",
@@ -33189,7 +33536,12 @@
         "verb-tree:noun",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-6fe82c90b994b43a090eb972",
@@ -33989,7 +34341,12 @@
         "lesson:mp",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-730fde1f1fe85494bc514652",
@@ -34629,7 +34986,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-7658e84fc3b9fa98c48c073f",
@@ -34757,7 +35119,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-7735ae74019f996a9e0b68ce",
@@ -34988,7 +35355,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-78b4dce66c864aac7c4ed6b1",
@@ -35292,7 +35664,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-7a21706995efbbc5cdc5c1c5",
@@ -35315,7 +35692,12 @@
         "lesson:ar",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-7a3be96e4cf1b6c110a3162c",
@@ -35364,7 +35746,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-7a69bd84f830b224a2cbd9b2",
@@ -35943,7 +36330,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-7d1b23c485681a6c93c67c9a",
@@ -37328,7 +37720,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-822be4e869d6b3485a4bc749",
@@ -37559,7 +37956,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-832d37133ea636f4c91af3ff",
@@ -37902,7 +38304,12 @@
       "kinds": [
         "vocabulary:ar",
         "lesson:ar"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-847e88c49ec91140466b6211",
@@ -37984,7 +38391,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-84cc12ce9e69d379901cc51f",
@@ -38250,7 +38662,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-864048ddcdd52305deef7b13",
@@ -38478,7 +38895,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-873abc7f9919cb0eab47ab18",
@@ -38917,7 +39339,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-897f81113a59bc359229fd96",
@@ -39003,7 +39430,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-89f3e4212ef278b9c6c35161",
@@ -39286,11 +39718,14 @@
         "verb-tree:noun",
         "variant"
       ],
-      "revision": "literal-endings-1",
+      "revision": "literal-speech-acoustic-1",
       "session_instructions": "Say exactly تَكَلُّم once. Pronunciation guide for silent reference only: ta-kal-lum. Keep the doubled l. End on m, without un, an, in, a, i, or u after the m.",
       "max_output_tokens": 128,
       "max_audio_seconds": 1.6,
-      "verify_audio": true
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-8ba67cf09f5bd6524cf44370",
@@ -39355,7 +39790,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-8bec2f172cdcfb9988de04cc",
@@ -39480,7 +39920,12 @@
         "lesson:ar",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-8c55b004e8b97d233afd530c",
@@ -39599,7 +40044,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-8cbeb5f914634352a7f73e66",
@@ -39610,7 +40060,12 @@
         "vocabulary:fp",
         "lesson:fp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-8ccb28c16d93adc4e3d68865",
@@ -39838,7 +40293,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-8dc7bf4d039a2293b7f38ac4",
@@ -40626,7 +41086,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-90d39f1ee4f9e16dea813ff2",
@@ -41402,7 +41867,12 @@
       "kinds": [
         "vocabulary:ar",
         "lesson:ar"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-944ab875733f41117d2ecb04",
@@ -41525,7 +41995,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-94c7a376a8dd0c01fc15233d",
@@ -41746,7 +42221,12 @@
         "verb-tree:noun",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-95a071f21adf52c0e6bc56d7",
@@ -42415,7 +42895,12 @@
       "kinds": [
         "verb-tree:past",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-98d4bed2ebd8035adec1ae53",
@@ -44623,7 +45108,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a25c38d39288b2655de0f4a3",
@@ -44924,7 +45414,12 @@
         "vocabulary:fp",
         "lesson:fp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a377960345e33755ef9debf4",
@@ -44968,7 +45463,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a3b4e26f9e9fecbb1ccebc62",
@@ -45070,7 +45570,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a46126d5837ecf28febf0324",
@@ -45161,7 +45666,12 @@
       "kinds": [
         "vocabulary:ar",
         "lesson:ar"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a4e73f012707b02db619d656",
@@ -45231,7 +45741,12 @@
         "verb-tree:noun",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a5516238ae20f1cd89e577bd",
@@ -45298,7 +45813,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a599e25cf890002846a0e50b",
@@ -45309,7 +45829,12 @@
         "vocabulary:mp",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a5a8f60ed473deb9d9d7ba2d",
@@ -45467,7 +45992,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a6983746de9561dcd06da540",
@@ -45793,7 +46323,12 @@
         "lesson:ar",
         "verb-tree:present",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-a7e797ad7a6e042d8d302036",
@@ -46987,7 +47522,12 @@
         "vocabulary:fp",
         "lesson:fp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-ad7a74faf1709d7a37ec152d",
@@ -47540,7 +48080,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-af8611cd578b4311b9cc0043",
@@ -48352,7 +48897,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-b2fe362b006dbba90e26c6be",
@@ -48375,7 +48925,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-b3264e59496fcaece634d1cf",
@@ -48452,7 +49007,12 @@
         "lesson:fp",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-b37aca2425ff8feabb66ddfa",
@@ -48934,7 +49494,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-b55618181b35b97c5e3777c6",
@@ -49066,7 +49631,12 @@
         "lesson:fp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-b5f18d9110f57453e0eadee1",
@@ -49731,7 +50301,12 @@
         "vocabulary:fp",
         "lesson:fp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-b92454c88ffd45f26126cca0",
@@ -49836,7 +50411,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-b976dcdbaa4f9b2582794372",
@@ -49959,7 +50539,12 @@
         "vocabulary:fp",
         "lesson:fp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-ba117ac8e19570d7cc67cac3",
@@ -49982,7 +50567,12 @@
         "lesson:ar",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-ba14e732b22a7431e2451b50",
@@ -51229,7 +51819,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": true
     },
     {
       "id": "cv-bf79426102d493b3ce62a800",
@@ -51925,7 +52520,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-c2972a3e6bcd8a4e65483f52",
@@ -52192,7 +52792,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-c407ba904a59751eabebaf5e",
@@ -53423,7 +54028,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-c90eb45dc2c171004f7b035e",
@@ -53448,7 +54058,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-c92a621dd2859a2683fadfb0",
@@ -53640,7 +54255,12 @@
         "vocabulary:mp",
         "lesson:mp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-ca391b635b1458f295ec76ac",
@@ -53696,7 +54316,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-caae263681c65a104d4d4008",
@@ -54012,7 +54637,12 @@
       "kinds": [
         "vocabulary:mp",
         "lesson:mp"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-cbc4bd61fb17890acc60a9e5",
@@ -54177,7 +54807,12 @@
         "lesson:mp",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-cca3c70c1cf122a178736eff",
@@ -54254,7 +54889,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-ccdc2b9f940753a5e2eac84e",
@@ -54534,7 +55174,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-ce7bd150dd97e47b97331e9f",
@@ -54929,7 +55574,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-d08574699635f7e1100fe42b",
@@ -55907,7 +56557,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-d480d01ad4743198fa01f9c5",
@@ -55941,7 +56596,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-d4a5b8021682e969f82cb9a2",
@@ -56977,7 +57637,12 @@
         "lesson:ar",
         "broken-plural:plural",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-d8a2e42c9be18a09ca3b22ef",
@@ -57484,7 +58149,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-db214504f5ff96337215e0d3",
@@ -57903,7 +58573,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-dcbc8e1e3aa43650083beabb",
@@ -58268,7 +58943,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-de0aa00003ec84a3d7c974c0",
@@ -58291,7 +58971,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-de13a1065cf01e74ed0dd74f",
@@ -58826,11 +59511,14 @@
         "lesson:ar",
         "variant"
       ],
-      "revision": "literal-endings-1",
+      "revision": "literal-speech-acoustic-1",
       "session_instructions": "Say exactly القَوَاعِد once. Pronunciation guide for silent reference only: al-qa-waa-id. End on d. Do not say qawaaidu, qawaaida, or qawaaidi.",
       "max_output_tokens": 128,
       "max_audio_seconds": 1.8,
-      "verify_audio": true
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-e0b6b653181c06a62d88cdb7",
@@ -59364,7 +60052,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-e3587645a898fc4f72aa0785",
@@ -59421,7 +60114,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-e36bb2a5ee29c709b2830eb8",
@@ -60277,7 +60975,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-e7821af6938092311706cfbf",
@@ -60793,11 +61496,14 @@
         "vocabulary:ar",
         "lesson:ar"
       ],
-      "revision": "part1-audit-repair-1",
+      "revision": "literal-speech-acoustic-1",
       "session_instructions": "انطق البديلين سَنَتانِ ثم سَنَتَيْنِ. ضع وقفة صامتة بينهما، ولا تنطق كلمة ثم أو أي حرف ربط. انطق كسرة النون المكتوبة في كل بديل.",
       "max_output_tokens": 1024,
       "max_audio_seconds": 2.9,
-      "verify_audio": true
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-e9bbd605851f0d37dd4eda96",
@@ -61016,7 +61722,12 @@
         "lesson:ar",
         "broken-plural:singular",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-ea9c6c2699c070e26a619fa5",
@@ -62224,7 +62935,12 @@
         "lesson:ar",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": true
     },
     {
       "id": "cv-efe3b26732ee998e438e8773",
@@ -62313,7 +63029,12 @@
         "vocabulary:f",
         "lesson:f",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-f01894e66751ba4e24fbaa27",
@@ -62619,7 +63340,12 @@
         "vocabulary:fp",
         "lesson:fp",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-f14490366ffb3a39729de238",
@@ -62805,7 +63531,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-f1c1f5f1f27e15b9f526ab97",
@@ -63789,7 +64520,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-f4f07725c30c351187b1b76f",
@@ -64335,7 +65071,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-f75b05b7ca21b2addc40051d",
@@ -65329,7 +66070,12 @@
       "kinds": [
         "verb-tree:past",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-fb2e3eba967a75750ff32694",
@@ -65629,7 +66375,12 @@
         "lesson:ar",
         "verb-tree:noun",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-fc3159bb6b2deaf78d6308fc",
@@ -66232,7 +66983,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-fe9037e3b9257ba99039c967",
@@ -66448,7 +67204,12 @@
         "vocabulary:ar",
         "lesson:ar",
         "variant"
-      ]
+      ],
+      "revision": "literal-speech-acoustic-1",
+      "verify_audio": true,
+      "generation_engine": "speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "repair_priority": false
     },
     {
       "id": "cv-ff683468e048503282e029aa",

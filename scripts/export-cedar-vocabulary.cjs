@@ -34,7 +34,7 @@ const overrides=fs.existsSync(overridesPath)?JSON.parse(fs.readFileSync(override
 for(const [id,settings] of Object.entries(overrides)){
  const target=[...targets.values()].find(t=>t.id===id);
  if(!target)throw Error('Unknown pronunciation override: '+id);
- for(const field of ['revision','session_instructions','max_output_tokens','max_audio_seconds','verify_audio'])if(settings[field]!==undefined)target[field]=settings[field];
+ for(const field of ['revision','session_instructions','max_output_tokens','max_audio_seconds','verify_audio','generation_engine','generation_model','repair_priority'])if(settings[field]!==undefined)target[field]=settings[field];
 }
 const entries=[...targets.values()].sort((a,b)=>a.id.localeCompare(b.id));
 if(entries.length>10000||entries.length<1000||new Set(entries.map(t=>t.id)).size!==entries.length)throw Error('Unexpected vocabulary target count');

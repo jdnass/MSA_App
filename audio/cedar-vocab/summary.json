@@ -8,10 +8,21 @@
   "targets": 5183,
   "completed": 3184,
   "remaining": 1999,
-  "failed": {},
+  "failed": {
+    "cv-a3b3b23a3f172ad3b6adc5d8": {
+      "ar": "سَلَطة",
+      "reason": "Literal speech repair not accepted: Audio word mismatch: سلام"
+    }
+  },
   "estimatedGenerationCostUSD": 2.928011,
   "requests": 4959,
   "cards": 5346,
   "verbTrees": 268,
-  "brokenPluralPairs": 428
+  "brokenPluralPairs": 428,
+  "literalSpeechRepairs": {
+    "selected": 155,
+    "accepted": 154,
+    "remaining": 1
+  },
+  "costAccountingNote": "Legacy cost estimate excludes Speech API and new blind audio-review calls."
 }
