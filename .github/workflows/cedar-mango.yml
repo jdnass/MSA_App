@@ -1,0 +1,53 @@
+name: Fill missing Mango Cedar audio
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/cedar-mango.yml']
+permissions:
+  contents: read
+concurrency:
+  group: cedar-vocabulary
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install audio dependencies
+        run: |
+          python -m pip install websocket-client==1.8.0
+          command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Export Mango scope and check playback
+        run: |
+          node scripts/export-cedar-vocabulary.cjs --collection=mango-msa
+          node scripts/check-vocab-audio.cjs
+          node scripts/check-module-audio.cjs
+          python -m py_compile scripts/cedar_mango.py
+          PYTHONPATH=scripts python -m unittest discover -s scripts -p 'test_mango_audio.py'
+      - name: Generate missing audio with bounded independent reviews
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/cedar_mango.py
+      - name: Preserve accepted recordings and unresolved review report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mosa-cedar-mango
+          path: |
+            audio/cedar-vocab/
+            cedar-vocab-audio.js
+            cedar-vocab-targets.json
+            reports/cedar-mango-missing.json
+          retention-days: 30
+      - name: Report remaining coverage
+        run: node scripts/export-cedar-vocabulary.cjs --collection=mango-msa --coverage
