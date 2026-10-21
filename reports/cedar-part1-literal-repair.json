@@ -2,8 +2,8 @@
   "voice": "cedar",
   "model": "gpt-4o-mini-tts",
   "selected": 155,
-  "accepted": 148,
-  "remaining": 7,
+  "accepted": 151,
+  "remaining": 4,
   "acceptedIds": [
     "cv-00c72e34a0fb1fde375e997b",
     "cv-00cbb658ee123856ac65b98b",
@@ -48,6 +48,7 @@
     "cv-46cd3547c11f79b43d3259b8",
     "cv-4b31916ffde9ed4f1564d8d5",
     "cv-4cc6721269a22310ab05ccd5",
+    "cv-4ebcb80a6b059738d5089b4b",
     "cv-4edf15b814c7c7b0a1e8645d",
     "cv-518e7802940c849338ecc5d1",
     "cv-527aaa65747d2c2c8f4c67a7",
@@ -67,6 +68,7 @@
     "cv-633e643be5e939852cabe1e0",
     "cv-640e91bb7fb4fbe96509aac2",
     "cv-6461b389aba66a446e5e05b0",
+    "cv-647899124cf18326f6d37885",
     "cv-65016a9b7cb67fbc0f5b7c50",
     "cv-67785241ee3933d27516ae8e",
     "cv-69458ac173dbbdf480c6b3db",
@@ -89,6 +91,7 @@
     "cv-86386d1516cbb26c67e690d9",
     "cv-87289e2dbf38134f4eea4ef5",
     "cv-8974d38aa6ec1503cbd8a651",
+    "cv-89b308f5d70922c232a8f70c",
     "cv-8b82ef2f3486f3861878ff6d",
     "cv-8be51a3747b1b17de0dc9a91",
     "cv-8c504d21f1a2b99946153037",
@@ -155,33 +158,21 @@
     "cv-fe8e7bbf1169eeb04289161c"
   ],
   "failed": {
-    "cv-647899124cf18326f6d37885": {
-      "ar": "عِلْم الإِنْسَان",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: أَلْ"
-    },
-    "cv-4ebcb80a6b059738d5089b4b": {
-      "ar": "أَعْمَال",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: أعمان"
-    },
     "cv-772be16d54035c9d444f275e": {
       "ar": "المَسَاء",
       "reason": "Literal speech repair not accepted: Unwanted final sound: al-masaa"
     },
-    "cv-89b308f5d70922c232a8f70c": {
-      "ar": "أَسابيع",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: أسابيعَ"
-    },
     "cv-a3b3b23a3f172ad3b6adc5d8": {
       "ar": "سَلَطة",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: سَنَاطَ"
-    },
-    "cv-af835dba4a4ad94f1572c4cf": {
-      "ar": "إِدارة الأَعْمال",
-      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: ʔidaːrat"
+      "reason": "Literal speech repair not accepted: Audio word mismatch: ثلاثة"
     },
     "cv-ff651625873dd12399f0fe4b": {
       "ar": "مُناسِب لِ",
       "reason": "Literal speech repair not accepted: Audio word mismatch: لي"
+    },
+    "cv-af835dba4a4ad94f1572c4cf": {
+      "ar": "إِدارة الأَعْمال",
+      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: ʔidaːrat"
     }
   },
   "unchangedCardText": true,

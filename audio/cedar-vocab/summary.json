@@ -9,33 +9,21 @@
   "completed": 3184,
   "remaining": 1999,
   "failed": {
-    "cv-647899124cf18326f6d37885": {
-      "ar": "عِلْم الإِنْسَان",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: أَلْ"
-    },
-    "cv-4ebcb80a6b059738d5089b4b": {
-      "ar": "أَعْمَال",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: أعمان"
-    },
     "cv-772be16d54035c9d444f275e": {
       "ar": "المَسَاء",
       "reason": "Literal speech repair not accepted: Unwanted final sound: al-masaa"
     },
-    "cv-89b308f5d70922c232a8f70c": {
-      "ar": "أَسابيع",
-      "reason": "Literal speech repair not accepted: Unmarked or changed vowel in heard word: أسابيعَ"
-    },
     "cv-a3b3b23a3f172ad3b6adc5d8": {
       "ar": "سَلَطة",
-      "reason": "Literal speech repair not accepted: Audio word mismatch: سَنَاطَ"
-    },
-    "cv-af835dba4a4ad94f1572c4cf": {
-      "ar": "إِدارة الأَعْمال",
-      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: ʔidaːrat"
+      "reason": "Literal speech repair not accepted: Audio word mismatch: ثلاثة"
     },
     "cv-ff651625873dd12399f0fe4b": {
       "ar": "مُناسِب لِ",
       "reason": "Literal speech repair not accepted: Audio word mismatch: لي"
+    },
+    "cv-af835dba4a4ad94f1572c4cf": {
+      "ar": "إِدارة الأَعْمال",
+      "reason": "Literal speech repair not accepted: Unwanted taa marbuuta ending: ʔidaːrat"
     }
   },
   "estimatedGenerationCostUSD": 2.928011,
@@ -45,8 +33,8 @@
   "brokenPluralPairs": 428,
   "literalSpeechRepairs": {
     "selected": 155,
-    "accepted": 148,
-    "remaining": 7
+    "accepted": 151,
+    "remaining": 4
   },
   "costAccountingNote": "Legacy cost estimate excludes Speech API and new blind audio-review calls."
 }
