@@ -92,7 +92,7 @@ def post(url,body,key,binary=False):
 
 def review_audio(clip,key):
     result=post("https://api.openai.com/v1/chat/completions",{
-       "model":REVIEW_MODEL,"modalities":["text"],"temperature":0,"max_completion_tokens":1200,"store":False,
+       "model":REVIEW_MODEL,"modalities":["text"],"temperature":0,"max_completion_tokens":2200,"store":False,
        "messages":[{"role":"system","content":BLIND},{"role":"user","content":[
          {"type":"text","text":"Describe this recording exactly as heard. No expected phrase is given."},
          {"type":"input_audio","input_audio":{"data":base64.b64encode(clip).decode(),"format":"mp3"}}]}]},key)
@@ -121,6 +121,7 @@ def generate_clip(text,t,key):
             "session_instructions":INSTRUCTIONS,
             "pronunciation_instructions":"Read only the supplied Arabic once. "+HINTS.get(t["id"],"")+" Silent English context: "+t.get("en","")+". Never speak this context."}
         if text=="لِ": request["pronunciation_instructions"]+=" Say the SHORT syllable li, not a letter name and not long lee."
+        request["session_instructions"]+=" "+request["pronunciation_instructions"]
         result=cedar_samples.generate(request,key)
         path=cedar_samples.OUT/result["file"]
         clip=path.read_bytes(); path.unlink(missing_ok=True)
@@ -175,12 +176,12 @@ def repair_one(t,key,signature):
             if len(clip)<500: raise ValueError("Empty speech recording")
             if not 0.2<=seconds<=max(4,3*len(re.findall(TOKEN,t["spoken"]))):
                 raise ValueError("Unexpected word-recording duration")
-            for review_attempt in range(2):
+            for review_attempt in range(3):
                 try:
                     review=review_audio(clip,key)
                     break
                 except ValueError as error:
-                    if review_attempt: raise
+                    if review_attempt==2: raise
             validate(review,t["spoken"])
             target=DEST/(t["id"]+".mp3")
             temporary=target.with_suffix(".accepted.tmp")

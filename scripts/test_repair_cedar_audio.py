@@ -1,5 +1,7 @@
-import unittest
-from repair_cedar_audio import speech_text, validate
+import tempfile,unittest
+from pathlib import Path
+from unittest.mock import patch
+from repair_cedar_audio import speech_text, validate, generate_clip
 
 def review(word, phonetic, ending):
     return {"uncertain": False, "word_endings": [{"word_arabic": word, "phonetic": phonetic, "ending": ending}]}
@@ -46,5 +48,13 @@ class LiteralAudioTests(unittest.TestCase):
     def test_uncertain_recording(self):
         r=review("أزواج","azwāj","consonant"); r["uncertain"]=True
         with self.assertRaises(ValueError): validate(r,"أَزْوَاج")
+
+    def test_fallback_gets_pronunciation_guidance(self):
+        import cedar_samples
+        with tempfile.TemporaryDirectory() as tmp:
+            path=Path(tmp)/"clip.wav";path.write_bytes(b"mock audio")
+            with patch.object(cedar_samples,"OUT",Path(tmp)),patch.object(cedar_samples,"generate",return_value={"file":"clip.wav"}) as gen:
+                self.assertEqual(generate_clip("سَلَطة",{"id":"cv-a3b3b23a3f172ad3b6adc5d8","en":"salad","realtime_fallback":True},"fake"),b"mock audio")
+                self.assertIn("salad",gen.call_args.args[0]["session_instructions"])
 
 if __name__ == "__main__": unittest.main()
