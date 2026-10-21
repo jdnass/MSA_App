@@ -60,6 +60,7 @@
 <script src="./verb-practice-data.js?v=83"></script>
 <script src="./cedar-module-audio.js?v=84"></script>
 <script src="./cedar-vocab-audio.js?v=92"></script>
+<script src="./cooking-module.js?v=93"></script>
 <script>
 const V1=[
 ['(one) vocabulary word','المُفْرَد','al-mufrad','Noun','مُفْرَدَة','مُفْرَدات','مُفْرَدات'],
@@ -1914,6 +1915,8 @@ for(const chapter of Object.values(mosaModulesDraft.chapters)){
     chapter.sentences=lessons.flatMap(lesson=>lesson.sentences);
   }
 }
+
+window.MOSA_APPLY_COOKING(mosaModulesDraft);
 
 const ALL_V=[...uniqueVocabulary([...Object.values(CHAPTERS).flatMap(chapter=>chapter.vocab),...MANGO_V1,...DLI_ALL_V],true),...MANGO_V2,...MANGO_V3,...ALIF_BAA_CARDS,...MADINA_BOOK1_CARDS,...AK2_ALL_V,...Object.values(window.MANGO_ADDITIONAL_CHAPTERS).flatMap(chapter=>chapter.vocab),...Object.values(COLLECTIONS.find(c=>c.id==='mosa-modules').chapters).flatMap(c=>c.vocab),...MADINA_BOOK2_CARDS];
 // Vocabulary grammar comments shared by lesson cards and the vocabulary list.
