@@ -1,5 +1,5 @@
 name: Stage Part 1 literal Cedar audio repairs
-# Complete the final salad recording; reuse all 154 accepted repairs.
+# Pronunciation-only internal fatha clarifies the final salad recording.
 on:
   workflow_dispatch:
   push:

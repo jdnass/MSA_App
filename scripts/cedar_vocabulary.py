@@ -142,7 +142,9 @@ def save(records,targets,failed):
     report["literalSpeechRepairs"]={"selected":len(repair_targets),"accepted":len(accepted),"remaining":len(repair_targets)-len(accepted)}
     report["costAccountingNote"]="Legacy cost estimate excludes Speech API and new blind audio-review calls."
     repair_report={"voice":"cedar","model":"gpt-4o-mini-tts","selected":len(repair_targets),"accepted":len(accepted),"remaining":len(repair_targets)-len(accepted),
-        "acceptedIds":accepted,"failed":failed,"unchangedCardText":True,"method":"Speech API with pronunciation-only sukun; target-blind audio review and literal ending checks. Automated checks, not human certification."}
+        "acceptedIds":accepted,"failed":failed,"unchangedCardText":True,
+        "modelsUsed":sorted({records[i].get("generation_model","gpt-4o-mini-tts") for i in accepted}),
+        "method":"Cedar speech generation with bounded realtime fallback; pronunciation-only sukun; target-blind audio review and literal ending checks. Preserve normal construct-state taa without added case vowels. Automated checks, not human certification."}
     (ROOT/"reports").mkdir(exist_ok=True)
     (ROOT/"reports"/"cedar-part1-literal-repair.json").write_text(json.dumps(repair_report,ensure_ascii=False,indent=2))
     (DEST/"summary.json").write_text(json.dumps(report,ensure_ascii=False,indent=2))
@@ -197,3 +199,4 @@ if __name__=="__main__":
     except Exception as e:
         print(str(e) if type(e) in (RuntimeError,ValueError) else "Generation failed: "+type(e).__name__)
         raise SystemExit(1)
+

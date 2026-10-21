@@ -153,6 +153,9 @@ def prepare_clip(spoken,t,key,separate=False):
 
 def repair_one(t,key,signature):
     spoken=speech_text(t["spoken"])
+    if t["id"]=="cv-a3b3b23a3f172ad3b6adc5d8":
+        # Supply the missing internal fatha for salad; the displayed card is unchanged.
+        spoken="سَلَطَة"
     last="No accepted candidate"
     # Reuse a fully vocalized spelling's accepted recording for this identical word.
     if t["id"]=="cv-89b308f5d70922c232a8f70c":
