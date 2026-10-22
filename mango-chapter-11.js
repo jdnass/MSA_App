@@ -79,8 +79,8 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "collection": "Mango Languages (MSA)",
         "chapter": 11,
         "en": "I exercise",
-        "ar": "أُمَارِسُ الرِّيَاضَةَ",
-        "tr": "umārisu ar-riyāḍa",
+        "ar": "أَتَمَرَّنُ",
+        "tr": "atamarranu",
         "pos": "Verb",
         "f": "—",
         "mp": "—",
@@ -93,8 +93,8 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "collection": "Mango Languages (MSA)",
         "chapter": 11,
         "en": "I exercised",
-        "ar": "مَارَسْتُ الرِّيَاضَةَ",
-        "tr": "mārastu ar-riyāḍa",
+        "ar": "تَمَرَّنْتُ",
+        "tr": "tamarrantu",
         "pos": "Verb",
         "f": "—",
         "mp": "—",
@@ -107,8 +107,8 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "collection": "Mango Languages (MSA)",
         "chapter": 11,
         "en": "exercising",
-        "ar": "مُمَارَسَة الرِّيَاضَة",
-        "tr": "mumārasat ar-riyāḍa",
+        "ar": "تَمَرُّن",
+        "tr": "tamarrun",
         "pos": "Verbal noun (maṣdar)",
         "f": "—",
         "mp": "—",
@@ -410,6 +410,92 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "idInChapter": 29
       },
       {
+        "id": "mango-c11-32",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "I run",
+        "ar": "أَرْكُضُ",
+        "tr": "arkuḍu",
+        "pos": "Verb",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "grammarNote": "<p>[أَجْرِي], [أَرْكُضُ], and [أَعْدُو] all mean “I run” and overlap considerably. [أَجْرِي] is a broad word for running; [أَرْكُضُ] can suggest energetic running or rushing; [أَعْدُو] can suggest swift running. These are tendencies, not strict speed categories. [أُهَرْوِلُ] means “I jog”: a light run.</p>",
+        "idInChapter": 30
+      },
+      {
+        "id": "mango-c11-32-form-1",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "I ran",
+        "ar": "رَكَضْتُ",
+        "tr": "rakaḍtu",
+        "pos": "Verb",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "idInChapter": 31
+      },
+      {
+        "id": "mango-c11-32-form-2",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "running",
+        "ar": "رَكْض",
+        "tr": "rakḍ",
+        "pos": "Verbal noun (maṣdar)",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "idInChapter": 32
+      },
+      {
+        "id": "mango-c11-33",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "I run",
+        "ar": "أَعْدُو",
+        "tr": "aʿdū",
+        "pos": "Verb",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "grammarNote": "<p>[أَجْرِي], [أَرْكُضُ], and [أَعْدُو] all mean “I run” and overlap considerably. [أَجْرِي] is a broad word for running; [أَرْكُضُ] can suggest energetic running or rushing; [أَعْدُو] can suggest swift running. These are tendencies, not strict speed categories. [أُهَرْوِلُ] means “I jog”: a light run.</p>",
+        "idInChapter": 33
+      },
+      {
+        "id": "mango-c11-33-form-1",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "I ran",
+        "ar": "عَدَوْتُ",
+        "tr": "ʿadawtu",
+        "pos": "Verb",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "idInChapter": 34
+      },
+      {
+        "id": "mango-c11-33-form-2",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "running",
+        "ar": "عَدْو",
+        "tr": "ʿadw",
+        "pos": "Verbal noun (maṣdar)",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "idInChapter": 35
+      },
+      {
         "id": "mango-c11-16",
         "collectionId": "mango-msa",
         "collection": "Mango Languages (MSA)",
@@ -421,7 +507,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 30
+        "idInChapter": 36
       },
       {
         "id": "mango-c11-16-form-1",
@@ -435,7 +521,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 31
+        "idInChapter": 37
       },
       {
         "id": "mango-c11-16-form-2",
@@ -449,7 +535,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 32
+        "idInChapter": 38
       },
       {
         "id": "mango-c11-17",
@@ -463,7 +549,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 33
+        "idInChapter": 39
       },
       {
         "id": "mango-c11-17-form-1",
@@ -477,7 +563,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 34
+        "idInChapter": 40
       },
       {
         "id": "mango-c11-17-form-2",
@@ -491,7 +577,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 35
+        "idInChapter": 41
       },
       {
         "id": "mango-c11-18",
@@ -505,7 +591,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "مُتْعَبَة",
         "mp": "مُتْعَبُونَ",
         "fp": "مُتْعَبَات",
-        "idInChapter": 36
+        "idInChapter": 42
       },
       {
         "id": "mango-c11-19",
@@ -519,7 +605,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "صَالَات رِيَاضِيَّة",
-        "idInChapter": 37
+        "idInChapter": 43
       },
       {
         "id": "mango-c11-20",
@@ -533,7 +619,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "اِسْتَادَات",
         "fp": "—",
-        "idInChapter": 38
+        "idInChapter": 44
       },
       {
         "id": "mango-c11-21",
@@ -541,13 +627,13 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "collection": "Mango Languages (MSA)",
         "chapter": 11,
         "en": "later today",
-        "ar": "فِي وَقْتٍ لَاحِقٍ مِنَ اليَوْمِ",
-        "tr": "fī waqtin lāḥiqin mina al-yawm",
+        "ar": "لَاحِقًا الْيَوْم",
+        "tr": "lāḥiqan al-yawm",
         "pos": "Adverbial phrase",
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 39
+        "idInChapter": 45
       },
       {
         "id": "mango-c11-22",
@@ -561,7 +647,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 40
+        "idInChapter": 46
       },
       {
         "id": "mango-c11-23",
@@ -575,7 +661,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 41
+        "idInChapter": 47
       },
       {
         "id": "mango-c11-24",
@@ -589,7 +675,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 42
+        "idInChapter": 48
       },
       {
         "id": "mango-c11-25",
@@ -603,7 +689,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 43
+        "idInChapter": 49
       },
       {
         "id": "mango-c11-26",
@@ -617,7 +703,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 44
+        "idInChapter": 50
       },
       {
         "id": "mango-c11-27",
@@ -631,7 +717,37 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 45
+        "idInChapter": 51
+      },
+      {
+        "id": "mango-c11-34",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "in a little while",
+        "ar": "بَعْدَ قَلِيلٍ",
+        "tr": "baʿda qalīl",
+        "pos": "Adverbial phrase",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "grammarNote": "<p>[بَعْدَ قَلِيلٍ] means “in a little while”: a short wait before something happens. It is a concise alternative to [بَعْدَ مُدَّةٍ وَجِيزَةٍ]. Compare [فِي فَتْرَةٍ وَجِيزَةٍ], “in a short time,” which often emphasizes how quickly something happens or gets done.</p>",
+        "idInChapter": 52
+      },
+      {
+        "id": "mango-c11-35",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "in a short time",
+        "ar": "فِي فَتْرَةٍ وَجِيزَةٍ",
+        "tr": "fī fatratin wajīza",
+        "pos": "Adverbial phrase",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "grammarNote": "<p>[فِي فَتْرَةٍ وَجِيزَةٍ] means “in a short time” and often emphasizes how quickly something happens or gets done. Compare [بَعْدَ قَلِيلٍ], “in a little while,” which emphasizes a short wait before something happens. [فَتْرَة] and [مُدَّة] both mean a period of time; [فِي] means “in,” while [بَعْدَ] means “after.”</p>",
+        "idInChapter": 53
       },
       {
         "id": "mango-c11-28",
@@ -645,7 +761,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 46
+        "idInChapter": 54
       },
       {
         "id": "mango-c11-28-form-1",
@@ -659,7 +775,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 47
+        "idInChapter": 55
       },
       {
         "id": "mango-c11-28-form-2",
@@ -673,7 +789,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 48
+        "idInChapter": 56
       },
       {
         "id": "mango-c11-29",
@@ -687,7 +803,49 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "—",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 49
+        "idInChapter": 57
+      },
+      {
+        "id": "mango-c11-36",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "exercise",
+        "ar": "تَمْرِين",
+        "tr": "tamrīn",
+        "pos": "Noun",
+        "f": "—",
+        "mp": "تَمَارِين",
+        "fp": "—",
+        "idInChapter": 58
+      },
+      {
+        "id": "mango-c11-36-plural",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "exercises",
+        "ar": "تَمَارِين",
+        "tr": "tamārīn",
+        "pos": "Noun (broken plural)",
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
+        "idInChapter": 59
+      },
+      {
+        "id": "mango-c11-37",
+        "collectionId": "mango-msa",
+        "collection": "Mango Languages (MSA)",
+        "chapter": 11,
+        "en": "athletic",
+        "ar": "رِيَاضِيّ",
+        "tr": "riyāḍiyy",
+        "pos": "Adjective",
+        "f": "رِيَاضِيَّة",
+        "mp": "رِيَاضِيُّونَ",
+        "fp": "رِيَاضِيَّات",
+        "idInChapter": 60
       },
       {
         "id": "mango-c11-30",
@@ -701,7 +859,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "مُدَرِّبَة",
         "mp": "مُدَرِّبُونَ",
         "fp": "مُدَرِّبَات",
-        "idInChapter": 50
+        "idInChapter": 61
       },
       {
         "id": "mango-c11-31",
@@ -715,7 +873,7 @@ Object.assign(window.MANGO_ADDITIONAL_CHAPTERS, {
         "f": "مُوَافِقَة!",
         "mp": "—",
         "fp": "—",
-        "idInChapter": 51
+        "idInChapter": 62
       }
     ],
     "sentences": [],
