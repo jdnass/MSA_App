@@ -46,7 +46,7 @@
   class PassivePlayer{
     constructor(onchange=()=>{}){
       this.onchange=onchange;this.audio=null;this.url=null;this.abort=null;
-      this.status='idle';this.entries=[];this.skipped=0;this.progress=0;this.generation=0;
+      this.status='idle';this.entries=[];this.skipped=0;this.progress=0;this.generation=0;this.playRequest=0;
     }
     notify(){this.onchange(this);}
     async prepare(words,source){
@@ -87,6 +87,10 @@
         if(!this.entries.length)throw Error('No playable recordings match these filters.');
         const blob=playlistBlob(parts);this.url=URL.createObjectURL(blob);
         this.audio=new Audio(this.url);this.audio.preload='auto';
+        // Keep the native media element connected while the page is backgrounded.
+        // It lives outside the study view, which is replaced during navigation.
+        this.audio.hidden=true;this.audio.setAttribute('playsinline','');
+        document.body.appendChild(this.audio);
         this.audio.onplay=()=>{this.status='playing';this.updateSession();this.notify();};
         this.audio.onpause=()=>{if(this.status!=='ended')this.status='paused';this.updateSession();this.notify();};
         this.audio.onended=()=>{this.status='ended';this.updateSession();this.notify();};
@@ -99,20 +103,41 @@
       }
     }
     current(){const time=this.audio?.currentTime||0;return this.entries.find(entry=>time<entry.end)||this.entries.at(-1);}
-    async play(){
+    async play({recover=false}={}){
       if(!this.audio)return;
-      if(this.status==='ended')this.audio.currentTime=0;
-      try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(error){}
+      const audio=this.audio,request=++this.playRequest;
+      const position=this.status==='ended'?0:audio.currentTime;
+      if(recover&&this.status!=='playing'){
+        // A background iPhone player can accept play() while its output stays
+        // suspended. Reopen the same local Blob, preserving the exact position.
+        // Call play synchronously in the remote action; do not await metadata or
+        // use a timer, as that can lose the system's permission to resume.
+        audio.pause();
+        const restore=()=>{if(this.audio===audio&&this.playRequest===request)audio.currentTime=position;};
+        audio.onloadedmetadata=()=>{audio.onloadedmetadata=null;restore();};
+        audio.load();
+        if(audio.readyState>=1)restore();
+      }else if(this.status==='ended')audio.currentTime=0;
+      audio.muted=false;audio.volume=1;
       try{
-        await this.audio.play();
-      }catch(error){this.status='paused';this.error='Tap Play to resume listening.';this.notify();}
+        if(navigator.audioSession){
+          if(recover)navigator.audioSession.type='auto';
+          navigator.audioSession.type='playback';
+        }
+      }catch(error){}
+      try{
+        await audio.play();
+      }catch(error){
+        if(this.audio!==audio||this.playRequest!==request)return;
+        this.status='paused';this.error='Tap Play to resume listening.';this.updateSession();this.notify();
+      }
     }
-    pause(){this.audio?.pause();}
+    pause(){this.playRequest++;if(this.audio){this.audio.onloadedmetadata=null;this.audio.pause();}}
     seek(time){if(this.audio)this.audio.currentTime=Math.max(0,Math.min(this.entries.at(-1)?.end||0,time));this.updateSession();this.notify();}
     skip(direction){const current=this.current(),index=this.entries.indexOf(current);this.seek(this.entries[Math.max(0,Math.min(this.entries.length-1,index+direction))]?.start||0);}
     bindSession(){
       if(!navigator.mediaSession)return;
-      for(const [action,handler] of Object.entries({play:()=>this.play(),pause:()=>this.pause(),stop:()=>this.stop(),nexttrack:()=>this.skip(1),previoustrack:()=>this.skip(-1),seekto:event=>this.seek(event.seekTime),seekforward:event=>this.seek(this.audio.currentTime+(event.seekOffset||10)),seekbackward:event=>this.seek(this.audio.currentTime-(event.seekOffset||10))})){
+      for(const [action,handler] of Object.entries({play:()=>this.play({recover:true}),pause:()=>this.pause(),stop:()=>this.stop(),nexttrack:()=>this.skip(1),previoustrack:()=>this.skip(-1),seekto:event=>this.seek(event.seekTime),seekforward:event=>this.seek(this.audio.currentTime+(event.seekOffset||10)),seekbackward:event=>this.seek(this.audio.currentTime-(event.seekOffset||10))})){
         try{navigator.mediaSession.setActionHandler(action,handler);}catch(error){/* Some actions are unavailable on older browsers. */}
       }
       this.updateSession();
@@ -128,9 +153,9 @@
       try{const duration=this.audio.duration;if(Number.isFinite(duration)&&duration>0)navigator.mediaSession.setPositionState?.({duration,position:Math.min(duration,this.audio.currentTime),playbackRate:1});}catch(error){}
     }
     stop(){
-      this.generation++;
+      this.generation++;this.playRequest++;
       this.abort?.abort();this.abort=null;
-      if(this.audio){this.audio.onplay=this.audio.onpause=this.audio.onended=this.audio.ontimeupdate=this.audio.onerror=null;this.audio.pause();this.audio.removeAttribute('src');this.audio.load();this.audio=null;}
+      if(this.audio){this.audio.onloadedmetadata=this.audio.onplay=this.audio.onpause=this.audio.onended=this.audio.ontimeupdate=this.audio.onerror=null;this.audio.pause();this.audio.removeAttribute('src');this.audio.load();this.audio.remove();this.audio=null;}
       if(this.url)URL.revokeObjectURL(this.url);this.url=null;
       if(this.status!=='idle'&&navigator.mediaSession){
         navigator.mediaSession.playbackState='none';navigator.mediaSession.metadata=null;

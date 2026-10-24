@@ -1,8 +1,9 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const html=fs.readFileSync('index.html','utf8');
 const el=()=>({style:{},classList:{add(){},remove(){},contains(){return false},toggle(){}},addEventListener(){},querySelector:()=>null,querySelectorAll:()=>[],appendChild(){},setAttribute(){},innerHTML:''});
+const attachedAudio=new Set();
 const actions=new Map(),session={setActionHandler:(action,handler)=>actions.set(action,handler),setPositionState(){}};
-const ctx={window:{addEventListener(){}},document:{querySelector:()=>el(),querySelectorAll:()=>[],addEventListener(){},createElement:()=>el()},localStorage:{getItem:()=>null,setItem(){},removeItem(){}},navigator:{mediaSession:session,audioSession:{}},console,setTimeout:()=>{},URL,Blob,AbortController,location:{href:'https://example.com/'},MediaMetadata:class{constructor(data){Object.assign(this,data)}},Audio:class{constructor(src){this.src=src;this.currentTime=0;this.duration=100;}play(){this.onplay?.();return Promise.resolve();}pause(){this.onpause?.();}load(){}removeAttribute(){}},fetch:async(url,{signal}={})=>{signal?.throwIfAborted();const file=url.split('?')[0];try{return {ok:true,arrayBuffer:async()=>Uint8Array.from(fs.readFileSync(file)).buffer};}catch{return {ok:false};}}};
+const ctx={window:{addEventListener(){}},document:{body:{appendChild(audio){attachedAudio.add(audio)}},querySelector:()=>el(),querySelectorAll:()=>[],addEventListener(){},createElement:()=>el()},localStorage:{getItem:()=>null,setItem(){},removeItem(){}},navigator:{mediaSession:session,audioSession:{}},console,setTimeout:()=>{},URL,Blob,AbortController,location:{href:'https://example.com/'},MediaMetadata:class{constructor(data){Object.assign(this,data)}},Audio:class{constructor(src){this.src=src;this.currentTime=0;this.duration=100;this.readyState=1;this.loads=0;}play(){this.onplay?.();return Promise.resolve();}pause(){this.onpause?.();}load(){this.loads++;this.currentTime=0;this.onloadedmetadata?.();}setAttribute(){}removeAttribute(){}remove(){attachedAudio.delete(this)}},fetch:async(url,{signal}={})=>{signal?.throwIfAborted();const file=url.split('?')[0];try{return {ok:true,arrayBuffer:async()=>Uint8Array.from(fs.readFileSync(file)).buffer};}catch{return {ok:false};}}};
 vm.createContext(ctx);
 for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)){
   const src=m[1].match(/src=["']([^"']+)/)?.[1];
@@ -32,11 +33,32 @@ if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.f
   const blob=playlistBlob([first,gap,first,gap]);
   assert.equal(mp3Frames(await blob.arrayBuffer()).duration,2*first.duration+6);
   await run('listeningPlayer.play()');assert.equal(run('listeningPlayer.status'),'playing');
+  assert.equal(attachedAudio.size,1);
+  run('listeningPlayer.audio.currentTime=4.25;listeningPlayer.audio.muted=true');
   actions.get('pause')();assert.equal(run('listeningPlayer.status'),'paused');
   await actions.get('play')();assert.equal(run('listeningPlayer.status'),'playing');
+  assert.equal(run('listeningPlayer.audio.loads'),1);
+  assert.equal(run('listeningPlayer.audio.currentTime'),4.25);
+  assert.equal(run('listeningPlayer.audio.muted'),false);
+  assert.equal(run('listeningPlayer.audio.volume'),1);
+  assert.equal(ctx.navigator.audioSession.type,'playback');
+  // Repeated remote resumes restore position without creating another player.
+  actions.get('pause')();await actions.get('play')();assert.equal(attachedAudio.size,1);
+  assert.equal(run('listeningPlayer.audio.currentTime'),4.25);
+  // Metadata may arrive after play() on Safari; restore only while still wanted.
+  actions.get('pause')();
+  run('listeningPlayer.audio.readyState=0;listeningPlayer.audio.load=function(){this.loads++;this.currentTime=0};');
+  await actions.get('play')();
+  run('listeningPlayer.audio.onloadedmetadata()');
+  assert.equal(run('listeningPlayer.audio.currentTime'),4.25);
+  actions.get('pause')();await actions.get('play')();
+  const staleRestore=run('listeningPlayer.audio.onloadedmetadata');
+  actions.get('pause')();staleRestore();
+  assert.equal(run('listeningPlayer.audio.currentTime'),0);
+  await run('listeningPlayer.play()');
   actions.get('nexttrack')();assert.equal(run('listeningPlayer.audio.currentTime'),entries[1].start);
   actions.get('previoustrack')();assert.equal(run('listeningPlayer.audio.currentTime'),0);
-  run('saveFilters()');assert.equal(run('listeningPlayer.status'),'idle');assert.equal(session.playbackState,'none');
+  run('saveFilters()');assert.equal(run('listeningPlayer.status'),'idle');assert.equal(session.playbackState,'none');assert.equal(attachedAudio.size,0);
   // Failed files are skipped; stopping a pending preparation never restarts it.
   await run('listeningPlayer.prepare([...testWords,{id:"missing",ar:"missing"}],w=>w.id==="missing"?"./missing.mp3":recordedAudioSource(w))');
   assert.equal(run('listeningPlayer.entries.length'),2);assert.equal(run('listeningPlayer.skipped'),1);
