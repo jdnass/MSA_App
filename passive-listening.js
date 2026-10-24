@@ -55,7 +55,7 @@
     }
     playbackReport(){
       const audio=this.audio;
-      return JSON.stringify({playerVersion:99,userAgent:navigator.userAgent,mode:(root.matchMedia?.('(display-mode: standalone)').matches||navigator.standalone)?'Home Screen app':'browser',visibility:document.visibilityState,status:this.status,audioSession:{type:navigator.audioSession?.type,state:navigator.audioSession?.state},audio:audio?{position:audio.currentTime,duration:audio.duration,paused:audio.paused,ended:audio.ended,muted:audio.muted,volume:audio.volume,readyState:audio.readyState,networkState:audio.networkState,error:audio.error?.code}:null,events:this.events},null,2);
+      return JSON.stringify({playerVersion:100,transport:'local-range-stream',userAgent:navigator.userAgent,mode:(root.matchMedia?.('(display-mode: standalone)').matches||navigator.standalone)?'Home Screen app':'browser',visibility:document.visibilityState,status:this.status,audioSession:{type:navigator.audioSession?.type,state:navigator.audioSession?.state},audio:audio?{position:audio.currentTime,duration:audio.duration,paused:audio.paused,ended:audio.ended,muted:audio.muted,volume:audio.volume,readyState:audio.readyState,networkState:audio.networkState,error:audio.error?.code}:null,events:this.events},null,2);
     }
     async prepare(words,source){
       this.stop();this.events=[];const generation=this.generation;
@@ -93,8 +93,10 @@
           parts.push(recording,gap,recording,gap);time+=2*recording.duration+6;
         }
         if(!this.entries.length)throw Error('No playable recordings match these filters.');
-        const blob=playlistBlob(parts);this.url=URL.createObjectURL(blob);
-        this.audio=new Audio(this.url);this.audio.preload='auto';
+        const blob=playlistBlob(parts),url=await root.MosaListeningStream.storeTrack(blob,signal);
+        if(generation!==this.generation){await root.MosaListeningStream.removeTrack(url);return;}
+        this.url=url;this.audio=new Audio();this.audio.crossOrigin='anonymous';
+        this.audio.src=this.url;this.audio.preload='auto';
         // Keep the native media element connected while the page is backgrounded.
         // It lives outside the study view, which is replaced during navigation.
         this.audio.hidden=true;this.audio.setAttribute('playsinline','');
@@ -102,7 +104,7 @@
         this.audio.onplay=()=>{this.note('play');this.status='playing';this.updateSession();this.notify();};
         this.audio.onpause=()=>{this.playRequest++;this.note('pause');if(this.status!=='ended')this.status='paused';this.updateSession();this.notify();};
         this.audio.onended=()=>{this.note('ended');this.status='ended';this.updateSession();this.notify();};
-        this.audio.ontimeupdate=()=>{this.updateSession();this.notify();};
+        this.audio.ontimeupdate=()=>{const last=this.events.at(-1);if(last?.event==='progress'){last.position=this.audio.currentTime;last.at=new Date().toISOString();}else this.note('progress');this.updateSession();this.notify();};
         this.audio.onerror=()=>{this.note('error');this.status='error';this.error='Playback failed. Please prepare the list again.';this.notify();};
         this.audio.onplaying=()=>this.note('playing');
         this.audio.onwaiting=()=>this.note('waiting');
@@ -156,7 +158,7 @@
       this.generation++;this.playRequest++;
       this.abort?.abort();this.abort=null;
       if(this.audio){this.audio.onplaying=this.audio.onwaiting=this.audio.onstalled=this.audio.onplay=this.audio.onpause=this.audio.onended=this.audio.ontimeupdate=this.audio.onerror=null;this.audio.pause();this.audio.removeAttribute('src');this.audio.load();this.audio.remove();this.audio=null;}
-      if(this.url)URL.revokeObjectURL(this.url);this.url=null;
+      if(this.url)root.MosaListeningStream.removeTrack(this.url).catch(()=>{});this.url=null;
       if(this.status!=='idle'&&navigator.mediaSession){
         navigator.mediaSession.playbackState='none';navigator.mediaSession.metadata=null;
         for(const action of ['play','pause','stop','nexttrack','previoustrack','seekto','seekforward','seekbackward'])try{navigator.mediaSession.setActionHandler(action,null);}catch(error){}
