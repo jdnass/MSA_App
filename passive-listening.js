@@ -46,11 +46,19 @@
   class PassivePlayer{
     constructor(onchange=()=>{}){
       this.onchange=onchange;this.audio=null;this.url=null;this.abort=null;
-      this.status='idle';this.entries=[];this.skipped=0;this.progress=0;this.generation=0;this.playRequest=0;
+      this.status='idle';this.entries=[];this.skipped=0;this.progress=0;this.generation=0;this.playRequest=0;this.events=[];
     }
     notify(){this.onchange(this);}
+    note(event){
+      this.events.push({event,at:new Date().toISOString(),position:this.audio?.currentTime||0,paused:this.audio?.paused,readyState:this.audio?.readyState});
+      if(this.events.length>30)this.events.shift();
+    }
+    playbackReport(){
+      const audio=this.audio;
+      return JSON.stringify({playerVersion:99,userAgent:navigator.userAgent,mode:(root.matchMedia?.('(display-mode: standalone)').matches||navigator.standalone)?'Home Screen app':'browser',visibility:document.visibilityState,status:this.status,audioSession:{type:navigator.audioSession?.type,state:navigator.audioSession?.state},audio:audio?{position:audio.currentTime,duration:audio.duration,paused:audio.paused,ended:audio.ended,muted:audio.muted,volume:audio.volume,readyState:audio.readyState,networkState:audio.networkState,error:audio.error?.code}:null,events:this.events},null,2);
+    }
     async prepare(words,source){
-      this.stop();const generation=this.generation;
+      this.stop();this.events=[];const generation=this.generation;
       this.abort=new AbortController();const signal=this.abort.signal;
       this.status='preparing';this.progress=0;this.skipped=0;this.notify();
       try{
@@ -91,53 +99,44 @@
         // It lives outside the study view, which is replaced during navigation.
         this.audio.hidden=true;this.audio.setAttribute('playsinline','');
         document.body.appendChild(this.audio);
-        this.audio.onplay=()=>{this.status='playing';this.updateSession();this.notify();};
-        this.audio.onpause=()=>{if(this.status!=='ended')this.status='paused';this.updateSession();this.notify();};
-        this.audio.onended=()=>{this.status='ended';this.updateSession();this.notify();};
+        this.audio.onplay=()=>{this.note('play');this.status='playing';this.updateSession();this.notify();};
+        this.audio.onpause=()=>{this.playRequest++;this.note('pause');if(this.status!=='ended')this.status='paused';this.updateSession();this.notify();};
+        this.audio.onended=()=>{this.note('ended');this.status='ended';this.updateSession();this.notify();};
         this.audio.ontimeupdate=()=>{this.updateSession();this.notify();};
-        this.audio.onerror=()=>{this.status='error';this.error='Playback failed. Please prepare the list again.';this.notify();};
-        this.status='ready';this.bindSession();this.notify();
+        this.audio.onerror=()=>{this.note('error');this.status='error';this.error='Playback failed. Please prepare the list again.';this.notify();};
+        this.audio.onplaying=()=>this.note('playing');
+        this.audio.onwaiting=()=>this.note('waiting');
+        this.audio.onstalled=()=>this.note('stalled');
+        this.status='ready';this.note('ready');this.bindSession();this.notify();
       }catch(error){
         if(generation!==this.generation||signal.aborted)return;
         this.status='error';this.error=error.message;this.notify();
       }
     }
     current(){const time=this.audio?.currentTime||0;return this.entries.find(entry=>time<entry.end)||this.entries.at(-1);}
-    async play({recover=false}={}){
+    async play(){
       if(!this.audio)return;
       const audio=this.audio,request=++this.playRequest;
-      const position=this.status==='ended'?0:audio.currentTime;
-      if(recover&&this.status!=='playing'){
-        // A background iPhone player can accept play() while its output stays
-        // suspended. Reopen the same local Blob, preserving the exact position.
-        // Call play synchronously in the remote action; do not await metadata or
-        // use a timer, as that can lose the system's permission to resume.
-        audio.pause();
-        const restore=()=>{if(this.audio===audio&&this.playRequest===request)audio.currentTime=position;};
-        audio.onloadedmetadata=()=>{audio.onloadedmetadata=null;restore();};
-        audio.load();
-        if(audio.readyState>=1)restore();
-      }else if(this.status==='ended')audio.currentTime=0;
+      if(this.status==='ended')audio.currentTime=0;
       audio.muted=false;audio.volume=1;
-      try{
-        if(navigator.audioSession){
-          if(recover)navigator.audioSession.type='auto';
-          navigator.audioSession.type='playback';
-        }
-      }catch(error){}
+      try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(error){}
+      this.note('app-play');
       try{
         await audio.play();
       }catch(error){
         if(this.audio!==audio||this.playRequest!==request)return;
-        this.status='paused';this.error='Tap Play to resume listening.';this.updateSession();this.notify();
+        this.note('play-rejected');this.status='paused';this.error='Tap Play to resume listening.';this.updateSession();this.notify();
       }
     }
-    pause(){this.playRequest++;if(this.audio){this.audio.onloadedmetadata=null;this.audio.pause();}}
+    pause(){this.playRequest++;this.audio?.pause();}
     seek(time){if(this.audio)this.audio.currentTime=Math.max(0,Math.min(this.entries.at(-1)?.end||0,time));this.updateSession();this.notify();}
     skip(direction){const current=this.current(),index=this.entries.indexOf(current);this.seek(this.entries[Math.max(0,Math.min(this.entries.length-1,index+direction))]?.start||0);}
     bindSession(){
       if(!navigator.mediaSession)return;
-      for(const [action,handler] of Object.entries({play:()=>this.play({recover:true}),pause:()=>this.pause(),stop:()=>this.stop(),nexttrack:()=>this.skip(1),previoustrack:()=>this.skip(-1),seekto:event=>this.seek(event.seekTime),seekforward:event=>this.seek(this.audio.currentTime+(event.seekOffset||10)),seekbackward:event=>this.seek(this.audio.currentTime-(event.seekOffset||10))})){
+      // Native play/pause must not depend on JavaScript running in a sleeping
+      // Home Screen app. Null handlers return those actions to the browser.
+      navigator.mediaSession.playbackState='none';
+      for(const [action,handler] of Object.entries({play:null,pause:null,stop:()=>this.stop(),nexttrack:()=>this.skip(1),previoustrack:()=>this.skip(-1),seekto:event=>this.seek(event.seekTime),seekforward:event=>this.seek(this.audio.currentTime+(event.seekOffset||10)),seekbackward:event=>this.seek(this.audio.currentTime-(event.seekOffset||10))})){
         try{navigator.mediaSession.setActionHandler(action,handler);}catch(error){/* Some actions are unavailable on older browsers. */}
       }
       this.updateSession();
@@ -149,13 +148,14 @@
         this.metadataId=entry.word.id;
         navigator.mediaSession.metadata=new MediaMetadata({title:entry.word.en,artist:entry.word.ar,album:'MoSA · Vocabulary listening',artwork:[{src:new URL('./icons/moza-icon-512.png',location.href).href,sizes:'512x512',type:'image/png'}]});
       }
-      navigator.mediaSession.playbackState=this.status==='playing'?'playing':'paused';
+      // Leave playbackState at 'none' so the browser derives it from the native
+      // media element even while this page's JavaScript is suspended.
       try{const duration=this.audio.duration;if(Number.isFinite(duration)&&duration>0)navigator.mediaSession.setPositionState?.({duration,position:Math.min(duration,this.audio.currentTime),playbackRate:1});}catch(error){}
     }
     stop(){
       this.generation++;this.playRequest++;
       this.abort?.abort();this.abort=null;
-      if(this.audio){this.audio.onloadedmetadata=this.audio.onplay=this.audio.onpause=this.audio.onended=this.audio.ontimeupdate=this.audio.onerror=null;this.audio.pause();this.audio.removeAttribute('src');this.audio.load();this.audio.remove();this.audio=null;}
+      if(this.audio){this.audio.onplaying=this.audio.onwaiting=this.audio.onstalled=this.audio.onplay=this.audio.onpause=this.audio.onended=this.audio.ontimeupdate=this.audio.onerror=null;this.audio.pause();this.audio.removeAttribute('src');this.audio.load();this.audio.remove();this.audio=null;}
       if(this.url)URL.revokeObjectURL(this.url);this.url=null;
       if(this.status!=='idle'&&navigator.mediaSession){
         navigator.mediaSession.playbackState='none';navigator.mediaSession.metadata=null;

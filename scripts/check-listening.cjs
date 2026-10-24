@@ -34,28 +34,23 @@ if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.f
   assert.equal(mp3Frames(await blob.arrayBuffer()).duration,2*first.duration+6);
   await run('listeningPlayer.play()');assert.equal(run('listeningPlayer.status'),'playing');
   assert.equal(attachedAudio.size,1);
-  run('listeningPlayer.audio.currentTime=4.25;listeningPlayer.audio.muted=true');
-  actions.get('pause')();assert.equal(run('listeningPlayer.status'),'paused');
-  await actions.get('play')();assert.equal(run('listeningPlayer.status'),'playing');
-  assert.equal(run('listeningPlayer.audio.loads'),1);
-  assert.equal(run('listeningPlayer.audio.currentTime'),4.25);
-  assert.equal(run('listeningPlayer.audio.muted'),false);
-  assert.equal(run('listeningPlayer.audio.volume'),1);
-  assert.equal(ctx.navigator.audioSession.type,'playback');
-  // Repeated remote resumes restore position without creating another player.
-  actions.get('pause')();await actions.get('play')();assert.equal(attachedAudio.size,1);
-  assert.equal(run('listeningPlayer.audio.currentTime'),4.25);
-  // Metadata may arrive after play() on Safari; restore only while still wanted.
-  actions.get('pause')();
-  run('listeningPlayer.audio.readyState=0;listeningPlayer.audio.load=function(){this.loads++;this.currentTime=0};');
-  await actions.get('play')();
-  run('listeningPlayer.audio.onloadedmetadata()');
-  assert.equal(run('listeningPlayer.audio.currentTime'),4.25);
-  actions.get('pause')();await actions.get('play')();
-  const staleRestore=run('listeningPlayer.audio.onloadedmetadata');
-  actions.get('pause')();staleRestore();
-  assert.equal(run('listeningPlayer.audio.currentTime'),0);
-  await run('listeningPlayer.play()');
+  assert.equal(actions.get('play'),null,'The browser owns lock-screen play');
+  assert.equal(actions.get('pause'),null,'The browser owns lock-screen pause');
+  // Simulate native controls invoking the audio element directly, bypassing app
+  // play/pause callbacks. A paused page must not need JS to reload or seek audio.
+  run('listeningPlayer.audio.currentTime=4.25');
+  const nativeAudio=run('listeningPlayer.audio'),source=nativeAudio.src;
+  for(let i=0;i<3;i++){
+    nativeAudio.pause();assert.equal(run('listeningPlayer.status'),'paused');
+    await nativeAudio.play();assert.equal(run('listeningPlayer.status'),'playing');
+    assert.equal(nativeAudio.currentTime,4.25);assert.equal(nativeAudio.loads,0);
+    assert.equal(nativeAudio.src,source);assert.equal(attachedAudio.size,1);
+  }
+  assert.equal(session.playbackState,'none','Native playback state remains authoritative');
+  const report=JSON.parse(run('listeningPlayer.playbackReport()'));
+  assert.equal(report.playerVersion,99);assert.equal(report.audio.position,4.25);
+  assert(report.events.some(event=>event.event==='pause'));
+  assert(!('word' in report),'Report excludes vocabulary content');
   actions.get('nexttrack')();assert.equal(run('listeningPlayer.audio.currentTime'),entries[1].start);
   actions.get('previoustrack')();assert.equal(run('listeningPlayer.audio.currentTime'),0);
   run('saveFilters()');assert.equal(run('listeningPlayer.status'),'idle');assert.equal(session.playbackState,'none');assert.equal(attachedAudio.size,0);
@@ -74,5 +69,5 @@ if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.f
     console.log('Full list:',run('listeningPlayer.entries.length'),'words;',((Date.now()-start)/1000).toFixed(1),'seconds to assemble locally;',Math.round(process.memoryUsage().rss/1048576),'MiB test process memory');
     run('stopListening()');
   }
-  console.log('PASS: app loads; filters, audio coverage, exact repetitions/gaps, MP3 index, lock-screen actions, failed recordings and cancellation');
+  console.log('PASS: app loads; filters, audio coverage, exact repetitions/gaps, MP3 index, native lock-screen control routing, reports, failed recordings and cancellation');
 })().catch(error=>{console.error(error);process.exitCode=1});
