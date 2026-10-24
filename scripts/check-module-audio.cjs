@@ -3,7 +3,7 @@ const vm=require('node:vm');
 const assert=require('node:assert/strict');
 const html=fs.readFileSync('index.html','utf8');
 for(const m of html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g))new vm.Script(m[1]);
-const match=html.match(/function playArabic\(d\)\{[\s\S]*?\n\n/);
+const match=html.match(/function recordedAudioSource\(d\)\{[\s\S]*?\n\n/);
 assert(match,'audio player exists');
 let played=[],spoken=[];
 const ctx={window:{MOSA_MODULE_AUDIO:{'mosa-m10-s1-s1':{ar:'نص',src:'cedar.mp3'}}},
