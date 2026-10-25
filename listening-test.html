@@ -20,6 +20,8 @@
   <section>
     <label for="transport">Audio source</label>
     <select id="transport"><option value="direct">1 · Direct server file</option><option value="blob">2 · Local file</option><option value="stream">3 · MoSA stream</option></select>
+    <label for="resume-mode">Lock-screen resume</label>
+    <select id="resume-mode"><option value="reactivate">Reactivate audio session · experimental</option><option value="native">Native controls · previous test</option></select>
     <details><summary>Additional setting</summary><label for="session-type">Audio session</label><select id="session-type"><option value="playback">Playback · same as MoSA</option><option value="auto">Automatic · browser default</option></select></details>
     <button id="load" class="primary">Load selected test</button>
     <p id="status" role="status">Start with Direct server file.</p>
@@ -30,8 +32,8 @@
   <button id="copy" class="primary">Copy test report</button>
   <p id="copy-status" role="status"></p>
   <textarea id="report" readonly hidden aria-label="Playback test report"></textarea>
-  <small>Reports stay on this device until you copy and share them. This test does not attempt to restart a stalled player.</small>
+  <small>Reports stay on this device until you copy and share them. Experimental mode reapplies the audio session when lock-screen Play is pressed.</small>
 </main>
 <script src="./listening-stream.js?v=100"></script>
-<script src="./listening-test.js?v=102"></script>
+<script src="./listening-test.js?v=103"></script>
 </body></html>
