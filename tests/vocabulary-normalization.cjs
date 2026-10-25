@@ -45,6 +45,10 @@ assert.equal(fixture([card('a','mango-msa','التَّارِيخ','history'),car
 assert.equal(fixture([card('office','alkitaab1','مَكْتَب','office'),card('library','madina-book1','مَكْتَبَة','library')]).vocab.length,2);
 assert.equal(fixture([card('day','alkitaab1','يَوْم','day'),card('today','mango-msa','اليَوْم','today')]).vocab.length,2);
 assert.equal(fixture([card('birthday','mango-msa','عِيد مِيلَاد','birthday'),card('christmas','dli-basic','عِيدُ الْمِيلَادِ','Christmas')]).vocab.length,2);
+assert(byId.has('mango-c13-20'),'Sunday must remain separate from someone');
+assert(byId.has('mango-c13-23'),'Wednesday must remain separate from springs');
+assert.equal(fixture([card('someone','alkitaab1','أَحَد','someone'),card('sunday','mango-msa','الأَحَد','Sunday')]).vocab.length,2);
+assert.equal(fixture([card('springs','alkitaab1','أَرْبِعَة / أَرْبِعَاء','springs'),card('wednesday','mango-msa','الأَرْبِعَاء','Wednesday')]).vocab.length,2);
 const baseline=load({},false);
 function lessonText(data){
  const rows=[];function visit(c){rows.push({sentences:c.sentences,grammar:c.grammar});for(const child of Object.values(c.subchapters||{}))visit(child);}

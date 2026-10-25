@@ -4,7 +4,7 @@
   const rank=id=>{const n=priority.indexOf(id);return n<0?priority.length:n;};
   const plain=s=>String(s||'').normalize('NFC').replace(/[\u0610-\u061a\u064b-\u065f\u0670\u06d6-\u06edـ]/g,'').replace(/\s+/g,' ').trim();
   // Keep lexicalized articles: اليوم means today, whereas يوم means a day.
-  const key=s=>plain(s)==='عيد الميلاد'?'عيد الميلاد':plain(s).replace(/[؟?!.,،؛]/g,'').split(' ').map(w=>['اليوم','الليلة','الآن'].includes(w)?w:w.replace(/^ال/,'')).join(' ');
+  const key=s=>plain(s)==='عيد الميلاد'?'عيد الميلاد':plain(s).replace(/[؟?!.,،؛]/g,'').split(' ').map(w=>['اليوم','الليلة','الآن','الأحد','الاثنين','الإثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'].includes(w)?w:w.replace(/^ال/,'')).join(' ');
   const variants=s=>String(s||'').split(/\s*[/؛;]\s*/).filter(v=>v&&v!=='—');
   const forms=w=>variants(w.ar);
   const noun=w=>!/verb|pronoun|preposition|conjunction|suffix/i.test(w.pos||'')&&!/^I\s/i.test(w.en||'');
