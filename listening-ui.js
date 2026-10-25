@@ -8,6 +8,8 @@ function listeningMessage(){
   const p=listeningPlayer;
   if(p.status==='preparing')return `Preparing audio · ${Math.round(p.progress*100)}%. Keep MoSA open until ready.`;
   if(p.status==='error')return p.error;
+  if(p.status==='paused'&&p.error)return p.error;
+  if(p.recovering)return 'Resuming audio…';
   if(p.status==='idle')return `${listeningWords().length} matching words have recordings.`;
   if(p.status==='ended')return `Finished · ${p.entries.length} words.${p.skipped?` Skipped ${p.skipped} unavailable recordings.`:''}`;
   const entry=p.current(),index=p.entries.indexOf(entry)+1;
@@ -15,7 +17,7 @@ function listeningMessage(){
 }
 function openListeningSheet(){
   closeSheet(false);listeningSheetOpen=true;
-  sheet.innerHTML=`<div class="handle"></div><h3>Vocabulary listening</h3><p class="filter-prompt">Listen to the words matching your filters. Each recording plays twice, with a three-second pause after each play. Words without audio are skipped.</p><p id="listening-status" role="status"></p><p id="listening-word" class="listening-word"></p><div class="listening-controls"><button class="secondary" onclick="listeningPlayer.skip(-1)" aria-label="Previous word">Previous</button><button class="primary" id="listening-play" onclick="toggleListening()">Prepare audio</button><button class="secondary" onclick="listeningPlayer.skip(1)" aria-label="Next word">Next</button></div><button class="secondary listening-stop" onclick="stopListening()">Stop listening</button><p class="filter-prompt">Once ready, tap Play before locking your phone. Use the lock-screen controls to pause or resume.</p><details><summary>Playback help</summary><p class="filter-prompt">Player version 100. If audio stops unexpectedly, copy the playback report to help troubleshoot. Nothing is sent automatically.</p><button class="secondary" onclick="copyListeningReport()">Copy playback report</button><p id="listening-report-status" role="status"></p><textarea id="listening-report" aria-label="Playback report" readonly hidden style="width:100%;min-height:150px"></textarea></details><button class="secondary listening-stop" onclick="closeSheet()">Done</button>`;
+  sheet.innerHTML=`<div class="handle"></div><h3>Vocabulary listening</h3><p class="filter-prompt">Listen to the words matching your filters. Each recording plays twice, with a three-second pause after each play. Words without audio are skipped.</p><p id="listening-status" role="status"></p><p id="listening-word" class="listening-word"></p><div class="listening-controls"><button class="secondary" onclick="listeningPlayer.skip(-1)" aria-label="Previous word">Previous</button><button class="primary" id="listening-play" onclick="toggleListening()">Prepare audio</button><button class="secondary" onclick="listeningPlayer.skip(1)" aria-label="Next word">Next</button></div><button class="secondary listening-stop" onclick="stopListening()">Stop listening</button><p class="filter-prompt">Once ready, tap Play before locking your phone. Use the lock-screen controls to pause or resume.</p><details><summary>Playback help</summary><p class="filter-prompt">Player version 101. If audio stops unexpectedly, copy the playback report to help troubleshoot. Nothing is sent automatically.</p><button class="secondary" onclick="copyListeningReport()">Copy playback report</button><p id="listening-report-status" role="status"></p><textarea id="listening-report" aria-label="Playback report" readonly hidden style="width:100%;min-height:150px"></textarea></details><button class="secondary listening-stop" onclick="closeSheet()">Done</button>`;
   sheet.classList.add('open');backdrop.classList.add('open');updateListeningUI();
 }
 async function toggleListening(){
@@ -43,3 +45,4 @@ function updateListeningUI(){
   const play=document.querySelector('#listening-play');if(play){play.textContent=p.status==='preparing'?'Preparing…':p.status==='playing'?'Pause':['ready','paused','ended'].includes(p.status)?'Play':'Prepare audio';play.disabled=p.status==='preparing';}
   if(listeningSheetOpen)document.querySelectorAll('.listening-controls .secondary').forEach(button=>button.disabled=!p.audio);
 }
+

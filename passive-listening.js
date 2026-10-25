@@ -47,15 +47,16 @@
     constructor(onchange=()=>{}){
       this.onchange=onchange;this.audio=null;this.url=null;this.abort=null;
       this.status='idle';this.entries=[];this.skipped=0;this.progress=0;this.generation=0;this.playRequest=0;this.events=[];
+      this.watchTimer=null;this.watchPosition=0;this.watchAt=0;this.recoveryAttempts=0;this.recovering=false;
     }
     notify(){this.onchange(this);}
     note(event){
-      this.events.push({event,at:new Date().toISOString(),position:this.audio?.currentTime||0,paused:this.audio?.paused,readyState:this.audio?.readyState});
-      if(this.events.length>30)this.events.shift();
+      this.events.push({event,at:new Date().toISOString(),position:this.audio?.currentTime||0,paused:this.audio?.paused,readyState:this.audio?.readyState,visibility:document.visibilityState});
+      if(this.events.length>60)this.events.shift();
     }
     playbackReport(){
       const audio=this.audio;
-      return JSON.stringify({playerVersion:100,transport:'local-range-stream',userAgent:navigator.userAgent,mode:(root.matchMedia?.('(display-mode: standalone)').matches||navigator.standalone)?'Home Screen app':'browser',visibility:document.visibilityState,status:this.status,audioSession:{type:navigator.audioSession?.type,state:navigator.audioSession?.state},audio:audio?{position:audio.currentTime,duration:audio.duration,paused:audio.paused,ended:audio.ended,muted:audio.muted,volume:audio.volume,readyState:audio.readyState,networkState:audio.networkState,error:audio.error?.code}:null,events:this.events},null,2);
+      return JSON.stringify({playerVersion:101,transport:'local-range-stream',userAgent:navigator.userAgent,mode:(root.matchMedia?.('(display-mode: standalone)').matches||navigator.standalone)?'Home Screen app':'browser',visibility:document.visibilityState,status:this.status,recovery:{attempts:this.recoveryAttempts,active:this.recovering},audioSession:{type:navigator.audioSession?.type,state:navigator.audioSession?.state},audio:audio?{position:audio.currentTime,duration:audio.duration,paused:audio.paused,ended:audio.ended,muted:audio.muted,volume:audio.volume,playbackRate:audio.playbackRate,readyState:audio.readyState,networkState:audio.networkState,error:audio.error?.code}:null,events:this.events},null,2);
     }
     async prepare(words,source){
       this.stop();this.events=[];const generation=this.generation;
@@ -95,43 +96,99 @@
         if(!this.entries.length)throw Error('No playable recordings match these filters.');
         const blob=playlistBlob(parts),url=await root.MosaListeningStream.storeTrack(blob,signal);
         if(generation!==this.generation){await root.MosaListeningStream.removeTrack(url);return;}
-        this.url=url;this.audio=new Audio();this.audio.crossOrigin='anonymous';
-        this.audio.src=this.url;this.audio.preload='auto';
-        // Keep the native media element connected while the page is backgrounded.
-        // It lives outside the study view, which is replaced during navigation.
-        this.audio.hidden=true;this.audio.setAttribute('playsinline','');
-        document.body.appendChild(this.audio);
-        this.audio.onplay=()=>{this.note('play');this.status='playing';this.updateSession();this.notify();};
-        this.audio.onpause=()=>{this.playRequest++;this.note('pause');if(this.status!=='ended')this.status='paused';this.updateSession();this.notify();};
-        this.audio.onended=()=>{this.note('ended');this.status='ended';this.updateSession();this.notify();};
-        this.audio.ontimeupdate=()=>{const last=this.events.at(-1);if(last?.event==='progress'){last.position=this.audio.currentTime;last.at=new Date().toISOString();}else this.note('progress');this.updateSession();this.notify();};
-        this.audio.onerror=()=>{this.note('error');this.status='error';this.error='Playback failed. Please prepare the list again.';this.notify();};
-        this.audio.onplaying=()=>this.note('playing');
-        this.audio.onwaiting=()=>this.note('waiting');
-        this.audio.onstalled=()=>this.note('stalled');
+        this.url=url;this.attachAudio();
         this.status='ready';this.note('ready');this.bindSession();this.notify();
       }catch(error){
         if(generation!==this.generation||signal.aborted)return;
         this.status='error';this.error=error.message;this.notify();
       }
     }
+    detachAudio(){
+      const audio=this.audio;if(!audio)return;
+      audio.onloadedmetadata=audio.onplaying=audio.onwaiting=audio.onstalled=audio.onplay=audio.onpause=audio.onended=audio.ontimeupdate=audio.onerror=null;
+      audio.pause();audio.removeAttribute('src');audio.load();audio.remove();this.audio=null;
+    }
+    attachAudio(){
+      const audio=this.audio=new Audio();audio.crossOrigin='anonymous';
+      audio.src=this.url;audio.preload='auto';audio.hidden=true;audio.setAttribute('playsinline','');
+      document.body.appendChild(audio);
+      audio.onplay=()=>{
+        this.note('play');this.status='playing';this.startWatch();this.updateSession();this.notify();
+      };
+      audio.onpause=()=>{
+        this.playRequest++;this.clearWatch();this.recovering=false;this.note('pause');
+        if(this.status!=='ended')this.status='paused';this.updateSession();this.notify();
+      };
+      audio.onended=()=>{this.clearWatch();this.recovering=false;this.note('ended');this.status='ended';this.updateSession();this.notify();};
+      audio.ontimeupdate=()=>{
+        const last=this.events.at(-1);if(last?.event==='progress'){last.position=audio.currentTime;last.at=new Date().toISOString();}else this.note('progress');
+        this.updateSession();this.notify();
+      };
+      audio.onerror=()=>{this.clearWatch();this.recovering=false;this.note('error');this.status='error';this.error='Playback failed. Please prepare the list again.';this.notify();};
+      audio.onplaying=()=>this.note('playing');
+      audio.onwaiting=()=>this.note('waiting');audio.onstalled=()=>this.note('stalled');
+    }
+    clearWatch(){clearTimeout(this.watchTimer);this.watchTimer=null;}
+    startWatch(){
+      this.clearWatch();this.watchPosition=this.audio?.currentTime||0;this.watchAt=Date.now();
+      this.watchTimer=setTimeout(()=>this.checkProgress(),1000);
+    }
+    checkProgress(){
+      this.clearWatch();const audio=this.audio;
+      if(!audio||audio.paused||audio.ended||this.status!=='playing')return;
+      // Silence is encoded in the MP3, so even a three-second listening gap must
+      // advance currentTime. A playing event alone is not proof of playback.
+      if(Math.abs(audio.currentTime-this.watchPosition)>0.05){
+        if(this.recovering){this.note('recovery-progress');this.recovering=false;}
+        this.recoveryAttempts=0;this.watchPosition=audio.currentTime;this.watchAt=Date.now();
+      }else if(Date.now()-this.watchAt>=4000){
+        this.note('clock-stuck');
+        if(this.recoveryAttempts===0){this.recover();return;}
+        this.resumeFailed();return;
+      }
+      this.watchTimer=setTimeout(()=>this.checkProgress(),1000);
+    }
+    resumeFailed(){
+      this.clearWatch();this.recovering=false;this.playRequest++;
+      this.audio?.pause();this.status='paused';this.error='Playback could not resume. Open MoSA and tap Play to retry.';
+      this.note('resume-needs-tap');this.updateSession();this.notify();
+    }
+    recover(){
+      // Rebuild the native player only after a confirmed frozen clock. Keep
+      // lock-screen play/pause native; never resume in response to a pause.
+      const position=this.audio.currentTime,request=++this.playRequest;
+      this.recoveryAttempts++;this.recovering=true;this.note('recovery-replace');
+      this.detachAudio();this.attachAudio();const audio=this.audio;
+      const valid=()=>this.audio===audio&&this.playRequest===request;
+      audio.onloadedmetadata=()=>{
+        audio.onloadedmetadata=null;if(this.audio!==audio)return;
+        try{audio.currentTime=position;}catch(error){this.resumeFailed();return;}
+        if(!valid())return;
+        this.clearWatch();
+        this.note('recovery-play');this.startWatch();
+        audio.play().catch(()=>{if(valid())this.resumeFailed();});
+      };
+      // Also bound metadata loading: a failed recovery must not look like play.
+      this.watchTimer=setTimeout(()=>{if(valid())this.resumeFailed();},8000);
+      audio.load();this.notify();
+    }
     current(){const time=this.audio?.currentTime||0;return this.entries.find(entry=>time<entry.end)||this.entries.at(-1);}
     async play(){
       if(!this.audio)return;
       const audio=this.audio,request=++this.playRequest;
       if(this.status==='ended')audio.currentTime=0;
-      audio.muted=false;audio.volume=1;
+      this.recoveryAttempts=0;this.error='';audio.muted=false;audio.volume=1;audio.playbackRate=1;
       try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(error){}
       this.note('app-play');
       try{
         await audio.play();
       }catch(error){
         if(this.audio!==audio||this.playRequest!==request)return;
-        this.note('play-rejected');this.status='paused';this.error='Tap Play to resume listening.';this.updateSession();this.notify();
+        this.clearWatch();this.note('play-rejected');this.status='paused';this.error='Tap Play to resume listening.';this.updateSession();this.notify();
       }
     }
-    pause(){this.playRequest++;this.audio?.pause();}
-    seek(time){if(this.audio)this.audio.currentTime=Math.max(0,Math.min(this.entries.at(-1)?.end||0,time));this.updateSession();this.notify();}
+    pause(){this.playRequest++;this.clearWatch();this.recovering=false;this.note('app-pause');this.audio?.pause();this.status='paused';this.updateSession();this.notify();}
+    seek(time){if(this.audio)this.audio.currentTime=Math.max(0,Math.min(this.entries.at(-1)?.end||0,time));this.note('seek');if(this.status==='playing'&&!this.recovering)this.startWatch();this.updateSession();this.notify();}
     skip(direction){const current=this.current(),index=this.entries.indexOf(current);this.seek(this.entries[Math.max(0,Math.min(this.entries.length-1,index+direction))]?.start||0);}
     bindSession(){
       if(!navigator.mediaSession)return;
@@ -157,7 +214,7 @@
     stop(){
       this.generation++;this.playRequest++;
       this.abort?.abort();this.abort=null;
-      if(this.audio){this.audio.onplaying=this.audio.onwaiting=this.audio.onstalled=this.audio.onplay=this.audio.onpause=this.audio.onended=this.audio.ontimeupdate=this.audio.onerror=null;this.audio.pause();this.audio.removeAttribute('src');this.audio.load();this.audio.remove();this.audio=null;}
+      this.clearWatch();this.recovering=false;this.recoveryAttempts=0;this.detachAudio();
       if(this.url)root.MosaListeningStream.removeTrack(this.url).catch(()=>{});this.url=null;
       if(this.status!=='idle'&&navigator.mediaSession){
         navigator.mediaSession.playbackState='none';navigator.mediaSession.metadata=null;
@@ -170,3 +227,4 @@
   // Export the pure audio assembler for validation without a browser.
   root.MosaListeningAudio={mp3Frames,playlistBlob};
 })(typeof window!=='undefined'?window:globalThis);
+
