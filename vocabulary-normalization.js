@@ -36,16 +36,22 @@
     if(role(wa)&&role(wb)&&role(wa)!==role(wb)&&meaning(wa)!==meaning(wb))return false;
     return true;
   }
-  const humanStems=new Set('والد خال عم جد زوج ابن حفيد خطيب طفل مراسل تلميذ أستاذ معلم صديق ممرض طالب رئيس ياباني'.split(' '));
+  const humanStems=new Set('والد خال عم جد زوج ابن حفيد خطيب طفل مراسل تلميذ أستاذ معلم صديق ممرض طالب رئيس ياباني طبيب مهندس مدير عامل كاتب مترجم موظف زميل'.split(' '));
+  // Distinct English names remain separate vocabulary, even when Arabic forms
+  // the female term by adding ة. Match the head gloss, not explanatory examples.
+  function distinctFemaleName(w){
+    const en=String(w.en||'').split(/\s[—–]\s/)[0].normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+    return /\b(?:mother|grandmother|daughter|granddaughter|wife|aunt|niece|sister|woman|girl|fiancee|bride|widow|mrs|madam|lady|actress|waitress|stewardess|hostess|queen|princess|duchess|empress|nun|goddess|lioness|tigress|mare|hen|ewe)\b/i.test(en);
+  }
   function femaleBase(w,cards){
-    const a=key(w.ar);if(!a.endsWith('ة')||a.includes(' ')||/adverb|preposition|conjunction|particle/i.test(w.pos||'')||/unit of time|especially|in particular/i.test(w.en||''))return null;
-    const stem=a.slice(0,-1);
+    const a=key(w.ar),parts=a.split(' ');if(distinctFemaleName(w)||!parts[0].endsWith('ة')||/adverb|preposition|conjunction|particle/i.test(w.pos||'')||/unit of time|especially|in particular/i.test(w.en||''))return null;
+    const stem=[parts[0].slice(0,-1),...parts.slice(1)].join(' ');
     const labelled=/female|feminine|\(f\)/i.test(w.en||'');
     const declared=cards.find(m=>m.f&&m.f!=='—'&&key(m.f)===a&&key(m.ar)===stem&&compatible(w.ar,m.f,w,{...m,en:'declared feminine counterpart'}));
-    if(!humanStems.has(stem)&&!labelled&&!declared)return null;
+    if(!humanStems.has(parts[0].slice(0,-1))&&!labelled&&!declared)return null;
     // A language name is vocabulary in its own right, rather than a female person.
     if(['عربي','إنجليزي','تركي'].includes(stem)&&!labelled)return null;
-    return cards.find(m=>key(m.ar)===stem&&noun(m)&&!/^plural of/i.test(m.en||'')&&compatible(w.ar.replace(/ة[\u064b-\u065f]*$/,''),m.ar,w,m));
+    return cards.find(m=>key(m.ar)===stem&&noun(m)&&!/^plural of/i.test(m.en||'')&&compatible(w.ar.replace(/ة[\u064b-\u065f]*(?=\s|$)/,''),m.ar,w,m));
   }
   function normalize(collections){
     const cards=[],seenIds=new Set(),lessons=[];
