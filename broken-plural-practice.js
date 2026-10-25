@@ -206,13 +206,14 @@ const brokenPluralState={search:'',pattern:'all',reveals:new Set(),collections:n
 function brokenPluralKey(value){return stripHarakat(String(value||'')).replace(/ـ/g,'').trim().replace(/^ال/,'').replace(/\s+/g,' ')}
 const brokenPluralPatternByWord=new Map(brokenPluralPatterns.flatMap(p=>p.words.split(' ').map(w=>[w,p.id])));
 function brokenPluralPattern(value){return brokenPluralPatternByWord.get(brokenPluralKey(value).split(' ')[0])}
-function brokenPluralSourceRank(id){return id==='alkitaab1'?0:id==='mango-msa'?1:id==='alkitaab2'?2:id.startsWith('madina')?3:4}
+function brokenPluralSourceRank(id){return window.MOSA_VOCABULARY_NORMALIZATION.rank(id)}
 function brokenPluralEntries(){
   const collections=[...COLLECTIONS].sort((a,b)=>brokenPluralSourceRank(a.id)-brokenPluralSourceRank(b.id));
   const rows=[],seen=new Map(),singulars=new Map();
   const extraPairs={'قروش':'قرش','حقول':'حقل','شيوخ':'شيخ','حجاج':'حاج','غرف':'غرفة','فتية':'فتى','نصارى':'نصراني','كسالى':'كسول','مخاد':'مخدة','دكاكين':'دكان','نوافذ':'نافذة','خطوط':'خط','نساء':'امرأة'};
   const allWords=collections.flatMap(c=>[...(c.vocab||[]),...Object.values(c.chapters||{}).flatMap(ch=>ch.vocab||[])]);
   for(const [plural,singular] of Object.entries(extraPairs)){const word=allWords.find(w=>brokenPluralKey(w.ar)===singular&&!/plural/i.test(w.pos||''));if(word)singulars.set(plural,word)}
+  const allById=new Map(allWords.map(w=>[w.id,w]));
   const wordsFor=c=>[...(c.vocab||[]),...Object.values(c.chapters||{}).flatMap(ch=>ch.vocab||[])];
   const variants=value=>String(value||'').split(/\s*[/؛;]\s*/).filter(v=>v&&v!=='—');
   function add(c,word,plural,singular=word,pluralCard=null){
@@ -236,7 +237,7 @@ function brokenPluralEntries(){
         add(c,word,value,word,pluralCard);
       }
     }
-    for(const word of words){if(!word.singularId)continue;for(const value of variants(word.ar))add(c,word,value,byId.get(word.singularId),word)}
+    for(const word of words){if(!word.singularId)continue;for(const value of variants(word.ar))add(c,word,value,byId.get(word.singularId)||allById.get(word.singularId),word)}
   }
   // Some source lists store plurals as standalone cards. Reuse a verified singular
   // from the collection data; do not invent one or infer a plural from its ending.
@@ -285,3 +286,4 @@ function brokenPluralRefresh(){
 }
 function brokenPluralReveal(id,side,field){if(!state.hide[field])return;brokenPluralState.reveals.add(id+':'+side+':'+field);brokenPluralRefresh()}
 function brokenPluralSpeak(id,side){if(state.hide.audio||!['singular','plural'].includes(side))return;const row=(brokenPluralCache||[]).find(v=>v.id===id);if(row)playArabic({...row[side],audioKind:'vocabulary'})}
+

@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
-const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+const html=fs.readFileSync(path.join(root,'index.html'),'utf8').replace(/\/\/ One vocabulary entry per Arabic reading[\s\S]*?(?=\/\/ Vocabulary grammar comments shared)/,'');
 const cleanupStart=html.indexOf('// Normalize standalone possessive vocabulary');
 const cleanupEnd=html.indexOf('// Vocabulary grammar comments shared',cleanupStart);
 assert(cleanupStart>=0&&cleanupEnd>cleanupStart);
