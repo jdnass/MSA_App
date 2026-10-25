@@ -1930,6 +1930,48 @@ window.MOSA_APPLY_MODULE_GRAMMAR(mosaModulesDraft,COLLECTIONS.find(c=>c.id==='al
 window.MOSA_APPLY_CURRENCY_COUNTING(mosaModulesDraft);
 
 const ALL_V=[...uniqueVocabulary([...Object.values(CHAPTERS).flatMap(chapter=>chapter.vocab),...MANGO_V1,...DLI_ALL_V],true),...MANGO_V2,...MANGO_V3,...ALIF_BAA_CARDS,...MADINA_BOOK1_CARDS,...AK2_ALL_V,...Object.values(window.MANGO_ADDITIONAL_CHAPTERS).flatMap(chapter=>chapter.vocab),...Object.values(COLLECTIONS.find(c=>c.id==='mosa-modules').chapters).flatMap(c=>c.vocab),...MADINA_BOOK2_CARDS];
+// Normalize standalone possessive vocabulary after every collection has been assembled.
+// Sentences, idioms, honorifics and possessive-suffix grammar cards are separate content.
+const POSSESSIVE_VOCABULARY_BASE_IDS={
+  'c1-20':'c1-19',
+  'c1-22':'c1-21',
+  'mango-c1-2':'mango-c1-3',
+  'mango-c1-8':'dli-c15-1',
+  'mango-c1-9':'dli-c15-1',
+  'mango-c1-19':'mango-c1-16',
+  'dli-c7-10':'dli-c7-9',
+  'dli-c7-11':'dli-c7-9',
+  'dli-c7-12':'dli-c7-9',
+  'dli-c8-3':'dli-c8-2',
+  'dli-c8-4':'dli-c8-2',
+  'dli-c10-22':'ak-c8-4',
+  'dli-c10-23':'ak-c8-4',
+  'dli-c10-24':'ak-c8-4',
+  'mango-c19-3':'ak2-c7-5',
+  'mango-c19-3-plural':'ak2-c7-5-bp',
+  'mosa-m4-s1-v3':'mosa-m4-s1-v1',
+  'mosa-m5-s7-v10':'mosa-m5-s7-v9',
+  // Both expressions mean roommate; keep the existing non-possessive course term.
+  'mosa-m10-s3-v9':'mosa-m6-s8-v10'
+};
+const possessiveVocabularyIds=new Set(Object.keys(POSSESSIVE_VOCABULARY_BASE_IDS));
+function removePossessiveVocabulary(cards){
+  if(!cards)return;
+  for(let i=cards.length-1;i>=0;i--)if(possessiveVocabularyIds.has(cards[i].id))cards.splice(i,1);
+}
+function cleanPossessiveChapter(chapter){
+  removePossessiveVocabulary(chapter.vocab);
+  for(const child of Object.values(chapter.subchapters||{}))cleanPossessiveChapter(child);
+}
+for(const collection of COLLECTIONS){
+  removePossessiveVocabulary(collection.vocab);
+  for(const chapter of Object.values(collection.chapters||{}))cleanPossessiveChapter(chapter);
+}
+removePossessiveVocabulary(ALL_V);
+// Preserve a saved position when its possessive card was removed.
+const savedPossessiveId=localStorage.getItem('msa-vocab-id');
+if(POSSESSIVE_VOCABULARY_BASE_IDS[savedPossessiveId])localStorage.setItem('msa-vocab-id',POSSESSIVE_VOCABULARY_BASE_IDS[savedPossessiveId]);
+
 // Vocabulary grammar comments shared by lesson cards and the vocabulary list.
 const VOCABULARY_GRAMMAR_NOTES={
   "لا ازال": "<p>“I am still…” can be expressed with [لا أَزالُ] (lā azālu) or [ما زِلْتُ] (mā ziltu). Both describe something that continues to be true now, even though [زِلْتُ] has a past-tense form.</p><p>Follow either expression with a present-tense verb, an adjective, or a location:</p><div class=\"grammar-example\">[لا أَزالُ أَتَعَلَّمُ العَرَبِيَّة] — I am still learning Arabic.</div><div class=\"grammar-example\">[ما زِلْتُ مَريضًا] — I am still sick.</div><div class=\"grammar-example\">[ما زِلْتُ هُنا] — I am still here.</div><p>An adjective takes the accusative ending, as in [مَريضًا], just as it does after [كانَ].</p><p>Remember: pair [لا] with [أَزالُ], and [ما] with [زِلْتُ]. In formal usage, [لا زِلْتُ] can express a wish (“May I remain…”); use [ما زِلْتُ] or [لا أَزالُ] for an ordinary statement.</p>",
@@ -2114,6 +2156,7 @@ if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.se
 <script>render();</script>
 </body>
 </html>
+
 
 
 
