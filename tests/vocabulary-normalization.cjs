@@ -45,6 +45,19 @@ assert.equal(fixture([card('a','mango-msa','التَّارِيخ','history'),car
 assert.equal(fixture([card('office','alkitaab1','مَكْتَب','office'),card('library','madina-book1','مَكْتَبَة','library')]).vocab.length,2);
 assert.equal(fixture([card('day','alkitaab1','يَوْم','day'),card('today','mango-msa','اليَوْم','today')]).vocab.length,2);
 assert.equal(fixture([card('birthday','mango-msa','عِيد مِيلَاد','birthday'),card('christmas','dli-basic','عِيدُ الْمِيلَادِ','Christmas')]).vocab.length,2);
+assert(byId.has('mango-c13-20'),'Sunday must remain separate from someone');
+assert(byId.has('mango-c13-23'),'Wednesday must remain separate from springs');
+assert.equal(fixture([card('someone','alkitaab1','أَحَد','someone'),card('sunday','mango-msa','الأَحَد','Sunday')]).vocab.length,2);
+assert.equal(fixture([card('springs','alkitaab1','أَرْبِعَة / أَرْبِعَاء','springs'),card('wednesday','mango-msa','الأَرْبِعَاء','Wednesday')]).vocab.length,2);
+// Named female vocabulary stays independent; generic gender variants collapse.
+for(const id of ['c1-21','c2-3','c3-14','c3-16','mango-c2-23','mango-c2-36','mango-c2-35','mango-c2-29','dli-c26-2'])assert(byId.has(id),id+' distinct English term should remain');
+for(const id of ['madina-book1-36','dli-c9-14','dli-c5-3','dli-c9-7'])assert(!byId.has(id),id+' generic feminine card should collapse');
+for(const [male,female,mar,far] of [
+ ['grandfather','grandmother','جَدّ','جَدَّة'],['grandson','granddaughter','حَفِيد','حَفِيدَة'],['husband','wife','زَوْج','زَوْجَة'],['son','daughter','اِبْن','اِبْنَة'],['fiancé','fiancée','خَطِيب','خَطِيبَة'],['actor','actress','مُمَثِّل','مُمَثِّلَة']
+]){const m=card('m','alkitaab1',mar,male);m.f=far;assert.equal(fixture([m,card('f','mango-msa',far,female)]).vocab.length,2,female+' should stay');}
+for(const [male,female,mar,far] of [
+ ['student','female student','طَالِب','طَالِبَة'],['doctor','female doctor','طَبِيب','طَبِيبَة'],['teacher','female teacher','مُعَلِّم','مُعَلِّمَة'],['male paternal cousin','female paternal cousin','اِبْن عَمّ','اِبْنَة عَمّ']
+]){const m=card('m','alkitaab1',mar,male);m.f=far;const result=fixture([m,card('f','mango-msa',far,female)]);assert.equal(result.vocab.length,1,female+' should collapse');assert.equal(result.vocab[0].f,far);}
 const baseline=load({},false);
 function lessonText(data){
  const rows=[];function visit(c){rows.push({sentences:c.sentences,grammar:c.grammar});for(const child of Object.values(c.subchapters||{}))visit(child);}
