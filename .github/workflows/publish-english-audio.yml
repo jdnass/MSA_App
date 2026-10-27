@@ -1,0 +1,67 @@
+name: Publish checked English vocabulary audio
+on:
+  workflow_run:
+    workflows: [Al-Kitaab Part 1 English voice]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: Generation run containing mosa-english-vocabulary
+        required: true
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: publish-english-audio
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.head_repository.full_name == github.repository)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Recover saved recordings from the completed generation
+        uses: actions/download-artifact@v4
+        with:
+          name: mosa-english-vocabulary
+          path: recovered-english
+          run-id: ${{ github.event.workflow_run.id || inputs.run_id }}
+          github-token: ${{ github.token }}
+      - name: Preserve existing recordings and add missing ones
+        run: |
+          python - <<'PYTHON'
+          import json, shutil
+          from pathlib import Path
+          dest=Path('audio/english-vocab')
+          dest.mkdir(parents=True,exist_ok=True)
+          for source in Path('recovered-english').rglob('en-*.mp3'):
+              target=dest/source.name
+              if not target.exists(): shutil.copyfile(source,target)
+          targets=json.loads(Path('english-vocab-targets.json').read_text())
+          available={t['en']:'./audio/english-vocab/'+t['id']+'.mp3' for t in targets if (dest/(t['id']+'.mp3')).exists()}
+          Path('english-vocab-audio.js').write_text('window.MOSA_ENGLISH_AUDIO='+json.dumps(available,ensure_ascii=False,separators=(',',':'))+';\n')
+          PYTHON
+      - name: Check complete English coverage and playlist assembly
+        run: |
+          node tests/english-vocabulary.cjs --coverage
+          node scripts/check-listening.cjs
+      - name: Refresh the installed app and publish
+        run: |
+          python - <<'PYTHON'
+          from pathlib import Path
+          for filename in ['index.html','sw.js']:
+              p=Path(filename)
+              p.write_text(p.read_text().replace('english-vocab-audio.js?v=107','english-vocab-audio.js?v=108').replace('mosa-v107','mosa-v108'))
+          PYTHON
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/english-vocab english-vocab-audio.js index.html sw.js
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Publish complete checked English vocabulary audio"
+          git pull --rebase origin main
+          git push origin HEAD:main
