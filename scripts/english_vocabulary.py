@@ -1,5 +1,7 @@
 """Generate reusable English Cedar clips; preserve existing Arabic assets."""
-import concurrent.futures, hashlib, json, os, subprocess, tempfile, time, urllib.request
+import concurrent.futures, json, os, shutil, subprocess, tempfile, time, urllib.request
+import imageio_ffmpeg
+FFMPEG=shutil.which("ffmpeg") or imageio_ffmpeg.get_ffmpeg_exe()
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 DEST=ROOT/'audio'/'english-vocab'
@@ -19,8 +21,9 @@ def generate(t):
                 raw=Path(directory)/'raw.mp3'; raw.write_bytes(clip)
                 output=Path(directory)/'out.mp3'
                 # Match the continuous player's MPEG-2 Layer III / 24kHz / mono format.
-                subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y','-i',str(raw),'-ar','24000','-ac','1','-codec:a','libmp3lame','-b:a','64k',str(output)],check=True)
-                duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(output)],text=True).strip())
+                subprocess.run([FFMPEG,'-hide_banner','-loglevel','error','-y','-i',str(raw),'-ar','24000','-ac','1','-codec:a','libmp3lame','-b:a','64k',str(output)],check=True)
+                pcm=subprocess.check_output([FFMPEG,'-v','error','-i',str(output),'-ar','24000','-ac','1','-f','s16le','pipe:1'])
+                duration=len(pcm)/(24000*2)
                 if not 0.15<duration<25 or output.stat().st_size<500: raise ValueError('Invalid English clip')
                 target.write_bytes(output.read_bytes())
             return t

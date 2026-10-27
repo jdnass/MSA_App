@@ -8,7 +8,7 @@ permissions:
   contents: write
 concurrency:
   group: english-vocabulary
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '22'
       - name: Install audio tools
-        run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+        run: python -m pip install imageio-ffmpeg==0.6.0
       - name: Export only Al-Kitaab Part 1 English meanings
         run: node scripts/export-english-vocabulary.cjs
       - name: Generate missing English recordings
