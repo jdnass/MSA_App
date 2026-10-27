@@ -1,0 +1,2222 @@
+[
+  {
+    "id": "en-7ee25892cf60570cae6be945",
+    "en": "(one) vocabulary word"
+  },
+  {
+    "id": "en-566747aa5892be382563a387",
+    "en": "Egyptian"
+  },
+  {
+    "id": "en-0ad44e6880036749b8947ca7",
+    "en": "I am able to"
+  },
+  {
+    "id": "en-55c1732cf2d89d2958933619",
+    "en": "I am absent from; miss"
+  },
+  {
+    "id": "en-acf5f345ace0d35ab4103fac",
+    "en": "I am appointed"
+  },
+  {
+    "id": "en-15e006125dbea706ec49676d",
+    "en": "I am cut off; disconnected"
+  },
+  {
+    "id": "en-327ca8d6ca7ed1a817fcc6aa",
+    "en": "I am still"
+  },
+  {
+    "id": "en-4ad559e3221cccab98486d8e",
+    "en": "I am; I become"
+  },
+  {
+    "id": "en-dd67a8d9c3866c6fd5c61c96",
+    "en": "I ate"
+  },
+  {
+    "id": "en-083f8b1675d32973d2bbb048",
+    "en": "I ate breakfast"
+  },
+  {
+    "id": "en-1f1d853b7d5c8993d5124224",
+    "en": "I became"
+  },
+  {
+    "id": "en-7cf51d7273e270394e1221d2",
+    "en": "I become"
+  },
+  {
+    "id": "en-8011c8c4d2126363844621e3",
+    "en": "I began"
+  },
+  {
+    "id": "en-4c8c1898547f36a983018f30",
+    "en": "I begin"
+  },
+  {
+    "id": "en-d509de9f30d69636ae71ce8a",
+    "en": "I came to"
+  },
+  {
+    "id": "en-69914572e162e41b70241e06",
+    "en": "I can; it is possible for me"
+  },
+  {
+    "id": "en-c7ffc01979ecc372576a19b7",
+    "en": "I come to"
+  },
+  {
+    "id": "en-e66ccf0af0dfeb10c64d836d",
+    "en": "I could; it was possible for me"
+  },
+  {
+    "id": "en-2ec95d25fd6e437414dabac1",
+    "en": "I decide to"
+  },
+  {
+    "id": "en-f86880cc6aa8e65fed6fe3f7",
+    "en": "I decided to"
+  },
+  {
+    "id": "en-51d575d155d5c915093907f7",
+    "en": "I did not travel"
+  },
+  {
+    "id": "en-f2e1f1c01962b34bd9b5e7bf",
+    "en": "I die"
+  },
+  {
+    "id": "en-5c5fa12868acc4ec87c87534",
+    "en": "I died"
+  },
+  {
+    "id": "en-483a03984d65d6d2f71c4e6b",
+    "en": "I dismiss; fire"
+  },
+  {
+    "id": "en-de9560f24cf626fbe298067d",
+    "en": "I dismissed; fired"
+  },
+  {
+    "id": "en-846466d79355dee8f6194055",
+    "en": "I eat"
+  },
+  {
+    "id": "en-57c6b0b35f55363ac1f7a7ee",
+    "en": "I eat breakfast"
+  },
+  {
+    "id": "en-e5b2b35c0ecde7cdab5427a3",
+    "en": "I encourage someone to"
+  },
+  {
+    "id": "en-2b31dc77bf99ebe094a4a24b",
+    "en": "I encouraged someone to"
+  },
+  {
+    "id": "en-a33c9ecccc8e3415183104e2",
+    "en": "I enjoy"
+  },
+  {
+    "id": "en-dfe0a442f5d996f8d8b93901",
+    "en": "I enjoyed"
+  },
+  {
+    "id": "en-7deee7d17f5d34892c78f512",
+    "en": "I enter"
+  },
+  {
+    "id": "en-380624e90175308fb98303e9",
+    "en": "I entered"
+  },
+  {
+    "id": "en-7671129fd729250e83884926",
+    "en": "I exchange"
+  },
+  {
+    "id": "en-d4935ab9142e23117a654ee4",
+    "en": "I exchanged"
+  },
+  {
+    "id": "en-699c9597b3f28ca610eac7bd",
+    "en": "I fail at"
+  },
+  {
+    "id": "en-9c0c1605f279cb69773a8180",
+    "en": "I failed at"
+  },
+  {
+    "id": "en-403ef4f19f1116fc4b9b9036",
+    "en": "I feel; experience"
+  },
+  {
+    "id": "en-1c117f8b3d7e638b94021b22",
+    "en": "I felt; experienced"
+  },
+  {
+    "id": "en-5cdc8c7119f97e8608de4921",
+    "en": "I find"
+  },
+  {
+    "id": "en-51598656022b6b3bb47b86aa",
+    "en": "I finish"
+  },
+  {
+    "id": "en-7c629584ae88e12b516dfc49",
+    "en": "I finished"
+  },
+  {
+    "id": "en-cce20a54f128395167384e8d",
+    "en": "I found"
+  },
+  {
+    "id": "en-300bd01701e0f575e7bd2769",
+    "en": "I gather together"
+  },
+  {
+    "id": "en-b6239af4f80477913ecb484f",
+    "en": "I gathered together"
+  },
+  {
+    "id": "en-a6add0b5b7d40b100b9ee384",
+    "en": "I get engaged to"
+  },
+  {
+    "id": "en-a87a836007e24ed043d5beeb",
+    "en": "I get to know; meet"
+  },
+  {
+    "id": "en-5332e4717468e3b6ce6aeb06",
+    "en": "I go down; stay"
+  },
+  {
+    "id": "en-02c658e3dca59422032646f5",
+    "en": "I go to"
+  },
+  {
+    "id": "en-4d3c5d29705a227f1b7c5dd4",
+    "en": "I got to know; met"
+  },
+  {
+    "id": "en-ea60a14d3d29355fe94e503f",
+    "en": "I graduate"
+  },
+  {
+    "id": "en-f8de6ea923c6ea176194fd09",
+    "en": "I graduated"
+  },
+  {
+    "id": "en-9759ba9bd9b0ba6d1cccfc97",
+    "en": "I have"
+  },
+  {
+    "id": "en-8dff5be79b9d858e7fbf5b84",
+    "en": "I help"
+  },
+  {
+    "id": "en-576378b452ea47f1dfe00226",
+    "en": "I helped"
+  },
+  {
+    "id": "en-580b13fefbf6c42e10cd7977",
+    "en": "I join"
+  },
+  {
+    "id": "en-b372de0a26575f7c763a58af",
+    "en": "I joined"
+  },
+  {
+    "id": "en-944a18540f3b4f2f3be7bbda",
+    "en": "I knew"
+  },
+  {
+    "id": "en-8d5c3d26c51c6af49fe40037",
+    "en": "I know"
+  },
+  {
+    "id": "en-4af399910f844f1869d88cc0",
+    "en": "I learn of; know"
+  },
+  {
+    "id": "en-b27efda3c71665018e703d23",
+    "en": "I learned of; knew"
+  },
+  {
+    "id": "en-14f4a44e33b2a6e576dd427c",
+    "en": "I leave"
+  },
+  {
+    "id": "en-e057fc65fa94329a373ca334",
+    "en": "I left"
+  },
+  {
+    "id": "en-938ac1ef89c5caafebdfedee",
+    "en": "I listen to"
+  },
+  {
+    "id": "en-519d0f8a5d25659810ace360",
+    "en": "I listened to"
+  },
+  {
+    "id": "en-3ab161997556236b62aa1caa",
+    "en": "I live"
+  },
+  {
+    "id": "en-cf93b6cb6a34d9f270a8577d",
+    "en": "I live, reside"
+  },
+  {
+    "id": "en-20dd32678250b0b54b6edbd0",
+    "en": "I lived"
+  },
+  {
+    "id": "en-d7a76d7a7adb3d9da3943f0f",
+    "en": "I lived; resided"
+  },
+  {
+    "id": "en-493a4a712ba2c4443964cc95",
+    "en": "I mean; intend"
+  },
+  {
+    "id": "en-03c45cde48d4794119967f4e",
+    "en": "I meant; intended"
+  },
+  {
+    "id": "en-efc5243482da898a1a4f3952",
+    "en": "I meet"
+  },
+  {
+    "id": "en-5b3c3841fabbf2b75015eae3",
+    "en": "I memorize"
+  },
+  {
+    "id": "en-f8e005cbd9e95080d9fc3230",
+    "en": "I memorized"
+  },
+  {
+    "id": "en-3ed00600861d52c26ccbf547",
+    "en": "I met"
+  },
+  {
+    "id": "en-9b8611f22c6b813672946946",
+    "en": "I obtain; receive"
+  },
+  {
+    "id": "en-aa5f9512a73391b555be3ae8",
+    "en": "I obtained"
+  },
+  {
+    "id": "en-0826762810c66617fb32aa76",
+    "en": "I obtained; received"
+  },
+  {
+    "id": "en-6ffb15391274aeb76e89ac63",
+    "en": "I play"
+  },
+  {
+    "id": "en-ec038c87e77e4f294a9b9a0d",
+    "en": "I played"
+  },
+  {
+    "id": "en-3984a0b30a73d299e4c8c598",
+    "en": "I pray"
+  },
+  {
+    "id": "en-e510e03323eed072a4ed8447",
+    "en": "I prayed"
+  },
+  {
+    "id": "en-32ca6cb672123db3141116df",
+    "en": "I proposed marriage"
+  },
+  {
+    "id": "en-5e0d737af507e7533d4e288e",
+    "en": "I read"
+  },
+  {
+    "id": "en-f19ea32d7ae878afe0aa97cd",
+    "en": "I read (past)"
+  },
+  {
+    "id": "en-acfa93ec0c1766221f8d7164",
+    "en": "I refuse"
+  },
+  {
+    "id": "en-217fba697d541f4791c97a90",
+    "en": "I refused"
+  },
+  {
+    "id": "en-e1e0f9ec60f0dd154242d953",
+    "en": "I remember"
+  },
+  {
+    "id": "en-22e60b7911db138b1cc46b48",
+    "en": "I remembered"
+  },
+  {
+    "id": "en-cf772e9996bc4f3463f14c11",
+    "en": "I return"
+  },
+  {
+    "id": "en-a1009a4ecbd0416e115dfdc8",
+    "en": "I returned"
+  },
+  {
+    "id": "en-1b70eef15078e17a6576e00b",
+    "en": "I review lessons"
+  },
+  {
+    "id": "en-5ae2fd4bcafe6f2fdcf3c397",
+    "en": "I reviewed lessons"
+  },
+  {
+    "id": "en-1dacc662a91c6252bd2ffdd0",
+    "en": "I said"
+  },
+  {
+    "id": "en-02ed461bb827ae5a67f84392",
+    "en": "I sat"
+  },
+  {
+    "id": "en-54e806a90911740a5acf722c",
+    "en": "I say"
+  },
+  {
+    "id": "en-a4e642c14727c0d29b3e3b22",
+    "en": "I settle down"
+  },
+  {
+    "id": "en-b98490deb86dd70797ec9823",
+    "en": "I settled down"
+  },
+  {
+    "id": "en-bdeb250d9f791f98c25e111c",
+    "en": "I sit"
+  },
+  {
+    "id": "en-4c76641b8bfecbed62f2c3c7",
+    "en": "I sleep"
+  },
+  {
+    "id": "en-61c933b8684c11c48dcf6a46",
+    "en": "I slept"
+  },
+  {
+    "id": "en-b971b03bceb9a7f5790402fc",
+    "en": "I smoke"
+  },
+  {
+    "id": "en-dfad2540a974c8127c2703c4",
+    "en": "I smoked"
+  },
+  {
+    "id": "en-cf38c405852599f7190451e4",
+    "en": "I spend time"
+  },
+  {
+    "id": "en-ad29a3c4b39f55248849b943",
+    "en": "I spent time"
+  },
+  {
+    "id": "en-bce0ee130cfe87a5af187bc2",
+    "en": "I stay up late"
+  },
+  {
+    "id": "en-5509c703a9de35e5d8b160c0",
+    "en": "I stayed up late"
+  },
+  {
+    "id": "en-0ee296cbf40b7a0fb20301ea",
+    "en": "I studied"
+  },
+  {
+    "id": "en-545d0f3a76b84bb52d902e39",
+    "en": "I study"
+  },
+  {
+    "id": "en-a486b816879790e10d914755",
+    "en": "I succeed; pass"
+  },
+  {
+    "id": "en-9a6bb280df142a9f5c87cb7f",
+    "en": "I succeeded; passed"
+  },
+  {
+    "id": "en-063d3630a3e89bdbbe9c49b0",
+    "en": "I take"
+  },
+  {
+    "id": "en-e11e053df9b7c8d5a5409775",
+    "en": "I talk / speak about"
+  },
+  {
+    "id": "en-98b6743aeecc46e8d6b9d1f8",
+    "en": "I talked / spoke about"
+  },
+  {
+    "id": "en-9e6d062f1a26e5965e06b49b",
+    "en": "I taught"
+  },
+  {
+    "id": "en-6459b3aee7d8c06c8e4361a0",
+    "en": "I teach"
+  },
+  {
+    "id": "en-98bcd5c44032d97d92e832d6",
+    "en": "I think about"
+  },
+  {
+    "id": "en-70fa105ac1c00982ba5e670c",
+    "en": "I think; believe that"
+  },
+  {
+    "id": "en-2d6de1f5741eeed89b47f711",
+    "en": "I thought about"
+  },
+  {
+    "id": "en-c7c3c77f817d50412b8ba47e",
+    "en": "I thought; believed that"
+  },
+  {
+    "id": "en-864d856652e8207db9bab340",
+    "en": "I took"
+  },
+  {
+    "id": "en-a1ed0249c32c606866f55243",
+    "en": "I travel"
+  },
+  {
+    "id": "en-bb2ff574f95222d8f5e302df",
+    "en": "I traveled"
+  },
+  {
+    "id": "en-860296446ec43c52d0ecbc68",
+    "en": "I understand"
+  },
+  {
+    "id": "en-1003c89bd1b159d4825b477a",
+    "en": "I understood"
+  },
+  {
+    "id": "en-d68b6f70111614b14e925221",
+    "en": "I visit"
+  },
+  {
+    "id": "en-51d1bb11b9fab439707192c6",
+    "en": "I visited"
+  },
+  {
+    "id": "en-e22e76d9dce8eb32098c4389",
+    "en": "I wake someone up"
+  },
+  {
+    "id": "en-63cefeb9de4a9149104daf2a",
+    "en": "I wake up"
+  },
+  {
+    "id": "en-8bd8bc45d9f6864c997573a0",
+    "en": "I want to"
+  },
+  {
+    "id": "en-60ca25ded6eb4b0a44a35f2d",
+    "en": "I wanted to"
+  },
+  {
+    "id": "en-696858f2ef185b55be870cb5",
+    "en": "I was"
+  },
+  {
+    "id": "en-f6f02ae03ab01ee292c50b88",
+    "en": "I was able to"
+  },
+  {
+    "id": "en-ed20a1f22b34e99f8ff90f3f",
+    "en": "I was absent from; missed"
+  },
+  {
+    "id": "en-7fd78269a78271f00c026efc",
+    "en": "I was appointed"
+  },
+  {
+    "id": "en-18e02f8a2390966ed849252c",
+    "en": "I was cut off; disconnected"
+  },
+  {
+    "id": "en-65d921a9933eeff3e864db46",
+    "en": "I went down; stayed"
+  },
+  {
+    "id": "en-c0548d80dca39a5bbe0b452d",
+    "en": "I went to"
+  },
+  {
+    "id": "en-7472e950e67471854063dc36",
+    "en": "I wish to"
+  },
+  {
+    "id": "en-4dc11df6aaaeaedfc0c546d0",
+    "en": "I wished to"
+  },
+  {
+    "id": "en-f6be46c4151a60048d0a647d",
+    "en": "I woke someone up"
+  },
+  {
+    "id": "en-e29deaeebe75ae877188e20b",
+    "en": "I woke up"
+  },
+  {
+    "id": "en-de45c4a153176caaa89c06fb",
+    "en": "I work"
+  },
+  {
+    "id": "en-0fa69f919906f814fd9585f7",
+    "en": "I worked"
+  },
+  {
+    "id": "en-ed743a8ef59a284f26be5081",
+    "en": "I write"
+  },
+  {
+    "id": "en-859fe56b2129f4c70800f429",
+    "en": "I wrote"
+  },
+  {
+    "id": "en-feeb3ed5953b08a3833007bf",
+    "en": "May God bless you."
+  },
+  {
+    "id": "en-bd2bbbff79cf9b4b935f9a1c",
+    "en": "May God have mercy on her"
+  },
+  {
+    "id": "en-097e2b325aa24de76f7f9522",
+    "en": "Nice to meet you"
+  },
+  {
+    "id": "en-c3c27cfe44265f72ca91e7cc",
+    "en": "United Nations"
+  },
+  {
+    "id": "en-9abe0fce365bc56adace0824",
+    "en": "a little"
+  },
+  {
+    "id": "en-c6259793b3d3af0bc24c08ac",
+    "en": "a lot; much"
+  },
+  {
+    "id": "en-5489eb1d2a0285016de38986",
+    "en": "accident"
+  },
+  {
+    "id": "en-35453de808a9e67bd1ae5188",
+    "en": "accidents"
+  },
+  {
+    "id": "en-26a223f996c5e3699dab4f0f",
+    "en": "acquaintances"
+  },
+  {
+    "id": "en-984d6808e9899eccd2222b0c",
+    "en": "actually; in reality"
+  },
+  {
+    "id": "en-d80c9bf910f144738ef98372",
+    "en": "address"
+  },
+  {
+    "id": "en-fe79d7d4f7252c53a8109c3c",
+    "en": "addresses"
+  },
+  {
+    "id": "en-6a6ba702490a374791751820",
+    "en": "admission"
+  },
+  {
+    "id": "en-f39592393ef0859cb196a526",
+    "en": "after"
+  },
+  {
+    "id": "en-1588c21d591a0c496dd4bfcf",
+    "en": "after + verb"
+  },
+  {
+    "id": "en-56555de77f5573885aad1c46",
+    "en": "after that"
+  },
+  {
+    "id": "en-c8e07c1ac268eae0661eb98f",
+    "en": "afternoon"
+  },
+  {
+    "id": "en-013f54400c82da08037759ad",
+    "en": "age"
+  },
+  {
+    "id": "en-ba24b7992d5d9077dba9a98b",
+    "en": "ages"
+  },
+  {
+    "id": "en-ba1af48eea4d35640ab6022c",
+    "en": "all together"
+  },
+  {
+    "id": "en-bb8c8605c55dcc2d650e87ec",
+    "en": "also"
+  },
+  {
+    "id": "en-9cdc6c47aa193ae7fdab6c57",
+    "en": "always"
+  },
+  {
+    "id": "en-c44738333d95c9f25cdb55a9",
+    "en": "anthropology"
+  },
+  {
+    "id": "en-263222ada6acb92dd66858ee",
+    "en": "appointing; appointment"
+  },
+  {
+    "id": "en-fd37f875ad2991f4970fa81e",
+    "en": "appointment"
+  },
+  {
+    "id": "en-ae6e417faee4f746934c610f",
+    "en": "appointments"
+  },
+  {
+    "id": "en-333e5bfbb83e9f827a131537",
+    "en": "area, region"
+  },
+  {
+    "id": "en-340a90fd6bfa4fec6bdd9b8d",
+    "en": "areas; regions"
+  },
+  {
+    "id": "en-032b33d182c6fff0720f66a4",
+    "en": "armies"
+  },
+  {
+    "id": "en-b2fd5cdba2b1484db46c26a3",
+    "en": "army"
+  },
+  {
+    "id": "en-d055b7584195a243c24e24c2",
+    "en": "around; about"
+  },
+  {
+    "id": "en-84393add8c489d33569360ef",
+    "en": "article"
+  },
+  {
+    "id": "en-bbc6812eb6201acee10db9cd",
+    "en": "as far as ___ is concerned"
+  },
+  {
+    "id": "en-5265c7d23a010057255bb94a",
+    "en": "as; just as"
+  },
+  {
+    "id": "en-89e05afd5ce4d9c643e42b66",
+    "en": "atmospheres; conditions"
+  },
+  {
+    "id": "en-defae04158b9c17d7b4a5f7b",
+    "en": "autumn"
+  },
+  {
+    "id": "en-f02c96357481972443a2eb6d",
+    "en": "basketball"
+  },
+  {
+    "id": "en-a511aeeeb8a119931a67038a",
+    "en": "because"
+  },
+  {
+    "id": "en-09ad4653b3b7e94e9478c822",
+    "en": "because of"
+  },
+  {
+    "id": "en-100af44f57bf59a3281fcb02",
+    "en": "becoming"
+  },
+  {
+    "id": "en-6db7d803e74f1ffa7d8f5adc",
+    "en": "before"
+  },
+  {
+    "id": "en-4095391c7e3e04ff12c9ad2e",
+    "en": "beginning"
+  },
+  {
+    "id": "en-85574fa07dae32132675e216",
+    "en": "being"
+  },
+  {
+    "id": "en-6b12bdcaa618fd4eb5240cdd",
+    "en": "being able; ability"
+  },
+  {
+    "id": "en-dd856dfd5eea9a8b7f671ea4",
+    "en": "being absent; absence"
+  },
+  {
+    "id": "en-f1e52af4653f74a75237fdec",
+    "en": "being cut off; disconnection"
+  },
+  {
+    "id": "en-abbeb3a6c9e1b9fe3fa15597",
+    "en": "beliefs; suppositions"
+  },
+  {
+    "id": "en-8f4375ec65c2c4092a1cc21e",
+    "en": "best"
+  },
+  {
+    "id": "en-5dae5958cf7de19ee3813eb1",
+    "en": "between; among"
+  },
+  {
+    "id": "en-72dba2da6263e4d78e94dd09",
+    "en": "biggest; oldest"
+  },
+  {
+    "id": "en-f953f70b9132340e2782cba8",
+    "en": "boring"
+  },
+  {
+    "id": "en-b67188c2e7eb5daff144ff6d",
+    "en": "break; rest period"
+  },
+  {
+    "id": "en-c7ca08df5632b5268b2308b9",
+    "en": "business administration"
+  },
+  {
+    "id": "en-ebaaa373599b015e729dbb75",
+    "en": "busy with"
+  },
+  {
+    "id": "en-f179a509d32bd92c923f2363",
+    "en": "center"
+  },
+  {
+    "id": "en-891ce66a0f781c2a96cdc6ed",
+    "en": "centers"
+  },
+  {
+    "id": "en-ac739dccd121f71261d87461",
+    "en": "chess"
+  },
+  {
+    "id": "en-f2d1ba57ddbb39205c04bc1b",
+    "en": "childhood"
+  },
+  {
+    "id": "en-66f9b98dde76ccbacebabd34",
+    "en": "classmate"
+  },
+  {
+    "id": "en-a6b9fe7318328ce1840ca40c",
+    "en": "classmates; colleagues"
+  },
+  {
+    "id": "en-5e9562c786d9ca040985788b",
+    "en": "cloudy"
+  },
+  {
+    "id": "en-8b0ce229e5da2ca6726cd9e7",
+    "en": "club; association"
+  },
+  {
+    "id": "en-36b501b2d3cc9bc483dd6e7e",
+    "en": "clubs; associations"
+  },
+  {
+    "id": "en-e272deecde720ffc773d7a6a",
+    "en": "cold"
+  },
+  {
+    "id": "en-441ef15d1f51c2b58de63a58",
+    "en": "college; university school"
+  },
+  {
+    "id": "en-ffbfabc54ca8a26ef654e1df",
+    "en": "coming"
+  },
+  {
+    "id": "en-623f09d1a36cae2054ebb65a",
+    "en": "coming; next"
+  },
+  {
+    "id": "en-76c34f82021247b7630bba6a",
+    "en": "commerce; trade"
+  },
+  {
+    "id": "en-f168ccdd91548c5a8c871bd4",
+    "en": "company"
+  },
+  {
+    "id": "en-382439e6f1baad6961e0f531",
+    "en": "comparative"
+  },
+  {
+    "id": "en-57db982035fa6e1ce70980d0",
+    "en": "congratulations!"
+  },
+  {
+    "id": "en-5180dc3af99926fdf2115c5e",
+    "en": "continuation (related noun for “still”)"
+  },
+  {
+    "id": "en-e45d4cbade71ec65c6bf5182",
+    "en": "countries"
+  },
+  {
+    "id": "en-aff64e4fd520bd185cb01ada",
+    "en": "country"
+  },
+  {
+    "id": "en-389ec5f1112d5e956ad212f6",
+    "en": "crazy"
+  },
+  {
+    "id": "en-7a172a6c7430141fa098234f",
+    "en": "crowding"
+  },
+  {
+    "id": "en-f1947f79fdfb8046150959ca",
+    "en": "culture"
+  },
+  {
+    "id": "en-68d6641ff9421a6a305e56d4",
+    "en": "dancing"
+  },
+  {
+    "id": "en-944c27e5b97ab7793e4b6e9f",
+    "en": "day"
+  },
+  {
+    "id": "en-ab51004e9d71a485f160f655",
+    "en": "days"
+  },
+  {
+    "id": "en-49df1e5699a297cb2411878f",
+    "en": "daytime"
+  },
+  {
+    "id": "en-52c8e02987ccb1b0eef9c7c9",
+    "en": "death"
+  },
+  {
+    "id": "en-57d0e90b3bdd82e319c12456",
+    "en": "deciding; decision-making"
+  },
+  {
+    "id": "en-86ae35d58a6aa3b5742df94e",
+    "en": "decision"
+  },
+  {
+    "id": "en-b308a7f43bba8e7a366b7274",
+    "en": "degree"
+  },
+  {
+    "id": "en-dda209044ad44962b012ecec",
+    "en": "dinner"
+  },
+  {
+    "id": "en-ef7d74898c22a4bf0be437d3",
+    "en": "director"
+  },
+  {
+    "id": "en-c0642d170061f6e836f83632",
+    "en": "dismissing; firing"
+  },
+  {
+    "id": "en-30fde358b34772de141e11ba",
+    "en": "dream"
+  },
+  {
+    "id": "en-1f6f699c758927baadc825ad",
+    "en": "dreams"
+  },
+  {
+    "id": "en-d11d76279645a5386521f659",
+    "en": "dying; death"
+  },
+  {
+    "id": "en-cca0151aa5e3da95848b714a",
+    "en": "eating"
+  },
+  {
+    "id": "en-e6e34e73b25fd0d98a826393",
+    "en": "eating breakfast; breaking a fast"
+  },
+  {
+    "id": "en-54efbc6c73ffc137ef38c0aa",
+    "en": "economics; economy"
+  },
+  {
+    "id": "en-f06c64ed51a565c6b1c308a8",
+    "en": "elementary"
+  },
+  {
+    "id": "en-2e4fdce5e39128f2394c05bc",
+    "en": "emotional; romantic"
+  },
+  {
+    "id": "en-2fdc0177057d3a5c6c2c0821",
+    "en": "employee"
+  },
+  {
+    "id": "en-e68e5d8164a4cae7d58ed096",
+    "en": "encouraging; encouragement"
+  },
+  {
+    "id": "en-7826b958b79c70626801b880",
+    "en": "engineer"
+  },
+  {
+    "id": "en-8c85b6639e62e10b8330a8b8",
+    "en": "engineering"
+  },
+  {
+    "id": "en-21606242e0388af2e33db462",
+    "en": "enjoying; enjoyment"
+  },
+  {
+    "id": "en-ec84795cb469bd79925664cf",
+    "en": "entering; entry"
+  },
+  {
+    "id": "en-e5bd0801d10e5965354604c2",
+    "en": "evening"
+  },
+  {
+    "id": "en-0cadcfd96b13c612442d7d04",
+    "en": "every / all"
+  },
+  {
+    "id": "en-b008cc463ffb4c7b4f55851d",
+    "en": "exchanging; exchange"
+  },
+  {
+    "id": "en-f3cca575ff7e90bd5ef386b9",
+    "en": "expensive"
+  },
+  {
+    "id": "en-53e5e7c5a884893739c4cf64",
+    "en": "experience"
+  },
+  {
+    "id": "en-1e947f0882d5aa437a9fbef2",
+    "en": "experiences"
+  },
+  {
+    "id": "en-d94cde45269f8d25886423c2",
+    "en": "extended families"
+  },
+  {
+    "id": "en-0a005ad0b4e7bedc92d368e9",
+    "en": "extended family"
+  },
+  {
+    "id": "en-47c215b5f70eb9c9b4bcb2c0",
+    "en": "eye"
+  },
+  {
+    "id": "en-d8fe183f5b8e732496891b98",
+    "en": "eyes"
+  },
+  {
+    "id": "en-b6ce4addd6bccaeef4035da7",
+    "en": "failing; failure"
+  },
+  {
+    "id": "en-e1c0624695f43eba3d97cbe2",
+    "en": "families"
+  },
+  {
+    "id": "en-d34a569ab7aaa54dacd715ae",
+    "en": "family"
+  },
+  {
+    "id": "en-88a1881f0025cf7117501d07",
+    "en": "father"
+  },
+  {
+    "id": "en-1ff3a3c1830a1531cde661cc",
+    "en": "favorite"
+  },
+  {
+    "id": "en-1e8abffb973c275e041eddbe",
+    "en": "feeling"
+  },
+  {
+    "id": "en-de0be918f124bd5cd15d347c",
+    "en": "finally; at last"
+  },
+  {
+    "id": "en-8bf18252cb6dadd5f42fca10",
+    "en": "finding"
+  },
+  {
+    "id": "en-5b7a808058aa569440210889",
+    "en": "finishing; completion"
+  },
+  {
+    "id": "en-a7937b64b8caa58f03721bb6",
+    "en": "first"
+  },
+  {
+    "id": "en-b474a99a2705e23cf905a484",
+    "en": "fish"
+  },
+  {
+    "id": "en-4d44a1f6e77b3515982c9a89",
+    "en": "fish (plural)"
+  },
+  {
+    "id": "en-245873e19ffefad60833771d",
+    "en": "foreign affairs"
+  },
+  {
+    "id": "en-f7aa52e9ef1781af86688f91",
+    "en": "formal, written Arabic"
+  },
+  {
+    "id": "en-ae26ebdfcb730342fde06d5d",
+    "en": "frankly"
+  },
+  {
+    "id": "en-cde48537ca2c28084ff56082",
+    "en": "friend"
+  },
+  {
+    "id": "en-2e4b9cc2428beb7bff6a56c1",
+    "en": "friends"
+  },
+  {
+    "id": "en-d3dc88ae24a3be59843285c3",
+    "en": "fruits"
+  },
+  {
+    "id": "en-ebb3de8a3d9a40366132eb5d",
+    "en": "future"
+  },
+  {
+    "id": "en-fee3b812495202b828bceb8e",
+    "en": "future prefix"
+  },
+  {
+    "id": "en-61e8007c6325b282b1da892e",
+    "en": "gathering together"
+  },
+  {
+    "id": "en-ba2196ab45630245e30aeebc",
+    "en": "general; public"
+  },
+  {
+    "id": "en-62475dab2065c19194e3c501",
+    "en": "getting to know; acquaintance"
+  },
+  {
+    "id": "en-c44d8605913ba4addb9f522e",
+    "en": "going"
+  },
+  {
+    "id": "en-fa7d40c98922356b1a8bf4b2",
+    "en": "going down; staying"
+  },
+  {
+    "id": "en-ab5e9e376f9539179e465f24",
+    "en": "government"
+  },
+  {
+    "id": "en-9d5cfc19d4b2f67e0d89df84",
+    "en": "graduating; graduation"
+  },
+  {
+    "id": "en-e05eb8a4a255743e051d77d5",
+    "en": "grammar"
+  },
+  {
+    "id": "en-7ab7049973595a7f356878ff",
+    "en": "grandfather"
+  },
+  {
+    "id": "en-ba5755dc7ce068724d03effc",
+    "en": "grandfathers"
+  },
+  {
+    "id": "en-c04d87aa70a7d16530de692e",
+    "en": "grandmother"
+  },
+  {
+    "id": "en-a11ae06469c63740d7b0ecf8",
+    "en": "half"
+  },
+  {
+    "id": "en-6390dfb88622c29aff797f91",
+    "en": "halves"
+  },
+  {
+    "id": "en-ca6c647e793be349d265b289",
+    "en": "he was"
+  },
+  {
+    "id": "en-145eec58c4d0b29bdb589418",
+    "en": "helping; assistance"
+  },
+  {
+    "id": "en-fcec91509759ad995c2cd14b",
+    "en": "here"
+  },
+  {
+    "id": "en-6ef7c9b15ecdd69083724b84",
+    "en": "high"
+  },
+  {
+    "id": "en-ce245dadb13eea8a24a2b753",
+    "en": "histories; dates"
+  },
+  {
+    "id": "en-259aa8ef98a8b91de574cd90",
+    "en": "history"
+  },
+  {
+    "id": "en-0834a044f52ddbed8d4904d9",
+    "en": "hobby"
+  },
+  {
+    "id": "en-474c12b01f4f765680ac3bb3",
+    "en": "holidays"
+  },
+  {
+    "id": "en-1f1f0f3290b2a056876f32b5",
+    "en": "homesickness; estrangement"
+  },
+  {
+    "id": "en-8afe3c83decffdf6dc48597a",
+    "en": "hospital"
+  },
+  {
+    "id": "en-7f5d1618e7d28cc7bf327886",
+    "en": "hot"
+  },
+  {
+    "id": "en-8d53a3e3672946bd802cd203",
+    "en": "hotel"
+  },
+  {
+    "id": "en-5b6c989793686afecb5feed0",
+    "en": "hotels"
+  },
+  {
+    "id": "en-a84049d63720febe1cc1f077",
+    "en": "how many?"
+  },
+  {
+    "id": "en-d1c30145e17b69d4f418d9b9",
+    "en": "how?"
+  },
+  {
+    "id": "en-ba3fb020c49e3489895476a1",
+    "en": "humidity"
+  },
+  {
+    "id": "en-9fee8f88b93ae8b399f50073",
+    "en": "husband"
+  },
+  {
+    "id": "en-1b28cb6127be1f5cafebe0b7",
+    "en": "husbands"
+  },
+  {
+    "id": "en-f5925d8063d64f5b42e702c0",
+    "en": "if; when"
+  },
+  {
+    "id": "en-fdce563a13e03486352ca0ea",
+    "en": "in addition to"
+  },
+  {
+    "id": "en-d45020fbb3f65d3b14c525a9",
+    "en": "in front of; before"
+  },
+  {
+    "id": "en-4c57a6e7ebdef3af79bf13c6",
+    "en": "in order to"
+  },
+  {
+    "id": "en-da15caaee9de1b0dc60aade3",
+    "en": "individual"
+  },
+  {
+    "id": "en-195c703b019ccaecd75b62a9",
+    "en": "individuals"
+  },
+  {
+    "id": "en-1e3bb894756f8d62b5759cb1",
+    "en": "international"
+  },
+  {
+    "id": "en-02540942346fdfbf21a94f8b",
+    "en": "interview"
+  },
+  {
+    "id": "en-bf3a2c9267581c678a731ba3",
+    "en": "it means"
+  },
+  {
+    "id": "en-a336147cc444a49ff8c11b76",
+    "en": "joining"
+  },
+  {
+    "id": "en-133671759ed87b57d4066557",
+    "en": "journeys; travels"
+  },
+  {
+    "id": "en-e81dfe69841ad2f7b5790b63",
+    "en": "king"
+  },
+  {
+    "id": "en-9e8acdbe27242c09470aa043",
+    "en": "kings"
+  },
+  {
+    "id": "en-787147f72621d305ce71f8d0",
+    "en": "knowing; knowledge"
+  },
+  {
+    "id": "en-a4ef304ba42a200bafd78b04",
+    "en": "language"
+  },
+  {
+    "id": "en-c0883a7b9638dc0c43447baf",
+    "en": "last; final"
+  },
+  {
+    "id": "en-089001a35679a33ef3db0ca3",
+    "en": "late"
+  },
+  {
+    "id": "en-67f1c0b3442e2c7309158d4d",
+    "en": "law, as a field of study"
+  },
+  {
+    "id": "en-ff43b0fa2e212e32c90575ac",
+    "en": "leaving; going out"
+  },
+  {
+    "id": "en-a532f6ecfe96e689fd4f0449",
+    "en": "lecture; class"
+  },
+  {
+    "id": "en-f80105efab6d863fd8fc243d",
+    "en": "letter"
+  },
+  {
+    "id": "en-7ad8dbe5dbed0dcda5e2fa71",
+    "en": "letters"
+  },
+  {
+    "id": "en-63bd7065ef1e165a04255d40",
+    "en": "life"
+  },
+  {
+    "id": "en-cab2644828bcc1f220612fde",
+    "en": "like"
+  },
+  {
+    "id": "en-94ad72cd9dfaec71813799ed",
+    "en": "likewise; also"
+  },
+  {
+    "id": "en-8560878b8782af43a43abf71",
+    "en": "listening"
+  },
+  {
+    "id": "en-ac9fa2503ffea8a35ed642c3",
+    "en": "literature"
+  },
+  {
+    "id": "en-174114b98558767af0e64dc9",
+    "en": "literatures; arts"
+  },
+  {
+    "id": "en-a93fcdf7dbae1c2f165aae3e",
+    "en": "living"
+  },
+  {
+    "id": "en-2a9e27167088b661588fbbda",
+    "en": "living; residing"
+  },
+  {
+    "id": "en-e3c5950a6938aecc273b0715",
+    "en": "loneliness"
+  },
+  {
+    "id": "en-f3bb79e48a7a8af1d028f6ac",
+    "en": "lunch"
+  },
+  {
+    "id": "en-3b4032b75eff4d9be857c925",
+    "en": "magazine; journal"
+  },
+  {
+    "id": "en-ec6b97c902a23788d606ea80",
+    "en": "male paternal cousin"
+  },
+  {
+    "id": "en-d714ca69342114ce37780619",
+    "en": "male paternal cousins"
+  },
+  {
+    "id": "en-e4d693d24e646cb787842622",
+    "en": "market"
+  },
+  {
+    "id": "en-6c6948d75b800d135f242fbd",
+    "en": "markets"
+  },
+  {
+    "id": "en-f9ce3beb80492facbec35863",
+    "en": "married"
+  },
+  {
+    "id": "en-6e67341eb3a50f6ba5b9d8f5",
+    "en": "match; game"
+  },
+  {
+    "id": "en-62a414849ef2a10ac0120e69",
+    "en": "maternal aunt"
+  },
+  {
+    "id": "en-566dfbfa6afd2b5607d339da",
+    "en": "meaning; intending"
+  },
+  {
+    "id": "en-59d6d61431fce7d91388d0c6",
+    "en": "meat"
+  },
+  {
+    "id": "en-45233a4a8dbb16d0f08b7623",
+    "en": "meats"
+  },
+  {
+    "id": "en-fcd30aed52e74e9d76ca0f86",
+    "en": "medicine, as a profession"
+  },
+  {
+    "id": "en-abafae11fbba05b083f202ac",
+    "en": "memorizing; memorization"
+  },
+  {
+    "id": "en-0ec99078e538c33050f79020",
+    "en": "ministry"
+  },
+  {
+    "id": "en-8d2ac8b58ead9744d77286de",
+    "en": "money"
+  },
+  {
+    "id": "en-8034bb36f7d368d2f22cd902",
+    "en": "money; funds"
+  },
+  {
+    "id": "en-187897ce0afcf20b50ba2b37",
+    "en": "more"
+  },
+  {
+    "id": "en-253221cbda027cc96f3331f0",
+    "en": "mosque"
+  },
+  {
+    "id": "en-7a8cf4846571f845c6660d8a",
+    "en": "mosques"
+  },
+  {
+    "id": "en-91cb030b46c3a67b4e4e52f9",
+    "en": "most of"
+  },
+  {
+    "id": "en-cf0622ef2a661cd2f11b0b64",
+    "en": "mother"
+  },
+  {
+    "id": "en-3b80d38f7686a8b5f8e61ad5",
+    "en": "mountain"
+  },
+  {
+    "id": "en-5e23d5356b6462d0b2362c28",
+    "en": "mountains"
+  },
+  {
+    "id": "en-0f540d3e12e3abb7c31d962b",
+    "en": "nationality"
+  },
+  {
+    "id": "en-f29c4511672f1610be08d4aa",
+    "en": "newspaper"
+  },
+  {
+    "id": "en-0f2cfb90d8efa26e708eab1e",
+    "en": "newspapers"
+  },
+  {
+    "id": "en-176473d7313395b6e209bc6b",
+    "en": "night"
+  },
+  {
+    "id": "en-de5c9050dc18c72f8e4766c9",
+    "en": "nights"
+  },
+  {
+    "id": "en-042252015150169fda0735fa",
+    "en": "no one"
+  },
+  {
+    "id": "en-b198f3cd8e7048e4a523671b",
+    "en": "noon"
+  },
+  {
+    "id": "en-727799d7d27822871e37278e",
+    "en": "not to"
+  },
+  {
+    "id": "en-ed5eb9a37e2d8231af338831",
+    "en": "now"
+  },
+  {
+    "id": "en-4b281683ab476f54dfc9f947",
+    "en": "obtaining; receiving"
+  },
+  {
+    "id": "en-74100d14adedaf7f65ed7292",
+    "en": "of ___ descent"
+  },
+  {
+    "id": "en-19e240f3698d3fd5828bd03a",
+    "en": "of course"
+  },
+  {
+    "id": "en-22ad10dde9393aeb2b5f1984",
+    "en": "of; among"
+  },
+  {
+    "id": "en-d71f0bd623e5e0b40eb4b435",
+    "en": "officer"
+  },
+  {
+    "id": "en-8a0add669e2746f0aef355be",
+    "en": "officers"
+  },
+  {
+    "id": "en-107bf87d85ff86b24db3aadf",
+    "en": "official holiday"
+  },
+  {
+    "id": "en-f93051fc4911666f73d731f0",
+    "en": "once; one time"
+  },
+  {
+    "id": "en-f905b19542ed08c9a9c26543",
+    "en": "only"
+  },
+  {
+    "id": "en-fc54a9188a0dbc7f9ff236dc",
+    "en": "only; lonely"
+  },
+  {
+    "id": "en-deb72206ecec91df70124605",
+    "en": "opinion about"
+  },
+  {
+    "id": "en-cdd75499e7487ad366c60c47",
+    "en": "opinions"
+  },
+  {
+    "id": "en-c5cb8e30dc00100039b4616a",
+    "en": "opportunities; chances"
+  },
+  {
+    "id": "en-8fe4b264398846a5e129e115",
+    "en": "opportunity; chance"
+  },
+  {
+    "id": "en-7175517a370b5cd2e664e3fd",
+    "en": "or"
+  },
+  {
+    "id": "en-da5fdb60a58de1502ae5b688",
+    "en": "other; another"
+  },
+  {
+    "id": "en-2602e86845f3f1ddba522119",
+    "en": "past; last"
+  },
+  {
+    "id": "en-779b8bbe193c65c89db16c43",
+    "en": "paternal uncle"
+  },
+  {
+    "id": "en-71e004be4a17fe5abbf3d991",
+    "en": "paternal uncles"
+  },
+  {
+    "id": "en-c9022680f888674e2b227475",
+    "en": "people"
+  },
+  {
+    "id": "en-20b04a4f018b89f369ce0092",
+    "en": "pharmacy"
+  },
+  {
+    "id": "en-25f3aeb51f1cc784d9d0bcc1",
+    "en": "photography"
+  },
+  {
+    "id": "en-2cea274d0bedc39ec4ab6ba9",
+    "en": "picture"
+  },
+  {
+    "id": "en-752f502ee3ac574467c34d28",
+    "en": "pictures"
+  },
+  {
+    "id": "en-0db79e63c5179b1263619f69",
+    "en": "playing"
+  },
+  {
+    "id": "en-9bebebc27bdaf4717696d3db",
+    "en": "political science"
+  },
+  {
+    "id": "en-33ad1a1cef86da5a2bd94628",
+    "en": "position; job"
+  },
+  {
+    "id": "en-16f841b1ad5430a3a217a92c",
+    "en": "positions; jobs"
+  },
+  {
+    "id": "en-16dd1ad7e87682a281a47298",
+    "en": "possibility; being possible"
+  },
+  {
+    "id": "en-25fe36108392295ccc168f7c",
+    "en": "prayer"
+  },
+  {
+    "id": "en-e20a0088526b3d0627098c98",
+    "en": "preparatory; middle-school"
+  },
+  {
+    "id": "en-7217cc637f8a056451eb818e",
+    "en": "president; head"
+  },
+  {
+    "id": "en-2120e04d48b26f850a807410",
+    "en": "presidents; heads"
+  },
+  {
+    "id": "en-26ac98196b0bf766255ee6df",
+    "en": "prime minister"
+  },
+  {
+    "id": "en-13f2bf9dcfda12a9ee13d4ef",
+    "en": "prime ministers"
+  },
+  {
+    "id": "en-1310ca2c8932dbd118668bd9",
+    "en": "program"
+  },
+  {
+    "id": "en-fdebae303877a39952669a2f",
+    "en": "programs"
+  },
+  {
+    "id": "en-71cc5e72d209f54159edd6f7",
+    "en": "proposing marriage; engagement"
+  },
+  {
+    "id": "en-f054cfcb3f1cdb5c350cbf50",
+    "en": "psychology"
+  },
+  {
+    "id": "en-a093d3f5ecffec653f683e9a",
+    "en": "quickly"
+  },
+  {
+    "id": "en-319b44c570a417ff3444896c",
+    "en": "rain"
+  },
+  {
+    "id": "en-da4249d06500284fd1a528c0",
+    "en": "rains"
+  },
+  {
+    "id": "en-d70afca615203838da3d858e",
+    "en": "reading"
+  },
+  {
+    "id": "en-cc786e4ae04c36d39504c578",
+    "en": "really!; truly"
+  },
+  {
+    "id": "en-e9cf46d6c49b4e6f7e207b8f",
+    "en": "really?"
+  },
+  {
+    "id": "en-db80f8b8722a3609ec6ed807",
+    "en": "really? For real?"
+  },
+  {
+    "id": "en-77af12c01571ec79f44208d5",
+    "en": "reasons; causes"
+  },
+  {
+    "id": "en-283ffa0fe6f2850f76b5d334",
+    "en": "refusing; refusal"
+  },
+  {
+    "id": "en-28d9e7bbbf81137ec80d8e02",
+    "en": "relationship"
+  },
+  {
+    "id": "en-d2d9e1f13413d3e07064d629",
+    "en": "relative"
+  },
+  {
+    "id": "en-6d8bceded085888650a7e02d",
+    "en": "relatives"
+  },
+  {
+    "id": "en-139d14b61cae91c759a05e3f",
+    "en": "religion"
+  },
+  {
+    "id": "en-7d60abb4e9019361cfb5c6af",
+    "en": "religions"
+  },
+  {
+    "id": "en-951e68aebc5f4328191e74d1",
+    "en": "remembering"
+  },
+  {
+    "id": "en-ee275d64dafcd283c25b00a6",
+    "en": "restaurant"
+  },
+  {
+    "id": "en-0dbdc4fb0fbb8e199f1b35ba",
+    "en": "restaurants"
+  },
+  {
+    "id": "en-1922bd76afa80d876acf2a9e",
+    "en": "returning; return"
+  },
+  {
+    "id": "en-06de946c1cbaf92f297da648",
+    "en": "reviewing lessons"
+  },
+  {
+    "id": "en-c071cf5f5ed6f884cc70155b",
+    "en": "running"
+  },
+  {
+    "id": "en-68ced7c547dba23b265beb54",
+    "en": "saddening; distressing"
+  },
+  {
+    "id": "en-c6c3fa689e291bba6f7436ee",
+    "en": "salad"
+  },
+  {
+    "id": "en-6384e43c02b1fbdfb9b4a7ed",
+    "en": "salary"
+  },
+  {
+    "id": "en-6c13fff8ae63bd0edb780e28",
+    "en": "saying"
+  },
+  {
+    "id": "en-b7945519321469c8ff80609a",
+    "en": "sayings; statements"
+  },
+  {
+    "id": "en-19aae05bb685c84e58ca97d4",
+    "en": "scholarship; grant"
+  },
+  {
+    "id": "en-fd93a4c567ffa80982b5919e",
+    "en": "scholarships; grants"
+  },
+  {
+    "id": "en-d64debd942d7dc26a8512315",
+    "en": "school"
+  },
+  {
+    "id": "en-f79e2ecc220dc52eaea688a5",
+    "en": "schools"
+  },
+  {
+    "id": "en-790fad4744a9da8d301e23c8",
+    "en": "science"
+  },
+  {
+    "id": "en-7b20ed340ca52b69b1bfa413",
+    "en": "sciences"
+  },
+  {
+    "id": "en-f45b772623bf784e86eba8d1",
+    "en": "sciences; fields of knowledge"
+  },
+  {
+    "id": "en-4a69f19c8c264850d0f0fca1",
+    "en": "sea"
+  },
+  {
+    "id": "en-7daae41e4fe4b6d475a8633b",
+    "en": "seas"
+  },
+  {
+    "id": "en-8f8e24f65c57e9d506fe81ad",
+    "en": "season"
+  },
+  {
+    "id": "en-f5af9d72597fa4c6fa8fc0e3",
+    "en": "seasons"
+  },
+  {
+    "id": "en-c0f69e19ba252767f1831587",
+    "en": "secondary"
+  },
+  {
+    "id": "en-b4e58cd7cb1cbf25bcf039b1",
+    "en": "semester"
+  },
+  {
+    "id": "en-af836f761664bbfd2054135c",
+    "en": "semesters"
+  },
+  {
+    "id": "en-821119d79af8b9fcf86d7828",
+    "en": "sentence"
+  },
+  {
+    "id": "en-523411ab0c9834e6277483bd",
+    "en": "sentences"
+  },
+  {
+    "id": "en-460e094618e95da5d9484f3c",
+    "en": "settling down; stability"
+  },
+  {
+    "id": "en-2740e59ffb8c5eff0e0f8f3f",
+    "en": "several"
+  },
+  {
+    "id": "en-9109315ca0950d91b1d62bcd",
+    "en": "she was"
+  },
+  {
+    "id": "en-8dbed87e7b3c041b2a814cf5",
+    "en": "shyness; embarrassment"
+  },
+  {
+    "id": "en-7e7bdaf9249fb8ee7c26dd87",
+    "en": "since; ago"
+  },
+  {
+    "id": "en-558413b70f8c6bbbb1d586aa",
+    "en": "sitting"
+  },
+  {
+    "id": "en-effaa68d28df27c5581213f6",
+    "en": "sixth"
+  },
+  {
+    "id": "en-136b1b35bbc338eef48fe162",
+    "en": "sleeping; sleep"
+  },
+  {
+    "id": "en-71132fbb5b12518402f26900",
+    "en": "smoking"
+  },
+  {
+    "id": "en-a746222f09d85605c52d4e63",
+    "en": "snow"
+  },
+  {
+    "id": "en-fb5cb84a3d09e96c75e8dda0",
+    "en": "snows; snowfall"
+  },
+  {
+    "id": "en-8f27f432fcbaa4b5180a1cc7",
+    "en": "soccer"
+  },
+  {
+    "id": "en-f165ea9eb0c6703bad11da62",
+    "en": "some of"
+  },
+  {
+    "id": "en-2a59d59e3809f827ce709d38",
+    "en": "someone"
+  },
+  {
+    "id": "en-28e5c066055aeb3de147cec6",
+    "en": "sometimes"
+  },
+  {
+    "id": "en-98aa6675482552881925fe70",
+    "en": "son"
+  },
+  {
+    "id": "en-29ba0e435141928659588ac4",
+    "en": "sons"
+  },
+  {
+    "id": "en-9014fac8184d7ba9e1dcd80b",
+    "en": "soup"
+  },
+  {
+    "id": "en-c12b31dbcf6b6a10b6be74f5",
+    "en": "special; private"
+  },
+  {
+    "id": "en-f3b75a15489f0d09e3f1caed",
+    "en": "specialist in"
+  },
+  {
+    "id": "en-d757d149887e0535a0a0f2e1",
+    "en": "spending time"
+  },
+  {
+    "id": "en-1cb542228c76558789d114d3",
+    "en": "sports"
+  },
+  {
+    "id": "en-622a494d3ea8c7ba2fed4f37",
+    "en": "spring"
+  },
+  {
+    "id": "en-c539fb426b98976a88849f5b",
+    "en": "springs (seasons; uncommon plural)"
+  },
+  {
+    "id": "en-944007bb351a8df7b48e1b14",
+    "en": "state; nation-state"
+  },
+  {
+    "id": "en-018de4dc7701cc43a21f0e90",
+    "en": "states; nation-states"
+  },
+  {
+    "id": "en-ed546a30b89ab0b826d95cdb",
+    "en": "staying up late"
+  },
+  {
+    "id": "en-435c149cbc6a5e5cc373cd33",
+    "en": "studying"
+  },
+  {
+    "id": "en-1fbfc172f73abd9269421c62",
+    "en": "subject; topic"
+  },
+  {
+    "id": "en-74c1ccdb1d86eb465eb0d8dd",
+    "en": "subjects; topics"
+  },
+  {
+    "id": "en-65fcf96805763f6da6e82913",
+    "en": "succeeding; success"
+  },
+  {
+    "id": "en-75c681df587d3d83388c230d",
+    "en": "suitable for"
+  },
+  {
+    "id": "en-e83664255c6963e962bb20f9",
+    "en": "summer"
+  },
+  {
+    "id": "en-e84e17ec8862fa1e200c3b1f",
+    "en": "summers"
+  },
+  {
+    "id": "en-c2333a7e3a607935c67c1e6f",
+    "en": "sunny"
+  },
+  {
+    "id": "en-3f92df367d627e2d26b0bd63",
+    "en": "sweets"
+  },
+  {
+    "id": "en-7aab06cd90b6efabfbc58192",
+    "en": "swimming"
+  },
+  {
+    "id": "en-c2a5ac3a8c0223f3136917db",
+    "en": "taking"
+  },
+  {
+    "id": "en-86d38883d6319aced32524f2",
+    "en": "talking; speaking"
+  },
+  {
+    "id": "en-d3df996dfbad496437ed9813",
+    "en": "teaching"
+  },
+  {
+    "id": "en-6f4f07071652ebad73ec43cc",
+    "en": "teaching assistant"
+  },
+  {
+    "id": "en-b314ae60cb741e69f1cc9105",
+    "en": "temperature"
+  },
+  {
+    "id": "en-4240428e10b53db4ecd117c6",
+    "en": "thanks to"
+  },
+  {
+    "id": "en-0c5b5bd37e534d24d677c248",
+    "en": "the Middle East"
+  },
+  {
+    "id": "en-fa0487f2dc91544ab4b9f5b1",
+    "en": "the same"
+  },
+  {
+    "id": "en-ae72ad528a62b9bcdbe9ca29",
+    "en": "the same university"
+  },
+  {
+    "id": "en-d6760a2ac4f13830d5a6abdc",
+    "en": "the world"
+  },
+  {
+    "id": "en-3121771b9c5973e0f089fc00",
+    "en": "theater"
+  },
+  {
+    "id": "en-017c92c52d59e641d46ee2f6",
+    "en": "theaters"
+  },
+  {
+    "id": "en-21af6f1260f927f5b9b3ff5c",
+    "en": "then"
+  },
+  {
+    "id": "en-e244f187f696561d5fd7e00f",
+    "en": "there"
+  },
+  {
+    "id": "en-533a509660820525950b1c33",
+    "en": "there is; there are"
+  },
+  {
+    "id": "en-bae0db182974fd4655951483",
+    "en": "therefore"
+  },
+  {
+    "id": "en-e23bc5e4db5f90e422445898",
+    "en": "they were / you all were"
+  },
+  {
+    "id": "en-b2ec68c28078a06bef8bcae8",
+    "en": "thinking; belief; supposition"
+  },
+  {
+    "id": "en-b2047c2c4886ea9dd8ebaabb",
+    "en": "thinking; reflection"
+  },
+  {
+    "id": "en-d41d9e05fcfb0016518e3151",
+    "en": "throughout"
+  },
+  {
+    "id": "en-336074805fc853987abe6f7f",
+    "en": "time"
+  },
+  {
+    "id": "en-2bf61a3bc850596a77a73c6a",
+    "en": "times"
+  },
+  {
+    "id": "en-e0f4f767ac88a9303e731784",
+    "en": "today"
+  },
+  {
+    "id": "en-0c24734d7bf5954f08e5bfe4",
+    "en": "together"
+  },
+  {
+    "id": "en-bafd151a86f9a573b153e76e",
+    "en": "tomorrow"
+  },
+  {
+    "id": "en-2769fc20451b51737baa457e",
+    "en": "tonight"
+  },
+  {
+    "id": "en-d7b44809a0359169b755a703",
+    "en": "tour"
+  },
+  {
+    "id": "en-8bd0f4bb7d222c5a808c14cc",
+    "en": "tourism"
+  },
+  {
+    "id": "en-d84d5192c0eb8f39e6f930d1",
+    "en": "translation from / to"
+  },
+  {
+    "id": "en-8935b10f056ecd093704fddf",
+    "en": "translator"
+  },
+  {
+    "id": "en-0afa4ce9573e442ef21fc2e9",
+    "en": "travel / traveling"
+  },
+  {
+    "id": "en-0c051c64b29c43fed6db8bf5",
+    "en": "traveling; travel"
+  },
+  {
+    "id": "en-37b2809bb357a8626b008000",
+    "en": "two years"
+  },
+  {
+    "id": "en-04214cad51df8166806cb22d",
+    "en": "understanding"
+  },
+  {
+    "id": "en-ceb1e2514a1f1b4530979dc2",
+    "en": "usually"
+  },
+  {
+    "id": "en-fd5f96dfa8d76022844b33ad",
+    "en": "vacation from work"
+  },
+  {
+    "id": "en-1a6c1efa28d5d11d63976575",
+    "en": "vegetables"
+  },
+  {
+    "id": "en-4c6a4839f83d20d276e7ba94",
+    "en": "very"
+  },
+  {
+    "id": "en-b408f1ab185468c51b384cef",
+    "en": "visiting; visit"
+  },
+  {
+    "id": "en-80b892654843bbfc1acffa62",
+    "en": "waking someone up"
+  },
+  {
+    "id": "en-06790c701097b9df46493506",
+    "en": "waking up"
+  },
+  {
+    "id": "en-d6b2b70fb9ec5d1be78fb689",
+    "en": "wanting; will; intention"
+  },
+  {
+    "id": "en-b4676955745de1e61a21dfbc",
+    "en": "weather; atmosphere"
+  },
+  {
+    "id": "en-6df37daaa46ce714fa410768",
+    "en": "week"
+  },
+  {
+    "id": "en-eb0d2375b51859a3212007c5",
+    "en": "weeks"
+  },
+  {
+    "id": "en-a7722b765d15608d5d24a319",
+    "en": "well"
+  },
+  {
+    "id": "en-fee945fcc37ad9956ed7c3d3",
+    "en": "what? — with a verb"
+  },
+  {
+    "id": "en-b40e7eff696f424583d57cac",
+    "en": "what? — without a verb"
+  },
+  {
+    "id": "en-15eaa75240aed625be3e1422",
+    "en": "when"
+  },
+  {
+    "id": "en-ddc4d5853961af0ca03b31a5",
+    "en": "when?"
+  },
+  {
+    "id": "en-b3ff3281c93573d45ae8ace7",
+    "en": "where?"
+  },
+  {
+    "id": "en-51174162d841ff5fcdd1312d",
+    "en": "which?"
+  },
+  {
+    "id": "en-1d8176d17935a44c5d8cd068",
+    "en": "who?"
+  },
+  {
+    "id": "en-f5b2b98bf44b60881a86499d",
+    "en": "why?"
+  },
+  {
+    "id": "en-9d52a3c8e4d6e27de4ad74ec",
+    "en": "wife"
+  },
+  {
+    "id": "en-30c5461fc27b84f1f1ad0a83",
+    "en": "winter"
+  },
+  {
+    "id": "en-c1ee20cd17d3a47cc30cb991",
+    "en": "winters"
+  },
+  {
+    "id": "en-b37dc746a41c56856d75d6d4",
+    "en": "wishing; desire"
+  },
+  {
+    "id": "en-00e13ed7af55b27622f1d6ea",
+    "en": "work"
+  },
+  {
+    "id": "en-2c6267c306a70cda86427c62",
+    "en": "working; work"
+  },
+  {
+    "id": "en-ddf47d9e80b1f78db9c5fd20",
+    "en": "works; jobs"
+  },
+  {
+    "id": "en-27a2069a8d5b864ff3d4b993",
+    "en": "worlds"
+  },
+  {
+    "id": "en-ee871105e875f3de6e0da042",
+    "en": "writing"
+  },
+  {
+    "id": "en-4cb4ea25583c25647247ae96",
+    "en": "year"
+  },
+  {
+    "id": "en-9523d9fbe79bcf3ee5f9f664",
+    "en": "yesterday"
+  }
+]

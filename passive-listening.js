@@ -58,7 +58,7 @@
       const audio=this.audio;
       return JSON.stringify({playerVersion:101,transport:'local-range-stream',userAgent:navigator.userAgent,mode:(root.matchMedia?.('(display-mode: standalone)').matches||navigator.standalone)?'Home Screen app':'browser',visibility:document.visibilityState,status:this.status,recovery:{attempts:this.recoveryAttempts,active:this.recovering},audioSession:{type:navigator.audioSession?.type,state:navigator.audioSession?.state},audio:audio?{position:audio.currentTime,duration:audio.duration,paused:audio.paused,ended:audio.ended,muted:audio.muted,volume:audio.volume,playbackRate:audio.playbackRate,readyState:audio.readyState,networkState:audio.networkState,error:audio.error?.code}:null,events:this.events},null,2);
     }
-    async prepare(words,source){
+    async prepare(words,source,englishSource=()=>null){
       this.stop();this.events=[];const generation=this.generation;
       this.abort=new AbortController();const signal=this.abort.signal;
       this.status='preparing';this.progress=0;this.skipped=0;this.notify();
@@ -69,7 +69,7 @@
         // 125 MPEG-2 frames at 24 kHz are exactly three seconds.
         const gap={frames:silence.frames.slice(0,125),duration:3};
         if(gap.frames.length!==125)throw Error('Invalid listening pause');
-        const urls=[...new Set(words.map(source).filter(Boolean))],recordings=new Map();
+        const urls=[...new Set(words.flatMap(word=>[source(word),englishSource(word)]).filter(Boolean))],recordings=new Map();
         let cursor=0,done=0;
         const worker=async()=>{
           while(cursor<urls.length){
@@ -90,8 +90,12 @@
         for(const word of words){
           const recording=recordings.get(source(word));
           if(!recording){this.skipped++;continue;}
-          this.entries.push({word,start:time,repeat:time+recording.duration+3,end:time+2*recording.duration+6});
-          parts.push(recording,gap,recording,gap);time+=2*recording.duration+6;
+          const englishUrl=englishSource(word),english=englishUrl?recordings.get(englishUrl):null;
+          if(englishUrl&&!english)throw Error('An English recording could not load. Try preparing again.');
+          const englishStart=english?time+2*recording.duration+6:null;
+          const end=time+2*recording.duration+6+(english?english.duration+3:0);
+          this.entries.push({word,start:time,repeat:time+recording.duration+3,englishStart,end});
+          parts.push(recording,gap,recording,gap);if(english)parts.push(english,gap);time=end;
         }
         if(!this.entries.length)throw Error('No playable recordings match these filters.');
         const blob=playlistBlob(parts),url=await root.MosaListeningStream.storeTrack(blob,signal);

@@ -86,7 +86,7 @@ if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.f
   assert.equal(session.playbackState,'none','Native playback state remains authoritative');
   nativeAudio.currentTime=4.5;nativeAudio.ontimeupdate();nativeAudio.currentTime=4.75;nativeAudio.ontimeupdate();
   const report=JSON.parse(run('listeningPlayer.playbackReport()'));
-  assert.equal(report.playerVersion,100);assert.equal(report.transport,'local-range-stream');assert.equal(report.audio.position,4.75);assert.equal(report.events.at(-1).event,'progress');assert.equal(report.events.at(-1).position,4.75);
+  assert.equal(report.playerVersion,101);assert.equal(report.transport,'local-range-stream');assert.equal(report.audio.position,4.75);assert.equal(report.events.at(-1).event,'progress');assert.equal(report.events.at(-1).position,4.75);
   assert(report.events.some(event=>event.event==='pause'));
   assert(!('word' in report),'Report excludes vocabulary content');
   actions.get('nexttrack')();assert.equal(run('listeningPlayer.audio.currentTime'),entries[1].start);

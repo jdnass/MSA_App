@@ -1,0 +1,52 @@
+name: Al-Kitaab Part 1 English voice
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/english-vocabulary.yml']
+permissions:
+  contents: write
+concurrency:
+  group: english-vocabulary
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install audio tools
+        run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Export only Al-Kitaab Part 1 English meanings
+        run: node scripts/export-english-vocabulary.cjs
+      - name: Generate missing English recordings
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/english_vocabulary.py
+      - name: Check English coverage and playback
+        run: node tests/english-vocabulary.cjs --coverage
+      - name: Preserve generated recordings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mosa-english-vocabulary
+          path: |
+            audio/english-vocab/
+            english-vocab-audio.js
+          retention-days: 30
+      - name: Save accepted recordings
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/english-vocab english-vocab-audio.js english-vocab-targets.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save English Cedar recordings for Al-Kitaab Part 1"
+          git pull --rebase origin main
+          git push origin HEAD:main
