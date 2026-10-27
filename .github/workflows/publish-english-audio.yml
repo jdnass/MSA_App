@@ -47,14 +47,19 @@ jobs:
           Path('english-vocab-audio.js').write_text('window.MOSA_ENGLISH_AUDIO='+json.dumps(available,ensure_ascii=False,separators=(',',':'))+';\n')
           PYTHON
       - name: Check complete English coverage and playlist assembly
+        id: coverage
         run: |
           node tests/english-vocabulary.cjs --coverage
           node scripts/check-listening.cjs
-      - name: Refresh the installed app and publish
+      - name: Save accepted recordings and refresh the complete set
+        if: always()
+        env:
+          COVERAGE_OUTCOME: ${{ steps.coverage.outcome }}
         run: |
           python - <<'PYTHON'
           from pathlib import Path
-          for filename in ['index.html','sw.js']:
+          import os
+          for filename in (['index.html','sw.js'] if os.environ.get('COVERAGE_OUTCOME')=='success' else []):
               p=Path(filename)
               p.write_text(p.read_text().replace('english-vocab-audio.js?v=107','english-vocab-audio.js?v=108').replace('mosa-v107','mosa-v108'))
           PYTHON
