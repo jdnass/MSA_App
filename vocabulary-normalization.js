@@ -94,8 +94,8 @@
     for(const w of cards)if(/^madina/.test(w.collectionId)&&!/^I\b/.test(w.en)){
       const base=(pluralBases.get(key(w.ar))||[]).find(p=>compatible(w.ar,p.ar,w,{en:'verified plural reading',pos:'Noun'}))?.base;
       if(base&&key(base.ar)!==key(w.ar)){
-        w.pos=(/adjective/i.test(base.pos||'')?'Adjective':'Noun')+(/ات$|ون$|ين$/.test(key(w.ar))?' (sound plural)':' (broken plural)');
-        w.singularId=base.id;w.sourceListedPlural=true;
+        w.pos=(/adjective/i.test(base.pos||'')||base.adjectiveBrokenPlurals?.length?'Adjective':'Noun')+(/ات$|ون$|ين$/.test(key(w.ar))?' (sound plural)':' (broken plural)');
+        w.singularId=base.id;w.sourceListedPlural=!w.supplementalAdjectivePlural;
         if(!base.mp||base.mp==='—')base.mp=w.ar;
       }
     }

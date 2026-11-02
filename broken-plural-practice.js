@@ -10,13 +10,13 @@ const brokenPluralPatterns=[
     "id": "fuool",
     "ar": "فُعُول",
     "tr": "fuʿūl",
-    "words": "أمور بحور بنود بنوك بيوت ثلوج جسور جنود جيوب جيوش حدود حروب حروف حلول دخول دروس رؤوس سطوح سطور شرور شروط شعوب شهور صدور صفوف صيوف ضيوف طعوم ظهور عصور علوم فروع فروق فصول قصور قلوب كسور لحوم ملوك نجوم وجوه وفود ظنون عيون قروش حقول شيوخ خطوط"
+    "words": "أمور بحور بنود بنوك بيوت ثلوج جسور عدول جنود جيوب جيوش حدود حروب حروف حلول دخول دروس رؤوس سطوح سطور شرور شروط شعوب شهور صدور صفوف صيوف ضيوف طعوم ظهور عصور علوم فروع فروق فصول قصور قلوب كسور لحوم ملوك نجوم وجوه وفود ظنون عيون قروش حقول شيوخ خطوط"
   },
   {
     "id": "fiaal",
     "ar": "فِعَال",
     "tr": "fiʿāl",
-    "words": "بحار بلاد ثقال جبال جياع خفاف دماء ديار رجال رقاب رياح سمان صعاب صغار طوال غضاب قصار كبار كلاب مياه نحاف لجان"
+    "words": "بحار بلاد ثقال سهال سراع شباع عطاش جبال جياع خفاف دماء ديار رجال رقاب رياح سمان صعاب صغار طوال غضاب قصار كبار كلاب مياه نحاف لجان"
   },
   {
     "id": "fual",
@@ -40,7 +40,7 @@ const brokenPluralPatterns=[
     "id": "full",
     "ar": "فُعْل",
     "tr": "fuʿl",
-    "words": "حمر صفر"
+    "words": "حمر صفر خضر زرق بيض سود"
   },
   {
     "id": "fuaal",
@@ -64,7 +64,7 @@ const brokenPluralPatterns=[
     "id": "fulaa",
     "ar": "فُعَلَاء",
     "tr": "fuʿalāʾ",
-    "words": "بسطاء جهلاء خبراء رؤساء رقباء زعماء زملاء سعداء سفراء ضعفاء طرفاء ظرفاء عرفاء عظماء عقداء علماء عمداء غرباء فقراء قدماء كرماء مدراء نقباء وزراء وكلاء"
+    "words": "بسطاء جملاء جهلاء خبراء رؤساء رقباء زعماء زملاء سعداء سفراء ضعفاء طرفاء ظرفاء عرفاء عظماء عقداء علماء عمداء غرباء فقراء قدماء كرماء مدراء نقباء وزراء وكلاء"
   },
   {
     "id": "afilaa",
@@ -82,7 +82,7 @@ const brokenPluralPatterns=[
     "id": "mafaaiil",
     "ar": "مَفَاعِيل",
     "tr": "mafāʿīl",
-    "words": "مجانين مشاريع مفاتيح مناديل مواضيع مواعيد"
+    "words": "مشاهير مجانين مشاريع مفاتيح مناديل مواضيع مواعيد"
   },
   {
     "id": "faail",
@@ -148,7 +148,7 @@ const brokenPluralPatterns=[
     "id": "faalah",
     "ar": "فَعَلَة",
     "tr": "faʿala",
-    "words": "حفدة طلبة قادة سادة"
+    "words": "مهرة حفدة طلبة قادة سادة"
   },
   {
     "id": "fulah",
@@ -178,7 +178,7 @@ const brokenPluralPatterns=[
     "id": "falaaya",
     "ar": "فَعَالَى / فَعَالِي",
     "tr": "faʿālā / faʿālī",
-    "words": "زوايا صحارى صحاري قضايا هدايا نصارى"
+    "words": "حزانى زوايا صحارى صحاري قضايا هدايا نصارى"
   },
   {
     "id": "falaaliyy",
@@ -231,7 +231,7 @@ function brokenPluralEntries(){
   for(const c of collections){const words=wordsFor(c),byId=new Map(words.map(w=>[w.id,w]));
     for(const word of words){
       if(!/noun|adjective/i.test(word.pos||'')||/pronoun|verb|plural/i.test(word.pos||''))continue;
-      for(const value of [...variants(word.mp),...variants(word.fp)]){
+      for(const value of [...variants(word.mp),...variants(word.fp),...(word.adjectiveBrokenPlurals||[]).map(p=>p.ar)]){
         // Feminine plural metadata sometimes supplies a different gender, e.g. رجل → نساء.
         const pluralCard=words.find(p=>brokenPluralKey(p.ar)===brokenPluralKey(value)&&/plural/i.test(p.pos||''));
         add(c,word,value,word,pluralCard);
