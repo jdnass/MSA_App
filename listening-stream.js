@@ -1,7 +1,7 @@
 /* Local, same-origin media transport. Audio stays on this device. */
 (function(root){
   'use strict';
-  const CACHE='mosa-listening-tracks-v1',VERSION=100,CHUNK_SIZE=1024*1024;
+  const CACHE='mosa-listening-tracks-v112',VERSION=100,CHUNK_SIZE=1024*1024;
   function path(scope){return new URL('./listening-audio/',scope).pathname;}
   function matches(url,scope){const candidate=new URL(url),base=new URL(scope);return candidate.origin===base.origin&&candidate.pathname.startsWith(path(scope));}
   async function respond(request){

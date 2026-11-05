@@ -67,7 +67,9 @@
 <script src="./mango-chapters-16-20.js?v=109"></script>
 <script src="./verb-practice-data.js?v=83"></script>
 <script src="./cedar-module-audio.js?v=84"></script>
-<script src="./cedar-vocab-audio.js?v=92"></script>
+<script src="./cedar-vocab-audio.js?v=112"></script>
+<script src="./user-vocab-audio.js?v=112"></script>
+<script src="./user-vocab-clips.js?v=112"></script>
 <script src="./cooking-module.js?v=93"></script>
 <script src="./module-grammar.js?v=94"></script>
 <script src="./currency-counting.js?v=95"></script>
@@ -1542,192 +1544,7 @@ const VOCABULARY_BASE_AR={"c1-7":"أَدْرُس","c1-33":"دِرَاسَة","c1
 const vocabularyKey=word=>(VOCABULARY_BASE_AR[word.id]||word.ar||'').replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]/g,'').replace(/ـ/g,'').replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').replace(/[ؤئ]/g,'ء').replace(/[^ء-ي]/g,'');
 // Preserve hamza and long alif: آكُل (I eat) and أَكْل (eating) need different audio.
 const nativeAudioKey=word=>(word.ar||'').replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]/g,'').replace(/ـ/g,'').replace(/[^ء-ي]/g,'');
-const NATIVE_AUDIO_BY_KEY={
-  [nativeAudioKey({ar:'عُنْوَان'})]:'./audio/vocab/address.m4a',
-  [nativeAudioKey({ar:'القُبُول'})]:'./audio/vocab/admissions.m4a',
-  [nativeAudioKey({ar:'عُمْر'})]:'./audio/vocab/age.m4a',
-  [nativeAudioKey({ar:'أَيْضًا'})]:'./audio/vocab/also.m4a',
-  [nativeAudioKey({ar:'دَائِمًا'})]:'./audio/vocab/always.m4a',
-  [nativeAudioKey({ar:'أَمْرِيكِيّ'})]:'./audio/vocab/american.m4a',
-  [nativeAudioKey({ar:'عَرَبِيّ'})]:'./audio/vocab/arabic.m4a',
-  [nativeAudioKey({ar:'مِنْطَقَة'})]:'./audio/vocab/area-region.m4a',
-  [nativeAudioKey({ar:'جَيْش'})]:'./audio/vocab/army.m4a',
-  [nativeAudioKey({ar:'بَيْنَ'})]:'./audio/vocab/between.m4a',
-  [nativeAudioKey({ar:'أَكْبَر'})]:'./audio/vocab/bigger.m4a',
-  [nativeAudioKey({ar:'مَشْغُول بِـ'})]:'./audio/vocab/busy-with.m4a',
-  [nativeAudioKey({ar:'لٰكِنْ'})]:'./audio/vocab/but.m4a',
-  [nativeAudioKey({ar:'مَرْكَز'})]:'./audio/vocab/center.m4a',
-  [nativeAudioKey({ar:'بَلَد'})]:'./audio/vocab/country.m4a',
-  [nativeAudioKey({ar:'النَّهَار'})]:'./audio/vocab/daytime.m4a',
-  [nativeAudioKey({ar:'مِصْرِيّ'})]:'./audio/vocab/egyptian.m4a',
-  [nativeAudioKey({ar:'مُوَظَّف'})]:'./audio/vocab/employee.m4a',
-  [nativeAudioKey({ar:'المَسَاء'})]:'./audio/vocab/evening.m4a',
-  [nativeAudioKey({ar:'أُسْرَة'})]:'./audio/vocab/family-nuclear.m4a',
-  [nativeAudioKey({ar:'وَالِد'})]:'./audio/vocab/father.m4a',
-  [nativeAudioKey({ar:'القَوَاعِد'})]:'./audio/vocab/grammar.m4a',
-  [nativeAudioKey({ar:'هُنا'})]:'./audio/vocab/here.m4a',
-  [nativeAudioKey({ar:'لِي / عِنْدِي'})]:'./audio/vocab/i-have.m4a',
-  [nativeAudioKey({ar:'أَسْكُن'})]:'./audio/vocab/i-live.m4a',
-  [nativeAudioKey({ar:'أَتَكَلَّمُ عَنْ'})]:'./audio/vocab/i-speak-about.m4a',
-  [nativeAudioKey({ar:'أَدْرُس'})]:'./audio/vocab/i-study.m4a',
-  [nativeAudioKey({ar:'أَعْمَل'})]:'./audio/vocab/i-work.m4a',
-  [nativeAudioKey({ar:'لُغَة'})]:'./audio/vocab/language.m4a',
-  [nativeAudioKey({ar:'الأَدَب'})]:'./audio/vocab/literature.m4a',
-  [nativeAudioKey({ar:'خَالَة'})]:'./audio/vocab/maternal-aunt.m4a',
-  [nativeAudioKey({ar:'الشَّرْق الأَوْسَط'})]:'./audio/vocab/middle-east.m4a',
-  [nativeAudioKey({ar:'أَكْثَر'})]:'./audio/vocab/more.m4a',
-  [nativeAudioKey({ar:'وَالِدِي'})]:'./audio/vocab/my-father.m4a',
-  [nativeAudioKey({ar:'وَالِدَتِي'})]:'./audio/vocab/my-mother.m4a',
-  [nativeAudioKey({ar:'جِنْسِيَّة'})]:'./audio/vocab/nationality.m4a',
-  [nativeAudioKey({ar:'اللَّيْل'})]:'./audio/vocab/night.m4a',
-  [nativeAudioKey({ar:'وَحِيد'})]:'./audio/vocab/only-lonely.m4a',
-  [nativeAudioKey({ar:'النَّاس'})]:'./audio/vocab/people.m4a',
-  [nativeAudioKey({ar:'صَحِيح؟!'})]:'./audio/vocab/really-for-real.m4a',
-  [nativeAudioKey({ar:'فِعْلًا'})]:'./audio/vocab/really-truly.m4a',
-  [nativeAudioKey({ar:'واللهِ؟'})]:'./audio/vocab/really.m4a',
-  [nativeAudioKey({ar:'مُتَخَصِّص فِي'})]:'./audio/vocab/specializing-specialist-in.m4a',
-  [nativeAudioKey({ar:'نَفْس الــــ'})]:'./audio/vocab/the-same.m4a',
-  [nativeAudioKey({ar:'هُناكَ'})]:'./audio/vocab/there-is.m4a',
-  [nativeAudioKey({ar:'لِذٰلِكَ'})]:'./audio/vocab/therefore.m4a',
-  [nativeAudioKey({ar:'هَذِهِ'})]:'./audio/vocab/this-feminine.m4a',
-  [nativeAudioKey({ar:'وَقْت'})]:'./audio/vocab/time.m4a',
-  [nativeAudioKey({ar:'اليَوْم'})]:'./audio/vocab/today.m4a',
-  [nativeAudioKey({ar:'غَدًا'})]:'./audio/vocab/tomorrow.m4a',
-  [nativeAudioKey({ar:'التَّرْجَمَة مِنْ / إِلَى'})]:'./audio/vocab/translation-from-to.m4a',
-  [nativeAudioKey({ar:'مُتَرْجِم'})]:'./audio/vocab/translator.m4a',
-  [nativeAudioKey({ar:'الأُمَم المُتَّحِدَة'})]:'./audio/vocab/united-nations.m4a',
-  [nativeAudioKey({ar:'حَرْب'})]:'./audio/vocab/war.m4a',
-  [nativeAudioKey({ar:'ماذا؟'})]:'./audio/vocab/what-verbs.m4a',
-  [nativeAudioKey({ar:'أَيّ؟'})]:'./audio/vocab/which.m4a',
-  [nativeAudioKey({ar:'مَعَ'})]:'./audio/vocab/with.m4a',
-  [nativeAudioKey({ar:'العَمَل / الشُّغْل'})]:'./audio/vocab/work-noun.m4a',
-  [nativeAudioKey({ar:'سَنَة'})]:'./audio/vocab/year.m4a',
-  [nativeAudioKey({ar:'نَعَمْ'})]:'./audio/vocab/yes.m4a',
-  [nativeAudioKey({ar:'كُنْتُ'})]:'./audio/vocab/i-was.m4a',
-  [nativeAudioKey({ar:'لَحْم'})]:'./audio/vocab/meat.m4a',
-  [nativeAudioKey({ar:'كانَ'})]:'./audio/vocab/he-was.m4a',
-  [nativeAudioKey({ar:'كُلّ'})]:'./audio/vocab/every-all.m4a',
-  [nativeAudioKey({ar:'أَقولُ'})]:'./audio/vocab/i-say.m4a',
-  [nativeAudioKey({ar:'أَكْتُبُ'})]:'./audio/vocab/i-write.m4a',
-  [nativeAudioKey({ar:'قَبْل'})]:'./audio/vocab/before.m4a',
-  [nativeAudioKey({ar:'صَديق'})]:'./audio/vocab/friend.m4a',
-  [nativeAudioKey({ar:'فَواكِه'})]:'./audio/vocab/fruits.m4a',
-  [nativeAudioKey({ar:'أَقْرَأُ'})]:'./audio/vocab/i-read.m4a',
-  [nativeAudioKey({ar:'مَطْعَم'})]:'./audio/vocab/restaurant.m4a',
-  [nativeAudioKey({ar:'فَرْد'})]:'./audio/vocab/individual.m4a',
-  [nativeAudioKey({ar:'شورْبة'})]:'./audio/vocab/soup.m4a',
-  [nativeAudioKey({ar:'سَمَك'})]:'./audio/vocab/fish.m4a',
-  [nativeAudioKey({ar:'أَسْتَمِعُ إِلى'})]:'./audio/vocab/i-listen-to.m4a',
-  [nativeAudioKey({ar:'سَلَطة'})]:'./audio/vocab/salad.m4a',
-  [nativeAudioKey({ar:'السَّفَر'})]:'./audio/vocab/traveling.m4a',
-  [nativeAudioKey({ar:'زَميل'})]:'./audio/vocab/classmate.m4a',
-  [nativeAudioKey({ar:'مَدْرَسة'})]:'./audio/vocab/school.m4a',
-  [nativeAudioKey({ar:'أَتَذَكَّر'})]:'./audio/vocab/i-remember.m4a',
-  [nativeAudioKey({ar:'خُضار'})]:'./audio/vocab/vegetables.m4a',
-  [nativeAudioKey({ar:'حَلَوِيّات'})]:'./audio/vocab/sweets.m4a',
-  [nativeAudioKey({ar:'آكُلُ'})]:'./audio/vocab/i-eat.m4a',
-  [nativeAudioKey({ar:'اِبْتِدائِيّ'})]:'./audio/vocab/elementary.m4a',
-  [nativeAudioKey({ar:'أَمْسِ'})]:'./audio/vocab/yesterday.m4a',
-  [nativeAudioKey({ar:'أَوَّل'})]:'./audio/vocab/first.m4a',
-  [nativeAudioKey({ar:'أَحْفَظُ'})]:'./audio/vocab/i-memorize.m4a',
-  [nativeAudioKey({ar:'كُلِّيَّة'})]:'./audio/vocab/college.m4a',
-  [nativeAudioKey({ar:'الهَنْدَسَة'})]:'./audio/vocab/engineering.m4a',
-  [nativeAudioKey({ar:'كَمْ؟'})]:'./audio/vocab/how-many.m4a',
-  [nativeAudioKey({ar:'عِلْم الإِنْسَان'})]:'./audio/vocab/anthropology.m4a',
-  [nativeAudioKey({ar:'العُلُوم السِّيَاسِيَّة'})]:'./audio/vocab/political-science.m4a',
-  [nativeAudioKey({ar:'قَرِيب'})]:'./audio/vocab/relative.m4a',
-  [nativeAudioKey({ar:'عَمّ'})]:'./audio/vocab/paternal-uncle.m4a',
-  [nativeAudioKey({ar:'عِلْم النَّفْس'})]:'./audio/vocab/psychology.m4a',
-  [nativeAudioKey({ar:'عَائِلَة'})]:'./audio/vocab/extended-family.m4a',
-  [nativeAudioKey({ar:'أَعْرِف'})]:'./audio/vocab/i-know.m4a',
-  [nativeAudioKey({ar:'الطِّبّ'})]:'./audio/vocab/medicine.m4a',
-  [nativeAudioKey({ar:'رِسَالَة'})]:'./audio/vocab/letter.m4a',
-  [nativeAudioKey({ar:'ضَابِط'})]:'./audio/vocab/officer.m4a',
-  [nativeAudioKey({ar:'زَوْجَة'})]:'./audio/vocab/wife.m4a',
-  [nativeAudioKey({ar:'الدِّين'})]:'./audio/vocab/religion.m4a',
-  [nativeAudioKey({ar:'صُورَة'})]:'./audio/vocab/picture.m4a',
-  [nativeAudioKey({ar:'زَوْج'})]:'./audio/vocab/husband.m4a',
-  [nativeAudioKey({ar:'مُتَزَوِّج'})]:'./audio/vocab/married.m4a',
-  [nativeAudioKey({ar:'فِي الحَقِيقَة'})]:'./audio/vocab/actually-in-reality.m4a',
-  [nativeAudioKey({ar:'اِبْن'})]:'./audio/vocab/son.m4a',
-  [nativeAudioKey({ar:'جَدَّة'})]:'./audio/vocab/grandmother.m4a',
-  [nativeAudioKey({ar:'الحُقُوق'})]:'./audio/vocab/law.m4a',
-  [nativeAudioKey({ar:'مَبْرُوك!'})]:'./audio/vocab/congratulations.m4a',
-  [nativeAudioKey({ar:'وَالِدَة'})]:'./audio/vocab/mother.m4a',
-  [nativeAudioKey({ar:'الآنَ'})]:'./audio/vocab/now.m4a',
-  [nativeAudioKey({ar:'التَّارِيخ'})]:'./audio/vocab/history.m4a',
-  [nativeAudioKey({ar:'جَدّ'})]:'./audio/vocab/grandfather.m4a',
-  [nativeAudioKey({ar:'فَقَطْ'})]:'./audio/vocab/only.m4a',
-  [nativeAudioKey({ar:'مُحاضَرة'})]:'./audio/vocab/lecture-class.m4a',
-  [nativeAudioKey({ar:'أَعيشُ'})]:'./audio/vocab/i-live-life.m4a',
-  [nativeAudioKey({ar:'فَصْل'})]:'./audio/vocab/season.m4a',
-  [nativeAudioKey({ar:'الوِحْدة'})]:'./audio/vocab/loneliness.m4a',
-  [nativeAudioKey({ar:'قَليلًا'})]:'./audio/vocab/little.m4a',
-  [nativeAudioKey({ar:'كَثيرًا'})]:'./audio/vocab/lot-much.m4a',
-  [nativeAudioKey({ar:'بِالنِّسْبةِ لِـ'})]:'./audio/vocab/as-far-as-is-concerned.m4a',
-  [nativeAudioKey({ar:'مَطَر'})]:'./audio/vocab/rain.m4a',
-  [nativeAudioKey({ar:'أَشْعُرُ بِـ'})]:'./audio/vocab/feel-experience.m4a',
-  [nativeAudioKey({ar:'غائِم'})]:'./audio/vocab/cloudy.m4a',
-  [nativeAudioKey({ar:'عالٍ'})]:'./audio/vocab/high.m4a',
-  [nativeAudioKey({ar:'الصَّيْف'})]:'./audio/vocab/summer.m4a',
-  [nativeAudioKey({ar:'مُشْمِس'})]:'./audio/vocab/sunny.m4a',
-  [nativeAudioKey({ar:'الشِّتاء'})]:'./audio/vocab/winter.m4a',
-  [nativeAudioKey({ar:'بِسَبَبِ'})]:'./audio/vocab/because-of.m4a',
-  [nativeAudioKey({ar:'دَرَجة الحَرارة'})]:'./audio/vocab/temperature.m4a',
-  [nativeAudioKey({ar:'الرُّطوبة'})]:'./audio/vocab/humidity.m4a',
-  [nativeAudioKey({ar:'الاِزْدِحام'})]:'./audio/vocab/crowding.m4a',
-  [nativeAudioKey({ar:'الرَّبيع'})]:'./audio/vocab/spring.m4a',
-  [nativeAudioKey({ar:'جَيِّدًا'})]:'./audio/vocab/well.m4a',
-  [nativeAudioKey({ar:'حارّ'})]:'./audio/vocab/hot.m4a',
-  [nativeAudioKey({ar:'الخَريف'})]:'./audio/vocab/autumn.m4a',
-  [nativeAudioKey({ar:'دَرَجة'})]:'./audio/vocab/degree.m4a',
-  [nativeAudioKey({ar:'أَحْسَن'})]:'./audio/vocab/best.m4a',
-  [nativeAudioKey({ar:'أَحْيانًا'})]:'./audio/vocab/sometimes.m4a',
-  [nativeAudioKey({ar:'الجَوّ / الطَّقْس'})]:'./audio/vocab/weather-atmosphere.m4a',
-  [nativeAudioKey({ar:'جِدًّا'})]:'./audio/vocab/very.m4a',
-  [nativeAudioKey({ar:'ثَلْج'})]:'./audio/vocab/snow.m4a',
-  [nativeAudioKey({ar:'مَتى؟'})]:'./audio/vocab/when.m4a',
-  [nativeAudioKey({ar:'بارِد'})]:'./audio/vocab/cold.m4a',
-  [nativeAudioKey({ar:'مِنْ أَصْلٍ + النِّسْبة'})]:'./audio/vocab/of-descent.m4a',
-  [nativeAudioKey({ar:'مُنْذُ'})]:'./audio/vocab/since-ago.m4a',
-  [nativeAudioKey({ar:'هِواية'})]:'./audio/vocab/hobby.m4a',
-  [nativeAudioKey({ar:'يَوْم'})]:'./audio/vocab/day.m4a',
-  [nativeAudioKey({ar:'لِماذا؟'})]:'./audio/vocab/why.m4a',
-  [nativeAudioKey({ar:'أَلْعَبُ'})]:'./audio/vocab/play.m4a',
-  [nativeAudioKey({ar:'مُعيد'})]:'./audio/vocab/teaching-assistant.m4a',
-  [nativeAudioKey({ar:'لِأَنَّ'})]:'./audio/vocab/because.m4a',
-  [nativeAudioKey({ar:'كُرَة السَّلَّة'})]:'./audio/vocab/basketball.m4a',
-  [nativeAudioKey({ar:'لِـ'})]:'./audio/vocab/in-order-to.m4a',
-  [nativeAudioKey({ar:'التَّصْوير'})]:'./audio/vocab/photography.m4a',
-  [nativeAudioKey({ar:'شَرِكة'})]:'./audio/vocab/company.m4a',
-  [nativeAudioKey({ar:'السِّباحة'})]:'./audio/vocab/swimming.m4a',
-  [nativeAudioKey({ar:'الرِّياضة'})]:'./audio/vocab/sports.m4a',
-  [nativeAudioKey({ar:'سَنَتانِ / سَنَتَيْنِ'})]:'./audio/vocab/two-years.m4a',
-  [nativeAudioKey({ar:'أُسْبوع'})]:'./audio/vocab/week.m4a',
-  [nativeAudioKey({ar:'أَذْهَبُ إِلى'})]:'./audio/vocab/go-to.m4a',
-  [nativeAudioKey({ar:'الرَّقْص'})]:'./audio/vocab/dancing.m4a',
-  [nativeAudioKey({ar:'إِدارة الأَعْمال'})]:'./audio/vocab/business-administration.m4a',
-  [nativeAudioKey({ar:'أَتَخَرَّجُ مِنْ'})]:'./audio/vocab/graduate.m4a',
-  [nativeAudioKey({ar:'الحَياة'})]:'./audio/vocab/life.m4a',
-  [nativeAudioKey({ar:'بَعْدَ ذٰلِكَ'})]:'./audio/vocab/after-that.m4a',
-  [nativeAudioKey({ar:'أَحْصُلُ عَلى'})]:'./audio/vocab/obtain-receive.m4a',
-  [nativeAudioKey({ar:'الجَرْي'})]:'./audio/vocab/running.m4a',
-  [nativeAudioKey({ar:'بَعْدَ'})]:'./audio/vocab/after.m4a',
-  [nativeAudioKey({ar:'وِزارَة'})]:'./audio/vocab/ministry.m4a',
-  [nativeAudioKey({ar:'التِّجارة'})]:'./audio/vocab/commerce-trade.m4a',
-  [nativeAudioKey({ar:'مال'})]:'./audio/vocab/money.m4a',
-  [nativeAudioKey({ar:'الاِقْتِصاد'})]:'./audio/vocab/economics-economy.m4a',
-  [nativeAudioKey({ar:'عامّ'})]:'./audio/vocab/general-public.m4a',
-  [nativeAudioKey({ar:'مَجْنون'})]:'./audio/vocab/crazy.m4a',
-  [nativeAudioKey({ar:'الخارِجِيَّة'})]:'./audio/vocab/foreign-affairs.m4a',
-  [nativeAudioKey({ar:'سَـ'})]:'./audio/vocab/future-prefix.m4a',
-  [nativeAudioKey({ar:'إِعْداديّ'})]:'./audio/vocab/preparatory-middle-school.m4a',
-  [nativeAudioKey({ar:'حادِث'})]:'./audio/vocab/accident.m4a',
-  [nativeAudioKey({ar:'ثانَوِيّ'})]:'./audio/vocab/secondary.m4a',
-  [nativeAudioKey({ar:'مُحْزِن'})]:'./audio/vocab/saddening-distressing.m4a',
-  [nativeAudioKey({ar:'رَحِمَها الله'})]:'./audio/vocab/may-god-have-mercy-on-her.m4a',
-  [nativeAudioKey({ar:'مُسْتَشْفى'})]:'./audio/vocab/hospital.m4a',
-};
+const NATIVE_AUDIO_BY_KEY={"أمريكي":"./audio/vocab/american.m4a","عربي":"./audio/vocab/arabic.m4a","بين":"./audio/vocab/between.m4a","أكبر":"./audio/vocab/bigger.m4a","لكن":"./audio/vocab/but.m4a","هنا":"./audio/vocab/here.m4a","أكثر":"./audio/vocab/more.m4a","والدي":"./audio/vocab/my-father.m4a","والدتي":"./audio/vocab/my-mother.m4a","هناك":"./audio/vocab/there-is.m4a","هذه":"./audio/vocab/this-feminine.m4a","وقت":"./audio/vocab/time.m4a","حرب":"./audio/vocab/war.m4a","مع":"./audio/vocab/with.m4a","نعم":"./audio/vocab/yes.m4a","صديق":"./audio/vocab/friend.m4a","أعيش":"./audio/vocab/i-live-life.m4a","الصيف":"./audio/vocab/summer.m4a","هواية":"./audio/vocab/hobby.m4a","وزارة":"./audio/vocab/ministry.m4a","مال":"./audio/vocab/money.m4a","الاقتصاد":"./audio/vocab/economics-economy.m4a","عام":"./audio/vocab/general-public.m4a","مجنون":"./audio/vocab/crazy.m4a","الخارجية":"./audio/vocab/foreign-affairs.m4a","س":"./audio/vocab/future-prefix.m4a","إعدادي":"./audio/vocab/preparatory-middle-school.m4a","حادث":"./audio/vocab/accident.m4a","ثانوي":"./audio/vocab/secondary.m4a","محزن":"./audio/vocab/saddening-distressing.m4a","رحمهاالله":"./audio/vocab/may-god-have-mercy-on-her.m4a","مستشفى":"./audio/vocab/hospital.m4a"};
 const NATIVE_AUDIO_BY_ID={
   'conversation-learning-1':'./audio/conversations/what-are-you-studying.m4a',
   'conversation-learning-2':'./audio/conversations/i-am-studying-formal-arabic.m4a',
@@ -1745,7 +1562,7 @@ const NATIVE_AUDIO_BY_ID={
 let activeNativeAudio=null;
 function stopAudio(){if(activeNativeAudio){activeNativeAudio.pause();activeNativeAudio.currentTime=0;activeNativeAudio=null}}
 function cedarVocabKey(text){return String(text||'').normalize('NFC').replace(/\u0640/g,'').replace(/\s+/g,' ').trim()}
-function recordedAudioSource(d){let module=d.id?.startsWith('mosa-')?window.MOSA_MODULE_AUDIO?.[d.id]:null;let isVocab=d.audioKind==='vocabulary'||Boolean(window.MOSA_VOCAB_IDS?.[d.id]);return (module&&module.ar===d.ar?module.src:null)||(isVocab?window.MOSA_VOCAB_AUDIO?.[cedarVocabKey(d.ar)]:null)||(!isVocab?(NATIVE_AUDIO_BY_ID[d.id]||NATIVE_AUDIO_BY_KEY[nativeAudioKey(d)]||NATIVE_AUDIO_BY_KEY[nativeAudioKey({ar:VOCABULARY_BASE_AR[d.id]})]):null)}
+function recordedAudioSource(d){let module=d.id?.startsWith('mosa-')?window.MOSA_MODULE_AUDIO?.[d.id]:null;let isVocab=d.audioKind==='vocabulary'||Boolean(window.MOSA_VOCAB_IDS?.[d.id]);let user=isVocab?((window.MOSA_USER_VOCAB_BY_ID?.[d.id]&&userVocabAudioKey(window.MOSA_USER_VOCAB_BY_ID[d.id].ar)===userVocabAudioKey(d.ar)?window.MOSA_USER_VOCAB_BY_ID[d.id].src:null)||window.MOSA_USER_VOCAB_AUDIO_BY_KEY?.[userVocabAudioKey(d.ar)]):null;return (user?window.MOSA_USER_VOCAB_CLIPS?.[user]:null)||(module&&module.ar===d.ar?module.src:null)||(isVocab?window.MOSA_VOCAB_AUDIO?.[cedarVocabKey(d.ar)]:null)||(!isVocab?(NATIVE_AUDIO_BY_ID[d.id]||NATIVE_AUDIO_BY_KEY[nativeAudioKey(d)]||NATIVE_AUDIO_BY_KEY[nativeAudioKey({ar:VOCABULARY_BASE_AR[d.id]})]):null)}
 function playArabic(d){stopAudio();if(typeof listeningPlayer!=='undefined'&&listeningPlayer.status==='playing')listeningPlayer.pause();let src=recordedAudioSource(d);if(!src)return;let audio=new Audio(src),failed=false;activeNativeAudio=audio;let fallback=()=>{if(failed||activeNativeAudio!==audio)return;failed=true;activeNativeAudio=null};audio.onended=()=>{if(activeNativeAudio===audio)activeNativeAudio=null};audio.onerror=fallback;let attempt=audio.play();if(attempt&&attempt.catch)attempt.catch(fallback)}
 
 const uniqueVocabulary=(words,keepAlkitaabChapters=false)=>{let seen=new Set();return words.filter(word=>{let key=vocabularyKey(word);if(!key)return false;let chapterKey=keepAlkitaabChapters&&word.collectionId==='alkitaab1'?`alkitaab1:${word.chapter}:${nativeAudioKey(word)}`:key;if(seen.has(chapterKey))return false;seen.add(chapterKey);seen.add(key);return true})};
@@ -2148,7 +1965,7 @@ function jumpTo(value){stopAudio();state.index=Math.max(0,Math.min(currentList()
 function enableSwipe(handler=step){let card=document.querySelector('.study-card'),startX=0,dragging=false;if(!card)return;card.addEventListener('pointerdown',e=>{if(e.target.closest('button'))return;dragging=true;startX=e.clientX;card.setPointerCapture(e.pointerId)});card.addEventListener('pointermove',e=>{if(!dragging)return;let dx=e.clientX-startX;card.style.transform=`translateX(${dx}px) rotate(${dx/28}deg)`;card.style.opacity=String(Math.max(.45,1-Math.abs(dx)/500))});card.addEventListener('pointerup',e=>{if(!dragging)return;dragging=false;let dx=e.clientX-startX;if(Math.abs(dx)>55){card.style.transform=`translateX(${dx<0?'-120%':'120%'}) rotate(${dx<0?-10:10}deg)`;card.style.opacity='0';setTimeout(()=>handler(dx>0?1:-1),150)}else{card.style.transform='';card.style.opacity='1'}});card.addEventListener('pointercancel',()=>{dragging=false;card.style.transform='';card.style.opacity='1'})}
 function revealCard(key){if(!state.hide[key])return;state.cardReveals.add(cardRevealKey(key));render()}
 function speak(){if(state.hide.audio||state.kind==='grammar')return;let d=current();if(d){if(state.kind==='vocab')playVocabulary(d);else playArabic(d)}}
-function openSheet(){let rows=[['en','◉','Hide English'],['ar','◉','Hide Arabic'],['tr','Tᵀ','Hide Transliteration'],['harakat','حَ','Hide Harakat'],['audio',speakerIcon(),'Hide Audio']];sheet.innerHTML=`<div class="handle"></div><h3>Study Options</h3>${rows.map(([k,ic,l])=>`<div class="option">${ic?`<span>${ic}</span>`:''}${l}<button type="button" class="switch ${state.hide[k]?'on':''}" onclick="toggle('${k}')" aria-label="${l}" aria-pressed="${state.hide[k]}"></button></div>`).join('')}${englishVocabularyOption()}${!state.lesson?`<h3>Order</h3><div class="order"><button class="${state.order==='chronological'?'active':''}" onclick="setOrder('chronological')">Chronological</button><button class="${state.order==='shuffle'?'active':''}" onclick="setOrder('shuffle')">⤨ Shuffle</button></div>`:''}`;sheet.classList.add('open');backdrop.classList.add('open')}
+function openSheet(){let rows=[['en','◉','Hide English'],['ar','◉','Hide Arabic'],['tr','Tᵀ','Hide Transliteration'],['harakat','حَ','Hide Harakat'],['audio',speakerIcon(),'Hide Audio']];sheet.innerHTML=`<div class="handle"></div><h3>Study Options</h3>${rows.map(([k,ic,l])=>`<div class="option">${ic?`<span>${ic}</span>`:''}${l}<button type="button" class="switch ${state.hide[k]?'on':''}" onclick="toggle('${k}')" aria-label="${l}" aria-pressed="${state.hide[k]}"></button></div>`).join('')}${!state.lesson?`<h3>Order</h3><div class="order"><button class="${state.order==='chronological'?'active':''}" onclick="setOrder('chronological')">Chronological</button><button class="${state.order==='shuffle'?'active':''}" onclick="setOrder('shuffle')">⤨ Shuffle</button></div>`:''}`;sheet.classList.add('open');backdrop.classList.add('open')}
 function filterChip(type,value,label=value){let active=state.filters[type].has(value),encoded=String(value).replace(/'/g,"\\'");return `<button type="button" class="filter-chip ${active?'active':''}" onclick="toggleFilter('${type}','${encoded}')" aria-pressed="${active}">${label}</button>`}
 function populatedCollections(){return COLLECTIONS.filter(collection=>(collection.vocab?.length||0)>0||Object.values(collection.chapters).some(chapter=>chapter.vocab.length))}
 function openFilterSheet(){let selected=populatedCollections().filter(collection=>state.filters.collections.has(collection.id)&&Object.keys(collection.chapters).length);let chapterSections=selected.length?selected.map(collection=>`<div class="filter-section"><h4>${collection.name}</h4><div class="filter-grid">${Object.entries(collection.chapters).filter(([,chapter])=>chapter.vocab.length).map(([number])=>filterChip('chapters',`${collection.id}:${number}`,chapterDisplayLabel(collection.id,number))).join('')}</div></div>`).join(''):`<p class="filter-prompt">Select a collection with chapters to filter by chapter.</p>`;sheet.innerHTML=`<div class="handle"></div><h3>Filter Vocabulary</h3><div class="filter-section"><h4>Collections</h4><div class="filter-grid">${populatedCollections().map(collection=>filterChip('collections',collection.id,collection.name)).join('')}</div></div><div class="filter-section"><h3>Chapters</h3>${chapterSections}</div><div class="filter-section"><h4>Difficulty</h4><div class="filter-grid">${[1,2,3,4,5].map(number=>filterChip('difficulties',number,String(number))).join('')}</div></div><div class="filter-section"><h4>Verb families</h4><div class="filter-grid">${filterChip('verbFamilies','original','Original vocabulary only')}${filterChip('brokenPlurals','source','Broken plurals')}</div><p class="filter-prompt">Original vocabulary only hides added verb forms. Broken plurals hides supplemental broken-plural cards we added, keeping the rest of your vocabulary and plurals explicitly listed in the courses.</p></div><div class="filter-footer"><button class="secondary" onclick="clearFilters()">Clear All</button><button class="primary" onclick="closeSheet()">Done · ${filteredVocabulary().length} words</button></div>`;sheet.classList.add('open');backdrop.classList.add('open')}
@@ -2165,11 +1982,11 @@ if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.se
 <script src="./broken-plural-practice.js?v=110"></script>
 <script src="./verb-practice.js?v=110"></script>
 <script src="./adjective-practice.js?v=110"></script>
-<script src="./listening-stream.js?v=100"></script>
+<script src="./listening-stream.js?v=112"></script>
 <script src="./passive-listening.js?v=107"></script>
-<script src="./listening-legacy.js?v=97"></script>
+<script src="./listening-legacy.js?v=112"></script>
 <script src="./english-vocab-audio.js?v=108"></script>
-<script src="./english-vocabulary.js?v=107"></script>
+<script src="./english-vocabulary.js?v=112"></script>
 <script src="./listening-ui.js?v=107"></script>
 <script>render();</script>
 </body>

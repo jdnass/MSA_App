@@ -7,15 +7,42 @@ const cacheMaps=new Map();
 const cacheAPI={async open(name){if(!cacheMaps.has(name))cacheMaps.set(name,new Map());const data=cacheMaps.get(name);const key=value=>typeof value==='string'?value:value.url;return {async match(value){const saved=data.get(key(value));return saved?new Response(saved.body,{status:saved.status,headers:saved.headers}):undefined;},async put(value,response){data.set(key(value),{body:await response.blob(),status:response.status,headers:new Headers(response.headers)});},async delete(value){return data.delete(key(value));},async keys(){return [...data.keys()].map(url=>new Request(url));}};},async keys(){return [...cacheMaps.keys()];},async delete(name){return cacheMaps.delete(name);}};
 class TestChannel{constructor(){this.port1={onmessage:null,close(){}};this.port2={postMessage:data=>queueMicrotask(()=>this.port1.onmessage?.({data})),close(){}};}}
 const serviceWorker={controller:{postMessage(message,ports){ports[0].postMessage({listeningStreamVersion:100});}},addEventListener(){},removeEventListener(){}};
-const ctx={window:{addEventListener(){}},document:{body:{appendChild(audio){attachedAudio.add(audio)}},querySelector:()=>el(),querySelectorAll:()=>[],addEventListener(){},createElement:()=>el()},localStorage:{getItem:()=>null,setItem(){},removeItem(){}},navigator:{serviceWorker,mediaSession:session,audioSession:{}},console,setTimeout:()=>{},clearTimeout,URL,Blob,AbortController,Request,Response,Headers,ReadableStream,MessageChannel:TestChannel,caches:cacheAPI,crypto:require('node:crypto'),location:{href:'https://example.com/'},MediaMetadata:class{constructor(data){Object.assign(this,data)}},Audio:class{constructor(src){this.src=src;this.currentTime=0;this.duration=100;this.readyState=1;this.loads=0;}play(){this.onplay?.();return Promise.resolve();}pause(){this.onpause?.();}load(){this.loads++;this.currentTime=0;this.onloadedmetadata?.();}setAttribute(){}removeAttribute(){}remove(){attachedAudio.delete(this)}},fetch:async(url,{signal,headers}={})=>{signal?.throwIfAborted();if(url.startsWith('https://example.com/listening-audio/'))return ctx.window.MosaListeningStream.respond(new Request(url,{headers}));const file=url.split('?')[0];try{return {ok:true,arrayBuffer:async()=>Uint8Array.from(fs.readFileSync(file)).buffer};}catch{return {ok:false};}}};
+const ctx={window:{addEventListener(){}},document:{body:{appendChild(audio){attachedAudio.add(audio)}},querySelector:()=>el(),querySelectorAll:()=>[],addEventListener(){},createElement:()=>el()},localStorage:{getItem:()=>null,setItem(){},removeItem(){}},navigator:{serviceWorker,mediaSession:session,audioSession:{}},console,setTimeout:()=>{},clearTimeout,URL,Blob,AbortController,Request,Response,Headers,ReadableStream,Buffer,MessageChannel:TestChannel,caches:cacheAPI,crypto:require('node:crypto'),location:{href:'https://example.com/'},MediaMetadata:class{constructor(data){Object.assign(this,data)}},Audio:class{constructor(src){this.src=src;this.currentTime=0;this.duration=100;this.readyState=1;this.loads=0;}play(){this.onplay?.();return Promise.resolve();}pause(){this.onpause?.();}load(){this.loads++;this.currentTime=0;this.onloadedmetadata?.();}setAttribute(){}removeAttribute(){}remove(){attachedAudio.delete(this)}},fetch:async(url,{signal,headers}={})=>{signal?.throwIfAborted();if(url.startsWith('https://example.com/listening-audio/'))return ctx.window.MosaListeningStream.respond(new Request(url,{headers}));if(url.startsWith('data:audio/mpeg;base64,'))return {ok:true,arrayBuffer:async()=>Uint8Array.from(Buffer.from(url.split(',')[1],'base64')).buffer};const file=url.split('?')[0];try{return {ok:true,arrayBuffer:async()=>Uint8Array.from(fs.readFileSync(file)).buffer};}catch{return {ok:false};}}};
 vm.createContext(ctx);
 for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)){
   const src=m[1].match(/src=["']([^"']+)/)?.[1];
   vm.runInContext(src?fs.readFileSync(src.split('?')[0],'utf8'):m[2],ctx);
 }
 const run=code=>vm.runInContext(code,ctx);
+const readAudio=src=>src.startsWith('data:audio/mpeg;base64,')?Buffer.from(src.split(',')[1],'base64'):fs.readFileSync(src.split('?')[0]);
 if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.filter(w=>{const s=recordedAudioSource(w);return s&&!s.includes(".mp3")}).map(w=>({id:w.id,en:w.en,src:recordedAudioSource(w)}))'),null,2));process.exit();}
 (async()=>{
+  if(process.argv.includes('--user-coverage')){
+    const manifest=JSON.parse(fs.readFileSync('audio/user-vocab/manifest.json','utf8'));
+    assert.equal(manifest.sourceCount,255);assert.equal(manifest.matchedCards,253);
+    const all=run('COLLECTIONS.flatMap(c=>[...(c.vocab||[]),...Object.values(c.chapters).flatMap(ch=>ch.vocab||[])])');
+    for(const [id,mapping] of Object.entries(manifest.cardMappings)){
+      const word=all.find(w=>w.id===id);assert(word,'Missing mapped card '+id);ctx.word=word;
+      assert.equal(run('recordedAudioSource(word)'),ctx.window.MOSA_USER_VOCAB_CLIPS[mapping.src],id);
+      assert.equal(run('listeningAudioSource(word)'),ctx.window.MOSA_USER_VOCAB_CLIPS[mapping.src],id+' playbook');
+    }
+    for(const recording of manifest.recordings){
+      const file=readAudio(ctx.window.MOSA_USER_VOCAB_CLIPS[recording.src]);assert.equal(require('crypto').createHash('sha256').update(file).digest('hex'),recording.sha256);
+      assert(ctx.window.MosaListeningAudio.mp3Frames(Uint8Array.from(file).buffer).duration>0);
+    }
+    for(const ar of Object.keys(ctx.window.MOSA_VOCAB_AUDIO)){
+      ctx.ar=ar;assert(!run('window.MOSA_USER_VOCAB_AUDIO_BY_KEY[userVocabAudioKey(ar)]'),'Old Cedar mapping remains: '+ar);
+    }
+    for(const file of manifest.removedAudioFiles)assert(!fs.existsSync(file),'Superseded file remains: '+file);
+    assert.notEqual(run('userVocabAudioKey("أَدْرُسُ")'),run('userVocabAudioKey("أُدَرِّسُ")'));
+    assert.notEqual(run('recordedAudioSource({ar:"أَدْرُسُ",audioKind:"vocabulary"})'),run('recordedAudioSource({ar:"أُدَرِّسُ",audioKind:"vocabulary"})'));
+    assert.notEqual(run('recordedAudioSource({ar:"دَرَسْتُ",audioKind:"vocabulary"})'),run('recordedAudioSource({ar:"دَرَّسْتُ",audioKind:"vocabulary"})'));
+    const staleWord={...all.find(w=>w.id==='c1-7'),ar:'مُخْتَلِف'};ctx.staleWord=staleWord;
+    assert.notEqual(run('recordedAudioSource(staleWord)'),manifest.cardMappings['c1-7'].src);
+    const assets=vm.runInNewContext(fs.readFileSync('sw.js','utf8').match(/const ASSETS=(\[[^;]+\]);/)[1]);
+    for(const file of assets)assert(fs.existsSync(file.split('?')[0]),'Missing precached asset '+file);
+    console.log('PASS: 255 user clips parse; 253 card/playbook routes; old voices removed; teaching/studying distinguished; stale IDs protected; cache assets valid');
+  }
   const words=run('ALL_V.filter(w=>w.collectionId==="alkitaab1"&&recordedAudioSource(w)).slice(0,2)');
   const other=run('ALL_V.find(w=>w.collectionId==="mango-msa"&&recordedAudioSource(w))');
   assert(words.length===2&&other);
@@ -24,7 +51,7 @@ if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.f
     const targets=JSON.parse(fs.readFileSync('english-vocab-targets.json','utf8'));
     for(const target of targets){
       const src=ctx.window.MOSA_ENGLISH_AUDIO[target.en];assert(src,'Missing English: '+target.en);
-      mp3Frames(Uint8Array.from(fs.readFileSync(src.split("?")[0])).buffer);
+      mp3Frames(Uint8Array.from(readAudio(src)).buffer);
     }
     console.log('PASS: '+targets.length+' English recordings match the playlist format');
   }
@@ -38,8 +65,8 @@ if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.f
   for(let i=0;i<entries.length;i++){
     const entry=entries[i],word=ctx.testWords[i];ctx.word=word;
     const src=run('listeningAudioSource(word)');
-    const ar=mp3Frames(Uint8Array.from(fs.readFileSync(src.split("?")[0])).buffer).duration;
-    const en=english(word)?mp3Frames(Uint8Array.from(fs.readFileSync(english(word).split("?")[0])).buffer).duration:0;
+    const ar=mp3Frames(Uint8Array.from(readAudio(src)).buffer).duration;
+    const en=english(word)?mp3Frames(Uint8Array.from(readAudio(english(word))).buffer).duration:0;
     assert(Math.abs(entry.end-entry.start-(ar*2+6+(en?en+3:0)))<1e-8);
     assert.equal(entry.englishStart===null,!en);
     if(i)assert.equal(entry.start,entries[i-1].end);
@@ -54,16 +81,15 @@ if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.f
   const values=new Map();ctx.localStorage.getItem=k=>values.get(k)||null;ctx.localStorage.setItem=(k,v)=>values.set(k,v);
   assert.equal(run('englishVocabularyEnabled()'),false);
   values.set('msa-english-ending','true');assert.equal(run('englishVocabularyEnabled()'),true);
-  const pending=[];ctx.setTimeout=fn=>{pending.push(fn);};ctx.word=words[0];
-  run('playVocabulary(word)');let audio=run('activeNativeAudio');const arabic=audio.src;
-  audio.onended();pending.shift()();assert.equal(audio.src,arabic);
-  audio.onended();pending.shift()();assert.equal(audio.src,fixture);
-  audio.onended();assert.equal(run('activeNativeAudio'),null);
-  run('playVocabulary(word)');audio=run('activeNativeAudio');audio.onended();
-  run('stopAudio()');pending.shift()();assert.equal(run('activeNativeAudio'),null);
-  ctx.word=other;run('playVocabulary(word)');audio=run('activeNativeAudio');audio.onended();
-  assert.equal(pending.length,0,'Other collections play once');
+  const pending=[];ctx.setTimeout=fn=>{pending.push(fn);};
+  // Even a persisted English preference never repeats or translates a card.
+  for(const word of [...words,other]){
+    ctx.word=word;run('playVocabulary(word)');const audio=run('activeNativeAudio');
+    assert.equal(audio.src,run('recordedAudioSource(word)'));
+    audio.onended();assert.equal(run('activeNativeAudio'),null);
+    assert.equal(pending.length,0,'Vocabulary cards schedule no repeat or English');
+  }
   ctx.word=words[0];values.set('msa-english-ending','false');run('playVocabulary(word)');
-  run('activeNativeAudio.onended()');assert.equal(pending.length,0,'Disabled option plays once');
-  console.log('PASS: Arabic twice then English once; mixed collections; timing and seek boundaries; optional preference; card cancellation; English failure reported');
+  run('activeNativeAudio.onended()');assert.equal(pending.length,0);
+  console.log('PASS: Arabic twice then English once; mixed collections; timing and seek boundaries; optional playbook preference; cards play Arabic once without English; English failure reported');
 })().catch(error=>{console.error(error);process.exitCode=1});

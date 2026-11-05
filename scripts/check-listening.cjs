@@ -7,13 +7,14 @@ const cacheMaps=new Map();
 const cacheAPI={async open(name){if(!cacheMaps.has(name))cacheMaps.set(name,new Map());const data=cacheMaps.get(name);const key=value=>typeof value==='string'?value:value.url;return {async match(value){const saved=data.get(key(value));return saved?new Response(saved.body,{status:saved.status,headers:saved.headers}):undefined;},async put(value,response){data.set(key(value),{body:await response.blob(),status:response.status,headers:new Headers(response.headers)});},async delete(value){return data.delete(key(value));},async keys(){return [...data.keys()].map(url=>new Request(url));}};},async keys(){return [...cacheMaps.keys()];},async delete(name){return cacheMaps.delete(name);}};
 class TestChannel{constructor(){this.port1={onmessage:null,close(){}};this.port2={postMessage:data=>queueMicrotask(()=>this.port1.onmessage?.({data})),close(){}};}}
 const serviceWorker={controller:{postMessage(message,ports){ports[0].postMessage({listeningStreamVersion:100});}},addEventListener(){},removeEventListener(){}};
-const ctx={window:{addEventListener(){}},document:{body:{appendChild(audio){attachedAudio.add(audio)}},querySelector:()=>el(),querySelectorAll:()=>[],addEventListener(){},createElement:()=>el()},localStorage:{getItem:()=>null,setItem(){},removeItem(){}},navigator:{serviceWorker,mediaSession:session,audioSession:{}},console,setTimeout:()=>{},clearTimeout,URL,Blob,AbortController,Request,Response,Headers,ReadableStream,MessageChannel:TestChannel,caches:cacheAPI,crypto:require('node:crypto'),location:{href:'https://example.com/'},MediaMetadata:class{constructor(data){Object.assign(this,data)}},Audio:class{constructor(src){this.src=src;this.currentTime=0;this.duration=100;this.readyState=1;this.loads=0;}play(){this.onplay?.();return Promise.resolve();}pause(){this.onpause?.();}load(){this.loads++;this.currentTime=0;this.onloadedmetadata?.();}setAttribute(){}removeAttribute(){}remove(){attachedAudio.delete(this)}},fetch:async(url,{signal,headers}={})=>{signal?.throwIfAborted();if(url.startsWith('https://example.com/listening-audio/'))return ctx.window.MosaListeningStream.respond(new Request(url,{headers}));const file=url.split('?')[0];try{return {ok:true,arrayBuffer:async()=>Uint8Array.from(fs.readFileSync(file)).buffer};}catch{return {ok:false};}}};
+const ctx={window:{addEventListener(){}},document:{body:{appendChild(audio){attachedAudio.add(audio)}},querySelector:()=>el(),querySelectorAll:()=>[],addEventListener(){},createElement:()=>el()},localStorage:{getItem:()=>null,setItem(){},removeItem(){}},navigator:{serviceWorker,mediaSession:session,audioSession:{}},console,setTimeout:()=>{},clearTimeout,URL,Blob,AbortController,Request,Response,Headers,ReadableStream,Buffer,MessageChannel:TestChannel,caches:cacheAPI,crypto:require('node:crypto'),location:{href:'https://example.com/'},MediaMetadata:class{constructor(data){Object.assign(this,data)}},Audio:class{constructor(src){this.src=src;this.currentTime=0;this.duration=100;this.readyState=1;this.loads=0;}play(){this.onplay?.();return Promise.resolve();}pause(){this.onpause?.();}load(){this.loads++;this.currentTime=0;this.onloadedmetadata?.();}setAttribute(){}removeAttribute(){}remove(){attachedAudio.delete(this)}},fetch:async(url,{signal,headers}={})=>{signal?.throwIfAborted();if(url.startsWith('https://example.com/listening-audio/'))return ctx.window.MosaListeningStream.respond(new Request(url,{headers}));if(url.startsWith('data:audio/mpeg;base64,'))return {ok:true,arrayBuffer:async()=>Uint8Array.from(Buffer.from(url.split(',')[1],'base64')).buffer};const file=url.split('?')[0];try{return {ok:true,arrayBuffer:async()=>Uint8Array.from(fs.readFileSync(file)).buffer};}catch{return {ok:false};}}};
 vm.createContext(ctx);
 for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)){
   const src=m[1].match(/src=["']([^"']+)/)?.[1];
   vm.runInContext(src?fs.readFileSync(src.split('?')[0],'utf8'):m[2],ctx);
 }
 const run=code=>vm.runInContext(code,ctx);
+const readAudio=src=>src.startsWith('data:audio/mpeg;base64,')?Buffer.from(src.split(',')[1],'base64'):fs.readFileSync(src.split('?')[0]);
 if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.filter(w=>{const s=recordedAudioSource(w);return s&&!s.includes(".mp3")}).map(w=>({id:w.id,en:w.en,src:recordedAudioSource(w)}))'),null,2));process.exit();}
 (async()=>{
   run('go("vocabulary");openListeningSheet()');
@@ -30,7 +31,7 @@ if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.f
   const entries=run('listeningPlayer.entries');
   assert.equal(entries[1].start,entries[0].end);
   const {mp3Frames,playlistBlob}=ctx.window.MosaListeningAudio;
-  const first=mp3Frames(Uint8Array.from(fs.readFileSync(run('recordedAudioSource(testWords[0])').split('?')[0])).buffer);
+  const first=mp3Frames(Uint8Array.from(readAudio(run('recordedAudioSource(testWords[0])'))).buffer);
   assert(Math.abs(entries[0].repeat-first.duration-3)<1e-9);
   assert(Math.abs(entries[0].end-2*first.duration-6)<1e-9);
   const silence=mp3Frames(Uint8Array.from(fs.readFileSync('audio/listening-silence.mp3')).buffer);
@@ -102,7 +103,7 @@ if(process.argv.includes('--inventory')){console.log(JSON.stringify(run('ALL_V.f
   await run('listeningPlayer.prepare(testWords,recordedAudioSource)');assert.equal(run('listeningPlayer.status'),'error');assert.equal(run('listeningPlayer.audio'),null);
   ctx.fetch=goodFetch;
   // Every vocabulary recording supported by the UI can be assembled.
-  for(const src of new Set(run('ALL_V.map(listeningAudioSource).filter(Boolean)'))){mp3Frames(Uint8Array.from(fs.readFileSync(src.split('?')[0])).buffer);}
+  for(const src of new Set(run('ALL_V.map(listeningAudioSource).filter(Boolean)'))){mp3Frames(Uint8Array.from(readAudio(src)).buffer);}
   if(process.argv.includes('--full')){
     const start=Date.now();
     await run('listeningPlayer.prepare(ALL_V.filter(w=>listeningAudioSource(w)),listeningAudioSource)');

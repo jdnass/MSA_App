@@ -152,6 +152,17 @@ def save(records,targets,failed):
 def main():
     global SPENT,ATTEMPTS
     targets=json.loads((ROOT/"cedar-vocab-targets.json").read_text())
+    # Imported voice recordings are authoritative even with an older target export.
+    user_manifest=ROOT/"audio/user-vocab/manifest.json"
+    if user_manifest.exists():
+        user_cards=json.loads(user_manifest.read_text())["cardMappings"].values()
+        def user_key(text):
+            return re.sub(r"[^ء-يّ]","",re.sub(r"[\u0610-\u061a\u064b-\u0650\u0652-\u065f\u0670\u06d6-\u06edـ]","",text))
+        user_keys={user_key(part) for card in user_cards for part in [card["ar"],*re.split(r"\s*/\s*",card["ar"])]}
+        targets["entries"]=[entry for entry in targets["entries"] if user_key(entry["ar"]) not in user_keys]
+        if targets.get("scope"):
+            allowed={entry["id"] for entry in targets["entries"]}
+            targets["scope"]["ids"]=[value for value in targets["scope"]["ids"] if value in allowed]
     data=targets["entries"]
     scope=targets.get("scope")
     scoped_ids=set(scope["ids"]) if scope else {t["id"] for t in data}

@@ -1,0 +1,2529 @@
+{
+  "version": 112,
+  "sourceCount": 255,
+  "matchedCards": 253,
+  "removedCedarReadings": 325,
+  "removedNativeReadings": 152,
+  "removedAudioFiles": [
+    "./audio/cedar-vocab/cv-008de17734ff1d4de0701c08.mp3",
+    "./audio/cedar-vocab/cv-00c72e34a0fb1fde375e997b.mp3",
+    "./audio/cedar-vocab/cv-0200bc2e1a6274b6fad70018.mp3",
+    "./audio/cedar-vocab/cv-04af3ecae395230f96c79930.mp3",
+    "./audio/cedar-vocab/cv-04e9e13fc5110a260c858b43.mp3",
+    "./audio/cedar-vocab/cv-05a3970d42ba8b379b0dead0.mp3",
+    "./audio/cedar-vocab/cv-05fad56c70a56d9c2da6f344.mp3",
+    "./audio/cedar-vocab/cv-067b75d885ee7a261c79f328.mp3",
+    "./audio/cedar-vocab/cv-06a9b80cd2dc158fedbb321b.mp3",
+    "./audio/cedar-vocab/cv-06e2ecc1cbc48bb8a7f96db8.mp3",
+    "./audio/cedar-vocab/cv-07b94218aa6ad3b1401c062f.mp3",
+    "./audio/cedar-vocab/cv-07ceba2ab4af778d440b3319.mp3",
+    "./audio/cedar-vocab/cv-08b7a4d9f3bf5c4cad7fc798.mp3",
+    "./audio/cedar-vocab/cv-0a7087dc15abb8645de3db49.mp3",
+    "./audio/cedar-vocab/cv-0ae7cfcdaced9e974c48b797.mp3",
+    "./audio/cedar-vocab/cv-0c6d6f6df9e809653a76334b.mp3",
+    "./audio/cedar-vocab/cv-0c71eb1f1062ddf0c05e6bdf.mp3",
+    "./audio/cedar-vocab/cv-0cbbb9ba454db654311b53a9.mp3",
+    "./audio/cedar-vocab/cv-0cf9d756c2191b411137b690.mp3",
+    "./audio/cedar-vocab/cv-0d0a0a4c2ec5180d2fbc06f9.mp3",
+    "./audio/cedar-vocab/cv-0e0a52ff908ca5c631465765.mp3",
+    "./audio/cedar-vocab/cv-0ec4bf810ca528a08ad4b843.mp3",
+    "./audio/cedar-vocab/cv-0f33c85fa88932611e548724.mp3",
+    "./audio/cedar-vocab/cv-0f377a6659806ab1ba0197d0.mp3",
+    "./audio/cedar-vocab/cv-0fccb91db1e9801b8297a521.mp3",
+    "./audio/cedar-vocab/cv-1061f7b0177b05717f13fb26.mp3",
+    "./audio/cedar-vocab/cv-12fa618866e74c2a63a4654c.mp3",
+    "./audio/cedar-vocab/cv-134ee3517519bf3154c542d1.mp3",
+    "./audio/cedar-vocab/cv-13f838d2febc501c2ef74e12.mp3",
+    "./audio/cedar-vocab/cv-154137322638d1ba61ee7c3e.mp3",
+    "./audio/cedar-vocab/cv-1551601f826d5d2d264b98b0.mp3",
+    "./audio/cedar-vocab/cv-1661d988c73097d3c2563d7d.mp3",
+    "./audio/cedar-vocab/cv-16b83e222a1022bc747d7a33.mp3",
+    "./audio/cedar-vocab/cv-16e0488b09b0a4b9a2b27dbe.mp3",
+    "./audio/cedar-vocab/cv-18d63a480730a2e00d731c09.mp3",
+    "./audio/cedar-vocab/cv-195e29bffc34451a41b4e295.mp3",
+    "./audio/cedar-vocab/cv-19e5b3126c5dd210f03ebfaf.mp3",
+    "./audio/cedar-vocab/cv-1ac4e7a578d8b9ef85ae93d3.mp3",
+    "./audio/cedar-vocab/cv-1aee3269e1b21bc7adaf46e4.mp3",
+    "./audio/cedar-vocab/cv-1b122aac66ef782369c9f6e1.mp3",
+    "./audio/cedar-vocab/cv-1b6a6494a62307620561f903.mp3",
+    "./audio/cedar-vocab/cv-1b84b82aa39ccba3828787dc.mp3",
+    "./audio/cedar-vocab/cv-1b99cf23e3ef928920116fd1.mp3",
+    "./audio/cedar-vocab/cv-1bcb6a96132970f01bf76490.mp3",
+    "./audio/cedar-vocab/cv-1c39c2757722727ef443f41c.mp3",
+    "./audio/cedar-vocab/cv-1c78ff6e6c7b616d45cc8d00.mp3",
+    "./audio/cedar-vocab/cv-1df5a7b4f2c3d50c97e02f1f.mp3",
+    "./audio/cedar-vocab/cv-1e6568de96193571180862f8.mp3",
+    "./audio/cedar-vocab/cv-1ffec55eeea0cb64bd70a0f3.mp3",
+    "./audio/cedar-vocab/cv-211902e9a92c8cecd17043b3.mp3",
+    "./audio/cedar-vocab/cv-21a24dcb974946a820db77a3.mp3",
+    "./audio/cedar-vocab/cv-22fa1d6274c39d47479d9a10.mp3",
+    "./audio/cedar-vocab/cv-239053956580f69cb10ed5e4.mp3",
+    "./audio/cedar-vocab/cv-2442d3016df0be3591c7d93f.mp3",
+    "./audio/cedar-vocab/cv-25057c3d68a6fc2a3ceaa995.mp3",
+    "./audio/cedar-vocab/cv-257659278e7077d404ea63f1.mp3",
+    "./audio/cedar-vocab/cv-25b196425012b23818c28a84.mp3",
+    "./audio/cedar-vocab/cv-26c4ba1ec15404cbe6b8116f.mp3",
+    "./audio/cedar-vocab/cv-273bca6da785135e79b08a99.mp3",
+    "./audio/cedar-vocab/cv-28ec844f501c479b3df7cf2e.mp3",
+    "./audio/cedar-vocab/cv-29312897616a92e142296d5e.mp3",
+    "./audio/cedar-vocab/cv-2a7d9d0b5f72c33dc5ba6d8a.mp3",
+    "./audio/cedar-vocab/cv-2a82b5408aa7740de15b668d.mp3",
+    "./audio/cedar-vocab/cv-2b3b9b3962bfe285a420fef8.mp3",
+    "./audio/cedar-vocab/cv-2b7027a5ffbb5ac923b94aee.mp3",
+    "./audio/cedar-vocab/cv-2b80ced20dacd1df808cc748.mp3",
+    "./audio/cedar-vocab/cv-2c61a6a72707af6a8cf51e46.mp3",
+    "./audio/cedar-vocab/cv-2ca69b7a65e958efacaf0885.mp3",
+    "./audio/cedar-vocab/cv-3037685307cc7a5abb360c53.mp3",
+    "./audio/cedar-vocab/cv-31a20dcbaba691d9aadebf50.mp3",
+    "./audio/cedar-vocab/cv-32cd277dc91e95bae6ac909b.mp3",
+    "./audio/cedar-vocab/cv-336e7bab1c71f45825c0546a.mp3",
+    "./audio/cedar-vocab/cv-340674566f2f7d619e8264bc.mp3",
+    "./audio/cedar-vocab/cv-34857ddaf7893af82b1ed740.mp3",
+    "./audio/cedar-vocab/cv-361eb341a93e9ce0b1d208a9.mp3",
+    "./audio/cedar-vocab/cv-367b0da1fabdad544f5a637a.mp3",
+    "./audio/cedar-vocab/cv-36b3714f9b0b046f98c81aba.mp3",
+    "./audio/cedar-vocab/cv-36e7c92f81ca1b7f4c1622bd.mp3",
+    "./audio/cedar-vocab/cv-36e856800edb177ccfe3340d.mp3",
+    "./audio/cedar-vocab/cv-3706d4bb43679ef44a08d35c.mp3",
+    "./audio/cedar-vocab/cv-374d34e26bfaea83fd39c8b3.mp3",
+    "./audio/cedar-vocab/cv-37b1fadb3da43150faa69fd5.mp3",
+    "./audio/cedar-vocab/cv-380e73f80a473ef93a7a57b9.mp3",
+    "./audio/cedar-vocab/cv-3a9b359b2d9457649b207a11.mp3",
+    "./audio/cedar-vocab/cv-3af5478a977c77d60ee22f19.mp3",
+    "./audio/cedar-vocab/cv-3bac1f1703c757e96cb8d896.mp3",
+    "./audio/cedar-vocab/cv-3cbd9f7b78df5bcbcbad84b6.mp3",
+    "./audio/cedar-vocab/cv-3cc74422afbe055064dc9570.mp3",
+    "./audio/cedar-vocab/cv-3f7fec94716c3cf7be0d2359.mp3",
+    "./audio/cedar-vocab/cv-400572a727ef3717d286c7b2.mp3",
+    "./audio/cedar-vocab/cv-42b15bf6eefdc57ab4707684.mp3",
+    "./audio/cedar-vocab/cv-430c80480d21c46f55a28de0.mp3",
+    "./audio/cedar-vocab/cv-43771b2d97d4b1bb16d2e2c2.mp3",
+    "./audio/cedar-vocab/cv-4533440d5af205cf695465ca.mp3",
+    "./audio/cedar-vocab/cv-45b549a7ab0e1ac3ab4a4d61.mp3",
+    "./audio/cedar-vocab/cv-46a3ecd64646d771ccced774.mp3",
+    "./audio/cedar-vocab/cv-46a447dedcb68e0084ee9dae.mp3",
+    "./audio/cedar-vocab/cv-485ba775072271cbd810833c.mp3",
+    "./audio/cedar-vocab/cv-486b5c145c4d3b9f7175fd00.mp3",
+    "./audio/cedar-vocab/cv-48d2e7822355d658ce9aeb1c.mp3",
+    "./audio/cedar-vocab/cv-4ad6d165842cdb9ceca918b3.mp3",
+    "./audio/cedar-vocab/cv-4b31916ffde9ed4f1564d8d5.mp3",
+    "./audio/cedar-vocab/cv-4b4598b8dd236997569771e8.mp3",
+    "./audio/cedar-vocab/cv-4b90660a252f03541f4bb195.mp3",
+    "./audio/cedar-vocab/cv-4ca02112e7d43774804079bf.mp3",
+    "./audio/cedar-vocab/cv-4d5b83250969250c107e3990.mp3",
+    "./audio/cedar-vocab/cv-4e403915834b41ed613552d6.mp3",
+    "./audio/cedar-vocab/cv-4ebcb80a6b059738d5089b4b.mp3",
+    "./audio/cedar-vocab/cv-4f5a08f0a003ac581b8c0b59.mp3",
+    "./audio/cedar-vocab/cv-5123f218b9371baefef3493e.mp3",
+    "./audio/cedar-vocab/cv-5201025c75b55d3b51cb4c7d.mp3",
+    "./audio/cedar-vocab/cv-52c2017bb10c1ecda489020c.mp3",
+    "./audio/cedar-vocab/cv-52d9a94647e82550d0fe715d.mp3",
+    "./audio/cedar-vocab/cv-52e4fdd3c66de4045daecddd.mp3",
+    "./audio/cedar-vocab/cv-5322f6f60175ed76b011497c.mp3",
+    "./audio/cedar-vocab/cv-53b0225ce87dbd0393a7b5ac.mp3",
+    "./audio/cedar-vocab/cv-5430bd40d7d6d1db5010df38.mp3",
+    "./audio/cedar-vocab/cv-5454bba161574ae3726eb3d1.mp3",
+    "./audio/cedar-vocab/cv-54eea44a5f0f3e7eb660c9f6.mp3",
+    "./audio/cedar-vocab/cv-55ab581d2e677a0d30435a82.mp3",
+    "./audio/cedar-vocab/cv-561d7a9055ac50aa4aa63b72.mp3",
+    "./audio/cedar-vocab/cv-5679dd0c4d1d1b1215fa070b.mp3",
+    "./audio/cedar-vocab/cv-567e7f624a6ff82e39d6fd55.mp3",
+    "./audio/cedar-vocab/cv-56cc055892eabf12d07fbdec.mp3",
+    "./audio/cedar-vocab/cv-57e840ff93141d7317528abf.mp3",
+    "./audio/cedar-vocab/cv-587696d7ab794b3efd80e659.mp3",
+    "./audio/cedar-vocab/cv-58b6825767591c7f8d941d7f.mp3",
+    "./audio/cedar-vocab/cv-5ae7cdfd94c9a049d8c52d4a.mp3",
+    "./audio/cedar-vocab/cv-5b84f62e79118cb4b2207d31.mp3",
+    "./audio/cedar-vocab/cv-5c1fff929cdc8b394a5c59dc.mp3",
+    "./audio/cedar-vocab/cv-5e95e62c93495e56b0506452.mp3",
+    "./audio/cedar-vocab/cv-5f8e35e355dda0d6190bb899.mp3",
+    "./audio/cedar-vocab/cv-615c3c882bcaf5bf615b50fe.mp3",
+    "./audio/cedar-vocab/cv-618f0ad92a47fd25b5e27f03.mp3",
+    "./audio/cedar-vocab/cv-61adb24fe32c1e97eef36a07.mp3",
+    "./audio/cedar-vocab/cv-633e643be5e939852cabe1e0.mp3",
+    "./audio/cedar-vocab/cv-63da099777b2972115aaa368.mp3",
+    "./audio/cedar-vocab/cv-64034e1db1d32825e9bd3aea.mp3",
+    "./audio/cedar-vocab/cv-646634b64097b6110109b3dd.mp3",
+    "./audio/cedar-vocab/cv-647899124cf18326f6d37885.mp3",
+    "./audio/cedar-vocab/cv-654f9d2fe0c3324af861e2ee.mp3",
+    "./audio/cedar-vocab/cv-66fc8f95227828f267ff7739.mp3",
+    "./audio/cedar-vocab/cv-67785241ee3933d27516ae8e.mp3",
+    "./audio/cedar-vocab/cv-681634fd128a4d04fdce114c.mp3",
+    "./audio/cedar-vocab/cv-69458ac173dbbdf480c6b3db.mp3",
+    "./audio/cedar-vocab/cv-69eb601e409e4f000ecd82c4.mp3",
+    "./audio/cedar-vocab/cv-6c09c71d03ed6fa08dee8940.mp3",
+    "./audio/cedar-vocab/cv-6c333827c1de387ba91fdd55.mp3",
+    "./audio/cedar-vocab/cv-6cb43212da414fea0a784fe4.mp3",
+    "./audio/cedar-vocab/cv-6cee71f3c7c3a3300025ccc7.mp3",
+    "./audio/cedar-vocab/cv-6ddaa72eed069591a677ebb3.mp3",
+    "./audio/cedar-vocab/cv-6e6570107f7b964b8f2937a0.mp3",
+    "./audio/cedar-vocab/cv-6e8af3daebc255f4fd889d9e.mp3",
+    "./audio/cedar-vocab/cv-6e9485c466506c5d6acbae92.mp3",
+    "./audio/cedar-vocab/cv-7024f7835d9057418e384445.mp3",
+    "./audio/cedar-vocab/cv-70843c4aff2a70be45cc8549.mp3",
+    "./audio/cedar-vocab/cv-70dbc8ae5cff875a991d1333.mp3",
+    "./audio/cedar-vocab/cv-70dff05693c58eb949183b07.mp3",
+    "./audio/cedar-vocab/cv-71ef97f051ac5f300a948a09.mp3",
+    "./audio/cedar-vocab/cv-7233c7edf4665204972092a1.mp3",
+    "./audio/cedar-vocab/cv-72aa80fe9a405c21ded490dc.mp3",
+    "./audio/cedar-vocab/cv-73431e8d336b09f19457ab0a.mp3",
+    "./audio/cedar-vocab/cv-74ef1675ea965022e2cc0bbc.mp3",
+    "./audio/cedar-vocab/cv-7563417d4599abc5f11fee17.mp3",
+    "./audio/cedar-vocab/cv-772be16d54035c9d444f275e.mp3",
+    "./audio/cedar-vocab/cv-78ae2465917c5d9fca954ddc.mp3",
+    "./audio/cedar-vocab/cv-7938b2f6ae0613648f92b16b.mp3",
+    "./audio/cedar-vocab/cv-7b7aa9aaf056f6fddb5f8498.mp3",
+    "./audio/cedar-vocab/cv-7bf27cdcb74c9b74d6bb4cbc.mp3",
+    "./audio/cedar-vocab/cv-7c025061abe43c3bcf83676c.mp3",
+    "./audio/cedar-vocab/cv-7d66cf1000a085d1a77e3d4f.mp3",
+    "./audio/cedar-vocab/cv-7e170bcf40965b5a1dfe3057.mp3",
+    "./audio/cedar-vocab/cv-7f72d085a4f2062c959b04f6.mp3",
+    "./audio/cedar-vocab/cv-80905ae652a74d29ad83d88b.mp3",
+    "./audio/cedar-vocab/cv-820312b0f7a0b762f9a00a66.mp3",
+    "./audio/cedar-vocab/cv-820c8edae193d0f830169aac.mp3",
+    "./audio/cedar-vocab/cv-82b6256a7ed96708852b8e96.mp3",
+    "./audio/cedar-vocab/cv-84bc05e6e7f8bfddbd4f040d.mp3",
+    "./audio/cedar-vocab/cv-86386d1516cbb26c67e690d9.mp3",
+    "./audio/cedar-vocab/cv-87289e2dbf38134f4eea4ef5.mp3",
+    "./audio/cedar-vocab/cv-87639e438f4eec1de1bd3541.mp3",
+    "./audio/cedar-vocab/cv-877ae9a054af019115c71b30.mp3",
+    "./audio/cedar-vocab/cv-880ddc4f51777ee2cff54e67.mp3",
+    "./audio/cedar-vocab/cv-8974d38aa6ec1503cbd8a651.mp3",
+    "./audio/cedar-vocab/cv-89b308f5d70922c232a8f70c.mp3",
+    "./audio/cedar-vocab/cv-8a6abbc9c3efe7a02ffabf7c.mp3",
+    "./audio/cedar-vocab/cv-8b82ef2f3486f3861878ff6d.mp3",
+    "./audio/cedar-vocab/cv-8be51a3747b1b17de0dc9a91.mp3",
+    "./audio/cedar-vocab/cv-8cde05982db9a550d5ae6c79.mp3",
+    "./audio/cedar-vocab/cv-8dd11789c73d17deb9ad3d15.mp3",
+    "./audio/cedar-vocab/cv-8e0d9d32629861b39ff9e3be.mp3",
+    "./audio/cedar-vocab/cv-8e3a75ccd2ea69494b1acd86.mp3",
+    "./audio/cedar-vocab/cv-8e7223f019dcd0e2dfca7cbc.mp3",
+    "./audio/cedar-vocab/cv-8f8d5b62daa398df830973bf.mp3",
+    "./audio/cedar-vocab/cv-90e2acdc3a7d17029907ecb7.mp3",
+    "./audio/cedar-vocab/cv-93410efbd73e444c296d1796.mp3",
+    "./audio/cedar-vocab/cv-959420b696cce0c958dcbb25.mp3",
+    "./audio/cedar-vocab/cv-959f081d0f85f6fc352ac3fa.mp3",
+    "./audio/cedar-vocab/cv-967956e085df46336785a1fc.mp3",
+    "./audio/cedar-vocab/cv-971fd936fd29d7c38ed53883.mp3",
+    "./audio/cedar-vocab/cv-99336a54f9723d293629668d.mp3",
+    "./audio/cedar-vocab/cv-99ba879998520ac8c2e9b66d.mp3",
+    "./audio/cedar-vocab/cv-99fdf0467f35b769b62763da.mp3",
+    "./audio/cedar-vocab/cv-9ad63565500a108992748bfc.mp3",
+    "./audio/cedar-vocab/cv-9ca002cdff4bb515d21a54b2.mp3",
+    "./audio/cedar-vocab/cv-9df68177e1a943cda7b3b67b.mp3",
+    "./audio/cedar-vocab/cv-9f0f297146bb2e717859259f.mp3",
+    "./audio/cedar-vocab/cv-9f77724a39b0fef409483f4f.mp3",
+    "./audio/cedar-vocab/cv-9f9e9e354c42cb50f3cb4101.mp3",
+    "./audio/cedar-vocab/cv-9ffe279cbb4c526cde37a136.mp3",
+    "./audio/cedar-vocab/cv-a16c3861cb1536185e26bd09.mp3",
+    "./audio/cedar-vocab/cv-a1e5d7e8f0a14ad1d9a6b077.mp3",
+    "./audio/cedar-vocab/cv-a2dae6404054e921b13d7695.mp3",
+    "./audio/cedar-vocab/cv-a3b3b23a3f172ad3b6adc5d8.mp3",
+    "./audio/cedar-vocab/cv-a46ae9a7b67d24822d9902d3.mp3",
+    "./audio/cedar-vocab/cv-a4a94bb1e68b62433fec9a3f.mp3",
+    "./audio/cedar-vocab/cv-a54d6a1865ce17b2137287e9.mp3",
+    "./audio/cedar-vocab/cv-a59663fb56b29c9ab532044b.mp3",
+    "./audio/cedar-vocab/cv-a5a8f60ed473deb9d9d7ba2d.mp3",
+    "./audio/cedar-vocab/cv-a7e797ad7a6e042d8d302036.mp3",
+    "./audio/cedar-vocab/cv-a8efad8945ff28a0b96b3437.mp3",
+    "./audio/cedar-vocab/cv-aba983807b1bc66e595e43db.mp3",
+    "./audio/cedar-vocab/cv-ac31a2ac67fd4cad06ee7e05.mp3",
+    "./audio/cedar-vocab/cv-ac9475c6c7dadbec58c1b1ae.mp3",
+    "./audio/cedar-vocab/cv-ad5d049a925067ca133e5e10.mp3",
+    "./audio/cedar-vocab/cv-ad8f60ec5e1d2cb1d93ad947.mp3",
+    "./audio/cedar-vocab/cv-adaec20fba20c1dbae28553f.mp3",
+    "./audio/cedar-vocab/cv-af835dba4a4ad94f1572c4cf.mp3",
+    "./audio/cedar-vocab/cv-b0aa7725d2c42db3ef3c20c2.mp3",
+    "./audio/cedar-vocab/cv-b1ecd06eb89f41759033c864.mp3",
+    "./audio/cedar-vocab/cv-b21c00c831158b8549b31d9e.mp3",
+    "./audio/cedar-vocab/cv-b2fa7cef25b08054169d5065.mp3",
+    "./audio/cedar-vocab/cv-b397cd876cbe030c974b8ca8.mp3",
+    "./audio/cedar-vocab/cv-b55572289ddf6bd8b9c01544.mp3",
+    "./audio/cedar-vocab/cv-b6720143923d8c485f8948c5.mp3",
+    "./audio/cedar-vocab/cv-b976c2729d8d1cb91cddb25e.mp3",
+    "./audio/cedar-vocab/cv-ba13b706f14532b166de39be.mp3",
+    "./audio/cedar-vocab/cv-badb3cba511572feebca6efd.mp3",
+    "./audio/cedar-vocab/cv-bb98a169a696096fe335bc2b.mp3",
+    "./audio/cedar-vocab/cv-bd4b337d95130163c51bca89.mp3",
+    "./audio/cedar-vocab/cv-be58cdc7eac554338d3b1523.mp3",
+    "./audio/cedar-vocab/cv-bf5a9cedb34cb64ec554a95a.mp3",
+    "./audio/cedar-vocab/cv-bfde0b58c62132255614124f.mp3",
+    "./audio/cedar-vocab/cv-bfdec4adbaa107d7ff713aee.mp3",
+    "./audio/cedar-vocab/cv-c089085658f182859f8254d5.mp3",
+    "./audio/cedar-vocab/cv-c09f1ab2e58ceeb8dfb8a446.mp3",
+    "./audio/cedar-vocab/cv-c21e5aec581827f35cf70972.mp3",
+    "./audio/cedar-vocab/cv-c27ab3912649855efafd27b5.mp3",
+    "./audio/cedar-vocab/cv-c2ddf2ef4d6b08d8fbfd9f39.mp3",
+    "./audio/cedar-vocab/cv-c42b304437acaf72c266dc86.mp3",
+    "./audio/cedar-vocab/cv-c7e3c757801e851806593d62.mp3",
+    "./audio/cedar-vocab/cv-caf6512a95ac604d5621c2d9.mp3",
+    "./audio/cedar-vocab/cv-cbe3e443089a35c4426c1a1d.mp3",
+    "./audio/cedar-vocab/cv-cde9bc06fd5b948db5d48651.mp3",
+    "./audio/cedar-vocab/cv-ce7ab67b72cafd76221396a4.mp3",
+    "./audio/cedar-vocab/cv-ce7bd150dd97e47b97331e9f.mp3",
+    "./audio/cedar-vocab/cv-ce9b8f9a168f0da72fa00f07.mp3",
+    "./audio/cedar-vocab/cv-d0670bb34338b2d18c83c110.mp3",
+    "./audio/cedar-vocab/cv-d2cb597aed9e0408386cb9d7.mp3",
+    "./audio/cedar-vocab/cv-d3929242d7292bb3d191783e.mp3",
+    "./audio/cedar-vocab/cv-d5449b8c60d121dade9fa673.mp3",
+    "./audio/cedar-vocab/cv-d7bfcc988ac1bbc999c260fb.mp3",
+    "./audio/cedar-vocab/cv-d8145d9d333e6d0ac1cd8445.mp3",
+    "./audio/cedar-vocab/cv-d8a0092a9f4bba19863f59f4.mp3",
+    "./audio/cedar-vocab/cv-d8a6064144078f3e44901151.mp3",
+    "./audio/cedar-vocab/cv-d8c545b0811e270b36afce81.mp3",
+    "./audio/cedar-vocab/cv-d956bd5bc42689ec3669ffd6.mp3",
+    "./audio/cedar-vocab/cv-d97c2a6ee80e9d75e9d19f27.mp3",
+    "./audio/cedar-vocab/cv-d9a9c2a1650c32bac621671d.mp3",
+    "./audio/cedar-vocab/cv-d9bda85213dfdc873e6998b7.mp3",
+    "./audio/cedar-vocab/cv-da636759b7e4a15f62e79a38.mp3",
+    "./audio/cedar-vocab/cv-dac611de56c7a70290083ba9.mp3",
+    "./audio/cedar-vocab/cv-db214504f5ff96337215e0d3.mp3",
+    "./audio/cedar-vocab/cv-dbec4332258de286c474a2b1.mp3",
+    "./audio/cedar-vocab/cv-dcb88c56e3996e8fbb68d140.mp3",
+    "./audio/cedar-vocab/cv-dd8bc621aa3b4f51254c3d97.mp3",
+    "./audio/cedar-vocab/cv-de080fc911080cf929ffeb74.mp3",
+    "./audio/cedar-vocab/cv-de934571c104fb1c163b01ef.mp3",
+    "./audio/cedar-vocab/cv-dee003172e0527dd02012995.mp3",
+    "./audio/cedar-vocab/cv-dfb9bdf6358a374665a12b32.mp3",
+    "./audio/cedar-vocab/cv-dfd5354a29a03b2d7ae04eb4.mp3",
+    "./audio/cedar-vocab/cv-e00b87105732dcf321d5988c.mp3",
+    "./audio/cedar-vocab/cv-e025ece9c73ca0b675d1cda6.mp3",
+    "./audio/cedar-vocab/cv-e03be86756be4b53b728f1ae.mp3",
+    "./audio/cedar-vocab/cv-e0b1098bc49646be8d7019ca.mp3",
+    "./audio/cedar-vocab/cv-e2332b9b083f33478b1e559d.mp3",
+    "./audio/cedar-vocab/cv-e2d7726c3ba6726010d24e30.mp3",
+    "./audio/cedar-vocab/cv-e3ee456ac246d75561548104.mp3",
+    "./audio/cedar-vocab/cv-e482363c4c2127f9e5b835c5.mp3",
+    "./audio/cedar-vocab/cv-e4f6d391b1d80d8f3e5a8b5c.mp3",
+    "./audio/cedar-vocab/cv-e54fecb8c5db33af2969201c.mp3",
+    "./audio/cedar-vocab/cv-e5d06e976a52c4392533910f.mp3",
+    "./audio/cedar-vocab/cv-e5fda7efcf5fc6e5ae4a1350.mp3",
+    "./audio/cedar-vocab/cv-e6c85750b561183228e4167c.mp3",
+    "./audio/cedar-vocab/cv-e79a6177487322cc7e8ce0b9.mp3",
+    "./audio/cedar-vocab/cv-e80532620ad2067f452edbf0.mp3",
+    "./audio/cedar-vocab/cv-e83842e90dd4523d17da12e5.mp3",
+    "./audio/cedar-vocab/cv-e8df598f33af78726c61e347.mp3",
+    "./audio/cedar-vocab/cv-e9b27ac56363ac77d5f402da.mp3",
+    "./audio/cedar-vocab/cv-e9e05330bdcb1c9d9f0be735.mp3",
+    "./audio/cedar-vocab/cv-eab6214dec38c93addebd5b1.mp3",
+    "./audio/cedar-vocab/cv-ec3e8e305d83876c69fef8b9.mp3",
+    "./audio/cedar-vocab/cv-ed6dbc20ba0cd08f5bbb8f32.mp3",
+    "./audio/cedar-vocab/cv-edc450ad23af8d994ecdca46.mp3",
+    "./audio/cedar-vocab/cv-ee5b3b611a761c503f20cbb8.mp3",
+    "./audio/cedar-vocab/cv-eea8a7f6dbe965cb339844e0.mp3",
+    "./audio/cedar-vocab/cv-ef0293d221c9465f20b43293.mp3",
+    "./audio/cedar-vocab/cv-efdc450b8c1e54e108462258.mp3",
+    "./audio/cedar-vocab/cv-f0bce98e88de0eb9870b0953.mp3",
+    "./audio/cedar-vocab/cv-f14490366ffb3a39729de238.mp3",
+    "./audio/cedar-vocab/cv-f1b1be673cdb6b435cc0602c.mp3",
+    "./audio/cedar-vocab/cv-f24ea478d29dd08d1abffcd4.mp3",
+    "./audio/cedar-vocab/cv-f338ad5e1683f7306e37429b.mp3",
+    "./audio/cedar-vocab/cv-f35631f29814ddf0ad3827a4.mp3",
+    "./audio/cedar-vocab/cv-f582eb6bcb6e5cbb44fc9444.mp3",
+    "./audio/cedar-vocab/cv-f62ba84b018a9592f4e9c0d9.mp3",
+    "./audio/cedar-vocab/cv-f63acf383b14bc20ec182621.mp3",
+    "./audio/cedar-vocab/cv-f6de9c3d96be5fcf05dda9c1.mp3",
+    "./audio/cedar-vocab/cv-f7b14c18462d4dcdbd29a1ad.mp3",
+    "./audio/cedar-vocab/cv-f92bb68a20139655d90572ee.mp3",
+    "./audio/cedar-vocab/cv-fc21a58742aebf8c61481c6d.mp3",
+    "./audio/cedar-vocab/cv-fe64535345525e9adeca8253.mp3",
+    "./audio/cedar-vocab/cv-ffa4ea2b33b8c3c485eac1d9.mp3",
+    "./audio/listening-legacy/after-that.mp3",
+    "./audio/listening-legacy/fruits.mp3",
+    "./audio/listening-legacy/high.mp3",
+    "./audio/listening-legacy/hot.mp3",
+    "./audio/listening-legacy/how-many.mp3",
+    "./audio/listening-legacy/i-know.mp3",
+    "./audio/listening-legacy/only.mp3",
+    "./audio/listening-legacy/relative.mp3",
+    "./audio/listening-legacy/vegetables.mp3",
+    "./audio/vocab/actually-in-reality.m4a",
+    "./audio/vocab/address.m4a",
+    "./audio/vocab/admissions.m4a",
+    "./audio/vocab/after-that.m4a",
+    "./audio/vocab/after.m4a",
+    "./audio/vocab/age.m4a",
+    "./audio/vocab/also.m4a",
+    "./audio/vocab/always.m4a",
+    "./audio/vocab/anthropology.m4a",
+    "./audio/vocab/area-region.m4a",
+    "./audio/vocab/army.m4a",
+    "./audio/vocab/as-far-as-is-concerned.m4a",
+    "./audio/vocab/autumn.m4a",
+    "./audio/vocab/basketball.m4a",
+    "./audio/vocab/because-of.m4a",
+    "./audio/vocab/because.m4a",
+    "./audio/vocab/before.m4a",
+    "./audio/vocab/best.m4a",
+    "./audio/vocab/business-administration.m4a",
+    "./audio/vocab/busy-with.m4a",
+    "./audio/vocab/center.m4a",
+    "./audio/vocab/classmate.m4a",
+    "./audio/vocab/cloudy.m4a",
+    "./audio/vocab/cold.m4a",
+    "./audio/vocab/college.m4a",
+    "./audio/vocab/commerce-trade.m4a",
+    "./audio/vocab/company.m4a",
+    "./audio/vocab/congratulations.m4a",
+    "./audio/vocab/country.m4a",
+    "./audio/vocab/crowding.m4a",
+    "./audio/vocab/dancing.m4a",
+    "./audio/vocab/day.m4a",
+    "./audio/vocab/daytime.m4a",
+    "./audio/vocab/degree.m4a",
+    "./audio/vocab/egyptian.m4a",
+    "./audio/vocab/elementary.m4a",
+    "./audio/vocab/employee.m4a",
+    "./audio/vocab/engineering.m4a",
+    "./audio/vocab/evening.m4a",
+    "./audio/vocab/every-all.m4a",
+    "./audio/vocab/extended-family.m4a",
+    "./audio/vocab/family-nuclear.m4a",
+    "./audio/vocab/father.m4a",
+    "./audio/vocab/feel-experience.m4a",
+    "./audio/vocab/first.m4a",
+    "./audio/vocab/fish.m4a",
+    "./audio/vocab/fruits.m4a",
+    "./audio/vocab/go-to.m4a",
+    "./audio/vocab/graduate.m4a",
+    "./audio/vocab/grammar.m4a",
+    "./audio/vocab/grandfather.m4a",
+    "./audio/vocab/grandmother.m4a",
+    "./audio/vocab/he-was.m4a",
+    "./audio/vocab/high.m4a",
+    "./audio/vocab/history.m4a",
+    "./audio/vocab/hot.m4a",
+    "./audio/vocab/how-many.m4a",
+    "./audio/vocab/humidity.m4a",
+    "./audio/vocab/husband.m4a",
+    "./audio/vocab/i-eat.m4a",
+    "./audio/vocab/i-have.m4a",
+    "./audio/vocab/i-know.m4a",
+    "./audio/vocab/i-listen-to.m4a",
+    "./audio/vocab/i-live.m4a",
+    "./audio/vocab/i-memorize.m4a",
+    "./audio/vocab/i-read.m4a",
+    "./audio/vocab/i-remember.m4a",
+    "./audio/vocab/i-say.m4a",
+    "./audio/vocab/i-speak-about.m4a",
+    "./audio/vocab/i-study.m4a",
+    "./audio/vocab/i-was.m4a",
+    "./audio/vocab/i-work.m4a",
+    "./audio/vocab/i-write.m4a",
+    "./audio/vocab/in-order-to.m4a",
+    "./audio/vocab/individual.m4a",
+    "./audio/vocab/language.m4a",
+    "./audio/vocab/law.m4a",
+    "./audio/vocab/lecture-class.m4a",
+    "./audio/vocab/letter.m4a",
+    "./audio/vocab/life.m4a",
+    "./audio/vocab/literature.m4a",
+    "./audio/vocab/little.m4a",
+    "./audio/vocab/loneliness.m4a",
+    "./audio/vocab/lot-much.m4a",
+    "./audio/vocab/married.m4a",
+    "./audio/vocab/maternal-aunt.m4a",
+    "./audio/vocab/meat.m4a",
+    "./audio/vocab/medicine.m4a",
+    "./audio/vocab/middle-east.m4a",
+    "./audio/vocab/mother.m4a",
+    "./audio/vocab/nationality.m4a",
+    "./audio/vocab/night.m4a",
+    "./audio/vocab/now.m4a",
+    "./audio/vocab/obtain-receive.m4a",
+    "./audio/vocab/of-descent.m4a",
+    "./audio/vocab/officer.m4a",
+    "./audio/vocab/only-lonely.m4a",
+    "./audio/vocab/only.m4a",
+    "./audio/vocab/paternal-uncle.m4a",
+    "./audio/vocab/people.m4a",
+    "./audio/vocab/photography.m4a",
+    "./audio/vocab/picture.m4a",
+    "./audio/vocab/play.m4a",
+    "./audio/vocab/political-science.m4a",
+    "./audio/vocab/psychology.m4a",
+    "./audio/vocab/rain.m4a",
+    "./audio/vocab/really-for-real.m4a",
+    "./audio/vocab/really-truly.m4a",
+    "./audio/vocab/really.m4a",
+    "./audio/vocab/relative.m4a",
+    "./audio/vocab/religion.m4a",
+    "./audio/vocab/restaurant.m4a",
+    "./audio/vocab/running.m4a",
+    "./audio/vocab/salad.m4a",
+    "./audio/vocab/school.m4a",
+    "./audio/vocab/season.m4a",
+    "./audio/vocab/since-ago.m4a",
+    "./audio/vocab/snow.m4a",
+    "./audio/vocab/sometimes.m4a",
+    "./audio/vocab/son.m4a",
+    "./audio/vocab/soup.m4a",
+    "./audio/vocab/specializing-specialist-in.m4a",
+    "./audio/vocab/sports.m4a",
+    "./audio/vocab/spring.m4a",
+    "./audio/vocab/sunny.m4a",
+    "./audio/vocab/sweets.m4a",
+    "./audio/vocab/swimming.m4a",
+    "./audio/vocab/teaching-assistant.m4a",
+    "./audio/vocab/temperature.m4a",
+    "./audio/vocab/the-same.m4a",
+    "./audio/vocab/therefore.m4a",
+    "./audio/vocab/today.m4a",
+    "./audio/vocab/tomorrow.m4a",
+    "./audio/vocab/translation-from-to.m4a",
+    "./audio/vocab/translator.m4a",
+    "./audio/vocab/traveling.m4a",
+    "./audio/vocab/two-years.m4a",
+    "./audio/vocab/united-nations.m4a",
+    "./audio/vocab/vegetables.m4a",
+    "./audio/vocab/very.m4a",
+    "./audio/vocab/weather-atmosphere.m4a",
+    "./audio/vocab/week.m4a",
+    "./audio/vocab/well.m4a",
+    "./audio/vocab/what-verbs.m4a",
+    "./audio/vocab/when.m4a",
+    "./audio/vocab/which.m4a",
+    "./audio/vocab/why.m4a",
+    "./audio/vocab/wife.m4a",
+    "./audio/vocab/winter.m4a",
+    "./audio/vocab/work-noun.m4a",
+    "./audio/vocab/year.m4a",
+    "./audio/vocab/yesterday.m4a"
+  ],
+  "recordings": [
+    {
+      "src": "./audio/user-vocab/clip-001.mp3",
+      "sha256": "133fee75f9336a884c8b241626871358cae4c05c06ac3afdf5f6bf44898e716d"
+    },
+    {
+      "src": "./audio/user-vocab/clip-002.mp3",
+      "sha256": "058716d5399abbb584b6bdfb0da47852ac35903954cb1298f246596530036a8e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-003.mp3",
+      "sha256": "f4ebbf15ab86ff8477ea6c6e82615b819c1fbcca091dc4588cfbad682fef0749"
+    },
+    {
+      "src": "./audio/user-vocab/clip-004.mp3",
+      "sha256": "a0f4d018e053c6507ada3c1cba2ba0046fcf82776d0c8a35a37f45c6a1b8ac3d"
+    },
+    {
+      "src": "./audio/user-vocab/clip-005.mp3",
+      "sha256": "7502f01d6825805b1b36111091ed47bdfbe46176c4e44a02645d3292f9ae0cf6"
+    },
+    {
+      "src": "./audio/user-vocab/clip-006.mp3",
+      "sha256": "6b7974c29ad6d4fc7468ded274115535cd5d337b6a001cc4511de5f37fe49d4e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-007.mp3",
+      "sha256": "02b29eec6c11b23ae5ef4bc47cab1f79a83d365ff2bfd7d14677ce460531900b"
+    },
+    {
+      "src": "./audio/user-vocab/clip-008.mp3",
+      "sha256": "427c5093b1d12ed824f2fe271fe290a72f64a331bc7ad9fd03267624849d52ce"
+    },
+    {
+      "src": "./audio/user-vocab/clip-009.mp3",
+      "sha256": "2c7577e054da954fdc4252807e7a0e379438adb037895ef0c5fb2e7869fcbe29"
+    },
+    {
+      "src": "./audio/user-vocab/clip-010.mp3",
+      "sha256": "3fd98437d4f80b6f1633769dc2ccd04c26f5536fd056496fbbef25c9928b00e7"
+    },
+    {
+      "src": "./audio/user-vocab/clip-011.mp3",
+      "sha256": "e59c58ce3a2d3a4bd61e9edaff87497bd30327d49b6c02ed1da41481ad415de7"
+    },
+    {
+      "src": "./audio/user-vocab/clip-012.mp3",
+      "sha256": "00a40484a4d1e12e136e25cb44ad1722d74aa064e5e4fe399373f78daf3ab27a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-013.mp3",
+      "sha256": "7801109b3a20a63324ba6b758d83b8c760e25d133fa6e17c40d288906e24f7d6"
+    },
+    {
+      "src": "./audio/user-vocab/clip-014.mp3",
+      "sha256": "3c7059b2ca7febc4eb24e5c91f8c2a66163669dbe8eca959cb531a55538a83ca"
+    },
+    {
+      "src": "./audio/user-vocab/clip-015.mp3",
+      "sha256": "ece87a2717c68f8a92879c60014dc9db46d3a2e14f7c9a9604b3a94b2f8482a2"
+    },
+    {
+      "src": "./audio/user-vocab/clip-016.mp3",
+      "sha256": "923011b08fe51f24d9ad598cf7c96a7c6d01657ae519dde76961031806496803"
+    },
+    {
+      "src": "./audio/user-vocab/clip-017.mp3",
+      "sha256": "066231eed9e08c9f2cf23f20139c734a480938e17bbcb8546a05282519d0b163"
+    },
+    {
+      "src": "./audio/user-vocab/clip-018.mp3",
+      "sha256": "38f3087ac0171443474dba657a34aff9ce857681e9abe9b024f9bf045b42d210"
+    },
+    {
+      "src": "./audio/user-vocab/clip-019.mp3",
+      "sha256": "9df85dd8ad24addd6a47776630c7f9d3df6900668f939b36c299f54a44c7007b"
+    },
+    {
+      "src": "./audio/user-vocab/clip-020.mp3",
+      "sha256": "368d37a1670352a3af676dfeb6fb295db1ac11b56d8740d0ae9b34f71b47be2c"
+    },
+    {
+      "src": "./audio/user-vocab/clip-021.mp3",
+      "sha256": "d1ab1abc279657b588e0f19b56900995a2678cf9f9069f66f4067399e74be921"
+    },
+    {
+      "src": "./audio/user-vocab/clip-022.mp3",
+      "sha256": "14ce283f027ed921d50d396ad7aeadd3109f7ecdea37ca3400dabbfad1cb3ebd"
+    },
+    {
+      "src": "./audio/user-vocab/clip-023.mp3",
+      "sha256": "27f8629ed6d5f9c26fe684fb43b0d168ddada01ef9f1951475885742c154de2d"
+    },
+    {
+      "src": "./audio/user-vocab/clip-024.mp3",
+      "sha256": "a9a92500bc3e6d07cb3ffeffca8e251a62689c84065f699cb832fb2c8fb757a4"
+    },
+    {
+      "src": "./audio/user-vocab/clip-025.mp3",
+      "sha256": "b8171da3d61771d2980f57f69f927f46c40c6d0411f731d531583b144b1233db"
+    },
+    {
+      "src": "./audio/user-vocab/clip-026.mp3",
+      "sha256": "778d980d89e91e23f39cdddc813dade2c857eaf65563022c90d9971e1b2b43b2"
+    },
+    {
+      "src": "./audio/user-vocab/clip-027.mp3",
+      "sha256": "7214b89df178a58318bc54c6a8e3681437bb1b8596ca4c8df166519ddd6ab9d8"
+    },
+    {
+      "src": "./audio/user-vocab/clip-028.mp3",
+      "sha256": "2eab9636ab58fd89edde9ac95dc36395998e1332314631db7bf71a895c3bac23"
+    },
+    {
+      "src": "./audio/user-vocab/clip-029.mp3",
+      "sha256": "433da025371383cb04a968775d2d727dca245fc9e40e56c9a97f7982e82fb057"
+    },
+    {
+      "src": "./audio/user-vocab/clip-030.mp3",
+      "sha256": "2fa67696dbcc758b1c42137d85323e404698474f62980efd7d1710e020fa08ba"
+    },
+    {
+      "src": "./audio/user-vocab/clip-031.mp3",
+      "sha256": "12b85d19eb48ead71f98619ef6e8f9b2ebf5277eb4950fcdd1a6b41c54299a8a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-032.mp3",
+      "sha256": "fb4d35767e806ff6131dd7815585968657ffc4f2254f2c1a9664916442afcfd8"
+    },
+    {
+      "src": "./audio/user-vocab/clip-033.mp3",
+      "sha256": "0dd372ed6c86ed623833a57e5d93be989257d4975018f4a2ee331d30577b4b3f"
+    },
+    {
+      "src": "./audio/user-vocab/clip-034.mp3",
+      "sha256": "6d56ecde01079b906ff8a616f881a53f888471a03fc5ce19a48cd212724d0cc2"
+    },
+    {
+      "src": "./audio/user-vocab/clip-035.mp3",
+      "sha256": "50d579faae9ceffa162261a6f5b895fadc4472b66f41b7a711b3de0b874aa1cb"
+    },
+    {
+      "src": "./audio/user-vocab/clip-036.mp3",
+      "sha256": "b1930fafedac2c7d25aecc7b1294e4ea4e0cfd68a548c5804774a70c02ae6687"
+    },
+    {
+      "src": "./audio/user-vocab/clip-037.mp3",
+      "sha256": "2dde3cb0de7b5a0bfc7e811156e9c1d3ad74efc81688e554eac768d04d628f6d"
+    },
+    {
+      "src": "./audio/user-vocab/clip-038.mp3",
+      "sha256": "c0ff6788c4f67a512df0478c24713e23759736327e4e135b4d3d9adb8c791b27"
+    },
+    {
+      "src": "./audio/user-vocab/clip-039.mp3",
+      "sha256": "986bf73d6fe907471f8ca42b30366c087600623130b16ac397455e12a18facec"
+    },
+    {
+      "src": "./audio/user-vocab/clip-040.mp3",
+      "sha256": "d56377adc27a85858545a72cdaf196ba55660a19da081e00d30a707f4b9a49ed"
+    },
+    {
+      "src": "./audio/user-vocab/clip-041.mp3",
+      "sha256": "63c61e11b6a72818687b3a61b230e147cd18cf06615140ec3cb85954c976c92b"
+    },
+    {
+      "src": "./audio/user-vocab/clip-042.mp3",
+      "sha256": "073b765055ea9631b6483bbcb5cd7ec5de327af35537eeec8203399d35a26d12"
+    },
+    {
+      "src": "./audio/user-vocab/clip-043.mp3",
+      "sha256": "e1a20362122728d51407bc4d8c3f6c76bf34b1f857f76ba0d3a34a92d4851548"
+    },
+    {
+      "src": "./audio/user-vocab/clip-044.mp3",
+      "sha256": "1dfc2ef953bdb68f4ae62e979209b2391518aba548ede85acf7bb931eb0ef4bd"
+    },
+    {
+      "src": "./audio/user-vocab/clip-045.mp3",
+      "sha256": "10df91c00047de896e352800fe7e3565de5487d66d2a7db03047ffee4eb743fb"
+    },
+    {
+      "src": "./audio/user-vocab/clip-046.mp3",
+      "sha256": "29e6b79489149163119e42ed6cf4185ad873a3e86e2e5041790aac60aa66cc70"
+    },
+    {
+      "src": "./audio/user-vocab/clip-047.mp3",
+      "sha256": "70a1969af79216db42635e8b8aa1a360595c547877eb6cb007cd2318b8918797"
+    },
+    {
+      "src": "./audio/user-vocab/clip-048.mp3",
+      "sha256": "0c0ea592f802d58b526e257c3144f5013b032e2d229fbfb0759ae9c8a04f8a45"
+    },
+    {
+      "src": "./audio/user-vocab/clip-049.mp3",
+      "sha256": "b8b6ef86d25f6f7065a104f1414f74aa3576651b3759502d0640bdb84a007b81"
+    },
+    {
+      "src": "./audio/user-vocab/clip-050.mp3",
+      "sha256": "4a8e78a2f6660a50c4b8161b81eff801776c8d4eb23ae4a274718a837692dab5"
+    },
+    {
+      "src": "./audio/user-vocab/clip-051.mp3",
+      "sha256": "ec795bbb756cb3dda22d14341cca00e45425efaae84427563d96bcbda957e169"
+    },
+    {
+      "src": "./audio/user-vocab/clip-052.mp3",
+      "sha256": "772fd715f6a6821214bb2c61caf0eb0875fd3252f9289e4f43db81012446d157"
+    },
+    {
+      "src": "./audio/user-vocab/clip-053.mp3",
+      "sha256": "53ed8672c7ceaa7f21064edae9297f74ea1c12135d75ec8915ac0f8ed908e352"
+    },
+    {
+      "src": "./audio/user-vocab/clip-054.mp3",
+      "sha256": "03566c3512988ae522da3ba65934012c58caa3c229f4cf63ac3da5997ad7f001"
+    },
+    {
+      "src": "./audio/user-vocab/clip-055.mp3",
+      "sha256": "d0937017cbbe3d51c64b6b51d33921a026a403120d15d629990390852e4fa3e5"
+    },
+    {
+      "src": "./audio/user-vocab/clip-056.mp3",
+      "sha256": "c4ea8a8e03651244d0e4acb67a92b2488c53387e5655fd33f7f59618dde30ac6"
+    },
+    {
+      "src": "./audio/user-vocab/clip-057.mp3",
+      "sha256": "a414e5cdd2cd6df29c053d83cbae08407e62431a6e2da4efc47c623a8bcbea08"
+    },
+    {
+      "src": "./audio/user-vocab/clip-058.mp3",
+      "sha256": "1bfca38f900ff559fd5e6ab01cd74bd8588668977442075606b90ee02f40d50e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-059.mp3",
+      "sha256": "55494530b5ac20321070cb4c24b3052953e74770538521c96cac0886dce72ce3"
+    },
+    {
+      "src": "./audio/user-vocab/clip-060.mp3",
+      "sha256": "575dfc8832523777ec07713f8de1d52712449e193fab971ab3fdb523d7b46ea4"
+    },
+    {
+      "src": "./audio/user-vocab/clip-061.mp3",
+      "sha256": "cd6ae049ca58cfccccf8e2459ed7c5e68a11753ca889bdf2425a1c1cabb07ac2"
+    },
+    {
+      "src": "./audio/user-vocab/clip-062.mp3",
+      "sha256": "20d739f8a419e48866dbcd2dcac164258ccdd2b9ae5f13993cee2c1b27ecf55e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-063.mp3",
+      "sha256": "92db5dbb2de2c19cb2a19df6b7405fe0cb0c00a1449622235d6b82a3c730088f"
+    },
+    {
+      "src": "./audio/user-vocab/clip-064.mp3",
+      "sha256": "6d7ca417d86ad147d1a6908b8c05c3bef6819705a6f2273d027c94719730097a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-065.mp3",
+      "sha256": "2072bb6108e5cb670a0d1a623f9697c7e14fef81278c3ac6c84614fba1338bb4"
+    },
+    {
+      "src": "./audio/user-vocab/clip-066.mp3",
+      "sha256": "74456a2efb850ea1540afb92590d8e56fc0a59a0993fb8bd7cc4d4e30e5fee2c"
+    },
+    {
+      "src": "./audio/user-vocab/clip-067.mp3",
+      "sha256": "4f5c958968957c55dbaab82bc62f505d001236f29f80ba6c79dcda50873d1299"
+    },
+    {
+      "src": "./audio/user-vocab/clip-068.mp3",
+      "sha256": "046c73d88adae9969115925a95eac0b95910709e3ebb68174b46640b8f0fdc02"
+    },
+    {
+      "src": "./audio/user-vocab/clip-069.mp3",
+      "sha256": "2e4f7afc7e77ecf054b47acd3349107be89ca1a312c965ee5a8b589e3c3bde64"
+    },
+    {
+      "src": "./audio/user-vocab/clip-070.mp3",
+      "sha256": "1f3aa11139d3b58e9d85a9f1635b36ee2af567969ddcbd3452f2ea45778f05e4"
+    },
+    {
+      "src": "./audio/user-vocab/clip-071.mp3",
+      "sha256": "16c40c83791e4c46d8f95aab86d18c514de1245afe74bcdd1809293d3ee36d9c"
+    },
+    {
+      "src": "./audio/user-vocab/clip-072.mp3",
+      "sha256": "d5f459ffd8280de92a3196f042ee83ddd299857dac55e15211cc0c7bf2f7e7a5"
+    },
+    {
+      "src": "./audio/user-vocab/clip-073.mp3",
+      "sha256": "4f0c74fc3d399e2408ea45c0cb6031f427f1b47e16dc60c413ad1c0034ec6d76"
+    },
+    {
+      "src": "./audio/user-vocab/clip-074.mp3",
+      "sha256": "4b4c92c487ec44887b1cb18ca16be725dc6a7b4eaa69e10cf42860751afaf943"
+    },
+    {
+      "src": "./audio/user-vocab/clip-075.mp3",
+      "sha256": "3c962bcb6d75f21027dceb482358d3dc34fd1c94cd3136b410f7bc8f8c72638b"
+    },
+    {
+      "src": "./audio/user-vocab/clip-076.mp3",
+      "sha256": "fa9521fa5edeab7abd17d41ece3a9f544aa0fa4db4fed936cd5fa0496d0b7d9a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-077.mp3",
+      "sha256": "c9def7c640cd0144e189d2639685ed6c0798a167ceabc3e4070bad1042f20cab"
+    },
+    {
+      "src": "./audio/user-vocab/clip-078.mp3",
+      "sha256": "4f2e25ccca945a5303f9100cf4f9760b0a238c93fd78342a437293c1865b4ea7"
+    },
+    {
+      "src": "./audio/user-vocab/clip-079.mp3",
+      "sha256": "3277205b6204f12d6b91d2cb2eb87b77c6aca3af3c95d5839fec21be84a37d69"
+    },
+    {
+      "src": "./audio/user-vocab/clip-080.mp3",
+      "sha256": "9c8cdb21073c3d8205311ce35a8708621175f419c43b33b733d05fac1faa5a7f"
+    },
+    {
+      "src": "./audio/user-vocab/clip-081.mp3",
+      "sha256": "a203963deeee216a7d09800bd9c9f65438e23d0b37b3d7ec10d7cfcde5b3b4ff"
+    },
+    {
+      "src": "./audio/user-vocab/clip-082.mp3",
+      "sha256": "0033f9e138e449d37ba5a0210ccb339018b4e7fd33e2a28e5d8b26ddc905cd4e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-083.mp3",
+      "sha256": "e371eda58fb31ba463e3ddd783e14288a21cff895315323f9a4d9c49c74c1414"
+    },
+    {
+      "src": "./audio/user-vocab/clip-084.mp3",
+      "sha256": "a8eef81d4ae588466b8a5bb71aa7f809c123ef3bb57b62df3488a76f61de8d70"
+    },
+    {
+      "src": "./audio/user-vocab/clip-085.mp3",
+      "sha256": "4675ea412db089a32d987488f06972270ee3ed712d34072f0291401ac43fdb3b"
+    },
+    {
+      "src": "./audio/user-vocab/clip-086.mp3",
+      "sha256": "94ce2cff61dcbf054472a6e3310a31bafa6138d88e76e8db99ee7a516be7ffe6"
+    },
+    {
+      "src": "./audio/user-vocab/clip-087.mp3",
+      "sha256": "ca5f8d82110acc04965cf129dbd09f1b08521281ed2020049e21fb86ad4c621a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-088.mp3",
+      "sha256": "9fafa6373aa784c3ad62d5ae31ce430f8d342a4596bfe0031ee6af145f3da420"
+    },
+    {
+      "src": "./audio/user-vocab/clip-089.mp3",
+      "sha256": "aaec5108c2d0083676ba4ad4ae8a84a4e6f866467a47e5271c22ab5a19492e02"
+    },
+    {
+      "src": "./audio/user-vocab/clip-090.mp3",
+      "sha256": "1fe8c364de89c4d533fe42dea3211880df153beb10114e23b7cd83a5f949bbf0"
+    },
+    {
+      "src": "./audio/user-vocab/clip-091.mp3",
+      "sha256": "a73838f42cfeb2ac2cb921968966f2c069506b792835aa3bedb4a84975d082bb"
+    },
+    {
+      "src": "./audio/user-vocab/clip-092.mp3",
+      "sha256": "3e3ffb13d6737dac2f9bf5719694dc534d62e1a8a2f5e4600d085b238fee9e7f"
+    },
+    {
+      "src": "./audio/user-vocab/clip-093.mp3",
+      "sha256": "7b21ff0ff07813298bd90c95dc0c4af9e48fab9aff8661eddf4c2e82bcf42f89"
+    },
+    {
+      "src": "./audio/user-vocab/clip-094.mp3",
+      "sha256": "ac1988aaf469f54e843f39ba525cf0e8308dffeabbfbe4e610d2530e157ec82c"
+    },
+    {
+      "src": "./audio/user-vocab/clip-095.mp3",
+      "sha256": "4ec29ee842436a4e09ff946b49b66e05433b35015e29d90131a3e80af857572a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-096.mp3",
+      "sha256": "ea5e75dd5bf5a2b77284277426f24adc2157010a738faa22e2beb7a38d2def60"
+    },
+    {
+      "src": "./audio/user-vocab/clip-097.mp3",
+      "sha256": "fd52d5f9b9b63239bce6965180672917f22797847a158a3f6cc9d3edf89d2906"
+    },
+    {
+      "src": "./audio/user-vocab/clip-098.mp3",
+      "sha256": "451e0a3c2114fc5ae50d78cef5a2eadf999ef763facd4339e4f8ffd3202a73ea"
+    },
+    {
+      "src": "./audio/user-vocab/clip-099.mp3",
+      "sha256": "e1a70c788fc80ce182998f8e26b8f5f444d61fcf7232ea3d708456454cf747a1"
+    },
+    {
+      "src": "./audio/user-vocab/clip-100.mp3",
+      "sha256": "bde77a8156473a3a49b26c8710235e14308976cd3a0185f3905985337ffc7297"
+    },
+    {
+      "src": "./audio/user-vocab/clip-101.mp3",
+      "sha256": "61b8e482cc3185627c4f534addc47c76a89d503d162839da9ee11fa53ad86d02"
+    },
+    {
+      "src": "./audio/user-vocab/clip-102.mp3",
+      "sha256": "5a3674638a501160a059f097d0a3dd903c7abd9f32ac1ca165bf3001e4fe17c1"
+    },
+    {
+      "src": "./audio/user-vocab/clip-103.mp3",
+      "sha256": "a21bf700fd23af65ca1c22690ae0bfe3656c53eb4a8c4e213b3ab75dbf2c75cb"
+    },
+    {
+      "src": "./audio/user-vocab/clip-104.mp3",
+      "sha256": "264a2f04b09d1482452c71d05407c6d4f1e26f8f1bfff43da227716ae4d63930"
+    },
+    {
+      "src": "./audio/user-vocab/clip-105.mp3",
+      "sha256": "41e3f0d36cce85551838f7eb3d6862341c699e10ee361dd4ff2785397608f1ac"
+    },
+    {
+      "src": "./audio/user-vocab/clip-106.mp3",
+      "sha256": "4a819a73ae51ee2f3f7ca623e9b2378955e7b011ca6e9b54936d81de2b06baa2"
+    },
+    {
+      "src": "./audio/user-vocab/clip-107.mp3",
+      "sha256": "7250f6061cb8e6f86999d8903be589a57e87b625fd4f92b09a1a1cca69a9ce4a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-108.mp3",
+      "sha256": "315f5f69f38279095174b616096f9a10676264a65d4acefa60da9dcebe75a612"
+    },
+    {
+      "src": "./audio/user-vocab/clip-109.mp3",
+      "sha256": "ad1e80f786f56697693159136f202ed95e4bcf191a9d40229004d3e1a41f5c95"
+    },
+    {
+      "src": "./audio/user-vocab/clip-110.mp3",
+      "sha256": "ac7c84cca643cd1219241a49b7e075d597bb23887aba6a12528a46de0b0fac11"
+    },
+    {
+      "src": "./audio/user-vocab/clip-111.mp3",
+      "sha256": "befcbd29cd58f3c8266fb894c6791865f5446dcd83d873f3b64851a0bf90b013"
+    },
+    {
+      "src": "./audio/user-vocab/clip-112.mp3",
+      "sha256": "1acc0a62c1b2084cd58370b99e2c18b5f76a5837182863ffc7cf8774f8072f4e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-113.mp3",
+      "sha256": "3f6d72c2b3699c7e30697926f95f94b02e623ad9ca8cfd3e3c2bd9f8fe6b7f7e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-114.mp3",
+      "sha256": "4e7f9f51f113e57ae66e0ed2d412d25db9adcf333a38ce26fe0093ccc31d1bd8"
+    },
+    {
+      "src": "./audio/user-vocab/clip-115.mp3",
+      "sha256": "f01b8140d74a4f145b581685efae8333d1cfe43a38845f93949eb61afec23123"
+    },
+    {
+      "src": "./audio/user-vocab/clip-116.mp3",
+      "sha256": "0f8f831cca2fc1a6bb88475247ca86faa3ba66f3e04208964e53ca13c6bdb9e2"
+    },
+    {
+      "src": "./audio/user-vocab/clip-117.mp3",
+      "sha256": "244790b8b9606d6d833c05a1359d4b6a29369ab1bec487a1a7459544b9f51c90"
+    },
+    {
+      "src": "./audio/user-vocab/clip-118.mp3",
+      "sha256": "8f86cbf1498dbe2f16a61e3ddf0f1abce7e7cc65a08e87a21157fe179da144d9"
+    },
+    {
+      "src": "./audio/user-vocab/clip-119.mp3",
+      "sha256": "4a62e5fe55ad62092a6a5c174552c09135a1922c77ac5604e56f608b06db3faa"
+    },
+    {
+      "src": "./audio/user-vocab/clip-120.mp3",
+      "sha256": "56a2aae34e9f4801ceb3944491e6a2d1f7f1525b24755618485f3e63b111167a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-121.mp3",
+      "sha256": "26d3c206aabd34ff4d7706d4d3e2826e4d614208b96178170ff7524f33578279"
+    },
+    {
+      "src": "./audio/user-vocab/clip-122.mp3",
+      "sha256": "6abe4d3cfe43ab48f105353a8184d3a98a24cd70ac0b96df4bada6b003a4d837"
+    },
+    {
+      "src": "./audio/user-vocab/clip-123.mp3",
+      "sha256": "dc887bbdc6756f66c023b74b5b10f26b5a24c35cc7053deb18b3988a2c621bf9"
+    },
+    {
+      "src": "./audio/user-vocab/clip-124.mp3",
+      "sha256": "514ad53bc6e5eb83e56fe5cc4f025bbbf9e0c1b2801ebe9238f2771bdd0690d8"
+    },
+    {
+      "src": "./audio/user-vocab/clip-125.mp3",
+      "sha256": "6683328940bcc575699a6577a03fa90c22efee06dddd467949c45db51b80de71"
+    },
+    {
+      "src": "./audio/user-vocab/clip-126.mp3",
+      "sha256": "f697227366005e5c792bd449bcf1e80b91f25f53e1cba6c6028af8bd1be03bee"
+    },
+    {
+      "src": "./audio/user-vocab/clip-127.mp3",
+      "sha256": "3f12dde5bbdd78a9049dcbb55c9ffd930110bd4fa933a0fb26c7e9fba3b44bf1"
+    },
+    {
+      "src": "./audio/user-vocab/clip-128.mp3",
+      "sha256": "539921eed8ded2fe588d0e2d09b073df5509bdc502825b0566739ae15dd0bddd"
+    },
+    {
+      "src": "./audio/user-vocab/clip-129.mp3",
+      "sha256": "1e3667c133b496dc088c4737f7f72f7f3cec66281528498ae4398b3ba2834237"
+    },
+    {
+      "src": "./audio/user-vocab/clip-130.mp3",
+      "sha256": "19f40dc0bc07cb69c3d3578c659eddca214ef8caea843bd1a1c149b282037940"
+    },
+    {
+      "src": "./audio/user-vocab/clip-131.mp3",
+      "sha256": "64ac9f5e8cf382e7e0e3d257e752601ea61de9ecd43cc6a32cfb44f5b64f2bf7"
+    },
+    {
+      "src": "./audio/user-vocab/clip-132.mp3",
+      "sha256": "b129c5ff5d754bf4f2da599861dfc7d207d2a6df4f9c7fd5ed8a8cfe6e687b1f"
+    },
+    {
+      "src": "./audio/user-vocab/clip-133.mp3",
+      "sha256": "8b7899fc1ccd4ccd97493c148e53180bbd4459a1990cad8be40c32a0da826130"
+    },
+    {
+      "src": "./audio/user-vocab/clip-134.mp3",
+      "sha256": "494e951b19fbc5eccef562a5c32f8aa0ff858d21d701151c37004ed5c1eed3a2"
+    },
+    {
+      "src": "./audio/user-vocab/clip-135.mp3",
+      "sha256": "78ca04b48f4e659e37cc7725846a8ba881d2b62070b3d0f3803272940363f6da"
+    },
+    {
+      "src": "./audio/user-vocab/clip-136.mp3",
+      "sha256": "b5d44c0947fe5888f5097a07d676fba1009f4605ae441b32fdb63608b457b664"
+    },
+    {
+      "src": "./audio/user-vocab/clip-137.mp3",
+      "sha256": "da74fd8de746397aac0a71ae3fe7f7b2887fb2f459450022cd5e3ff83f75637a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-138.mp3",
+      "sha256": "712505245fc55b727dd2e32fbbbc083ce7722c03fa411dd561f78e142a890e1d"
+    },
+    {
+      "src": "./audio/user-vocab/clip-139.mp3",
+      "sha256": "5111cdff925a6a3ab0575904f864da1e289dfcc7d8c3c5ad350499cfcefb3d25"
+    },
+    {
+      "src": "./audio/user-vocab/clip-140.mp3",
+      "sha256": "f37316e956459ddda5e6a0afc26bfe019e0f1ebb8b849a7bc08ec9a7bf5440ec"
+    },
+    {
+      "src": "./audio/user-vocab/clip-141.mp3",
+      "sha256": "88e1270a0fae735e34fec0270333a51ee4b3477f5ac9eb09b67fddbbca9fac46"
+    },
+    {
+      "src": "./audio/user-vocab/clip-142.mp3",
+      "sha256": "28d47904dd42971bc6a81006ae5419dd3919e8d9639a80c87bed1b4307225aee"
+    },
+    {
+      "src": "./audio/user-vocab/clip-143.mp3",
+      "sha256": "fc8904d646940776d97a2119dd218ac8e64c94364f82abbf31dfc6c2485acae2"
+    },
+    {
+      "src": "./audio/user-vocab/clip-144.mp3",
+      "sha256": "a237ee753a66c5addf009d8643a5e4f8d157c6b9ea0b766d0ddd619de81b7f01"
+    },
+    {
+      "src": "./audio/user-vocab/clip-145.mp3",
+      "sha256": "43fc12159aad8624d154860d5048e3c06d20c360261dd0ff26c0b9a62b3c270e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-146.mp3",
+      "sha256": "995824c32363e3eb9401fc415257c0b1a70e0340d387836f382408949003ba87"
+    },
+    {
+      "src": "./audio/user-vocab/clip-147.mp3",
+      "sha256": "c28d3b0a621c35090b4eb6c39f160e2eff91544365789510d748698c9418d41a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-148.mp3",
+      "sha256": "dc34834d92eaff0721d509b164ccc944dfca650f9b4a9c9cb70974bcf4a28454"
+    },
+    {
+      "src": "./audio/user-vocab/clip-149.mp3",
+      "sha256": "4d7959ec064930982e1a560a2ffa9cde34ae85fd392601fddd6b288c765733c5"
+    },
+    {
+      "src": "./audio/user-vocab/clip-150.mp3",
+      "sha256": "0de8218e4c43979baaba6e7b463123bc1f87d4035bceaad4c61b36ad698bffcf"
+    },
+    {
+      "src": "./audio/user-vocab/clip-151.mp3",
+      "sha256": "29e61ad7be752bd380dd1429316d918826e62aa4ed08ec10e4bcf1119efdd647"
+    },
+    {
+      "src": "./audio/user-vocab/clip-152.mp3",
+      "sha256": "80a83bfaa283819ae41932bb0e53497647de1e79434a12c6b68d9bf28e5fe2b7"
+    },
+    {
+      "src": "./audio/user-vocab/clip-153.mp3",
+      "sha256": "3808a0726499d02f35e4615d1a06a3e4b8001f198a785ce58d3e0c9cf7f20037"
+    },
+    {
+      "src": "./audio/user-vocab/clip-154.mp3",
+      "sha256": "83b3de22e43d4b3e3cc0cb24e741f056ed54b82823b857852fae3238be051aed"
+    },
+    {
+      "src": "./audio/user-vocab/clip-155.mp3",
+      "sha256": "cb5e43dc26f2abb545613a1aae9c54155c695be733e41b2ac5e63cc427a0652a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-156.mp3",
+      "sha256": "9ad518e095de97dd24c9539e93e4325b19c5e53357f5eefdcc3737120b62f002"
+    },
+    {
+      "src": "./audio/user-vocab/clip-157.mp3",
+      "sha256": "414284767a193c958bda7248e68538e8ad10723cf895adbecf775fb57c1b8032"
+    },
+    {
+      "src": "./audio/user-vocab/clip-158.mp3",
+      "sha256": "1e69e2dd5b9ae9bfb0b6c4f5dfbd2d15c2b6a4300f678d58a11ef31e8c5c1806"
+    },
+    {
+      "src": "./audio/user-vocab/clip-159.mp3",
+      "sha256": "2c1662486358ffff9953b8c5c10a51dee0d171634f46df92837cb2bf56c8f166"
+    },
+    {
+      "src": "./audio/user-vocab/clip-160.mp3",
+      "sha256": "771d65e371fa63c2441755e9d2942688418ef0788a19af76bb90ace884aec624"
+    },
+    {
+      "src": "./audio/user-vocab/clip-161.mp3",
+      "sha256": "51d1b282c8a23ef39b44f8c9fe86acc23e1d0f3860ecaf824cf798f6bce42e05"
+    },
+    {
+      "src": "./audio/user-vocab/clip-162.mp3",
+      "sha256": "336f33059a2aad6071abbd4d453ada700bc0b8752386611074193126112b2cc3"
+    },
+    {
+      "src": "./audio/user-vocab/clip-163.mp3",
+      "sha256": "dc163220cf6a898795f70d796f091717b470309315a1cc37dce4b857dfc8bdbe"
+    },
+    {
+      "src": "./audio/user-vocab/clip-164.mp3",
+      "sha256": "047ff96e700b5476421f5dd46291f3edcd75ddef847dd7b9e93d6e6d9a179b96"
+    },
+    {
+      "src": "./audio/user-vocab/clip-165.mp3",
+      "sha256": "56739321acce85b9ea71243f442de59a03b2757cc905037c3d756f3d8ac436af"
+    },
+    {
+      "src": "./audio/user-vocab/clip-166.mp3",
+      "sha256": "adeaad768b4e0d330a44d9a19d7dd81d263e91ad81308b374d76886126a48838"
+    },
+    {
+      "src": "./audio/user-vocab/clip-167.mp3",
+      "sha256": "2ede83d38569975bc8ed0932addbb5c868821eaa1e2a18017296858458bdb3c5"
+    },
+    {
+      "src": "./audio/user-vocab/clip-168.mp3",
+      "sha256": "8be9117e71cec0afcc14d15213ab209e8650f1c1762e884d72522824be2f0dbf"
+    },
+    {
+      "src": "./audio/user-vocab/clip-169.mp3",
+      "sha256": "b8d0bfd777d23cb4414630f5e272de99f3cb9ea3b6775c5e7b3cb0007049ed36"
+    },
+    {
+      "src": "./audio/user-vocab/clip-170.mp3",
+      "sha256": "fbbc220fbe60423d7a875331fae18466ea79fe013d9915670707908bdcfceeaa"
+    },
+    {
+      "src": "./audio/user-vocab/clip-171.mp3",
+      "sha256": "42680bdf10e9b8aa431f0f81dfba607900ae88a674168137b1e29f16b0431cbe"
+    },
+    {
+      "src": "./audio/user-vocab/clip-172.mp3",
+      "sha256": "30bee061b2106b322ffaab614d42a4af72989a5ed30843655549eea44988db0c"
+    },
+    {
+      "src": "./audio/user-vocab/clip-173.mp3",
+      "sha256": "f18cb67017316b72f69964904b53f6c7b6e4fc0e24a6e8cbf770ba4df0dbad18"
+    },
+    {
+      "src": "./audio/user-vocab/clip-174.mp3",
+      "sha256": "33580cf2eb15725c52b02be07891a1f0de22797e84e6f92fcc18cbe17bb4b4ec"
+    },
+    {
+      "src": "./audio/user-vocab/clip-175.mp3",
+      "sha256": "bb03d6b126560f58d0518576651d717db96d22494b99559574e0a0149cf83129"
+    },
+    {
+      "src": "./audio/user-vocab/clip-176.mp3",
+      "sha256": "8784a944067b2b60adc82403d1ef160a81e54df9c1555259955b4fbc2af956ac"
+    },
+    {
+      "src": "./audio/user-vocab/clip-177.mp3",
+      "sha256": "8aebb5d97ece2e33cac973397dcbb8f8e236a8f798374677e01fd649609c69c1"
+    },
+    {
+      "src": "./audio/user-vocab/clip-178.mp3",
+      "sha256": "547bfc3d9719cbfe2f60008d7da80dbd6bb9d5b8acf7a8ca445fffa83a1f982b"
+    },
+    {
+      "src": "./audio/user-vocab/clip-179.mp3",
+      "sha256": "1db3ca064ac1d88e0bcd0885f77833f5256330ad96213e544f7d6fca9d33c832"
+    },
+    {
+      "src": "./audio/user-vocab/clip-180.mp3",
+      "sha256": "b325dbf5a1052575dc533e102a76061ee0bd8b5f254de06816fb574815f951a6"
+    },
+    {
+      "src": "./audio/user-vocab/clip-181.mp3",
+      "sha256": "e190529164953663ca4112d25d65538b0921bd06990390c70b1e0b702ad6ad2e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-182.mp3",
+      "sha256": "1a9073df10c85975468d4e527d0480a30ab3f67bb8a387e0bf2b13c6a83fcad8"
+    },
+    {
+      "src": "./audio/user-vocab/clip-183.mp3",
+      "sha256": "3c7038824d67f63dd7e96ff3cbb6f0323f637cff9dc480dce6249fd1c224b193"
+    },
+    {
+      "src": "./audio/user-vocab/clip-184.mp3",
+      "sha256": "4842eeb1978bd551bfd7b727b93694bbc4445837b39fc1837262c4b12aba613a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-185.mp3",
+      "sha256": "52e9ff96e190e77d1d4c758c11e611effa02d6b598da304dff62ee7bc43c3363"
+    },
+    {
+      "src": "./audio/user-vocab/clip-186.mp3",
+      "sha256": "b47de5a17767091a50a4ad25dc6702fef8e97ddf4f3986e1fafe00437e67601a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-187.mp3",
+      "sha256": "764bb027e89b45d5b2127a65c12f8f08fd8f4d94ab37c99af026fe0b5fb25af9"
+    },
+    {
+      "src": "./audio/user-vocab/clip-188.mp3",
+      "sha256": "a5b9494e3ec501fd93736e5e0f04ad08ad896e02f5622316839de1511728fdae"
+    },
+    {
+      "src": "./audio/user-vocab/clip-189.mp3",
+      "sha256": "15791703530dc053d19337cb169d1f12b6eddf8e18861845a3ca5f1f77ef1f45"
+    },
+    {
+      "src": "./audio/user-vocab/clip-190.mp3",
+      "sha256": "4cfa05d784d6af87614ce458f89840601aa686ced1cb85699b9c41c006b38150"
+    },
+    {
+      "src": "./audio/user-vocab/clip-191.mp3",
+      "sha256": "1b403f631ea38e5f0d8f6a0f122249facac4be737b9cca42a733f343064a02bc"
+    },
+    {
+      "src": "./audio/user-vocab/clip-192.mp3",
+      "sha256": "145eccd32996ee57480cabf1f5fa5fbf289ee43b8816d9613a62644aae910708"
+    },
+    {
+      "src": "./audio/user-vocab/clip-193.mp3",
+      "sha256": "ee694cfce7ece41c67f8e0e033617dd84c74e54262a8dc2a35a465e100a5acf6"
+    },
+    {
+      "src": "./audio/user-vocab/clip-194.mp3",
+      "sha256": "add94a61834cd507f01c87ec0b4fdc6269e518fadb8e91f98b6fa01d0661c2a3"
+    },
+    {
+      "src": "./audio/user-vocab/clip-195.mp3",
+      "sha256": "a07a9d6851e21d2e2aa7b0cc99163f00ede232d668a5976cc42116e617ebb717"
+    },
+    {
+      "src": "./audio/user-vocab/clip-196.mp3",
+      "sha256": "4f0673d7f7cb01e51bd969a14dc945abe64546f9f992a3b1f94f734133bf6f27"
+    },
+    {
+      "src": "./audio/user-vocab/clip-197.mp3",
+      "sha256": "0fd48044bc3eb7975ed76b82f1944f4baca300de3507c491fc2a472edade9309"
+    },
+    {
+      "src": "./audio/user-vocab/clip-198.mp3",
+      "sha256": "1f4757fd36fd34ef3b74e189edfbbaa3f4c84d74f26887c5e874baab1f2d6181"
+    },
+    {
+      "src": "./audio/user-vocab/clip-199.mp3",
+      "sha256": "ff8223cbc57c03247f6832451eb17b27c516844cb06a8014ec23566b72dd9987"
+    },
+    {
+      "src": "./audio/user-vocab/clip-200.mp3",
+      "sha256": "1a7bd491f0dc092d88d0b46f2353c11be97c0222762d6d9addffb7a1250c5471"
+    },
+    {
+      "src": "./audio/user-vocab/clip-201.mp3",
+      "sha256": "3f18daf6298b9f8660aac8270e894d0a920a3af88b91f5c88c4413cff898d2ef"
+    },
+    {
+      "src": "./audio/user-vocab/clip-202.mp3",
+      "sha256": "0e07265ac45708502e5fb6c8f6345aebcea1b4037a477b42909406dd92a51a54"
+    },
+    {
+      "src": "./audio/user-vocab/clip-203.mp3",
+      "sha256": "197ed9e444dae3b9e0e76f64eb0bc9ca98bacfecbfed82bdc24ce2c944b6f1b8"
+    },
+    {
+      "src": "./audio/user-vocab/clip-204.mp3",
+      "sha256": "2f2d14d047c87db93905a0b480cabedeadfcff5c61652c87098e3316d21a8d1d"
+    },
+    {
+      "src": "./audio/user-vocab/clip-205.mp3",
+      "sha256": "456e971379f8e3dc9c9e492867c2716f7ece53c8ff213fffc08fe2b2a497463e"
+    },
+    {
+      "src": "./audio/user-vocab/clip-206.mp3",
+      "sha256": "5fd63bce2bfa5db7000c12cebe7d53830ad6f61199529fd3d1863e7627fe51dd"
+    },
+    {
+      "src": "./audio/user-vocab/clip-207.mp3",
+      "sha256": "85a1a31ad3789e31478a3ff16ac8ceb19fafbede42e0b927d8e041ccb104ca15"
+    },
+    {
+      "src": "./audio/user-vocab/clip-208.mp3",
+      "sha256": "1f92911fe69331b8a8cbc152e14155ea16435af85721cecfc9069de7e9049cad"
+    },
+    {
+      "src": "./audio/user-vocab/clip-209.mp3",
+      "sha256": "3d98ddfcea3299c4bc71eaa38e9e47e364db6cb75a9a8b58e93e61e6a387f7b3"
+    },
+    {
+      "src": "./audio/user-vocab/clip-210.mp3",
+      "sha256": "187120bad8427b8df829e30470ceb0fab3719893c37cd67a8961da287478a180"
+    },
+    {
+      "src": "./audio/user-vocab/clip-211.mp3",
+      "sha256": "2bb630b64cedfa4d1646c379f991ca09ced127b77d22f82be7f7ddf1bb59be8a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-212.mp3",
+      "sha256": "1d20c6dd36665edda81239e8515dbda9c1f9f11baded98fce7c22a39af0490e6"
+    },
+    {
+      "src": "./audio/user-vocab/clip-213.mp3",
+      "sha256": "15ca83d84f6a6b8bc3d59e2a075d259f72434e9dd27751eb2e20c3282403d550"
+    },
+    {
+      "src": "./audio/user-vocab/clip-214.mp3",
+      "sha256": "1a386b8fb4bb307315f20ee0e7c29dfac6df277e8931fbedcf3add5b5a70abd9"
+    },
+    {
+      "src": "./audio/user-vocab/clip-215.mp3",
+      "sha256": "74e491e041b4436c77367a64a7dcc66bec8268e95884bf63a2da8e163634f753"
+    },
+    {
+      "src": "./audio/user-vocab/clip-216.mp3",
+      "sha256": "3ac6ed296096c6ce85a07ab2de979d8e7a29f19def2af2e662229bd59cec6233"
+    },
+    {
+      "src": "./audio/user-vocab/clip-217.mp3",
+      "sha256": "73e5a71a9bae4cf2e5d2989be1b3a1dbbbbff56ba9bfd9440928851abb4e8e33"
+    },
+    {
+      "src": "./audio/user-vocab/clip-218.mp3",
+      "sha256": "0f111da3de20e151204b1e96612d8100da08100827dd9fc557f24fe0635c7dde"
+    },
+    {
+      "src": "./audio/user-vocab/clip-219.mp3",
+      "sha256": "5978d52b0a61c31e2916c3d67402d74f39ab5a00d57361942753f6189b901382"
+    },
+    {
+      "src": "./audio/user-vocab/clip-220.mp3",
+      "sha256": "7aa2a3f19903f2b9e773af36bdbf163b81201d803756b8a421c08a005d3dd74d"
+    },
+    {
+      "src": "./audio/user-vocab/clip-221.mp3",
+      "sha256": "cbfd2e8941c297f5f4bbb494dca104ba930421fae50992af39a644146dc96c9f"
+    },
+    {
+      "src": "./audio/user-vocab/clip-222.mp3",
+      "sha256": "7bf548d19751707f7a85ce3177188deeba349c781be971f8bc1488a4dbd09453"
+    },
+    {
+      "src": "./audio/user-vocab/clip-223.mp3",
+      "sha256": "b0b7c931d56f0eb8d97560c09c67136ebdc1789ace0e1db9aed2db3a3e57edec"
+    },
+    {
+      "src": "./audio/user-vocab/clip-224.mp3",
+      "sha256": "7cf937d12d838ad5a47f3f4c2080ef6fdabd5b4146ea73329e3540a6a1b93f49"
+    },
+    {
+      "src": "./audio/user-vocab/clip-225.mp3",
+      "sha256": "cf51e204537f523ae41e9606728bb1f9fcf2aa582020eaa3f883ba35a1581184"
+    },
+    {
+      "src": "./audio/user-vocab/clip-226.mp3",
+      "sha256": "39e10ed3f40056936cffffdb93948c062521ae43eb998593eec9f33033b73bb9"
+    },
+    {
+      "src": "./audio/user-vocab/clip-227.mp3",
+      "sha256": "b385fb2f20817fc1624257f4f8335d467ed60412f7ab7929c6c830e799072b3b"
+    },
+    {
+      "src": "./audio/user-vocab/clip-228.mp3",
+      "sha256": "2321db76ef8cd65656746a611689571de869f9974b21f1099b01642151b386a5"
+    },
+    {
+      "src": "./audio/user-vocab/clip-229.mp3",
+      "sha256": "635d65aec4f2b18edd185f137d732066dfed5a8182b41c34e90ecc40a9744da4"
+    },
+    {
+      "src": "./audio/user-vocab/clip-230.mp3",
+      "sha256": "5ec98f58b4473eafe0d110a84bb2c3883fcefd383ddae19fd58333fe13fff41d"
+    },
+    {
+      "src": "./audio/user-vocab/clip-231.mp3",
+      "sha256": "6bd8db9e9b974d220fd82150d9816913abde9c513dc2d0435aace9d3310afbdd"
+    },
+    {
+      "src": "./audio/user-vocab/clip-232.mp3",
+      "sha256": "8f4754fed1eb242243fd0965f6f1afc2077a59621a4e058853a9136dc238363b"
+    },
+    {
+      "src": "./audio/user-vocab/clip-233.mp3",
+      "sha256": "f624b2ed99fdbfab728f5c224944803fcdd80fcb44229431a7ebd20bfd7a9653"
+    },
+    {
+      "src": "./audio/user-vocab/clip-234.mp3",
+      "sha256": "9bcde2c122fd09603a0183b4f79914064b03d25f483af1f5c17ba02d5b422e72"
+    },
+    {
+      "src": "./audio/user-vocab/clip-235.mp3",
+      "sha256": "6e319268b6c61c72c5cafaddb7122d21f706ef48555acd00892d4c97eff31b5c"
+    },
+    {
+      "src": "./audio/user-vocab/clip-236.mp3",
+      "sha256": "6890333a7b929b34cfe45fc16947b52031140e24f9b996583bae6e3955550896"
+    },
+    {
+      "src": "./audio/user-vocab/clip-237.mp3",
+      "sha256": "f621024f4757dae524d32961f008db22c31a5d1c87061b64b2067ffa276c022c"
+    },
+    {
+      "src": "./audio/user-vocab/clip-238.mp3",
+      "sha256": "451975f014549f166cbd23c7ef18ac1baccb0f09071ffcb319ff2def7ef7dd73"
+    },
+    {
+      "src": "./audio/user-vocab/clip-239.mp3",
+      "sha256": "bd9b696f64f022aea29c0b137fa91502a22d10bae87811003bd2c9b18ec933b0"
+    },
+    {
+      "src": "./audio/user-vocab/clip-240.mp3",
+      "sha256": "8704ba08bfae14fd5c115a4af6e701e34ddda17445dfcc2d55ceec432980115a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-241.mp3",
+      "sha256": "3aebbd821562e9f78ec1dc62535b5ee037a9030453e9201d7d434e75ac6a3e59"
+    },
+    {
+      "src": "./audio/user-vocab/clip-242.mp3",
+      "sha256": "2d50770dff184b983178eb2a1baa8191c325207bc66b2cd5964e05a6c4b5b9e6"
+    },
+    {
+      "src": "./audio/user-vocab/clip-243.mp3",
+      "sha256": "5bd81d50c3414fe5370732f2973db1806cfbd4a03fc9daca5ff09a6efcf30e49"
+    },
+    {
+      "src": "./audio/user-vocab/clip-244.mp3",
+      "sha256": "cf61b5f7cd75fb3e7c519f954ed7f737cedcc5cc71d1ba2a9244b4db6b628439"
+    },
+    {
+      "src": "./audio/user-vocab/clip-245.mp3",
+      "sha256": "e70cb58bfdbf46d63a31718329ecddcc5ada3ff9a724ed36dea5804f71b5aad6"
+    },
+    {
+      "src": "./audio/user-vocab/clip-246.mp3",
+      "sha256": "74e6e70f2c0c200e1fb1372e16660e2bbc1b4d77cbc6df334ccff51ab5606f21"
+    },
+    {
+      "src": "./audio/user-vocab/clip-247.mp3",
+      "sha256": "ac66177053cb75d518dc0ea352023bbe5fdb4e07f799431849430a52e98bfa9a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-248.mp3",
+      "sha256": "93e0028d4ae81d107a5365b06cab1be7bb207e927841a1d5353420cf1450e13c"
+    },
+    {
+      "src": "./audio/user-vocab/clip-249.mp3",
+      "sha256": "9d51851345383de94d2b6920ccc1abd0a9f1cd422d162b39fbf671f8582e00af"
+    },
+    {
+      "src": "./audio/user-vocab/clip-250.mp3",
+      "sha256": "e527b1a07f0c707dcc49a8e476a6f823803c1614440812ffa4822a1f1c258f06"
+    },
+    {
+      "src": "./audio/user-vocab/clip-251.mp3",
+      "sha256": "6240e536a71052aa84e25ba62ba2141de106b00346c9de36843623fab94aff7a"
+    },
+    {
+      "src": "./audio/user-vocab/clip-252.mp3",
+      "sha256": "aa6bba9c0eb930240dc723f6e2f6bb91011f9181305f7567dd6da8ee144d66ec"
+    },
+    {
+      "src": "./audio/user-vocab/clip-253.mp3",
+      "sha256": "8bd3dbb203a96b57f2dfc7fcd1310f51264bdfeb0ace93e02857645b71f131d8"
+    },
+    {
+      "src": "./audio/user-vocab/clip-254.mp3",
+      "sha256": "3f8c50d476055f831f6a425b7dccbdacacd3635e40b23f783b88a981975a7f3c"
+    },
+    {
+      "src": "./audio/user-vocab/clip-255.mp3",
+      "sha256": "f4aeaf3d617f165dcae4f383191955df715dfd5c836058912472c72ecfa6772d"
+    }
+  ],
+  "cardMappings": {
+    "ak-c6-29": {
+      "ar": "مُنْذُ",
+      "src": "./audio/user-vocab/clip-001.mp3"
+    },
+    "ak-c6-28": {
+      "ar": "مَتى؟",
+      "src": "./audio/user-vocab/clip-002.mp3"
+    },
+    "ak-c6-27": {
+      "ar": "لِماذا؟",
+      "src": "./audio/user-vocab/clip-003.mp3"
+    },
+    "ak-c6-26": {
+      "ar": "لِذٰلِكَ",
+      "src": "./audio/user-vocab/clip-004.mp3"
+    },
+    "ak-c6-25": {
+      "ar": "لِأَنَّ",
+      "src": "./audio/user-vocab/clip-005.mp3"
+    },
+    "ak-c6-22": {
+      "ar": "أَلْعَبُ",
+      "src": "./audio/user-vocab/clip-006.mp3"
+    },
+    "ak-c6-37": {
+      "ar": "لَعِب",
+      "src": "./audio/user-vocab/clip-007.mp3"
+    },
+    "ak-c6-24": {
+      "ar": "لِـ",
+      "src": "./audio/user-vocab/clip-008.mp3"
+    },
+    "ak-c6-36": {
+      "ar": "لَعِبْتُ",
+      "src": "./audio/user-vocab/clip-009.mp3"
+    },
+    "ak-c6-19": {
+      "ar": "التَّصْوير",
+      "src": "./audio/user-vocab/clip-010.mp3"
+    },
+    "ak-c6-20": {
+      "ar": "كُرَة السَّلَّة",
+      "src": "./audio/user-vocab/clip-011.mp3"
+    },
+    "ak-c6-21": {
+      "ar": "كُرَة القَدَم",
+      "src": "./audio/user-vocab/clip-012.mp3"
+    },
+    "ak-c6-18": {
+      "ar": "السِّباحة",
+      "src": "./audio/user-vocab/clip-013.mp3"
+    },
+    "ak-c6-17": {
+      "ar": "الرِّياضة",
+      "src": "./audio/user-vocab/clip-014.mp3"
+    },
+    "ak-c6-14": {
+      "ar": "يَوْم",
+      "src": "./audio/user-vocab/clip-015.mp3"
+    },
+    "ak-c6-14-bp": {
+      "ar": "أَيَّام",
+      "src": "./audio/user-vocab/clip-016.mp3"
+    },
+    "ak-c6-16": {
+      "ar": "الرَّقْص",
+      "src": "./audio/user-vocab/clip-017.mp3"
+    },
+    "ak-c6-15": {
+      "ar": "الجَرْي",
+      "src": "./audio/user-vocab/clip-018.mp3"
+    },
+    "ak-c6-13": {
+      "ar": "سَنَتانِ / سَنَتَيْنِ",
+      "src": "./audio/user-vocab/clip-019.mp3"
+    },
+    "ak-c6-12-bp": {
+      "ar": "أَسَابِيع",
+      "src": "./audio/user-vocab/clip-020.mp3"
+    },
+    "ak-c6-12": {
+      "ar": "أُسْبوع",
+      "src": "./audio/user-vocab/clip-021.mp3"
+    },
+    "ak-c6-11": {
+      "ar": "أَذْهَبُ إِلى",
+      "src": "./audio/user-vocab/clip-022.mp3"
+    },
+    "ak-c6-35": {
+      "ar": "ذَهَاب",
+      "src": "./audio/user-vocab/clip-023.mp3"
+    },
+    "ak-c6-34": {
+      "ar": "ذَهَبْتُ إِلَى",
+      "src": "./audio/user-vocab/clip-024.mp3"
+    },
+    "ak-c6-7": {
+      "ar": "التِّجارة",
+      "src": "./audio/user-vocab/clip-025.mp3"
+    },
+    "ak-c6-10": {
+      "ar": "الحَياة",
+      "src": "./audio/user-vocab/clip-026.mp3"
+    },
+    "ak-c6-9": {
+      "ar": "شَرِكة",
+      "src": "./audio/user-vocab/clip-027.mp3"
+    },
+    "ak-c6-8": {
+      "ar": "إِدارة الأَعْمال",
+      "src": "./audio/user-vocab/clip-028.mp3"
+    },
+    "ak-c6-6": {
+      "ar": "مُعيد",
+      "src": "./audio/user-vocab/clip-029.mp3"
+    },
+    "ak-c6-33": {
+      "ar": "تَخَرُّج",
+      "src": "./audio/user-vocab/clip-030.mp3"
+    },
+    "ak-c6-32": {
+      "ar": "تَخَرَّجْتُ مِنْ",
+      "src": "./audio/user-vocab/clip-031.mp3"
+    },
+    "ak-c6-30": {
+      "ar": "حَصَلْتُ عَلَى",
+      "src": "./audio/user-vocab/clip-032.mp3"
+    },
+    "ak-c6-31": {
+      "ar": "حُصُول",
+      "src": "./audio/user-vocab/clip-033.mp3"
+    },
+    "ak-c6-5": {
+      "ar": "أَتَخَرَّجُ مِنْ",
+      "src": "./audio/user-vocab/clip-034.mp3"
+    },
+    "ak-c6-2": {
+      "ar": "بَعْدَ ذٰلِكَ",
+      "src": "./audio/user-vocab/clip-035.mp3"
+    },
+    "ak-c6-4": {
+      "ar": "أَحْصُلُ عَلى",
+      "src": "./audio/user-vocab/clip-036.mp3"
+    },
+    "ak-c5-30": {
+      "ar": "بِالنِّسْبةِ لِـ",
+      "src": "./audio/user-vocab/clip-037.mp3"
+    },
+    "ak-c6-1": {
+      "ar": "بَعْدَ",
+      "src": "./audio/user-vocab/clip-038.mp3"
+    },
+    "ak-c6-3": {
+      "ar": "مُحاضَرة",
+      "src": "./audio/user-vocab/clip-039.mp3"
+    },
+    "ak-c5-29": {
+      "ar": "مِنْ أَصْلٍ + النِّسْبة",
+      "src": "./audio/user-vocab/clip-040.mp3"
+    },
+    "ak-c5-28": {
+      "ar": "بِسَبَبِ",
+      "src": "./audio/user-vocab/clip-041.mp3"
+    },
+    "ak-c5-28-bp": {
+      "ar": "أَسْبَاب",
+      "src": "./audio/user-vocab/clip-042.mp3"
+    },
+    "ak-c5-27": {
+      "ar": "الاِزْدِحام",
+      "src": "./audio/user-vocab/clip-043.mp3"
+    },
+    "ak-c5-26": {
+      "ar": "الوِحْدة",
+      "src": "./audio/user-vocab/clip-044.mp3"
+    },
+    "ak-c5-31": {
+      "ar": "شَعَرْتُ بِـ",
+      "src": "./audio/user-vocab/clip-045.mp3"
+    },
+    "ak-c5-25": {
+      "ar": "أَشْعُرُ بِـ",
+      "src": "./audio/user-vocab/clip-046.mp3"
+    },
+    "ak-c5-32": {
+      "ar": "شُعُور",
+      "src": "./audio/user-vocab/clip-047.mp3"
+    },
+    "ak-c5-23": {
+      "ar": "كَثيرًا",
+      "src": "./audio/user-vocab/clip-048.mp3"
+    },
+    "ak-c5-24": {
+      "ar": "أَحْسَن",
+      "src": "./audio/user-vocab/clip-049.mp3"
+    },
+    "ak-c5-22": {
+      "ar": "قَليلًا",
+      "src": "./audio/user-vocab/clip-050.mp3"
+    },
+    "ak-c5-21": {
+      "ar": "فَقَطْ",
+      "src": "./audio/user-vocab/clip-051.mp3"
+    },
+    "ak-c5-20": {
+      "ar": "أَحْيانًا",
+      "src": "./audio/user-vocab/clip-052.mp3"
+    },
+    "ak-c5-19": {
+      "ar": "جَيِّدًا",
+      "src": "./audio/user-vocab/clip-053.mp3"
+    },
+    "ak-c5-18": {
+      "ar": "جِدًّا",
+      "src": "./audio/user-vocab/clip-054.mp3"
+    },
+    "ak-c5-15": {
+      "ar": "الخَريف",
+      "src": "./audio/user-vocab/clip-055.mp3"
+    },
+    "ak-c5-17": {
+      "ar": "فَصْل دِراسيّ",
+      "src": "./audio/user-vocab/clip-056.mp3"
+    },
+    "ak-c5-17-bp": {
+      "ar": "فُصُول دِرَاسِيَّة",
+      "src": "./audio/user-vocab/clip-057.mp3"
+    },
+    "ak-c5-16-bp": {
+      "ar": "أَشْتِيَة",
+      "src": "./audio/user-vocab/clip-058.mp3"
+    },
+    "ak-c5-16": {
+      "ar": "الشِّتاء",
+      "src": "./audio/user-vocab/clip-059.mp3"
+    },
+    "ak-c5-13-bp": {
+      "ar": "أَرْبِعَة / أَرْبِعَاء",
+      "src": "./audio/user-vocab/clip-060.mp3"
+    },
+    "ak-c5-13": {
+      "ar": "الرَّبيع",
+      "src": "./audio/user-vocab/clip-061.mp3"
+    },
+    "ak-c5-12-bp": {
+      "ar": "فُصُول",
+      "src": "./audio/user-vocab/clip-062.mp3"
+    },
+    "ak-c5-12": {
+      "ar": "فَصْل",
+      "src": "./audio/user-vocab/clip-063.mp3"
+    },
+    "ak-c5-11": {
+      "ar": "عالٍ",
+      "src": "./audio/user-vocab/clip-064.mp3"
+    },
+    "ak-c5-10": {
+      "ar": "دَرَجة الحَرارة",
+      "src": "./audio/user-vocab/clip-065.mp3"
+    },
+    "ak-c5-9": {
+      "ar": "دَرَجة",
+      "src": "./audio/user-vocab/clip-066.mp3"
+    },
+    "ak-c5-7-bp": {
+      "ar": "أَمْطَار",
+      "src": "./audio/user-vocab/clip-067.mp3"
+    },
+    "ak-c5-8": {
+      "ar": "الرُّطوبة",
+      "src": "./audio/user-vocab/clip-068.mp3"
+    },
+    "c4-11-bp": {
+      "ar": "زُمَلَاء",
+      "src": "./audio/user-vocab/clip-069.mp3"
+    },
+    "ak-c5-6": {
+      "ar": "ثَلْج",
+      "src": "./audio/user-vocab/clip-070.mp3"
+    },
+    "ak-c5-7": {
+      "ar": "مَطَر",
+      "src": "./audio/user-vocab/clip-071.mp3"
+    },
+    "ak-c5-6-bp": {
+      "ar": "ثُلُوج",
+      "src": "./audio/user-vocab/clip-072.mp3"
+    },
+    "ak-c5-5": {
+      "ar": "غائِم",
+      "src": "./audio/user-vocab/clip-073.mp3"
+    },
+    "ak-c5-4": {
+      "ar": "مُشْمِس",
+      "src": "./audio/user-vocab/clip-074.mp3"
+    },
+    "ak-c5-3": {
+      "ar": "حارّ",
+      "src": "./audio/user-vocab/clip-075.mp3"
+    },
+    "ak-c5-1": {
+      "ar": "الجَوّ / الطَّقْس",
+      "src": "./audio/user-vocab/clip-076.mp3"
+    },
+    "c4-28": {
+      "ar": "كُنْتُ",
+      "src": "./audio/user-vocab/clip-077.mp3"
+    },
+    "ak-c5-2": {
+      "ar": "بارِد",
+      "src": "./audio/user-vocab/clip-078.mp3"
+    },
+    "c4-24": {
+      "ar": "قَبْل",
+      "src": "./audio/user-vocab/clip-079.mp3"
+    },
+    "c4-23": {
+      "ar": "أَمْسِ",
+      "src": "./audio/user-vocab/clip-080.mp3"
+    },
+    "c4-22": {
+      "ar": "أَكْتُبُ",
+      "src": "./audio/user-vocab/clip-081.mp3"
+    },
+    "c4-42-bp": {
+      "ar": "أَقْوَال",
+      "src": "./audio/user-vocab/clip-082.mp3"
+    },
+    "c4-19": {
+      "ar": "أَسْتَمِعُ إِلى",
+      "src": "./audio/user-vocab/clip-083.mp3"
+    },
+    "c4-21": {
+      "ar": "أَقولُ",
+      "src": "./audio/user-vocab/clip-084.mp3"
+    },
+    "c4-18": {
+      "ar": "أُسافِرُ",
+      "src": "./audio/user-vocab/clip-085.mp3"
+    },
+    "c4-20": {
+      "ar": "أَقْرَأُ",
+      "src": "./audio/user-vocab/clip-086.mp3"
+    },
+    "c4-17-bp": {
+      "ar": "أَسْفَار",
+      "src": "./audio/user-vocab/clip-087.mp3"
+    },
+    "c4-17": {
+      "ar": "السَّفَر",
+      "src": "./audio/user-vocab/clip-088.mp3"
+    },
+    "c4-15": {
+      "ar": "أَحْفَظُ",
+      "src": "./audio/user-vocab/clip-089.mp3"
+    },
+    "c4-16": {
+      "ar": "أَتَذَكَّرُ",
+      "src": "./audio/user-vocab/clip-090.mp3"
+    },
+    "c4-13": {
+      "ar": "طُفولة",
+      "src": "./audio/user-vocab/clip-091.mp3"
+    },
+    "c4-12-bp": {
+      "ar": "أَصْدِقَاء",
+      "src": "./audio/user-vocab/clip-196.mp3"
+    },
+    "c4-9-bp": {
+      "ar": "مَدَارِس",
+      "src": "./audio/user-vocab/clip-093.mp3"
+    },
+    "c4-6": {
+      "ar": "سَلَطة",
+      "src": "./audio/user-vocab/clip-094.mp3"
+    },
+    "c4-8-bp": {
+      "ar": "مَطَاعِم",
+      "src": "./audio/user-vocab/clip-095.mp3"
+    },
+    "c4-9": {
+      "ar": "مَدْرَسة",
+      "src": "./audio/user-vocab/clip-096.mp3"
+    },
+    "c4-8": {
+      "ar": "مَطْعَم",
+      "src": "./audio/user-vocab/clip-097.mp3"
+    },
+    "c4-7": {
+      "ar": "شورْبة",
+      "src": "./audio/user-vocab/clip-098.mp3"
+    },
+    "c4-3": {
+      "ar": "حَلَوِيّات",
+      "src": "./audio/user-vocab/clip-099.mp3"
+    },
+    "c4-4": {
+      "ar": "سَمَك",
+      "src": "./audio/user-vocab/clip-100.mp3"
+    },
+    "c4-2": {
+      "ar": "فَواكِه",
+      "src": "./audio/user-vocab/clip-101.mp3"
+    },
+    "c4-1": {
+      "ar": "خُضار",
+      "src": "./audio/user-vocab/clip-102.mp3"
+    },
+    "c3-30": {
+      "ar": "أَعْرِفُ",
+      "src": "./audio/user-vocab/clip-103.mp3"
+    },
+    "c3-27": {
+      "ar": "مَبْرُوك!",
+      "src": "./audio/user-vocab/clip-104.mp3"
+    },
+    "c3-23-bp": {
+      "ar": "ضُبَّاط",
+      "src": "./audio/user-vocab/clip-105.mp3"
+    },
+    "c3-25": {
+      "ar": "صُورَة",
+      "src": "./audio/user-vocab/clip-106.mp3"
+    },
+    "c3-25-bp": {
+      "ar": "صُوَر",
+      "src": "./audio/user-vocab/clip-107.mp3"
+    },
+    "c3-23": {
+      "ar": "ضَابِط",
+      "src": "./audio/user-vocab/clip-108.mp3"
+    },
+    "c3-21": {
+      "ar": "أُدَرِّسُ",
+      "src": "./audio/user-vocab/clip-109.mp3"
+    },
+    "c3-12": {
+      "ar": "اِبْن عَمّ",
+      "src": "./audio/user-vocab/clip-110.mp3"
+    },
+    "c3-7": {
+      "ar": "عِلْم الإِنْسَان",
+      "src": "./audio/user-vocab/clip-111.mp3"
+    },
+    "c3-3": {
+      "ar": "الدِّين",
+      "src": "./audio/user-vocab/clip-112.mp3"
+    },
+    "c3-2": {
+      "ar": "الحُقُوق",
+      "src": "./audio/user-vocab/clip-113.mp3"
+    },
+    "c3-6": {
+      "ar": "العُلُوم السِّيَاسِيَّة",
+      "src": "./audio/user-vocab/clip-114.mp3"
+    },
+    "c3-4": {
+      "ar": "الطِّبّ",
+      "src": "./audio/user-vocab/clip-115.mp3"
+    },
+    "c3-5": {
+      "ar": "عِلْم",
+      "src": "./audio/user-vocab/clip-116.mp3"
+    },
+    "c2-23": {
+      "ar": "وَحِيد",
+      "src": "./audio/user-vocab/clip-117.mp3"
+    },
+    "c3-1": {
+      "ar": "التَّارِيخ",
+      "src": "./audio/user-vocab/clip-118.mp3"
+    },
+    "c2-24": {
+      "ar": "أَيْضًا",
+      "src": "./audio/user-vocab/clip-119.mp3"
+    },
+    "c2-22": {
+      "ar": "لِي / عِنْدِي",
+      "src": "./audio/user-vocab/clip-120.mp3"
+    },
+    "c2-21": {
+      "ar": "دَائِمًا",
+      "src": "./audio/user-vocab/clip-121.mp3"
+    },
+    "c2-19": {
+      "ar": "المَسَاء",
+      "src": "./audio/user-vocab/clip-122.mp3"
+    },
+    "c2-20": {
+      "ar": "اللَّيْل",
+      "src": "./audio/user-vocab/clip-123.mp3"
+    },
+    "c2-25": {
+      "ar": "فِعْلًا",
+      "src": "./audio/user-vocab/clip-124.mp3"
+    },
+    "c2-18": {
+      "ar": "النَّهَار",
+      "src": "./audio/user-vocab/clip-125.mp3"
+    },
+    "c2-17": {
+      "ar": "غَدًا",
+      "src": "./audio/user-vocab/clip-126.mp3"
+    },
+    "c2-15": {
+      "ar": "الشَّرْق الأَوْسَط",
+      "src": "./audio/user-vocab/clip-128.mp3"
+    },
+    "c2-14": {
+      "ar": "مَرْكَز",
+      "src": "./audio/user-vocab/clip-129.mp3"
+    },
+    "c2-13": {
+      "ar": "بَلَد",
+      "src": "./audio/user-vocab/clip-130.mp3"
+    },
+    "c2-11": {
+      "ar": "مَشْغُول بِـ",
+      "src": "./audio/user-vocab/clip-131.mp3"
+    },
+    "c2-12": {
+      "ar": "القُبُول",
+      "src": "./audio/user-vocab/clip-132.mp3"
+    },
+    "c2-10": {
+      "ar": "العَمَل / الشُّغْل",
+      "src": "./audio/user-vocab/clip-133.mp3"
+    },
+    "c2-9": {
+      "ar": "أَتَكَلَّمُ عَنْ",
+      "src": "./audio/user-vocab/clip-134.mp3"
+    },
+    "c2-6": {
+      "ar": "مُتَرْجِم",
+      "src": "./audio/user-vocab/clip-135.mp3"
+    },
+    "c2-3": {
+      "ar": "خَالَة",
+      "src": "./audio/user-vocab/clip-136.mp3"
+    },
+    "c2-8": {
+      "ar": "مُوَظَّف",
+      "src": "./audio/user-vocab/clip-137.mp3"
+    },
+    "c2-7": {
+      "ar": "مُتَخَصِّص فِي",
+      "src": "./audio/user-vocab/clip-138.mp3"
+    },
+    "c2-4": {
+      "ar": "لُغَة",
+      "src": "./audio/user-vocab/clip-139.mp3"
+    },
+    "c2-5": {
+      "ar": "التَّرْجَمَة مِنْ / إِلَى",
+      "src": "./audio/user-vocab/clip-140.mp3"
+    },
+    "c2-2": {
+      "ar": "النَّاس",
+      "src": "./audio/user-vocab/clip-141.mp3"
+    },
+    "c2-1": {
+      "ar": "أُسْرَة",
+      "src": "./audio/user-vocab/clip-142.mp3"
+    },
+    "c1-31": {
+      "ar": "صَحِيح؟!",
+      "src": "./audio/user-vocab/clip-143.mp3"
+    },
+    "c1-28": {
+      "ar": "أينَ",
+      "src": "./audio/user-vocab/clip-144.mp3"
+    },
+    "c1-30": {
+      "ar": "واللهِ؟",
+      "src": "./audio/user-vocab/clip-145.mp3"
+    },
+    "c1-29": {
+      "ar": "كَيْفَ",
+      "src": "./audio/user-vocab/clip-146.mp3"
+    },
+    "c1-23": {
+      "ar": "مَنْ؟",
+      "src": "./audio/user-vocab/clip-147.mp3"
+    },
+    "c1-26": {
+      "ar": "أَيّ؟",
+      "src": "./audio/user-vocab/clip-148.mp3"
+    },
+    "c1-27": {
+      "ar": "أيّ؟",
+      "src": "./audio/user-vocab/clip-148.mp3"
+    },
+    "c1-24": {
+      "ar": "ما؟",
+      "src": "./audio/user-vocab/clip-149.mp3"
+    },
+    "c1-25": {
+      "ar": "ماذا؟",
+      "src": "./audio/user-vocab/clip-150.mp3"
+    },
+    "c1-21": {
+      "ar": "وَالِدَة",
+      "src": "./audio/user-vocab/clip-151.mp3"
+    },
+    "c1-19": {
+      "ar": "وَالِد",
+      "src": "./audio/user-vocab/clip-152.mp3"
+    },
+    "c1-16": {
+      "ar": "عُمْر",
+      "src": "./audio/user-vocab/clip-153.mp3"
+    },
+    "c1-13": {
+      "ar": "جِنْسِيَّة",
+      "src": "./audio/user-vocab/clip-154.mp3"
+    },
+    "c1-18": {
+      "ar": "الأُمَم المُتَّحِدَة",
+      "src": "./audio/user-vocab/clip-155.mp3"
+    },
+    "c1-17": {
+      "ar": "أَعْمَلُ",
+      "src": "./audio/user-vocab/clip-156.mp3"
+    },
+    "c1-15": {
+      "ar": "سَنَة",
+      "src": "./audio/user-vocab/clip-157.mp3"
+    },
+    "c1-14": {
+      "ar": "مِصْرِيّ",
+      "src": "./audio/user-vocab/clip-158.mp3"
+    },
+    "c1-11": {
+      "ar": "مِنْطَقَة",
+      "src": "./audio/user-vocab/clip-159.mp3"
+    },
+    "c1-12": {
+      "ar": "عُنْوَان",
+      "src": "./audio/user-vocab/clip-160.mp3"
+    },
+    "c1-1": {
+      "ar": "المُفْرَد",
+      "src": "./audio/user-vocab/clip-161.mp3"
+    },
+    "c1-6-bp": {
+      "ar": "آدَاب",
+      "src": "./audio/user-vocab/clip-162.mp3"
+    },
+    "c1-6": {
+      "ar": "الأَدَب",
+      "src": "./audio/user-vocab/clip-163.mp3"
+    },
+    "c1-4-bp": {
+      "ar": "جُمَل",
+      "src": "./audio/user-vocab/clip-164.mp3"
+    },
+    "c1-7": {
+      "ar": "أَدْرُسُ",
+      "src": "./audio/user-vocab/clip-165.mp3"
+    },
+    "c1-9": {
+      "ar": "نَفْس الجَامِعَة",
+      "src": "./audio/user-vocab/clip-167.mp3"
+    },
+    "c1-10": {
+      "ar": "أَسْكُنُ",
+      "src": "./audio/user-vocab/clip-168.mp3"
+    },
+    "c1-4": {
+      "ar": "جُمْلَة",
+      "src": "./audio/user-vocab/clip-169.mp3"
+    },
+    "c1-3": {
+      "ar": "القَوَاعِد",
+      "src": "./audio/user-vocab/clip-170.mp3"
+    },
+    "c4-30": {
+      "ar": "كانَتْ",
+      "src": "./audio/user-vocab/clip-171.mp3"
+    },
+    "c4-31": {
+      "ar": "كانوا / كُنْتُمْ",
+      "src": "./audio/user-vocab/clip-172.mp3"
+    },
+    "c4-29": {
+      "ar": "كانَ",
+      "src": "./audio/user-vocab/clip-173.mp3"
+    },
+    "c4-47": {
+      "ar": "أَكُونُ",
+      "src": "./audio/user-vocab/clip-174.mp3"
+    },
+    "c4-48": {
+      "ar": "كَوْن",
+      "src": "./audio/user-vocab/clip-175.mp3"
+    },
+    "c4-45": {
+      "ar": "أَكَلْتُ",
+      "src": "./audio/user-vocab/clip-176.mp3"
+    },
+    "c4-27": {
+      "ar": "آكُلُ",
+      "src": "./audio/user-vocab/clip-177.mp3"
+    },
+    "c4-26": {
+      "ar": "فَرْد",
+      "src": "./audio/user-vocab/clip-178.mp3"
+    },
+    "c4-26-bp": {
+      "ar": "أَفْرَاد",
+      "src": "./audio/user-vocab/clip-179.mp3"
+    },
+    "c4-25": {
+      "ar": "كُلّ",
+      "src": "./audio/user-vocab/clip-180.mp3"
+    },
+    "c4-41": {
+      "ar": "قُلْتُ",
+      "src": "./audio/user-vocab/clip-181.mp3"
+    },
+    "c4-44": {
+      "ar": "كِتَابَة",
+      "src": "./audio/user-vocab/clip-182.mp3"
+    },
+    "c4-43": {
+      "ar": "كَتَبْتُ",
+      "src": "./audio/user-vocab/clip-183.mp3"
+    },
+    "c4-40": {
+      "ar": "قِرَاءَة",
+      "src": "./audio/user-vocab/clip-184.mp3"
+    },
+    "c4-42": {
+      "ar": "قَوْل",
+      "src": "./audio/user-vocab/clip-185.mp3"
+    },
+    "c4-39": {
+      "ar": "قَرَأْتُ",
+      "src": "./audio/user-vocab/clip-186.mp3"
+    },
+    "c4-38": {
+      "ar": "اِسْتِمَاع",
+      "src": "./audio/user-vocab/clip-187.mp3"
+    },
+    "c4-35": {
+      "ar": "تَذَكُّر",
+      "src": "./audio/user-vocab/clip-188.mp3"
+    },
+    "c4-37": {
+      "ar": "اِسْتَمَعْتُ إِلَى",
+      "src": "./audio/user-vocab/clip-189.mp3"
+    },
+    "c4-36": {
+      "ar": "سَافَرْتُ",
+      "src": "./audio/user-vocab/clip-190.mp3"
+    },
+    "c4-33": {
+      "ar": "حِفْظ",
+      "src": "./audio/user-vocab/clip-191.mp3"
+    },
+    "c4-34": {
+      "ar": "تَذَكَّرْتُ",
+      "src": "./audio/user-vocab/clip-192.mp3"
+    },
+    "c4-14": {
+      "ar": "أَوَّل",
+      "src": "./audio/user-vocab/clip-193.mp3"
+    },
+    "c4-32": {
+      "ar": "حَفِظْتُ",
+      "src": "./audio/user-vocab/clip-194.mp3"
+    },
+    "c4-10": {
+      "ar": "اِبْتِدائِيّ",
+      "src": "./audio/user-vocab/clip-195.mp3"
+    },
+    "c4-11": {
+      "ar": "زَميل",
+      "src": "./audio/user-vocab/clip-197.mp3"
+    },
+    "c4-5": {
+      "ar": "لَحْم",
+      "src": "./audio/user-vocab/clip-198.mp3"
+    },
+    "c4-5-bp": {
+      "ar": "لُحُوم",
+      "src": "./audio/user-vocab/clip-199.mp3"
+    },
+    "c3-35-bp": {
+      "ar": "مَعَارِف",
+      "src": "./audio/user-vocab/clip-200.mp3"
+    },
+    "c4-4-bp": {
+      "ar": "أَسْمَاك",
+      "src": "./audio/user-vocab/clip-201.mp3"
+    },
+    "c3-29": {
+      "ar": "فِي الحَقِيقَة",
+      "src": "./audio/user-vocab/clip-202.mp3"
+    },
+    "c3-35": {
+      "ar": "مَعْرِفَة",
+      "src": "./audio/user-vocab/clip-203.mp3"
+    },
+    "c3-31": {
+      "ar": "كَمْ؟",
+      "src": "./audio/user-vocab/clip-204.mp3"
+    },
+    "c3-34": {
+      "ar": "عَرَفْتُ",
+      "src": "./audio/user-vocab/clip-205.mp3"
+    },
+    "c3-28": {
+      "ar": "بَارَكَ اللهُ فِيكَ.",
+      "src": "./audio/user-vocab/clip-206.mp3"
+    },
+    "c3-22-bp": {
+      "ar": "جُيُوش",
+      "src": "./audio/user-vocab/clip-207.mp3"
+    },
+    "c3-24": {
+      "ar": "رِسَالَة",
+      "src": "./audio/user-vocab/clip-208.mp3"
+    },
+    "c3-26": {
+      "ar": "الآنَ",
+      "src": "./audio/user-vocab/clip-209.mp3"
+    },
+    "c3-33": {
+      "ar": "تَدْرِيس",
+      "src": "./audio/user-vocab/clip-210.mp3"
+    },
+    "c3-24-bp": {
+      "ar": "رَسَائِل",
+      "src": "./audio/user-vocab/clip-211.mp3"
+    },
+    "c3-20-bp": {
+      "ar": "أَقَارِب",
+      "src": "./audio/user-vocab/clip-212.mp3"
+    },
+    "c3-22": {
+      "ar": "جَيْش",
+      "src": "./audio/user-vocab/clip-213.mp3"
+    },
+    "c3-32": {
+      "ar": "دَرَّسْتُ",
+      "src": "./audio/user-vocab/clip-214.mp3"
+    },
+    "c3-20": {
+      "ar": "قَرِيب",
+      "src": "./audio/user-vocab/clip-215.mp3"
+    },
+    "c3-18-bp": {
+      "ar": "أَعْمَام",
+      "src": "./audio/user-vocab/clip-216.mp3"
+    },
+    "c3-19-bp": {
+      "ar": "عَوَائِل",
+      "src": "./audio/user-vocab/clip-217.mp3"
+    },
+    "c3-19": {
+      "ar": "عَائِلَة",
+      "src": "./audio/user-vocab/clip-218.mp3"
+    },
+    "c3-16": {
+      "ar": "زَوْجَة",
+      "src": "./audio/user-vocab/clip-219.mp3"
+    },
+    "c3-15-bp": {
+      "ar": "أَزْوَاج",
+      "src": "./audio/user-vocab/clip-220.mp3"
+    },
+    "c3-17": {
+      "ar": "مُتَزَوِّج",
+      "src": "./audio/user-vocab/clip-221.mp3"
+    },
+    "c3-15": {
+      "ar": "زَوْج",
+      "src": "./audio/user-vocab/clip-222.mp3"
+    },
+    "c3-18": {
+      "ar": "عَمّ",
+      "src": "./audio/user-vocab/clip-223.mp3"
+    },
+    "c3-13-bp": {
+      "ar": "أَجْدَاد",
+      "src": "./audio/user-vocab/clip-224.mp3"
+    },
+    "c3-14": {
+      "ar": "جَدَّة",
+      "src": "./audio/user-vocab/clip-225.mp3"
+    },
+    "c3-13": {
+      "ar": "جَدّ",
+      "src": "./audio/user-vocab/clip-226.mp3"
+    },
+    "c3-11-bp": {
+      "ar": "أَبْنَاء",
+      "src": "./audio/user-vocab/clip-227.mp3"
+    },
+    "c3-9": {
+      "ar": "الهَنْدَسَة",
+      "src": "./audio/user-vocab/clip-228.mp3"
+    },
+    "c3-11": {
+      "ar": "اِبْن",
+      "src": "./audio/user-vocab/clip-229.mp3"
+    },
+    "c3-12-bp": {
+      "ar": "أَبْنَاء عَمّ",
+      "src": "./audio/user-vocab/clip-230.mp3"
+    },
+    "c3-3-bp": {
+      "ar": "أَدْيَان",
+      "src": "./audio/user-vocab/clip-231.mp3"
+    },
+    "c3-8": {
+      "ar": "عِلْم النَّفْس",
+      "src": "./audio/user-vocab/clip-232.mp3"
+    },
+    "c3-10": {
+      "ar": "كُلِّيَّة",
+      "src": "./audio/user-vocab/clip-233.mp3"
+    },
+    "c3-5-bp": {
+      "ar": "عُلُوم",
+      "src": "./audio/user-vocab/clip-234.mp3"
+    },
+    "c3-1-bp": {
+      "ar": "تَوَارِيخ",
+      "src": "./audio/user-vocab/clip-235.mp3"
+    },
+    "c1-37-bp": {
+      "ar": "أَعْمَال",
+      "src": "./audio/user-vocab/clip-236.mp3"
+    },
+    "c2-10-bp": {
+      "ar": "أَعْمَال / أَشْغَال",
+      "src": "./audio/user-vocab/clip-236.mp3"
+    },
+    "c2-13-bp": {
+      "ar": "بِلَاد / بُلْدَان",
+      "src": "./audio/user-vocab/clip-237.mp3"
+    },
+    "c2-1-bp": {
+      "ar": "أُسَر",
+      "src": "./audio/user-vocab/clip-238.mp3"
+    },
+    "c1-36": {
+      "ar": "عَمِلْتُ",
+      "src": "./audio/user-vocab/clip-239.mp3"
+    },
+    "c1-37": {
+      "ar": "عَمَل",
+      "src": "./audio/user-vocab/clip-240.mp3"
+    },
+    "c2-14-bp": {
+      "ar": "مَرَاكِز",
+      "src": "./audio/user-vocab/clip-241.mp3"
+    },
+    "c2-16": {
+      "ar": "اليَوْم",
+      "src": "./audio/user-vocab/clip-242.mp3"
+    },
+    "c2-26": {
+      "ar": "تَكَلَّمْتُ عَنْ",
+      "src": "./audio/user-vocab/clip-244.mp3"
+    },
+    "c2-27": {
+      "ar": "تَكَلُّم",
+      "src": "./audio/user-vocab/clip-245.mp3"
+    },
+    "c1-12-bp": {
+      "ar": "عَنَاوِين",
+      "src": "./audio/user-vocab/clip-246.mp3"
+    },
+    "c1-35": {
+      "ar": "سَكَن",
+      "src": "./audio/user-vocab/clip-247.mp3"
+    },
+    "c1-32": {
+      "ar": "دَرَسْتُ",
+      "src": "./audio/user-vocab/clip-248.mp3"
+    },
+    "c1-33": {
+      "ar": "دِرَاسَة",
+      "src": "./audio/user-vocab/clip-249.mp3"
+    },
+    "c1-5": {
+      "ar": "الثَّقَافَة",
+      "src": "./audio/user-vocab/clip-250.mp3"
+    },
+    "c1-2": {
+      "ar": "الفُصْحَى",
+      "src": "./audio/user-vocab/clip-251.mp3"
+    },
+    "c1-8": {
+      "ar": "نَفْس الــــ",
+      "src": "./audio/user-vocab/clip-252.mp3"
+    },
+    "c1-16-bp": {
+      "ar": "أَعْمَار",
+      "src": "./audio/user-vocab/clip-253.mp3"
+    },
+    "c1-11-bp": {
+      "ar": "مَنَاطِق",
+      "src": "./audio/user-vocab/clip-254.mp3"
+    },
+    "c1-34": {
+      "ar": "سَكَنْتُ",
+      "src": "./audio/user-vocab/clip-255.mp3"
+    }
+  }
+}

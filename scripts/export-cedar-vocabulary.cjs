@@ -36,7 +36,9 @@ for(const [id,settings] of Object.entries(overrides)){
  if(!target)throw Error('Unknown pronunciation override: '+id);
  for(const field of ['revision','session_instructions','max_output_tokens','max_audio_seconds','verify_audio','generation_engine','generation_model','repair_priority'])if(settings[field]!==undefined)target[field]=settings[field];
 }
-const entries=[...targets.values()].sort((a,b)=>a.id.localeCompare(b.id));
+const userAudioKeys=new Set(Object.keys(win.MOSA_USER_VOCAB_AUDIO_BY_KEY||{}));
+const userAudioKey=ar=>String(ar||'').replace(/[\u0610-\u061A\u064B-\u0650\u0652-\u065F\u0670\u06D6-\u06EDـ]/g,'').replace(/[^ء-يّ]/g,'');
+const entries=[...targets.values()].filter(t=>!userAudioKeys.has(userAudioKey(t.ar))).sort((a,b)=>a.id.localeCompare(b.id));
 if(entries.length>10000||entries.length<1000||new Set(entries.map(t=>t.id)).size!==entries.length)throw Error('Unexpected vocabulary target count');
 
 const collectionId=process.argv.find(a=>a.startsWith('--collection='))?.split('=')[1];
