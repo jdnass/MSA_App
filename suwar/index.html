@@ -12,12 +12,19 @@
   <title>Suwar · Arabic Study</title>
   <script src="./data.js" defer></script>
   <script src="./app.js" defer></script>
+  <script src="../user-vocab-clips.js?v=112" async></script>
 </head>
 <body>
   <div class="app">
     <main id="main"><p>Loading Suwar…</p></main>
     <nav class="bottom" id="nav" aria-label="Study tabs"></nav>
   </div>
+  <dialog id="filters" aria-labelledby="filter-title">
+    <form method="dialog">
+      <div class="dialog-head"><h2 id="filter-title">Filters</h2><button>Done</button></div>
+      <div id="filter-fields"></div>
+    </form>
+  </dialog>
   <dialog id="options" aria-labelledby="option-title">
     <form method="dialog">
       <div class="dialog-head"><h2 id="option-title">Study options</h2><button aria-label="Close study options">Done</button></div>

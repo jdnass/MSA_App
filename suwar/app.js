@@ -3,6 +3,8 @@ const { pictures, fragments, verbs, readings, subforms } = window.SUWAR_DATA;
 const main = document.querySelector("#main");
 const nav = document.querySelector("#nav");
 const dialog = document.querySelector("#options");
+const filterDialog = document.querySelector("#filters");
+const filterFields = document.querySelector("#filter-fields");
 const fields = document.querySelector("#option-fields");
 const tabIcons = {
   Pictures: '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="15" cy="9" r="2"/><path d="m4 18 5-6 4 5 3-3 4 4"/>',
@@ -19,7 +21,7 @@ const key = "suwar-study-v1";
 let saved;
 try { saved = JSON.parse(localStorage.getItem(key)) || {}; } catch { saved = {}; }
 const state = {
-  tab:"Pictures", index:0, chapter:"", broken:"all", masdar:"all", confidence:"", structure:"", form:"", subform:"", irregular:"all", listMode:false, filtersOpen:false,
+  tab:"Pictures", index:0, chapter:"", broken:"all", masdar:"all", confidence:"", structure:"", form:"", subform:"", irregular:"all", listMode:false,
   reading:"", cases:false, revealed:new Set(), listReveals:new Set(), shuffled:[],
   ratings:saved.ratings || {}, hide:saved.hide || {}, order:saved.order === "shuffle" ? "shuffle" : "chronological"
 };
@@ -30,7 +32,7 @@ const save = () => {
 };
 const clearMarks = text => text.replace(/[\u0610-\u061a\u064b-\u065f\u0670]/g,"");
 const marked = text => text.replace(/\{([^}]*)\}/g, (_, suffix) => state.cases ? suffix : "");
-const arabic = text => escape(state.hide.harakat ? clearMarks(text) : text);
+const arabic = text => escape(state.hide.harakat && !(state.tab==="Reading" && state.cases) ? clearMarks(text) : text);
 const quote = text => '<span lang="ar" dir="rtl">' + arabic(text) + '</span>';
 const unique = values => [...new Set(values)];
 const chapters = unique(pictures.map(v => v.chapterName));
@@ -94,9 +96,16 @@ function play(card) {
       {const status=document.querySelector(".audio-status");if(status)status.textContent="Arabic speech is unavailable on this device."; }
     }
   };
-  if (!card.audio) return fallback();
-  audio=new Audio(card.audio);
-  audio.play().catch(fallback);
+  const userClip=card.userAudio && window.MOSA_USER_VOCAB_CLIPS?.["./audio/user-vocab/"+card.userAudio+".mp3"];
+  const sources=[...new Set([userClip,card.audio].filter(Boolean))];
+  const playNext=()=>{
+    if(version!==speechVersion) return;
+    const src=sources.shift();
+    if(!src) return fallback();
+    audio=new Audio(src);
+    audio.play().catch(playNext);
+  };
+  playNext();
 }
 
 function reveal(key,text,cls,defaultHidden=false) {
@@ -112,30 +121,32 @@ function renderCard(v) {
   let artwork="";
   if (picture) {
     const [page,x,y]=v.art;
-    artwork='<div class="art" role="img" aria-label="Clay illustration" style="background-image:url(./art/clay-'+page+'.webp);background-position:'+x*20+'% '+y*20+'%"></div>';
+    artwork='<div class="art" role="img" aria-label="Clay illustration" style="background-image:url(./art/clay-hd-'+page+'.webp);background-position:'+x*20+'% '+y*20+'%"></div>';
   }
   const meta=picture?v.chapterName+" · "+v.kind+(v.broken?" · Broken plural":""):
-    verb?(v.form==="Quadriliteral"?v.form:"Form "+v.form)+(v.subform&&subforms[v.subform]?" · "+subforms[v.subform].label:""):v.section;
+    verb?(v.form==="Quadriliteral"?v.form:"Form "+v.form)+(v.subform&&subforms[v.subform]?" · "+subforms[v.subform].label:"")+(v.irregularType?" · "+v.irregularType:""):v.section;
   const canShowAudio=!state.hide.audio;
   const showVerbDetails=verb&&(!state.hide.ar||state.revealed.has("ar"));
+  const showFormTransliteration=!state.hide.tr||state.revealed.has("tr");
   const related=showVerbDetails?[["Past (I)",v.past],["Maṣdar",v.masdar]].filter(([,text])=>text&&text!=="—"):[];
-  return '<article class="card '+(picture?"picture":"fragment")+'">'+(!picture?'<p class="caption">'+escape(meta)+'</p>':"")+artwork+
+  return '<article class="card '+(picture?"picture":"fragment")+'">'+(!picture?'<p class="caption">'+escape(meta)+'</p>':"")+(picture?'<div class="art-frame">'+artwork+'</div>':"")+
     reveal("en",v.en,"en")+reveal("ar",v.ar,"ar",state.tab==="Fragments")+
     (picture||verb?reveal("tr",v.tr||romanize(v.ar),"tr"):"")+
-    (related.length?'<div class="forms">'+related.map(([label,text])=>'<div><small>'+label+'</small><div class="ar">'+quote(text)+'</div><div class="form-tr">'+escape(romanize(text))+'</div></div>').join("")+'</div>':"")+
+    (related.length?'<div class="forms">'+related.map(([label,text])=>'<div><small>'+label+'</small><div class="ar">'+quote(text)+'</div>'+(showFormTransliteration?'<div class="form-tr">'+escape(romanize(text))+'</div>':"")+'</div>').join("")+'</div>':"")+
+    (verb || state.tab==="Fragments"&&(!(state.hide.ar??true)||state.revealed.has("ar"))?
+      '<button class="secondary related-card" type="button" data-related="'+v.id+'">'+(verb?"See example":"See verb forms")+'</button>':"")+
     (!picture&&canShowAudio?'<div class="audio-row"><button class="secondary" data-play type="button">Play Arabic</button><div class="audio-status caption" role="status"></div></div>':"")+
-    (picture?'<div class="ratings" aria-label="Confidence">'+confidence.map(c=>'<button class="rating" type="button" data-rate="'+c+'" aria-pressed="'+(state.ratings[v.id]===c)+'">'+c+'</button>').join("")+'</div>':"")+'</article>';
+    (picture?'<div class="audio-status sr-only" role="status"></div><div class="ratings" aria-label="Confidence">'+confidence.map(c=>'<button class="rating" type="button" data-rate="'+c+'" aria-pressed="'+(state.ratings[v.id]===c)+'">'+c+'</button>').join("")+'</div>':"")+'</article>';
 }
 
 function toolbar() {
-  const sound = state.tab==="Pictures" && !state.hide.audio ? iconButton("audio","Play Arabic word","data-play") : "";
+  const sound = state.tab==="Pictures" && !state.listMode && !state.hide.audio && list().length ? iconButton("audio","Play Arabic word","data-play") : "";
   const mode = (state.tab==="Pictures"||state.tab==="Verbs") ? iconButton(state.listMode?"cards":"list",state.listMode?"Card view":"List view","data-toggle-list aria-pressed="+state.listMode) : "";
-  const filter = state.tab==="Reading" ? "" : iconButton("filter","Filters","data-toggle-filters aria-expanded="+state.filtersOpen);
+  const filter = state.tab==="Reading" ? "" : iconButton("filter","Filters",'data-toggle-filters aria-haspopup="dialog"');
   const gear = state.tab==="Reading" ? "" : iconButton("gear","Display settings","data-settings");
   return '<div class="study-toolbar"><div class="toolbar-left">'+sound+'</div><div class="toolbar-right">'+filter+mode+gear+'</div></div>';
 }
 function filters() {
-  if(!state.filtersOpen)return "";
   if(state.tab==="Pictures")return '<section class="filters">'+select("Banana chapter","chapter",optionsWithAll("All chapters",chapters),state.chapter)+
     select("Broken plurals","broken",[["all","Include all"],["hide","Hide broken plurals"],["only","Broken plurals only"]],state.broken)+
     select("Maṣdar nouns","masdar",[["all","Include all"],["hide","Hide maṣdar nouns"]],state.masdar)+
@@ -145,22 +156,23 @@ function filters() {
     (state.form==="I"?select("Form I subtype","subform",[["","All Form I subtypes"],...Object.entries(subforms).map(([id,o])=>[id,o.label])],state.subform):"")+
     select("Irregular verbs","irregular",[["all","Include all"],["hide","Hide irregular verbs"],["only","Irregular verbs only"]],state.irregular)+'</section>';
 }
-function listField(v, field, content, cls) {
-  const id=String(v.id), hidden=!!state.hide[field]&&!state.listReveals.has(id+":"+field);
-  return '<span class="'+cls+(hidden?' list-hidden':'')+'"'+
-    (hidden?' data-reveal-list="'+escape(id)+'" data-reveal-field="'+field+'" role="button" tabindex="0" aria-label="Reveal '+field+'"':"")+
-    '>'+content+'</span>';
+function listField(v, field, content, cls, setting=field, label=field) {
+  const id=String(v.id), hidden=!!state.hide[setting]&&!state.listReveals.has(id+":"+field);
+  if (hidden) return '<button type="button" class="'+cls+' list-hidden" data-reveal-list="'+escape(id)+'" data-reveal-field="'+field+'" aria-label="Reveal '+label+'"><span aria-hidden="true">'+content+'</span></button>';
+  return '<span class="'+cls+'">'+content+'</span>';
 }
 function listRow(v) {
-  const english=listField(v,"en",escape(v.en),"list-en");
-  const arabicText=listField(v,"ar",quote(v.ar),"list-ar");
-  const tr=listField(v,"tr",escape(v.tr||romanize(v.ar)),"list-tr");
+  const english=listField(v,"en",escape(v.en),"list-en","en","English");
+  const arabicText=listField(v,"ar",quote(v.ar),"list-ar","ar","Arabic");
+  const tr=listField(v,"tr",escape(v.tr||romanize(v.ar)),"list-tr","tr","transliteration");
   const secondary=state.tab==="Verbs"?
-    '<div class="verb-list-forms">'+
-      '<div><span>Past (I)</span><strong>'+quote(v.past||"—")+'</strong><small>'+escape(romanize(v.past||""))+'</small></div>'+
-      '<div><span>Maṣdar</span><strong>'+quote(v.masdar||"—")+'</strong><small>'+escape(romanize(v.masdar||""))+'</small></div>'+
-    '</div>':"";
-  return '<div class="vocab-list-row'+(state.tab==="Verbs"?' verb-vocab-row':'')+'" role="button" tabindex="0" data-play-id="'+escape(v.id)+'" aria-label="Play '+escape(v.en)+'">'+
+    '<div class="verb-list-forms">'+[["Past (I)","past",v.past],["Maṣdar","masdar",v.masdar]].map(([label,field,text])=>
+      '<div><span class="verb-form-label">'+label+'</span>'+
+      (text&&text!=="—"?listField(v,field,quote(text),"verb-form-ar","ar",label+" Arabic")+
+        listField(v,field+"-tr",escape(romanize(text)),"verb-form-tr","tr",label+" transliteration"):'<span>—</span>')+
+      '</div>').join("")+'</div>':"";
+  const sound=state.hide.audio?"":' tabindex="0" data-play-id="'+escape(v.id)+'" aria-label="Play '+escape(v.en)+'"';
+  return '<div class="vocab-list-row'+(state.tab==="Verbs"?' verb-vocab-row':'')+'"'+sound+'>'+
     '<div class="vocab-list-columns">'+english+arabicText+tr+'</div>'+secondary+'</div>';
 }
 function listView(all) {
@@ -177,7 +189,7 @@ function listView(all) {
 function deck() {
   const all=list();
   state.index=Math.max(0,Math.min(all.length-1,state.index));
-  const top=toolbar()+filters();
+  const top=toolbar();
   if(!all.length)return top+'<article class="empty"><h3>No matching cards</h3><p class="muted">Try a different filter.</p></article>';
   if(state.listMode&&(state.tab==="Pictures"||state.tab==="Verbs"))return top+listView(all);
   return top+'<div class="flash-stage"><p class="counter" aria-live="polite">'+(state.index+1)+' / '+all.length+'</p>'+renderCard(all[state.index])+
@@ -189,12 +201,15 @@ function renderReading() {
   const title='<h2>Reading</h2><p class="muted">Banana Part 1 passages</p>';
   const controls=select("Banana chapter","reading",[["","Choose a chapter"],...readings.map(r=>[String(r.id),r.title])],state.reading);
   if (!item) return title+'<div class="controls">'+controls+'</div>';
-  let content;
-  if(item.tokens) content='<p class="caption">Tap a word for its meaning.</p><div class="gloss caption" id="gloss" aria-live="polite">Word meanings appear here.</div>'+
-    item.tokens.map((paragraph,i)=>'<p lang="ar" dir="rtl">'+paragraph.map(([ar,en],j)=>/^[.،؟!؛]$/.test(ar)?escape(ar):
-      ' <button type="button" class="word" data-word="'+i+':'+j+'" aria-pressed="false">'+arabic(marked(ar))+'</button>').join("")+'</p>').join("");
-  else content=item.lines.map(([en,ar])=>'<div><p lang="ar" dir="rtl">'+arabic(marked(ar))+'</p><details><summary>English</summary><p>'+escape(en)+'</p></details></div>').join("");
-  return title+'<div class="controls">'+controls+'</div><label class="option">Show marked case endings<input type="checkbox" data-field="cases" '+(state.cases?"checked":"")+'></label><article class="reading sections">'+content+'</article>';
+  const content=item.tokens.map((paragraph,i)=>{
+    const words=paragraph.map(([ar,meaning],j)=>meaning?
+      '<button type="button" class="word" data-word="'+i+':'+j+'" aria-pressed="false">'+arabic(marked(ar))+'</button>':escape(marked(ar))).join("");
+    const translation=item.english?.[i];
+    return '<div class="reading-paragraph"><p lang="ar" dir="rtl">'+words+'</p>'+
+      (translation?'<details><summary>English</summary><p>'+escape(translation)+'</p></details>':"")+'</div>';
+  }).join("");
+  return title+'<div class="controls">'+controls+'</div><label class="option">Show marked case endings<input type="checkbox" data-field="cases" '+(state.cases?"checked":"")+'></label>'+
+    '<article class="reading sections"><p class="caption">Tap a word for its meaning.</p>'+content+'<div class="gloss caption" id="gloss" role="status"></div></article>';
 }
 
 function render() {
@@ -221,12 +236,11 @@ nav.addEventListener("click",event=>{
   state.index=0;
   state.listMode=false;
   state.listReveals.clear();
-  state.filtersOpen=false;
   state.revealed.clear();
   render();
-  window.scrollTo(0,0);
+  main.scrollTop=0;
 });
-main.addEventListener("change",event=>{
+function updateField(event) {
   const {field}=event.target.dataset;
   if(!field)return;
   state[field]=event.target.type==="checkbox"?event.target.checked:event.target.value;
@@ -235,10 +249,13 @@ main.addEventListener("change",event=>{
   state.index=0;
   state.revealed.clear();
   render();
-  main.querySelector('[data-field="'+field+'"]')?.focus();
-});
+  if (filterDialog.open) filterFields.innerHTML=filters();
+  event.currentTarget.querySelector('[data-field="'+field+'"]')?.focus({preventScroll:true});
+}
+main.addEventListener("change",updateField);
+filterFields.addEventListener("change",updateField);
 main.addEventListener("keydown",event=>{
-  if(state.listMode && (event.key==="Enter"||event.key===" ") && event.target.matches("[data-play-id], [data-reveal-list]")) {
+  if(state.listMode && (event.key==="Enter"||event.key===" ") && event.target.matches("[data-play-id]")) {
     event.preventDefault();
     event.target.click();
   }
@@ -246,8 +263,8 @@ main.addEventListener("keydown",event=>{
 main.addEventListener("click",event=>{
   const btn=event.target.closest("button");
   if(!btn && !event.target.closest("[data-play-id]"))return;
-  const {reveal:field,rate,step:delta,word}=btn?.dataset||{};
-  if(btn?.hasAttribute("data-toggle-filters")){state.filtersOpen=!state.filtersOpen;render();return;}
+  const {reveal:field,rate,step:delta,word,related}=btn?.dataset||{};
+  if(btn?.hasAttribute("data-toggle-filters")){filterFields.innerHTML=filters();filterDialog.showModal();return;}
   if(btn?.hasAttribute("data-toggle-list")){state.listMode=!state.listMode;render();return;}
   if(btn?.hasAttribute("data-settings")){openSettings();return;}
   const revealList=event.target.closest("[data-reveal-list]");
@@ -255,7 +272,20 @@ main.addEventListener("click",event=>{
   const listItem=event.target.closest("[data-play-id]");
   if(listItem){if(!state.hide.audio){const source=state.tab==="Pictures"?pictures:verbs;const selected=source.find(v=>String(v.id)===listItem.dataset.playId);if(selected)play(selected);}return;}
   const card=list()[state.index];
-  if(field){state.revealed.add(field);render();}
+  if(related){
+    stopAudio();
+    state.tab=state.tab==="Verbs"?"Fragments":"Verbs";
+    state.listMode=false;
+    if(state.tab==="Fragments") state.structure="";
+    else {state.form="";state.subform="";state.irregular="all";}
+    state.index=list().findIndex(item=>item.id===Number(related));
+    state.revealed.clear();
+    render();
+    main.scrollTop=0;
+    main.querySelector(".card")?.setAttribute("tabindex","-1");
+    main.querySelector(".card")?.focus({preventScroll:true});
+  }
+  else if(field){state.revealed.add(field);render();}
   else if(rate&&card){state.ratings[card.id]=rate;save();render();}
   else if(delta){step(Number(delta));}
   else if(btn?.hasAttribute("data-play")&&card){play(card);}
@@ -263,9 +293,23 @@ main.addEventListener("click",event=>{
     const [i,j]=word.split(":").map(Number);
     const item=readings.find(r=>String(r.id)===state.reading);
     const [,meaning]=item.tokens[i][j];
+    const wasOpen=btn.getAttribute("aria-pressed")==="true";
     main.querySelector('.word[aria-pressed="true"]')?.setAttribute("aria-pressed","false");
-    btn.setAttribute("aria-pressed","true");
-    document.querySelector("#gloss").textContent=meaning;
+    btn.setAttribute("aria-pressed",String(!wasOpen));
+    const gloss=document.querySelector("#gloss");
+    if(wasOpen){gloss.textContent="";return;}
+    btn.closest(".reading-paragraph").append(gloss);
+    gloss.textContent=meaning;
+    gloss.style.left="0px";
+    const bounds=btn.closest(".reading-paragraph").getBoundingClientRect();
+    const wordBounds=btn.getBoundingClientRect();
+    const width=gloss.getBoundingClientRect().width;
+    const left=wordBounds.left-bounds.left+(wordBounds.width-width)/2;
+    gloss.style.left=Math.max(0,Math.min(bounds.width-width,left))+"px";
+    const roomBelow=main.getBoundingClientRect().bottom-wordBounds.bottom;
+    const offset=roomBelow>=gloss.offsetHeight+6?
+      wordBounds.bottom-bounds.top+4:wordBounds.top-bounds.top-gloss.offsetHeight-4;
+    gloss.style.top=offset+"px";
   }
 });
 
@@ -275,7 +319,10 @@ function openSettings(){
   dialog.showModal();
 }
 fields.addEventListener("change",event=>{
-  if(event.target.dataset.hide){state.hide[event.target.dataset.hide]=event.target.checked;}
+  if(event.target.dataset.hide){
+    state.hide[event.target.dataset.hide]=event.target.checked;
+    state.listReveals.clear();
+  }
   else if(event.target.dataset.field==="order"){state.order=event.target.value;state.index=0;if(state.order==="shuffle")shufflePictures();}
   stopAudio();
   state.revealed.clear();
@@ -283,7 +330,7 @@ fields.addEventListener("change",event=>{
   render();
 });
 document.addEventListener("keydown",event=>{
-  if(dialog.open||state.tab==="Reading"||state.listMode||/INPUT|SELECT|TEXTAREA/.test(event.target.tagName))return;
+  if(dialog.open||filterDialog.open||state.tab==="Reading"||state.listMode||/INPUT|SELECT|TEXTAREA/.test(event.target.tagName))return;
   if(event.key==="ArrowLeft")step(-1);
   if(event.key==="ArrowRight")step(1);
 });
