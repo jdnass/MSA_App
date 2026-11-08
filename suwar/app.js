@@ -36,6 +36,8 @@ const unique = values => [...new Set(values)];
 const chapters = unique(pictures.map(v => v.chapterName));
 const structures = unique(fragments.map(v => v.section));
 const forms = ["I","II","III","IV","V","VI","VII","VIII","IX","X","Quadriliteral"];
+const normalizeArabic = value => clearMarks(value||"").replace(/^ال/,"").replace(/[أإآ]/g,"ا").replace(/ة/g,"ه");
+const masdarWords = new Set(verbs.map(v=>normalizeArabic(v.masdar)).filter(Boolean));
 const romanize = text => {
   const letters = {"أ":"ʾ","إ":"ʾ","آ":"ʾā","ا":"ā","ٱ":"a","ب":"b","ت":"t","ث":"th","ج":"j","ح":"ḥ","خ":"kh","د":"d","ذ":"dh","ر":"r","ز":"z","س":"s","ش":"sh","ص":"ṣ","ض":"ḍ","ط":"ṭ","ظ":"ẓ","ع":"ʿ","غ":"gh","ف":"f","ق":"q","ك":"k","ل":"l","م":"m","ن":"n","ه":"h","و":"w","ي":"y","ى":"ā","ة":"ah","ء":"ʾ","ؤ":"ʾ","ئ":"ʾ","َ":"a","ِ":"i","ُ":"u","ً":"an","ٍ":"in","ٌ":"un","ْ":"","ٰ":"ā","ـ":""};
   return text.replace(/\u064e?[اى]/g, "ا").replace(/ِي(?![َُِّ])/g,"ī").replace(/ُو(?![َُِّ])/g,"ū")
@@ -52,7 +54,7 @@ function list() {
     const source = state.order === "shuffle" ? state.shuffled : pictures;
     return source.filter(v => (!state.chapter || v.chapterName===state.chapter) &&
       (state.broken==="all" || v.broken===(state.broken==="only")) &&
-      (!state.confidence || state.ratings[v.id]===state.confidence) && (state.masdar!=="hide" || !/(?:Maṣdar|Masdar|مصدر)/i.test(v.kind+" "+v.en)));
+      (!state.confidence || state.ratings[v.id]===state.confidence) && (state.masdar!=="hide" || !masdarWords.has(normalizeArabic(v.ar)) && !/(?:Maṣdar|Masdar|مصدر)/i.test(v.kind+" "+v.en)));
   }
   if (state.tab === "Fragments") return fragments.filter(v => !state.structure || v.section===state.structure);
   if (state.tab === "Verbs") return verbs.filter(v => (!state.form || v.form===state.form) && (!state.subform || v.subform===state.subform) && (state.irregular==="all" || !!v.irregular===(state.irregular==="only"))).slice().sort((a,b)=>forms.indexOf(a.form)-forms.indexOf(b.form) || (a.subform||"").localeCompare(b.subform||""));
