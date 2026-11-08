@@ -56,3 +56,29 @@ dialog{border:1px solid var(--line);border-radius:18px;background:white;color:va
 .pictures-screen .art{max-height:34dvh}
 .pictures-screen .ratings{margin-top:3px}
 }
+
+/* MoSA-inspired, three-column study lists */
+.vocab-list{display:grid;gap:9px;padding:3px 0 14px}
+.vocab-list-row{display:block;width:100%;border:1px solid var(--line);background:#fff;border-radius:14px;padding:13px 14px;box-shadow:0 3px 10px rgba(30,62,106,.04);cursor:pointer;text-align:left}
+.vocab-list-row:active{background:#eef6ff}
+.vocab-list-columns{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr) minmax(0,1fr);gap:10px;align-items:center}
+.vocab-list-columns .list-en{font-weight:750;font-size:.94rem;line-height:1.25;overflow-wrap:anywhere}
+.vocab-list-columns .list-ar{font:1.65rem/1.35 var(--arabic);direction:rtl;text-align:center;overflow-wrap:anywhere}
+.vocab-list-columns .list-tr{color:#1754ad;text-align:right;line-height:1.3;font-size:.88rem;overflow-wrap:anywhere}
+.vocab-list-columns .list-hidden{filter:blur(7px);user-select:none;cursor:pointer}
+.verb-vocab-row{padding-bottom:10px}
+.verb-list-forms{border-top:1px solid var(--line);margin-top:9px;padding-top:8px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.verb-list-forms>div{min-width:0;display:flex;flex-direction:column;align-items:center;text-align:center}
+.verb-list-forms span{font-size:.7rem;color:var(--muted)}
+.verb-list-forms strong{font:1.25rem/1.5 var(--arabic);overflow-wrap:anywhere}
+.verb-list-forms small{font-size:.75rem;color:#1754ad;overflow-wrap:anywhere}
+.forms .form-tr{font-size:.84rem;line-height:1.3;color:#1754ad;margin-top:2px;overflow-wrap:anywhere}
+@media(max-width:380px){.vocab-list-row{padding:12px 10px}.vocab-list-columns{gap:7px;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr)}.vocab-list-columns .list-ar{font-size:1.42rem}.vocab-list-columns .list-tr{font-size:.78rem}}
+/* Smaller sprite crops reduce enlargement of each original clay illustration. */
+.pictures-screen .art{flex:0 1 auto;width:min(100%,235px,31dvh);height:auto;max-height:31dvh;aspect-ratio:1;margin:4px auto 7px;image-rendering:auto;backface-visibility:hidden}
+.pictures-screen .card.picture{justify-content:center;gap:clamp(4px,1.4dvh,13px)}
+.pictures-screen .en{font-size:clamp(1.3rem,5.4vw,1.65rem);line-height:1.2;font-weight:750}
+.pictures-screen .ar{font-size:clamp(1.9rem,8vw,2.7rem);line-height:1.25}
+.pictures-screen .tr{font-size:clamp(1.03rem,4.1vw,1.25rem);line-height:1.25}
+.pictures-screen .ratings{margin-top:auto}
+@media(max-height:680px){.pictures-screen .art{width:min(100%,195px,25dvh);max-height:25dvh}.pictures-screen .en{font-size:1.3rem}.pictures-screen .ar{font-size:1.85rem}.pictures-screen .tr{font-size:1rem}}
