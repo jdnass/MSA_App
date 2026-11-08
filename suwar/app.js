@@ -54,7 +54,7 @@ function list() {
     const source = state.order === "shuffle" ? state.shuffled : pictures;
     return source.filter(v => (!state.chapter || v.chapterName===state.chapter) &&
       (state.broken==="all" || v.broken===(state.broken==="only")) &&
-      (!state.confidence || state.ratings[v.id]===state.confidence) && (state.masdar!=="hide" || !masdarWords.has(normalizeArabic(v.ar)) && !/(?:Maṣdar|Masdar|مصدر)/i.test(v.kind+" "+v.en)));
+      (!state.confidence || state.ratings[v.id]===state.confidence) && (state.masdar!=="hide" || !(masdarWords.has(normalizeArabic(v.ar)) && !/^(?:a package|grumpy)$/i.test(v.en)) && !/(?:Maṣdar|Masdar|مصدر)/i.test(v.kind+" "+v.en)));
   }
   if (state.tab === "Fragments") return fragments.filter(v => !state.structure || v.section===state.structure);
   if (state.tab === "Verbs") return verbs.filter(v => (!state.form || v.form===state.form) && (!state.subform || v.subform===state.subform) && (state.irregular==="all" || !!v.irregular===(state.irregular==="only"))).slice().sort((a,b)=>forms.indexOf(a.form)-forms.indexOf(b.form) || (a.subform||"").localeCompare(b.subform||""));
