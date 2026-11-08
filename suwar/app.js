@@ -20,7 +20,7 @@ let saved;
 try { saved = JSON.parse(localStorage.getItem(key)) || {}; } catch { saved = {}; }
 const state = {
   tab:"Pictures", index:0, chapter:"", broken:"all", masdar:"all", confidence:"", structure:"", form:"", subform:"", irregular:"all", listMode:false, filtersOpen:false,
-  reading:"", cases:false, revealed:new Set(), shuffled:[],
+  reading:"", cases:false, revealed:new Set(), listReveals:new Set(), shuffled:[],
   ratings:saved.ratings || {}, hide:saved.hide || {}, order:saved.order === "shuffle" ? "shuffle" : "chronological"
 };
 let audio;
@@ -122,7 +122,7 @@ function renderCard(v) {
   return '<article class="card '+(picture?"picture":"fragment")+'">'+(!picture?'<p class="caption">'+escape(meta)+'</p>':"")+artwork+
     reveal("en",v.en,"en")+reveal("ar",v.ar,"ar",state.tab==="Fragments")+
     (picture||verb?reveal("tr",v.tr||romanize(v.ar),"tr"):"")+
-    (related.length?'<div class="forms">'+related.map(([label,text])=>'<div><small>'+label+'</small><div class="ar">'+quote(text)+'</div></div>').join("")+'</div>':"")+
+    (related.length?'<div class="forms">'+related.map(([label,text])=>'<div><small>'+label+'</small><div class="ar">'+quote(text)+'</div><div class="form-tr">'+escape(romanize(text))+'</div></div>').join("")+'</div>':"")+
     (!picture&&canShowAudio?'<div class="audio-row"><button class="secondary" data-play type="button">Play Arabic</button><div class="audio-status caption" role="status"></div></div>':"")+
     (picture?'<div class="ratings" aria-label="Confidence">'+confidence.map(c=>'<button class="rating" type="button" data-rate="'+c+'" aria-pressed="'+(state.ratings[v.id]===c)+'">'+c+'</button>').join("")+'</div>':"")+'</article>';
 }
@@ -145,16 +145,35 @@ function filters() {
     (state.form==="I"?select("Form I subtype","subform",[["","All Form I subtypes"],...Object.entries(subforms).map(([id,o])=>[id,o.label])],state.subform):"")+
     select("Irregular verbs","irregular",[["all","Include all"],["hide","Hide irregular verbs"],["only","Irregular verbs only"]],state.irregular)+'</section>';
 }
+function listField(v, field, content, cls) {
+  const id=String(v.id), hidden=!!state.hide[field]&&!state.listReveals.has(id+":"+field);
+  return '<span class="'+cls+(hidden?' list-hidden':'')+'"'+
+    (hidden?' data-reveal-list="'+escape(id)+'" data-reveal-field="'+field+'" role="button" tabindex="0" aria-label="Reveal '+field+'"':"")+
+    '>'+content+'</span>';
+}
+function listRow(v) {
+  const english=listField(v,"en",escape(v.en),"list-en");
+  const arabicText=listField(v,"ar",quote(v.ar),"list-ar");
+  const tr=listField(v,"tr",escape(v.tr||romanize(v.ar)),"list-tr");
+  const secondary=state.tab==="Verbs"?
+    '<div class="verb-list-forms">'+
+      '<div><span>Past (I)</span><strong>'+quote(v.past||"—")+'</strong><small>'+escape(romanize(v.past||""))+'</small></div>'+
+      '<div><span>Maṣdar</span><strong>'+quote(v.masdar||"—")+'</strong><small>'+escape(romanize(v.masdar||""))+'</small></div>'+
+    '</div>':"";
+  return '<div class="vocab-list-row'+(state.tab==="Verbs"?' verb-vocab-row':'')+'" role="button" tabindex="0" data-play-id="'+escape(v.id)+'" aria-label="Play '+escape(v.en)+'">'+
+    '<div class="vocab-list-columns">'+english+arabicText+tr+'</div>'+secondary+'</div>';
+}
 function listView(all) {
-  if(state.tab==="Pictures")return '<div class="list-view">'+all.map(v=>'<div class="list-entry"><div><div class="list-en">'+escape(v.en)+'</div><div class="list-ar">'+quote(v.ar)+'</div></div><button class="list-sound" data-play-id="'+escape(v.id)+'" aria-label="Play '+escape(v.en)+'">♫</button></div>').join("")+'</div>';
+  if(state.tab==="Pictures")return '<div class="vocab-list" aria-label="Vocabulary list">'+all.map(listRow).join("")+'</div>';
   let last="";
-  return '<div class="list-view verb-list">'+all.map(v=>{
-    const group=v.form+(v.form==="I"?" · "+(subforms[v.subform]?.label||"Other"):"");
+  return '<div class="vocab-list verb-list" aria-label="Verb list">'+all.map(v=>{
+    const group=(v.form==="Quadriliteral"?"Quadriliteral":"Form "+v.form)+(v.form==="I"?" · "+(subforms[v.subform]?.label||"Other / irregular"):"");
     const heading=group!==last?'<h3 class="list-group">'+escape(group)+'</h3>':"";
     last=group;
-    return heading+'<div class="list-entry verb-entry"><div><div class="list-en">'+escape(v.en)+(v.irregular?' <span class="irregular-tag">Irregular</span>':"")+'</div><div class="list-ar">'+quote(v.ar)+'</div><div class="list-detail">Past: '+quote(v.past||"—")+' · Maṣdar: '+quote(v.masdar||"—")+'</div></div><button class="list-sound" data-play-id="'+escape(v.id)+'" aria-label="Play '+escape(v.en)+'">♫</button></div>';
+    return heading+listRow(v);
   }).join("")+'</div>';
 }
+
 function deck() {
   const all=list();
   state.index=Math.max(0,Math.min(all.length-1,state.index));
@@ -201,6 +220,7 @@ nav.addEventListener("click",event=>{
   state.tab=next;
   state.index=0;
   state.listMode=false;
+  state.listReveals.clear();
   state.filtersOpen=false;
   state.revealed.clear();
   render();
@@ -217,19 +237,28 @@ main.addEventListener("change",event=>{
   render();
   main.querySelector('[data-field="'+field+'"]')?.focus();
 });
+main.addEventListener("keydown",event=>{
+  if(state.listMode && (event.key==="Enter"||event.key===" ") && event.target.matches("[data-play-id], [data-reveal-list]")) {
+    event.preventDefault();
+    event.target.click();
+  }
+});
 main.addEventListener("click",event=>{
   const btn=event.target.closest("button");
-  if(!btn)return;
-  const {reveal:field,rate,step:delta,word}=btn.dataset;
-  if(btn.hasAttribute("data-toggle-filters")){state.filtersOpen=!state.filtersOpen;render();return;}
-  if(btn.hasAttribute("data-toggle-list")){state.listMode=!state.listMode;render();return;}
-  if(btn.hasAttribute("data-settings")){openSettings();return;}
-  if(btn.hasAttribute("data-play-id")){const source=state.tab==="Pictures"?pictures:verbs;const selected=source.find(v=>String(v.id)===btn.dataset.playId);if(selected)play(selected);return;}
+  if(!btn && !event.target.closest("[data-play-id]"))return;
+  const {reveal:field,rate,step:delta,word}=btn?.dataset||{};
+  if(btn?.hasAttribute("data-toggle-filters")){state.filtersOpen=!state.filtersOpen;render();return;}
+  if(btn?.hasAttribute("data-toggle-list")){state.listMode=!state.listMode;render();return;}
+  if(btn?.hasAttribute("data-settings")){openSettings();return;}
+  const revealList=event.target.closest("[data-reveal-list]");
+  if(revealList){state.listReveals.add(revealList.dataset.revealList+":"+revealList.dataset.revealField);render();return;}
+  const listItem=event.target.closest("[data-play-id]");
+  if(listItem){if(!state.hide.audio){const source=state.tab==="Pictures"?pictures:verbs;const selected=source.find(v=>String(v.id)===listItem.dataset.playId);if(selected)play(selected);}return;}
   const card=list()[state.index];
   if(field){state.revealed.add(field);render();}
   else if(rate&&card){state.ratings[card.id]=rate;save();render();}
   else if(delta){step(Number(delta));}
-  else if(btn.hasAttribute("data-play")&&card){play(card);}
+  else if(btn?.hasAttribute("data-play")&&card){play(card);}
   else if(word){
     const [i,j]=word.split(":").map(Number);
     const item=readings.find(r=>String(r.id)===state.reading);
