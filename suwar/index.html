@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1473e6">
+  <meta name="description" content="Study Arabic through pictures, short fragments, verb forms, and readings.">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Suwar · Arabic Study</title>
+  <script src="./data.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div class="brand"><h1>Suwar</h1><span lang="ar" dir="rtl">صُوَر</span></div>
+      <button class="settings" id="settings" type="button" aria-haspopup="dialog">Options</button>
+    </header>
+    <main id="main"><p>Loading Suwar…</p></main>
+    <nav class="bottom" id="nav" aria-label="Study tabs"></nav>
+  </div>
+  <dialog id="options" aria-labelledby="option-title">
+    <form method="dialog">
+      <div class="dialog-head"><h2 id="option-title">Study options</h2><button aria-label="Close study options">Done</button></div>
+      <div id="option-fields"></div>
+    </form>
+  </dialog>
+</body>
+</html>
