@@ -14,3 +14,45 @@ h2{margin:0 0 4px;font-size:1.38rem}p{margin:0 0 12px}.muted,.counter,.caption{c
 dialog{border:1px solid var(--line);border-radius:18px;background:white;color:var(--ink);max-height:85dvh;width:min(420px,calc(100% - 24px));padding:16px;box-shadow:var(--shadow)}dialog::backdrop{background:#0a1d4166}.option{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:9px 11px;margin-top:6px;background:var(--bg);border-radius:9px}.option input{width:19px;height:19px;accent-color:var(--blue)}
 .reading{padding:16px}.reading p[lang="ar"]{font:1.62rem/1.9 var(--arabic);margin:8px 0}.reading summary{color:#125aaa;cursor:pointer}.reading .word{font:inherit;border:0;border-radius:5px;background:transparent;padding:0 2px;min-height:36px}.reading .word[aria-pressed="true"]{background:#dcecff;color:#174e99}.gloss{padding:8px;background:#eef6ff;border-radius:8px;min-height:40px;margin-bottom:0}
 .forms{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0 0}.forms div{border-radius:9px;background:#eef6ff;padding:8px 3px}.forms .ar{font-size:1.45rem}.sections{margin:10px 0}
+
+/* Suwar compact, MoSA-style study screens */
+.app{display:flex;flex-direction:column;height:100dvh;min-height:0;padding:env(safe-area-inset-top) 12px calc(66px + env(safe-area-inset-bottom));overflow:hidden}
+#main{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+.study-toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:46px;padding:3px 0 5px}
+.toolbar-left,.toolbar-right{display:flex;align-items:center;gap:8px}
+.icon-btn{border:1px solid var(--line);background:#fff;color:#125aaa;border-radius:12px;width:40px;height:40px;min-height:40px;display:grid;place-items:center;padding:8px}
+.icon-btn svg{width:22px;height:22px;stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 7px;padding:10px;border:1px solid var(--line);border-radius:13px;background:#fff;max-height:36dvh;overflow-y:auto}
+.filters label{flex:1 1 135px;font-size:.78rem;color:var(--muted)}
+.filters select{display:block;width:100%;margin-top:3px;font-size:.82rem;padding:5px}
+.pictures-screen{display:flex;flex-direction:column;overflow:hidden}
+.pictures-screen .flash-stage{flex:1;min-height:0;display:flex;flex-direction:column}
+.pictures-screen .counter{margin:2px 0 5px}
+.pictures-screen .card.picture{flex:1;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;padding:8px 10px;overflow:hidden}
+.pictures-screen .art{width:auto;max-width:100%;height:auto;max-height:min(42dvh,100%);aspect-ratio:1;flex:1 1 auto;min-height:0;margin:2px auto 5px}
+.pictures-screen .en{font-size:clamp(.98rem,3.9vw,1.3rem);margin:1px 0}
+.pictures-screen .ar{font-size:clamp(1.55rem,7vw,2.35rem);line-height:1.25;margin:1px 0}
+.pictures-screen .tr{font-size:.91rem;margin:0}
+.pictures-screen .ratings{width:100%;margin:5px 0 1px}
+.pictures-screen .rating{padding:3px;min-height:36px}
+.pictures-screen .move{margin:7px 0 2px}
+.pictures-screen .move button{min-height:36px;padding:5px}
+.bottom{padding-top:3px}
+.bottom button{min-height:50px}
+.list-view{display:flex;flex-direction:column;gap:7px;padding:2px 0 14px}
+.list-entry{display:flex;justify-content:space-between;align-items:center;gap:10px;background:white;border:1px solid var(--line);border-radius:12px;padding:9px 12px}
+.list-entry>div{min-width:0}
+.list-en{font-size:.92rem;font-weight:650}
+.list-ar{font:1.55rem/1.4 var(--arabic);overflow-wrap:anywhere}
+.list-detail{font-size:.79rem;color:var(--muted);margin-top:2px}
+.list-detail .ar{display:inline;font-size:1rem}
+.list-sound{border:1px solid var(--line);background:#eef6ff;border-radius:10px;color:#125aaa;min-width:38px;padding:3px 7px}
+.list-group{font-size:1rem;margin:12px 0 1px;color:#125aaa}
+.irregular-tag{font-size:.7rem;color:#125aaa;font-weight:500;background:#e9f3ff;border-radius:7px;padding:2px 5px}
+@media(max-height:680px){
+.pictures-screen .study-toolbar{min-height:39px}
+.pictures-screen .icon-btn{height:36px;width:36px;min-height:36px}
+.pictures-screen .card.picture{padding:5px 9px}
+.pictures-screen .art{max-height:34dvh}
+.pictures-screen .ratings{margin-top:3px}
+}
