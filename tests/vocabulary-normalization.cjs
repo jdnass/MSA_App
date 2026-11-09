@@ -9,7 +9,7 @@ function load(saved={},normalize=true){
   const el=()=>({style:{},classList:{add(){},remove(){},contains(){return false}},addEventListener(){},querySelector:()=>el(),querySelectorAll:()=>[],appendChild(){},setAttribute(){},innerHTML:''});
   const values=new Map(Object.entries(saved)),storage={getItem:k=>values.get(k)??null,setItem:(k,v)=>values.set(k,v),removeItem:k=>values.delete(k)};
   const win={addEventListener(){}},doc={querySelector:()=>el(),querySelectorAll:()=>[],addEventListener(){},createElement:()=>el()};
-  return new Function('window','document','localStorage','navigator','with(window){'+scripts+'\n;return {vocab:ALL_V,collections:COLLECTIONS,normalization:typeof NORMALIZED_VOCABULARY==="undefined"?null:NORMALIZED_VOCABULARY,state,filteredVocabulary,isSupplementalBrokenPlural,utility:window.MOSA_VOCABULARY_NORMALIZATION,values:localStorage.getItem("msa-vocab-id"),ratings:JSON.parse(localStorage.getItem("msa-ratings")),broken:brokenPluralEntries()};}')(win,doc,storage,{});
+  return new Function('window','document','localStorage','navigator','with(window){'+scripts+'\n;return {vocab:ALL_V,collections:COLLECTIONS,normalization:typeof NORMALIZED_VOCABULARY==="undefined"?null:NORMALIZED_VOCABULARY,state,go,app,toggleVocabView,filteredVocabulary,isSupplementalBrokenPlural,utility:window.MOSA_VOCABULARY_NORMALIZATION,values:localStorage.getItem("msa-vocab-id"),ratings:JSON.parse(localStorage.getItem("msa-ratings")),broken:brokenPluralEntries()};}')(win,doc,storage,{});
 }
 const d=load(),byId=new Map(d.vocab.map(w=>[w.id,w])),aliases=d.normalization.aliases;
 assert.equal(new Set(d.vocab.map(w=>w.id)).size,d.vocab.length);
@@ -58,6 +58,19 @@ for(const [male,female,mar,far] of [
 for(const [male,female,mar,far] of [
  ['student','female student','طَالِب','طَالِبَة'],['doctor','female doctor','طَبِيب','طَبِيبَة'],['teacher','female teacher','مُعَلِّم','مُعَلِّمَة'],['male paternal cousin','female paternal cousin','اِبْن عَمّ','اِبْنَة عَمّ']
 ]){const m=card('m','alkitaab1',mar,male);m.f=far;const result=fixture([m,card('f','mango-msa',far,female)]);assert.equal(result.vocab.length,1,female+' should collapse');assert.equal(result.vocab[0].f,far);}
+// Exercise the Vocabulary tab itself, including its shared header and badge.
+const navigation=load({'mosa-vocab-filters':JSON.stringify({strengths:['Medium']})});
+navigation.state.hide.audio=true;
+navigation.go('vocabulary');
+assert.match(navigation.app.innerHTML,/class="study-card/);
+assert.match(navigation.app.innerHTML,/class="filter-badge">1<\/span>/);
+navigation.toggleVocabView();
+assert.match(navigation.app.innerHTML,/aria-label="Vocabulary list"/);
+navigation.state.filters.strengths=new Set(['Strong']);
+navigation.go('home');
+navigation.go('vocabulary');
+assert.match(navigation.app.innerHTML,/No matching words/);
+
 const baseline=load({},false);
 function lessonText(data){
  const rows=[];function visit(c){rows.push({sentences:c.sentences,grammar:c.grammar});for(const child of Object.values(c.subchapters||{}))visit(child);}
