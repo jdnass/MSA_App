@@ -3117,6 +3117,19 @@ const AK2_CHAPTERS={
         "f": "—",
         "mp": "—",
         "fp": "—",
+        "id": "ak2-c3-reforms",
+        "ar": "إِصْلَاحَات",
+        "tr": "iṣlāḥāt",
+        "en": "Reforms",
+        "pos": "Noun"
+      },
+      {
+        "collectionId": "alkitaab2",
+        "collection": "Al-Kitaab (Part 2)",
+        "chapter": 3,
+        "f": "—",
+        "mp": "—",
+        "fp": "—",
         "sourceOrders": [
           22
         ],
