@@ -1,0 +1,3716 @@
+{
+  "version": 1,
+  "title": "MoSA’s Adventure",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "The Empty Picture",
+      "arTitle": "الصُّورَةُ الْفَارِغَةُ",
+      "subtitle": "A book. A little gold door. Nobody inside.",
+      "image": "book",
+      "sentences": [
+        {
+          "id": "c1-s1",
+          "scene": "kitchen",
+          "ar": "كَانَ الْمَطَرُ يَهْطِلُ عِنْدَمَا وَصَلَتْ لَيْلَى وَأَخُوهَا الْأَصْغَرُ سَامِي إِلَى بَيْتِ جَدِّهِمَا.",
+          "en": "It was raining when Layla and her younger brother, Sami, arrived at their grandfather’s house.",
+          "tokens": [
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "الْمَطَرُ",
+              "en": "the rain"
+            },
+            {
+              "ar": "يَهْطِلُ",
+              "en": "falling"
+            },
+            {
+              "ar": "عِنْدَمَا",
+              "en": "when"
+            },
+            {
+              "ar": "وَصَلَتْ",
+              "en": "arrived"
+            },
+            {
+              "ar": "لَيْلَى",
+              "en": "Layla"
+            },
+            {
+              "ar": "وَأَخُوهَا",
+              "en": "and her brother"
+            },
+            {
+              "ar": "الْأَصْغَرُ",
+              "en": "younger"
+            },
+            {
+              "ar": "سَامِي",
+              "en": "Sami"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "to"
+            },
+            {
+              "ar": "بَيْتِ",
+              "en": "the house of"
+            },
+            {
+              "ar": "جَدِّهِمَا.",
+              "en": "their grandfather (the two children)"
+            }
+          ]
+        },
+        {
+          "id": "c1-s2",
+          "scene": "kitchen",
+          "ar": "كَانَتْ لَيْلَى تَحْمِلُ حَقِيبَةً فِيهَا تُفَّاحٌ.",
+          "en": "Layla was carrying a bag of apples.",
+          "tokens": [
+            {
+              "ar": "كَانَتْ",
+              "en": "was"
+            },
+            {
+              "ar": "لَيْلَى",
+              "en": "Layla"
+            },
+            {
+              "ar": "تَحْمِلُ",
+              "en": "carrying"
+            },
+            {
+              "ar": "حَقِيبَةً",
+              "en": "a bag"
+            },
+            {
+              "ar": "فِيهَا",
+              "en": "in it"
+            },
+            {
+              "ar": "تُفَّاحٌ.",
+              "en": "apples"
+            }
+          ]
+        },
+        {
+          "id": "c1-s3",
+          "scene": "kitchen",
+          "ar": "وَكَانَ سَامِي يَحْمِلُ ثَلَاثَةَ كُتُبٍ.",
+          "en": "Sami was carrying three books.",
+          "tokens": [
+            {
+              "ar": "وَكَانَ",
+              "en": "and was"
+            },
+            {
+              "ar": "سَامِي",
+              "en": "Sami"
+            },
+            {
+              "ar": "يَحْمِلُ",
+              "en": "carrying"
+            },
+            {
+              "ar": "ثَلَاثَةَ",
+              "en": "three"
+            },
+            {
+              "ar": "كُتُبٍ.",
+              "en": "books"
+            }
+          ],
+          "note": {
+            "title": "Three books",
+            "ar": "ثَلَاثَةُ كُتُبٍ",
+            "text": "For numbers 3–10, use the opposite grammatical gender to the singular noun. كِتَاب is masculine, so “three books” uses ثَلَاثَة. The counted noun is plural and genitive."
+          }
+        },
+        {
+          "id": "c1-s4",
+          "scene": "kitchen",
+          "ar": "لَمْ تَحْمِلْ مُوزَا شَيْئًا، لٰكِنَّهَا دَخَلَتْ أَوَّلًا.",
+          "en": "Moza carried nothing, but she entered first.",
+          "tokens": [
+            {
+              "ar": "لَمْ",
+              "en": "did not"
+            },
+            {
+              "ar": "تَحْمِلْ",
+              "en": "carry"
+            },
+            {
+              "ar": "مُوزَا",
+              "en": "Moza"
+            },
+            {
+              "ar": "شَيْئًا،",
+              "en": "anything"
+            },
+            {
+              "ar": "لٰكِنَّهَا",
+              "en": "but she"
+            },
+            {
+              "ar": "دَخَلَتْ",
+              "en": "entered"
+            },
+            {
+              "ar": "أَوَّلًا.",
+              "en": "first"
+            }
+          ]
+        },
+        {
+          "id": "c1-s5",
+          "scene": "kitchen",
+          "ar": "سَأَلَ سَامِي: «إِلَى أَيْنَ تَذْهَبِينَ؟»",
+          "en": "Sami asked, “Where are you going?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَ",
+              "en": "asked"
+            },
+            {
+              "ar": "سَامِي:",
+              "en": "Sami"
+            },
+            {
+              "ar": "«إِلَى",
+              "en": "to"
+            },
+            {
+              "ar": "أَيْنَ",
+              "en": "where"
+            },
+            {
+              "ar": "تَذْهَبِينَ؟»",
+              "en": "are you going? (to a female)"
+            }
+          ]
+        },
+        {
+          "id": "c1-s6",
+          "scene": "kitchen",
+          "ar": "تَوَقَّفَتْ مُوزَا عِنْدَ بَابِ الْمَطْبَخِ.",
+          "en": "Moza stopped at the kitchen door.",
+          "tokens": [
+            {
+              "ar": "تَوَقَّفَتْ",
+              "en": "stopped"
+            },
+            {
+              "ar": "مُوزَا",
+              "en": "Moza"
+            },
+            {
+              "ar": "عِنْدَ",
+              "en": "at"
+            },
+            {
+              "ar": "بَابِ",
+              "en": "the door of"
+            },
+            {
+              "ar": "الْمَطْبَخِ.",
+              "en": "the kitchen"
+            }
+          ]
+        },
+        {
+          "id": "c1-s7",
+          "scene": "kitchen",
+          "ar": "قَالَتْ لَيْلَى: «هِيَ تَعْرِفُ أَيْنَ جَدُّنَا.»",
+          "en": "Layla said, “She knows where Grandfather is.”",
+          "tokens": [
+            {
+              "ar": "قَالَتْ",
+              "en": "said"
+            },
+            {
+              "ar": "لَيْلَى:",
+              "en": "Layla"
+            },
+            {
+              "ar": "«هِيَ",
+              "en": "she"
+            },
+            {
+              "ar": "تَعْرِفُ",
+              "en": "knows"
+            },
+            {
+              "ar": "أَيْنَ",
+              "en": "where"
+            },
+            {
+              "ar": "جَدُّنَا.»",
+              "en": "our grandfather"
+            }
+          ]
+        },
+        {
+          "id": "c1-s8",
+          "scene": "kitchen",
+          "ar": "كَانَ جَدُّهُمَا وَاقِفًا بِجَانِبِ قِدْرٍ كَبِيرَةٍ، وَفِي يَدِهِ مِلْعَقَةٌ صَغِيرَةٌ.",
+          "en": "Their grandfather stood beside a large pot, with a small spoon in his hand.",
+          "tokens": [
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "جَدُّهُمَا",
+              "en": "their grandfather"
+            },
+            {
+              "ar": "وَاقِفًا",
+              "en": "standing"
+            },
+            {
+              "ar": "بِجَانِبِ",
+              "en": "beside"
+            },
+            {
+              "ar": "قِدْرٍ",
+              "en": "a pot"
+            },
+            {
+              "ar": "كَبِيرَةٍ،",
+              "en": "large"
+            },
+            {
+              "ar": "وَفِي",
+              "en": "and in"
+            },
+            {
+              "ar": "يَدِهِ",
+              "en": "his hand"
+            },
+            {
+              "ar": "مِلْعَقَةٌ",
+              "en": "a spoon"
+            },
+            {
+              "ar": "صَغِيرَةٌ.",
+              "en": "small"
+            }
+          ],
+          "note": {
+            "title": "Two people",
+            "ar": "جَدُّهُمَا",
+            "text": "The attached ending ـهُمَا means “their” for two people. Here it means Layla and Sami’s grandfather. Arabic can also address two people directly; we use that naturally in this story."
+          }
+        },
+        {
+          "id": "c1-s9",
+          "scene": "kitchen",
+          "ar": "قَالَ: «أَهْلًا وَسَهْلًا! ادْخُلَا!»",
+          "en": "He said, “Welcome! Come in!”",
+          "tokens": [
+            {
+              "ar": "قَالَ:",
+              "en": "he said"
+            },
+            {
+              "ar": "«أَهْلًا",
+              "en": "welcome"
+            },
+            {
+              "ar": "وَسَهْلًا!",
+              "en": "welcome (part of the greeting)"
+            },
+            {
+              "ar": "ادْخُلَا!»",
+              "en": "come in! (to two people)"
+            }
+          ]
+        },
+        {
+          "id": "c1-s10",
+          "scene": "kitchen",
+          "ar": "سَأَلَ سَامِي: «مَاذَا سَنَأْكُلُ؟»",
+          "en": "Sami asked, “What are we going to eat?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَ",
+              "en": "asked"
+            },
+            {
+              "ar": "سَامِي:",
+              "en": "Sami"
+            },
+            {
+              "ar": "«مَاذَا",
+              "en": "what"
+            },
+            {
+              "ar": "سَنَأْكُلُ؟»",
+              "en": "will we eat?"
+            }
+          ]
+        },
+        {
+          "id": "c1-s11",
+          "scene": "kitchen",
+          "ar": "«شُورْبَةً وَخُبْزًا وَسَلَطَةً.»",
+          "en": "“Soup, bread, and salad.”",
+          "tokens": [
+            {
+              "ar": "«شُورْبَةً",
+              "en": "soup"
+            },
+            {
+              "ar": "وَخُبْزًا",
+              "en": "and bread"
+            },
+            {
+              "ar": "وَسَلَطَةً.»",
+              "en": "and salad"
+            }
+          ]
+        },
+        {
+          "id": "c1-s12",
+          "scene": "kitchen",
+          "ar": "جَلَسَتْ مُوزَا بِجَانِبِهِ.",
+          "en": "Moza sat beside him.",
+          "tokens": [
+            {
+              "ar": "جَلَسَتْ",
+              "en": "sat"
+            },
+            {
+              "ar": "مُوزَا",
+              "en": "Moza"
+            },
+            {
+              "ar": "بِجَانِبِهِ.",
+              "en": "beside him"
+            }
+          ]
+        },
+        {
+          "id": "c1-s13",
+          "scene": "kitchen",
+          "ar": "سَأَلَهَا الْجَدُّ: «وَأَنْتِ، مَاذَا تُرِيدِينَ؟»",
+          "en": "Grandfather asked her, “And what would you like?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَهَا",
+              "en": "asked her"
+            },
+            {
+              "ar": "الْجَدُّ:",
+              "en": "the grandfather"
+            },
+            {
+              "ar": "«وَأَنْتِ،",
+              "en": "and you (female)"
+            },
+            {
+              "ar": "مَاذَا",
+              "en": "what"
+            },
+            {
+              "ar": "تُرِيدِينَ؟»",
+              "en": "do you want? (to a female)"
+            }
+          ]
+        },
+        {
+          "id": "c1-s14",
+          "scene": "kitchen",
+          "ar": "نَظَرَتْ مُوزَا إِلَى الْخُبْزِ.",
+          "en": "Moza looked at the bread.",
+          "tokens": [
+            {
+              "ar": "نَظَرَتْ",
+              "en": "looked"
+            },
+            {
+              "ar": "مُوزَا",
+              "en": "Moza"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "at"
+            },
+            {
+              "ar": "الْخُبْزِ.",
+              "en": "the bread"
+            }
+          ]
+        },
+        {
+          "id": "c1-s15",
+          "scene": "book",
+          "ar": "بَعْدَ الْغَدَاءِ، ذَهَبَ الْجَدُّ لِيُعِدَّ الشَّايَ.",
+          "en": "After lunch, Grandfather went to make tea.",
+          "tokens": [
+            {
+              "ar": "بَعْدَ",
+              "en": "after"
+            },
+            {
+              "ar": "الْغَدَاءِ،",
+              "en": "lunch"
+            },
+            {
+              "ar": "ذَهَبَ",
+              "en": "went"
+            },
+            {
+              "ar": "الْجَدُّ",
+              "en": "the grandfather"
+            },
+            {
+              "ar": "لِيُعِدَّ",
+              "en": "to prepare"
+            },
+            {
+              "ar": "الشَّايَ.",
+              "en": "the tea"
+            }
+          ]
+        },
+        {
+          "id": "c1-s16",
+          "scene": "book",
+          "ar": "سَأَلَتْ لَيْلَى: «هَلْ يُمْكِنُنَا أَنْ نَقْرَأَ كُتُبَكَ؟»",
+          "en": "Layla asked, “May we read your books?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَتْ",
+              "en": "asked"
+            },
+            {
+              "ar": "لَيْلَى:",
+              "en": "Layla"
+            },
+            {
+              "ar": "«هَلْ",
+              "en": "question marker"
+            },
+            {
+              "ar": "يُمْكِنُنَا",
+              "en": "can we"
+            },
+            {
+              "ar": "أَنْ",
+              "en": "to"
+            },
+            {
+              "ar": "نَقْرَأَ",
+              "en": "read"
+            },
+            {
+              "ar": "كُتُبَكَ؟»",
+              "en": "your books"
+            }
+          ]
+        },
+        {
+          "id": "c1-s17",
+          "scene": "book",
+          "ar": "«طَبْعًا. هُنَاكَ بَعْضُ الْكُتُبِ فِي غُرْفَةِ الْجُلُوسِ.»",
+          "en": "“Of course. There are some books in the sitting room.”",
+          "tokens": [
+            {
+              "ar": "«طَبْعًا.",
+              "en": "of course"
+            },
+            {
+              "ar": "هُنَاكَ",
+              "en": "there are"
+            },
+            {
+              "ar": "بَعْضُ",
+              "en": "some"
+            },
+            {
+              "ar": "الْكُتُبِ",
+              "en": "books"
+            },
+            {
+              "ar": "فِي",
+              "en": "in"
+            },
+            {
+              "ar": "غُرْفَةِ",
+              "en": "the room of"
+            },
+            {
+              "ar": "الْجُلُوسِ.»",
+              "en": "sitting (sitting room)"
+            }
+          ]
+        },
+        {
+          "id": "c1-s18",
+          "scene": "book",
+          "ar": "كَانَتْ هُنَاكَ كُتُبٌ عَلَى الطَّاوِلَةِ، وَكُتُبٌ بِجَانِبِ الْكَرَاسِيِّ، وَكُتُبٌ عَلَى مَكْتَبِ الْجَدِّ.",
+          "en": "There were books on the table, books beside the chairs, and books on Grandfather’s desk.",
+          "tokens": [
+            {
+              "ar": "كَانَتْ",
+              "en": "were"
+            },
+            {
+              "ar": "هُنَاكَ",
+              "en": "there"
+            },
+            {
+              "ar": "كُتُبٌ",
+              "en": "books"
+            },
+            {
+              "ar": "عَلَى",
+              "en": "on"
+            },
+            {
+              "ar": "الطَّاوِلَةِ،",
+              "en": "the table"
+            },
+            {
+              "ar": "وَكُتُبٌ",
+              "en": "and books"
+            },
+            {
+              "ar": "بِجَانِبِ",
+              "en": "beside"
+            },
+            {
+              "ar": "الْكَرَاسِيِّ،",
+              "en": "the chairs"
+            },
+            {
+              "ar": "وَكُتُبٌ",
+              "en": "and books"
+            },
+            {
+              "ar": "عَلَى",
+              "en": "on"
+            },
+            {
+              "ar": "مَكْتَبِ",
+              "en": "the desk of"
+            },
+            {
+              "ar": "الْجَدِّ.",
+              "en": "the grandfather"
+            }
+          ]
+        },
+        {
+          "id": "c1-s19",
+          "scene": "book",
+          "ar": "قَالَ سَامِي: «عِنْدَ جَدِّنَا كُتُبٌ أَكْثَرُ مِمَّا عِنْدَ مُعَلِّمَتِنَا.»",
+          "en": "Sami said, “Grandfather has more books than our teacher.”",
+          "tokens": [
+            {
+              "ar": "قَالَ",
+              "en": "said"
+            },
+            {
+              "ar": "سَامِي:",
+              "en": "Sami"
+            },
+            {
+              "ar": "«عِنْدَ",
+              "en": "at (possession)"
+            },
+            {
+              "ar": "جَدِّنَا",
+              "en": "our grandfather"
+            },
+            {
+              "ar": "كُتُبٌ",
+              "en": "books"
+            },
+            {
+              "ar": "أَكْثَرُ",
+              "en": "more"
+            },
+            {
+              "ar": "مِمَّا",
+              "en": "than what"
+            },
+            {
+              "ar": "عِنْدَ",
+              "en": "at (possession)"
+            },
+            {
+              "ar": "مُعَلِّمَتِنَا.»",
+              "en": "our teacher"
+            }
+          ],
+          "note": {
+            "title": "“I have”",
+            "ar": "عِنْدَ جَدِّنَا كُتُبٌ",
+            "text": "Arabic often expresses possession with عِنْدَ. Literally, “At our grandfather are books.” The person comes after عِنْدَ, followed by the thing they have."
+          }
+        },
+        {
+          "id": "c1-s20",
+          "scene": "book",
+          "ar": "«رُبَّمَا يَقْرَأُ أَكْثَرَ مِنْ مُعَلِّمَتِنَا.»",
+          "en": "“Perhaps he reads more than our teacher.”",
+          "tokens": [
+            {
+              "ar": "«رُبَّمَا",
+              "en": "perhaps"
+            },
+            {
+              "ar": "يَقْرَأُ",
+              "en": "he reads"
+            },
+            {
+              "ar": "أَكْثَرَ",
+              "en": "more"
+            },
+            {
+              "ar": "مِنْ",
+              "en": "than"
+            },
+            {
+              "ar": "مُعَلِّمَتِنَا.»",
+              "en": "our teacher"
+            }
+          ]
+        },
+        {
+          "id": "c1-s21",
+          "scene": "book",
+          "ar": "«وَرُبَّمَا تَضَعُ مُعَلِّمَتُنَا كُتُبَهَا فِي مَكَانٍ آخَرَ.»",
+          "en": "“Or perhaps our teacher keeps her books somewhere else.”",
+          "tokens": [
+            {
+              "ar": "«وَرُبَّمَا",
+              "en": "and perhaps"
+            },
+            {
+              "ar": "تَضَعُ",
+              "en": "puts / keeps"
+            },
+            {
+              "ar": "مُعَلِّمَتُنَا",
+              "en": "our teacher"
+            },
+            {
+              "ar": "كُتُبَهَا",
+              "en": "her books"
+            },
+            {
+              "ar": "فِي",
+              "en": "in"
+            },
+            {
+              "ar": "مَكَانٍ",
+              "en": "a place"
+            },
+            {
+              "ar": "آخَرَ.»",
+              "en": "another"
+            }
+          ]
+        },
+        {
+          "id": "c1-s22",
+          "scene": "book",
+          "ar": "مَشَتْ مُوزَا تَحْتَ الْمَكْتَبِ.",
+          "en": "Moza walked under the desk.",
+          "tokens": [
+            {
+              "ar": "مَشَتْ",
+              "en": "walked"
+            },
+            {
+              "ar": "مُوزَا",
+              "en": "Moza"
+            },
+            {
+              "ar": "تَحْتَ",
+              "en": "under"
+            },
+            {
+              "ar": "الْمَكْتَبِ.",
+              "en": "the desk"
+            }
+          ]
+        },
+        {
+          "id": "c1-s23",
+          "scene": "book",
+          "ar": "كَانَ هُنَاكَ كِتَابٌ آخَرُ.",
+          "en": "There was another book there.",
+          "tokens": [
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "هُنَاكَ",
+              "en": "there"
+            },
+            {
+              "ar": "كِتَابٌ",
+              "en": "a book"
+            },
+            {
+              "ar": "آخَرُ.",
+              "en": "another"
+            }
+          ]
+        },
+        {
+          "id": "c1-s24",
+          "scene": "book",
+          "ar": "قَالَتْ لَيْلَى: «هٰذَا كَبِيرٌ جِدًّا.»",
+          "en": "Layla said, “This one is very big.”",
+          "tokens": [
+            {
+              "ar": "قَالَتْ",
+              "en": "said"
+            },
+            {
+              "ar": "لَيْلَى:",
+              "en": "Layla"
+            },
+            {
+              "ar": "«هٰذَا",
+              "en": "this (masculine)"
+            },
+            {
+              "ar": "كَبِيرٌ",
+              "en": "big"
+            },
+            {
+              "ar": "جِدًّا.»",
+              "en": "very"
+            }
+          ]
+        },
+        {
+          "id": "c1-s25",
+          "scene": "book",
+          "ar": "جَلَسَتْ عَلَى الْأَرْضِ وَوَضَعَتْهُ أَمَامَهَا.",
+          "en": "She sat on the floor and put it in front of her.",
+          "tokens": [
+            {
+              "ar": "جَلَسَتْ",
+              "en": "she sat"
+            },
+            {
+              "ar": "عَلَى",
+              "en": "on"
+            },
+            {
+              "ar": "الْأَرْضِ",
+              "en": "the floor"
+            },
+            {
+              "ar": "وَوَضَعَتْهُ",
+              "en": "and put it"
+            },
+            {
+              "ar": "أَمَامَهَا.",
+              "en": "in front of her"
+            }
+          ]
+        },
+        {
+          "id": "c1-s26",
+          "scene": "book",
+          "ar": "كَانَ غِلَافُهُ أَزْرَقَ دَاكِنًا.",
+          "en": "Its cover was dark blue.",
+          "tokens": [
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "غِلَافُهُ",
+              "en": "its cover"
+            },
+            {
+              "ar": "أَزْرَقَ",
+              "en": "blue"
+            },
+            {
+              "ar": "دَاكِنًا.",
+              "en": "dark"
+            }
+          ]
+        },
+        {
+          "id": "c1-s27",
+          "scene": "book",
+          "ar": "وَفِي وَسَطِهِ بَابٌ ذَهَبِيٌّ صَغِيرٌ.",
+          "en": "In the middle was a little gold door.",
+          "tokens": [
+            {
+              "ar": "وَفِي",
+              "en": "and in"
+            },
+            {
+              "ar": "وَسَطِهِ",
+              "en": "its middle"
+            },
+            {
+              "ar": "بَابٌ",
+              "en": "a door"
+            },
+            {
+              "ar": "ذَهَبِيٌّ",
+              "en": "golden"
+            },
+            {
+              "ar": "صَغِيرٌ.",
+              "en": "small"
+            }
+          ]
+        },
+        {
+          "id": "c1-s28",
+          "scene": "book",
+          "ar": "سَأَلَ سَامِي: «هَلْ هُوَ كِتَابٌ عَنِ الْبُيُوتِ؟»",
+          "en": "Sami asked, “Is it a book about houses?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَ",
+              "en": "asked"
+            },
+            {
+              "ar": "سَامِي:",
+              "en": "Sami"
+            },
+            {
+              "ar": "«هَلْ",
+              "en": "question marker"
+            },
+            {
+              "ar": "هُوَ",
+              "en": "it"
+            },
+            {
+              "ar": "كِتَابٌ",
+              "en": "a book"
+            },
+            {
+              "ar": "عَنِ",
+              "en": "about"
+            },
+            {
+              "ar": "الْبُيُوتِ؟»",
+              "en": "houses"
+            }
+          ]
+        },
+        {
+          "id": "c1-s29",
+          "scene": "book",
+          "ar": "«لِنَرَ.»",
+          "en": "“Let’s see.”",
+          "tokens": [
+            {
+              "ar": "«لِنَرَ.»",
+              "en": "let us see"
+            }
+          ]
+        },
+        {
+          "id": "c1-s30",
+          "scene": "village",
+          "ar": "فَتَحَتْ لَيْلَى الْكِتَابَ.",
+          "en": "Layla opened the book.",
+          "tokens": [
+            {
+              "ar": "فَتَحَتْ",
+              "en": "opened"
+            },
+            {
+              "ar": "لَيْلَى",
+              "en": "Layla"
+            },
+            {
+              "ar": "الْكِتَابَ.",
+              "en": "the book"
+            }
+          ]
+        },
+        {
+          "id": "c1-s31",
+          "scene": "village",
+          "ar": "فِي الصَّفْحَةِ الْأُولَى صُورَةُ قَرْيَةٍ.",
+          "en": "On the first page was a picture of a village.",
+          "tokens": [
+            {
+              "ar": "فِي",
+              "en": "on"
+            },
+            {
+              "ar": "الصَّفْحَةِ",
+              "en": "the page"
+            },
+            {
+              "ar": "الْأُولَى",
+              "en": "first"
+            },
+            {
+              "ar": "صُورَةُ",
+              "en": "a picture of"
+            },
+            {
+              "ar": "قَرْيَةٍ.",
+              "en": "a village"
+            }
+          ],
+          "note": {
+            "title": "A picture of a village",
+            "ar": "صُورَةُ قَرْيَةٍ",
+            "text": "This is an idaafa: two nouns joined directly. The first noun has no definite article or tanwin here; the second is genitive. It can express “a picture of a village,” not only ownership."
+          }
+        },
+        {
+          "id": "c1-s32",
+          "scene": "village",
+          "ar": "فِيهَا بُيُوتٌ بَيْضَاءُ، وَشَوَارِعُ ضَيِّقَةٌ، وَأَشْجَارٌ حَوْلَ سَاحَةٍ صَغِيرَةٍ.",
+          "en": "There were white houses, narrow streets, and trees around a small square.",
+          "tokens": [
+            {
+              "ar": "فِيهَا",
+              "en": "in it"
+            },
+            {
+              "ar": "بُيُوتٌ",
+              "en": "houses"
+            },
+            {
+              "ar": "بَيْضَاءُ،",
+              "en": "white"
+            },
+            {
+              "ar": "وَشَوَارِعُ",
+              "en": "and streets"
+            },
+            {
+              "ar": "ضَيِّقَةٌ،",
+              "en": "narrow"
+            },
+            {
+              "ar": "وَأَشْجَارٌ",
+              "en": "and trees"
+            },
+            {
+              "ar": "حَوْلَ",
+              "en": "around"
+            },
+            {
+              "ar": "سَاحَةٍ",
+              "en": "a square"
+            },
+            {
+              "ar": "صَغِيرَةٍ.",
+              "en": "small"
+            }
+          ],
+          "note": {
+            "title": "Describing things",
+            "ar": "بُيُوتٌ بَيْضَاءُ",
+            "text": "Plural nonhuman nouns usually take feminine singular agreement in MSA. بُيُوت means “houses,” but its adjective بَيْضَاء is feminine singular."
+          }
+        },
+        {
+          "id": "c1-s33",
+          "scene": "village",
+          "ar": "وَبِجَانِبِ جِدَارٍ دَرَّاجَةٌ.",
+          "en": "A bicycle stood beside a wall.",
+          "tokens": [
+            {
+              "ar": "وَبِجَانِبِ",
+              "en": "and beside"
+            },
+            {
+              "ar": "جِدَارٍ",
+              "en": "a wall"
+            },
+            {
+              "ar": "دَرَّاجَةٌ.",
+              "en": "a bicycle"
+            }
+          ]
+        },
+        {
+          "id": "c1-s34",
+          "scene": "village",
+          "ar": "وَأَمَامَ مَخْبَزٍ طَاوِلَةٌ عَلَيْهَا خُبْزٌ.",
+          "en": "In front of a bakery was a table with bread on it.",
+          "tokens": [
+            {
+              "ar": "وَأَمَامَ",
+              "en": "and in front of"
+            },
+            {
+              "ar": "مَخْبَزٍ",
+              "en": "a bakery"
+            },
+            {
+              "ar": "طَاوِلَةٌ",
+              "en": "a table"
+            },
+            {
+              "ar": "عَلَيْهَا",
+              "en": "on it"
+            },
+            {
+              "ar": "خُبْزٌ.",
+              "en": "bread"
+            }
+          ]
+        },
+        {
+          "id": "c1-s35",
+          "scene": "village",
+          "ar": "لٰكِنْ لَمْ يَكُنْ هُنَاكَ أَيُّ شَخْصٍ.",
+          "en": "But there was nobody there.",
+          "tokens": [
+            {
+              "ar": "لٰكِنْ",
+              "en": "but"
+            },
+            {
+              "ar": "لَمْ",
+              "en": "did not"
+            },
+            {
+              "ar": "يَكُنْ",
+              "en": "be"
+            },
+            {
+              "ar": "هُنَاكَ",
+              "en": "there"
+            },
+            {
+              "ar": "أَيُّ",
+              "en": "any"
+            },
+            {
+              "ar": "شَخْصٍ.",
+              "en": "person"
+            }
+          ]
+        },
+        {
+          "id": "c1-s36",
+          "scene": "village",
+          "ar": "سَأَلَ سَامِي: «أَيْنَ النَّاسُ؟»",
+          "en": "Sami asked, “Where are the people?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَ",
+              "en": "asked"
+            },
+            {
+              "ar": "سَامِي:",
+              "en": "Sami"
+            },
+            {
+              "ar": "«أَيْنَ",
+              "en": "where"
+            },
+            {
+              "ar": "النَّاسُ؟»",
+              "en": "the people"
+            }
+          ]
+        },
+        {
+          "id": "c1-s37",
+          "scene": "village",
+          "ar": "«رُبَّمَا هُمْ فِي بُيُوتِهِمْ.»",
+          "en": "“Perhaps they are in their houses.”",
+          "tokens": [
+            {
+              "ar": "«رُبَّمَا",
+              "en": "perhaps"
+            },
+            {
+              "ar": "هُمْ",
+              "en": "they"
+            },
+            {
+              "ar": "فِي",
+              "en": "in"
+            },
+            {
+              "ar": "بُيُوتِهِمْ.»",
+              "en": "their houses"
+            }
+          ]
+        },
+        {
+          "id": "c1-s38",
+          "scene": "village",
+          "ar": "«كُلُّهُمْ؟»",
+          "en": "“All of them?”",
+          "tokens": [
+            {
+              "ar": "«كُلُّهُمْ؟»",
+              "en": "all of them"
+            }
+          ]
+        },
+        {
+          "id": "c1-s39",
+          "scene": "village",
+          "ar": "نَظَرَتْ لَيْلَى إِلَى النَّوَافِذِ. لَمْ يَكُنْ هُنَاكَ أَحَدٌ.",
+          "en": "Layla looked at the windows. Nobody was there.",
+          "tokens": [
+            {
+              "ar": "نَظَرَتْ",
+              "en": "looked"
+            },
+            {
+              "ar": "لَيْلَى",
+              "en": "Layla"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "at"
+            },
+            {
+              "ar": "النَّوَافِذِ.",
+              "en": "the windows"
+            },
+            {
+              "ar": "لَمْ",
+              "en": "did not"
+            },
+            {
+              "ar": "يَكُنْ",
+              "en": "be"
+            },
+            {
+              "ar": "هُنَاكَ",
+              "en": "there"
+            },
+            {
+              "ar": "أَحَدٌ.",
+              "en": "anyone"
+            }
+          ]
+        },
+        {
+          "id": "c1-s40",
+          "scene": "village",
+          "ar": "قَلَبَتِ الصَّفْحَةَ.",
+          "en": "She turned the page.",
+          "tokens": [
+            {
+              "ar": "قَلَبَتِ",
+              "en": "she turned"
+            },
+            {
+              "ar": "الصَّفْحَةَ.",
+              "en": "the page"
+            }
+          ]
+        },
+        {
+          "id": "c1-s41",
+          "scene": "village",
+          "ar": "فَصْلٌ دِرَاسِيٌّ فِيهِ مَكَاتِبُ وَدَفْتَرٌ مَفْتُوحٌ.",
+          "en": "A classroom, with desks and an open notebook.",
+          "tokens": [
+            {
+              "ar": "فَصْلٌ",
+              "en": "a room"
+            },
+            {
+              "ar": "دِرَاسِيٌّ",
+              "en": "of study (classroom)"
+            },
+            {
+              "ar": "فِيهِ",
+              "en": "in it"
+            },
+            {
+              "ar": "مَكَاتِبُ",
+              "en": "desks"
+            },
+            {
+              "ar": "وَدَفْتَرٌ",
+              "en": "and a notebook"
+            },
+            {
+              "ar": "مَفْتُوحٌ.",
+              "en": "open"
+            }
+          ]
+        },
+        {
+          "id": "c1-s42",
+          "scene": "village",
+          "ar": "حَدِيقَةٌ. ثُمَّ مَطْبَخٌ. ثُمَّ مَحَطَّةٌ فِيهَا قِطَارٌ طَوِيلٌ.",
+          "en": "A garden. Then a kitchen. Then a station with a long train.",
+          "tokens": [
+            {
+              "ar": "حَدِيقَةٌ.",
+              "en": "a garden"
+            },
+            {
+              "ar": "ثُمَّ",
+              "en": "then"
+            },
+            {
+              "ar": "مَطْبَخٌ.",
+              "en": "a kitchen"
+            },
+            {
+              "ar": "ثُمَّ",
+              "en": "then"
+            },
+            {
+              "ar": "مَحَطَّةٌ",
+              "en": "a station"
+            },
+            {
+              "ar": "فِيهَا",
+              "en": "in it"
+            },
+            {
+              "ar": "قِطَارٌ",
+              "en": "a train"
+            },
+            {
+              "ar": "طَوِيلٌ.",
+              "en": "long"
+            }
+          ]
+        },
+        {
+          "id": "c1-s43",
+          "scene": "village",
+          "ar": "كُلُّ مَكَانٍ فَارِغٌ.",
+          "en": "Every place was empty.",
+          "tokens": [
+            {
+              "ar": "كُلُّ",
+              "en": "every"
+            },
+            {
+              "ar": "مَكَانٍ",
+              "en": "place"
+            },
+            {
+              "ar": "فَارِغٌ.",
+              "en": "empty"
+            }
+          ]
+        },
+        {
+          "id": "c1-s44",
+          "scene": "book",
+          "ar": "نَادَتْ لَيْلَى: «يَا جَدِّي! تَعَالَ وَانْظُرْ إِلَى هٰذَا!»",
+          "en": "Layla called, “Grandfather! Come and look at this!”",
+          "tokens": [
+            {
+              "ar": "نَادَتْ",
+              "en": "called"
+            },
+            {
+              "ar": "لَيْلَى:",
+              "en": "Layla"
+            },
+            {
+              "ar": "«يَا",
+              "en": "O (calling someone)"
+            },
+            {
+              "ar": "جَدِّي!",
+              "en": "my grandfather"
+            },
+            {
+              "ar": "تَعَالَ",
+              "en": "come!"
+            },
+            {
+              "ar": "وَانْظُرْ",
+              "en": "and look!"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "at"
+            },
+            {
+              "ar": "هٰذَا!»",
+              "en": "this"
+            }
+          ]
+        },
+        {
+          "id": "c1-s45",
+          "scene": "book",
+          "ar": "عِنْدَمَا رَأَى الْكِتَابَ، لَمْ يَقُلْ شَيْئًا.",
+          "en": "When he saw the book, he said nothing.",
+          "tokens": [
+            {
+              "ar": "عِنْدَمَا",
+              "en": "when"
+            },
+            {
+              "ar": "رَأَى",
+              "en": "he saw"
+            },
+            {
+              "ar": "الْكِتَابَ،",
+              "en": "the book"
+            },
+            {
+              "ar": "لَمْ",
+              "en": "did not"
+            },
+            {
+              "ar": "يَقُلْ",
+              "en": "say"
+            },
+            {
+              "ar": "شَيْئًا.",
+              "en": "anything"
+            }
+          ],
+          "note": {
+            "title": "A past action that did not happen",
+            "ar": "لَمْ يَقُلْ شَيْئًا",
+            "text": "لَمْ followed by a jussive verb expresses past negation: “He did not say anything.” The verb uses a present-tense stem, but the meaning is past."
+          }
+        },
+        {
+          "id": "c1-s46",
+          "scene": "book",
+          "ar": "سَأَلَتْ: «هَلْ هٰذَا كِتَابُكَ؟»",
+          "en": "She asked, “Is this your book?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَتْ:",
+              "en": "she asked"
+            },
+            {
+              "ar": "«هَلْ",
+              "en": "question marker"
+            },
+            {
+              "ar": "هٰذَا",
+              "en": "this"
+            },
+            {
+              "ar": "كِتَابُكَ؟»",
+              "en": "your book"
+            }
+          ]
+        },
+        {
+          "id": "c1-s47",
+          "scene": "book",
+          "ar": "«نَعَمْ.»",
+          "en": "“Yes.”",
+          "tokens": [
+            {
+              "ar": "«نَعَمْ.»",
+              "en": "yes"
+            }
+          ]
+        },
+        {
+          "id": "c1-s48",
+          "scene": "book",
+          "ar": "«لِمَاذَا لَيْسَ فِيهِ أَشْخَاصٌ؟»",
+          "en": "“Why are there no people in it?”",
+          "tokens": [
+            {
+              "ar": "«لِمَاذَا",
+              "en": "why"
+            },
+            {
+              "ar": "لَيْسَ",
+              "en": "there are not"
+            },
+            {
+              "ar": "فِيهِ",
+              "en": "in it"
+            },
+            {
+              "ar": "أَشْخَاصٌ؟»",
+              "en": "people"
+            }
+          ]
+        },
+        {
+          "id": "c1-s49",
+          "scene": "book",
+          "ar": "«كَانَ فِيهِ أَشْخَاصٌ مِنْ قَبْلُ.»",
+          "en": "“There were people in it before.”",
+          "tokens": [
+            {
+              "ar": "«كَانَ",
+              "en": "there were"
+            },
+            {
+              "ar": "فِيهِ",
+              "en": "in it"
+            },
+            {
+              "ar": "أَشْخَاصٌ",
+              "en": "people"
+            },
+            {
+              "ar": "مِنْ",
+              "en": "from (part of ‘before’)"
+            },
+            {
+              "ar": "قَبْلُ.»",
+              "en": "before"
+            }
+          ]
+        },
+        {
+          "id": "c1-s50",
+          "scene": "book",
+          "ar": "جَلَسَ الْجَدُّ بِجَانِبِهِمَا.",
+          "en": "Grandfather sat beside them.",
+          "tokens": [
+            {
+              "ar": "جَلَسَ",
+              "en": "sat"
+            },
+            {
+              "ar": "الْجَدُّ",
+              "en": "the grandfather"
+            },
+            {
+              "ar": "بِجَانِبِهِمَا.",
+              "en": "beside the two of them"
+            }
+          ]
+        },
+        {
+          "id": "c1-s51",
+          "scene": "book",
+          "ar": "«أَعْرِفُ هٰذِهِ الْقَرْيَةَ. عِشْتُ هُنَا عِنْدَمَا كُنْتُ وَلَدًا.»",
+          "en": "“I know this village. I lived here when I was a boy.”",
+          "tokens": [
+            {
+              "ar": "«أَعْرِفُ",
+              "en": "I know"
+            },
+            {
+              "ar": "هٰذِهِ",
+              "en": "this (feminine)"
+            },
+            {
+              "ar": "الْقَرْيَةَ.",
+              "en": "the village"
+            },
+            {
+              "ar": "عِشْتُ",
+              "en": "I lived"
+            },
+            {
+              "ar": "هُنَا",
+              "en": "here"
+            },
+            {
+              "ar": "عِنْدَمَا",
+              "en": "when"
+            },
+            {
+              "ar": "كُنْتُ",
+              "en": "I was"
+            },
+            {
+              "ar": "وَلَدًا.»",
+              "en": "a boy"
+            }
+          ]
+        },
+        {
+          "id": "c1-s52",
+          "scene": "book",
+          "ar": "«أَيُّ بَيْتٍ كَانَ بَيْتَكَ؟»",
+          "en": "“Which house was yours?”",
+          "tokens": [
+            {
+              "ar": "«أَيُّ",
+              "en": "which"
+            },
+            {
+              "ar": "بَيْتٍ",
+              "en": "house"
+            },
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "بَيْتَكَ؟»",
+              "en": "your house"
+            }
+          ]
+        },
+        {
+          "id": "c1-s53",
+          "scene": "village",
+          "ar": "«الْبَيْتُ الصَّغِيرُ بِجَانِبِ الشَّجَرَةِ.»",
+          "en": "“The small house beside the tree.”",
+          "tokens": [
+            {
+              "ar": "«الْبَيْتُ",
+              "en": "the house"
+            },
+            {
+              "ar": "الصَّغِيرُ",
+              "en": "small"
+            },
+            {
+              "ar": "بِجَانِبِ",
+              "en": "beside"
+            },
+            {
+              "ar": "الشَّجَرَةِ.»",
+              "en": "the tree"
+            }
+          ]
+        },
+        {
+          "id": "c1-s54",
+          "scene": "village",
+          "ar": "«وَمَنْ كَانَ يَعْمَلُ فِي الْمَخْبَزِ؟»",
+          "en": "“And who worked in the bakery?”",
+          "tokens": [
+            {
+              "ar": "«وَمَنْ",
+              "en": "and who"
+            },
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "يَعْمَلُ",
+              "en": "working"
+            },
+            {
+              "ar": "فِي",
+              "en": "in"
+            },
+            {
+              "ar": "الْمَخْبَزِ؟»",
+              "en": "the bakery"
+            }
+          ]
+        },
+        {
+          "id": "c1-s55",
+          "scene": "village",
+          "ar": "«رَجُلٌ يَصْنَعُ أَفْضَلَ خُبْزٍ فِي الْقَرْيَةِ.»",
+          "en": "“A man who made the best bread in the village.”",
+          "tokens": [
+            {
+              "ar": "«رَجُلٌ",
+              "en": "a man"
+            },
+            {
+              "ar": "يَصْنَعُ",
+              "en": "makes"
+            },
+            {
+              "ar": "أَفْضَلَ",
+              "en": "the best"
+            },
+            {
+              "ar": "خُبْزٍ",
+              "en": "bread"
+            },
+            {
+              "ar": "فِي",
+              "en": "in"
+            },
+            {
+              "ar": "الْقَرْيَةِ.»",
+              "en": "the village"
+            }
+          ]
+        },
+        {
+          "id": "c1-s56",
+          "scene": "village",
+          "ar": "«كُنْتُ أَشْتَرِي مِنْهُ الْخُبْزَ كُلَّ صَبَاحٍ.»",
+          "en": "“Every morning, I used to buy bread from him.”",
+          "tokens": [
+            {
+              "ar": "«كُنْتُ",
+              "en": "I used to"
+            },
+            {
+              "ar": "أَشْتَرِي",
+              "en": "buy"
+            },
+            {
+              "ar": "مِنْهُ",
+              "en": "from him"
+            },
+            {
+              "ar": "الْخُبْزَ",
+              "en": "the bread"
+            },
+            {
+              "ar": "كُلَّ",
+              "en": "every"
+            },
+            {
+              "ar": "صَبَاحٍ.»",
+              "en": "morning"
+            }
+          ]
+        },
+        {
+          "id": "c1-s57",
+          "scene": "village",
+          "ar": "«مَا اسْمُهُ؟»",
+          "en": "“What was his name?”",
+          "tokens": [
+            {
+              "ar": "«مَا",
+              "en": "what"
+            },
+            {
+              "ar": "اسْمُهُ؟»",
+              "en": "his name"
+            }
+          ]
+        },
+        {
+          "id": "c1-s58",
+          "scene": "book",
+          "ar": "نَظَرَ الْجَدُّ إِلَى الصُّورَةِ وَقَالَ: «لَا أَتَذَكَّرُ.»",
+          "en": "Grandfather looked at the picture and said, “I don’t remember.”",
+          "tokens": [
+            {
+              "ar": "نَظَرَ",
+              "en": "looked"
+            },
+            {
+              "ar": "الْجَدُّ",
+              "en": "the grandfather"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "at"
+            },
+            {
+              "ar": "الصُّورَةِ",
+              "en": "the picture"
+            },
+            {
+              "ar": "وَقَالَ:",
+              "en": "and said"
+            },
+            {
+              "ar": "«لَا",
+              "en": "not"
+            },
+            {
+              "ar": "أَتَذَكَّرُ.»",
+              "en": "I remember"
+            }
+          ]
+        },
+        {
+          "id": "c1-s59",
+          "scene": "village",
+          "ar": "رَنَّ جَرَسٌ.",
+          "en": "A bell rang.",
+          "tokens": [
+            {
+              "ar": "رَنَّ",
+              "en": "rang"
+            },
+            {
+              "ar": "جَرَسٌ.",
+              "en": "a bell"
+            }
+          ]
+        },
+        {
+          "id": "c1-s60",
+          "scene": "book",
+          "ar": "سَأَلَ سَامِي: «هَلْ هُنَاكَ شَخْصٌ عِنْدَ الْبَابِ؟»",
+          "en": "Sami asked, “Is someone at the door?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَ",
+              "en": "asked"
+            },
+            {
+              "ar": "سَامِي:",
+              "en": "Sami"
+            },
+            {
+              "ar": "«هَلْ",
+              "en": "question marker"
+            },
+            {
+              "ar": "هُنَاكَ",
+              "en": "there is"
+            },
+            {
+              "ar": "شَخْصٌ",
+              "en": "a person"
+            },
+            {
+              "ar": "عِنْدَ",
+              "en": "at"
+            },
+            {
+              "ar": "الْبَابِ؟»",
+              "en": "the door"
+            }
+          ]
+        },
+        {
+          "id": "c1-s61",
+          "scene": "village",
+          "ar": "رَنَّ الْجَرَسُ مَرَّةً أُخْرَى.",
+          "en": "The bell rang again.",
+          "tokens": [
+            {
+              "ar": "رَنَّ",
+              "en": "rang"
+            },
+            {
+              "ar": "الْجَرَسُ",
+              "en": "the bell"
+            },
+            {
+              "ar": "مَرَّةً",
+              "en": "a time"
+            },
+            {
+              "ar": "أُخْرَى.",
+              "en": "another"
+            }
+          ]
+        },
+        {
+          "id": "c1-s62",
+          "scene": "village",
+          "ar": "هٰذِهِ الْمَرَّةَ، رَأَتْ لَيْلَى شَيْئًا يَتَحَرَّكُ.",
+          "en": "This time, Layla saw something move.",
+          "tokens": [
+            {
+              "ar": "هٰذِهِ",
+              "en": "this"
+            },
+            {
+              "ar": "الْمَرَّةَ،",
+              "en": "time"
+            },
+            {
+              "ar": "رَأَتْ",
+              "en": "saw"
+            },
+            {
+              "ar": "لَيْلَى",
+              "en": "Layla"
+            },
+            {
+              "ar": "شَيْئًا",
+              "en": "something"
+            },
+            {
+              "ar": "يَتَحَرَّكُ.",
+              "en": "moving"
+            }
+          ]
+        },
+        {
+          "id": "c1-s63",
+          "scene": "village",
+          "ar": "كَانَ بَابُ الْمَخْبَزِ مَفْتُوحًا. وَكَانَ مَغْلَقًا مِنْ قَبْلُ.",
+          "en": "The bakery door was open. It had been closed before.",
+          "tokens": [
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "بَابُ",
+              "en": "the door of"
+            },
+            {
+              "ar": "الْمَخْبَزِ",
+              "en": "the bakery"
+            },
+            {
+              "ar": "مَفْتُوحًا.",
+              "en": "open"
+            },
+            {
+              "ar": "وَكَانَ",
+              "en": "and was"
+            },
+            {
+              "ar": "مَغْلَقًا",
+              "en": "closed"
+            },
+            {
+              "ar": "مِنْ",
+              "en": "from (part of ‘before’)"
+            },
+            {
+              "ar": "قَبْلُ.",
+              "en": "before"
+            }
+          ]
+        },
+        {
+          "id": "c1-s64",
+          "scene": "village",
+          "ar": "نَادَى شَخْصٌ: «مَرْحَبًا؟ هَلْ هُنَاكَ أَحَدٌ؟»",
+          "en": "Someone called, “Hello? Is anyone there?”",
+          "tokens": [
+            {
+              "ar": "نَادَى",
+              "en": "called"
+            },
+            {
+              "ar": "شَخْصٌ:",
+              "en": "someone"
+            },
+            {
+              "ar": "«مَرْحَبًا؟",
+              "en": "hello"
+            },
+            {
+              "ar": "هَلْ",
+              "en": "question marker"
+            },
+            {
+              "ar": "هُنَاكَ",
+              "en": "there is"
+            },
+            {
+              "ar": "أَحَدٌ؟»",
+              "en": "anyone"
+            }
+          ]
+        },
+        {
+          "id": "c1-s65",
+          "scene": "book",
+          "ar": "قَالَتْ لَيْلَى لِمُوزَا: «لَا تَلْمَسِي الْكِتَابَ!»",
+          "en": "Layla told Moza, “Do not touch the book!”",
+          "tokens": [
+            {
+              "ar": "قَالَتْ",
+              "en": "said"
+            },
+            {
+              "ar": "لَيْلَى",
+              "en": "Layla"
+            },
+            {
+              "ar": "لِمُوزَا:",
+              "en": "to Moza"
+            },
+            {
+              "ar": "«لَا",
+              "en": "do not"
+            },
+            {
+              "ar": "تَلْمَسِي",
+              "en": "touch! (to a female)"
+            },
+            {
+              "ar": "الْكِتَابَ!»",
+              "en": "the book"
+            }
+          ],
+          "note": {
+            "title": "Talking to Moza",
+            "ar": "لَا تَلْمَسِي الْكِتَابَ",
+            "text": "This is a negative command to a female: “Do not touch the book.” After prohibitive لَا, تَلْمَسِينَ becomes تَلْمَسِي. Notice that the final ن disappears."
+          }
+        },
+        {
+          "id": "c1-s66",
+          "scene": "book",
+          "ar": "لٰكِنَّ كَفَّ مُوزَا كَانَتْ عَلَى الصَّفْحَةِ بِالْفِعْلِ.",
+          "en": "But Moza’s paw was already on the page.",
+          "tokens": [
+            {
+              "ar": "لٰكِنَّ",
+              "en": "but"
+            },
+            {
+              "ar": "كَفَّ",
+              "en": "the paw of"
+            },
+            {
+              "ar": "مُوزَا",
+              "en": "Moza"
+            },
+            {
+              "ar": "كَانَتْ",
+              "en": "was"
+            },
+            {
+              "ar": "عَلَى",
+              "en": "on"
+            },
+            {
+              "ar": "الصَّفْحَةِ",
+              "en": "the page"
+            },
+            {
+              "ar": "بِالْفِعْلِ.",
+              "en": "already"
+            }
+          ]
+        },
+        {
+          "id": "c1-s67",
+          "scene": "book",
+          "ar": "هَبَّتْ رِيحٌ دَافِئَةٌ فِي الْغُرْفَةِ.",
+          "en": "A warm wind blew through the room.",
+          "tokens": [
+            {
+              "ar": "هَبَّتْ",
+              "en": "blew"
+            },
+            {
+              "ar": "رِيحٌ",
+              "en": "a wind"
+            },
+            {
+              "ar": "دَافِئَةٌ",
+              "en": "warm"
+            },
+            {
+              "ar": "فِي",
+              "en": "in"
+            },
+            {
+              "ar": "الْغُرْفَةِ.",
+              "en": "the room"
+            }
+          ]
+        },
+        {
+          "id": "c1-s68",
+          "scene": "book",
+          "ar": "بَدَأَتِ الصَّفَحَاتُ تَتَقَلَّبُ.",
+          "en": "The pages began to turn.",
+          "tokens": [
+            {
+              "ar": "بَدَأَتِ",
+              "en": "began"
+            },
+            {
+              "ar": "الصَّفَحَاتُ",
+              "en": "the pages"
+            },
+            {
+              "ar": "تَتَقَلَّبُ.",
+              "en": "turning"
+            }
+          ]
+        },
+        {
+          "id": "c1-s69",
+          "scene": "book",
+          "ar": "«سَامِي، أَمْسِكْ بِيَدِي!»",
+          "en": "“Sami, take my hand!”",
+          "tokens": [
+            {
+              "ar": "«سَامِي،",
+              "en": "Sami"
+            },
+            {
+              "ar": "أَمْسِكْ",
+              "en": "hold!"
+            },
+            {
+              "ar": "بِيَدِي!»",
+              "en": "my hand"
+            }
+          ]
+        },
+        {
+          "id": "c1-s70",
+          "scene": "village",
+          "ar": "زَالَتِ الْغُرْفَةُ.",
+          "en": "The room disappeared.",
+          "tokens": [
+            {
+              "ar": "زَالَتِ",
+              "en": "disappeared"
+            },
+            {
+              "ar": "الْغُرْفَةُ.",
+              "en": "the room"
+            }
+          ]
+        },
+        {
+          "id": "c1-s71",
+          "scene": "village",
+          "ar": "لَمْ تَعُدْ لَيْلَى تَرَى الْمَكْتَبَ أَوِ الْكَرَاسِيَّ.",
+          "en": "Layla could no longer see the desk or the chairs.",
+          "tokens": [
+            {
+              "ar": "لَمْ",
+              "en": "no longer"
+            },
+            {
+              "ar": "تَعُدْ",
+              "en": "be / continue"
+            },
+            {
+              "ar": "لَيْلَى",
+              "en": "Layla"
+            },
+            {
+              "ar": "تَرَى",
+              "en": "see"
+            },
+            {
+              "ar": "الْمَكْتَبَ",
+              "en": "the desk"
+            },
+            {
+              "ar": "أَوِ",
+              "en": "or"
+            },
+            {
+              "ar": "الْكَرَاسِيَّ.",
+              "en": "the chairs"
+            }
+          ]
+        },
+        {
+          "id": "c1-s72",
+          "scene": "village",
+          "ar": "كَانَ هُنَاكَ شَارِعٌ تَحْتَ قَدَمَيْهَا، وَفَوْقَهَا سَمَاءٌ زَرْقَاءُ.",
+          "en": "There was a street beneath her feet, and a blue sky above her.",
+          "tokens": [
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "هُنَاكَ",
+              "en": "there"
+            },
+            {
+              "ar": "شَارِعٌ",
+              "en": "a street"
+            },
+            {
+              "ar": "تَحْتَ",
+              "en": "under"
+            },
+            {
+              "ar": "قَدَمَيْهَا،",
+              "en": "her two feet"
+            },
+            {
+              "ar": "وَفَوْقَهَا",
+              "en": "and above her"
+            },
+            {
+              "ar": "سَمَاءٌ",
+              "en": "a sky"
+            },
+            {
+              "ar": "زَرْقَاءُ.",
+              "en": "blue"
+            }
+          ]
+        },
+        {
+          "id": "c1-s73",
+          "scene": "village",
+          "ar": "كَانَتْ وَاقِفَةً فِي سَاحَةِ الْقَرْيَةِ.",
+          "en": "She was standing in the village square.",
+          "tokens": [
+            {
+              "ar": "كَانَتْ",
+              "en": "she was"
+            },
+            {
+              "ar": "وَاقِفَةً",
+              "en": "standing"
+            },
+            {
+              "ar": "فِي",
+              "en": "in"
+            },
+            {
+              "ar": "سَاحَةِ",
+              "en": "the square of"
+            },
+            {
+              "ar": "الْقَرْيَةِ.",
+              "en": "the village"
+            }
+          ]
+        },
+        {
+          "id": "c1-s74",
+          "scene": "village",
+          "ar": "وَقَفَ سَامِي بِجَانِبِهَا، وَمَا زَالَ يُمْسِكُ بِيَدِهَا.",
+          "en": "Sami stood beside her, still holding her hand.",
+          "tokens": [
+            {
+              "ar": "وَقَفَ",
+              "en": "stood"
+            },
+            {
+              "ar": "سَامِي",
+              "en": "Sami"
+            },
+            {
+              "ar": "بِجَانِبِهَا،",
+              "en": "beside her"
+            },
+            {
+              "ar": "وَمَا",
+              "en": "and still"
+            },
+            {
+              "ar": "زَالَ",
+              "en": "continues (part of ‘still’)"
+            },
+            {
+              "ar": "يُمْسِكُ",
+              "en": "holds"
+            },
+            {
+              "ar": "بِيَدِهَا.",
+              "en": "her hand"
+            }
+          ]
+        },
+        {
+          "id": "c1-s75",
+          "scene": "village",
+          "ar": "وَكَانَتْ مُوزَا عِنْدَ الْمَخْبَزِ.",
+          "en": "Moza was already at the bakery.",
+          "tokens": [
+            {
+              "ar": "وَكَانَتْ",
+              "en": "and was"
+            },
+            {
+              "ar": "مُوزَا",
+              "en": "Moza"
+            },
+            {
+              "ar": "عِنْدَ",
+              "en": "at"
+            },
+            {
+              "ar": "الْمَخْبَزِ.",
+              "en": "the bakery"
+            }
+          ]
+        },
+        {
+          "id": "c1-s76",
+          "scene": "village",
+          "ar": "وَرَاءَهُمَا بَابٌ أَزْرَقُ صَغِيرٌ، كَالْبَابِ عَلَى غِلَافِ الْكِتَابِ.",
+          "en": "Behind them was a little blue door, like the door on the book’s cover.",
+          "tokens": [
+            {
+              "ar": "وَرَاءَهُمَا",
+              "en": "behind the two of them"
+            },
+            {
+              "ar": "بَابٌ",
+              "en": "a door"
+            },
+            {
+              "ar": "أَزْرَقُ",
+              "en": "blue"
+            },
+            {
+              "ar": "صَغِيرٌ،",
+              "en": "small"
+            },
+            {
+              "ar": "كَالْبَابِ",
+              "en": "like the door"
+            },
+            {
+              "ar": "عَلَى",
+              "en": "on"
+            },
+            {
+              "ar": "غِلَافِ",
+              "en": "the cover of"
+            },
+            {
+              "ar": "الْكِتَابِ.",
+              "en": "the book"
+            }
+          ]
+        },
+        {
+          "id": "c1-s77",
+          "scene": "village",
+          "ar": "رَأَيَا جَدَّهُمَا مِنْ خِلَالِهِ.",
+          "en": "Through it, they could see their grandfather.",
+          "tokens": [
+            {
+              "ar": "رَأَيَا",
+              "en": "the two of them saw"
+            },
+            {
+              "ar": "جَدَّهُمَا",
+              "en": "their grandfather"
+            },
+            {
+              "ar": "مِنْ",
+              "en": "through"
+            },
+            {
+              "ar": "خِلَالِهِ.",
+              "en": "it (part of ‘through it’)"
+            }
+          ]
+        },
+        {
+          "id": "c1-s78",
+          "scene": "village",
+          "ar": "نَادَى: «ابْقَيَا مَعًا!»",
+          "en": "He called, “Stay together!”",
+          "tokens": [
+            {
+              "ar": "نَادَى:",
+              "en": "he called"
+            },
+            {
+              "ar": "«ابْقَيَا",
+              "en": "stay! (to two people)"
+            },
+            {
+              "ar": "مَعًا!»",
+              "en": "together"
+            }
+          ]
+        },
+        {
+          "id": "c1-s79",
+          "scene": "village",
+          "ar": "«كَيْفَ نَعُودُ؟»",
+          "en": "“How do we come back?”",
+          "tokens": [
+            {
+              "ar": "«كَيْفَ",
+              "en": "how"
+            },
+            {
+              "ar": "نَعُودُ؟»",
+              "en": "do we return?"
+            }
+          ]
+        },
+        {
+          "id": "c1-s80",
+          "scene": "village",
+          "ar": "«ابْحَثَا عَنِ...»",
+          "en": "“Look for—”",
+          "tokens": [
+            {
+              "ar": "«ابْحَثَا",
+              "en": "look! (to two people)"
+            },
+            {
+              "ar": "عَنِ...»",
+              "en": "for (unfinished)"
+            }
+          ]
+        },
+        {
+          "id": "c1-s81",
+          "scene": "village",
+          "ar": "صَارَ الْبَابُ أَصْغَرَ. ثُمَّ زَالَ.",
+          "en": "The door became smaller. Then it disappeared.",
+          "tokens": [
+            {
+              "ar": "صَارَ",
+              "en": "became"
+            },
+            {
+              "ar": "الْبَابُ",
+              "en": "the door"
+            },
+            {
+              "ar": "أَصْغَرَ.",
+              "en": "smaller"
+            },
+            {
+              "ar": "ثُمَّ",
+              "en": "then"
+            },
+            {
+              "ar": "زَالَ.",
+              "en": "disappeared"
+            }
+          ]
+        },
+        {
+          "id": "c1-s82",
+          "scene": "village",
+          "ar": "وَقَفَ وَلَدٌ عِنْدَ بَابِ الْمَخْبَزِ.",
+          "en": "A boy stood at the bakery door.",
+          "tokens": [
+            {
+              "ar": "وَقَفَ",
+              "en": "stood"
+            },
+            {
+              "ar": "وَلَدٌ",
+              "en": "a boy"
+            },
+            {
+              "ar": "عِنْدَ",
+              "en": "at"
+            },
+            {
+              "ar": "بَابِ",
+              "en": "the door of"
+            },
+            {
+              "ar": "الْمَخْبَزِ.",
+              "en": "the bakery"
+            }
+          ]
+        },
+        {
+          "id": "c1-s83",
+          "scene": "village",
+          "ar": "«لَقَدْ جِئْتُمَا! سَاعِدَانِي رَجَاءً.»",
+          "en": "“You came! Please help me.”",
+          "tokens": [
+            {
+              "ar": "«لَقَدْ",
+              "en": "indeed"
+            },
+            {
+              "ar": "جِئْتُمَا!",
+              "en": "the two of you came"
+            },
+            {
+              "ar": "سَاعِدَانِي",
+              "en": "help me! (to two people)"
+            },
+            {
+              "ar": "رَجَاءً.»",
+              "en": "please"
+            }
+          ]
+        },
+        {
+          "id": "c1-s84",
+          "scene": "village",
+          "ar": "سَأَلَتْ لَيْلَى: «مَاذَا حَدَثَ؟»",
+          "en": "Layla asked, “What happened?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَتْ",
+              "en": "asked"
+            },
+            {
+              "ar": "لَيْلَى:",
+              "en": "Layla"
+            },
+            {
+              "ar": "«مَاذَا",
+              "en": "what"
+            },
+            {
+              "ar": "حَدَثَ؟»",
+              "en": "happened?"
+            }
+          ]
+        },
+        {
+          "id": "c1-s85",
+          "scene": "village",
+          "ar": "«كَانَ أَبِي هُنَا هٰذَا الصَّبَاحَ. كُنَّا نَصْنَعُ الْخُبْزَ مَعًا.»",
+          "en": "“My father was here this morning. We were making bread together.”",
+          "tokens": [
+            {
+              "ar": "«كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "أَبِي",
+              "en": "my father"
+            },
+            {
+              "ar": "هُنَا",
+              "en": "here"
+            },
+            {
+              "ar": "هٰذَا",
+              "en": "this"
+            },
+            {
+              "ar": "الصَّبَاحَ.",
+              "en": "morning"
+            },
+            {
+              "ar": "كُنَّا",
+              "en": "we were"
+            },
+            {
+              "ar": "نَصْنَعُ",
+              "en": "making"
+            },
+            {
+              "ar": "الْخُبْزَ",
+              "en": "the bread"
+            },
+            {
+              "ar": "مَعًا.»",
+              "en": "together"
+            }
+          ]
+        },
+        {
+          "id": "c1-s86",
+          "scene": "village",
+          "ar": "«أَيْنَ هُوَ الْآنَ؟»",
+          "en": "“Where is he now?”",
+          "tokens": [
+            {
+              "ar": "«أَيْنَ",
+              "en": "where"
+            },
+            {
+              "ar": "هُوَ",
+              "en": "he"
+            },
+            {
+              "ar": "الْآنَ؟»",
+              "en": "now"
+            }
+          ]
+        },
+        {
+          "id": "c1-s87",
+          "scene": "village",
+          "ar": "«لَا أَعْرِفُ.»",
+          "en": "“I don’t know.”",
+          "tokens": [
+            {
+              "ar": "«لَا",
+              "en": "not"
+            },
+            {
+              "ar": "أَعْرِفُ.»",
+              "en": "I know"
+            }
+          ]
+        },
+        {
+          "id": "c1-s88",
+          "scene": "village",
+          "ar": "أَشَارَ الْوَلَدُ إِلَى صُورَةِ رَجُلٍ عَلَى الْجِدَارِ.",
+          "en": "The boy pointed to a picture of a man on the wall.",
+          "tokens": [
+            {
+              "ar": "أَشَارَ",
+              "en": "pointed"
+            },
+            {
+              "ar": "الْوَلَدُ",
+              "en": "the boy"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "to"
+            },
+            {
+              "ar": "صُورَةِ",
+              "en": "a picture of"
+            },
+            {
+              "ar": "رَجُلٍ",
+              "en": "a man"
+            },
+            {
+              "ar": "عَلَى",
+              "en": "on"
+            },
+            {
+              "ar": "الْجِدَارِ.",
+              "en": "the wall"
+            }
+          ]
+        },
+        {
+          "id": "c1-s89",
+          "scene": "village",
+          "ar": "«هٰذَا أَبِي.»",
+          "en": "“That’s my father.”",
+          "tokens": [
+            {
+              "ar": "«هٰذَا",
+              "en": "this"
+            },
+            {
+              "ar": "أَبِي.»",
+              "en": "my father"
+            }
+          ]
+        },
+        {
+          "id": "c1-s90",
+          "scene": "village",
+          "ar": "بَيْنَمَا كَانَتْ لَيْلَى تَنْظُرُ، زَالَ وَجْهُ الرَّجُلِ.",
+          "en": "As Layla looked, the man’s face disappeared.",
+          "tokens": [
+            {
+              "ar": "بَيْنَمَا",
+              "en": "while"
+            },
+            {
+              "ar": "كَانَتْ",
+              "en": "was"
+            },
+            {
+              "ar": "لَيْلَى",
+              "en": "Layla"
+            },
+            {
+              "ar": "تَنْظُرُ،",
+              "en": "looking"
+            },
+            {
+              "ar": "زَالَ",
+              "en": "disappeared"
+            },
+            {
+              "ar": "وَجْهُ",
+              "en": "the face of"
+            },
+            {
+              "ar": "الرَّجُلِ.",
+              "en": "the man"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Baker’s Name",
+      "arTitle": "اسْمُ الْخَبَّازِ",
+      "subtitle": "Every person has a story worth hearing.",
+      "image": "bakery",
+      "sentences": [
+        {
+          "id": "c2-s1",
+          "scene": "notebook",
+          "ar": "قَالَ الْوَلَدُ: «اسْمِي يُوسُفُ. مَا اسْمَاكُمَا؟»",
+          "en": "The boy said, “My name is Yusuf. What are your names?”",
+          "tokens": [
+            {
+              "ar": "قَالَ",
+              "en": "said"
+            },
+            {
+              "ar": "الْوَلَدُ:",
+              "en": "the boy"
+            },
+            {
+              "ar": "«اسْمِي",
+              "en": "my name"
+            },
+            {
+              "ar": "يُوسُفُ.",
+              "en": "Yusuf"
+            },
+            {
+              "ar": "مَا",
+              "en": "what"
+            },
+            {
+              "ar": "اسْمَاكُمَا؟»",
+              "en": "your two names"
+            }
+          ]
+        },
+        {
+          "id": "c2-s2",
+          "scene": "notebook",
+          "ar": "«أَنَا لَيْلَى، وَهٰذَا أَخِي سَامِي، وَتِلْكَ مُوزَا.»",
+          "en": "“I’m Layla, this is my brother Sami, and that’s Moza.”",
+          "tokens": [
+            {
+              "ar": "«أَنَا",
+              "en": "I"
+            },
+            {
+              "ar": "لَيْلَى،",
+              "en": "Layla"
+            },
+            {
+              "ar": "وَهٰذَا",
+              "en": "and this"
+            },
+            {
+              "ar": "أَخِي",
+              "en": "my brother"
+            },
+            {
+              "ar": "سَامِي،",
+              "en": "Sami"
+            },
+            {
+              "ar": "وَتِلْكَ",
+              "en": "and that (feminine)"
+            },
+            {
+              "ar": "مُوزَا.»",
+              "en": "Moza"
+            }
+          ]
+        },
+        {
+          "id": "c2-s3",
+          "scene": "notebook",
+          "ar": "كَانَتْ مُوزَا تَنْظُرُ إِلَى الْخُبْزِ.",
+          "en": "Moza was looking at the bread.",
+          "tokens": [
+            {
+              "ar": "كَانَتْ",
+              "en": "was"
+            },
+            {
+              "ar": "مُوزَا",
+              "en": "Moza"
+            },
+            {
+              "ar": "تَنْظُرُ",
+              "en": "looking"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "at"
+            },
+            {
+              "ar": "الْخُبْزِ.",
+              "en": "the bread"
+            }
+          ]
+        },
+        {
+          "id": "c2-s4",
+          "scene": "notebook",
+          "ar": "سَأَلَ يُوسُفُ: «هَلْ تُرِيدُ أَنْ تُسَاعِدَ؟»",
+          "en": "Yusuf asked, “Does she want to help?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَ",
+              "en": "asked"
+            },
+            {
+              "ar": "يُوسُفُ:",
+              "en": "Yusuf"
+            },
+            {
+              "ar": "«هَلْ",
+              "en": "question marker"
+            },
+            {
+              "ar": "تُرِيدُ",
+              "en": "she wants"
+            },
+            {
+              "ar": "أَنْ",
+              "en": "to"
+            },
+            {
+              "ar": "تُسَاعِدَ؟»",
+              "en": "help"
+            }
+          ]
+        },
+        {
+          "id": "c2-s5",
+          "scene": "notebook",
+          "ar": "قَالَ سَامِي: «نَعَمْ، لٰكِنَّهَا تُرِيدُ أَنْ تَأْكُلَ أَوَّلًا.»",
+          "en": "Sami said, “Yes, but first she wants to eat.”",
+          "tokens": [
+            {
+              "ar": "قَالَ",
+              "en": "said"
+            },
+            {
+              "ar": "سَامِي:",
+              "en": "Sami"
+            },
+            {
+              "ar": "«نَعَمْ،",
+              "en": "yes"
+            },
+            {
+              "ar": "لٰكِنَّهَا",
+              "en": "but she"
+            },
+            {
+              "ar": "تُرِيدُ",
+              "en": "wants"
+            },
+            {
+              "ar": "أَنْ",
+              "en": "to"
+            },
+            {
+              "ar": "تَأْكُلَ",
+              "en": "eat"
+            },
+            {
+              "ar": "أَوَّلًا.»",
+              "en": "first"
+            }
+          ]
+        },
+        {
+          "id": "c2-s6",
+          "scene": "notebook",
+          "ar": "ابْتَسَمَ يُوسُفُ لِلْمَرَّةِ الْأُولَى.",
+          "en": "Yusuf smiled for the first time.",
+          "tokens": [
+            {
+              "ar": "ابْتَسَمَ",
+              "en": "smiled"
+            },
+            {
+              "ar": "يُوسُفُ",
+              "en": "Yusuf"
+            },
+            {
+              "ar": "لِلْمَرَّةِ",
+              "en": "for the time"
+            },
+            {
+              "ar": "الْأُولَى.",
+              "en": "first"
+            }
+          ]
+        },
+        {
+          "id": "c2-s7",
+          "scene": "notebook",
+          "ar": "عَلَى مَكْتَبِ الْمَخْبَزِ دَفْتَرٌ مَفْتُوحٌ.",
+          "en": "On the bakery desk lay an open notebook.",
+          "tokens": [
+            {
+              "ar": "عَلَى",
+              "en": "on"
+            },
+            {
+              "ar": "مَكْتَبِ",
+              "en": "the desk of"
+            },
+            {
+              "ar": "الْمَخْبَزِ",
+              "en": "the bakery"
+            },
+            {
+              "ar": "دَفْتَرٌ",
+              "en": "a notebook"
+            },
+            {
+              "ar": "مَفْتُوحٌ.",
+              "en": "open"
+            }
+          ]
+        },
+        {
+          "id": "c2-s8",
+          "scene": "notebook",
+          "ar": "وَبِجَانِبِهِ قَلَمٌ وَزُجَاجَةُ حِبْرٍ صَغِيرَةٌ.",
+          "en": "Beside it were a pen and a small bottle of ink.",
+          "tokens": [
+            {
+              "ar": "وَبِجَانِبِهِ",
+              "en": "and beside it"
+            },
+            {
+              "ar": "قَلَمٌ",
+              "en": "a pen"
+            },
+            {
+              "ar": "وَزُجَاجَةُ",
+              "en": "and a bottle of"
+            },
+            {
+              "ar": "حِبْرٍ",
+              "en": "ink"
+            },
+            {
+              "ar": "صَغِيرَةٌ.",
+              "en": "small"
+            }
+          ]
+        },
+        {
+          "id": "c2-s9",
+          "scene": "notebook",
+          "ar": "كَانَ مُعْظَمُ الصَّفْحَةِ فَارِغًا.",
+          "en": "Most of the page was blank.",
+          "tokens": [
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "مُعْظَمُ",
+              "en": "most of"
+            },
+            {
+              "ar": "الصَّفْحَةِ",
+              "en": "the page"
+            },
+            {
+              "ar": "فَارِغًا.",
+              "en": "blank / empty"
+            }
+          ]
+        },
+        {
+          "id": "c2-s10",
+          "scene": "notebook",
+          "ar": "وَلَمْ تَبْقَ إِلَّا جُمْلَةٌ وَاحِدَةٌ:",
+          "en": "Only one sentence remained:",
+          "tokens": [
+            {
+              "ar": "وَلَمْ",
+              "en": "and did not"
+            },
+            {
+              "ar": "تَبْقَ",
+              "en": "remain"
+            },
+            {
+              "ar": "إِلَّا",
+              "en": "except"
+            },
+            {
+              "ar": "جُمْلَةٌ",
+              "en": "a sentence"
+            },
+            {
+              "ar": "وَاحِدَةٌ:",
+              "en": "one"
+            }
+          ]
+        },
+        {
+          "id": "c2-s11",
+          "scene": "notebook",
+          "ar": "«تَحْتَاجُ الْقِصَّةُ إِلَى مَنْ يَرْوِيهَا وَمَنْ يَسْتَمِعُ إِلَيْهَا.»",
+          "en": "“A story needs someone to tell it and someone to listen.”",
+          "tokens": [
+            {
+              "ar": "«تَحْتَاجُ",
+              "en": "needs"
+            },
+            {
+              "ar": "الْقِصَّةُ",
+              "en": "the story"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "to"
+            },
+            {
+              "ar": "مَنْ",
+              "en": "someone who"
+            },
+            {
+              "ar": "يَرْوِيهَا",
+              "en": "tells it"
+            },
+            {
+              "ar": "وَمَنْ",
+              "en": "and someone who"
+            },
+            {
+              "ar": "يَسْتَمِعُ",
+              "en": "listens"
+            },
+            {
+              "ar": "إِلَيْهَا.»",
+              "en": "to it"
+            }
+          ]
+        },
+        {
+          "id": "c2-s12",
+          "scene": "notebook",
+          "ar": "سَأَلَتْ لَيْلَى: «مَنْ كَتَبَ هٰذَا؟»",
+          "en": "Layla asked, “Who wrote that?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَتْ",
+              "en": "asked"
+            },
+            {
+              "ar": "لَيْلَى:",
+              "en": "Layla"
+            },
+            {
+              "ar": "«مَنْ",
+              "en": "who"
+            },
+            {
+              "ar": "كَتَبَ",
+              "en": "wrote"
+            },
+            {
+              "ar": "هٰذَا؟»",
+              "en": "this"
+            }
+          ]
+        },
+        {
+          "id": "c2-s13",
+          "scene": "notebook",
+          "ar": "«رَجُلٌ كَانَ يَزُورُنَا. كَانَ يُرِيدُ أَنْ يَكْتُبَ كِتَابًا.»",
+          "en": "“A man who used to visit us. He wanted to write a book.”",
+          "tokens": [
+            {
+              "ar": "«رَجُلٌ",
+              "en": "a man"
+            },
+            {
+              "ar": "كَانَ",
+              "en": "was / used to"
+            },
+            {
+              "ar": "يَزُورُنَا.",
+              "en": "visit us"
+            },
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "يُرِيدُ",
+              "en": "wanting"
+            },
+            {
+              "ar": "أَنْ",
+              "en": "to"
+            },
+            {
+              "ar": "يَكْتُبَ",
+              "en": "write"
+            },
+            {
+              "ar": "كِتَابًا.»",
+              "en": "a book"
+            }
+          ]
+        },
+        {
+          "id": "c2-s14",
+          "scene": "notebook",
+          "ar": "قَالَتْ لَيْلَى: «حَدِّثْنَا عَنْ أَبِيكَ.»",
+          "en": "Layla said, “Tell us about your father.”",
+          "tokens": [
+            {
+              "ar": "قَالَتْ",
+              "en": "said"
+            },
+            {
+              "ar": "لَيْلَى:",
+              "en": "Layla"
+            },
+            {
+              "ar": "«حَدِّثْنَا",
+              "en": "tell us!"
+            },
+            {
+              "ar": "عَنْ",
+              "en": "about"
+            },
+            {
+              "ar": "أَبِيكَ.»",
+              "en": "your father"
+            }
+          ]
+        },
+        {
+          "id": "c2-s15",
+          "scene": "notebook",
+          "ar": "«اسْمُهُ حَسَنٌ. يَسْتَيْقِظُ قَبْلَ الْفَجْرِ.»",
+          "en": "“His name is Hassan. He gets up before dawn.”",
+          "tokens": [
+            {
+              "ar": "«اسْمُهُ",
+              "en": "his name"
+            },
+            {
+              "ar": "حَسَنٌ.",
+              "en": "Hassan"
+            },
+            {
+              "ar": "يَسْتَيْقِظُ",
+              "en": "he wakes up"
+            },
+            {
+              "ar": "قَبْلَ",
+              "en": "before"
+            },
+            {
+              "ar": "الْفَجْرِ.»",
+              "en": "dawn"
+            }
+          ]
+        },
+        {
+          "id": "c2-s16",
+          "scene": "notebook",
+          "ar": "«يَغْسِلُ يَدَيْهِ وَيُعِدُّ الدَّقِيقَ وَيَصْنَعُ الْخُبْزَ لِلْجَمِيعِ.»",
+          "en": "“He washes his hands, prepares the flour, and makes bread for everyone.”",
+          "tokens": [
+            {
+              "ar": "«يَغْسِلُ",
+              "en": "he washes"
+            },
+            {
+              "ar": "يَدَيْهِ",
+              "en": "his two hands"
+            },
+            {
+              "ar": "وَيُعِدُّ",
+              "en": "and prepares"
+            },
+            {
+              "ar": "الدَّقِيقَ",
+              "en": "the flour"
+            },
+            {
+              "ar": "وَيَصْنَعُ",
+              "en": "and makes"
+            },
+            {
+              "ar": "الْخُبْزَ",
+              "en": "the bread"
+            },
+            {
+              "ar": "لِلْجَمِيعِ.»",
+              "en": "for everyone"
+            }
+          ]
+        },
+        {
+          "id": "c2-s17",
+          "scene": "notebook",
+          "ar": "سَأَلَ سَامِي: «هَلْ هُوَ غَنِيٌّ؟»",
+          "en": "Sami asked, “Is he rich?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَ",
+              "en": "asked"
+            },
+            {
+              "ar": "سَامِي:",
+              "en": "Sami"
+            },
+            {
+              "ar": "«هَلْ",
+              "en": "question marker"
+            },
+            {
+              "ar": "هُوَ",
+              "en": "he"
+            },
+            {
+              "ar": "غَنِيٌّ؟»",
+              "en": "rich"
+            }
+          ]
+        },
+        {
+          "id": "c2-s18",
+          "scene": "notebook",
+          "ar": "«لَا. أَحْيَانًا لَا يَسْتَطِيعُ النَّاسُ أَنْ يَدْفَعُوا.»",
+          "en": "“No. Sometimes people cannot pay.”",
+          "tokens": [
+            {
+              "ar": "«لَا.",
+              "en": "no"
+            },
+            {
+              "ar": "أَحْيَانًا",
+              "en": "sometimes"
+            },
+            {
+              "ar": "لَا",
+              "en": "not"
+            },
+            {
+              "ar": "يَسْتَطِيعُ",
+              "en": "can"
+            },
+            {
+              "ar": "النَّاسُ",
+              "en": "the people"
+            },
+            {
+              "ar": "أَنْ",
+              "en": "to"
+            },
+            {
+              "ar": "يَدْفَعُوا.»",
+              "en": "pay"
+            }
+          ]
+        },
+        {
+          "id": "c2-s19",
+          "scene": "notebook",
+          "ar": "«وَمَعَ ذٰلِكَ، يُعْطِيهِمُ الْخُبْزَ.»",
+          "en": "“He gives them bread anyway.”",
+          "tokens": [
+            {
+              "ar": "«وَمَعَ",
+              "en": "and with"
+            },
+            {
+              "ar": "ذٰلِكَ،",
+              "en": "that (nevertheless)"
+            },
+            {
+              "ar": "يُعْطِيهِمُ",
+              "en": "he gives them"
+            },
+            {
+              "ar": "الْخُبْزَ.»",
+              "en": "the bread"
+            }
+          ]
+        },
+        {
+          "id": "c2-s20",
+          "scene": "notebook",
+          "ar": "كَتَبَتْ لَيْلَى: «حَسَنٌ يَصْنَعُ الْخُبْزَ.»",
+          "en": "Layla wrote, “Hassan makes bread.”",
+          "tokens": [
+            {
+              "ar": "كَتَبَتْ",
+              "en": "wrote"
+            },
+            {
+              "ar": "لَيْلَى:",
+              "en": "Layla"
+            },
+            {
+              "ar": "«حَسَنٌ",
+              "en": "Hassan"
+            },
+            {
+              "ar": "يَصْنَعُ",
+              "en": "makes"
+            },
+            {
+              "ar": "الْخُبْزَ.»",
+              "en": "the bread"
+            }
+          ]
+        },
+        {
+          "id": "c2-s21",
+          "scene": "notebook",
+          "ar": "«وَلَا يَتْرُكُ جَارًا جَائِعًا يَذْهَبُ بِدُونِ طَعَامٍ.»",
+          "en": "“He does not let a hungry neighbor leave without food.”",
+          "tokens": [
+            {
+              "ar": "«وَلَا",
+              "en": "and not"
+            },
+            {
+              "ar": "يَتْرُكُ",
+              "en": "he leaves / lets"
+            },
+            {
+              "ar": "جَارًا",
+              "en": "a neighbor"
+            },
+            {
+              "ar": "جَائِعًا",
+              "en": "hungry"
+            },
+            {
+              "ar": "يَذْهَبُ",
+              "en": "go"
+            },
+            {
+              "ar": "بِدُونِ",
+              "en": "without"
+            },
+            {
+              "ar": "طَعَامٍ.»",
+              "en": "food"
+            }
+          ]
+        },
+        {
+          "id": "c2-s22",
+          "scene": "bakery",
+          "ar": "تَغَيَّرَتِ الصُّورَةُ. وَعَادَ وَجْهُ الرَّجُلِ.",
+          "en": "The photograph changed. The man’s face returned.",
+          "tokens": [
+            {
+              "ar": "تَغَيَّرَتِ",
+              "en": "changed"
+            },
+            {
+              "ar": "الصُّورَةُ.",
+              "en": "the picture"
+            },
+            {
+              "ar": "وَعَادَ",
+              "en": "and returned"
+            },
+            {
+              "ar": "وَجْهُ",
+              "en": "the face of"
+            },
+            {
+              "ar": "الرَّجُلِ.",
+              "en": "the man"
+            }
+          ]
+        },
+        {
+          "id": "c2-s23",
+          "scene": "bakery",
+          "ar": "وَجَاءَ صَوْتٌ مِنَ الْمَطْبَخِ: «يُوسُفُ؟ مَنْ ضُيُوفُنَا؟»",
+          "en": "A voice came from the kitchen: “Yusuf? Who are our guests?”",
+          "tokens": [
+            {
+              "ar": "وَجَاءَ",
+              "en": "and came"
+            },
+            {
+              "ar": "صَوْتٌ",
+              "en": "a voice"
+            },
+            {
+              "ar": "مِنَ",
+              "en": "from"
+            },
+            {
+              "ar": "الْمَطْبَخِ:",
+              "en": "the kitchen"
+            },
+            {
+              "ar": "«يُوسُفُ؟",
+              "en": "Yusuf"
+            },
+            {
+              "ar": "مَنْ",
+              "en": "who"
+            },
+            {
+              "ar": "ضُيُوفُنَا؟»",
+              "en": "our guests"
+            }
+          ]
+        },
+        {
+          "id": "c2-s24",
+          "scene": "bakery",
+          "ar": "كَانَ حَسَنٌ وَاقِفًا بِجَانِبِ الْقِدْرِ.",
+          "en": "Hassan stood beside the pot.",
+          "tokens": [
+            {
+              "ar": "كَانَ",
+              "en": "was"
+            },
+            {
+              "ar": "حَسَنٌ",
+              "en": "Hassan"
+            },
+            {
+              "ar": "وَاقِفًا",
+              "en": "standing"
+            },
+            {
+              "ar": "بِجَانِبِ",
+              "en": "beside"
+            },
+            {
+              "ar": "الْقِدْرِ.",
+              "en": "the pot"
+            }
+          ]
+        },
+        {
+          "id": "c2-s25",
+          "scene": "bakery",
+          "ar": "رَكَضَ يُوسُفُ إِلَيْهِ.",
+          "en": "Yusuf ran to him.",
+          "tokens": [
+            {
+              "ar": "رَكَضَ",
+              "en": "ran"
+            },
+            {
+              "ar": "يُوسُفُ",
+              "en": "Yusuf"
+            },
+            {
+              "ar": "إِلَيْهِ.",
+              "en": "to him"
+            }
+          ]
+        },
+        {
+          "id": "c2-s26",
+          "scene": "bakery",
+          "ar": "«لَمْ تَكُنْ هُنَا!»",
+          "en": "“You were gone!”",
+          "tokens": [
+            {
+              "ar": "«لَمْ",
+              "en": "not"
+            },
+            {
+              "ar": "تَكُنْ",
+              "en": "you were"
+            },
+            {
+              "ar": "هُنَا!»",
+              "en": "here"
+            }
+          ]
+        },
+        {
+          "id": "c2-s27",
+          "scene": "bakery",
+          "ar": "نَظَرَ حَسَنٌ إِلَى الدَّفْتَرِ، ثُمَّ إِلَى الطِّفْلَيْنِ.",
+          "en": "Hassan looked at the notebook, then at the two children.",
+          "tokens": [
+            {
+              "ar": "نَظَرَ",
+              "en": "looked"
+            },
+            {
+              "ar": "حَسَنٌ",
+              "en": "Hassan"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "at"
+            },
+            {
+              "ar": "الدَّفْتَرِ،",
+              "en": "the notebook"
+            },
+            {
+              "ar": "ثُمَّ",
+              "en": "then"
+            },
+            {
+              "ar": "إِلَى",
+              "en": "at"
+            },
+            {
+              "ar": "الطِّفْلَيْنِ.",
+              "en": "the two children"
+            }
+          ]
+        },
+        {
+          "id": "c2-s28",
+          "scene": "bakery",
+          "ar": "«إِذَنْ، لَقَدْ بَدَأْتُمَا الْعَمَلَ.»",
+          "en": "“Then you have started the work.”",
+          "tokens": [
+            {
+              "ar": "«إِذَنْ،",
+              "en": "then / so"
+            },
+            {
+              "ar": "لَقَدْ",
+              "en": "indeed"
+            },
+            {
+              "ar": "بَدَأْتُمَا",
+              "en": "the two of you began"
+            },
+            {
+              "ar": "الْعَمَلَ.»",
+              "en": "the work"
+            }
+          ]
+        },
+        {
+          "id": "c2-s29",
+          "scene": "bakery",
+          "ar": "أَعْطَاهُمَا حَسَنٌ خُبْزًا وَجُبْنًا.",
+          "en": "Hassan gave them bread and cheese.",
+          "tokens": [
+            {
+              "ar": "أَعْطَاهُمَا",
+              "en": "gave the two of them"
+            },
+            {
+              "ar": "حَسَنٌ",
+              "en": "Hassan"
+            },
+            {
+              "ar": "خُبْزًا",
+              "en": "bread"
+            },
+            {
+              "ar": "وَجُبْنًا.",
+              "en": "and cheese"
+            }
+          ]
+        },
+        {
+          "id": "c2-s30",
+          "scene": "bakery",
+          "ar": "وَأَعْطَى مُوزَا قَلِيلًا مِنَ الْخُبْزِ أَيْضًا.",
+          "en": "He gave Moza a little bread too.",
+          "tokens": [
+            {
+              "ar": "وَأَعْطَى",
+              "en": "and gave"
+            },
+            {
+              "ar": "مُوزَا",
+              "en": "Moza"
+            },
+            {
+              "ar": "قَلِيلًا",
+              "en": "a little"
+            },
+            {
+              "ar": "مِنَ",
+              "en": "of"
+            },
+            {
+              "ar": "الْخُبْزِ",
+              "en": "the bread"
+            },
+            {
+              "ar": "أَيْضًا.",
+              "en": "also"
+            }
+          ]
+        },
+        {
+          "id": "c2-s31",
+          "scene": "bakery",
+          "ar": "سَأَلَ سَامِي: «إِذَا كَتَبْنَا أَسْمَاءَهُمْ، هَلْ سَيَعُودُ الْجَمِيعُ؟»",
+          "en": "Sami asked, “Will everyone return if we write their names?”",
+          "tokens": [
+            {
+              "ar": "سَأَلَ",
+              "en": "asked"
+            },
+            {
+              "ar": "سَامِي:",
+              "en": "Sami"
+            },
+            {
+              "ar": "«إِذَا",
+              "en": "if"
+            },
+            {
+              "ar": "كَتَبْنَا",
+              "en": "we write"
+            },
+            {
+              "ar": "أَسْمَاءَهُمْ،",
+              "en": "their names"
+            },
+            {
+              "ar": "هَلْ",
+              "en": "question marker"
+            },
+            {
+              "ar": "سَيَعُودُ",
+              "en": "will return"
+            },
+            {
+              "ar": "الْجَمِيعُ؟»",
+              "en": "everyone"
+            }
+          ],
+          "note": {
+            "title": "If we write …",
+            "ar": "إِذَا كَتَبْنَا أَسْمَاءَهُمْ",
+            "text": "إِذَا introduces a condition: “If we write their names …” In this sentence, a past-form verb refers to a possible future event. Translate the whole construction, not just the tense in isolation."
+          }
+        },
+        {
+          "id": "c2-s32",
+          "scene": "bakery",
+          "ar": "«الْأَسْمَاءُ مُهِمَّةٌ، لٰكِنَّ النَّاسَ أَكْثَرُ مِنْ أَسْمَائِهِمْ.»",
+          "en": "“Names matter. But people are more than their names.”",
+          "tokens": [
+            {
+              "ar": "«الْأَسْمَاءُ",
+              "en": "the names"
+            },
+            {
+              "ar": "مُهِمَّةٌ،",
+              "en": "important"
+            },
+            {
+              "ar": "لٰكِنَّ",
+              "en": "but"
+            },
+            {
+              "ar": "النَّاسَ",
+              "en": "the people"
+            },
+            {
+              "ar": "أَكْثَرُ",
+              "en": "more"
+            },
+            {
+              "ar": "مِنْ",
+              "en": "than"
+            },
+            {
+              "ar": "أَسْمَائِهِمْ.»",
+              "en": "their names"
+            }
+          ]
+        },
+        {
+          "id": "c2-s33",
+          "scene": "bakery",
+          "ar": "«تَعَرَّفَا عَلَى مَا فَعَلُوهُ، وَمَا أَرَادُوهُ، وَمَنْ سَاعَدُوهُ.»",
+          "en": "“Find out what they did, what they wanted, and whom they helped.”",
+          "tokens": [
+            {
+              "ar": "«تَعَرَّفَا",
+              "en": "find out! (to two people)"
+            },
+            {
+              "ar": "عَلَى",
+              "en": "about"
+            },
+            {
+              "ar": "مَا",
+              "en": "what"
+            },
+            {
+              "ar": "فَعَلُوهُ،",
+              "en": "they did"
+            },
+            {
+              "ar": "وَمَا",
+              "en": "and what"
+            },
+            {
+              "ar": "أَرَادُوهُ،",
+              "en": "they wanted"
+            },
+            {
+              "ar": "وَمَنْ",
+              "en": "and whom"
+            },
+            {
+              "ar": "سَاعَدُوهُ.»",
+              "en": "they helped"
+            }
+          ]
+        },
+        {
+          "id": "c2-s34",
+          "scene": "bakery",
+          "ar": "ظَهَرَ بَابٌ أَزْرَقُ بِجَانِبِ الْمَكْتَبِ.",
+          "en": "A blue door appeared beside the desk.",
+          "tokens": [
+            {
+              "ar": "ظَهَرَ",
+              "en": "appeared"
+            },
+            {
+              "ar": "بَابٌ",
+              "en": "a door"
+            },
+            {
+              "ar": "أَزْرَقُ",
+              "en": "blue"
+            },
+            {
+              "ar": "بِجَانِبِ",
+              "en": "beside"
+            },
+            {
+              "ar": "الْمَكْتَبِ.",
+              "en": "the desk"
+            }
+          ]
+        },
+        {
+          "id": "c2-s35",
+          "scene": "bakery",
+          "ar": "وَعَلَيْهِ ثَلَاثُ كَلِمَاتٍ: «إِلَى الدَّرْسِ الْأَوَّلِ».",
+          "en": "On it were three words: “To the first lesson.”",
+          "tokens": [
+            {
+              "ar": "وَعَلَيْهِ",
+              "en": "and on it"
+            },
+            {
+              "ar": "ثَلَاثُ",
+              "en": "three"
+            },
+            {
+              "ar": "كَلِمَاتٍ:",
+              "en": "words"
+            },
+            {
+              "ar": "«إِلَى",
+              "en": "to"
+            },
+            {
+              "ar": "الدَّرْسِ",
+              "en": "the lesson"
+            },
+            {
+              "ar": "الْأَوَّلِ».",
+              "en": "first"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
