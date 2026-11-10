@@ -1,6 +1,6 @@
 'use strict';
-const CACHE='mosa-adventure-v1';
-const CORE=['./','index.html','app.css?v=1','app.js?v=1','story.json?v=1','assets/arabic.ttf','assets/icon-192.png','assets/icon-512.png','assets/book.webp','assets/kitchen.webp','assets/village.webp','assets/notebook.webp','assets/bakery.webp'];
+const CACHE='mosa-adventure-v2';
+const CORE=['./','index.html','app.css?v=1','app.js?v=2','story.json?v=1','assets/arabic.ttf','assets/icon-192.png','assets/icon-512.png','assets/book.webp','assets/kitchen.webp','assets/village.webp','assets/notebook.webp','assets/bakery.webp'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('mosa-adventure-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||new URL(event.request.url).origin!==self.location.origin)return;const url=new URL(event.request.url);if(url.pathname.endsWith('/audio-map.json')||event.request.mode==='navigate'){event.respondWith(fetch(event.request).then(r=>{if(r.ok){const copy=r.clone();caches.open(CACHE).then(c=>c.put(event.request,copy))}return r}).catch(()=>caches.match(event.request).then(r=>r||caches.match('./index.html'))));return}event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(r=>{if(r.ok){const copy=r.clone();caches.open(CACHE).then(c=>c.put(event.request,copy))}return r})))});
