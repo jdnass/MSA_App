@@ -1,26 +1,17 @@
 # MoSA’s Adventure
 
-A separate, installable Arabic storybook pilot containing the full first two chapters of *The Book of Missing Stories*.
-
-## Reading
+An installable Arabic storybook containing all 26 chapters of *The Book of Missing Stories*.
 
 - Story and Vocab are the two main tabs.
-- English is hidden on every new card; tap to reveal it.
-- Tap an Arabic word to reveal its contextual gloss and hear it once.
-- Stars, preferences, and progress are saved locally on the current device.
-- Swipe horizontally, use the arrow buttons, or use keyboard arrows to turn cards.
-- Optional grammar notes appear where relevant. Settings control vowels, text size, and word audio on tap.
+- English is hidden on each new card; tap to reveal it.
+- Tap an Arabic word for its contextual English meaning and star it to save it.
+- Vocab contains only starred words, with search and chapter filters.
+- There is no audio playback, audio fetching, or speech synthesis.
+- Reading progress, stars, vowels, and text size are saved locally on the current device.
+- Existing pilot stars and reading progress use the same storage key.
+- Swipe, use arrow buttons, or keyboard arrows to turn cards.
+- Optional grammar notes appear where relevant.
 
-## Audio
+Arabic, English, and contextual word glosses are stored in `story.json`. The continuation follows the approved English script through the ending. This release does not certify exhaustive coverage of the six vocabulary collections or a final extra-word count.
 
-Existing user recordings take priority over existing Cedar vocabulary recordings for matching words. This pilot reuses 120 matching word recordings. Other words and complete sentences use the device’s Arabic speech voice. If that voice is not installed or exposed by the browser, the app reports that audio is unavailable for that item.
-
-English is never spoken. Each word and sentence plays once. Generating additional Cedar recordings is not enabled in this published pilot and requires separate approval for API charges and writing the generated recordings to GitHub.
-
-## Scope
-
-Arabic, English, and word-level contextual meanings are stored in `story.json`. This pilot does not certify exhaustive six-collection coverage or the final whole-book extra-word count. It implements only chapters 1 and 2; later chapters are not shown as empty lessons.
-
-The app uses its own manifest, service-worker scope, cache names, and local-storage key. It is hosted at a separate `/adventure/` URL within the existing repository.
-
-Images were generated from the approved Moza character reference. They are AI-generated story art. Reused Cedar recordings are AI-generated audio; the user recordings are the user’s own voice. The published app contains no API credentials or paid generation workflow.
+The app has its own manifest, service worker scope, and cache names at `/adventure/`. Illustrations are AI-generated story art based on the approved Moza character reference. Some scenes are reused across related chapters. No API credentials or paid generation workflows are included.
