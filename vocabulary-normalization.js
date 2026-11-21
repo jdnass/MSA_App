@@ -2,6 +2,8 @@
 (function(){
   const priority=['alkitaab1','mango-msa','madina-book1','dli-basic','madina-book2','alif-baa','alkitaab2','mosa-modules'];
   const rank=id=>{const n=priority.indexOf(id);return n<0?priority.length:n;};
+  // Use the Madina card's gloss for جَمِيع and migrate the older DLI card.
+  const cardRank=w=>w.id==='madina-book2-11-all'?rank('dli-basic')-0.5:rank(w.collectionId);
   const plain=s=>String(s||'').normalize('NFC').replace(/[\u0610-\u061a\u064b-\u065f\u0670\u06d6-\u06edـ]/g,'').replace(/\s+/g,' ').trim();
   // Keep lexicalized articles: اليوم means today, whereas يوم means a day.
   const key=s=>plain(s)==='عيد الميلاد'?'عيد الميلاد':plain(s).replace(/[؟?!.,،؛]/g,'').split(' ').map(w=>['اليوم','الليلة','الآن','الأحد','الاثنين','الإثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'].includes(w)?w:w.replace(/^ال/,'')).join(' ');
@@ -32,7 +34,7 @@
       if(x[i].marks.includes('ّ')!==y[i].marks.includes('ّ')&&/[\u064e-\u0651]/.test(a)&&/[\u064e-\u0651]/.test(b))return false;
     }
     // Preserve distinct senses with different grammatical roles.
-    const role=w=>/adjective/i.test(w.pos||'')?'adjective':/^Noun\b/i.test(w.pos||'')?'noun':null;
+    const role=w=>/adjective/i.test(w.pos||'')?'adjective':/^Noun\b/i.test(w.pos||'')?'noun':/^Adverb\b/i.test(w.pos||'')?'adverb':null;
     if(role(wa)&&role(wb)&&role(wa)!==role(wb)&&meaning(wa)!==meaning(wb))return false;
     return true;
   }
@@ -99,7 +101,7 @@
         if(!base.mp||base.mp==='—')base.mp=w.ar;
       }
     }
-    const ordered=cards.map((w,i)=>({w,i})).sort((a,b)=>rank(a.w.collectionId)-rank(b.w.collectionId)||a.i-b.i).map(v=>v.w);
+    const ordered=cards.map((w,i)=>({w,i})).sort((a,b)=>cardRank(a.w)-cardRank(b.w)||a.i-b.i).map(v=>v.w);
     const aliases={},femaleIds=new Set();
     for(const w of ordered){const base=femaleBase(w,ordered);if(base){aliases[w.id]=base.id;femaleIds.add(w.id);if(!base.f||base.f==='—')base.f=w.ar;}}
     // Remove standalone gender duplicates from lessons as well, while retaining

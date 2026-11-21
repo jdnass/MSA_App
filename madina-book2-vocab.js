@@ -162,8 +162,34 @@ const MADINA_BOOK2_CARDS=[
     "sourcePages": [
       1
     ],
-    "ar": "مَكْتَبُ خُطُوطٍ جَوِّيَّةٍ",
-    "tr": "maktabu khuṭūṭin jawwiyyatin"
+    "ar": "مَكْتَبُ خُطُوط جَوِّيَّة",
+    "tr": "maktabu khuṭūṭ jawwiyya"
+  },
+  {
+    "id": "madina-book2-9-line",
+    "collectionId": "madina-book2",
+    "collection": "Madina (Book 2)",
+    "en": "line / route",
+    "ar": "خَطّ",
+    "tr": "khaṭṭ",
+    "pos": "Noun",
+    "f": "—",
+    "mp": "خُطُوط",
+    "fp": "—",
+    "audioKind": "vocabulary"
+  },
+  {
+    "id": "madina-book2-9-lines",
+    "collectionId": "madina-book2",
+    "collection": "Madina (Book 2)",
+    "en": "lines / routes",
+    "ar": "خُطُوط",
+    "tr": "khuṭūṭ",
+    "pos": "Noun (broken plural)",
+    "f": "—",
+    "mp": "—",
+    "fp": "—",
+    "audioKind": "vocabulary"
   },
   {
     "id": "madina-book2-10",
@@ -202,11 +228,50 @@ const MADINA_BOOK2_CARDS=[
     "tr": "jamīʿu anḥāʾi l-ʿālami"
   },
   {
+    "id": "madina-book2-11-all",
+    "collectionId": "madina-book2",
+    "collection": "Madina (Book 2)",
+    "en": "all / entire",
+    "ar": "جَمِيع",
+    "tr": "jamīʿ",
+    "pos": "Quantifier",
+    "f": "—",
+    "mp": "—",
+    "fp": "—",
+    "audioKind": "vocabulary"
+  },
+  {
+    "id": "madina-book2-11-direction",
+    "collectionId": "madina-book2",
+    "collection": "Madina (Book 2)",
+    "en": "direction / side / region",
+    "ar": "نَحْو",
+    "tr": "naḥw",
+    "pos": "Noun",
+    "f": "—",
+    "mp": "أَنْحَاء",
+    "fp": "—",
+    "audioKind": "vocabulary"
+  },
+  {
+    "id": "madina-book2-11-regions",
+    "collectionId": "madina-book2",
+    "collection": "Madina (Book 2)",
+    "en": "parts / regions",
+    "ar": "أَنْحَاء",
+    "tr": "anḥāʾ",
+    "pos": "Noun (broken plural)",
+    "f": "—",
+    "mp": "—",
+    "fp": "—",
+    "audioKind": "vocabulary"
+  },
+  {
     "id": "madina-book2-12",
     "collectionId": "madina-book2",
     "collection": "Madina (Book 2)",
-    "en": "almost",
-    "pos": "Madina (Book 2)",
+    "en": "I almost forgot",
+    "pos": "Expression",
     "f": "—",
     "mp": "—",
     "fp": "—",
@@ -216,8 +281,21 @@ const MADINA_BOOK2_CARDS=[
     "sourcePages": [
       1
     ],
-    "ar": "كَادَ : يَكَادُ",
-    "tr": "kāda : yakādu"
+    "ar": "كِدْتُ أَنْسَى",
+    "tr": "kidtu ansā"
+  },
+  {
+    "id": "madina-book2-12-barely",
+    "collectionId": "madina-book2",
+    "collection": "Madina (Book 2)",
+    "en": "I can barely understand",
+    "ar": "لَا أَكَادُ أَفْهَمُ",
+    "tr": "lā akādu afhamu",
+    "pos": "Expression",
+    "f": "—",
+    "mp": "—",
+    "fp": "—",
+    "audioKind": "vocabulary"
   },
   {
     "id": "madina-book2-13",
