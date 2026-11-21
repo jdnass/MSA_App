@@ -885,7 +885,68 @@ const AK2_CHAPTERS={
       }
     ],
     "grammar": [],
-    "sentences": [],
+    "sentences": [
+      {
+        "id": "ak2-c1-s1",
+        "en": "I hope to move to a house near the church.",
+        "ar": "أَتَمَنَّى أَنْ أَنْتَقِلَ إِلَى بَيْتٍ قَرِيبٍ مِنَ الْكَنِيسَةِ.",
+        "tr": "ʾatamannā ʾan ʾantaqila ʾilā baytin qarībin mina al-kanīsati."
+      },
+      {
+        "id": "ak2-c1-s2",
+        "en": "I’ll live either on the first floor or on the second floor.",
+        "ar": "سَأَسْكُنُ إِمَّا فِي الطَّابِقِ الْأَوَّلِ أَوْ فِي الطَّابِقِ الثَّانِي.",
+        "tr": "saʾaskunu ʾimmā fī al-ṭābiqi al-ʾawwali ʾaw fī al-ṭābiqi al-thānī."
+      },
+      {
+        "id": "ak2-c1-s3",
+        "en": "The rent is cheaper on the first floor.",
+        "ar": "الْإِيجَارُ فِي الطَّابِقِ الْأَوَّلِ أَرْخَصُ.",
+        "tr": "al-ʾījāru fī al-ṭābiqi al-ʾawwali ʾarkhaṣu."
+      },
+      {
+        "id": "ak2-c1-s4",
+        "en": "My mother-in-law lives on the other side of the street.",
+        "ar": "وَعَلَى الْجَانِبِ الْآخَرِ مِنَ الشَّارِعِ تَسْكُنُ حَمَاتِي.",
+        "tr": "waʿalā al-jānibi al-ʾākhari mina al-shāriʿi taskunu ḥamātī."
+      },
+      {
+        "id": "ak2-c1-s5",
+        "en": "This evening, I’m making dinner for her.",
+        "ar": "هَذَا الْمَسَاءَ، أُعِدُّ الْعَشَاءَ لَهَا.",
+        "tr": "hādhā al-masāʾa, ʾuʿiddu al-ʿashāʾa lahā."
+      },
+      {
+        "id": "ak2-c1-s6",
+        "en": "We sit down at the table and talk about my brother and his wife.",
+        "ar": "نَجْلِسُ إِلَى السُّفْرَةِ وَنَتَكَلَّمُ عَنْ أَخِي وَزَوْجَتِهِ.",
+        "tr": "najlisu ʾilā al-sufrati wanatakallamu ʿan ʾakhī wazawjatihi."
+      },
+      {
+        "id": "ak2-c1-s7",
+        "en": "They’re thinking about divorce.",
+        "ar": "هُمَا يُفَكِّرَانِ فِي الطَّلَاقِ.",
+        "tr": "humā yufakkirāni fī al-ṭalāqi."
+      },
+      {
+        "id": "ak2-c1-s8",
+        "en": "My mother-in-law says, “My parents were down-to-earth people.”",
+        "ar": "تَقُولُ حَمَاتِي «كَانَ أَبِي وَأُمِّي مِنَ النَّاسِ الْبُسَطَاءِ».",
+        "tr": "taqūlu ḥamātī “kāna ʾabī waʾummī mina al-nāsi al-busaṭāʾi”."
+      },
+      {
+        "id": "ak2-c1-s9",
+        "en": "“In their generation, it was hard for people to talk about divorce.”",
+        "ar": "«فِي جِيلِهِمَا، كَانَ مِنَ الصَّعْبِ أَنْ يَتَكَلَّمَ النَّاسُ عَنِ الطَّلَاقِ».",
+        "tr": "“fī jīlihimā, kāna mina al-ṣaʿbi ʾan yatakallama al-nāsu ʿani al-ṭalāqi”."
+      },
+      {
+        "id": "ak2-c1-s10",
+        "en": "I tell her, “There’s no simple solution.”",
+        "ar": "أَقُولُ لَهَا «لَيْسَ هُنَاكَ حَلٌّ بَسِيطٌ».",
+        "tr": "ʾaqūlu lahā “laysa hunāka ḥallun basīṭun”."
+      }
+    ],
     "learn": [
       "Vocabulary",
       "First-person verbs and verbal nouns",
@@ -2463,7 +2524,116 @@ const AK2_CHAPTERS={
       }
     ],
     "grammar": [],
-    "sentences": [],
+    "sentences": [
+      {
+        "id": "ak2-c2-s1",
+        "en": "I meet my friend at his shop.",
+        "ar": "أُقَابِلُ صَدِيقِي فِي مَحَلِّهِ.",
+        "tr": "ʾuqābilu ṣadīqī fī maḥallihi."
+      },
+      {
+        "id": "ak2-c2-s2",
+        "en": "I want to buy a pair of pants before I travel.",
+        "ar": "أُرِيدُ أَنْ أَشْتَرِيَ بَنْطَلُونًا قَبْلَ السَّفَرِ.",
+        "tr": "ʾurīdu ʾan ʾashtariya banṭalūnan qabla al-safari."
+      },
+      {
+        "id": "ak2-c2-s3",
+        "en": "I tell him, “I intend to emigrate.”",
+        "ar": "أَقُولُ لَهُ «أَنْوِي أَنْ أُهَاجِرَ».",
+        "tr": "ʾaqūlu lahu “ʾanwī ʾan ʾuhājira”."
+      },
+      {
+        "id": "ak2-c2-s4",
+        "en": "“I’ll emigrate after I finish my studies.”",
+        "ar": "«سَأُهَاجِرُ بَعْدَ أَنْ أُكَمِّلَ دِرَاسَتِي».",
+        "tr": "“saʾuhājiru baʿda ʾan ʾukammila dirāsatī”."
+      },
+      {
+        "id": "ak2-c2-s5",
+        "en": "My friend is an immigrant himself.",
+        "ar": "صَدِيقِي نَفْسُهُ مُهَاجِرٌ.",
+        "tr": "ṣadīqī nafsuhu muhājirun."
+      },
+      {
+        "id": "ak2-c2-s6",
+        "en": "He was born in another country.",
+        "ar": "وُلِدَ فِي بَلَدٍ آخَرَ.",
+        "tr": "wulida fī baladin ʾākhara."
+      },
+      {
+        "id": "ak2-c2-s7",
+        "en": "He tells me, “Our city is close to the border.”",
+        "ar": "يَقُولُ لِي «مَدِينَتُنَا قَرِيبَةٌ مِنَ الْحُدُودِ».",
+        "tr": "yaqūlu lī “madīnatunā qarībatun mina al-ḥudūdi”."
+      },
+      {
+        "id": "ak2-c2-s8",
+        "en": "“There’s a large Arab immigrant community here.”",
+        "ar": "«فِيهَا جَالِيَةٌ عَرَبِيَّةٌ كَبِيرَةٌ».",
+        "tr": "“fīhā jāliyatun ʿarabiyyatun kabīratun”."
+      },
+      {
+        "id": "ak2-c2-s9",
+        "en": "“The number of immigrants increases continuously.”",
+        "ar": "«عَدَدُ الْمُهَاجِرِينَ يَزْدَادُ بِاسْتِمْرَارٍ».",
+        "tr": "“ʿadadu al-muhājirīna yazdādu bi-stimrārin”."
+      },
+      {
+        "id": "ak2-c2-s10",
+        "en": "“The community’s shops are spread out across the city.”",
+        "ar": "«تَنْتَشِرُ مَحَلَّاتُ الْجَالِيَةِ فِي الْمَدِينَةِ».",
+        "tr": "“tantashiru maḥallātu al-jāliyati fī al-madīnati”."
+      },
+      {
+        "id": "ak2-c2-s11",
+        "en": "“Arab food is widespread here too.”",
+        "ar": "«وَالطَّعَامُ الْعَرَبِيُّ مُنْتَشِرٌ هُنَا أَيْضًا».",
+        "tr": "“wa-al-ṭaʿāmu al-ʿarabiyyu muntashirun hunā ʾayḍan”."
+      },
+      {
+        "id": "ak2-c2-s12",
+        "en": "“On workdays, I’m too busy to see my friends.”",
+        "ar": "«أَنَا مَشْغُولٌ عَنْ أَصْدِقَائِي فِي أَيَّامِ الْعَمَلِ».",
+        "tr": "“ʾanā mashghūlun ʿan ʾaṣdiqāʾī fī ʾayyāmi al-ʿamali”."
+      },
+      {
+        "id": "ak2-c2-s13",
+        "en": "“On Saturdays, I go to the mountains with a group of my friends.”",
+        "ar": "«يَوْمَ السَّبْتِ، أَذْهَبُ إِلَى الْجِبَالِ مَعَ مَجْمُوعَةٍ مِنْ أَصْدِقَائِي».",
+        "tr": "“yawma al-sabti, ʾadhhabu ʾilā al-jibāli maʿa majmūʿatin min ʾaṣdiqāʾī”."
+      },
+      {
+        "id": "ak2-c2-s14",
+        "en": "“We enjoy nature there.”",
+        "ar": "«نَسْتَمْتِعُ بِالطَّبِيعَةِ هُنَاكَ».",
+        "tr": "“nastamtiʿu bi-al-ṭabīʿati hunāka”."
+      },
+      {
+        "id": "ak2-c2-s15",
+        "en": "I tell him, “I’m not angry with my country.”",
+        "ar": "أَقُولُ لَهُ «لَسْتُ غَاضِبًا مِنْ بَلَدِي».",
+        "tr": "ʾaqūlu lahu “lastu ghāḍiban min baladī”."
+      },
+      {
+        "id": "ak2-c2-s16",
+        "en": "“I love my country, but I want more freedom in my work.”",
+        "ar": "«أُحِبُّ بَلَدِي، وَلَكِنِّي أُرِيدُ حُرِّيَّةً أَكْبَرَ فِي عَمَلِي».",
+        "tr": "“ʾuḥibbu baladī, walakinnī ʾurīdu ḥurriyyatan ʾakbara fī ʿamalī”."
+      },
+      {
+        "id": "ak2-c2-s17",
+        "en": "He tells me, “I understand. I live here.”",
+        "ar": "يَقُولُ لِي «أَفْهَمُكَ. أَنَا أَعِيشُ هُنَا».",
+        "tr": "yaqūlu lī “ʾafhamuka. ʾanā ʾaʿīshu hunā”."
+      },
+      {
+        "id": "ak2-c2-s18",
+        "en": "“But I don’t forget my Arab identity.”",
+        "ar": "«وَلَكِنِّي لَا أَنْسَى هُوِيَّتِي الْعَرَبِيَّةَ».",
+        "tr": "“walakinnī lā ʾansā huwiyyatī al-ʿarabiyyata”."
+      }
+    ],
     "learn": [
       "Vocabulary",
       "First-person verbs and verbal nouns",
@@ -3867,7 +4037,104 @@ const AK2_CHAPTERS={
       }
     ],
     "grammar": [],
-    "sentences": [],
+    "sentences": [
+      {
+        "id": "ak2-c3-s1",
+        "en": "I get ready to live in a new house.",
+        "ar": "أَسْتَعِدُّ لِلسَّكَنِ فِي بَيْتٍ جَدِيدٍ.",
+        "tr": "ʾastaʿiddu li-l-sakani fī baytin jadīdin."
+      },
+      {
+        "id": "ak2-c3-s2",
+        "en": "I arrive at the furniture section of the market.",
+        "ar": "أَصِلُ إِلَى قِسْمِ الْمَفْرُوشَاتِ فِي السُّوقِ.",
+        "tr": "ʾaṣilu ʾilā qismi al-mafrūshāti fī al-sūqi."
+      },
+      {
+        "id": "ak2-c3-s3",
+        "en": "I want a silk bed sheet.",
+        "ar": "أُرِيدُ شَرْشَفًا مِنَ الْحَرِيرِ.",
+        "tr": "ʾurīdu sharshafan mina al-ḥarīri."
+      },
+      {
+        "id": "ak2-c3-s4",
+        "en": "This is a dark purple bed sheet.",
+        "ar": "هَذَا شَرْشَفٌ بَنَفْسَجِيٌّ غَامِقٌ.",
+        "tr": "hādhā sharshafun banafsajiyyun ghāmiqun."
+      },
+      {
+        "id": "ak2-c3-s5",
+        "en": "And this is a light pink towel.",
+        "ar": "وَهَذِهِ مِنْشَفَةٌ زَهْرِيَّةٌ فَاتِحَةٌ.",
+        "tr": "wa-hādhihi minshafatun zahriyyatun fātiḥatun."
+      },
+      {
+        "id": "ak2-c3-s6",
+        "en": "I also buy a brown chair.",
+        "ar": "أَشْتَرِي أَيْضًا كُرْسِيًّا بُنِّيًّا.",
+        "tr": "ʾashtarī ʾayḍan kursiyyan bunniyyan."
+      },
+      {
+        "id": "ak2-c3-s7",
+        "en": "I pay the bill and return home.",
+        "ar": "أَدْفَعُ الْحِسَابَ وَأَعُودُ إِلَى الْبَيْتِ.",
+        "tr": "ʾadfaʿu al-ḥisāba waʾaʿūdu ʾilā al-bayti."
+      },
+      {
+        "id": "ak2-c3-s8",
+        "en": "I arrange the furniture in the room.",
+        "ar": "أُرَتِّبُ الْمَفْرُوشَاتِ فِي الْغُرْفَةِ.",
+        "tr": "ʾurattibu al-mafrūshāti fī al-ghurfati."
+      },
+      {
+        "id": "ak2-c3-s9",
+        "en": "I draw a tree on the wall.",
+        "ar": "أَرْسُمُ شَجَرَةً عَلَى الْحَائِطِ.",
+        "tr": "ʾarsumu shajaratan ʿalā al-ḥāʾiṭi."
+      },
+      {
+        "id": "ak2-c3-s10",
+        "en": "There are two clocks on the table.",
+        "ar": "عَلَى الطَّاوِلَةِ سَاعَتَانِ.",
+        "tr": "ʿalā al-ṭāwilati sāʿatāni."
+      },
+      {
+        "id": "ak2-c3-s11",
+        "en": "This one is made of gold, and that one is made of silver.",
+        "ar": "هَذِهِ مِنَ الذَّهَبِ وَتِلْكَ مِنَ الْفِضَّةِ.",
+        "tr": "hādhihi mina al-dhahabi watilka mina al-fiḍḍati."
+      },
+      {
+        "id": "ak2-c3-s12",
+        "en": "The refrigerator is broken.",
+        "ar": "الْبَرَّادُ مُعَطَّلٌ.",
+        "tr": "al-barrādu muʿaṭṭalun."
+      },
+      {
+        "id": "ak2-c3-s13",
+        "en": "I repair it before dinner.",
+        "ar": "أُصَلِّحُهُ قَبْلَ الْعَشَاءِ.",
+        "tr": "ʾuṣalliḥuhu qabla al-ʿashāʾi."
+      },
+      {
+        "id": "ak2-c3-s14",
+        "en": "I talk with my father about the repairs.",
+        "ar": "أَتَكَلَّمُ مَعَ أَبِي عَنِ التَّصْلِيحَاتِ.",
+        "tr": "ʾatakallamu maʿa ʾabī ʿani al-taṣlīḥāti."
+      },
+      {
+        "id": "ak2-c3-s15",
+        "en": "He talks about the reforms in his country.",
+        "ar": "وَهُوَ يَتَكَلَّمُ عَنِ الْإِصْلَاحَاتِ فِي بَلَدِهِ.",
+        "tr": "wahuwa yatakallamu ʿani al-ʾiṣlāḥāti fī baladihi."
+      },
+      {
+        "id": "ak2-c3-s16",
+        "en": "These are reforms, i.e., changes to the laws.",
+        "ar": "هَذِهِ إِصْلَاحَاتٌ، أَيْ تَغْيِيرَاتٌ فِي الْقَوَانِينِ.",
+        "tr": "hādhihi ʾiṣlāḥātun, ʾay taghyīrātun fī al-qawānīni."
+      }
+    ],
     "learn": [
       "Vocabulary",
       "First-person verbs and verbal nouns",
@@ -5180,7 +5447,104 @@ const AK2_CHAPTERS={
       }
     ],
     "grammar": [],
-    "sentences": [],
+    "sentences": [
+      {
+        "id": "ak2-c4-s1",
+        "en": "I gather with my family during Ramadan.",
+        "ar": "أَجْتَمِعُ مَعَ عَائِلَتِي فِي رَمَضَانَ.",
+        "tr": "ʾajtamiʿu maʿa ʿāʾilatī fī ramaḍāna."
+      },
+      {
+        "id": "ak2-c4-s2",
+        "en": "It’s a holy month.",
+        "ar": "إِنَّهُ شَهْرٌ مُقَدَّسٌ.",
+        "tr": "ʾinnahu shahrun muqaddasun."
+      },
+      {
+        "id": "ak2-c4-s3",
+        "en": "I believe in God.",
+        "ar": "أُؤْمِنُ بِاللَّهِ.",
+        "tr": "ʾuʾminu billāhi."
+      },
+      {
+        "id": "ak2-c4-s4",
+        "en": "I feel happiness during this month.",
+        "ar": "أَشْعُرُ بِالْفَرَحِ فِي هَذَا الشَّهْرِ.",
+        "tr": "ʾashʿuru bi-al-faraḥi fī hādhā al-shahri."
+      },
+      {
+        "id": "ak2-c4-s5",
+        "en": "It seems to me that my brother feels anxiety.",
+        "ar": "يَبْدُو لِي أَنَّ أَخِي يَشْعُرُ بِالْقَلَقِ.",
+        "tr": "yabdū lī ʾanna ʾakhī yashʿuru bi-al-qalaqi."
+      },
+      {
+        "id": "ak2-c4-s6",
+        "en": "He doesn’t sleep much before suhoor.",
+        "ar": "هُوَ لَا يَنَامُ كَثِيرًا قَبْلَ السُّحُورِ.",
+        "tr": "huwa lā yanāmu kathīran qabla al-suḥūri."
+      },
+      {
+        "id": "ak2-c4-s7",
+        "en": "I undertake the task of preparing the meal.",
+        "ar": "أَتَوَلَّى إِعْدَادَ الْوَجْبَةِ.",
+        "tr": "ʾatawallā ʾiʿdāda al-wajbati."
+      },
+      {
+        "id": "ak2-c4-s8",
+        "en": "My father is a cook at a local restaurant.",
+        "ar": "أَبِي طَبَّاخٌ فِي مَطْعَمٍ مَحَلِّيٍّ.",
+        "tr": "ʾabī ṭabbākhun fī maṭʿamin maḥalliyyin."
+      },
+      {
+        "id": "ak2-c4-s9",
+        "en": "He works at a Middle Eastern restaurant.",
+        "ar": "هُوَ يَعْمَلُ فِي مَطْعَمٍ شَرْقِيٍّ.",
+        "tr": "huwa yaʿmalu fī maṭʿamin sharqiyyin."
+      },
+      {
+        "id": "ak2-c4-s10",
+        "en": "I believe that the flavor of the food is wonderful.",
+        "ar": "أَعْتَقِدُ أَنَّ طَعْمَ الطَّعَامِ رَائِعٌ.",
+        "tr": "ʾaʿtaqidu ʾanna ṭaʿma al-ṭaʿāmi rāʾiʿun."
+      },
+      {
+        "id": "ak2-c4-s11",
+        "en": "My brother doesn’t like this food.",
+        "ar": "أَخِي لَا يُحِبُّ هَذَا الطَّعَامَ.",
+        "tr": "ʾakhī lā yuḥibbu hādhā al-ṭaʿāma."
+      },
+      {
+        "id": "ak2-c4-s12",
+        "en": "I disagree with my brother about that.",
+        "ar": "أَخْتَلِفُ مَعَ أَخِي فِي هَذَا.",
+        "tr": "ʾakhtalifu maʿa ʾakhī fī hādhā."
+      },
+      {
+        "id": "ak2-c4-s13",
+        "en": "I eat the rest of the food myself.",
+        "ar": "آكُلُ بَقِيَّةَ الطَّعَامِ بِنَفْسِي.",
+        "tr": "ʾākulu baqiyyata al-ṭaʿāmi binafsī."
+      },
+      {
+        "id": "ak2-c4-s14",
+        "en": "After the meal, I become preoccupied with a TV series.",
+        "ar": "بَعْدَ الْوَجْبَةِ أَنْشَغِلُ بِمُسَلْسَلٍ.",
+        "tr": "baʿda al-wajbati ʾanshaghilu bimusalsalin."
+      },
+      {
+        "id": "ak2-c4-s15",
+        "en": "I watch it out of boredom.",
+        "ar": "أُشَاهِدُهُ بِسَبَبِ الْمَلَلِ.",
+        "tr": "ʾushāhiduhu bisababi al-malali."
+      },
+      {
+        "id": "ak2-c4-s16",
+        "en": "I get used to staying up late during Ramadan.",
+        "ar": "أَعْتَادُ عَلَى السَّهَرِ فِي رَمَضَانَ.",
+        "tr": "ʾaʿtādu ʿalā al-sahari fī ramaḍāna."
+      }
+    ],
     "learn": [
       "Vocabulary",
       "First-person verbs and verbal nouns",
@@ -6294,7 +6658,86 @@ const AK2_CHAPTERS={
       }
     ],
     "grammar": [],
-    "sentences": [],
+    "sentences": [
+      {
+        "id": "ak2-c5-s1",
+        "en": "I’m afraid for my little brother.",
+        "ar": "أَخَافُ عَلَى أَخِي الصَّغِيرِ.",
+        "tr": "ʾakhāfu ʿalā ʾakhī al-ṣaghīri."
+      },
+      {
+        "id": "ak2-c5-s2",
+        "en": "He says that his stomach hurts.",
+        "ar": "يَقُولُ إِنَّ بَطْنَهُ يُؤْلِمُهُ.",
+        "tr": "yaqūlu ʾinna baṭnahu yuʾlimuhu."
+      },
+      {
+        "id": "ak2-c5-s3",
+        "en": "I see blood on his hand and in his hair.",
+        "ar": "أَرَى دَمًا عَلَى يَدِهِ وَفِي شَعْرِهِ.",
+        "tr": "ʾarā daman ʿalā yadihi wafī shaʿrihi."
+      },
+      {
+        "id": "ak2-c5-s4",
+        "en": "I ask him, “Are you afraid?”",
+        "ar": "أَقُولُ لَهُ «هَلْ أَنْتَ خَائِفٌ؟».",
+        "tr": "ʾaqūlu lahu “hal ʾanta khāʾifun?”."
+      },
+      {
+        "id": "ak2-c5-s5",
+        "en": "“I’m sure that the doctor will help you.”",
+        "ar": "«أَنَا مُتَأَكِّدٌ أَنَّ الطَّبِيبَ سَيُسَاعِدُكَ».",
+        "tr": "“ʾanā mutaʾakkidun ʾanna al-ṭabība sayusāʿiduka”."
+      },
+      {
+        "id": "ak2-c5-s6",
+        "en": "I trust this doctor’s morals.",
+        "ar": "أَثِقُ بِأَخْلَاقِ هَذَا الطَّبِيبِ.",
+        "tr": "ʾathiqu biʾakhlāqi hādhā al-ṭabībi."
+      },
+      {
+        "id": "ak2-c5-s7",
+        "en": "I discuss my brother’s problem with him.",
+        "ar": "أَتَنَاقَشُ مَعَهُ فِي مُشْكِلَةِ أَخِي.",
+        "tr": "ʾatanāqashu maʿahu fī mushkilati ʾakhī."
+      },
+      {
+        "id": "ak2-c5-s8",
+        "en": "I hint that I’m upset by my brother’s friends.",
+        "ar": "أُلَمِّحُ إِلَى أَنَّنِي مُتَضَايِقٌ مِنْ أَصْدِقَاءِ أَخِي.",
+        "tr": "ʾulammiḥu ʾilā ʾannanī mutaḍāyiqun min ʾaṣdiqāʾi ʾakhī."
+      },
+      {
+        "id": "ak2-c5-s9",
+        "en": "The doctor says, “Drugs are part of the problem.”",
+        "ar": "يَقُولُ الطَّبِيبُ «الْمُخَدِّرَاتُ جُزْءٌ مِنَ الْمُشْكِلَةِ».",
+        "tr": "yaqūlu al-ṭabību “al-mukhaddirātu juzʾun mina al-mushkilati”."
+      },
+      {
+        "id": "ak2-c5-s10",
+        "en": "I consider what he says important.",
+        "ar": "أَعْتَبِرُ كَلَامَهُ مُهِمًّا.",
+        "tr": "ʾaʿtabiru kalāmahu muhimman."
+      },
+      {
+        "id": "ak2-c5-s11",
+        "en": "The most important thing is for my brother to be okay.",
+        "ar": "الْأَهَمُّ أَنْ يَكُونَ أَخِي بِخَيْرٍ.",
+        "tr": "al-ʾahammu ʾan yakūna ʾakhī bikhayrin."
+      },
+      {
+        "id": "ak2-c5-s12",
+        "en": "I’m confident my brother will be okay.",
+        "ar": "أَنَا وَاثِقٌ أَنَّ أَخِي سَيَكُونُ بِخَيْرٍ.",
+        "tr": "ʾanā wāthiqun ʾanna ʾakhī sayakūnu bikhayrin."
+      },
+      {
+        "id": "ak2-c5-s13",
+        "en": "My brother is in safe hands.",
+        "ar": "أَخِي فِي أَيْدٍ أَمِينَةٍ.",
+        "tr": "ʾakhī fī ʾaydin ʾamīnatin."
+      }
+    ],
     "learn": [
       "Vocabulary",
       "First-person verbs and verbal nouns",
@@ -8070,7 +8513,146 @@ const AK2_CHAPTERS={
       }
     ],
     "grammar": [],
-    "sentences": [],
+    "sentences": [
+      {
+        "id": "ak2-c6-s1",
+        "en": "I grew up in Jerusalem.",
+        "ar": "نَشَأْتُ فِي الْقُدْسِ.",
+        "tr": "nashaʾtu fī al-qudsi."
+      },
+      {
+        "id": "ak2-c6-s2",
+        "en": "How beautiful this city is!",
+        "ar": "مَا أَحْلَى هَذِهِ الْمَدِينَةَ!",
+        "tr": "mā ʾaḥlā hādhihi al-madīnata!"
+      },
+      {
+        "id": "ak2-c6-s3",
+        "en": "I’m a citizen who is proud of my city.",
+        "ar": "أَنَا مُوَاطِنٌ فَخُورٌ بِمَدِينَتِي.",
+        "tr": "ʾanā muwāṭinun fakhūrun bimadīnatī."
+      },
+      {
+        "id": "ak2-c6-s4",
+        "en": "I feel pride when I talk about it.",
+        "ar": "أُحِسُّ بِالْفَخْرِ عِنْدَمَا أَتَحَدَّثُ عَنْهَا.",
+        "tr": "ʾuḥissu bi-al-fakhri ʿindamā ʾataḥaddathu ʿanhā."
+      },
+      {
+        "id": "ak2-c6-s5",
+        "en": "I work with children at a school.",
+        "ar": "أَعْمَلُ مَعَ الْأَطْفَالِ فِي مَدْرَسَةٍ.",
+        "tr": "ʾaʿmalu maʿa al-ʾaṭfāli fī madrasatin."
+      },
+      {
+        "id": "ak2-c6-s6",
+        "en": "I talk about the environment in class.",
+        "ar": "أَتَحَدَّثُ عَنِ الْبِيئَةِ فِي الصَّفِّ.",
+        "tr": "ʾataḥaddathu ʿani al-bīʾati fī al-ṣaffi."
+      },
+      {
+        "id": "ak2-c6-s7",
+        "en": "Water is necessary for every human being.",
+        "ar": "الْمَاءُ ضَرُورِيٌّ لِكُلِّ إِنْسَانٍ.",
+        "tr": "al-māʾu ḍarūriyyun likulli ʾinsānin."
+      },
+      {
+        "id": "ak2-c6-s8",
+        "en": "Some families are in need of clean water.",
+        "ar": "بَعْضُ الْعَائِلَاتِ بِحَاجَةٍ إِلَى مَاءٍ نَظِيفٍ.",
+        "tr": "baʿḍu al-ʿāʾilāti biḥājatin ʾilā māʾin naẓīfin."
+      },
+      {
+        "id": "ak2-c6-s9",
+        "en": "There is a lot of injustice in this world.",
+        "ar": "فِي هَذِهِ الدُّنْيَا ظُلْمٌ كَثِيرٌ.",
+        "tr": "fī hādhihi al-dunyā ẓulmun kathīrun."
+      },
+      {
+        "id": "ak2-c6-s10",
+        "en": "I respect the dignity of every human being.",
+        "ar": "أَحْتَرِمُ كَرَامَةَ كُلِّ إِنْسَانٍ.",
+        "tr": "ʾaḥtarimu karāmata kulli ʾinsānin."
+      },
+      {
+        "id": "ak2-c6-s11",
+        "en": "I also talk about our behavior at school.",
+        "ar": "أَتَحَدَّثُ أَيْضًا عَنْ سُلُوكِنَا فِي الْمَدْرَسَةِ.",
+        "tr": "ʾataḥaddathu ʾayḍan ʿan sulūkinā fī al-madrasati."
+      },
+      {
+        "id": "ak2-c6-s12",
+        "en": "How do we behave with others?",
+        "ar": "كَيْفَ نَتَصَرَّفُ مَعَ الْآخَرِينَ؟",
+        "tr": "kayfa nataṣarrafu maʿa al-ʾākharīna?"
+      },
+      {
+        "id": "ak2-c6-s13",
+        "en": "My motive is my love for children.",
+        "ar": "دَافِعِي هُوَ حُبُّ الْأَطْفَالِ.",
+        "tr": "dāfiʿī huwa ḥubbu al-ʾaṭfāli."
+      },
+      {
+        "id": "ak2-c6-s14",
+        "en": "I intend to work with them throughout the year.",
+        "ar": "أَقْصِدُ أَنْ أَعْمَلَ مَعَهُمْ طِوَالَ السَّنَةِ.",
+        "tr": "ʾaqṣidu ʾan ʾaʿmala maʿahum ṭiwāla al-sanati."
+      },
+      {
+        "id": "ak2-c6-s15",
+        "en": "I ask my teacher for advice.",
+        "ar": "أَطْلُبُ مِنْ أُسْتَاذِي نَصِيحَةً.",
+        "tr": "ʾaṭlubu min ʾustādhī naṣīḥatan."
+      },
+      {
+        "id": "ak2-c6-s16",
+        "en": "He tells me, “You can sense these children’s needs.”",
+        "ar": "يَقُولُ لِي «أَنْتَ حَاسٌّ بِحَاجَةِ هَؤُلَاءِ الْأَطْفَالِ».",
+        "tr": "yaqūlu lī “ʾanta ḥāssun biḥājati hāʾulāʾi al-ʾaṭfāli”."
+      },
+      {
+        "id": "ak2-c6-s17",
+        "en": "“You can help them with books, lessons, etc.”",
+        "ar": "«تَسْتَطِيعُ أَنْ تُسَاعِدَهُمْ بِالْكُتُبِ وَالدُّرُوسِ، إِلَخْ».",
+        "tr": "“tastaṭīʿu ʾan tusāʿidahum bi-al-kutubi wa-al-durūsi, ʾilakh”."
+      },
+      {
+        "id": "ak2-c6-s18",
+        "en": "“Our work will be completed on Saturday.”",
+        "ar": "«سَيَتِمُّ عَمَلُنَا يَوْمَ السَّبْتِ».",
+        "tr": "“sayatimmu ʿamalunā yawma al-sabti”."
+      },
+      {
+        "id": "ak2-c6-s19",
+        "en": "I am accepted into a new program at the school.",
+        "ar": "أُقْبَلُ فِي بَرْنَامَجٍ جَدِيدٍ فِي الْمَدْرَسَةِ.",
+        "tr": "ʾuqbalu fī barnāmajin jadīdin fī al-madrasati."
+      },
+      {
+        "id": "ak2-c6-s20",
+        "en": "I am accepted without connections.",
+        "ar": "أُقْبَلُ مِنْ دُونِ وَاسِطَةٍ.",
+        "tr": "ʾuqbalu min dūni wāsiṭatin."
+      },
+      {
+        "id": "ak2-c6-s21",
+        "en": "I receive financial assistance.",
+        "ar": "أَحْصُلُ عَلَى مُسَاعَدَةٍ مَالِيَّةٍ.",
+        "tr": "ʾaḥṣulu ʿalā musāʿadatin māliyyatin."
+      },
+      {
+        "id": "ak2-c6-s22",
+        "en": "After class, I am taken to the office.",
+        "ar": "وَبَعْدَ الدَّرْسِ، أُؤْخَذُ إِلَى الْمَكْتَبِ.",
+        "tr": "wabaʿda al-darsi, ʾuʾkhadhu ʾilā al-maktabi."
+      },
+      {
+        "id": "ak2-c6-s23",
+        "en": "There I talk with the school principal.",
+        "ar": "هُنَاكَ أَتَكَلَّمُ مَعَ مُدِيرِ الْمَدْرَسَةِ.",
+        "tr": "hunāka ʾatakallamu maʿa mudīri al-madrasati."
+      }
+    ],
     "learn": [
       "Vocabulary",
       "First-person verbs and verbal nouns",
@@ -10354,7 +10936,164 @@ const AK2_CHAPTERS={
       }
     ],
     "grammar": [],
-    "sentences": [],
+    "sentences": [
+      {
+        "id": "ak2-c7-s1",
+        "en": "In the first days of the month, I depart for an old city.",
+        "ar": "فِي أَوَائِلِ الشَّهْرِ، أَرْحَلُ إِلَى مَدِينَةٍ قَدِيمَةٍ.",
+        "tr": "fī ʾawāʾili al-shahri, ʾarḥalu ʾilā madīnatin qadīmatin."
+      },
+      {
+        "id": "ak2-c7-s2",
+        "en": "The city stretches to the ocean.",
+        "ar": "تَمْتَدُّ الْمَدِينَةُ إِلَى الْمُحِيطِ.",
+        "tr": "tamtaddu al-madīnatu ʾilā al-muḥīṭi."
+      },
+      {
+        "id": "ak2-c7-s3",
+        "en": "I move around between the market and the library.",
+        "ar": "أَتَنَقَّلُ بَيْنَ السُّوقِ وَالْمَكْتَبَةِ.",
+        "tr": "ʾatanaqqalu bayna al-sūqi wa-al-maktabati."
+      },
+      {
+        "id": "ak2-c7-s4",
+        "en": "I look at an old house.",
+        "ar": "أَنْظُرُ إِلَى دَارٍ قَدِيمَةٍ.",
+        "tr": "ʾanẓuru ʾilā dārin qadīmatin."
+      },
+      {
+        "id": "ak2-c7-s5",
+        "en": "I take a glance at the door.",
+        "ar": "أُلْقِي نَظْرَةً عَلَى الْبَابِ.",
+        "tr": "ʾulqī naẓratan ʿalā al-bābi."
+      },
+      {
+        "id": "ak2-c7-s6",
+        "en": "I meet the owner of the house.",
+        "ar": "أُقَابِلُ صَاحِبَ الدَّارِ.",
+        "tr": "ʾuqābilu ṣāḥiba al-dāri."
+      },
+      {
+        "id": "ak2-c7-s7",
+        "en": "He is a traveler who is interested in history.",
+        "ar": "هُوَ رَحَّالَةٌ يَهْتَمُّ بِالتَّارِيخِ.",
+        "tr": "huwa raḥḥālatun yahtammu bi-al-tārīkhi."
+      },
+      {
+        "id": "ak2-c7-s8",
+        "en": "I explore the city with him.",
+        "ar": "أَسْتَكْشِفُ الْمَدِينَةَ مَعَهُ.",
+        "tr": "ʾastakshifu al-madīnata maʿahu."
+      },
+      {
+        "id": "ak2-c7-s9",
+        "en": "I undertake a tour of the library.",
+        "ar": "أَقُومُ بِجَوْلَةٍ فِي الْمَكْتَبَةِ.",
+        "tr": "ʾaqūmu bijawlatin fī al-maktabati."
+      },
+      {
+        "id": "ak2-c7-s10",
+        "en": "In the library there is a book by an Orientalist.",
+        "ar": "فِي الْمَكْتَبَةِ كِتَابٌ لِمُسْتَشْرِقٍ.",
+        "tr": "fī al-maktabati kitābun limustashriqin."
+      },
+      {
+        "id": "ak2-c7-s11",
+        "en": "This is an old edition of the book.",
+        "ar": "هَذِهِ طَبْعَةٌ قَدِيمَةٌ مِنَ الْكِتَابِ.",
+        "tr": "hādhihi ṭabʿatun qadīmatun mina al-kitābi."
+      },
+      {
+        "id": "ak2-c7-s12",
+        "en": "I record information about the ancient civilization.",
+        "ar": "أُسَجِّلُ مَعْلُومَاتٍ عَنِ الْحَضَارَةِ الْقَدِيمَةِ.",
+        "tr": "ʾusajjilu maʿlūmātin ʿani al-ḥaḍārati al-qadīmati."
+      },
+      {
+        "id": "ak2-c7-s13",
+        "en": "The book includes pictures from an ancient era.",
+        "ar": "يَشْمَلُ الْكِتَابُ صُوَرًا مِنْ عَصْرٍ قَدِيمٍ.",
+        "tr": "yashmalu al-kitābu ṣuwaran min ʿaṣrin qadīmin."
+      },
+      {
+        "id": "ak2-c7-s14",
+        "en": "This is a picture of a caravan from the Middle Ages.",
+        "ar": "هَذِهِ صُورَةُ قَافِلَةٍ مِنَ الْعُصُورِ الْوُسْطَى.",
+        "tr": "hādhihi ṣūratu qāfilatin mina al-ʿuṣūri al-wusṭā."
+      },
+      {
+        "id": "ak2-c7-s15",
+        "en": "Trade was a link between cities.",
+        "ar": "كَانَتِ التِّجَارَةُ رَابِطًا بَيْنَ الْمُدُنِ.",
+        "tr": "kānati al-tijāratu rābiṭan bayna al-muduni."
+      },
+      {
+        "id": "ak2-c7-s16",
+        "en": "I describe trade as fundamental to the city.",
+        "ar": "أَصِفُ التِّجَارَةَ بِأَنَّهَا أَسَاسِيَّةٌ لِلْمَدِينَةِ.",
+        "tr": "ʾaṣifu al-tijārata biʾannahā ʾasāsiyyatun li-l-madīnati."
+      },
+      {
+        "id": "ak2-c7-s17",
+        "en": "My friend says, “You are right!”",
+        "ar": "يَقُولُ صَدِيقِي «أَنْتَ عَلَى حَقٍّ».",
+        "tr": "yaqūlu ṣadīqī “ʾanta ʿalā ḥaqqin”."
+      },
+      {
+        "id": "ak2-c7-s18",
+        "en": "“Weakness in trade was a problem for the city.”",
+        "ar": "«كَانَ ضَعْفُ التِّجَارَةِ مُشْكِلَةً لِلْمَدِينَةِ».",
+        "tr": "“kāna ḍaʿfu al-tijārati mushkilatan li-l-madīnati”."
+      },
+      {
+        "id": "ak2-c7-s19",
+        "en": "I’m interested in the value of this heritage.",
+        "ar": "أَهْتَمُّ بِقِيمَةِ هَذَا التُّرَاثِ.",
+        "tr": "ʾahtammu biqīmati hādhā al-turāthi."
+      },
+      {
+        "id": "ak2-c7-s20",
+        "en": "And the library is of great importance.",
+        "ar": "وَلِلْمَكْتَبَةِ أَهَمِّيَّةٌ كَبِيرَةٌ.",
+        "tr": "wa-li-l-maktabati ʾahammiyyatun kabīratun."
+      },
+      {
+        "id": "ak2-c7-s21",
+        "en": "I translate some facts from the book.",
+        "ar": "أُتَرْجِمُ بَعْضَ الْحَقَائِقِ مِنَ الْكِتَابِ.",
+        "tr": "ʾutarjimu baʿḍa al-ḥaqāʾiqi mina al-kitābi."
+      },
+      {
+        "id": "ak2-c7-s22",
+        "en": "The book is being translated into Arabic.",
+        "ar": "يُتَرْجَمُ الْكِتَابُ إِلَى الْعَرَبِيَّةِ.",
+        "tr": "yutarjamu al-kitābu ʾilā al-ʿarabiyyati."
+      },
+      {
+        "id": "ak2-c7-s23",
+        "en": "I print what I wrote.",
+        "ar": "أَطْبَعُ مَا كَتَبْتُ.",
+        "tr": "ʾaṭbaʿu mā katabtu."
+      },
+      {
+        "id": "ak2-c7-s24",
+        "en": "This library is considered one of the largest in the city.",
+        "ar": "تُعْتَبَرُ هَذِهِ الْمَكْتَبَةُ مِنْ أَكْبَرِ مَكْتَبَاتِ الْمَدِينَةِ.",
+        "tr": "tuʿtabaru hādhihi al-maktabatu min ʾakbari maktabāti al-madīnati."
+      },
+      {
+        "id": "ak2-c7-s25",
+        "en": "It is truly a blessing for the city.",
+        "ar": "وَهِيَ بِحَقٍّ بَرَكَةٌ لِلْمَدِينَةِ.",
+        "tr": "wahiya biḥaqqin barakatun li-l-madīnati."
+      },
+      {
+        "id": "ak2-c7-s26",
+        "en": "In the last days of the month, I return home.",
+        "ar": "فِي أَوَاخِرِ الشَّهْرِ، أَعُودُ إِلَى بَيْتِي.",
+        "tr": "fī ʾawākhiri al-shahri, ʾaʿūdu ʾilā baytī."
+      }
+    ],
     "learn": [
       "Vocabulary",
       "First-person verbs and verbal nouns",
@@ -13254,7 +13993,248 @@ const AK2_CHAPTERS={
       }
     ],
     "grammar": [],
-    "sentences": [],
+    "sentences": [
+      {
+        "id": "ak2-c9-s1",
+        "en": "I work in journalism.",
+        "ar": "أَعْمَلُ فِي الصَّحَافَةِ.",
+        "tr": "ʾaʿmalu fī al-ṣaḥāfati."
+      },
+      {
+        "id": "ak2-c9-s2",
+        "en": "I cover the arts for a popular channel.",
+        "ar": "أُغَطِّي الْفُنُونَ لِقَنَاةٍ شَعْبِيَّةٍ.",
+        "tr": "ʾughaṭṭī al-funūna liqanātin shaʿbiyyatin."
+      },
+      {
+        "id": "ak2-c9-s3",
+        "en": "I am in contact with my friend at the channel.",
+        "ar": "أَتَوَاصَلُ مَعَ صَدِيقِي فِي الْقَنَاةِ.",
+        "tr": "ʾatawāṣalu maʿa ṣadīqī fī al-qanāti."
+      },
+      {
+        "id": "ak2-c9-s4",
+        "en": "I tell him, “There’s a demonstration in the city.”",
+        "ar": "أَقُولُ لَهُ «هُنَاكَ مُظَاهَرَةٌ فِي الْمَدِينَةِ».",
+        "tr": "ʾaqūlu lahu “hunāka muẓāharatun fī al-madīnati”."
+      },
+      {
+        "id": "ak2-c9-s5",
+        "en": "People demonstrate for the sake of the arts.",
+        "ar": "يَتَظَاهَرُ النَّاسُ مِنْ أَجْلِ الْفُنُونِ.",
+        "tr": "yataẓāharu al-nāsu min ʾajli al-funūni."
+      },
+      {
+        "id": "ak2-c9-s6",
+        "en": "The artists have a role in this movement.",
+        "ar": "لِلْفَنَّانِينَ دَوْرٌ فِي هَذِهِ الْحَرَكَةِ.",
+        "tr": "li-l-fannānīna dawrun fī hādhihi al-ḥarakati."
+      },
+      {
+        "id": "ak2-c9-s7",
+        "en": "The journalists have other roles.",
+        "ar": "وَلِلصَّحَفِيِّينَ أَدْوَارٌ أُخْرَى.",
+        "tr": "wa-li-l-ṣaḥafiyyīna ʾadwārun ʾukhrā."
+      },
+      {
+        "id": "ak2-c9-s8",
+        "en": "I appear in the media.",
+        "ar": "أَظْهَرُ فِي وَسَائِلِ الْإِعْلَامِ.",
+        "tr": "ʾaẓharu fī wasāʾili al-ʾiʿlāmi."
+      },
+      {
+        "id": "ak2-c9-s9",
+        "en": "I talk about the role of the media.",
+        "ar": "أَتَكَلَّمُ عَنْ دَوْرِ الْإِعْلَامِ.",
+        "tr": "ʾatakallamu ʿan dawri al-ʾiʿlāmi."
+      },
+      {
+        "id": "ak2-c9-s10",
+        "en": "How do the media influence people?",
+        "ar": "كَيْفَ يُؤَثِّرُ الْإِعْلَامُ فِي النَّاسِ؟",
+        "tr": "kayfa yuʾaththiru al-ʾiʿlāmu fī al-nāsi?"
+      },
+      {
+        "id": "ak2-c9-s11",
+        "en": "The scene of violence stirs up anger.",
+        "ar": "مَشْهَدُ الْعُنْفِ يُثِيرُ الْغَضَبَ.",
+        "tr": "mashhadu al-ʿunfi yuthīru al-ghaḍaba."
+      },
+      {
+        "id": "ak2-c9-s12",
+        "en": "And there are other scenes from the demonstration.",
+        "ar": "وَهُنَاكَ مَشَاهِدُ أُخْرَى مِنَ الْمُظَاهَرَةِ.",
+        "tr": "wahunāka mashāhidu ʾukhrā mina al-muẓāharati."
+      },
+      {
+        "id": "ak2-c9-s13",
+        "en": "In reality, a man fell in front of me.",
+        "ar": "فِي الْوَاقِعِ، سَقَطَ رَجُلٌ أَمَامِي.",
+        "tr": "fī al-wāqiʿi, saqaṭa rajulun ʾamāmī."
+      },
+      {
+        "id": "ak2-c9-s14",
+        "en": "I write down what I see.",
+        "ar": "أُدَوِّنُ مَا أَرَاهُ.",
+        "tr": "ʾudawwinu mā ʾarāhu."
+      },
+      {
+        "id": "ak2-c9-s15",
+        "en": "I write about the demonstration on my blog.",
+        "ar": "أَكْتُبُ عَنِ الْمُظَاهَرَةِ فِي مُدَوَّنَتِي.",
+        "tr": "ʾaktubu ʿani al-muẓāharati fī mudawwanatī."
+      },
+      {
+        "id": "ak2-c9-s16",
+        "en": "At the channel, we talk about censorship.",
+        "ar": "نَتَكَلَّمُ فِي الْقَنَاةِ عَنِ الرَّقَابَةِ.",
+        "tr": "natakallamu fī al-qanāti ʿani al-raqābati."
+      },
+      {
+        "id": "ak2-c9-s17",
+        "en": "There is a censor at the channel.",
+        "ar": "هُنَاكَ رَقِيبٌ فِي الْقَنَاةِ.",
+        "tr": "hunāka raqībun fī al-qanāti."
+      },
+      {
+        "id": "ak2-c9-s18",
+        "en": "There are censors at other channels.",
+        "ar": "وَهُنَاكَ رُقَبَاءُ فِي قَنَوَاتٍ أُخْرَى.",
+        "tr": "wahunāka ruqabāʾu fī qanawātin ʾukhrā."
+      },
+      {
+        "id": "ak2-c9-s19",
+        "en": "I organize a day for the arts.",
+        "ar": "أُنَظِّمُ يَوْمًا لِلْفُنُونِ.",
+        "tr": "ʾunaẓẓimu yawman li-l-funūni."
+      },
+      {
+        "id": "ak2-c9-s20",
+        "en": "I host a contemporary poet.",
+        "ar": "أَسْتَضِيفُ شَاعِرًا مُعَاصِرًا.",
+        "tr": "ʾastaḍīfu shāʿiran muʿāṣiran."
+      },
+      {
+        "id": "ak2-c9-s21",
+        "en": "He reads a short poem.",
+        "ar": "هُوَ يَقْرَأُ قَصِيدَةً قَصِيرَةً.",
+        "tr": "huwa yaqraʾu qaṣīdatan qaṣīratan."
+      },
+      {
+        "id": "ak2-c9-s22",
+        "en": "Then he reads other poems.",
+        "ar": "ثُمَّ يَقْرَأُ قَصَائِدَ أُخْرَى.",
+        "tr": "thumma yaqraʾu qaṣāʾida ʾukhrā."
+      },
+      {
+        "id": "ak2-c9-s23",
+        "en": "I hear a beautiful phrase in the poem.",
+        "ar": "أَسْمَعُ عِبَارَةً جَمِيلَةً فِي الْقَصِيدَةِ.",
+        "tr": "ʾasmaʿu ʿibāratan jamīlatan fī al-qaṣīdati."
+      },
+      {
+        "id": "ak2-c9-s24",
+        "en": "I have a good impression of the poet.",
+        "ar": "عِنْدِي انْطِبَاعٌ جَيِّدٌ عَنِ الشَّاعِرِ.",
+        "tr": "ʿindī inṭibāʿun jayyidun ʿani al-shāʿiri."
+      },
+      {
+        "id": "ak2-c9-s25",
+        "en": "I contribute to writing a book about poetry.",
+        "ar": "أُسَاهِمُ فِي كِتَابَةِ كِتَابٍ عَنِ الشِّعْرِ.",
+        "tr": "ʾusāhimu fī kitābati kitābin ʿani al-shiʿri."
+      },
+      {
+        "id": "ak2-c9-s26",
+        "en": "I make a small book.",
+        "ar": "أَصْنَعُ كِتَابًا صَغِيرًا.",
+        "tr": "ʾaṣnaʿu kitāban ṣaghīran."
+      },
+      {
+        "id": "ak2-c9-s27",
+        "en": "There is a rare picture in it.",
+        "ar": "فِيهِ صُورَةٌ نَادِرَةٌ.",
+        "tr": "fīhi ṣūratun nādiratun."
+      },
+      {
+        "id": "ak2-c9-s28",
+        "en": "The book contains rarities from the world of poetry.",
+        "ar": "وَفِي الْكِتَابِ نَوَادِرُ مِنَ الشِّعْرِ.",
+        "tr": "wafī al-kitābi nawādiru mina al-shiʿri."
+      },
+      {
+        "id": "ak2-c9-s29",
+        "en": "I develop the book with my friend.",
+        "ar": "أُطَوِّرُ الْكِتَابَ مَعَ صَدِيقِي.",
+        "tr": "ʾuṭawwiru al-kitāba maʿa ṣadīqī."
+      },
+      {
+        "id": "ak2-c9-s30",
+        "en": "The book develops day by day.",
+        "ar": "وَالْكِتَابُ يَتَطَوَّرُ يَوْمًا بَعْدَ يَوْمٍ.",
+        "tr": "wa-al-kitābu yataṭawwaru yawman baʿda yawmin."
+      },
+      {
+        "id": "ak2-c9-s31",
+        "en": "I deliver the book to the print shop.",
+        "ar": "أُوصِلُ الْكِتَابَ إِلَى الْمَطْبَعَةِ.",
+        "tr": "ʾūṣilu al-kitāba ʾilā al-maṭbaʿati."
+      },
+      {
+        "id": "ak2-c9-s32",
+        "en": "There are other print shops in the city.",
+        "ar": "هُنَاكَ مَطَابِعُ أُخْرَى فِي الْمَدِينَةِ.",
+        "tr": "hunāka maṭābiʿu ʾukhrā fī al-madīnati."
+      },
+      {
+        "id": "ak2-c9-s33",
+        "en": "Printing takes a great deal of time.",
+        "ar": "تَأْخُذُ الطِّبَاعَةُ قَدْرًا كَبِيرًا مِنَ الْوَقْتِ.",
+        "tr": "taʾkhudhu al-ṭibāʿatu qadran kabīran mina al-waqti."
+      },
+      {
+        "id": "ak2-c9-s34",
+        "en": "The book comes out on Saturday.",
+        "ar": "يَصْدُرُ الْكِتَابُ يَوْمَ السَّبْتِ.",
+        "tr": "yaṣduru al-kitābu yawma al-sabti."
+      },
+      {
+        "id": "ak2-c9-s35",
+        "en": "And I publish another book in the summer.",
+        "ar": "وَأُصْدِرُ كِتَابًا آخَرَ فِي الصَّيْفِ.",
+        "tr": "waʾuṣdiru kitāban ʾākhara fī al-ṣayfi."
+      },
+      {
+        "id": "ak2-c9-s36",
+        "en": "I establish a school for the arts.",
+        "ar": "أُنْشِئُ مَدْرَسَةً لِلْفُنُونِ.",
+        "tr": "ʾunshiʾu madrasatan li-l-funūni."
+      },
+      {
+        "id": "ak2-c9-s37",
+        "en": "The school is established in the center of the city.",
+        "ar": "تُنْشَأُ الْمَدْرَسَةُ فِي وَسَطِ الْمَدِينَةِ.",
+        "tr": "tunshaʾu al-madrasatu fī wasaṭi al-madīnati."
+      },
+      {
+        "id": "ak2-c9-s38",
+        "en": "I have a realistic view of this issue.",
+        "ar": "عِنْدِي رَأْيٌ وَاقِعِيٌّ فِي هَذِهِ الْقَضِيَّةِ.",
+        "tr": "ʿindī raʾyun wāqiʿiyyun fī hādhihi al-qaḍiyyati."
+      },
+      {
+        "id": "ak2-c9-s39",
+        "en": "I continue writing about issues in the arts.",
+        "ar": "أَسْتَمِرُّ فِي الْكِتَابَةِ عَنْ قَضَايَا الْفُنُونِ.",
+        "tr": "ʾastamirru fī al-kitābati ʿan qaḍāyā al-funūni."
+      },
+      {
+        "id": "ak2-c9-s40",
+        "en": "And through this work I serve my city.",
+        "ar": "وَبِهَذَا الْعَمَلِ أَخْدُمُ مَدِينَتِي.",
+        "tr": "wabihadhā al-ʿamali ʾakhdumu madīnatī."
+      }
+    ],
     "learn": [
       "Vocabulary",
       "First-person verbs and verbal nouns",
@@ -16275,7 +17255,344 @@ const AK2_CHAPTERS={
       }
     ],
     "grammar": [],
-    "sentences": [],
+    "sentences": [
+      {
+        "id": "ak2-c10-s1",
+        "en": "I lead a school at a new institution.",
+        "ar": "أَقُودُ مَدْرَسَةً فِي مُؤَسَّسَةٍ جَدِيدَةٍ.",
+        "tr": "ʾaqūdu madrasatan fī muʾassasatin jadīdatin."
+      },
+      {
+        "id": "ak2-c10-s2",
+        "en": "The institution works in the education sector.",
+        "ar": "تَعْمَلُ الْمُؤَسَّسَةُ فِي قِطَاعِ التَّعْلِيمِ.",
+        "tr": "taʿmalu al-muʾassasatu fī qiṭāʿi al-taʿlīmi."
+      },
+      {
+        "id": "ak2-c10-s3",
+        "en": "It has branches in rural areas.",
+        "ar": "لَهَا فُرُوعٌ فِي الْأَرْيَافِ.",
+        "tr": "lahā furūʿun fī al-ʾaryāfi."
+      },
+      {
+        "id": "ak2-c10-s4",
+        "en": "I plan the school’s work.",
+        "ar": "أُخَطِّطُ لِعَمَلِ الْمَدْرَسَةِ.",
+        "tr": "ʾukhaṭṭiṭu liʿamali al-madrasati."
+      },
+      {
+        "id": "ak2-c10-s5",
+        "en": "Unemployment is a big challenge there.",
+        "ar": "الْبَطَالَةُ تَحَدٍّ كَبِيرٌ هُنَاكَ.",
+        "tr": "al-baṭālatu taḥaddin kabīrun hunāka."
+      },
+      {
+        "id": "ak2-c10-s6",
+        "en": "Many families suffer from poverty.",
+        "ar": "وَتُعَانِي عَائِلَاتٌ كَثِيرَةٌ مِنَ الْفَقْرِ.",
+        "tr": "watuʿānī ʿāʾilātun kathīratun mina al-faqri."
+      },
+      {
+        "id": "ak2-c10-s7",
+        "en": "I point to a statistic about unemployment.",
+        "ar": "أُشِيرُ إِلَى إِحْصَاءٍ عَنِ الْبَطَالَةِ.",
+        "tr": "ʾushīru ʾilā ʾiḥṣāʾin ʿani al-baṭālati."
+      },
+      {
+        "id": "ak2-c10-s8",
+        "en": "I explain the results to the audience.",
+        "ar": "أُفَسِّرُ النَّتَائِجَ لِلْجُمْهُورِ.",
+        "tr": "ʾufassiru al-natāʾija li-l-jumhūri."
+      },
+      {
+        "id": "ak2-c10-s9",
+        "en": "The percentages vary from one place to another.",
+        "ar": "وَتَخْتَلِفُ النِّسَبُ مِنْ مَكَانٍ إِلَى آخَرَ.",
+        "tr": "watakhtalifu al-nisabu min makānin ʾilā ʾākhara."
+      },
+      {
+        "id": "ak2-c10-s10",
+        "en": "In some rural areas, the unemployment percentage decreases.",
+        "ar": "فِي بَعْضِ الْأَرْيَافِ، تَنْخَفِضُ نِسْبَةُ الْبَطَالَةِ.",
+        "tr": "fī baʿḍi al-ʾaryāfi, tankhafiḍu nisbatu al-baṭālati."
+      },
+      {
+        "id": "ak2-c10-s11",
+        "en": "Elsewhere, education costs rise.",
+        "ar": "فِي مَكَانٍ آخَرَ، تَرْتَفِعُ تَكَالِيفُ التَّعْلِيمِ.",
+        "tr": "fī makānin ʾākhara, tartafiʿu takālīfu al-taʿlīmi."
+      },
+      {
+        "id": "ak2-c10-s12",
+        "en": "I demonstrate another pattern in the income figures.",
+        "ar": "أُبَيِّنُ نَمَطًا آخَرَ فِي أَرْقَامِ الدَّخْلِ.",
+        "tr": "ʾubayyinu namaṭan ʾākhara fī ʾarqāmi al-dakhli."
+      },
+      {
+        "id": "ak2-c10-s13",
+        "en": "I am of the opinion that education leads to development.",
+        "ar": "أَرَى أَنَّ التَّعْلِيمَ يُؤَدِّي إِلَى التَّنْمِيَةِ.",
+        "tr": "ʾarā ʾanna al-taʿlīma yuʾaddī ʾilā al-tanmiyati."
+      },
+      {
+        "id": "ak2-c10-s14",
+        "en": "I aim to teach each student a profession.",
+        "ar": "أَهْدُفُ إِلَى تَعْلِيمِ كُلِّ طَالِبٍ مِهْنَةً.",
+        "tr": "ʾahdufu ʾilā taʿlīmi kulli ṭālibin mihnatan."
+      },
+      {
+        "id": "ak2-c10-s15",
+        "en": "There are many professions in this sector.",
+        "ar": "هُنَاكَ مِهَنٌ كَثِيرَةٌ فِي هَذَا الْقِطَاعِ.",
+        "tr": "hunāka mihanun kathīratun fī hādhā al-qiṭāʿi."
+      },
+      {
+        "id": "ak2-c10-s16",
+        "en": "This is my hope, and the students have other hopes.",
+        "ar": "هَذَا أَمَلِي، وَلِلطُّلَّابِ آمَالٌ أُخْرَى.",
+        "tr": "hādhā ʾamalī, wa-li-l-ṭullābi ʾāmālun ʾukhrā."
+      },
+      {
+        "id": "ak2-c10-s17",
+        "en": "We lack good infrastructure.",
+        "ar": "نَحْنُ نَفْتَقِرُ إِلَى بُنْيَةٍ تَحْتِيَّةٍ جَيِّدَةٍ.",
+        "tr": "naḥnu naftaqiru ʾilā bunyatin taḥtiyyatin jayyidatin."
+      },
+      {
+        "id": "ak2-c10-s18",
+        "en": "We rely on another institution for money.",
+        "ar": "نَعْتَمِدُ عَلَى مُؤَسَّسَةٍ أُخْرَى لِلْمَالِ.",
+        "tr": "naʿtamidu ʿalā muʾassasatin ʾukhrā li-l-māli."
+      },
+      {
+        "id": "ak2-c10-s19",
+        "en": "It is a for-profit institution.",
+        "ar": "هِيَ مُؤَسَّسَةٌ رِبْحِيَّةٌ.",
+        "tr": "hiya muʾassasatun ribḥiyyatun."
+      },
+      {
+        "id": "ak2-c10-s20",
+        "en": "It operates in a capitalist system.",
+        "ar": "وَهِيَ تَعْمَلُ فِي نِظَامٍ رَأْسْمَالِيٍّ.",
+        "tr": "wahiya taʿmalu fī niẓāmin raʾsmāliyyin."
+      },
+      {
+        "id": "ak2-c10-s21",
+        "en": "It earns profits from its businesses.",
+        "ar": "لَهَا أَرْبَاحٌ مِنْ أَعْمَالِهَا.",
+        "tr": "lahā ʾarbāḥun min ʾaʿmālihā."
+      },
+      {
+        "id": "ak2-c10-s22",
+        "en": "But profit is not our goal.",
+        "ar": "وَلَكِنَّ الرِّبْحَ لَيْسَ هَدَفَنَا.",
+        "tr": "walakinna al-ribḥa laysa hadafanā."
+      },
+      {
+        "id": "ak2-c10-s23",
+        "en": "I agree to a specific amount.",
+        "ar": "أُوَافِقُ عَلَى مَبْلَغٍ مُعَيَّنٍ.",
+        "tr": "ʾuwāfiqu ʿalā mablaghin muʿayyanin."
+      },
+      {
+        "id": "ak2-c10-s24",
+        "en": "I allocate this amount to education.",
+        "ar": "أُخَصِّصُ هَذَا الْمَبْلَغَ لِلتَّعْلِيمِ.",
+        "tr": "ʾukhaṣṣiṣu hādhā al-mablagha li-l-taʿlīmi."
+      },
+      {
+        "id": "ak2-c10-s25",
+        "en": "I use it to fund a laboratory at the school.",
+        "ar": "أُمَوِّلُ بِهِ مُخْتَبَرًا فِي الْمَدْرَسَةِ.",
+        "tr": "ʾumawwilu bihi mukhtabaran fī al-madrasati."
+      },
+      {
+        "id": "ak2-c10-s26",
+        "en": "I distribute other amounts to the branches.",
+        "ar": "وَأُوَزِّعُ مَبَالِغَ أُخْرَى عَلَى الْفُرُوعِ.",
+        "tr": "waʾuwazziʿu mabāligha ʾukhrā ʿalā al-furūʿi."
+      },
+      {
+        "id": "ak2-c10-s27",
+        "en": "The institution pays an income tax.",
+        "ar": "تَدْفَعُ الْمُؤَسَّسَةُ ضَرِيبَةً عَلَى الدَّخْلِ.",
+        "tr": "tadfaʿu al-muʾassasatu ḍarībatan ʿalā al-dakhli."
+      },
+      {
+        "id": "ak2-c10-s28",
+        "en": "It also pays other taxes.",
+        "ar": "وَتَدْفَعُ ضَرَائِبَ أُخْرَى أَيْضًا.",
+        "tr": "watadfaʿu ḍarāʾiba ʾukhrā ʾayḍan."
+      },
+      {
+        "id": "ak2-c10-s29",
+        "en": "I bear the travel costs myself.",
+        "ar": "أَتَحَمَّلُ تَكَالِيفَ السَّفَرِ بِنَفْسِي.",
+        "tr": "ʾataḥammalu takālīfa al-safari binafsī."
+      },
+      {
+        "id": "ak2-c10-s30",
+        "en": "I follow a practical method in my work.",
+        "ar": "أَتَّبِعُ مَنْهَجًا عَمَلِيًّا فِي عَمَلِي.",
+        "tr": "ʾattabiʿu manhajan ʿamaliyyan fī ʿamalī."
+      },
+      {
+        "id": "ak2-c10-s31",
+        "en": "We follow different methods.",
+        "ar": "نَتَّبِعُ مَنَاهِجَ مُخْتَلِفَةً.",
+        "tr": "nattabiʿu manāhija mukhtalifatan."
+      },
+      {
+        "id": "ak2-c10-s32",
+        "en": "We want an effective curriculum.",
+        "ar": "نُرِيدُ مَنْهَجَ تَعْلِيمٍ فَعَّالًا.",
+        "tr": "nurīdu manhaja taʿlīmin faʿʿālan."
+      },
+      {
+        "id": "ak2-c10-s33",
+        "en": "We read the curricula from other schools.",
+        "ar": "نَقْرَأُ مَنَاهِجَ التَّعْلِيمِ فِي مَدَارِسَ أُخْرَى.",
+        "tr": "naqraʾu manāhija al-taʿlīmi fī madārisa ʾukhrā."
+      },
+      {
+        "id": "ak2-c10-s34",
+        "en": "Some lessons are held almost daily.",
+        "ar": "بَعْضُ الدُّرُوسِ شِبْهُ يَوْمِيَّةٍ.",
+        "tr": "baʿḍu al-durūsi shibhu yawmiyyatin."
+      },
+      {
+        "id": "ak2-c10-s35",
+        "en": "The work has different stages.",
+        "ar": "الْعَمَلُ فِي مَرَاحِلَ مُخْتَلِفَةٍ.",
+        "tr": "al-ʿamalu fī marāḥila mukhtalifatin."
+      },
+      {
+        "id": "ak2-c10-s36",
+        "en": "In the first stage, I write lists for the students.",
+        "ar": "فِي الْمَرْحَلَةِ الْأُولَى، أَكْتُبُ قَوَائِمَ لِلطُّلَّابِ.",
+        "tr": "fī al-marḥalati al-ʾūlā, ʾaktubu qawāʾima li-l-ṭullābi."
+      },
+      {
+        "id": "ak2-c10-s37",
+        "en": "I make the lessons short.",
+        "ar": "أَجْعَلُ الدُّرُوسَ قَصِيرَةً.",
+        "tr": "ʾajʿalu al-durūsa qaṣīratan."
+      },
+      {
+        "id": "ak2-c10-s38",
+        "en": "I deal with students of different ages.",
+        "ar": "أَتَعَامَلُ مَعَ طُلَّابٍ مِنْ أَعْمَارٍ مُخْتَلِفَةٍ.",
+        "tr": "ʾataʿāmalu maʿa ṭullābin min ʾaʿmārin mukhtalifatin."
+      },
+      {
+        "id": "ak2-c10-s39",
+        "en": "I interact with them in class.",
+        "ar": "أَتَفَاعَلُ مَعَهُمْ فِي الصَّفِّ.",
+        "tr": "ʾatafāʿalu maʿahum fī al-ṣaffi."
+      },
+      {
+        "id": "ak2-c10-s40",
+        "en": "They talk about the needs of humankind.",
+        "ar": "يَتَكَلَّمُونَ عَنْ حَاجَاتِ الْبَشَرِ.",
+        "tr": "yatakallamūna ʿan ḥājāti al-bashari."
+      },
+      {
+        "id": "ak2-c10-s41",
+        "en": "And we study human labor.",
+        "ar": "وَنَدْرُسُ الْعَمَلَ الْبَشَرِيَّ.",
+        "tr": "wanadrusu al-ʿamala al-bashariyya."
+      },
+      {
+        "id": "ak2-c10-s42",
+        "en": "There are stereotypes about professions.",
+        "ar": "هُنَاكَ صُوَرٌ نَمَطِيَّةٌ عَنِ الْمِهَنِ.",
+        "tr": "hunāka ṣuwarun namaṭiyyatun ʿani al-mihani."
+      },
+      {
+        "id": "ak2-c10-s43",
+        "en": "Some of them are about gender.",
+        "ar": "بَعْضُهَا عَنِ الْجِنْسِ.",
+        "tr": "baʿḍuhā ʿani al-jinsi."
+      },
+      {
+        "id": "ak2-c10-s44",
+        "en": "Engineering is only for men?",
+        "ar": "الْهَنْدَسَةُ لِلرِّجَالِ فَقَطْ؟",
+        "tr": "al-handasatu li-l-rijāli faqaṭ?"
+      },
+      {
+        "id": "ak2-c10-s45",
+        "en": "That’s a stereotype.",
+        "ar": "هَذِهِ صُورَةٌ نَمَطِيَّةٌ.",
+        "tr": "hādhihi ṣūratun namaṭiyyatun."
+      },
+      {
+        "id": "ak2-c10-s46",
+        "en": "I deny that the profession is for only one gender.",
+        "ar": "أَنْفِي أَنَّ الْمِهْنَةَ لِجِنْسٍ وَاحِدٍ.",
+        "tr": "ʾanfī ʾanna al-mihnata lijinsin wāḥidin."
+      },
+      {
+        "id": "ak2-c10-s47",
+        "en": "And we talk about different kinds of work.",
+        "ar": "وَنَتَكَلَّمُ عَنْ أَجْنَاسٍ مُخْتَلِفَةٍ مِنَ الْعَمَلِ.",
+        "tr": "wanatakallamu ʿan ʾajnāsin mukhtalifatin mina al-ʿamali."
+      },
+      {
+        "id": "ak2-c10-s48",
+        "en": "There is a new machine in the laboratory.",
+        "ar": "فِي الْمُخْتَبَرِ آلَةٌ جَدِيدَةٌ.",
+        "tr": "fī al-mukhtabari ʾālatun jadīdatun."
+      },
+      {
+        "id": "ak2-c10-s49",
+        "en": "I test the machine with the students.",
+        "ar": "أَخْتَبِرُ الْآلَةَ مَعَ الطُّلَّابِ.",
+        "tr": "ʾakhtabiru al-ʾālata maʿa al-ṭullābi."
+      },
+      {
+        "id": "ak2-c10-s50",
+        "en": "We test a theory in class.",
+        "ar": "نَخْتَبِرُ نَظَرِيَّةً فِي الصَّفِّ.",
+        "tr": "nakhtabiru naẓariyyatan fī al-ṣaffi."
+      },
+      {
+        "id": "ak2-c10-s51",
+        "en": "We write down random numbers.",
+        "ar": "نَكْتُبُ أَرْقَامًا عَشْوَائِيَّةً.",
+        "tr": "naktubu ʾarqāman ʿashwāʾiyyatan."
+      },
+      {
+        "id": "ak2-c10-s52",
+        "en": "Then we find patterns in the numbers.",
+        "ar": "ثُمَّ نَجِدُ أَنْمَاطًا فِي الْأَرْقَامِ.",
+        "tr": "thumma najidu ʾanmāṭan fī al-ʾarqāmi."
+      },
+      {
+        "id": "ak2-c10-s53",
+        "en": "I evaluate the quality of the work.",
+        "ar": "أُقَيِّمُ نَوْعِيَّةَ الْعَمَلِ.",
+        "tr": "ʾuqayyimu nawʿiyyata al-ʿamali."
+      },
+      {
+        "id": "ak2-c10-s54",
+        "en": "I also evaluate the quantity of the work.",
+        "ar": "وَأُقَيِّمُ كَمِّيَّةَ الْعَمَلِ أَيْضًا.",
+        "tr": "waʾuqayyimu kammiyyata al-ʿamali ʾayḍan."
+      },
+      {
+        "id": "ak2-c10-s55",
+        "en": "At the end of the year, we present the results.",
+        "ar": "فِي آخِرِ السَّنَةِ، نَعْرِضُ النَّتَائِجَ.",
+        "tr": "fī ʾākhiri al-sanati, naʿriḍu al-natāʾija."
+      },
+      {
+        "id": "ak2-c10-s56",
+        "en": "Different audiences hear about our work.",
+        "ar": "وَتَسْمَعُ جَمَاهِيرُ مُخْتَلِفَةٌ عَنْ عَمَلِنَا.",
+        "tr": "watasmaʿu jamāhīru mukhtalifatun ʿan ʿamalinā."
+      }
+    ],
     "learn": [
       "Vocabulary",
       "First-person verbs and verbal nouns",
